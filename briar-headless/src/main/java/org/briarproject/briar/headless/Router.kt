@@ -102,6 +102,14 @@ constructor(
                 path("/forums") {
                     get { ctx -> forumController.list(ctx) }
                     post { ctx -> forumController.create(ctx) }
+                    path("/posts"){
+                        post { ctx -> forumController.createPost(ctx) }
+                    }
+                    path("/members"){
+                        get{ctx->forumController.listUsers(ctx)}
+                        post { ctx -> forumController.addUser(ctx) }
+                    }
+
                 }
                 path("/blogs") {
                     path("/posts") {

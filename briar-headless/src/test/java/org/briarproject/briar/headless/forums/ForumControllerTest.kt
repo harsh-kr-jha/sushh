@@ -5,9 +5,12 @@ import io.mockk.every
 import io.mockk.mockk
 import org.briarproject.bramble.test.TestUtils.getRandomBytes
 import org.briarproject.bramble.util.StringUtils.getRandomString
+import org.briarproject.briar.api.blog.BlogPostFactory
 import org.briarproject.briar.api.forum.Forum
 import org.briarproject.briar.api.forum.ForumConstants.MAX_FORUM_NAME_LENGTH
 import org.briarproject.briar.api.forum.ForumManager
+import org.briarproject.briar.api.forum.ForumPostFactory
+import org.briarproject.briar.api.forum.ForumSharingManager
 import org.briarproject.briar.headless.ControllerTest
 import org.junit.jupiter.api.Assertions.assertThrows
 import org.junit.jupiter.api.Test
@@ -15,8 +18,10 @@ import org.junit.jupiter.api.Test
 internal class ForumControllerTest : ControllerTest() {
 
     private val forumManager = mockk<ForumManager>()
+    private val forumPostFactory = mockk<ForumPostFactory>()
+    private val forumSharingManager= mockk<ForumSharingManager>()
 
-    private val controller = ForumControllerImpl(forumManager, objectMapper)
+    private val controller = ForumControllerImpl(forumManager,forumSharingManager,forumPostFactory,db,identityManager, objectMapper,clock)
 
     private val forum = Forum(group, getRandomString(5), getRandomBytes(5))
 

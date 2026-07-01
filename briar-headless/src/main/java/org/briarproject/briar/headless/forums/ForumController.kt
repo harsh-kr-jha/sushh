@@ -8,4 +8,10 @@ interface ForumController {
 
     fun create(ctx: Context): Context
 
+    fun createPost(ctx: Context): Context
+
+    fun addUser(ctx: Context): Context
+
+    fun listUsers(ctx: Context):Context
+
 }
