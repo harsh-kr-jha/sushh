@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">Mirë se vini në Briar</string>
+  <string name="setup_title">Mirë se vini në Sushh</string>
   <string name="setup_name_explanation">Nofka juaj do të shfaqet në krah të çfarëdo gjëje që postoni. S\’mund ta ndryshoni më, pas krijimit të llogarisë tuaj.</string>
   <string name="setup_next">Pasuesi</string>
   <string name="setup_password_intro">Zgjidhni një Fjalëkalim</string>
-  <string name="setup_password_explanation">Llogaria juaj Briar depozitohet e fshehtëzuar në pajisjen tuaj, jo në re. Nëse harroni fjalëkalimin tuaj apo e çinstaloni Briar-in, nuk ka ndonjë mënyrë për të ringjallur llogarinë tuaj.\n\nZgjidhni një fjalëkalim të gjatë, që është i vështirë për t\’u marrë me mend, f.v., katër fjalë kuturu, ose dhjetë shkronja, numra dhe shenja kuturu.</string>
-  <string name="dnkm_doze_intro">Për të marrë mesazhe, Briar-i lypset të qëndrojë i lidhur në prapaskenë.</string>
-  <string name="dnkm_doze_explanation">Për të marrë mesazhe, Briar-i lypset të mbetet i lidhur në prapaskenë. Ju lutemi, çaktivizoni optimizime baterie, që kështu Briar-i të mund të qëndrojë i lidhur.</string>
+  <string name="setup_password_explanation">Llogaria juaj Sushh depozitohet e fshehtëzuar në pajisjen tuaj, jo në re. Nëse harroni fjalëkalimin tuaj apo e çinstaloni Sushh-in, nuk ka ndonjë mënyrë për të ringjallur llogarinë tuaj.\n\nZgjidhni një fjalëkalim të gjatë, që është i vështirë për t\’u marrë me mend, f.v., katër fjalë kuturu, ose dhjetë shkronja, numra dhe shenja kuturu.</string>
+  <string name="dnkm_doze_intro">Për të marrë mesazhe, Sushh-i lypset të qëndrojë i lidhur në prapaskenë.</string>
+  <string name="dnkm_doze_explanation">Për të marrë mesazhe, Sushh-i lypset të mbetet i lidhur në prapaskenë. Ju lutemi, çaktivizoni optimizime baterie, që kështu Sushh-i të mund të qëndrojë i lidhur.</string>
   <string name="choose_nickname">Zgjidhni nofkën tuaj</string>
   <string name="choose_password">Zgjidhni fjalëkalimin tuaj</string>
   <string name="confirm_password">Ripohoni fjalëkalimin tuaj</string>
@@ -19,45 +19,45 @@
   <string name="create_account_button">Krijoje Llogarinë</string>
   <string name="more_info">Më Tepër të Dhëna</string>
   <string name="don_t_ask_again">Mos pyet sërish</string>
-  <string name="dnkm_huawei_protected_text">Ju lutemi, prekni butoni më poshtë dhe sigurohuni që Briar-i të jetë i mbrojtur, te skena \"Aplikacione të Mbrojtur\".</string>
-  <string name="dnkm_huawei_protected_button">Mbroje Briar-in</string>
-  <string name="dnkm_huawei_protected_help">Nëse Briar-i s\’është shtuar te lista e aplikacioneve të mbrojtur, s\’do të jetë në gjendje të xhirojë në prapaskenë.</string>
-  <string name="dnkm_huawei_app_launch_text">Ju lutemi, prekni butonin më poshtë, hapni skenën “Nisje aplikacioni” dhe sigurohuni se për Briar-in është zgjedhur “Administrojeni dorazi”.</string>
-  <string name="dnkm_huawei_app_launch_help">Nëse për Briar-in s’është zgjedhur “Administroje Dorazi” te skena “Nisje Aplikacioni”, s’do të jetë në gjendje të xhirojë në prapaskenë.</string>
-  <string name="dnkm_xiaomi_text">Për të xhiruar në prapaskenë, Briar-i lyp të jetë i kyçur te lista e aplikacioneve të përdorur së fundi.</string>
-  <string name="dnkm_xiaomi_button">Mbroje Briar-in</string>
-  <string name="dnkm_xiaomi_help">Nëse Briar-i s’është i kyçur te lista e aplikacioneve të përdorur së fundi, s’do të jetë në gjendje të xhirojë në prapaskenë.</string>
-  <string name="dnkm_xiaomi_dialog_body_old">1. Hapni listën e aplikacioneve përdorur së fundi (e quajtur edhe këmbyes aplikacionesh)\n\n2. Fërkojeni për poshtë te figura për Briar-in, që të shfaqet ikona e drynit\n\n3. Nëse dryni s’është o kyçur, prekeni që të kyçet</string>
-  <string name="dnkm_xiaomi_dialog_body_new">1. Hapni listën e aplikacioneve të përdorur së fundi (e quajtur edhe këmbyes aplikacionesh)\n\n2. Nëse Briar-i ka një figurë dry të vogël në krah të emrit të vet, s’keni nevojë të bëni gjë\n\n3. Nëse s’ka dry, shtypni dhe mbajeni të shtypur mbi figurën e Briar-it derisa të shfaqet butoni dry, mandej prekeni</string>
-  <string name="dnkm_xiaomi_lock_apps_text">Ju lutemi, prekni butonin më poshtë që të hapen rregullimet e sigurisë. Prekni “Përforcim shpejtësie”, mandej prekni “Kyçje aplikacionesh” dhe sigurohuni se për Briar-in është zgjedhur “I kyçur”.</string>
-  <string name="dnkm_xiaomi_lock_apps_help">Nëse për Briar-in s’është zgjedhur “I kyçur” te skena “Kyçje aplikacionesh”, s’do të jetë në gjendje të xhirojë në prapaskenë.</string>
-  <string name="dnkm_warning_dozed_1">Briar-i s’qe në gjendje të xhirojë në prapaskenë</string>
+  <string name="dnkm_huawei_protected_text">Ju lutemi, prekni butoni më poshtë dhe sigurohuni që Sushh-i të jetë i mbrojtur, te skena \"Aplikacione të Mbrojtur\".</string>
+  <string name="dnkm_huawei_protected_button">Mbroje Sushh-in</string>
+  <string name="dnkm_huawei_protected_help">Nëse Sushh-i s\’është shtuar te lista e aplikacioneve të mbrojtur, s\’do të jetë në gjendje të xhirojë në prapaskenë.</string>
+  <string name="dnkm_huawei_app_launch_text">Ju lutemi, prekni butonin më poshtë, hapni skenën “Nisje aplikacioni” dhe sigurohuni se për Sushh-in është zgjedhur “Administrojeni dorazi”.</string>
+  <string name="dnkm_huawei_app_launch_help">Nëse për Sushh-in s’është zgjedhur “Administroje Dorazi” te skena “Nisje Aplikacioni”, s’do të jetë në gjendje të xhirojë në prapaskenë.</string>
+  <string name="dnkm_xiaomi_text">Për të xhiruar në prapaskenë, Sushh-i lyp të jetë i kyçur te lista e aplikacioneve të përdorur së fundi.</string>
+  <string name="dnkm_xiaomi_button">Mbroje Sushh-in</string>
+  <string name="dnkm_xiaomi_help">Nëse Sushh-i s’është i kyçur te lista e aplikacioneve të përdorur së fundi, s’do të jetë në gjendje të xhirojë në prapaskenë.</string>
+  <string name="dnkm_xiaomi_dialog_body_old">1. Hapni listën e aplikacioneve përdorur së fundi (e quajtur edhe këmbyes aplikacionesh)\n\n2. Fërkojeni për poshtë te figura për Sushh-in, që të shfaqet ikona e drynit\n\n3. Nëse dryni s’është o kyçur, prekeni që të kyçet</string>
+  <string name="dnkm_xiaomi_dialog_body_new">1. Hapni listën e aplikacioneve të përdorur së fundi (e quajtur edhe këmbyes aplikacionesh)\n\n2. Nëse Sushh-i ka një figurë dry të vogël në krah të emrit të vet, s’keni nevojë të bëni gjë\n\n3. Nëse s’ka dry, shtypni dhe mbajeni të shtypur mbi figurën e Sushh-it derisa të shfaqet butoni dry, mandej prekeni</string>
+  <string name="dnkm_xiaomi_lock_apps_text">Ju lutemi, prekni butonin më poshtë që të hapen rregullimet e sigurisë. Prekni “Përforcim shpejtësie”, mandej prekni “Kyçje aplikacionesh” dhe sigurohuni se për Sushh-in është zgjedhur “I kyçur”.</string>
+  <string name="dnkm_xiaomi_lock_apps_help">Nëse për Sushh-in s’është zgjedhur “I kyçur” te skena “Kyçje aplikacionesh”, s’do të jetë në gjendje të xhirojë në prapaskenë.</string>
+  <string name="dnkm_warning_dozed_1">Sushh-i s’qe në gjendje të xhirojë në prapaskenë</string>
   <!--Login-->
   <string name="enter_password">Fjalëkalim</string>
   <string name="try_again">Fjalëkalim i gabuar, riprovoni</string>
   <string name="dialog_title_cannot_check_password">S\’kontrollohet Dot Fjalëkalimi</string>
-  <string name="dialog_message_cannot_check_password">Briar-i s’e kontrollon dot fjalëkalimin tuaj. Ju lutemi, që të zgjidhet ky problem, provoni të rinisni pajisjen tuaj.</string>
-  <string name="sign_in_title">Hyni në Briar</string>
+  <string name="dialog_message_cannot_check_password">Sushh-i s’e kontrollon dot fjalëkalimin tuaj. Ju lutemi, që të zgjidhet ky problem, provoni të rinisni pajisjen tuaj.</string>
+  <string name="sign_in_title">Hyni në Sushh</string>
   <string name="sign_in_button">Hyni</string>
   <string name="forgotten_password">Harruat fjalëkalimin tuaj?</string>
   <string name="dialog_title_lost_password">U humb Fjalëkalimi</string>
-  <string name="dialog_message_lost_password">Llogaria juaj Briar depozitohet e fshehtëzuar në pajisjen tuaj, jo në re, ndaj s\’mund ta ricaktojmë fjalëkalimin tuaj. Do të donit ta fshini llogarinë tuaj dhe t\’ia filloni nga e para?\n\nKujdes: Identitetet, kontaktet dhe mesazhet tuaja do të humbin përgjithnjë.</string>
-  <string name="startup_failed_activity_title">Dështim Nisjeje i Briar-it</string>
-  <string name="startup_failed_clock_error">Briar-i s’qe në gjendje të nisej, ngaqë sahati i pajisjes tuaj është gabim.\n\nJu lutemi, vëreni sahatin e pajisjes tuaj në kohën e saktë dhe riprovoni.</string>
-  <string name="startup_failed_db_error">Briar-i s’qe në gjendje të hapte bazën e të dhënave që përmban llogarinë tuaj, kontaktet tuaja dhe mesazhet tuaja.\n\nJu lutemi, përmirësojeni me versionin më të ri të aplikacionit dhe riprovoni, ose ujdisni një llogari të re duke zgjedhur “Kam harruar fjalëkalimin tim”, kur ju kërkohet fjalëkalimi.</string>
+  <string name="dialog_message_lost_password">Llogaria juaj Sushh depozitohet e fshehtëzuar në pajisjen tuaj, jo në re, ndaj s\’mund ta ricaktojmë fjalëkalimin tuaj. Do të donit ta fshini llogarinë tuaj dhe t\’ia filloni nga e para?\n\nKujdes: Identitetet, kontaktet dhe mesazhet tuaja do të humbin përgjithnjë.</string>
+  <string name="startup_failed_activity_title">Dështim Nisjeje i Sushh-it</string>
+  <string name="startup_failed_clock_error">Sushh-i s’qe në gjendje të nisej, ngaqë sahati i pajisjes tuaj është gabim.\n\nJu lutemi, vëreni sahatin e pajisjes tuaj në kohën e saktë dhe riprovoni.</string>
+  <string name="startup_failed_db_error">Sushh-i s’qe në gjendje të hapte bazën e të dhënave që përmban llogarinë tuaj, kontaktet tuaja dhe mesazhet tuaja.\n\nJu lutemi, përmirësojeni me versionin më të ri të aplikacionit dhe riprovoni, ose ujdisni një llogari të re duke zgjedhur “Kam harruar fjalëkalimin tim”, kur ju kërkohet fjalëkalimi.</string>
   <string name="startup_failed_data_too_old_error">Llogaria juaj qe krijuar me një version të vjetër të këtij aplikacioni dhe s’mund të hapet me këtë version.\n\nDuhet ose të riinstaloni versionin e vjetër, ose të ujdisni llogari të re duke zgjedhur “Kam harruar fjalëkalimin tim”, kur ju kërkohet fjalëkalimi.</string>
   <string name="startup_failed_data_too_new_error">Llogaria juaj qe krijuar me një version më të ri të këtij aplikacioni 
 dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versionin më të ri dhe riprovoni.</string>
-  <string name="startup_failed_service_error">Briar-i nuk arriti të nisë një përbërës të domosdoshëm.\n\nJu lutemi, përmirësojeni me versionin më të ri të aplikacionit dhe riprovoni.</string>
+  <string name="startup_failed_service_error">Sushh-i nuk arriti të nisë një përbërës të domosdoshëm.\n\nJu lutemi, përmirësojeni me versionin më të ri të aplikacionit dhe riprovoni.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Ky është një version beta i Briar-it. Llogaria juaj do të skadojë për %d ditë dhe s\’mund të rinovohet.</item>
-    <item quantity="other">Ky është një version beta i Briar-it. Llogaria juaj do të skadojë për %d ditë dhe s\’mund të rinovohet.</item>
+    <item quantity="one">Ky është një version beta i Sushh-it. Llogaria juaj do të skadojë për %d ditë dhe s\’mund të rinovohet.</item>
+    <item quantity="other">Ky është një version beta i Sushh-it. Llogaria juaj do të skadojë për %d ditë dhe s\’mund të rinovohet.</item>
   </plurals>
   <string name="expiry_date_reached">Ky software ka skaduar.\nFaleminderit që e provuat!</string>
-  <string name="download_briar">Që të vazhdoni të përdorni Briar-in, ju lutemi shkarkoni versionin më të ri.</string>
+  <string name="download_briar">Që të vazhdoni të përdorni Sushh-in, ju lutemi shkarkoni versionin më të ri.</string>
   <string name="create_new_account">Do t’ju duhet të krijoni një llogari të re, por mund të përdorni të njëjtën nofkë.</string>
   <string name="download_briar_button">Shkarkoni Hedhjen Më të Re Në Qarkullim</string>
-  <string name="old_android_expiry_date_reached">Briar-i nuk funksionon më në Android 4.\nJu lutemi, instalojeni Briar-in në një pajisje më të re.</string>
+  <string name="old_android_expiry_date_reached">Sushh-i nuk funksionon më në Android 4.\nJu lutemi, instalojeni Sushh-in në një pajisje më të re.</string>
   <string name="old_android_delete_account">Mund të prekni butonin më poshtë që të fshini llogarinë tuaj prej kësaj pajisjeje.</string>
   <string name="delete_account_button">Fshi Llogarinë</string>
   <string name="startup_open_database">Po shfshehtëzohet Baza e të Dhënave…</string>
@@ -74,43 +74,43 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="lock_button">Kyçe Aplikacionin</string>
   <string name="settings_button">Rregullime</string>
   <string name="sign_out_button">Dilni</string>
-  <string name="transports_onboarding_text">Prekkeni këtu që të kontrolloni se si lidhet Briar-i me kontaktet tuaja.</string>
+  <string name="transports_onboarding_text">Prekkeni këtu që të kontrolloni se si lidhet Sushh-i me kontaktet tuaja.</string>
   <!--Transports: Tor-->
   <string name="transport_tor">Internet</string>
   <string name="tor_device_status_online_wifi">Telefoni juaj mund të përdorë Internet përmes Wi-Fi</string>
   <string name="tor_device_status_online_mobile">Telefoni juaj mund të përdorë Internet përmes të dhënash pakete celulari</string>
   <string name="tor_device_status_offline">Telefoni juaj s’mund të përdorë Internet</string>
-  <string name="tor_plugin_status_enabling">Briar-i po lidhet me Internetin</string>
-  <string name="tor_plugin_status_active">Briar-i është lidhur me Internetin</string>
-  <string name="tor_plugin_status_inactive">Briar-i s’mund të lidhet me Internetin</string>
-  <string name="tor_plugin_status_disabled">Briar-i është formësuar të mos përdorë Internet</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briar-i është formësuar të mos përdorë të dhëna pakete celulari</string>
-  <string name="tor_plugin_status_disabled_battery">Briar-i është formësuar të mos përdorë Internet, kur xhiron me bateri</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briar-i është formësuar të mos përdorë Internet në këtë vend</string>
+  <string name="tor_plugin_status_enabling">Sushh-i po lidhet me Internetin</string>
+  <string name="tor_plugin_status_active">Sushh-i është lidhur me Internetin</string>
+  <string name="tor_plugin_status_inactive">Sushh-i s’mund të lidhet me Internetin</string>
+  <string name="tor_plugin_status_disabled">Sushh-i është formësuar të mos përdorë Internet</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushh-i është formësuar të mos përdorë të dhëna pakete celulari</string>
+  <string name="tor_plugin_status_disabled_battery">Sushh-i është formësuar të mos përdorë Internet, kur xhiron me bateri</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushh-i është formësuar të mos përdorë Internet në këtë vend</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Wi-Fi</string>
   <string name="transport_lan_long">Po atë rrjet Wi-Fi</string>
   <string name="lan_device_status_on">Telefoni juaj është lidhur me Wi-Fi</string>
   <string name="lan_device_status_off">Telefoni juaj s’është lidhur me Wi-Fi</string>
-  <string name="lan_plugin_status_enabling">Briar-i po lidhet me rrjetin Wi-Fi</string>
-  <string name="lan_plugin_status_active">Briar-i është lidhur me rrjetin Wi-Fi</string>
-  <string name="lan_plugin_status_inactive">Briar-i s’mund të lidhet dot me rrjetin Wi-Fi</string>
-  <string name="lan_plugin_status_disabled">Briar-i është formësuar të mos përdorë rrjetin Wi-Fi</string>
+  <string name="lan_plugin_status_enabling">Sushh-i po lidhet me rrjetin Wi-Fi</string>
+  <string name="lan_plugin_status_active">Sushh-i është lidhur me rrjetin Wi-Fi</string>
+  <string name="lan_plugin_status_inactive">Sushh-i s’mund të lidhet dot me rrjetin Wi-Fi</string>
+  <string name="lan_plugin_status_disabled">Sushh-i është formësuar të mos përdorë rrjetin Wi-Fi</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">Bluetooth-i i telefonit tuaj është i hapur</string>
   <string name="bt_device_status_off">Bluetooth-i i telefonit tuaj është i mbyllur</string>
-  <string name="bt_plugin_status_enabling">Briar-i po lidhet me Bluetooth</string>
-  <string name="bt_plugin_status_active">Briar-i është lidhur me Bluetooth</string>
-  <string name="bt_plugin_status_inactive">Briar-i s’mund të lidhet me Bluetooth</string>
-  <string name="bt_plugin_status_disabled">Briar-i është formësuar të mos përdorë Bluetooth</string>
+  <string name="bt_plugin_status_enabling">Sushh-i po lidhet me Bluetooth</string>
+  <string name="bt_plugin_status_active">Sushh-i është lidhur me Bluetooth</string>
+  <string name="bt_plugin_status_inactive">Sushh-i s’mund të lidhet me Bluetooth</string>
+  <string name="bt_plugin_status_disabled">Sushh-i është formësuar të mos përdorë Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">U dol nga Briar-i</string>
+  <string name="reminder_notification_title">U dol nga Sushh-i</string>
   <string name="reminder_notification_text">Prekeni që të ribëhet hyrja.</string>
-  <string name="reminder_notification_channel_title">Kujtues Hyrjeje Briar</string>
+  <string name="reminder_notification_channel_title">Kujtues Hyrjeje Sushh</string>
   <string name="reminder_notification_dismiss">Hidhe tej</string>
-  <string name="ongoing_notification_title">Hytë në Briar</string>
-  <string name="ongoing_notification_text">Prekeni, që të hapet Briar-i</string>
+  <string name="ongoing_notification_title">Hytë në Sushh</string>
+  <string name="ongoing_notification_text">Prekeni, që të hapet Sushh-i</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Mesazh i ri privat.</item>
     <item quantity="other">%d mesazhe të reja private.</item>
@@ -219,7 +219,7 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="save_image_success">Figura u ruajt</string>
   <string name="save_image_error">Figura s\’u ruajt dot</string>
   <string name="dialog_title_no_image_support">Figura të Pakapshme</string>
-  <string name="dialog_message_no_image_support">Briar-i i kontaktit tuaj nuk i mbulon ende bashkëngjitjet figura. Sapo ta përditësojë, do të shihni tjetër ikonë.</string>
+  <string name="dialog_message_no_image_support">Sushh-i i kontaktit tuaj nuk i mbulon ende bashkëngjitjet figura. Sapo ta përditësojë, do të shihni tjetër ikonë.</string>
   <string name="dialog_title_image_support">Tani mund t\’i dërgoni figura këtij kontakti</string>
   <string name="dialog_message_image_support">Prekeni këtë ikonë që të bashkëngjitni figura.</string>
   <string name="messaging_too_many_attachments_toast">Do të dërgohen vetëm %d figurat e para</string>
@@ -236,10 +236,10 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="contact_already_exists">Kontakti %s ekziston tashmë</string>
   <string name="contact_already_exists_general">Kontakti ekziston tashmë</string>
   <string name="qr_code_invalid">Kodi QR është i pavlefshëm</string>
-  <string name="qr_code_too_old_1">Kodi QR që keni skanuar vjen prej një versioni të vjetër të Briar-it.\n\nJu lutemi, kërkojini kontaktit tuaj ta përmirësojë me versionin më të ri dhe mandej riprovoni.</string>
-  <string name="qr_code_too_new_1">Kodi QR që keni skanuar vjen prej një versioni më të ri të Briar-it.\n\nJu lutemi, përmirësojeni me versionin më të ri dhe mandej riprovoni.</string>
-  <string name="mailbox_qr_code_for_contact">Kodi QR që keni skanuar vjen prej Kutisë Postare të Briar-it.\n\nNëse doni një lidhje për te Kutia Postare, ju lutemi, zgjidhni Rregullime &gt; Kuti Postare, që nga menuja e Briar-it.</string>
-  <string name="qr_code_format_unknown">Kodi QR që keni skanuar s’është menduar për shtim të një kontakti Briar.\n\nJu lutemi, skanoni kodin QR të shfaqur te ekrani i kontaktit tuaj.</string>
+  <string name="qr_code_too_old_1">Kodi QR që keni skanuar vjen prej një versioni të vjetër të Sushh-it.\n\nJu lutemi, kërkojini kontaktit tuaj ta përmirësojë me versionin më të ri dhe mandej riprovoni.</string>
+  <string name="qr_code_too_new_1">Kodi QR që keni skanuar vjen prej një versioni më të ri të Sushh-it.\n\nJu lutemi, përmirësojeni me versionin më të ri dhe mandej riprovoni.</string>
+  <string name="mailbox_qr_code_for_contact">Kodi QR që keni skanuar vjen prej Kutisë Postare të Sushh-it.\n\nNëse doni një lidhje për te Kutia Postare, ju lutemi, zgjidhni Rregullime &gt; Kuti Postare, që nga menuja e Sushh-it.</string>
+  <string name="qr_code_format_unknown">Kodi QR që keni skanuar s’është menduar për shtim të një kontakti Sushh.\n\nJu lutemi, skanoni kodin QR të shfaqur te ekrani i kontaktit tuaj.</string>
   <string name="camera_error">Gabim kamere</string>
   <string name="connecting_to_device">Po lidhet me pajisjen\u2026</string>
   <string name="authenticating_with_device">Po bëhet mirëfilltësimi me pajisjen\u2026</string>
@@ -261,7 +261,7 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="add_contact_choose_a_nickname">Jepni një nofkë</string>
   <string name="nickname_intro">Jepini kontaktit tuaj një nofkë. Vetëm ju mund ta shihni.</string>
   <string name="your_link">Jepjani këtë lidhje kontaktit që doni të shtoni</string>
-  <string name="link_clip_label">Lidhje Briar</string>
+  <string name="link_clip_label">Lidhje Sushh</string>
   <string name="link_copied_toast">Lidhja u kopjua</string>
   <string name="adding_contact_error">Pati një gabim në shtimin e kontaktit.</string>
   <string name="pending_contact_requests_snackbar">Ka kërkesa kontakti pezull</string>
@@ -276,7 +276,7 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="own_link_error">Jepni lidhjen e kontaktit tuaj, jo tuajën</string>
   <string name="nickname_missing">Ju lutemi, jepni një nofkë</string>
   <string name="invalid_link">Lidhje e pavlefshme</string>
-  <string name="unsupported_link">Kjo lidhje vjen prej një versioni më të ri të Briar-it. Ju lutemi, përmirësojeni me versionin më të ri dhe riprovoni.</string>
+  <string name="unsupported_link">Kjo lidhje vjen prej një versioni më të ri të Sushh-it. Ju lutemi, përmirësojeni me versionin më të ri dhe riprovoni.</string>
   <string name="intent_own_link">Hapët lidhjen tuaj. Përdorni atë të kontaktit që doni të shtoni!</string>
   <string name="missing_link">Ju lutemi, jepni një lidhje</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -311,7 +311,7 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="peer_trust_level_stranger">I huaj</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Prezantoni kontaktet tuaja</string>
-  <string name="introduction_onboarding_text">Prezantoni kontaktet tuaj me njëri-tjetrin, që të mund të lidhen me Briar.</string>
+  <string name="introduction_onboarding_text">Prezantoni kontaktet tuaj me njëri-tjetrin, që të mund të lidhen me Sushh.</string>
   <string name="introduction_menu_item">Bëje prezantimin</string>
   <string name="introduction_activity_title">Përzgjidhni Kontakt</string>
   <string name="introduction_not_possible">Keni filluar tashmë një prezantim me këto kontakte. Ju lutemi, lëreni të përfundojë së pari. Nëse ju ose kontaktet tuaja rrallë gjenden <em>online</em>, kjo mund të dojë ca kohë.</string>
@@ -507,7 +507,7 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="change_profile_picture_failed_message">Na ndjeni, por diç shkoi ters me përditësimin e fotos së profilit tuaj</string>
   <!--Settings Display-->
   <string name="pref_language_title">Gjuhë &amp; rajon</string>
-  <string name="pref_language_changed">Ky rregullim do të hyjë në fuqi kur të rinisni Briar-in. Ju lutemi, bëni daljen nga llogaria dhe rinisni Briar-in.</string>
+  <string name="pref_language_changed">Ky rregullim do të hyjë në fuqi kur të rinisni Sushh-in. Ju lutemi, bëni daljen nga llogaria dhe rinisni Sushh-in.</string>
   <string name="pref_language_default">Parazgjedhje sistemi</string>
   <string name="display_settings_title">Shfaqje</string>
   <string name="pref_theme_title">Temë</string>
@@ -525,7 +525,7 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="tor_network_setting_without_bridges">Përdor rrjet Tor pa ura</string>
   <string name="tor_network_setting_with_bridges">Përdor rrjet Tor me ura</string>
   <string name="tor_network_setting_never">Mos u lidh në Internet</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Automatike: %1$s (në %2$s)</string>
   <string name="tor_mobile_data_title">Përdor të dhëna celulare</string>
   <string name="tor_only_when_charging_title">Lidhu në Internet vetëm kur ngarkohet bateria</string>
@@ -533,11 +533,11 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Siguri</string>
   <string name="pref_lock_title">Kyçje aplikacioni</string>
-  <string name="pref_lock_summary">Përdorni kyçjen e ekranit të pajisjes që të mbroni Briar-in teksa keni bërë hyrjen në llogari </string>
+  <string name="pref_lock_summary">Përdorni kyçjen e ekranit të pajisjes që të mbroni Sushh-in teksa keni bërë hyrjen në llogari </string>
   <string name="pref_lock_disabled_summary">Që të përdorni këtë veçori, rregulloni kyçje ekrani për pajisjen tuaj</string>
   <string name="pref_lock_timeout_title">Skadim kohe mosveprimtarie për kyçje aplikacioni</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Kur Briar-i s’është në përdorim, kyçe vetvetiu pas %s</string>
+  <string name="pref_lock_timeout_summary">Kur Sushh-i s’është në përdorim, kyçe vetvetiu pas %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 minute</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -549,7 +549,7 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 orë</string>
   <string name="pref_lock_timeout_never">Kurrë</string>
-  <string name="pref_lock_timeout_never_summary">Mos e kyç kurrë Briar-in vetvetiu</string>
+  <string name="pref_lock_timeout_never_summary">Mos e kyç kurrë Sushh-in vetvetiu</string>
   <string name="change_password">Ndryshoni fjalëkalimin</string>
   <string name="current_password">Fjalëkalimi i tanishëm</string>
   <string name="choose_new_password">Fjalëkalim i ri</string>
@@ -557,7 +557,7 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="password_changed">Fjalëkalimi u ndryshua.</string>
   <string name="panic_setting">Rregullimi i butonit të panikut</string>
   <string name="panic_setting_title">Buton paniku</string>
-  <string name="panic_setting_hint">Formësoni si do të reagojë Briar-i kur përdorni aplikacion butoni paniku</string>
+  <string name="panic_setting_hint">Formësoni si do të reagojë Sushh-i kur përdorni aplikacion butoni paniku</string>
   <string name="panic_app_setting_title">Aplikacion Butoni Paniku</string>
   <string name="unknown_app">aplikacion i panjohur</string>
   <string name="panic_app_setting_summary">S\’është rregulluar ndonjë aplikacion</string>
@@ -566,9 +566,9 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="dialog_message_connect_panic_app">Jeni i sigurt se doni të lejohet %1$s të prodhojë veprime shkatërruese butoni paniku?</string>
   <string name="panic_setting_destructive_action">Veprime Shkatërruese</string>
   <string name="panic_setting_signout_title">Dilni</string>
-  <string name="panic_setting_signout_summary">Dil nga Briar-i nëse shtypet një buton paniku</string>
+  <string name="panic_setting_signout_summary">Dil nga Sushh-i nëse shtypet një buton paniku</string>
   <string name="purge_setting_title">Fshi Llogarinë</string>
-  <string name="purge_setting_summary">Fshijeni llogarinë tuaj Briar, nëse shtypet një buton paniku. Kujdes: Kjo do të shkaktojë fshirjen e identiteteve, kontakteve dhe mesazheve tuaj</string>
+  <string name="purge_setting_summary">Fshijeni llogarinë tuaj Sushh, nëse shtypet një buton paniku. Kujdes: Kjo do të shkaktojë fshirjen e identiteteve, kontakteve dhe mesazheve tuaj</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Njoftime</string>
   <string name="notify_sign_in_title">Rikujtomë të bëj hyrjen</string>
@@ -595,28 +595,28 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="mailbox_settings_title">Kuti postare</string>
   <string name="mailbox_setup_title">Ujdisje kutie postare</string>
   <string name="mailbox_setup_intro">Një Kuti postare u lejon kontakteve tuaj t’ju dërgojnë mesazhe , kur s’jeni në linjë. Kutia postare do të marrë mesazhet tuaj dhe depozitojë deri sa të jeni në linjë.\n
-		\nAplikacionin Briar për Kuti postare mund ta instaloni në një pajisje tjetër. Mbajeni në prizë dhe nën Wi-Fi, që të jetë përherë në linjë.</string>
-  <string name="mailbox_setup_download">Së pari, instaloni aplikacionin Kuti postare te një pajisje tjetër, duke kërkuar për “Briar Mailbox” në Google Play, ose kudo ku shkarkuat Briar-in.\n
-		\nMandej lidheni Kutinë tuaj postare me Briar-in duke skanuar kodin QR të shfaqur te aplikacioni Kuti postare.</string>
+		\nAplikacionin Sushh për Kuti postare mund ta instaloni në një pajisje tjetër. Mbajeni në prizë dhe nën Wi-Fi, që të jetë përherë në linjë.</string>
+  <string name="mailbox_setup_download">Së pari, instaloni aplikacionin Kuti postare te një pajisje tjetër, duke kërkuar për “Sushh Mailbox” në Google Play, ose kudo ku shkarkuat Sushh-in.\n
+		\nMandej lidheni Kutinë tuaj postare me Sushh-in duke skanuar kodin QR të shfaqur te aplikacioni Kuti postare.</string>
   <string name="mailbox_setup_download_link">Ndani Lidhje Shkarkimi</string>
   <string name="mailbox_setup_button_scan">Skanoni kod QR Kutie postare</string>
   <string name="permission_camera_qr_denied_body">Keni mohuar hyrjen te kamera, por skanimi i një kodi QR lyp përdorimin e kamerës.\n\nJu lutemi, shihni mundësinë e dhënies së hyrjes.</string>
   <string name="mailbox_setup_connecting">Po bëhet lidhja me Kutinë postare…</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">Kjo mund të dojë deri në %1s</string>
-  <string name="mailbox_qr_code_too_old">Kodi QR që keni skanuar vjen prej një versioni të vjetër të Kutisë Postare të Briar-it.\n\nJu lutemi, përditësojeni Kutinë Postare të Briar-it me versionin më të ri dhe mandej riprovoni.</string>
-  <string name="mailbox_qr_code_too_new">Kodi QR që keni skanuar vjen prej një versioni më të ri të Kutisë Postare të Briar-it.\n\nJu lutemi, përmirësojeni Briar-in me versionin më të ri dhe mandej riprovoni.</string>
-  <string name="contact_qr_code_for_mailbox">Kodi QR që keni skanuar është për shtim të një kontakti Briar.\n\nNëse doni të shtoni një kontakt, ju lutemi, kaloni te lista e kontakteve dhe prekni ikonën +.</string>
-  <string name="mailbox_setup_qr_code_wrong_description">Kodi QR që keni skanuar s’vjen prej Kutisë Postare të Briar-it.\n\nJu lutemi, hapni aplikacionin Kuti Postare Briar në pajisjen tuaj me Kutinë Postare dhe skanoni kodin QR që paraqitet.</string>
+  <string name="mailbox_qr_code_too_old">Kodi QR që keni skanuar vjen prej një versioni të vjetër të Kutisë Postare të Sushh-it.\n\nJu lutemi, përditësojeni Kutinë Postare të Sushh-it me versionin më të ri dhe mandej riprovoni.</string>
+  <string name="mailbox_qr_code_too_new">Kodi QR që keni skanuar vjen prej një versioni më të ri të Kutisë Postare të Sushh-it.\n\nJu lutemi, përmirësojeni Sushh-in me versionin më të ri dhe mandej riprovoni.</string>
+  <string name="contact_qr_code_for_mailbox">Kodi QR që keni skanuar është për shtim të një kontakti Sushh.\n\nNëse doni të shtoni një kontakt, ju lutemi, kaloni te lista e kontakteve dhe prekni ikonën +.</string>
+  <string name="mailbox_setup_qr_code_wrong_description">Kodi QR që keni skanuar s’vjen prej Kutisë Postare të Sushh-it.\n\nJu lutemi, hapni aplikacionin Kuti Postare Sushh në pajisjen tuaj me Kutinë Postare dhe skanoni kodin QR që paraqitet.</string>
   <string name="mailbox_setup_already_paired_title">Kuti postare tashmë e lidhur</string>
   <string name="mailbox_setup_already_paired_description">Shkëputeni Kutinë postare në pajisjen tuaj tjetër dhe riprovoni.</string>
   <string name="mailbox_setup_io_error_title">S’u bë dot lidhje</string>
   <string name="mailbox_setup_io_error_description">Siguroni që të dyja pajisjet të jenë të lidhura në Internet dhe riprovoni.</string>
   <string name="mailbox_setup_assertion_error_title">Gabim kutie postare</string>
-  <string name="mailbox_setup_assertion_error_description">Nëse problemi vazhdon, ju lutemi, dërgoni përshtypjet (me të dhëna anonime) përmes aplikacionit Briar.</string>
+  <string name="mailbox_setup_assertion_error_description">Nëse problemi vazhdon, ju lutemi, dërgoni përshtypjet (me të dhëna anonime) përmes aplikacionit Sushh.</string>
   <string name="mailbox_setup_camera_error_description">S’u përdor dot kamera. Riprovoni, ndoshta pas rinisjes së pajisjes.</string>
   <string name="mailbox_setup_paired_title">I lidhur</string>
-  <string name="mailbox_setup_paired_description">Kutia juaj postare është lidhur me sukses me Briar-in.\n
+  <string name="mailbox_setup_paired_description">Kutia juaj postare është lidhur me sukses me Sushh-in.\n
 		\nMbajeni Kutinë tuaj postare të lidhur në rrjet energjie dhe me Wi-Fi, që të jetë përherë në linjë.</string>
   <string name="tor_offline_title">Jo në linjë</string>
   <string name="tor_offline_description">Siguroni që kjo pajisje të jetë në linjë dhe lidhjet me Internetin të jenë të lejuara.\n
@@ -624,10 +624,10 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="tor_offline_button_check">Kontrolloni rregullime lidhjeje</string>
   <string name="mailbox_status_title">Gjendje kutie postare</string>
   <string name="mailbox_status_connected_title">Kutia postare po punon</string>
-  <string name="mailbox_status_problem_title">Briar-i po ka probleme në lidhjen me Kutinë postare</string>
+  <string name="mailbox_status_problem_title">Sushh-i po ka probleme në lidhjen me Kutinë postare</string>
   <string name="mailbox_status_failure_title">S’ka Kuti postare</string>
-  <string name="mailbox_status_app_too_old_title">Briar-i është shumë i vjetër</string>
-  <string name="mailbox_status_app_too_old_message">Përditësojeni Briar-in me versionin më të ri të aplikacionit dhe riprovoni.</string>
+  <string name="mailbox_status_app_too_old_title">Sushh-i është shumë i vjetër</string>
+  <string name="mailbox_status_app_too_old_message">Përditësojeni Sushh-in me versionin më të ri të aplikacionit dhe riprovoni.</string>
   <string name="mailbox_status_mailbox_too_old_title">Kutia postare është shumë e vjetër</string>
   <string name="mailbox_status_mailbox_too_old_message">Përditësoni Kutinë tuaj postare me versionin më të ri të aplikacionit dhe riprovoni.</string>
   <string name="mailbox_status_check_button">Kontrolloni Lidhjen</string>
@@ -638,12 +638,12 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="mailbox_status_unlink_button">Shkëpute</string>
   <string name="mailbox_status_unlink_dialog_title">Të hiqet lidhja për kutinë postare?</string>
   <string name="mailbox_status_unlink_dialog_question">Jeni i sigurt se doni të hiqet lidhja për Kutinë tuaj postare?</string>
-  <string name="mailbox_status_unlink_dialog_warning">Nëse hiqni lidhjen e Kutisë tuaj postare, s’do të jeni në gjendje të merrni mesazhe, ndërkohë që Briar-i është i palidhur në internet.</string>
+  <string name="mailbox_status_unlink_dialog_warning">Nëse hiqni lidhjen e Kutisë tuaj postare, s’do të jeni në gjendje të merrni mesazhe, ndërkohë që Sushh-i është i palidhur në internet.</string>
   <string name="mailbox_status_unlink_no_wipe_title">U hoq lidhja e Kutisë tuaj postare</string>
   <string name="mailbox_status_unlink_no_wipe_message">Herës tjetër që mundeni të hyni te pajisja e Kutisë tuaj postare, ju lutemi, hapni aplikacionin “Kuti postare” dhe prekni butonin “Hiqi lidhjen”, që të plotësohet procesi.\n\nNëse pajisjen e Kutisë tuaj postare s’e përdorni dot më, mos u shqetësoni. Të dhënat tuaja janë të fshehtëzuara, ndaj do të mbeten të sigurta, edhe nëse nuk e plotësoni procesin.</string>
   <string name="mailbox_status_unlink_success">U hoq lidhja e Kutisë tuaj postare</string>
-  <string name="mailbox_error_notification_channel_title">Problem me Kuti postare Briar-i</string>
-  <string name="mailbox_error_notification_title">Kutia postare Briar s’është e passhme</string>
+  <string name="mailbox_error_notification_channel_title">Problem me Kuti postare Sushh-i</string>
+  <string name="mailbox_error_notification_title">Kutia postare Sushh s’është e passhme</string>
   <string name="mailbox_error_notification_text">Prekeni që të ndreqet problemi.</string>
   <string name="mailbox_error_wizard_button">Ndreqe problemin</string>
   <string name="mailbox_error_wizard_title">Ndihmës diagnostikimi Kutie postare</string>
@@ -659,16 +659,16 @@ dhe s’mund të hapet me këtë version.\n\nJu lutemi, përmirësojeni me versi
   <string name="mailbox_error_wizard_answer1_4">Shoh “Pajisje jo në linjë”</string>
   <string name="mailbox_error_wizard_info1_1_1">Ju lutemi, shkëputeni Kutinë tuaj postare duke përdorur butonin më poshtë, mandej ndiqni udhëzimet te pajisja Kuti postare për ta rilidhur.</string>
   <string name="mailbox_error_wizard_info_1_1_2">Ju lutemi, shkëputeni Kutinë tuaj postare duke përdorur butonin më poshtë, mandej skanoni kodin QR për ta rilidhur.</string>
-  <string name="mailbox_error_wizard_info1_1_3">Ju lutemi, përdorni butonin më poshtë për të kontrolluar lidhjen mes Briar-it dhe Mailbox-it.\n\n
+  <string name="mailbox_error_wizard_info1_1_3">Ju lutemi, përdorni butonin më poshtë për të kontrolluar lidhjen mes Sushh-it dhe Mailbox-it.\n\n
 		Nëse lidhja dështon sërish:\n
-		\u2022 Shihni që aplikacionet Kuti postare dhe Briar të jenë ët përditësuar me versionin më të ri.\n
-		\u2022 Rinisni pajisjet tuaja Kuti postare dhe Briar dhe riprovoni.</string>
-  <string name="mailbox_error_wizard_info1_1_4">Shihni që pajisja kuti postare të jetë lidhur si duhet në Internet.\n\nKontrolloni që sahati te pajisja Kuti postare shfaq kohën, datën dhe zonën kohore të saktë.\n\nShihni që aplikacionet Kuti postare dhe Briar të jenë të përditësuar me versionin më të ri.\n\nRinisni pajisjet tuaja Kuti postare dhe Briar dhe riprovoni.</string>
+		\u2022 Shihni që aplikacionet Kuti postare dhe Sushh të jenë ët përditësuar me versionin më të ri.\n
+		\u2022 Rinisni pajisjet tuaja Kuti postare dhe Sushh dhe riprovoni.</string>
+  <string name="mailbox_error_wizard_info1_1_4">Shihni që pajisja kuti postare të jetë lidhur si duhet në Internet.\n\nKontrolloni që sahati te pajisja Kuti postare shfaq kohën, datën dhe zonën kohore të saktë.\n\nShihni që aplikacionet Kuti postare dhe Sushh të jenë të përditësuar me versionin më të ri.\n\nRinisni pajisjet tuaja Kuti postare dhe Sushh dhe riprovoni.</string>
   <string name="mailbox_error_wizard_info2">Ju lutemi, rikthejuni kësaj skene kur të keni mundësi të përdorni pajisjen.</string>
   <string name="mailbox_error_wizard_info3">Ju lutemi, shkëputeni kutinë tuaj postare duke përdorur butonin më poshtë.\n\nPasi të shkëputni Kutinë tuaj të vjetër postare, mund të ujdisni kurdo një Kuti të re postare.</string>
   <!--About-->
   <string name="about_title">Mbi</string>
-  <string name="briar_version">Version Briar-i: %s</string>
+  <string name="briar_version">Version Sushh-i: %s</string>
   <string name="tor_version">Version Tor-i: %s</string>
   <string name="links">Lidhje</string>
   <string name="briar_website">\u2022 <a href="">Sajt</a></string>
@@ -693,7 +693,7 @@ Këtë rregullim mund ta ndryshojë edhe kontakti juaj, për të dy ju.</string>
   <!--Settings Actions-->
   <string name="pref_category_actions">Veprime</string>
   <string name="share_app_link">Jepuni lidhjen e shkarkimit</string>
-  <string name="share_app_link_text">Shkarkojeni Briar-in te %s</string>
+  <string name="share_app_link_text">Shkarkojeni Sushh-in te %s</string>
   <string name="send_feedback">Dërgoji përshtypjet</string>
   <!--Link Warning-->
   <string name="link_warning_title">Sinjalizim Lidhjeje</string>
@@ -701,10 +701,10 @@ Këtë rregullim mund ta ndryshojë edhe kontakti juaj, për të dy ju.</string>
   <string name="link_warning_text">Kjo mund të përdoret për t\’ju identifikuar. Sillni në mend nëse i zini besë personit që ju dërgoi lidhjen dhe shihni mundësinë e hapjes së saj me Shfletuesin Tor.</string>
   <string name="link_warning_open_link">Hape Lidhjen</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Njoftim Vithisjesh Briar-i</string>
-  <string name="briar_crashed">Na ndjeni, Briar-i u vithis</string>
+  <string name="crash_report_title">Njoftim Vithisjesh Sushh-i</string>
+  <string name="briar_crashed">Na ndjeni, Sushh-i u vithis</string>
   <string name="not_your_fault">S\’është faji juaj.</string>
-  <string name="please_send_report">Ju lutemi, na ndihmoni të ndërtojmë një Briar më të mirë, duke na dërguar një njoftim vithisjeje.</string>
+  <string name="please_send_report">Ju lutemi, na ndihmoni të ndërtojmë një Sushh më të mirë, duke na dërguar një njoftim vithisjeje.</string>
   <string name="report_is_encrypted">Premtojmë që njoftimi fshehtëzohet dhe dërgohet në mënyrë të sigurt.</string>
   <string name="feedback_title">Përshtypje</string>
   <string name="describe_crash">Përshkruani se ç\’ndodhi (në daçi)</string>
@@ -728,75 +728,75 @@ Këtë rregullim mund ta ndryshojë edhe kontakti juaj, për të dy ju.</string>
   <string name="close">Mbylle</string>
   <string name="dev_report_sending">Po dërgohen përshtypjet…</string>
   <string name="dev_report_sent">Përshtypjet u dërguan</string>
-  <string name="dev_report_saved">Njoftimi u ruajt. Do të dërgohet herën tjetër që do të hyni në Briar.</string>
+  <string name="dev_report_saved">Njoftimi u ruajt. Do të dërgohet herën tjetër që do të hyni në Sushh.</string>
   <string name="dev_report_error">Gabim: Dërgimi i raportit dështoi</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Po dilet nga Briar-i…</string>
+  <string name="progress_title_logout">Po dilet nga Sushh-i…</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">U kap dalje jashtë ekrani</string>
-  <string name="screen_filter_body">Sipër Briar-it po vizaton një tjetër aplikacion. Për të mbrojtur sigurinë tuaj, Briar-i s\’do t\’u përgjigjet prekjeve kur një tjetër aplikacion vizaton përsipër.\n\nPërsipër mund të jenë duke vizatuar aplikacionet vijues:\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">Sipër Briar-it po vizaton një tjetër aplikacion. Për të mbrojtur sigurinë tuaj, Briar-i s\’do t\’u përgjigjet prekjeve kur një tjetër aplikacion vizaton përsipër.\n\nShqyrtoni aplikacionet më poshtë, që të gjeni aplikacionin përgjegjës.</string>
+  <string name="screen_filter_body">Sipër Sushh-it po vizaton një tjetër aplikacion. Për të mbrojtur sigurinë tuaj, Sushh-i s\’do t\’u përgjigjet prekjeve kur një tjetër aplikacion vizaton përsipër.\n\nPërsipër mund të jenë duke vizatuar aplikacionet vijues:\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">Sipër Sushh-it po vizaton një tjetër aplikacion. Për të mbrojtur sigurinë tuaj, Sushh-i s\’do t\’u përgjigjet prekjeve kur një tjetër aplikacion vizaton përsipër.\n\nShqyrtoni aplikacionet më poshtë, që të gjeni aplikacionin përgjegjës.</string>
   <string name="screen_filter_allow">Lejoji këto aplikacione të vizatojnë përsipër</string>
   <string name="screen_filter_review_apps">Shqyrtoni aplikacione</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Leje mbi kamerën</string>
-  <string name="permission_camera_request_body">Që të skanojë kodin QR, Briar-i lypset të hyjë te kamera.</string>
+  <string name="permission_camera_request_body">Që të skanojë kodin QR, Sushh-i lypset të hyjë te kamera.</string>
   <string name="permission_location_title">Leje vendi</string>
   <string name="permission_nearby_devices_title">Leje pajisjesh atypari</string>
-  <string name="permission_location_request_body">Që të pikasë pajisje Bluetooth, Briar-i lyp leje të njohë vendin tuaj.\n\nBriar-i nuk e depoziton vendin tuaj, as e ndan me dikë.</string>
+  <string name="permission_location_request_body">Që të pikasë pajisje Bluetooth, Sushh-i lyp leje të njohë vendin tuaj.\n\nSushh-i nuk e depoziton vendin tuaj, as e ndan me dikë.</string>
   <string name="permission_camera_location_title">Kamera dhe vend</string>
-  <string name="permission_camera_location_request_body">Që të skanojë kodin QR, Briar-it i duhet të përdorë kamerën.\n\nQë të pikasë pajisje Bluetooth, Briar-i lyp leje të njohë vendin tuaj.\n\nBriar-i nuk e depoziton vendin tuaj, as e ndan me dikë.</string>
+  <string name="permission_camera_location_request_body">Që të skanojë kodin QR, Sushh-it i duhet të përdorë kamerën.\n\nQë të pikasë pajisje Bluetooth, Sushh-i lyp leje të njohë vendin tuaj.\n\nSushh-i nuk e depoziton vendin tuaj, as e ndan me dikë.</string>
   <string name="permission_camera_bluetooth_title">Kamerë dhe pajisje atypari</string>
-  <string name="permission_camera_bluetooth_request_body">Që të skanohet kodi QR, Briar-i lyp leje përdorimi të kamerës.\n\nQë të zbulohen pajisje Bluetooth, Briar-i lyp leje të gjejë dhe të lidhet me pajisje atypari.</string>
+  <string name="permission_camera_bluetooth_request_body">Që të skanohet kodi QR, Sushh-i lyp leje përdorimi të kamerës.\n\nQë të zbulohen pajisje Bluetooth, Sushh-i lyp leje të gjejë dhe të lidhet me pajisje atypari.</string>
   <string name="permission_camera_denied_body">Keni mohuar hyrjen në kamera, por shtimi i kontakteve lyp përdorimin e kamerës.\n\nJu lutemi, shihni mundësinë e akordimit të hyrjes.</string>
-  <string name="permission_location_denied_body">Keni mohuar hyrje te vendndodhja juaj, por Briar-i ka nevojë për këtë leje, që të mund të zbulojë pajisje Bluetooth.\n\nJu lutemi, shihni mundësinë e akordimit të hyrjes.</string>
+  <string name="permission_location_denied_body">Keni mohuar hyrje te vendndodhja juaj, por Sushh-i ka nevojë për këtë leje, që të mund të zbulojë pajisje Bluetooth.\n\nJu lutemi, shihni mundësinë e akordimit të hyrjes.</string>
   <string name="permission_location_setting_title">Rregullime vendndodhjeje</string>
   <string name="permission_location_setting_body">Që të gjenden pajisje të tjera përmes Bluetooth-i, rregullimi për vendndodhjen e pajisjes tuaj duhet të jetë i aktivizuar. Ju lutemi, që të vazhdohet, aktivizoni vendndodhjen. Më pas, mund ta çaktivizoni prapë.</string>
   <string name="permission_location_setting_hotspot_body">Që të krijohet një hotspot Wi-Fi, duhet aktivizuar rregullimi për vendndodhje të pajisjes tuaj. Ju lutemi, që të vazhdohet, aktivizoni këtë rregullim. Mund ta çaktivizoni sërish më pas.</string>
   <string name="permission_location_setting_button">Aktivizoni vendndodhje</string>
   <string name="permission_bluetooth_title">Leje pajisjesh atypari</string>
-  <string name="permission_bluetooth_body">Që të përdoret komunikim Bluetooth, Briar-i lyp leje të gjejë dhe të lidhet me pajisje atypari.</string>
-  <string name="permission_bluetooth_denied_body">Keni mohuar hyrje te pajisje atyprai, por Briar-i ka nevojë për këtë leje, që të përdorë Bluetooth-in.\n\nJu lutemi, shihni mundësinë e akordimit të hyrjes.</string>
+  <string name="permission_bluetooth_body">Që të përdoret komunikim Bluetooth, Sushh-i lyp leje të gjejë dhe të lidhet me pajisje atypari.</string>
+  <string name="permission_bluetooth_denied_body">Keni mohuar hyrje te pajisje atyprai, por Sushh-i ka nevojë për këtë leje, që të përdorë Bluetooth-in.\n\nJu lutemi, shihni mundësinë e akordimit të hyrjes.</string>
   <string name="qr_code">Kod QR</string>
   <string name="show_qr_code_fullscreen">Shfaqe kodin QR sa tërë ekrani</string>
   <!--App Locking-->
-  <string name="lock_unlock">Shkyçe Briar-in</string>
-  <string name="lock_unlock_verbose">Që të shkyçet Briar-i, jepni PIN-in, rregullsinë ose fjalëkalimin e pajisjes tuaj</string>
+  <string name="lock_unlock">Shkyçe Sushh-in</string>
+  <string name="lock_unlock_verbose">Që të shkyçet Sushh-i, jepni PIN-in, rregullsinë ose fjalëkalimin e pajisjes tuaj</string>
   <string name="lock_unlock_fingerprint_description">Që të vazhdohet, prekni me gishtin e regjistruar ndijuesin e shenjave të gishtave</string>
   <string name="lock_unlock_password">Përdor Fjalëkalim</string>
-  <string name="lock_is_locked">Briar-i është i kyçur</string>
+  <string name="lock_is_locked">Sushh-i është i kyçur</string>
   <string name="lock_tap_to_unlock">Prekeni që të shkyçet</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar-i mund të lidhet me kontaktet tuaja përmes Interneti, Wi-Fi ose Bluetooth-i.\n\n
+  <string name="transports_help_text">Sushh-i mund të lidhet me kontaktet tuaja përmes Interneti, Wi-Fi ose Bluetooth-i.\n\n
 Për privatësi, krejt lidhjet Internet kalojnë përmes rrjetit Tor.\n\n
 Nëse me një kontakt mund të bëhet lidhja përmes metodash të shumta,\n\n
-Briar-i i përdor ato paralelisht.</string>
+Sushh-i i përdor ato paralelisht.</string>
   <!--Share app offline-->
   <string name="hotspot_title">Ndaje me të tjerë “offline” këtë aplikacion</string>
   <string name="hotspot_intro">Jepeni këtë aplikacion për dikë atypari pa lidhje Internet, duke përdorur Wi-Fi-n e telefonit tuaj.
-		\n\nTelefoni juaj do të nisë një Wi-Fi hotspot. Persona atypari mund të lidhen me hotspot-in dhe të shkarkojnë aplikacionin Briar që nga telefoni juaj.</string>
+		\n\nTelefoni juaj do të nisë një Wi-Fi hotspot. Persona atypari mund të lidhen me hotspot-in dhe të shkarkojnë aplikacionin Sushh që nga telefoni juaj.</string>
   <string name="hotspot_button_start_sharing">Nise hotspot-in</string>
   <string name="hotspot_button_stop_sharing">Ndale hotspot-in</string>
   <string name="hotspot_progress_text_start">Po ujdiset hotspot…</string>
   <string name="hotspot_notification_channel_title">Hotspot Wi-Fi</string>
-  <string name="hotspot_notification_title">Dhënie Briar-i “offline”</string>
+  <string name="hotspot_notification_title">Dhënie Sushh-i “offline”</string>
   <string name="hotspot_button_connected">Pasuesi</string>
-  <string name="permission_hotspot_location_request_body">Që të krijohet një hotspot Wi-Fi, Briar-i lyp leje për të njohur vendndodhjen tuaj.\n\nBriar-i nuk e depoziton apo ia jep dikujt vendndodhjen tuaj.</string>
-  <string name="permission_hotspot_location_request_precise_body">Që të krijohet një hotspot Wi-Fi, Briar-i lyp leje për të njohur saktësisht vendndodhjen tuaj.\n\nBriar-i nuk e depoziton apo ia jep dikujt atë.</string>
-  <string name="permission_hotspot_location_denied_body">Keni mohuar njohjen e vendndodhjes tuaj, ndërkohë që Briar-it i duhet kjo leje për të krijuar një hotspot Wi-Fi.\n\nJu lutemi, shihni mundësinë e akordimit të kësaj lejeje.</string>
-  <string name="permission_hotspot_location_denied_precise_body">Keni mohuar njohjen e saktë të vendndodhjes tuaj, ndërkohë që Briar-it i duhet kjo leje për të krijuar një hotspot Wi-Fi.\n\nJu lutemi, shihni mundësinë e akordimit të kësaj lejeje.</string>
-  <string name="permission_hotspot_nearby_wifi_request_body">Që të krijojë një hotspot Wi-Fi, Briar-it i duhet leje të përdorë pajisje atypari.</string>
-  <string name="permission_hotspot_nearby_wifi_denied_body">Keni mohuar përdorim pajisjesh atypari, por Briar-it i duhet kjo leje, që të krijojë një hotspot Wi-Fi.\n\nJu lutemi, shihni mundësinë e lejimit të përdorimit.</string>
+  <string name="permission_hotspot_location_request_body">Që të krijohet një hotspot Wi-Fi, Sushh-i lyp leje për të njohur vendndodhjen tuaj.\n\nSushh-i nuk e depoziton apo ia jep dikujt vendndodhjen tuaj.</string>
+  <string name="permission_hotspot_location_request_precise_body">Që të krijohet një hotspot Wi-Fi, Sushh-i lyp leje për të njohur saktësisht vendndodhjen tuaj.\n\nSushh-i nuk e depoziton apo ia jep dikujt atë.</string>
+  <string name="permission_hotspot_location_denied_body">Keni mohuar njohjen e vendndodhjes tuaj, ndërkohë që Sushh-it i duhet kjo leje për të krijuar një hotspot Wi-Fi.\n\nJu lutemi, shihni mundësinë e akordimit të kësaj lejeje.</string>
+  <string name="permission_hotspot_location_denied_precise_body">Keni mohuar njohjen e saktë të vendndodhjes tuaj, ndërkohë që Sushh-it i duhet kjo leje për të krijuar një hotspot Wi-Fi.\n\nJu lutemi, shihni mundësinë e akordimit të kësaj lejeje.</string>
+  <string name="permission_hotspot_nearby_wifi_request_body">Që të krijojë një hotspot Wi-Fi, Sushh-it i duhet leje të përdorë pajisje atypari.</string>
+  <string name="permission_hotspot_nearby_wifi_denied_body">Keni mohuar përdorim pajisjesh atypari, por Sushh-it i duhet kjo leje, që të krijojë një hotspot Wi-Fi.\n\nJu lutemi, shihni mundësinë e lejimit të përdorimit.</string>
   <string name="wifi_settings_title">Rregullim Wi-Fi-i</string>
-  <string name="wifi_settings_request_enable_body">Që të krijohet një hotspot Wi-Fi, Briar-it i duhet të përdorë Wi-Fi-n. Ju lutemi, aktivizojeni.</string>
+  <string name="wifi_settings_request_enable_body">Që të krijohet një hotspot Wi-Fi, Sushh-it i duhet të përdorë Wi-Fi-n. Ju lutemi, aktivizojeni.</string>
   <string name="hotspot_tab_manual">Dorazi</string>
   <!--The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s-->
   <string name="hotspot_scanning_a_qr_code">duke skanuar një kod QR</string>
   <!--Wi-Fi setup-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_wifi">Telefoni juaj po ofron një hotspot Wi-Fi. Personat që duan të shkarkojnë Briar-in, mund të lidhen me hotspot-in duke shtuar te te rregullimet e pajisjeve të tyre për Wi-Fi-n hollësitë më poshtë ose duke %s. Kur të jenë lidhur me hotspot-in, shtypni “Pasuesi”.</string>
+  <string name="hotspot_manual_wifi">Telefoni juaj po ofron një hotspot Wi-Fi. Personat që duan të shkarkojnë Sushh-in, mund të lidhen me hotspot-in duke shtuar te te rregullimet e pajisjeve të tyre për Wi-Fi-n hollësitë më poshtë ose duke %s. Kur të jenë lidhur me hotspot-in, shtypni “Pasuesi”.</string>
   <string name="hotspot_manual_wifi_ssid">Emër rrjet</string>
-  <string name="hotspot_qr_wifi">Telefoni juaj po ofron një hotspot Wi-Fi. Persona që duan të shkarkojnë Briar-in mund të lidhen me hotspot-in duke skanuar këtë kod QR. Kur të jenë lidhur me hotspot-in, shtypni “Pasuesi”.</string>
+  <string name="hotspot_qr_wifi">Telefoni juaj po ofron një hotspot Wi-Fi. Persona që duan të shkarkojnë Sushh-in mund të lidhen me hotspot-in duke skanuar këtë kod QR. Kur të jenë lidhur me hotspot-in, shtypni “Pasuesi”.</string>
   <string name="hotspot_no_peers_connected">S’ka pajisje të lidhur</string>
   <plurals name="hotspot_peers_connected">
     <item quantity="one">%s pajisje e lidhur</item>
@@ -804,13 +804,13 @@ Briar-i i përdor ato paralelisht.</string>
   </plurals>
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_site">Telefoni juaj po ofron një hotspot Wi-Fi. Persona që duan të shkarkojnë Briar-in mund të lidhen me hotspot-in duke shtypur lidhjen vijuese në një shfletues ose %s.</string>
+  <string name="hotspot_manual_site">Telefoni juaj po ofron një hotspot Wi-Fi. Persona që duan të shkarkojnë Sushh-in mund të lidhen me hotspot-in duke shtypur lidhjen vijuese në një shfletues ose %s.</string>
   <string name="hotspot_manual_site_address">Adresë (URL)</string>
-  <string name="hotspot_qr_site">Telefoni juaj po ofron një hotspot Wi-Fi. Persona që janë të lidhur me hotspot-in mund të shkarkojnë Briar-in duke skanuar këtë kod QR.</string>
-  <!--e.g. Download Briar 1.2.20-->
-  <string name="website_download_title_1">Shkarkoni Briar %s</string>
-  <string name="website_download_intro_1">Dikush atyparu ju dha Briar-in</string>
-  <string name="website_download_button">Shkarkojeni Briar-in</string>
+  <string name="hotspot_qr_site">Telefoni juaj po ofron një hotspot Wi-Fi. Persona që janë të lidhur me hotspot-in mund të shkarkojnë Sushh-in duke skanuar këtë kod QR.</string>
+  <!--e.g. Download Sushh 1.2.20-->
+  <string name="website_download_title_1">Shkarkoni Sushh %s</string>
+  <string name="website_download_intro_1">Dikush atyparu ju dha Sushh-in</string>
+  <string name="website_download_button">Shkarkojeni Sushh-in</string>
   <string name="website_download_outro">Pasi të jetë plotësuar shkarkimi, hapni kartelën e shkarkuar dhe instalojeni.</string>
   <string name="website_troubleshooting_title">Diagnostikim</string>
   <string name="website_troubleshooting_1">Nëse s’mund të shkarkoni aplikacionin, provoni me një aplikacion tjetër shfletuesi.</string>
@@ -819,14 +819,14 @@ Briar-i i përdor ato paralelisht.</string>
   <string name="hotspot_help_wifi_title">Probleme me lidhjen me Wi-Fi:</string>
   <string name="hotspot_help_wifi_1">Provoni çaktivizimin dhe riaktivizimin e Wi-Fi-it në të dy telefonat dhe riprovoni.</string>
   <string name="hotspot_help_wifi_2">Nëse telefoni juaj ankohet se Wi-Fi s’ka internet, i thoni se dëshironi të jeni i lidhur sido qoftë.</string>
-  <string name="hotspot_help_wifi_3">Rinisni telefonin që xhiron hotspot-in Wi-Fi, mandej rinisni Briar-in dhe riprovoni ta jepni lidhjen.</string>
+  <string name="hotspot_help_wifi_3">Rinisni telefonin që xhiron hotspot-in Wi-Fi, mandej rinisni Sushh-in dhe riprovoni ta jepni lidhjen.</string>
   <string name="hotspot_help_site_title">Probleme në vizita të sajtit vendor:</string>
   <string name="hotspot_help_site_1">Rikontrolloni se e keni dhënë adresën saktësisht siç shfaqet. Një gabim i vockël mund të bëjë të dështojë.</string>
   <string name="hotspot_help_site_2">Sigurohuni se telefoni juaj është ende i lidhur me Wi-Fi e duhur (shihni më sipër), kur provoni të hyni te sajti.</string>
   <string name="hotspot_help_site_3">Nëse keni një aplikacion firewall-i, shihni se mos po e bllokon hyrjen.</string>
-  <string name="hotspot_help_site_4">Nëse mund ta vizitoni sajtin, por jo të shkarkoni aplikacionin Briar, provoni me një tjetër aplikacion shfletuesi.</string>
+  <string name="hotspot_help_site_4">Nëse mund ta vizitoni sajtin, por jo të shkarkoni aplikacionin Sushh, provoni me një tjetër aplikacion shfletuesi.</string>
   <string name="hotspot_help_fallback_title">Asgjë s’bën punë?</string>
-  <string name="hotspot_help_fallback_intro">Mund të provoni ta ruani aplikacionin si një kartelë .apk, për ta dhënë me ndonjë rrugë tjetër. Pasi kartela të jetë shpërngulur te pajisja tjetër, mund të përdoret për të instaluar Briar-in.
+  <string name="hotspot_help_fallback_intro">Mund të provoni ta ruani aplikacionin si një kartelë .apk, për ta dhënë me ndonjë rrugë tjetër. Pasi kartela të jetë shpërngulur te pajisja tjetër, mund të përdoret për të instaluar Sushh-in.
 		\n\nNdihmëz: Për ta dhënë përmes Bluetooth-i, mund t’ju duhet së pari ta riemërtoni kartelën, në mënyrë që të përfundojë me .zip.</string>
   <string name="hotspot_help_fallback_button">Ruaje aplikacionin</string>
   <!--error handling-->
@@ -836,18 +836,18 @@ Briar-i i përdor ato paralelisht.</string>
   <string name="hotspot_error_start_callback_failed_unknown">Nga një gabim i panjohur, hotspot-i s’u arrit të nisej, arsye %d</string>
   <string name="hotspot_error_start_callback_no_group_info">S’u arrit të nisej hotspot-i: pa hollësi grupi</string>
   <string name="hotspot_error_web_server_start">Gabim në nisjen e shërbyesit</string>
-  <string name="hotspot_error_web_server_serve">Gabim në paraqitjen e sajtit.\n\nJu lutemi, nëse problemi vazhdon, dërgoni njoftim (me të dhëna anonime) përmes aplikacionit Briar.</string>
+  <string name="hotspot_error_web_server_serve">Gabim në paraqitjen e sajtit.\n\nJu lutemi, nëse problemi vazhdon, dërgoni njoftim (me të dhëna anonime) përmes aplikacionit Sushh.</string>
   <string name="hotspot_flag_test">Kujdes: Ky aplikacion qe instaluar me Android Studio dhe NUK mund të instalohet në një pajisje tjetër.</string>
   <string name="hotspot_error_framework_busy">S’arrihet të niset hotspot-i.\n\nNëse keni një tjetër hotspot në punë, ose e jepni lidhjen tuaj Internet përmes Wi-Fi, provoni ta ndalni dhe të riprovoni pas kësaj.</string>
   <!--Transfer Data via Removable Drives-->
   <string name="removable_drive_menu_title">Lidhu përmes Disku të Heqshëm</string>
-  <string name="removable_drive_intro">Nëse s’lidheni dot me kontaktin tuaj përmes Interneti, Wi-Fi apo Bluetooth-i, Briar-i mund të shpërngulë mesazhe edhe përmes disqesh të heqshëm, bie fjala një diskth USB, ose një kartë SD.</string>
-  <string name="removable_drive_explanation">Nëse s’lidheni dot me kontaktin tuaj përmes Interneti, Wi-Fi apo Bluetooth-i, Briar-i mund të shpërngulë mesazhe edhe përmes disqesh të heqshëm, bie fjala një diskth USB, ose një kartë SD.\n\nKur përdorni butonin “Dërgo të Dhëna”, çfarëdo të dhënash që po presin të dërgohen te kontakti, do të shkruhen te disku i heqshëm. Kjo përfshin mesazhe privates, bashkëngjitje, blogje, forume dhe grupe private.\n\nPara se të shkruhet te disku i heqshëm, gjithçka do të fshehtëzohet.\n\nKur kontakti juaj merr diskun e heqshëm, ai mund të përdorë butonin “Merr të Dhëna” që të importoni mesazhet në Briar.</string>
+  <string name="removable_drive_intro">Nëse s’lidheni dot me kontaktin tuaj përmes Interneti, Wi-Fi apo Bluetooth-i, Sushh-i mund të shpërngulë mesazhe edhe përmes disqesh të heqshëm, bie fjala një diskth USB, ose një kartë SD.</string>
+  <string name="removable_drive_explanation">Nëse s’lidheni dot me kontaktin tuaj përmes Interneti, Wi-Fi apo Bluetooth-i, Sushh-i mund të shpërngulë mesazhe edhe përmes disqesh të heqshëm, bie fjala një diskth USB, ose një kartë SD.\n\nKur përdorni butonin “Dërgo të Dhëna”, çfarëdo të dhënash që po presin të dërgohen te kontakti, do të shkruhen te disku i heqshëm. Kjo përfshin mesazhe privates, bashkëngjitje, blogje, forume dhe grupe private.\n\nPara se të shkruhet te disku i heqshëm, gjithçka do të fshehtëzohet.\n\nKur kontakti juaj merr diskun e heqshëm, ai mund të përdorë butonin “Merr të Dhëna” që të importoni mesazhet në Sushh.</string>
   <string name="removable_drive_title_send">Dërgoni të dhëna</string>
   <string name="removable_drive_title_receive">Merrni të dhëna</string>
   <string name="removable_drive_send_intro">Prekni butonin më poshtë që të krijoni një kartelë të re që përmban mesazhe të fshehtëzuar. Mund të zgjidhni ku të ruhen kartelat.\n\nNëse doni të ruhet kartela në një disk të heqshëm, futeni diskun tani.</string>
   <string name="removable_drive_send_no_data">Aktualisht s’ka mesazhe në pritje për t’u dërguar te ky kontakt.</string>
-  <string name="removable_drive_send_not_supported">Ky kontakt po përdor një version të dikurshëm të Briar-it, ose një pajisje të vjetër, që nuk mbulon këtë veçori.</string>
+  <string name="removable_drive_send_not_supported">Ky kontakt po përdor një version të dikurshëm të Sushh-it, ose një pajisje të vjetër, që nuk mbulon këtë veçori.</string>
   <string name="removable_drive_send_button">Zgjidhni kartelë për eksport</string>
   <string name="removable_drive_ongoing">Ju lutemi, pritni të plotësohet puna që është duke u kryer</string>
   <string name="removable_drive_receive_intro">Prekni butonin më poshtë që të zgjidhni kartelën që ju ka dërguar kontakti juaj.\n\nNëse kartela gjendet në një disk të heqshëm, futeni diskun tani.</string>
@@ -857,9 +857,9 @@ Briar-i i përdor ato paralelisht.</string>
   <string name="removable_drive_success_receive_title">Importim i suksesshëm</string>
   <string name="removable_drive_success_receive_text">Janë marrë krejt mesazhet e fshehtëzuar që përmbante kjo kartelë.</string>
   <string name="removable_drive_error_send_title">Gabim në eksportim të dhënash</string>
-  <string name="removable_drive_error_send_text">Pati një gabim gjatë shkrimit të të dhënave te kartela.\n\nNëse po përdorni një disk të heqshëm, sigurohuni se është futur si duhet dhe riprovoni.\n\nNëse gabimi vazhdon, ju lutemi, dërgoni një njoftim për t’ia bërë problemin të ditur ekipit të Briar-it.</string>
+  <string name="removable_drive_error_send_text">Pati një gabim gjatë shkrimit të të dhënave te kartela.\n\nNëse po përdorni një disk të heqshëm, sigurohuni se është futur si duhet dhe riprovoni.\n\nNëse gabimi vazhdon, ju lutemi, dërgoni një njoftim për t’ia bërë problemin të ditur ekipit të Sushh-it.</string>
   <string name="removable_drive_error_receive_title">Gabim në importim të dhënash</string>
-  <string name="removable_drive_error_receive_text">Kartela e përzgjedhur nuk përmbante ndonjë gjë të kuptueshme nga Briar-i.\n\nJu lutemi, kontrolloni se keni zgjedhur kartelën e duhur.\n\nNëse kontakti e krijoi kartelën më herët se 28 ditë më parë, Briar-i s’do të jetë në gjendje ta hapë.</string>
+  <string name="removable_drive_error_receive_text">Kartela e përzgjedhur nuk përmbante ndonjë gjë të kuptueshme nga Sushh-i.\n\nJu lutemi, kontrolloni se keni zgjedhur kartelën e duhur.\n\nNëse kontakti e krijoi kartelën më herët se 28 ditë më parë, Sushh-i s’do të jetë në gjendje ta hapë.</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">Mira</string>
@@ -870,7 +870,7 @@ Briar-i i përdor ato paralelisht.</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Njatjeta Beni!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Njatjeta Mira! Faleminderit që më tregove për Briar-in!</string>
+  <string name="screenshot_message_2">Njatjeta Mira! Faleminderit që më tregove për Sushh-in!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Asgjë, shpresoj të të pëlqejë 😀</string>
 </resources>
