@@ -41,6 +41,25 @@ android {
 		testInstrumentationRunnerArguments disableAnalytics: 'true'
 	}
 
+	def keystoreProperties = new Properties()
+	def keystorePropertiesFile = rootProject.file('keystore.properties')
+	if (keystorePropertiesFile.exists()) {
+		keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+	}
+
+	def releaseStorePassword = System.getenv('ANDROID_RELEASE_STORE_PASSWORD') ?: keystoreProperties['storePassword']
+	def releaseKeyAlias = System.getenv('ANDROID_RELEASE_KEY_ALIAS') ?: keystoreProperties['keyAlias'] ?: 'release'
+	def releaseKeyPassword = System.getenv('ANDROID_RELEASE_KEY_PASSWORD') ?: keystoreProperties['keyPassword']
+
+	signingConfigs {
+		release {
+			storeFile file("../release-key.jks")
+			storePassword releaseStorePassword
+			keyAlias releaseKeyAlias
+			keyPassword releaseKeyPassword
+		}
+	}
+
 	buildTypes {
 		debug {
 			applicationIdSuffix ".debug"
@@ -51,6 +70,7 @@ android {
 			testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt', 'proguard-test.txt'
 		}
 		release {
+			signingConfig signingConfigs.release
 			shrinkResources false
 			minifyEnabled true
 			crunchPngs false

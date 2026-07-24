@@ -32,10 +32,20 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
 
+      - name: Prepare release keystore
+        run: |
+          echo "$ANDROID_RELEASE_KEYSTORE_BASE64" | base64 --decode > release-key.jks
+        env:
+          ANDROID_RELEASE_KEYSTORE_BASE64: ${{ secrets.ANDROID_RELEASE_KEYSTORE_BASE64 }}
+
       - name: Build official debug APK
         run: ./gradlew --no-daemon :briar-android:assembleOfficialDebug
 
       - name: Build official release APK
+        env:
+          ANDROID_RELEASE_STORE_PASSWORD: ${{ secrets.ANDROID_RELEASE_STORE_PASSWORD }}
+          ANDROID_RELEASE_KEY_ALIAS: ${{ secrets.ANDROID_RELEASE_KEY_ALIAS }}
+          ANDROID_RELEASE_KEY_PASSWORD: ${{ secrets.ANDROID_RELEASE_KEY_PASSWORD }}
         run: ./gradlew --no-daemon :briar-android:assembleOfficialRelease
 
       - name: Prepare APK artifacts
