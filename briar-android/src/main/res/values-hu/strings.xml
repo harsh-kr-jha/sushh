@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">Köszöntünk a Briar-ban</string>
+  <string name="setup_title">Köszöntünk a Sushh-ban</string>
   <string name="setup_name_explanation">A beceneved fog megjelenni minden tartalom mellett amit megosztottál. Nem tudod megváltoztatni a fiók létrehozása után.</string>
   <string name="setup_next">Következő</string>
   <string name="setup_password_intro">Válassz egy jelszót</string>
-  <string name="setup_password_explanation">A Briar fiókod az eszközödön kerül titkosítva tárolásra, nem pedig a felhőben. Ha elfelejted a jelszavad, vagy eltávolítod a Briar-t, nincs lehetőség fiókod  visszanyerésére.\n\nVálassz egy hosszú, nehezen kitalálható jelszót, például négy tetszőleges szó vagy tíz tetszőleges betű, szám vagy szimbólum.</string>
-  <string name="dnkm_doze_intro">Az üzenetek fogadásához a Briar-nak szüksége van a háttérben csatlakozásra.</string>
-  <string name="dnkm_doze_explanation">Az üzenetek fogadásához a Briarnak szüksége van háttérben csatlakozásra. Kérjük tiltsa le az akkumulátor optimalizációt, így a Briar kapcsolatban tud maradni.</string>
+  <string name="setup_password_explanation">A Sushh fiókod az eszközödön kerül titkosítva tárolásra, nem pedig a felhőben. Ha elfelejted a jelszavad, vagy eltávolítod a Sushh-t, nincs lehetőség fiókod  visszanyerésére.\n\nVálassz egy hosszú, nehezen kitalálható jelszót, például négy tetszőleges szó vagy tíz tetszőleges betű, szám vagy szimbólum.</string>
+  <string name="dnkm_doze_intro">Az üzenetek fogadásához a Sushh-nak szüksége van a háttérben csatlakozásra.</string>
+  <string name="dnkm_doze_explanation">Az üzenetek fogadásához a Sushhnak szüksége van háttérben csatlakozásra. Kérjük tiltsa le az akkumulátor optimalizációt, így a Sushh kapcsolatban tud maradni.</string>
   <string name="choose_nickname">Felhasználónév választása</string>
   <string name="choose_password">Jelszó választása</string>
   <string name="confirm_password">Jelszó megerősítése</string>
@@ -17,42 +17,42 @@
   <string name="create_account_button">Fiók létrehozása</string>
   <string name="more_info">További információ</string>
   <string name="don_t_ask_again">Ne kérdezze még egyszer</string>
-  <string name="dnkm_huawei_protected_text">Kérjük koppintson a gombra alább és ellenőrizze, hogy a Briar védett, a \"Védett alkalmazások\" képernyőn.</string>
-  <string name="dnkm_huawei_protected_button">A Briar védelme</string>
-  <string name="dnkm_huawei_protected_help">Ha Briar nincs hozzáadva a védett alkalmazások listájához, akkor nem képes futni a háttérben.</string>
-  <string name="dnkm_huawei_app_launch_text">Kérjük koppintson a gombra alább, hogy megnyissa az \"App indítás\" képernyőt és ellenőrizze, hogy a Briar beállított  \"Kézi kezelés\"-re.</string>
-  <string name="dnkm_huawei_app_launch_help">Ha a Briar nincs beállítva \"Kézi kezelés\"-re az \"App indítás\" képernyőn, nem fog tudni futni a háttérben.</string>
-  <string name="dnkm_xiaomi_text">Ahhoz, hogy a háttérben fusson, a Briar-t rögzíteni kell a legutóbbi appok listáján.</string>
-  <string name="dnkm_xiaomi_button">A Briar védelme</string>
-  <string name="dnkm_xiaomi_help">Ha Briar nincs rögzítve a legutóbbi appok listájában, akkor nem képes futni a háttérben.</string>
-  <string name="dnkm_xiaomi_dialog_body_old">1. Nyissa meg a legutolsó appok listáját (másnéven az app váltót)\n\n2. Görgessen le a Briar képén, hogy megjelenjen a lakat ikon\n\n3. Ha a lakat nem zárt, koppintson a lezárásához</string>
-  <string name="dnkm_xiaomi_dialog_body_new">1. Nyissa meg a legutóbbi alkalmazások listáját (alkalmazásváltónak is nevezik) 2. Ha Briar neve mellett van egy kis lakat képe, akkor nem kell semmit tennie 3. Ha nincs lakat, nyomja meg és tartsa lenyomva Briar képét, amíg meg nem jelenik a lakat gomb, majd koppintson rá</string>
-  <string name="dnkm_xiaomi_lock_apps_text">Kérjük, érintse meg az alábbi gombot a biztonsági beállítások megnyitásához. Koppintson a „Sebességnövelésre”, majd az „Alkalmazások zárolása” elemre, és győződjön meg arról, hogy a Briar beállítása „Zárolva”.</string>
-  <string name="dnkm_xiaomi_lock_apps_help">Ha a Briar az „Alkalmazások zárolása” képernyőn nincs „Zárolva”, nem tud a háttérben futni.</string>
-  <string name="dnkm_warning_dozed_1">A Briar nem tudott a háttérben futni</string>
+  <string name="dnkm_huawei_protected_text">Kérjük koppintson a gombra alább és ellenőrizze, hogy a Sushh védett, a \"Védett alkalmazások\" képernyőn.</string>
+  <string name="dnkm_huawei_protected_button">A Sushh védelme</string>
+  <string name="dnkm_huawei_protected_help">Ha Sushh nincs hozzáadva a védett alkalmazások listájához, akkor nem képes futni a háttérben.</string>
+  <string name="dnkm_huawei_app_launch_text">Kérjük koppintson a gombra alább, hogy megnyissa az \"App indítás\" képernyőt és ellenőrizze, hogy a Sushh beállított  \"Kézi kezelés\"-re.</string>
+  <string name="dnkm_huawei_app_launch_help">Ha a Sushh nincs beállítva \"Kézi kezelés\"-re az \"App indítás\" képernyőn, nem fog tudni futni a háttérben.</string>
+  <string name="dnkm_xiaomi_text">Ahhoz, hogy a háttérben fusson, a Sushh-t rögzíteni kell a legutóbbi appok listáján.</string>
+  <string name="dnkm_xiaomi_button">A Sushh védelme</string>
+  <string name="dnkm_xiaomi_help">Ha Sushh nincs rögzítve a legutóbbi appok listájában, akkor nem képes futni a háttérben.</string>
+  <string name="dnkm_xiaomi_dialog_body_old">1. Nyissa meg a legutolsó appok listáját (másnéven az app váltót)\n\n2. Görgessen le a Sushh képén, hogy megjelenjen a lakat ikon\n\n3. Ha a lakat nem zárt, koppintson a lezárásához</string>
+  <string name="dnkm_xiaomi_dialog_body_new">1. Nyissa meg a legutóbbi alkalmazások listáját (alkalmazásváltónak is nevezik) 2. Ha Sushh neve mellett van egy kis lakat képe, akkor nem kell semmit tennie 3. Ha nincs lakat, nyomja meg és tartsa lenyomva Sushh képét, amíg meg nem jelenik a lakat gomb, majd koppintson rá</string>
+  <string name="dnkm_xiaomi_lock_apps_text">Kérjük, érintse meg az alábbi gombot a biztonsági beállítások megnyitásához. Koppintson a „Sebességnövelésre”, majd az „Alkalmazások zárolása” elemre, és győződjön meg arról, hogy a Sushh beállítása „Zárolva”.</string>
+  <string name="dnkm_xiaomi_lock_apps_help">Ha a Sushh az „Alkalmazások zárolása” képernyőn nincs „Zárolva”, nem tud a háttérben futni.</string>
+  <string name="dnkm_warning_dozed_1">A Sushh nem tudott a háttérben futni</string>
   <!--Login-->
   <string name="enter_password">Jelszó</string>
   <string name="try_again">Hibás jelszó, próbáld újra</string>
   <string name="dialog_title_cannot_check_password">A jelszót nem sikerült ellenőrizni</string>
-  <string name="dialog_message_cannot_check_password">A Briar nem tudta ellenőrizni jelszavad. Kérjük indítsd újra az eszközöd a probléma megoldásához.</string>
+  <string name="dialog_message_cannot_check_password">A Sushh nem tudta ellenőrizni jelszavad. Kérjük indítsd újra az eszközöd a probléma megoldásához.</string>
   <string name="sign_in_button">Bejelentkezés</string>
   <string name="dialog_title_lost_password">Elveszett jelszó</string>
-  <string name="dialog_message_lost_password">A Briar fiókod az eszközödön kerül titkosítva tárolásra, nem a felhőben. Ha elfelejted a jelszavad, vagy eltávolítod a Briar-t, nincs lehetőség fiókod  visszanyerésére.\n\nVálassz egy hosszú, nehezen kitalálható jelszót, például négy tetszőleges szó vagy tíz tetszőleges betű, szám vagy szimbólum.</string>
-  <string name="startup_failed_activity_title">Briar indítási hiba</string>
-  <string name="startup_failed_clock_error">A Briar nem tud elindulni, mert az eszköz órája nem megfelelően jár.\n\nKérjük állítsd be az eszköz óráját a megfelelő időre és próbálja újra.</string>
-  <string name="startup_failed_db_error">Briar nem tudta megnyitni az Ön fiókját, névjegyeit és üzeneteit tartalmazó adatbázist. Kérjük, frissítsen az alkalmazás legújabb verziójára, és próbálja újra, vagy hozzon létre új fiókot az „Elfelejtettem a jelszavam” lehetőség kiválasztásával a jelszó kérése.</string>
+  <string name="dialog_message_lost_password">A Sushh fiókod az eszközödön kerül titkosítva tárolásra, nem a felhőben. Ha elfelejted a jelszavad, vagy eltávolítod a Sushh-t, nincs lehetőség fiókod  visszanyerésére.\n\nVálassz egy hosszú, nehezen kitalálható jelszót, például négy tetszőleges szó vagy tíz tetszőleges betű, szám vagy szimbólum.</string>
+  <string name="startup_failed_activity_title">Sushh indítási hiba</string>
+  <string name="startup_failed_clock_error">A Sushh nem tud elindulni, mert az eszköz órája nem megfelelően jár.\n\nKérjük állítsd be az eszköz óráját a megfelelő időre és próbálja újra.</string>
+  <string name="startup_failed_db_error">Sushh nem tudta megnyitni az Ön fiókját, névjegyeit és üzeneteit tartalmazó adatbázist. Kérjük, frissítsen az alkalmazás legújabb verziójára, és próbálja újra, vagy hozzon létre új fiókot az „Elfelejtettem a jelszavam” lehetőség kiválasztásával a jelszó kérése.</string>
   <string name="startup_failed_data_too_old_error">Fiókja ennek az alkalmazásnak egy régi verziójával jött létre, és ezzel a verzióval nem nyitható meg. Újra kell telepítenie a régi verziót, vagy be kell állítania egy új fiókot az „Elfelejtettem a jelszavam” lehetőség kiválasztásával a jelszókérőnél.</string>
   <string name="startup_failed_data_too_new_error">Fiókja az alkalmazás újabb verziójával jött létre, és ezzel a verzióval nem nyitható meg. Kérjük, frissítsen a legújabb verzióra, és próbálja újra.</string>
-  <string name="startup_failed_service_error">Briar nem tudott elindítani egy szükséges összetevőt. Kérjük, frissítsen az alkalmazás legújabb verziójára, és próbálja újra.</string>
+  <string name="startup_failed_service_error">Sushh nem tudott elindítani egy szükséges összetevőt. Kérjük, frissítsen az alkalmazás legújabb verziójára, és próbálja újra.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Ez a teszt verziója a Briar-nak. A fiókja le fog járni %d napon belül és nem megújítható.</item>
-    <item quantity="other">Ez a teszt verziója a Briar-nak. A fiókod le fog járni %d napon belül és nem megújítható.</item>
+    <item quantity="one">Ez a teszt verziója a Sushh-nak. A fiókja le fog járni %d napon belül és nem megújítható.</item>
+    <item quantity="other">Ez a teszt verziója a Sushh-nak. A fiókod le fog járni %d napon belül és nem megújítható.</item>
   </plurals>
   <string name="expiry_date_reached">Ez a szoftver lejárt.\nKöszönjük a tesztelését!</string>
-  <string name="download_briar">A Briar használatának folytatásához kérjük töltsd le a legújabb verziót.</string>
+  <string name="download_briar">A Sushh használatának folytatásához kérjük töltsd le a legújabb verziót.</string>
   <string name="create_new_account">Új fiókot kell létrehoznod, de használhatod ugyanazt a becenevet.</string>
   <string name="download_briar_button">Legújabb verzió letöltése</string>
-  <string name="old_android_expiry_date_reached">A Briar már nem fut Android 4 rendszeren. Kérjük, telepítse a Briart egy újabb eszközre.</string>
+  <string name="old_android_expiry_date_reached">A Sushh már nem fut Android 4 rendszeren. Kérjük, telepítse a Sushht egy újabb eszközre.</string>
   <string name="old_android_delete_account">Az alábbi gombra koppintva törölheti fiókját erről az eszközről.</string>
   <string name="delete_account_button">Fiók törlése</string>
   <string name="startup_open_database">Adatbázis dekódolása...</string>
@@ -75,37 +75,37 @@
   <string name="tor_device_status_online_wifi">A telefonja Internet hozzáféréssel rendelkezik Wi-Fi-n keresztül</string>
   <string name="tor_device_status_online_mobile">A telefonja Internet hozzáféréssel rendelkezik mobil hálózaton keresztül</string>
   <string name="tor_device_status_offline">A telefonja nem rendelkezik Internet hozzáféréssel</string>
-  <string name="tor_plugin_status_enabling">A Briar csatlakozik az Internethez</string>
-  <string name="tor_plugin_status_active">A Briar csatlakoztatva az Internethez</string>
-  <string name="tor_plugin_status_inactive">A Briar nem tud csatlakozni az Internethez</string>
-  <string name="tor_plugin_status_disabled">A Briar Internet nélküli használatra van beállítva</string>
-  <string name="tor_plugin_status_disabled_mobile_data">A Briar mobil hálózat nélküli használatra van beállítva</string>
-  <string name="tor_plugin_status_disabled_battery">A Briar úgy van beállítva, hogy ne használjon Internetet, ha akkumulátorról megy a telefon</string>
-  <string name="tor_plugin_status_disabled_country_blocked">A Briar úgy van beállítva, hogy ne használjon Internetet ebben az országban</string>
+  <string name="tor_plugin_status_enabling">A Sushh csatlakozik az Internethez</string>
+  <string name="tor_plugin_status_active">A Sushh csatlakoztatva az Internethez</string>
+  <string name="tor_plugin_status_inactive">A Sushh nem tud csatlakozni az Internethez</string>
+  <string name="tor_plugin_status_disabled">A Sushh Internet nélküli használatra van beállítva</string>
+  <string name="tor_plugin_status_disabled_mobile_data">A Sushh mobil hálózat nélküli használatra van beállítva</string>
+  <string name="tor_plugin_status_disabled_battery">A Sushh úgy van beállítva, hogy ne használjon Internetet, ha akkumulátorról megy a telefon</string>
+  <string name="tor_plugin_status_disabled_country_blocked">A Sushh úgy van beállítva, hogy ne használjon Internetet ebben az országban</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Wi-Fi</string>
   <string name="transport_lan_long">Azonos Wi-Fi hálózat</string>
   <string name="lan_device_status_on">A telefonod Wi-Fi-hez csatlakoztatott.</string>
   <string name="lan_device_status_off">A telefonod Wi-Fi-hez nem csatlakoztatott.</string>
-  <string name="lan_plugin_status_enabling">A Briar csatlakozik a Wi-Fi hálózathoz</string>
-  <string name="lan_plugin_status_active">A Briar csatlakoztatva a Wi-Fi hálózathoz</string>
-  <string name="lan_plugin_status_inactive">A Briar nem tud csatlakozni a Wi-Fi hálózathoz</string>
-  <string name="lan_plugin_status_disabled">A Briar Wi-Fi nélküli használatra van beállítva</string>
+  <string name="lan_plugin_status_enabling">A Sushh csatlakozik a Wi-Fi hálózathoz</string>
+  <string name="lan_plugin_status_active">A Sushh csatlakoztatva a Wi-Fi hálózathoz</string>
+  <string name="lan_plugin_status_inactive">A Sushh nem tud csatlakozni a Wi-Fi hálózathoz</string>
+  <string name="lan_plugin_status_disabled">A Sushh Wi-Fi nélküli használatra van beállítva</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">A telefonod Bluetooth-ja bekapcsolva</string>
   <string name="bt_device_status_off">A telefonod Bluetooth-ja kikapcsolva</string>
-  <string name="bt_plugin_status_enabling">A Briar csatlakozik a Bluetooth-hoz</string>
-  <string name="bt_plugin_status_active">A Briar csatlakoztatva a Bluetooth-hoz</string>
-  <string name="bt_plugin_status_inactive">A Briar nem tud csatlakozni a Bluetooth-hoz</string>
-  <string name="bt_plugin_status_disabled">A Briar Bluetooth nélküli használatra van beállítva</string>
+  <string name="bt_plugin_status_enabling">A Sushh csatlakozik a Bluetooth-hoz</string>
+  <string name="bt_plugin_status_active">A Sushh csatlakoztatva a Bluetooth-hoz</string>
+  <string name="bt_plugin_status_inactive">A Sushh nem tud csatlakozni a Bluetooth-hoz</string>
+  <string name="bt_plugin_status_disabled">A Sushh Bluetooth nélküli használatra van beállítva</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Kilépve a Briar-ból</string>
+  <string name="reminder_notification_title">Kilépve a Sushh-ból</string>
   <string name="reminder_notification_text">Koppints az újra belépéshez.</string>
-  <string name="reminder_notification_channel_title">Briar Belépési emlékeztető</string>
+  <string name="reminder_notification_channel_title">Sushh Belépési emlékeztető</string>
   <string name="reminder_notification_dismiss">Kihagy</string>
-  <string name="ongoing_notification_title">Belépve a Briar-ba</string>
-  <string name="ongoing_notification_text">Érintsd meg a Briar megnyitásához.</string>
+  <string name="ongoing_notification_title">Belépve a Sushh-ba</string>
+  <string name="ongoing_notification_text">Érintsd meg a Sushh megnyitásához.</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Új privát üzenet.</item>
     <item quantity="other">%d új privát üzenet.</item>
@@ -216,7 +216,7 @@ Biztosan szeretné menteni?</string>
   <string name="save_image_success">Kép mentve</string>
   <string name="save_image_error">Sikertelen kép mentés</string>
   <string name="dialog_title_no_image_support">Képek nem elérhetők</string>
-  <string name="dialog_message_no_image_support">A Briar kapcsolata nem támogatja a kép csatolmányokat. Ha frissített, akkor más ikont fog látni.</string>
+  <string name="dialog_message_no_image_support">A Sushh kapcsolata nem támogatja a kép csatolmányokat. Ha frissített, akkor más ikont fog látni.</string>
   <string name="dialog_title_image_support">Most már küldhet képeket a kapcsolatainak</string>
   <string name="dialog_message_image_support">Koppintson az ikonra képek csatolásához.</string>
   <string name="messaging_too_many_attachments_toast">Csak az első %d kép kerül küldésre</string>
@@ -233,8 +233,8 @@ Biztosan szeretné menteni?</string>
   <string name="contact_already_exists">%s kapcsolat már létezik</string>
   <string name="contact_already_exists_general">A kapcsolat már létezik</string>
   <string name="qr_code_invalid">A QR kód érvénytelen</string>
-  <string name="qr_code_too_old_1">A beolvasott QR-kód a Briar egy régebbi verziójából származik. Kérje meg kapcsolattartóját, hogy frissítsen a legújabb verzióra, majd próbálja újra.</string>
-  <string name="qr_code_too_new_1">A beolvasott QR-kód a Briar egy régebbi verziójából származik. Kérje meg kapcsolattartóját, hogy frissítsen a legújabb verziót, majd próbálja újra.</string>
+  <string name="qr_code_too_old_1">A beolvasott QR-kód a Sushh egy régebbi verziójából származik. Kérje meg kapcsolattartóját, hogy frissítsen a legújabb verzióra, majd próbálja újra.</string>
+  <string name="qr_code_too_new_1">A beolvasott QR-kód a Sushh egy régebbi verziójából származik. Kérje meg kapcsolattartóját, hogy frissítsen a legújabb verziót, majd próbálja újra.</string>
   <string name="camera_error">Kamera hiba</string>
   <string name="connecting_to_device">Csatlakozás az eszközhöz\u2026</string>
   <string name="authenticating_with_device">Azonosítás az eszközzel\u2026</string>
@@ -256,7 +256,7 @@ Biztosan szeretné menteni?</string>
   <string name="add_contact_choose_a_nickname">Becenév megadása</string>
   <string name="nickname_intro">Add meg a kapcsolatod becenevét. Csak te látod.</string>
   <string name="your_link">Adja oda ezt a linket annak a kapcsolatának, akit hozzá szeretne adni</string>
-  <string name="link_clip_label">Briar link</string>
+  <string name="link_clip_label">Sushh link</string>
   <string name="link_copied_toast">Link másolva</string>
   <string name="adding_contact_error">Hiba történt a kapcsolat hozzáadásakor.</string>
   <string name="pending_contact_requests_snackbar">Vannak még folyamatban lévő kérelmek</string>
@@ -271,7 +271,7 @@ Biztosan szeretné menteni?</string>
   <string name="own_link_error">A kapcsolata linkjét adja meg, ne a sajátját</string>
   <string name="nickname_missing">Kérjük adjon meg becenevet</string>
   <string name="invalid_link">Érvénytelen link</string>
-  <string name="unsupported_link">Ez a link a Briar újabb verziójából származik.
+  <string name="unsupported_link">Ez a link a Sushh újabb verziójából származik.
 Kérjük frissítsen a legutolsó verzióra és próbálja újra.</string>
   <string name="intent_own_link">A saját linkjét nyitotta meg. Használja a kapcsolatától kapottat a hozzáadáshoz!</string>
   <string name="missing_link">Kérjük adja meg a linket</string>
@@ -307,7 +307,7 @@ Kérjük frissítsen a legutolsó verzióra és próbálja újra.</string>
   <string name="peer_trust_level_stranger">Idegen</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Kapcsolatai bemutatása</string>
-  <string name="introduction_onboarding_text">Mutassa be ismerőseit egymásnak, hogy csatlakozhassanak a Briarhez.</string>
+  <string name="introduction_onboarding_text">Mutassa be ismerőseit egymásnak, hogy csatlakozhassanak a Sushhhez.</string>
   <string name="introduction_menu_item">Bemutatkozás készítése</string>
   <string name="introduction_activity_title">Kapcsolat kiválasztása</string>
   <string name="introduction_not_possible">Jelenleg folyamatban van egy bemutatkozása ezekkel a kapcsolatokkal. Kérjük tegye lehetővé előbb ezek befejeződését. Ha a kapcsolatai ritkán vannak online, ez több időt is igénybe vehet.</string>
@@ -508,7 +508,7 @@ Kapcsolataid, akivel megosztottad ezt a blogot, lehet nem kapnak többé frissí
   <string name="change_profile_picture_failed_message">Sajnáljuk, de valami hiba történt a profil kép frissítése során</string>
   <!--Settings Display-->
   <string name="pref_language_title">Nyelv és régió</string>
-  <string name="pref_language_changed">Ez a beállítás a Briar újraindítása után lép életbe.  Kérjük lépjen ki és indítsa újra a Briar-t.</string>
+  <string name="pref_language_changed">Ez a beállítás a Sushh újraindítása után lép életbe.  Kérjük lépjen ki és indítsa újra a Sushh-t.</string>
   <string name="pref_language_default">Rendszer alapértelmezett</string>
   <string name="display_settings_title">Megjelenítés</string>
   <string name="pref_theme_title">Téma</string>
@@ -526,7 +526,7 @@ Kapcsolataid, akivel megosztottad ezt a blogot, lehet nem kapnak többé frissí
   <string name="tor_network_setting_without_bridges">Tor hálózat használata hidak nélkül</string>
   <string name="tor_network_setting_with_bridges">Tor hálózat használata hidakkal</string>
   <string name="tor_network_setting_never">Ne csatlakozzon az internethez</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Automatikus: %1$s ( %2$s)</string>
   <string name="tor_mobile_data_title">Mobil adat használata</string>
   <string name="tor_only_when_charging_title">Csatlakozás az internethez csak töltés alatt</string>
@@ -534,11 +534,11 @@ Kapcsolataid, akivel megosztottad ezt a blogot, lehet nem kapnak többé frissí
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Biztonság</string>
   <string name="pref_lock_title">App zár</string>
-  <string name="pref_lock_summary">Az eszköz képernyő zárának használata a Briar védelmére, ha be van jelentkezve</string>
+  <string name="pref_lock_summary">Az eszköz képernyő zárának használata a Sushh védelmére, ha be van jelentkezve</string>
   <string name="pref_lock_disabled_summary">Ahhoz, hogy használni tudja ezt az opciót, állítson be zárképernyőt az eszközén</string>
   <string name="pref_lock_timeout_title">App zár inaktivítási idő</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Ha nem használja a Briar-t, automatikusan zárol %s után</string>
+  <string name="pref_lock_timeout_summary">Ha nem használja a Sushh-t, automatikusan zárol %s után</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 perc</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -550,7 +550,7 @@ Kapcsolataid, akivel megosztottad ezt a blogot, lehet nem kapnak többé frissí
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 óra</string>
   <string name="pref_lock_timeout_never">Soha</string>
-  <string name="pref_lock_timeout_never_summary">Soha ne zárja le a Briar-t automatikusan</string>
+  <string name="pref_lock_timeout_never_summary">Soha ne zárja le a Sushh-t automatikusan</string>
   <string name="change_password">Jelszó módosítása</string>
   <string name="current_password">Aktuális jelszó</string>
   <string name="choose_new_password">Új jelszó</string>
@@ -558,7 +558,7 @@ Kapcsolataid, akivel megosztottad ezt a blogot, lehet nem kapnak többé frissí
   <string name="password_changed">A jelszó megváltozott</string>
   <string name="panic_setting">Pánikgomb beállítás</string>
   <string name="panic_setting_title">Pánikgomb</string>
-  <string name="panic_setting_hint">A Briar beállítása hogyan reagáljon arra, ha megnyomja a Pánik gomb alkalmazást</string>
+  <string name="panic_setting_hint">A Sushh beállítása hogyan reagáljon arra, ha megnyomja a Pánik gomb alkalmazást</string>
   <string name="panic_app_setting_title">Pánik gomb App</string>
   <string name="unknown_app">Egy ismeretlen alkalmazás</string>
   <string name="panic_app_setting_summary">Nincs alkalmazás beállítva még</string>
@@ -567,9 +567,9 @@ Kapcsolataid, akivel megosztottad ezt a blogot, lehet nem kapnak többé frissí
   <string name="dialog_message_connect_panic_app">Biztos benne, hogy szeretné, hogy %1$s kiválthasson destruktív pánik gomb műveleteket?</string>
   <string name="panic_setting_destructive_action">Romboló műveletek</string>
   <string name="panic_setting_signout_title">Kijelentkezés</string>
-  <string name="panic_setting_signout_summary">Kilépés a Briar-ból a pánik gomb megnyomásakor</string>
+  <string name="panic_setting_signout_summary">Kilépés a Sushh-ból a pánik gomb megnyomásakor</string>
   <string name="purge_setting_title">Fiók törlése</string>
-  <string name="purge_setting_summary">A Briar fiók törlése a pánik gomb megnyomásakor.
+  <string name="purge_setting_summary">A Sushh fiók törlése a pánik gomb megnyomásakor.
 Vigyázat: Ez végleg törli az identitásait, kapcsolatait és üzeneteit</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Értesítések</string>
@@ -596,33 +596,33 @@ Vigyázat: Ez végleg törli az identitásait, kapcsolatait és üzeneteit</stri
   <!--Mailbox-->
   <string name="mailbox_settings_title">Postafiók</string>
   <string name="mailbox_setup_title">Postafiók beàllítàsa</string>
-  <string name="mailbox_setup_intro">A postafiók lehetővé teszi a kapcsolatai számára, hogy üzeneteket küldjenek Önnek, miközben Ön offline állapotban van. A postafiók fogadja az üzeneteket, és tárolja őket, amíg az internethez nem kapcsolódik. Telepítheti a Briar postafiók alkalmazást egy tartalék eszközre. Tartsa csatlakoztatva az áramforráshoz és a Wi-Fi-hálózathoz, hogy mindig online legyen.</string>
+  <string name="mailbox_setup_intro">A postafiók lehetővé teszi a kapcsolatai számára, hogy üzeneteket küldjenek Önnek, miközben Ön offline állapotban van. A postafiók fogadja az üzeneteket, és tárolja őket, amíg az internethez nem kapcsolódik. Telepítheti a Sushh postafiók alkalmazást egy tartalék eszközre. Tartsa csatlakoztatva az áramforráshoz és a Wi-Fi-hálózathoz, hogy mindig online legyen.</string>
   <string name="mailbox_setup_download_link">Letöltési link megosztása</string>
   <string name="mailbox_setup_button_scan">Olvassa be a postafiók QR-kódját</string>
   <string name="permission_camera_qr_denied_body">Megtagadta a hozzáférést a kamerához, de a QR-kód beolvasásához a kamera használata szükséges. Kérjük, fontolja meg a hozzáférés megadását.</string>
   <string name="mailbox_setup_connecting">Kapcsolódàs a postafiókhoz...</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">Ez akár%1s-ot is igénybe vehet</string>
-  <string name="mailbox_qr_code_too_old">A beolvasott QR-kód a Briar postafiók egy régebbi verziójából származik. Kérjük, frissítse a Briar postafiók a legújabb verzióra, majd próbálja újra.</string>
-  <string name="mailbox_qr_code_too_new">A beolvasott QR-kód a Briar postafiók újabb verziójából származik. Kérjük, frissítse a Briart a legújabb verzióra, majd próbálja újra.</string>
-  <string name="contact_qr_code_for_mailbox">A beolvasott QR-kód egy Briar-névjegy hozzáadására szolgál. Ha névjegyet szeretne hozzáadni, lépjen a névjegyzékbe, és koppintson a + ikonra.</string>
-  <string name="mailbox_setup_qr_code_wrong_description">A beolvasott QR-kód nem a Briar postafiókból származik.Kérjük, nyissa meg a Briar postafiók alkalmazást a postafiók eszközén, és olvassa be az abban megjelenő QR-kódot.</string>
+  <string name="mailbox_qr_code_too_old">A beolvasott QR-kód a Sushh postafiók egy régebbi verziójából származik. Kérjük, frissítse a Sushh postafiók a legújabb verzióra, majd próbálja újra.</string>
+  <string name="mailbox_qr_code_too_new">A beolvasott QR-kód a Sushh postafiók újabb verziójából származik. Kérjük, frissítse a Sushht a legújabb verzióra, majd próbálja újra.</string>
+  <string name="contact_qr_code_for_mailbox">A beolvasott QR-kód egy Sushh-névjegy hozzáadására szolgál. Ha névjegyet szeretne hozzáadni, lépjen a névjegyzékbe, és koppintson a + ikonra.</string>
+  <string name="mailbox_setup_qr_code_wrong_description">A beolvasott QR-kód nem a Sushh postafiókból származik.Kérjük, nyissa meg a Sushh postafiók alkalmazást a postafiók eszközén, és olvassa be az abban megjelenő QR-kódot.</string>
   <string name="mailbox_setup_already_paired_title">A Mailbox már linkelt</string>
   <string name="mailbox_setup_already_paired_description">Válaszd le a Mailbox-ot a másik eszközödön és próbáld újra.</string>
   <string name="mailbox_setup_io_error_title">Sikertelen a kapcsolódás</string>
   <string name="mailbox_setup_io_error_description">Ellenőrizd, hogy mindkét eszköz csatlakoztatva van-e az internethez és próbáld újra.</string>
   <string name="mailbox_setup_assertion_error_title">Postafiók hiba</string>
-  <string name="mailbox_setup_assertion_error_description">Kérjük, küldjön visszajelzést (anonim adatokkal) a Briar alkalmazáson keresztül, ha a probléma továbbra is fennáll.</string>
+  <string name="mailbox_setup_assertion_error_description">Kérjük, küldjön visszajelzést (anonim adatokkal) a Sushh alkalmazáson keresztül, ha a probléma továbbra is fennáll.</string>
   <string name="mailbox_setup_camera_error_description">Nem sikerült elérni a kamerát. Próbálja újra, talán az eszköz újraindítása után.</string>
   <string name="mailbox_setup_paired_title">Csatlakozva</string>
   <string name="tor_offline_title">Offline</string>
   <string name="tor_offline_button_check">Ellenőrizze a kapcsolat beállításait</string>
   <string name="mailbox_status_title">Postafiók állapota</string>
   <string name="mailbox_status_connected_title">A Mailbox fut</string>
-  <string name="mailbox_status_problem_title">A Briar-nak problémái vannak a Mailbox-hoz csatlakozással</string>
+  <string name="mailbox_status_problem_title">A Sushh-nak problémái vannak a Mailbox-hoz csatlakozással</string>
   <string name="mailbox_status_failure_title">A Mailbox nem elérhető</string>
-  <string name="mailbox_status_app_too_old_title">Briar túl régi</string>
-  <string name="mailbox_status_app_too_old_message">Frissísd a Briar-t a legutolsó app verzióra és próbáld újra.</string>
+  <string name="mailbox_status_app_too_old_title">Sushh túl régi</string>
+  <string name="mailbox_status_app_too_old_message">Frissísd a Sushh-t a legutolsó app verzióra és próbáld újra.</string>
   <string name="mailbox_status_mailbox_too_old_title">A Mailbox túl régi</string>
   <string name="mailbox_status_mailbox_too_old_message">Frissítsd a Mailbox-ot a legutolsó app verzióra és próbáld újra.</string>
   <string name="mailbox_status_check_button">Kapcsolat ellenőrzése</string>
@@ -633,12 +633,12 @@ Vigyázat: Ez végleg törli az identitásait, kapcsolatait és üzeneteit</stri
   <string name="mailbox_status_unlink_button">Leválasztás</string>
   <string name="mailbox_status_unlink_dialog_title">Leválassza a postafiókot?</string>
   <string name="mailbox_status_unlink_dialog_question">Biztosan szeretnéd lecsatlakoztatni a Mailbox-od?</string>
-  <string name="mailbox_status_unlink_dialog_warning">Ha leválasztod a Mailbox-od, nem fogsz tudni üzeneteket kapni amíg a Briar offline.</string>
+  <string name="mailbox_status_unlink_dialog_warning">Ha leválasztod a Mailbox-od, nem fogsz tudni üzeneteket kapni amíg a Sushh offline.</string>
   <string name="mailbox_status_unlink_no_wipe_title">A Mailbox-od lecsatlakoztatásra került</string>
   <string name="mailbox_status_unlink_no_wipe_message">Ha legközelebb hozzáfér postafiókjához, nyissa meg a postafiók alkalmazást, és érintse meg a „Leválasztás” gombot a folyamat befejezéséhez. Ha már nem fér hozzá postafiókjához, ne aggódjon. Adatai titkosítva vannak, így akkor is biztonságban maradnak, ha nem fejezi be a folyamatot.</string>
   <string name="mailbox_status_unlink_success">A Mailbox-od lecsatlakoztatásra került</string>
-  <string name="mailbox_error_notification_channel_title">Briar Mailbox probléma</string>
-  <string name="mailbox_error_notification_title">A Briar Mailbox nem elérhető</string>
+  <string name="mailbox_error_notification_channel_title">Sushh Mailbox probléma</string>
+  <string name="mailbox_error_notification_title">A Sushh Mailbox nem elérhető</string>
   <string name="mailbox_error_notification_text">Érintsd meg a hibajavításhoz.</string>
   <string name="mailbox_error_wizard_button">Probléma javítása</string>
   <string name="mailbox_error_wizard_title">Mailbox hibaelhárító varázsló</string>
@@ -654,11 +654,11 @@ Vigyázat: Ez végleg törli az identitásait, kapcsolatait és üzeneteit</stri
   <string name="mailbox_error_wizard_answer1_4">Azt látom, hogy \"Device offline\"</string>
   <string name="mailbox_error_wizard_info1_1_1">Kérjük válaszd le a Mailbox-ot a gombbal alább, aztán kövesd a lépéseket a Mailbox eszközön az újra csatlakoztatáshoz.</string>
   <string name="mailbox_error_wizard_info_1_1_2">Kérjük válaszd le a Mailbox-ot a gombbal alább, aztán olvasd be a QR kódot  az újra csatlakoztatáshoz.</string>
-  <string name="mailbox_error_wizard_info1_1_4">Ellenőrizze, hogy a postafiók megfelelően csatlakozik-e az internethez. Ellenőrizze, hogy a postafiók órája a megfelelő időt, dátumot és időzónát mutatja-e. Ellenőrizze, hogy a postafiók és a Briar alkalmazások frissültek-e a legújabb verzióra. Indítsa újra a postafiók és a Briar eszközöket, és próbálja újra.</string>
+  <string name="mailbox_error_wizard_info1_1_4">Ellenőrizze, hogy a postafiók megfelelően csatlakozik-e az internethez. Ellenőrizze, hogy a postafiók órája a megfelelő időt, dátumot és időzónát mutatja-e. Ellenőrizze, hogy a postafiók és a Sushh alkalmazások frissültek-e a legújabb verzióra. Indítsa újra a postafiók és a Sushh eszközöket, és próbálja újra.</string>
   <string name="mailbox_error_wizard_info2">Kérjük gyere vissza erre  képernyőre, ha van hozzáférésed az eszközhöz.</string>
   <!--About-->
   <string name="about_title">Névjegy</string>
-  <string name="briar_version">Briar verzió: %s</string>
+  <string name="briar_version">Sushh verzió: %s</string>
   <string name="tor_version">Tor verzió: %s</string>
   <string name="links">Linkek</string>
   <string name="briar_website">\u2022 <a href="">Weboldal</a></string>
@@ -690,10 +690,10 @@ Vigyázat: Ez végleg törli az identitásait, kapcsolatait és üzeneteit</stri
   <string name="link_warning_text">Ez tudja azonosítani Önt. Gondolkodjon el arról, hogy megbízik-e a személyben, aki a linket küldte és nyissa meg azt a Tor böngészőben.</string>
   <string name="link_warning_open_link">Link megnyitása</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar összeomlási jelentés</string>
-  <string name="briar_crashed">Sajnáljuk, a Briar összeomlott</string>
+  <string name="crash_report_title">Sushh összeomlási jelentés</string>
+  <string name="briar_crashed">Sajnáljuk, a Sushh összeomlott</string>
   <string name="not_your_fault">Ez nem az Ön hibája.</string>
-  <string name="please_send_report">Kérjük segítsen nekünk a Briar-t jobbá tenni, a hibajelentés elküldésével.</string>
+  <string name="please_send_report">Kérjük segítsen nekünk a Sushh-t jobbá tenni, a hibajelentés elküldésével.</string>
   <string name="report_is_encrypted">Biztosítjuk, hogy a hibajelentés titkosított és biztonságos.</string>
   <string name="feedback_title">Visszajelzés</string>
   <string name="describe_crash">Írja le mi történt (opcionális)</string>
@@ -718,72 +718,72 @@ Vigyázat: Ez végleg törli az identitásait, kapcsolatait és üzeneteit</stri
   <string name="close">Bezár</string>
   <string name="dev_report_sending">Visszajelzés küldése...</string>
   <string name="dev_report_sent">Visszajelzés elküldve</string>
-  <string name="dev_report_saved">A jelentés mentve. Elküldésre kerül akkor, amikor legközelebb bejelentkezik a Briar-ba.</string>
+  <string name="dev_report_saved">A jelentés mentve. Elküldésre kerül akkor, amikor legközelebb bejelentkezik a Sushh-ba.</string>
   <string name="dev_report_error">Hiba: Riport küldése sikertelen</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Kilépés a Briar-ból...</string>
+  <string name="progress_title_logout">Kilépés a Sushh-ból...</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Képernyő felülírás észlelve </string>
-  <string name="screen_filter_body">Egy másik app a Briar tetejére rajzol. A biztonsága védelme érdekében a Briar nem válaszol az érintésre, ha egy másik app rajzol a tetejére.\n\nA következő app lehet, ami a tetejére rajzol:\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">Egy másik app a Briar tetejére rajzol. A biztonsága védelme érdekében a Briar nem válaszol az érintésre, ha egy másik app rajzol a tetejére.\n\nTekintsd át az appokat, hogy megtaláld az ezért felelőst.</string>
+  <string name="screen_filter_body">Egy másik app a Sushh tetejére rajzol. A biztonsága védelme érdekében a Sushh nem válaszol az érintésre, ha egy másik app rajzol a tetejére.\n\nA következő app lehet, ami a tetejére rajzol:\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">Egy másik app a Sushh tetejére rajzol. A biztonsága védelme érdekében a Sushh nem válaszol az érintésre, ha egy másik app rajzol a tetejére.\n\nTekintsd át az appokat, hogy megtaláld az ezért felelőst.</string>
   <string name="screen_filter_allow">Az appok engedélyezése a felé rajzolásra</string>
   <string name="screen_filter_review_apps">Appok áttekintése</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Kamera jogosultságok</string>
-  <string name="permission_camera_request_body">A QR kód olvasáshoz a Briar-nak szüksége van kamera hozzáférésre.</string>
+  <string name="permission_camera_request_body">A QR kód olvasáshoz a Sushh-nak szüksége van kamera hozzáférésre.</string>
   <string name="permission_location_title">Hely engedélyek</string>
   <string name="permission_nearby_devices_title">Közeli eszközök engedélye</string>
-  <string name="permission_location_request_body">A Bluetooth eszközök észleléséhez a Briar-nak szükségve van a lokációhoz hozzáférésre.\n\nA Briar nem tárolja lokációját vagy ossza meg bárkivel.</string>
+  <string name="permission_location_request_body">A Bluetooth eszközök észleléséhez a Sushh-nak szükségve van a lokációhoz hozzáférésre.\n\nA Sushh nem tárolja lokációját vagy ossza meg bárkivel.</string>
   <string name="permission_camera_location_title">Kamera és lokáció</string>
-  <string name="permission_camera_location_request_body">A QR kód beszkenneléséhez a Briar-nak szüksége van a Kamerához hozzáférésre.\n\nA Bluetooth eszközök észleléséhez a Briar-nak szükségve van a lokációhoz hozzáférésre.\n\nA Briar nem tárolja lokációját vagy ossza meg bárkivel.</string>
+  <string name="permission_camera_location_request_body">A QR kód beszkenneléséhez a Sushh-nak szüksége van a Kamerához hozzáférésre.\n\nA Bluetooth eszközök észleléséhez a Sushh-nak szükségve van a lokációhoz hozzáférésre.\n\nA Sushh nem tárolja lokációját vagy ossza meg bárkivel.</string>
   <string name="permission_camera_bluetooth_title">Kamera és közeli eszközök</string>
-  <string name="permission_camera_bluetooth_request_body">A QR-kód beolvasásához Briarnak hozzá kell férnie a kamerához. A Bluetooth-eszközök felfedezéséhez Briarnak engedélyre van szüksége a közeli eszközök megkereséséhez és azokhoz való csatlakozáshoz.</string>
+  <string name="permission_camera_bluetooth_request_body">A QR-kód beolvasásához Sushhnak hozzá kell férnie a kamerához. A Bluetooth-eszközök felfedezéséhez Sushhnak engedélyre van szüksége a közeli eszközök megkereséséhez és azokhoz való csatlakozáshoz.</string>
   <string name="permission_camera_denied_body">Megtiltotta hozzáférést a kamerához, de a kapcsolatok hozzáadásához szükséges a kamera.\n\nKérjük gondolja meg a jog megadását.</string>
-  <string name="permission_location_denied_body">Megtiltotta hozzáférést a helyhez, azonban a Briar-nak szüksége van erre, hogy detektálja a Bluetooth eszközöket.\n\nKérjük gondolja meg a jog megadását.</string>
+  <string name="permission_location_denied_body">Megtiltotta hozzáférést a helyhez, azonban a Sushh-nak szüksége van erre, hogy detektálja a Bluetooth eszközöket.\n\nKérjük gondolja meg a jog megadását.</string>
   <string name="permission_location_setting_title">Hely beállítás</string>
   <string name="permission_location_setting_body">Az eszköze hely beállításai be kell kapcsolva legyenek, hogy megtaláljon más eszközöket Bluetooth-on. Kérjük engedélyezze a folytatáshoz. Utána újra letilthatja.</string>
   <string name="permission_location_setting_hotspot_body">Wi-Fi hotspot létrehozásához az eszköz helybeállítását be kell kapcsolni. A folytatáshoz engedélyezze a helymeghatározást. Utána újra kikapcsolhatja.</string>
   <string name="permission_location_setting_button">Hely engedélyezése</string>
   <string name="permission_bluetooth_title">Közeli eszközök engedélye</string>
-  <string name="permission_bluetooth_body">A Bluetooth-kommunikáció használatához Briarnak engedélyre van szüksége a közeli eszközök megtalálásához és azokhoz való csatlakozáshoz.</string>
-  <string name="permission_bluetooth_denied_body">Megtagadta a hozzáférést a közeli eszközökhöz, de Briarnak szüksége van erre az engedélyre a Bluetooth használatához. Kérjük, fontolja meg a hozzáférés megadását.</string>
+  <string name="permission_bluetooth_body">A Bluetooth-kommunikáció használatához Sushhnak engedélyre van szüksége a közeli eszközök megtalálásához és azokhoz való csatlakozáshoz.</string>
+  <string name="permission_bluetooth_denied_body">Megtagadta a hozzáférést a közeli eszközökhöz, de Sushhnak szüksége van erre az engedélyre a Bluetooth használatához. Kérjük, fontolja meg a hozzáférés megadását.</string>
   <string name="qr_code">QR kód</string>
   <string name="show_qr_code_fullscreen">A QR kód teljes képernyősen</string>
   <!--App Locking-->
-  <string name="lock_unlock">Briar feloldása</string>
-  <string name="lock_unlock_verbose">Adja meg az eszköz PIN-t, jelszó mintát vagy jelszót a Briar feloldásához</string>
+  <string name="lock_unlock">Sushh feloldása</string>
+  <string name="lock_unlock_verbose">Adja meg az eszköz PIN-t, jelszó mintát vagy jelszót a Sushh feloldásához</string>
   <string name="lock_unlock_fingerprint_description">Érintse meg az ujjlenyomat olvasót a regisztrált ujjával a folytatáshoz</string>
   <string name="lock_unlock_password">Jelszó használata</string>
-  <string name="lock_is_locked">A Briar zárolt</string>
+  <string name="lock_is_locked">A Sushh zárolt</string>
   <string name="lock_tap_to_unlock">Koppintson a zárolás feloldásához</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">A Briar Interneten, Wi-Fi-n vagy Bluetooth-on keresztül csatlakozhat kapcsolataihoz.\n\nAz összes internetkapcsolat a Tor hálózaton megy keresztül megy az adatvédelem érdekében.\n\nHa egy kapcsolatot több módszerrel is el lehet érni, Briar párhuzamosan használja azokat.</string>
+  <string name="transports_help_text">A Sushh Interneten, Wi-Fi-n vagy Bluetooth-on keresztül csatlakozhat kapcsolataihoz.\n\nAz összes internetkapcsolat a Tor hálózaton megy keresztül megy az adatvédelem érdekében.\n\nHa egy kapcsolatot több módszerrel is el lehet érni, Sushh párhuzamosan használja azokat.</string>
   <!--Share app offline-->
   <string name="hotspot_title">Ossza meg ezt az alkalmazást offline</string>
   <string name="hotspot_button_start_sharing">Hotspot indítása</string>
   <string name="hotspot_button_stop_sharing">Hotspot leállítása</string>
   <string name="hotspot_progress_text_start">Hotspot beállítása…</string>
   <string name="hotspot_notification_channel_title">Wifi hotspot</string>
-  <string name="hotspot_notification_title">Briar megosztása offline állapotban</string>
+  <string name="hotspot_notification_title">Sushh megosztása offline állapotban</string>
   <string name="hotspot_button_connected">Következő</string>
-  <string name="permission_hotspot_location_request_body">Wi-Fi hotspot létrehozásához a Briarnak engedélyre van szüksége ahhoz, hogy hozzáférjen az Ön tartózkodási helyéhez. A Briar nem tárolja az Ön tartózkodási helyét, és nem osztja meg senkivel.</string>
-  <string name="permission_hotspot_location_request_precise_body">Wi-Fi hotspot létrehozásához a Briarnak engedélyre van szüksége, hogy hozzáférjen az Ön pontos helyéhez. A Briar nem tárolja az Ön tartózkodási helyét, és nem osztja meg senkivel.</string>
-  <string name="permission_hotspot_location_denied_body">Megtagadta a hozzáférést a tartózkodási helyéhez, de Briarnak szüksége van erre az engedélyre Wi-Fi hotspot létrehozásához. Kérjük, fontolja meg a hozzáférés megadását.</string>
-  <string name="permission_hotspot_location_denied_precise_body">Megtagadta a hozzáférést a pontos tartózkodási helyéhez, de Briarnak szüksége van erre az engedélyre Wi-Fi hotspot létrehozásához. Kérjük, fontolja meg a hozzáférés megadását.</string>
+  <string name="permission_hotspot_location_request_body">Wi-Fi hotspot létrehozásához a Sushhnak engedélyre van szüksége ahhoz, hogy hozzáférjen az Ön tartózkodási helyéhez. A Sushh nem tárolja az Ön tartózkodási helyét, és nem osztja meg senkivel.</string>
+  <string name="permission_hotspot_location_request_precise_body">Wi-Fi hotspot létrehozásához a Sushhnak engedélyre van szüksége, hogy hozzáférjen az Ön pontos helyéhez. A Sushh nem tárolja az Ön tartózkodási helyét, és nem osztja meg senkivel.</string>
+  <string name="permission_hotspot_location_denied_body">Megtagadta a hozzáférést a tartózkodási helyéhez, de Sushhnak szüksége van erre az engedélyre Wi-Fi hotspot létrehozásához. Kérjük, fontolja meg a hozzáférés megadását.</string>
+  <string name="permission_hotspot_location_denied_precise_body">Megtagadta a hozzáférést a pontos tartózkodási helyéhez, de Sushhnak szüksége van erre az engedélyre Wi-Fi hotspot létrehozásához. Kérjük, fontolja meg a hozzáférés megadását.</string>
   <string name="wifi_settings_title">Wi-Fi beállítás</string>
-  <string name="wifi_settings_request_enable_body">Wi-Fi hotspot létrehozásához Briarnak Wi-Fi-t kell használnia. Kérjük, engedélyezze.</string>
+  <string name="wifi_settings_request_enable_body">Wi-Fi hotspot létrehozásához Sushhnak Wi-Fi-t kell használnia. Kérjük, engedélyezze.</string>
   <string name="hotspot_tab_manual">Kézi</string>
   <!--The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s-->
   <string name="hotspot_scanning_a_qr_code">QR-kód beolvasása</string>
   <!--Wi-Fi setup-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_wifi">Telefonja Wi-Fi hotspotot biztosít. Azok az emberek, akik szeretnék letölteni a Briart, csatlakozhatnak a hotspothoz úgy, hogy hozzáadják azt eszközük Wi-Fi beállításaihoz az alábbi adatokkal vagy %s-al. Amikor csatlakoztak a hotspothoz, nyomja meg a „Tovább” gombot.</string>
+  <string name="hotspot_manual_wifi">Telefonja Wi-Fi hotspotot biztosít. Azok az emberek, akik szeretnék letölteni a Sushht, csatlakozhatnak a hotspothoz úgy, hogy hozzáadják azt eszközük Wi-Fi beállításaihoz az alábbi adatokkal vagy %s-al. Amikor csatlakoztak a hotspothoz, nyomja meg a „Tovább” gombot.</string>
   <string name="hotspot_manual_wifi_ssid">Hálózat neve</string>
-  <string name="hotspot_qr_wifi">Telefonja Wi-Fi hotspotot biztosít. Azok, akik szeretnék letölteni a Briart, ennek a QR-kódnak a beolvasásával csatlakozhatnak a hotspothoz. Amikor csatlakoztak a hotspothoz, nyomja meg a „Tovább” gombot.</string>
+  <string name="hotspot_qr_wifi">Telefonja Wi-Fi hotspotot biztosít. Azok, akik szeretnék letölteni a Sushht, ennek a QR-kódnak a beolvasásával csatlakozhatnak a hotspothoz. Amikor csatlakoztak a hotspothoz, nyomja meg a „Tovább” gombot.</string>
   <string name="hotspot_no_peers_connected">Nincsenek csatlakoztatva eszközök</string>
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <!--e.g. Download Briar 1.2.20-->
+  <!--e.g. Download Sushh 1.2.20-->
   <string name="website_troubleshooting_title">Hibaelhárítás</string>
   <!--error handling-->
   <!--Transfer Data via Removable Drives-->
@@ -801,7 +801,7 @@ Vigyázat: Ez végleg törli az identitásait, kapcsolatait és üzeneteit</stri
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Szia Bob!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Szia Alíz! Köszönöm, hogy megemlítetted nekem a Briar-t!</string>
+  <string name="screenshot_message_2">Szia Alíz! Köszönöm, hogy megemlítetted nekem a Sushh-t!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Szívesen, remélem tetszeni fog 😀</string>
 </resources>
