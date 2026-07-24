@@ -3,18 +3,23 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-  <!-- S: saffron -->
-  <path
-      android:fillColor="#FF9933"
-      android:pathData="M17,35 L31,35 L31,41 L23,41 L23,46 L30,46 Q33,46 33,50 L33,65 Q33,69 29,69 L16,69 L16,63 L27,63 L27,53 L20,53 Q17,53 17,49 Z"/>
-  <!-- u: white -->
-  <path
-      android:fillColor="#FFFFFF"
-      android:pathData="M36,43 L42,43 L42,62 Q42,64 44,64 L46,64 Q48,64 48,62 L48,43 L54,43 L54,65 Q54,69 50,69 L40,69 Q36,69 36,65 Z"/>
-  <!-- shh: blue -->
-  <path
-      android:fillColor="#3B82F6"
-      android:pathData="M57,43 L68,43 L68,48 L62,48 L62,51 L66,51 Q69,51 69,55 L69,65 Q69,69 65,69 L56,69 L56,64 L63,64 L63,57 L60,57 Q57,57 57,54 Z
-                        M72,35 L78,35 L78,46 Q80,43 83,43 L85,43 Q89,43 89,47 L89,69 L83,69 L83,50 Q83,48 81,48 L80,48 Q78,48 78,50 L78,69 L72,69 Z
-                        M92,35 L98,35 L98,46 Q100,43 103,43 L104,43 L104,49 L102,49 Q98,49 98,53 L98,69 L92,69 Z"/>
+    <!-- Rounded spectacles: saffron left lens, white bridge, green right lens -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF9933"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M38,39 A16,16 0,1 0,38,71 A16,16 0,1 0,38,39"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#138808"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M70,39 A16,16 0,1 0,70,71 A16,16 0,1 0,70,39"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M52,49 Q54,45 56,49 M22,47 L14,42 M86,47 L94,42"/>
 </vector>
