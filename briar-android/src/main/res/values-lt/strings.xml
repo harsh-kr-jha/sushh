@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">Sveiki atvykę į Briar</string>
+  <string name="setup_title">Sveiki atvykę į Sushh</string>
   <string name="setup_name_explanation">Jūsų slapyvardis bus rodomas šalia bet kokio jūsų skelbiamo turinio. Sukūrę paskyrą, slapyvardžio pakeisti nebegalėsite.</string>
   <string name="setup_next">Kitas</string>
   <string name="setup_password_intro">Pasirinkite slaptažodį</string>
-  <string name="setup_password_explanation">Jūsų Briar paskyra yra saugoma šifruotu pavidalu jūsų įrenginyje, o ne debesijoje. Jei pamiršite savo slaptažodį ar pašalinsite Briar programėlę, daugiau nebegalėsite atkurti savo paskyros.\n\nPasirinkite ilgą slaptažodį, kurį būtų sunku atspėti, pavyzdžiui, keturis atsitiktinius žodžius ar dešimt atsitiktinių raidžių, skaitmenų ir simbolių.</string>
-  <string name="dnkm_doze_intro">Norint gauti žinutes, Briar turi išlikti fone prisijungusi.</string>
-  <string name="dnkm_doze_explanation">Norint gauti žinutes, Briar turi išlikti fone prisijungusi. Išjunkite akumuliatoriaus naudojimo optimizavimą, kad Briar galėtų išlikti prisijungusi.</string>
+  <string name="setup_password_explanation">Jūsų Sushh paskyra yra saugoma šifruotu pavidalu jūsų įrenginyje, o ne debesijoje. Jei pamiršite savo slaptažodį ar pašalinsite Sushh programėlę, daugiau nebegalėsite atkurti savo paskyros.\n\nPasirinkite ilgą slaptažodį, kurį būtų sunku atspėti, pavyzdžiui, keturis atsitiktinius žodžius ar dešimt atsitiktinių raidžių, skaitmenų ir simbolių.</string>
+  <string name="dnkm_doze_intro">Norint gauti žinutes, Sushh turi išlikti fone prisijungusi.</string>
+  <string name="dnkm_doze_explanation">Norint gauti žinutes, Sushh turi išlikti fone prisijungusi. Išjunkite akumuliatoriaus naudojimo optimizavimą, kad Sushh galėtų išlikti prisijungusi.</string>
   <string name="choose_nickname">Pasirinkite savo slapyvardį</string>
   <string name="choose_password">Pasirinkite slaptažodį</string>
   <string name="confirm_password">Pakartokite slaptažodį</string>
@@ -19,46 +19,46 @@
   <string name="create_account_button">Sukurti paskyrą</string>
   <string name="more_info">Daugiau informacijos</string>
   <string name="don_t_ask_again">Daugiau nebeklausti</string>
-  <string name="dnkm_huawei_protected_text">Bakstelėkite žemiau esantį mygtuką ir įsitikinkite, kad „Apsaugotų programėlių“ rodinyje Briar yra apsaugota.</string>
-  <string name="dnkm_huawei_protected_button">Apsaugoti Briar</string>
-  <string name="dnkm_huawei_protected_help">Jei Briar nebus pridėta į apsaugotų programėlių sąrašą, ji negalės veikti fone.</string>
-  <string name="dnkm_huawei_app_launch_text">Bakstelėkite mygtuką žemiau, atverkite langą „Programų paleidimas (angl. App launch)“ ir įsitikinkite, kad Briar yra nustatyta į „Tvarkyti rankiniu būdu (angl. Manage manually)“.</string>
-  <string name="dnkm_huawei_app_launch_help">Jeigu „Programų paleidimo (angl. App launch)“ lange Briar nėra nustatyta į „Tvarkyti rankiniu būdu (angl. Manage manually)“, tuomet programėlė negalės veikti fone.</string>
-  <string name="dnkm_xiaomi_text">Tam, kad galėtų veikti fone, Briar turi būti prirakinta prie paskiausiųjų programėlių sąrašo.</string>
-  <string name="dnkm_xiaomi_button">Apsaugoti Briar</string>
-  <string name="dnkm_xiaomi_help">Jei Briar nebus prirakinta prie paskiausiųjų programėlių sąrašo, ji negalės veikti fone.</string>
-  <string name="dnkm_xiaomi_dialog_body_old">1. Atverkite paskiausiųjų programėlių sąrašą (dar vadinamą programėlių perjungikliu)\n\n2. Ant Briar atvaizdo perbraukite žemyn, kad būtų rodoma pakabinamos spynos piktograma\n\n3. Jei pakabinama spyna neužrakinta, bakstelėkite, kad ją užrakintumėte</string>
-  <string name="dnkm_xiaomi_dialog_body_new">1. Atverkite paskiausiųjų programėlių sąrašą (dar vadinamą programėlių perjungikliu)\n\n2. Jei šalia Briar pavadinimo yra mažas pakabinamos spynos atvaizdas, tuomet jums nieko daugiau nebereikia daryti\n\n3. Jei pakabinamos spynos nėra, paspauskite ir palaikykite ant Briar atvaizdo tol, kol atsiras pakabinamos spynos mygtukas, ir tuomet bakstelėkite ant jo</string>
-  <string name="dnkm_xiaomi_lock_apps_text">Bakstelėkite mygtuką žemiau, kad atvertumėte saugumo nustatymus. Bakstelėkite „Padidinti greitį“ (angl. Boost speed), o tuomet, bakstelėkite „Užrakinti programėles“ (angl. Lock apps) ir įsitikinkite, kad Briar yra nustatyta į „Užrakinta“ (angl. Locked).</string>
-  <string name="dnkm_xiaomi_lock_apps_help">Jei „Užrakintų programėlių“ (angl. Locked apps) lange Briar nėra nustatyta į „Užrakinta“ (angl. Locked), tuomet Briar negalės veikti fone.</string>
-  <string name="dnkm_warning_dozed_1">Briar nepavyko pasileisti fone</string>
+  <string name="dnkm_huawei_protected_text">Bakstelėkite žemiau esantį mygtuką ir įsitikinkite, kad „Apsaugotų programėlių“ rodinyje Sushh yra apsaugota.</string>
+  <string name="dnkm_huawei_protected_button">Apsaugoti Sushh</string>
+  <string name="dnkm_huawei_protected_help">Jei Sushh nebus pridėta į apsaugotų programėlių sąrašą, ji negalės veikti fone.</string>
+  <string name="dnkm_huawei_app_launch_text">Bakstelėkite mygtuką žemiau, atverkite langą „Programų paleidimas (angl. App launch)“ ir įsitikinkite, kad Sushh yra nustatyta į „Tvarkyti rankiniu būdu (angl. Manage manually)“.</string>
+  <string name="dnkm_huawei_app_launch_help">Jeigu „Programų paleidimo (angl. App launch)“ lange Sushh nėra nustatyta į „Tvarkyti rankiniu būdu (angl. Manage manually)“, tuomet programėlė negalės veikti fone.</string>
+  <string name="dnkm_xiaomi_text">Tam, kad galėtų veikti fone, Sushh turi būti prirakinta prie paskiausiųjų programėlių sąrašo.</string>
+  <string name="dnkm_xiaomi_button">Apsaugoti Sushh</string>
+  <string name="dnkm_xiaomi_help">Jei Sushh nebus prirakinta prie paskiausiųjų programėlių sąrašo, ji negalės veikti fone.</string>
+  <string name="dnkm_xiaomi_dialog_body_old">1. Atverkite paskiausiųjų programėlių sąrašą (dar vadinamą programėlių perjungikliu)\n\n2. Ant Sushh atvaizdo perbraukite žemyn, kad būtų rodoma pakabinamos spynos piktograma\n\n3. Jei pakabinama spyna neužrakinta, bakstelėkite, kad ją užrakintumėte</string>
+  <string name="dnkm_xiaomi_dialog_body_new">1. Atverkite paskiausiųjų programėlių sąrašą (dar vadinamą programėlių perjungikliu)\n\n2. Jei šalia Sushh pavadinimo yra mažas pakabinamos spynos atvaizdas, tuomet jums nieko daugiau nebereikia daryti\n\n3. Jei pakabinamos spynos nėra, paspauskite ir palaikykite ant Sushh atvaizdo tol, kol atsiras pakabinamos spynos mygtukas, ir tuomet bakstelėkite ant jo</string>
+  <string name="dnkm_xiaomi_lock_apps_text">Bakstelėkite mygtuką žemiau, kad atvertumėte saugumo nustatymus. Bakstelėkite „Padidinti greitį“ (angl. Boost speed), o tuomet, bakstelėkite „Užrakinti programėles“ (angl. Lock apps) ir įsitikinkite, kad Sushh yra nustatyta į „Užrakinta“ (angl. Locked).</string>
+  <string name="dnkm_xiaomi_lock_apps_help">Jei „Užrakintų programėlių“ (angl. Locked apps) lange Sushh nėra nustatyta į „Užrakinta“ (angl. Locked), tuomet Sushh negalės veikti fone.</string>
+  <string name="dnkm_warning_dozed_1">Sushh nepavyko pasileisti fone</string>
   <!--Login-->
   <string name="enter_password">Slaptažodis</string>
   <string name="try_again">Neteisingas slaptažodis, bandykite dar kartą</string>
   <string name="dialog_title_cannot_check_password">Nepavyksta patikrinti slaptažodžio</string>
-  <string name="dialog_message_cannot_check_password">Briar nepavyksta patikrinti jūsų slaptažodžio. Norėdami išspręsti šią problemą, pabandykite paleisti įrenginį iš naujo.</string>
-  <string name="sign_in_title">Prisijunkite prie Briar</string>
+  <string name="dialog_message_cannot_check_password">Sushh nepavyksta patikrinti jūsų slaptažodžio. Norėdami išspręsti šią problemą, pabandykite paleisti įrenginį iš naujo.</string>
+  <string name="sign_in_title">Prisijunkite prie Sushh</string>
   <string name="sign_in_button">Prisijungti</string>
   <string name="forgotten_password">Pamiršote slaptažodį?</string>
   <string name="dialog_title_lost_password">Prarastas slaptažodis</string>
-  <string name="dialog_message_lost_password">Jūsų Briar paskyra yra saugoma šifruotu pavidalu jūsų įrenginyje, o ne debesijoje, todėl negalime atstatyti jūsų slaptažodžio. Ar norėtumėte ištrinti savo paskyrą ir pradėti iš naujo?\n\nDėmesio: Jūsų tapatybės, žinutės ir adresatai bus prarasti visiems laikams.</string>
-  <string name="startup_failed_activity_title">Briar paleidimo nesėkmė</string>
-  <string name="startup_failed_clock_error">Briar nepavyko pasileisti, nes jūsų įrenginio laikrodis rodo neteisingą laiką.\n\nNustatykite savo įrenginyje teisingą laiką ir bandykite dar kartą.</string>
-  <string name="startup_failed_db_error">Briar nepavyko atverti duomenų bazės su jūsų paskyra, adresatais ir žinutėmis.\n\nAtnaujinkite programėlę į naujausią versiją ir bandykite dar kartą arba nusistatykite naują paskyrą, slaptažodžio užklausos ekrane pasirinkę „Aš pamiršau slaptažodį“.</string>
+  <string name="dialog_message_lost_password">Jūsų Sushh paskyra yra saugoma šifruotu pavidalu jūsų įrenginyje, o ne debesijoje, todėl negalime atstatyti jūsų slaptažodžio. Ar norėtumėte ištrinti savo paskyrą ir pradėti iš naujo?\n\nDėmesio: Jūsų tapatybės, žinutės ir adresatai bus prarasti visiems laikams.</string>
+  <string name="startup_failed_activity_title">Sushh paleidimo nesėkmė</string>
+  <string name="startup_failed_clock_error">Sushh nepavyko pasileisti, nes jūsų įrenginio laikrodis rodo neteisingą laiką.\n\nNustatykite savo įrenginyje teisingą laiką ir bandykite dar kartą.</string>
+  <string name="startup_failed_db_error">Sushh nepavyko atverti duomenų bazės su jūsų paskyra, adresatais ir žinutėmis.\n\nAtnaujinkite programėlę į naujausią versiją ir bandykite dar kartą arba nusistatykite naują paskyrą, slaptažodžio užklausos ekrane pasirinkę „Aš pamiršau slaptažodį“.</string>
   <string name="startup_failed_data_too_old_error">Jūsų paskyra buvo sukurta naudojant seną šios programėlės versiją ir negali būti atverta naudojant šią versiją.\n\nJūs privalote arba iš naujo įsidiegti seną versiją, arba nusistatyti naują paskyrą, slaptažodžio užklausos ekrane pasirinkę „Aš pamiršau slaptažodį“.</string>
   <string name="startup_failed_data_too_new_error">Jūsų paskyra buvo sukurta naudojant naujesnę šios programėlės versiją ir negali būti atverta naudojant šią versiją.\n\nAtnaujinkite programėlę į naujausią versiją ir bandykite dar kartą.</string>
-  <string name="startup_failed_service_error">Briar nepavyko paleisti reikiamo komponento.\n\nAtnaujinkite programėlę į naujausią versiją ir bandykite dar kartą.</string>
+  <string name="startup_failed_service_error">Sushh nepavyko paleisti reikiamo komponento.\n\nAtnaujinkite programėlę į naujausią versiją ir bandykite dar kartą.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Tai yra bandomoji Briar versija. Jūsų paskyros galiojimas pasibaigs po %d dienos ir negalės būti pratęstas.</item>
-    <item quantity="few">Tai yra bandomoji Briar versija. Jūsų paskyros galiojimas pasibaigs po %d dienų ir negalės būti pratęstas.</item>
-    <item quantity="many">Tai yra bandomoji Briar versija. Jūsų paskyros galiojimas pasibaigs po %d dienų ir negalės būti pratęstas.</item>
-    <item quantity="other">Tai yra bandomoji Briar versija. Jūsų paskyros galiojimas pasibaigs po %d dienos ir negalės būti pratęstas.</item>
+    <item quantity="one">Tai yra bandomoji Sushh versija. Jūsų paskyros galiojimas pasibaigs po %d dienos ir negalės būti pratęstas.</item>
+    <item quantity="few">Tai yra bandomoji Sushh versija. Jūsų paskyros galiojimas pasibaigs po %d dienų ir negalės būti pratęstas.</item>
+    <item quantity="many">Tai yra bandomoji Sushh versija. Jūsų paskyros galiojimas pasibaigs po %d dienų ir negalės būti pratęstas.</item>
+    <item quantity="other">Tai yra bandomoji Sushh versija. Jūsų paskyros galiojimas pasibaigs po %d dienos ir negalės būti pratęstas.</item>
   </plurals>
   <string name="expiry_date_reached">Programinės įrangos galiojimas pasibaigė.\nDėkojame, kad išbandėte!</string>
-  <string name="download_briar">Norėdami ir toliau naudotis Briar, atsisiųskite naujausią programos laidą.</string>
+  <string name="download_briar">Norėdami ir toliau naudotis Sushh, atsisiųskite naujausią programos laidą.</string>
   <string name="create_new_account">Jūs turėsite susikurti paskyrą, tačiau galėsite naudoti tą patį slapyvardį.</string>
   <string name="download_briar_button">Atsisiųsti naujausią laidą</string>
-  <string name="old_android_expiry_date_reached">Briar daugiau nebeveikia įrenginiuose su „Android“ 4.\nĮsidiekite Briar naujesniame įrenginyje.</string>
+  <string name="old_android_expiry_date_reached">Sushh daugiau nebeveikia įrenginiuose su „Android“ 4.\nĮsidiekite Sushh naujesniame įrenginyje.</string>
   <string name="old_android_delete_account">Galite bakstelėti ant žemiau esančio mygtuko, norėdami ištrinti paskyrą iš šio įrenginio.</string>
   <string name="delete_account_button">Ištrinti paskyrą</string>
   <string name="startup_open_database">Iššifruojama duomenų bazė…</string>
@@ -75,43 +75,43 @@
   <string name="lock_button">Užrakinti programėlę</string>
   <string name="settings_button">Nustatymai</string>
   <string name="sign_out_button">Atsijungti</string>
-  <string name="transports_onboarding_text">Bakstelėkite čia norėdami valdyti tai, kaip Briar jungiasi prie jūsų adresatų.</string>
+  <string name="transports_onboarding_text">Bakstelėkite čia norėdami valdyti tai, kaip Sushh jungiasi prie jūsų adresatų.</string>
   <!--Transports: Tor-->
   <string name="transport_tor">Internetas</string>
   <string name="tor_device_status_online_wifi">Jūsų telefonas jungiasi prie interneto per belaidį (Wi-Fi)</string>
   <string name="tor_device_status_online_mobile">Jūsų telefonas jungiasi prie interneto per mobiliuosius duomenis</string>
   <string name="tor_device_status_offline">Jūsų telefonas neprisijungęs prie interneto</string>
-  <string name="tor_plugin_status_enabling">Briar jungiasi prie interneto</string>
-  <string name="tor_plugin_status_active">Briar yra prisijungusi prie interneto</string>
-  <string name="tor_plugin_status_inactive">Briar negali prisijungti prie interneto</string>
-  <string name="tor_plugin_status_disabled">Briar yra sukonfigūruota taip, kad nesinaudotų internetu</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briar yra sukonfigūruota taip, kad nesinaudotų mobiliaisiais duomenimis</string>
-  <string name="tor_plugin_status_disabled_battery">Briar yra sukonfigūruota taip, kad nesinaudotų internetu, kai įrenginys veikia naudodamas akumuliatoriaus energiją</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briar yra sukonfigūruota taip, kad šioje šalyje nesinaudotų internetu</string>
+  <string name="tor_plugin_status_enabling">Sushh jungiasi prie interneto</string>
+  <string name="tor_plugin_status_active">Sushh yra prisijungusi prie interneto</string>
+  <string name="tor_plugin_status_inactive">Sushh negali prisijungti prie interneto</string>
+  <string name="tor_plugin_status_disabled">Sushh yra sukonfigūruota taip, kad nesinaudotų internetu</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushh yra sukonfigūruota taip, kad nesinaudotų mobiliaisiais duomenimis</string>
+  <string name="tor_plugin_status_disabled_battery">Sushh yra sukonfigūruota taip, kad nesinaudotų internetu, kai įrenginys veikia naudodamas akumuliatoriaus energiją</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushh yra sukonfigūruota taip, kad šioje šalyje nesinaudotų internetu</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Belaidis (Wi-Fi)</string>
   <string name="transport_lan_long">Tas pats belaidis (Wi-Fi) tinklas</string>
   <string name="lan_device_status_on">Jūsų telefonas yra prisijungęs prie belaidžio (Wi-Fi)</string>
   <string name="lan_device_status_off">Jūsų telefonas nėra prisijungęs prie belaidžio (Wi-Fi)</string>
-  <string name="lan_plugin_status_enabling">Briar jungiasi prie belaidžio (Wi-Fi) tinklo</string>
-  <string name="lan_plugin_status_active">Briar yra prisijungusi prie belaidžio (Wi-Fi) tinklo</string>
-  <string name="lan_plugin_status_inactive">Briar negali prisijungti prie belaidžio (Wi-Fi) tinklo</string>
-  <string name="lan_plugin_status_disabled">Briar yra sukonfigūruota taip, kad nesinaudotų belaidžiu (Wi-Fi) tinklu</string>
+  <string name="lan_plugin_status_enabling">Sushh jungiasi prie belaidžio (Wi-Fi) tinklo</string>
+  <string name="lan_plugin_status_active">Sushh yra prisijungusi prie belaidžio (Wi-Fi) tinklo</string>
+  <string name="lan_plugin_status_inactive">Sushh negali prisijungti prie belaidžio (Wi-Fi) tinklo</string>
+  <string name="lan_plugin_status_disabled">Sushh yra sukonfigūruota taip, kad nesinaudotų belaidžiu (Wi-Fi) tinklu</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">Jūsų telefono Bluetooth ryšys yra įjungtas</string>
   <string name="bt_device_status_off">Jūsų telefono Bluetooth ryšys yra išjungtas</string>
-  <string name="bt_plugin_status_enabling">Briar jungiasi prie Bluetooth</string>
-  <string name="bt_plugin_status_active">Briar yra prisijungusi prie Bluetooth</string>
-  <string name="bt_plugin_status_inactive">Briar negali prisijungti prie Bluetooth</string>
-  <string name="bt_plugin_status_disabled">Briar yra sukonfigūruota taip, kad nesinaudotų Bluetooth</string>
+  <string name="bt_plugin_status_enabling">Sushh jungiasi prie Bluetooth</string>
+  <string name="bt_plugin_status_active">Sushh yra prisijungusi prie Bluetooth</string>
+  <string name="bt_plugin_status_inactive">Sushh negali prisijungti prie Bluetooth</string>
+  <string name="bt_plugin_status_disabled">Sushh yra sukonfigūruota taip, kad nesinaudotų Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Atsijungta iš Briar</string>
+  <string name="reminder_notification_title">Atsijungta iš Sushh</string>
   <string name="reminder_notification_text">Bakstelėkite, norėdami prisijungti atgal.</string>
-  <string name="reminder_notification_channel_title">Briar prisijungimo priminimas</string>
+  <string name="reminder_notification_channel_title">Sushh prisijungimo priminimas</string>
   <string name="reminder_notification_dismiss">Atmesti</string>
-  <string name="ongoing_notification_title">Prisijungta į Briar</string>
-  <string name="ongoing_notification_text">Prilieskite, norėdami atverti Briar.</string>
+  <string name="ongoing_notification_title">Prisijungta į Sushh</string>
+  <string name="ongoing_notification_text">Prilieskite, norėdami atverti Sushh.</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Nauja privati žinutė.</item>
     <item quantity="few">%d naujos privačios žinutės.</item>
@@ -234,7 +234,7 @@
   <string name="save_image_success">Atvaizdas buvo įrašytas</string>
   <string name="save_image_error">Nepavyko įrašyti atvaizdo</string>
   <string name="dialog_title_no_image_support">Atvaizdai neprieinami</string>
-  <string name="dialog_message_no_image_support">Jūsų adresato naudojama Briar kol kas nepalaiko atvaizdo priedų. Jam atnaujinus programėlę, jūs matysite kitokią piktogramą.</string>
+  <string name="dialog_message_no_image_support">Jūsų adresato naudojama Sushh kol kas nepalaiko atvaizdo priedų. Jam atnaujinus programėlę, jūs matysite kitokią piktogramą.</string>
   <string name="dialog_title_image_support">Dabar šiam adresatui galite siųsti atvaizdus</string>
   <string name="dialog_message_image_support">Bakstelėkite šią piktogramą, norėdami pridėti atvaizdus.</string>
   <string name="messaging_too_many_attachments_toast">Bus išsiųsti tik %d pirmi atvaizdai</string>
@@ -251,10 +251,10 @@
   <string name="contact_already_exists">Adresatas %s jau yra</string>
   <string name="contact_already_exists_general">Adresatas jau yra</string>
   <string name="qr_code_invalid">QR kodas yra neteisingas</string>
-  <string name="qr_code_too_old_1">Jūsų nuskenuotas QR kodas yra iš senesnės Briar versijos.\n\nPaprašykite adresato, kad atnaujintų į naujausią versiją, o tuomet bandykite dar kartą.</string>
-  <string name="qr_code_too_new_1">Jūsų nuskenuotas QR kodas yra iš naujesnės Briar versijos.\n\nAtnaujinkite į naujausią versiją, o tuomet bandykite dar kartą.</string>
-  <string name="mailbox_qr_code_for_contact">Jūsų nuskenuotas QR kodas yra iš Briar pašto dėžutės.\n\nJei norite susieti pašto dėžutę, Briar meniu pasirinkite Nustatymai &gt; Pašto dėžutė.</string>
-  <string name="qr_code_format_unknown">Jūsų nuskenuotas QR kodas nėra skirtas Briar adresato pridėjimui.\n\nNuskenuokite jūsų adresato ekrane rodomą QR kodą.</string>
+  <string name="qr_code_too_old_1">Jūsų nuskenuotas QR kodas yra iš senesnės Sushh versijos.\n\nPaprašykite adresato, kad atnaujintų į naujausią versiją, o tuomet bandykite dar kartą.</string>
+  <string name="qr_code_too_new_1">Jūsų nuskenuotas QR kodas yra iš naujesnės Sushh versijos.\n\nAtnaujinkite į naujausią versiją, o tuomet bandykite dar kartą.</string>
+  <string name="mailbox_qr_code_for_contact">Jūsų nuskenuotas QR kodas yra iš Sushh pašto dėžutės.\n\nJei norite susieti pašto dėžutę, Sushh meniu pasirinkite Nustatymai &gt; Pašto dėžutė.</string>
+  <string name="qr_code_format_unknown">Jūsų nuskenuotas QR kodas nėra skirtas Sushh adresato pridėjimui.\n\nNuskenuokite jūsų adresato ekrane rodomą QR kodą.</string>
   <string name="camera_error">Kameros klaida</string>
   <string name="connecting_to_device">Jungiamasi prie įrenginio\u2026</string>
   <string name="authenticating_with_device">Tapatybės nustatymas su įrenginiu\u2026</string>
@@ -276,7 +276,7 @@
   <string name="add_contact_choose_a_nickname">Įveskite slapyvardį</string>
   <string name="nickname_intro">Suteikite adresatui slapyvardį. Slapyvardį matysite tik jūs.</string>
   <string name="your_link">Perduokite šią nuorodą adresatui, kurį norite pridėti</string>
-  <string name="link_clip_label">Briar nuoroda</string>
+  <string name="link_clip_label">Sushh nuoroda</string>
   <string name="link_copied_toast">Nuoroda nukopijuota</string>
   <string name="adding_contact_error">Pridedant adresatą, įvyko klaida.</string>
   <string name="pending_contact_requests_snackbar">Yra laukiančių adresato užklausų</string>
@@ -291,7 +291,7 @@
   <string name="own_link_error">Įveskite ne savo, o adresato nuorodą</string>
   <string name="nickname_missing">Įveskite slapyvardį</string>
   <string name="invalid_link">Neteisinga nuoroda</string>
-  <string name="unsupported_link">Ši nuoroda atėjo iš naujesnės Briar versijos. Atsinaujinkite į naujausią versiją ir bandykite dar kartą.</string>
+  <string name="unsupported_link">Ši nuoroda atėjo iš naujesnės Sushh versijos. Atsinaujinkite į naujausią versiją ir bandykite dar kartą.</string>
   <string name="intent_own_link">Jūs atvėrėte savo nuorodą. Naudokite nuorodą to adresato, kurį norite pridėti!</string>
   <string name="missing_link">Įveskite nuorodą</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -328,7 +328,7 @@
   <string name="peer_trust_level_stranger">Nepažįstamasis</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Supažindinkite savo adresatus</string>
-  <string name="introduction_onboarding_text">Supažindinkite adresatus vieną su kitu, kad jie galėtų susisiekti per Briar.</string>
+  <string name="introduction_onboarding_text">Supažindinkite adresatus vieną su kitu, kad jie galėtų susisiekti per Sushh.</string>
   <string name="introduction_menu_item">Supažindinti</string>
   <string name="introduction_activity_title">Pasirinkite adresatą</string>
   <string name="introduction_not_possible">Jau vyksta vienas supažindinimas tarp šių adresatų. Iš pradžių, leiskite, kad jis būtų užbaigtas. Jeigu jūs ar jūsų adresatai retai būna prisijungę, tuomet tai gali šiek tiek užtrukti.</string>
@@ -532,7 +532,7 @@
   <string name="change_profile_picture_failed_message">Atleiskite, bet atnaujinant jūsų profilio paveikslą kažkas nutiko</string>
   <!--Settings Display-->
   <string name="pref_language_title">Kalba ir regionas</string>
-  <string name="pref_language_changed">Šis nustatymas įsigalios, kai paleisite Briar iš naujo. Atsijunkite ir paleiskite Briar iš naujo.</string>
+  <string name="pref_language_changed">Šis nustatymas įsigalios, kai paleisite Sushh iš naujo. Atsijunkite ir paleiskite Sushh iš naujo.</string>
   <string name="pref_language_default">Sistemos numatytoji</string>
   <string name="display_settings_title">Rodinys</string>
   <string name="pref_theme_title">Apipavidalinimas</string>
@@ -550,7 +550,7 @@
   <string name="tor_network_setting_without_bridges">Naudoti Tor tinklą be tinklų tilto</string>
   <string name="tor_network_setting_with_bridges">Naudoti Tor tinklą su tinklų tiltu</string>
   <string name="tor_network_setting_never">Neprisijungti prie interneto</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Automatiškai: %1$s (šalyje %2$s)</string>
   <string name="tor_mobile_data_title">Naudoti mobiliuosius duomenis</string>
   <string name="tor_only_when_charging_title">Prisijungti prie interneto tik įkraunant įrenginį</string>
@@ -558,11 +558,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Saugumas</string>
   <string name="pref_lock_title">Programėlės užrakinimas</string>
-  <string name="pref_lock_summary">Naudoti įrenginio ekrano užraktą, kad esant prisijungus, Briar būtų apsaugota</string>
+  <string name="pref_lock_summary">Naudoti įrenginio ekrano užraktą, kad esant prisijungus, Sushh būtų apsaugota</string>
   <string name="pref_lock_disabled_summary">Norėdami naudoti šią ypatybę, nusistatykite įrenginyje ekrano užraktą</string>
   <string name="pref_lock_timeout_title">Programėlės užrakinimo laiko limitas esant neveiklumui</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Nenaudojant Briar, automatiškai ją užrakinti po %s</string>
+  <string name="pref_lock_timeout_summary">Nenaudojant Sushh, automatiškai ją užrakinti po %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 minutės</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -574,7 +574,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 valandos</string>
   <string name="pref_lock_timeout_never">Niekada</string>
-  <string name="pref_lock_timeout_never_summary">Niekada automatiškai neužrakinti Briar</string>
+  <string name="pref_lock_timeout_never_summary">Niekada automatiškai neužrakinti Sushh</string>
   <string name="change_password">Pakeisti slaptažodį</string>
   <string name="current_password">Dabartinis slaptažodis</string>
   <string name="choose_new_password">Naujas slaptažodis</string>
@@ -582,7 +582,7 @@
   <string name="password_changed">Slaptažodis pakeistas.</string>
   <string name="panic_setting">Panikos mygtuko sąranka</string>
   <string name="panic_setting_title">Panikos mygtukas</string>
-  <string name="panic_setting_hint">Konfigūruoti ką Briar darys, kai naudosite panikos mygtuko programėlę</string>
+  <string name="panic_setting_hint">Konfigūruoti ką Sushh darys, kai naudosite panikos mygtuko programėlę</string>
   <string name="panic_app_setting_title">Panikos mygtuko programėlė</string>
   <string name="unknown_app">nežinoma programėlė</string>
   <string name="panic_app_setting_summary">Nėra nustatyta jokia programėlė</string>
@@ -591,9 +591,9 @@
   <string name="dialog_message_connect_panic_app">Ar tikrai norite leisti %1$s sukelti naikinamuosius panikos mygtuko veiksmus?</string>
   <string name="panic_setting_destructive_action">Naikinamieji veiksmai</string>
   <string name="panic_setting_signout_title">Atsijungti</string>
-  <string name="panic_setting_signout_summary">Atsijungti iš Briar, jei yra paspaudžiamas panikos mygtukas</string>
+  <string name="panic_setting_signout_summary">Atsijungti iš Sushh, jei yra paspaudžiamas panikos mygtukas</string>
   <string name="purge_setting_title">Ištrinti paskyrą</string>
-  <string name="purge_setting_summary">Ištrinti jūsų Briar paskyrą, jei yra paspaudžiamas panikos mygtukas. Dėmesio: Tai visiems laikams ištrins jūsų tapatybes, adresatus ir žinutes</string>
+  <string name="purge_setting_summary">Ištrinti jūsų Sushh paskyrą, jei yra paspaudžiamas panikos mygtukas. Dėmesio: Tai visiems laikams ištrins jūsų tapatybes, adresatus ir žinutes</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Pranešimai</string>
   <string name="notify_sign_in_title">Priminti man prisijungti</string>
@@ -620,28 +620,28 @@
   <string name="mailbox_settings_title">Pašto dėžutė</string>
   <string name="mailbox_setup_title">Pašto dėžutės sąranka</string>
   <string name="mailbox_setup_intro">Pašto dėžutė leidžia adresatams siųsti jums žinutes, kai esate neprisijungę prie interneto. Žinutės bus siunčiamos į jūsų pašto dėžutę ir saugomos ten tol, kol prisijungsite prie interneto.\n
-		\nGalite įsidiegti Briar pašto dėžutę laisvame atsarginiame įrenginyje. Palikite įrenginį prijungtą prie maitinimo šaltinio ir belaidžio (Wi-Fi) ryšio, kad jis būtų pastoviai prijungtas prie interneto.</string>
-  <string name="mailbox_setup_download">Pirmiausia, įsidiekite kitame įrenginyje pašto dėžutės programėlę: atverkite „Google Play“ ar kitą programėlių parduotuvę, iš kurios atsisiuntėte Briar, ir įrašykite į paiešką raktažodį „Briar Mailbox“.\n
-		\nTuomet, susiekite pašto dėžutę su Briar, nuskenuodami pašto dėžutės programėlėje rodomą QR kodą.</string>
+		\nGalite įsidiegti Sushh pašto dėžutę laisvame atsarginiame įrenginyje. Palikite įrenginį prijungtą prie maitinimo šaltinio ir belaidžio (Wi-Fi) ryšio, kad jis būtų pastoviai prijungtas prie interneto.</string>
+  <string name="mailbox_setup_download">Pirmiausia, įsidiekite kitame įrenginyje pašto dėžutės programėlę: atverkite „Google Play“ ar kitą programėlių parduotuvę, iš kurios atsisiuntėte Sushh, ir įrašykite į paiešką raktažodį „Sushh Mailbox“.\n
+		\nTuomet, susiekite pašto dėžutę su Sushh, nuskenuodami pašto dėžutės programėlėje rodomą QR kodą.</string>
   <string name="mailbox_setup_download_link">Bendrinti atsisiuntimo nuorodą</string>
   <string name="mailbox_setup_button_scan">Skenuoti pašto dėžutės QR kodą</string>
   <string name="permission_camera_qr_denied_body">Jūs uždraudėte prieigą prie kameros, tačiau norint skenuoti QR kodą, reikia naudoti kamerą.\n\nApsvarstykite galimybę sutekti prieigą prie kameros.</string>
   <string name="mailbox_setup_connecting">Jungiamasi prie pašto dėžutės…</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">Tai gali užtrukti iki %1s</string>
-  <string name="mailbox_qr_code_too_old">Jūsų nuskenuotas QR kodas yra iš senesnės Briar pašto dėžutės versijos.\n\nAtnaujinkite į naujausią Briar pašto dėžutės versiją, o tuomet bandykite dar kartą.</string>
-  <string name="mailbox_qr_code_too_new">Jūsų nuskenuotas QR kodas yra iš naujesnės Briar pašto dėžutės versijos.\n\nAtnaujinkite į naujausią Briar versiją, o tuomet bandykite dar kartą.</string>
-  <string name="contact_qr_code_for_mailbox">Jūsų nuskenuotas QR kodas yra skirtas Briar adresato pridėjimui.\n\nJei norite pridėti adresatą, pereikite į adresatų sąrašą ir bakstelėkite „+“ piktogramą.</string>
-  <string name="mailbox_setup_qr_code_wrong_description">Jūsų nuskenuotas QR kodas nėra iš Briar pašto dėžutės.\n\nPašto dėžutės įrenginyje atverkite Briar pašto dėžutės programėlę ir nuskenuokite joje pateikiamą QR kodą.</string>
+  <string name="mailbox_qr_code_too_old">Jūsų nuskenuotas QR kodas yra iš senesnės Sushh pašto dėžutės versijos.\n\nAtnaujinkite į naujausią Sushh pašto dėžutės versiją, o tuomet bandykite dar kartą.</string>
+  <string name="mailbox_qr_code_too_new">Jūsų nuskenuotas QR kodas yra iš naujesnės Sushh pašto dėžutės versijos.\n\nAtnaujinkite į naujausią Sushh versiją, o tuomet bandykite dar kartą.</string>
+  <string name="contact_qr_code_for_mailbox">Jūsų nuskenuotas QR kodas yra skirtas Sushh adresato pridėjimui.\n\nJei norite pridėti adresatą, pereikite į adresatų sąrašą ir bakstelėkite „+“ piktogramą.</string>
+  <string name="mailbox_setup_qr_code_wrong_description">Jūsų nuskenuotas QR kodas nėra iš Sushh pašto dėžutės.\n\nPašto dėžutės įrenginyje atverkite Sushh pašto dėžutės programėlę ir nuskenuokite joje pateikiamą QR kodą.</string>
   <string name="mailbox_setup_already_paired_title">Pašto dėžutė jau susieta</string>
   <string name="mailbox_setup_already_paired_description">Atsiekite pašto dėžutę kitame įrenginyje ir bandykite dar kartą.</string>
   <string name="mailbox_setup_io_error_title">Nepavyko prisijungti</string>
   <string name="mailbox_setup_io_error_description">Įsitikinkite, kad abu įrenginiai yra prisijungę prie interneto ir bandykite dar kartą.</string>
   <string name="mailbox_setup_assertion_error_title">Pašto dėžutės klaida</string>
-  <string name="mailbox_setup_assertion_error_description">Jei problema išlieka, išsiųskite atsiliepimą (su anoniminiais duomenimis) per Briar programėlę.</string>
+  <string name="mailbox_setup_assertion_error_description">Jei problema išlieka, išsiųskite atsiliepimą (su anoniminiais duomenimis) per Sushh programėlę.</string>
   <string name="mailbox_setup_camera_error_description">Nepavyko gauti prieigos prie kameros. Bandykite dar kartą, galbūt po to, kai paleisite įrenginį iš naujo.</string>
   <string name="mailbox_setup_paired_title">Prisijungta</string>
-  <string name="mailbox_setup_paired_description">Jūsų pašto dėžutė sėkmingai susieta su Briar.\n
+  <string name="mailbox_setup_paired_description">Jūsų pašto dėžutė sėkmingai susieta su Sushh.\n
 		\nLaikykite pašto dėžutę prijungtą prie elektros maitinimo šaltinio ir belaidžio (Wi-Fi) tinklo, kad ji visuomet būtų prisijungusi prie interneto.</string>
   <string name="tor_offline_title">Nepasiekiama</string>
   <string name="tor_offline_description">Įsitikinkite, kad šis įrenginys yra prisijungęs prie interneto ir, kad yra leidžiami ryšiai su internetu.\n
@@ -649,10 +649,10 @@
   <string name="tor_offline_button_check">Tikrinti ryšio nustatymus</string>
   <string name="mailbox_status_title">Pašto dėžutės būsena</string>
   <string name="mailbox_status_connected_title">Pašto dėžutė veikia</string>
-  <string name="mailbox_status_problem_title">Briar kyla nesklandumų jungiantis prie pašto dėžutės</string>
+  <string name="mailbox_status_problem_title">Sushh kyla nesklandumų jungiantis prie pašto dėžutės</string>
   <string name="mailbox_status_failure_title">Pašto dėžutė yra neprieinama</string>
-  <string name="mailbox_status_app_too_old_title">Briar yra per sena</string>
-  <string name="mailbox_status_app_too_old_message">Atnaujinkite Briar programėlę iki naujausios versijos ir bandykite dar kartą.</string>
+  <string name="mailbox_status_app_too_old_title">Sushh yra per sena</string>
+  <string name="mailbox_status_app_too_old_message">Atnaujinkite Sushh programėlę iki naujausios versijos ir bandykite dar kartą.</string>
   <string name="mailbox_status_mailbox_too_old_title">Pašto dėžutė yra per sena</string>
   <string name="mailbox_status_mailbox_too_old_message">Atnaujinkite pašto dėžutės programėlę iki naujausios versijos ir bandykite dar kartą.</string>
   <string name="mailbox_status_check_button">Tikrinti ryšį</string>
@@ -663,12 +663,12 @@
   <string name="mailbox_status_unlink_button">Atsieti</string>
   <string name="mailbox_status_unlink_dialog_title">Atsieti pašto dėžutę?</string>
   <string name="mailbox_status_unlink_dialog_question">Ar tikrai norite atsieti pašto dėžutę?</string>
-  <string name="mailbox_status_unlink_dialog_warning">Jei atsiesite pašto dėžutę, nebegalėsite gauti žinučių, kai Briar neturi prieigos prie interneto.</string>
+  <string name="mailbox_status_unlink_dialog_warning">Jei atsiesite pašto dėžutę, nebegalėsite gauti žinučių, kai Sushh neturi prieigos prie interneto.</string>
   <string name="mailbox_status_unlink_no_wipe_title">Jūsų pašto dėžutė atsieta</string>
   <string name="mailbox_status_unlink_no_wipe_message">Kitą kartą, kai turėsite prieigą prie pašto dėžutės, atverkite pašto dėžutės programėlę ir bakstelėkite mygtuką „Atsieti“, kad užbaigtumėte procesą.\n\nJeigu daugiau nebeturite prieigos prie pašto dėžutės įrenginio, nesijaudinkite. Jūsų duomenys yra šifruoti, tad išliks saugūs netgi tuo atveju, jei neužbaigsite proceso.</string>
   <string name="mailbox_status_unlink_success">Jūsų pašto dėžutė atsieta</string>
-  <string name="mailbox_error_notification_channel_title">Problemos su Briar pašto dėžute</string>
-  <string name="mailbox_error_notification_title">Briar pašto dėžutė yra neprieinama</string>
+  <string name="mailbox_error_notification_channel_title">Problemos su Sushh pašto dėžute</string>
+  <string name="mailbox_error_notification_title">Sushh pašto dėžutė yra neprieinama</string>
   <string name="mailbox_error_notification_text">Bakstelėkite norėdami išspręsti problemą.</string>
   <string name="mailbox_error_wizard_button">Išspręsti problemą</string>
   <string name="mailbox_error_wizard_title">Pašto dėžutės nesklandumų šalinimo vediklis</string>
@@ -684,16 +684,16 @@
   <string name="mailbox_error_wizard_answer1_4">Aš matau „Internetas nepasiekiamas“</string>
   <string name="mailbox_error_wizard_info1_1_1">Atsiekite savo pašto dėžutę naudodami žemiau esantį mygtuką, o tuomet sekite instrukcijas pašto dėžutės įrenginyje, kad vėl ją susietumėte.</string>
   <string name="mailbox_error_wizard_info_1_1_2">Atsiekite pašto dėžutę naudodami žemiau esantį mygtuką, o tuomet, nuskenuokite QR kodą, kad vėl ją susietumėte.</string>
-  <string name="mailbox_error_wizard_info1_1_3">Naudokite žemiau esantį mygtuką, kad patikrintumėte ryšį tarp Briar ir pašto dėžutės.\n\n
+  <string name="mailbox_error_wizard_info1_1_3">Naudokite žemiau esantį mygtuką, kad patikrintumėte ryšį tarp Sushh ir pašto dėžutės.\n\n
 		Jei ryšys ir vėl patiria nesėkmę:\n
-		\u2022 Patikrinkite, ar pašto dėžutės ir Briar programėlės yra atnaujintos į naujausią versiją.\n
-		\u2022 Paleiskite pašto dėžutės bei Briar įrenginius iš naujo ir bandykite dar kartą.</string>
-  <string name="mailbox_error_wizard_info1_1_4">Patikrinkite, ar pašto dėžutės įrenginys yra tinkamai prijungtas prie interneto.\n\nPatikrinkite, ar laikrodis pašto dėžutės įrenginyje rodo teisingą laiką, datą ir laiko juostą.\n\nPatikrinkite, ar pašto dėžutės ir Briar programėlės yra atnaujintos į naujausią versiją.\n\nPaleiskite pašto dėžutės bei Briar įrenginius iš naujo ir bandykite dar kartą.</string>
+		\u2022 Patikrinkite, ar pašto dėžutės ir Sushh programėlės yra atnaujintos į naujausią versiją.\n
+		\u2022 Paleiskite pašto dėžutės bei Sushh įrenginius iš naujo ir bandykite dar kartą.</string>
+  <string name="mailbox_error_wizard_info1_1_4">Patikrinkite, ar pašto dėžutės įrenginys yra tinkamai prijungtas prie interneto.\n\nPatikrinkite, ar laikrodis pašto dėžutės įrenginyje rodo teisingą laiką, datą ir laiko juostą.\n\nPatikrinkite, ar pašto dėžutės ir Sushh programėlės yra atnaujintos į naujausią versiją.\n\nPaleiskite pašto dėžutės bei Sushh įrenginius iš naujo ir bandykite dar kartą.</string>
   <string name="mailbox_error_wizard_info2">Grįžkite į šį langelį, kai turėsite prieigą prie įrenginio.</string>
   <string name="mailbox_error_wizard_info3">Atsiekite pašto dėžutę naudodami žemiau esantį mygtuką.\n\nAtsieję seną pašto dėžutę galite bet kuriuo metu nusistatyti naują pašto dėžutę.</string>
   <!--About-->
   <string name="about_title">Apie</string>
-  <string name="briar_version">Briar versija: %s</string>
+  <string name="briar_version">Sushh versija: %s</string>
   <string name="tor_version">Tor versija: %s</string>
   <string name="links">Nuorodos</string>
   <string name="briar_website">\u2022 <a href="">Internetinė svetainė</a></string>
@@ -718,7 +718,7 @@
   <!--Settings Actions-->
   <string name="pref_category_actions">Veiksmai</string>
   <string name="share_app_link">Bendrinti atsisiuntimo nuorodą</string>
-  <string name="share_app_link_text">Atsisiųskite Briar apsilankę adresu %s</string>
+  <string name="share_app_link_text">Atsisiųskite Sushh apsilankę adresu %s</string>
   <string name="send_feedback">Siųsti atsiliepimą</string>
   <!--Link Warning-->
   <string name="link_warning_title">Įspėjimas apie nuorodą</string>
@@ -726,10 +726,10 @@
   <string name="link_warning_text">Tai gali būti panaudota tam, kad jūs būtumėte atpažinti. Pagalvokite ar pasitikite asmeniu, kuris jums siunčia šią nuorodą ir apsvarstykite galimybę ją atverti, naudojant Tor Browser.</string>
   <string name="link_warning_open_link">Atverti nuorodą</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar strigties ataskaita</string>
-  <string name="briar_crashed">Apgailestaujame, Briar užstrigo</string>
+  <string name="crash_report_title">Sushh strigties ataskaita</string>
+  <string name="briar_crashed">Apgailestaujame, Sushh užstrigo</string>
   <string name="not_your_fault">Tai nėra jūsų kaltė.</string>
-  <string name="please_send_report">Padėkite mums sukurti geresnę Briar, išsiųsdami mums strigties ataskaitą.</string>
+  <string name="please_send_report">Padėkite mums sukurti geresnę Sushh, išsiųsdami mums strigties ataskaitą.</string>
   <string name="report_is_encrypted">Mes pažadame, kad ataskaita yra šifruota ir išsiunčiama saugiai.</string>
   <string name="feedback_title">Atsiliepimai</string>
   <string name="describe_crash">Aprašykite kas nutiko (nebūtina)</string>
@@ -754,72 +754,72 @@
   <string name="close">Užverti</string>
   <string name="dev_report_sending">Siunčiamas atsiliepimas…</string>
   <string name="dev_report_sent">Atsiliepimas išsiųstas</string>
-  <string name="dev_report_saved">Ataskaita įrašyta. Ji bus išsiųsta, kai kitą kartą prisijungsite prie Briar.</string>
+  <string name="dev_report_saved">Ataskaita įrašyta. Ji bus išsiųsta, kai kitą kartą prisijungsite prie Sushh.</string>
   <string name="dev_report_error">Klaida: Nepavyko išsiųsti ataskaitos</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Atsijungiama iš Briar…</string>
+  <string name="progress_title_logout">Atsijungiama iš Sushh…</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Aptikta ekrano perdanga</string>
-  <string name="screen_filter_body">Aptikta kitos programėlės perdanga virš Briar. Tam, kad būtų apsaugotas jūsų saugumas, Briar nereaguos į prilietimus tol, kol kita programėlė yra atvaizduojama ant viršaus. Gali būti, kad šios programėlės perdengia Briar:\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">Aptikta kitos programėlės perdanga virš Briar. Siekdama apsaugoti jūsų saugumą, Briar nereaguos į prilietimus tol, kol kita programėlė yra atvaizduojama ant viršaus.\n\nPeržiūrėkite žemiau esančias programėles, kad rastumėte atsakingą programėlę.</string>
+  <string name="screen_filter_body">Aptikta kitos programėlės perdanga virš Sushh. Tam, kad būtų apsaugotas jūsų saugumas, Sushh nereaguos į prilietimus tol, kol kita programėlė yra atvaizduojama ant viršaus. Gali būti, kad šios programėlės perdengia Sushh:\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">Aptikta kitos programėlės perdanga virš Sushh. Siekdama apsaugoti jūsų saugumą, Sushh nereaguos į prilietimus tol, kol kita programėlė yra atvaizduojama ant viršaus.\n\nPeržiūrėkite žemiau esančias programėles, kad rastumėte atsakingą programėlę.</string>
   <string name="screen_filter_allow">Leisti šioms programėlėms perdengti ant viršaus</string>
   <string name="screen_filter_review_apps">Peržiūrėti programėles</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Kameros leidimas</string>
-  <string name="permission_camera_request_body">Norint nuskenuoti QR kodą, Briar reikia prieigos prie kameros.</string>
+  <string name="permission_camera_request_body">Norint nuskenuoti QR kodą, Sushh reikia prieigos prie kameros.</string>
   <string name="permission_location_title">Įrenginio vietovės leidimas</string>
   <string name="permission_nearby_devices_title">Įrenginių netoliese leidimas</string>
-  <string name="permission_location_request_body">Tam, kad galėtų atrasti Bluetooth įrenginius, Briar reikia gauti prieigą prie jūsų įrenginio vietovės.\n\nBriar nesaugo jūsų įrenginio vietovės ir su niekuo jos nebendrina.</string>
+  <string name="permission_location_request_body">Tam, kad galėtų atrasti Bluetooth įrenginius, Sushh reikia gauti prieigą prie jūsų įrenginio vietovės.\n\nSushh nesaugo jūsų įrenginio vietovės ir su niekuo jos nebendrina.</string>
   <string name="permission_camera_location_title">Kamera ir įrenginio vietovė</string>
-  <string name="permission_camera_location_request_body">Tam, kad galėtų nuskenuoti QR kodą, Briar reikia gauti prieigą prie jūsų kameros.\n\nTam, kad galėtų atrasti Bluetooth įrenginius, Briar reikia gauti prieigą prie jūsų įrenginio vietovės.\n\nBriar nesaugo jūsų įrenginio vietovės ir su niekuo jos nebendrina.</string>
+  <string name="permission_camera_location_request_body">Tam, kad galėtų nuskenuoti QR kodą, Sushh reikia gauti prieigą prie jūsų kameros.\n\nTam, kad galėtų atrasti Bluetooth įrenginius, Sushh reikia gauti prieigą prie jūsų įrenginio vietovės.\n\nSushh nesaugo jūsų įrenginio vietovės ir su niekuo jos nebendrina.</string>
   <string name="permission_camera_bluetooth_title">Kamera ir įrenginiai netoliese</string>
-  <string name="permission_camera_bluetooth_request_body">Tam, kad galėtų nuskenuoti QR kodą, Briar reikia gauti prieigą prie jūsų kameros.\n\nTam, kad galėtų atrasti Bluetooth įrenginius, Briar reikia leidimo, skirto rasti ir prisijungti prie netoliese esančių įrenginių.</string>
+  <string name="permission_camera_bluetooth_request_body">Tam, kad galėtų nuskenuoti QR kodą, Sushh reikia gauti prieigą prie jūsų kameros.\n\nTam, kad galėtų atrasti Bluetooth įrenginius, Sushh reikia leidimo, skirto rasti ir prisijungti prie netoliese esančių įrenginių.</string>
   <string name="permission_camera_denied_body">Jūs uždraudėte prieigą prie kameros, tačiau norint pridėti adresatus, reikia naudoti kamerą.\n\nApsvarstykite galimybę sutekti prieigą prie kameros.</string>
-  <string name="permission_location_denied_body">Jūs uždraudėte prieigą prie įrenginio vietovės, tačiau norint atrasti Bluetooth įrenginius, Briar reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginio vietovės.</string>
+  <string name="permission_location_denied_body">Jūs uždraudėte prieigą prie įrenginio vietovės, tačiau norint atrasti Bluetooth įrenginius, Sushh reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginio vietovės.</string>
   <string name="permission_location_setting_title">Įrenginio vietovės nustatymas</string>
   <string name="permission_location_setting_body">Norint rasti kitus įrenginius per Bluetooth, privalo būti įjungtas jūsų įrenginio vietovės nustatymas. Norėdami tęsti, įjunkite įrenginio vietovę. Po to, galėsite ir vėl ją išjungti.</string>
   <string name="permission_location_setting_hotspot_body">Norint sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, privalo būti įjungtas jūsų įrenginio vietovės nustatymas. Norėdami tęsti, įjunkite įrenginio vietovę. Po to, galėsite ir vėl ją išjungti.</string>
   <string name="permission_location_setting_button">Įjungti įrenginio vietovę</string>
   <string name="permission_bluetooth_title">Įrenginių netoliese leidimas</string>
-  <string name="permission_bluetooth_body">Tam, kad naudotų Bluetooth komunikaciją, Briar reikia leidimo rasti ir prisijungti prie įrenginių netoliese.</string>
-  <string name="permission_bluetooth_denied_body">Jūs uždraudėte prieigą prie įrenginių netoliese, tačiau norint naudoti Bluetooth, Briar reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginių netoliese.</string>
+  <string name="permission_bluetooth_body">Tam, kad naudotų Bluetooth komunikaciją, Sushh reikia leidimo rasti ir prisijungti prie įrenginių netoliese.</string>
+  <string name="permission_bluetooth_denied_body">Jūs uždraudėte prieigą prie įrenginių netoliese, tačiau norint naudoti Bluetooth, Sushh reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginių netoliese.</string>
   <string name="qr_code">QR kodas</string>
   <string name="show_qr_code_fullscreen">Rodyti QR kodą visame ekrane</string>
   <!--App Locking-->
-  <string name="lock_unlock">Atrakinti Briar</string>
-  <string name="lock_unlock_verbose">Norėdami atrakinti Briar, įveskite savo įrenginio PIN, šabloną ar slaptažodį</string>
+  <string name="lock_unlock">Atrakinti Sushh</string>
+  <string name="lock_unlock_verbose">Norėdami atrakinti Sushh, įveskite savo įrenginio PIN, šabloną ar slaptažodį</string>
   <string name="lock_unlock_fingerprint_description">Norėdami tęsti, priregistruotu pirštu prilieskite piršto atspaudo jutiklį</string>
   <string name="lock_unlock_password">Naudoti slaptažodį</string>
-  <string name="lock_is_locked">Briar užrakinta</string>
+  <string name="lock_is_locked">Sushh užrakinta</string>
   <string name="lock_tap_to_unlock">Bakstelėkite, norėdami atrakinti</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar gali jungtis prie jūsų adresatų per internetą, belaidį (Wi-Fi) tinklą ar Bluetooth ryšį.\n\nPrivatumo sumetimais, visi ryšiai jungiasi per Tor tinklą.\n\nJei adresatas gali būti pasiekiamas keliais būdais, tuomet Briar naudoja juos lygiagrečiai.</string>
+  <string name="transports_help_text">Sushh gali jungtis prie jūsų adresatų per internetą, belaidį (Wi-Fi) tinklą ar Bluetooth ryšį.\n\nPrivatumo sumetimais, visi ryšiai jungiasi per Tor tinklą.\n\nJei adresatas gali būti pasiekiamas keliais būdais, tuomet Sushh naudoja juos lygiagrečiai.</string>
   <!--Share app offline-->
   <string name="hotspot_title">Bendrinti šią programėlę nenaudojant interneto</string>
   <string name="hotspot_intro">Bendrinti šią programėlę su žmogumi, kuris neturi interneto ryšio, naudojant jūsų telefono belaidį (Wi-Fi) ryšį.
-		\n\nJūsų telefonas įjungs belaidį (Wi-Fi) viešosios interneto prieigos tašką. Šalia esantys žmonės galės prisijungti prie prieigos taško ir atsisiųsti iš jūsų telefono Briar programėlę.</string>
+		\n\nJūsų telefonas įjungs belaidį (Wi-Fi) viešosios interneto prieigos tašką. Šalia esantys žmonės galės prisijungti prie prieigos taško ir atsisiųsti iš jūsų telefono Sushh programėlę.</string>
   <string name="hotspot_button_start_sharing">Įjungti prieigos tašką</string>
   <string name="hotspot_button_stop_sharing">Išjungti prieigos tašką</string>
   <string name="hotspot_progress_text_start">Nustatomas prieigos taškas…</string>
   <string name="hotspot_notification_channel_title">Belaidis (Wi-Fi) prieigos taškas</string>
-  <string name="hotspot_notification_title">Bendrinama Briar nenaudojant interneto</string>
+  <string name="hotspot_notification_title">Bendrinama Sushh nenaudojant interneto</string>
   <string name="hotspot_button_connected">Kitas</string>
-  <string name="permission_hotspot_location_request_body">Tam, kad galėtų sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Briar reikia gauti prieigą prie jūsų įrenginio vietovės.\n\nBriar nesaugo jūsų įrenginio vietovės ir su niekuo jos nebendrina.</string>
-  <string name="permission_hotspot_location_request_precise_body">Tam, kad galėtų sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Briar reikia gauti prieigą prie jūsų tikslios įrenginio vietovės.\n\nBriar nesaugo jūsų įrenginio vietovės ir su niekuo jos nebendrina.</string>
-  <string name="permission_hotspot_location_denied_body">Jūs uždraudėte prieigą prie įrenginio vietovės, tačiau norint sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Briar reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginio vietovės.</string>
-  <string name="permission_hotspot_location_denied_precise_body">Jūs uždraudėte prieigą prie tikslios įrenginio vietovės, tačiau norint sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Briar reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginio vietovės.</string>
-  <string name="permission_hotspot_nearby_wifi_request_body">Tam, kad sukurtų belaidį (Wi-Fi) viešosios interneto prieigos tašką, Briar reikia leidimo gauti prieigą prie įrenginių netoliese.</string>
-  <string name="permission_hotspot_nearby_wifi_denied_body">Jūs uždraudėte prieigą prie įrenginių netoliese, tačiau norint sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Briar reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginių netoliese.</string>
+  <string name="permission_hotspot_location_request_body">Tam, kad galėtų sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Sushh reikia gauti prieigą prie jūsų įrenginio vietovės.\n\nSushh nesaugo jūsų įrenginio vietovės ir su niekuo jos nebendrina.</string>
+  <string name="permission_hotspot_location_request_precise_body">Tam, kad galėtų sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Sushh reikia gauti prieigą prie jūsų tikslios įrenginio vietovės.\n\nSushh nesaugo jūsų įrenginio vietovės ir su niekuo jos nebendrina.</string>
+  <string name="permission_hotspot_location_denied_body">Jūs uždraudėte prieigą prie įrenginio vietovės, tačiau norint sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Sushh reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginio vietovės.</string>
+  <string name="permission_hotspot_location_denied_precise_body">Jūs uždraudėte prieigą prie tikslios įrenginio vietovės, tačiau norint sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Sushh reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginio vietovės.</string>
+  <string name="permission_hotspot_nearby_wifi_request_body">Tam, kad sukurtų belaidį (Wi-Fi) viešosios interneto prieigos tašką, Sushh reikia leidimo gauti prieigą prie įrenginių netoliese.</string>
+  <string name="permission_hotspot_nearby_wifi_denied_body">Jūs uždraudėte prieigą prie įrenginių netoliese, tačiau norint sukurti belaidį (Wi-Fi) viešosios interneto prieigos tašką, Sushh reikia šio leidimo.\n\nApsvarstykite galimybę sutekti prieigą prie įrenginių netoliese.</string>
   <string name="wifi_settings_title">Belaidžio (Wi-Fi) nustatymas</string>
-  <string name="wifi_settings_request_enable_body">Tam, kad sukurtų belaidį (Wi-Fi) viešosios interneto prieigos tašką, Briar turi naudoti belaidį (Wi-Fi) ryšį. Įjunkite jį.</string>
+  <string name="wifi_settings_request_enable_body">Tam, kad sukurtų belaidį (Wi-Fi) viešosios interneto prieigos tašką, Sushh turi naudoti belaidį (Wi-Fi) ryšį. Įjunkite jį.</string>
   <string name="hotspot_tab_manual">Rankinis</string>
   <!--The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s-->
   <string name="hotspot_scanning_a_qr_code">skenuodami QR kodą</string>
   <!--Wi-Fi setup-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_wifi">Jūsų telefonas teikia belaidį (Wi-Fi) viešosios interneto prieigos tašką. Žmonės, norintys atsisiųsti Briar, gali prisijungti prie prieigos taško ir pridėti jį savo įrenginio belaidžio (Wi-Fi) ryšio nustatymuose naudodami informaciją žemiau arba %s. Prisijungę prie prieigos taško, jie turi paspausti „Kitas“.</string>
+  <string name="hotspot_manual_wifi">Jūsų telefonas teikia belaidį (Wi-Fi) viešosios interneto prieigos tašką. Žmonės, norintys atsisiųsti Sushh, gali prisijungti prie prieigos taško ir pridėti jį savo įrenginio belaidžio (Wi-Fi) ryšio nustatymuose naudodami informaciją žemiau arba %s. Prisijungę prie prieigos taško, jie turi paspausti „Kitas“.</string>
   <string name="hotspot_manual_wifi_ssid">Tinklo pavadinimas</string>
-  <string name="hotspot_qr_wifi">Jūsų telefonas teikia belaidį (Wi-Fi) viešosios interneto prieigos tašką. Žmonės, norintys atsisiųsti Briar, gali prisijungti prie prieigos taško skenuodami šį QR kodą. Prisijungę prie prieigos taško, jie turi paspausti „Kitas“.</string>
+  <string name="hotspot_qr_wifi">Jūsų telefonas teikia belaidį (Wi-Fi) viešosios interneto prieigos tašką. Žmonės, norintys atsisiųsti Sushh, gali prisijungti prie prieigos taško skenuodami šį QR kodą. Prisijungę prie prieigos taško, jie turi paspausti „Kitas“.</string>
   <string name="hotspot_no_peers_connected">Nėra prisijungusių įrenginių</string>
   <plurals name="hotspot_peers_connected">
     <item quantity="one">%s prisijungęs įrenginys</item>
@@ -829,13 +829,13 @@
   </plurals>
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_site">Jūsų telefonas teikia belaidį (Wi-Fi) viešosios interneto prieigos tašką. Žmonės, prisijungę prie prieigos taško, gali atsisiųsti Briar, įrašydami saityno naršyklėje šią nuorodą arba %s.</string>
+  <string name="hotspot_manual_site">Jūsų telefonas teikia belaidį (Wi-Fi) viešosios interneto prieigos tašką. Žmonės, prisijungę prie prieigos taško, gali atsisiųsti Sushh, įrašydami saityno naršyklėje šią nuorodą arba %s.</string>
   <string name="hotspot_manual_site_address">Adresas (URL)</string>
-  <string name="hotspot_qr_site">Jūsų telefonas teikia belaidį (Wi-Fi) viešosios interneto prieigos tašką. Žmonės, prisijungę prie prieigos taško, gali atsisiųsti Briar, skenuodami šį QR kodą.</string>
-  <!--e.g. Download Briar 1.2.20-->
-  <string name="website_download_title_1">Atsisiųsti Briar %s</string>
-  <string name="website_download_intro_1">Kažkas iš šalia esančių pradėjo bendrinti su jumis Briar.</string>
-  <string name="website_download_button">Atsisiųsti Briar</string>
+  <string name="hotspot_qr_site">Jūsų telefonas teikia belaidį (Wi-Fi) viešosios interneto prieigos tašką. Žmonės, prisijungę prie prieigos taško, gali atsisiųsti Sushh, skenuodami šį QR kodą.</string>
+  <!--e.g. Download Sushh 1.2.20-->
+  <string name="website_download_title_1">Atsisiųsti Sushh %s</string>
+  <string name="website_download_intro_1">Kažkas iš šalia esančių pradėjo bendrinti su jumis Sushh.</string>
+  <string name="website_download_button">Atsisiųsti Sushh</string>
   <string name="website_download_outro">Kai atsisiuntimas pasibaigs, atverkite atsisiųstą failą ir jį įdiekite.</string>
   <string name="website_troubleshooting_title">Nesklandumų šalinimas</string>
   <string name="website_troubleshooting_1">Jei negalite atsisiųsti programėlės, pabandykite naudoti kitą saityno naršyklės programėlę.</string>
@@ -844,14 +844,14 @@
   <string name="hotspot_help_wifi_title">Problemos jungiantis prie belaidžio (Wi-Fi):</string>
   <string name="hotspot_help_wifi_1">Pabandykite abiejuose telefonuose išjungti ir vėl įjungti belaidį (Wi-Fi) ryšį ir bandykite dar kartą.</string>
   <string name="hotspot_help_wifi_2">Jeigu jūsų telefonas skundžiasi, jog belaidžiame (Wi-Fi) tinkle nėra interneto ryšio, nurodykite jam, kad norite likti prisijungę.</string>
-  <string name="hotspot_help_wifi_3">Paleiskite telefoną, kuriame įjungtas belaidis (Wi-Fi) viešosios interneto prieigos taškas, iš naujo, o tuomet paleiskite Briar ir bandykite bendrinti dar kartą.</string>
+  <string name="hotspot_help_wifi_3">Paleiskite telefoną, kuriame įjungtas belaidis (Wi-Fi) viešosios interneto prieigos taškas, iš naujo, o tuomet paleiskite Sushh ir bandykite bendrinti dar kartą.</string>
   <string name="hotspot_help_site_title">Iškilo problemų apsilankant vietinėje svetainėje:</string>
   <string name="hotspot_help_site_1">Dar kartą įsitikinkite, kad tiksliai įvedėte nurodytą adresą. Maža klaida gali sukelti nesėkmę.</string>
   <string name="hotspot_help_site_2">Bandydami pasiekti šią svetainę, įsitikinkite, kad jūsų telefonas vis dar yra prisijungęs prie teisingo belaidžio (Wi-Fi) ryšio (žiūrėkite aukščiau).</string>
   <string name="hotspot_help_site_3">Jei turite užkardos programėlę, įsitikinkite, kad ji neblokuoja prieigos.</string>
-  <string name="hotspot_help_site_4">Jei galite apsilankyti svetainėje, bet negalite atsisiųsti Briar programėlės, pabandykite naudoti kitą saityno naršyklės programėlę.</string>
+  <string name="hotspot_help_site_4">Jei galite apsilankyti svetainėje, bet negalite atsisiųsti Sushh programėlės, pabandykite naudoti kitą saityno naršyklės programėlę.</string>
   <string name="hotspot_help_fallback_title">Niekas neveikia?</string>
-  <string name="hotspot_help_fallback_intro">Galite pabandyti įsirašyti programėlę kaip .apk failą, kad bendrintumėte ją kitokiu būdu. Perkėlus failą į kitą įrenginį, jis gali būti naudojamas, kad būtų įdiegta Briar.
+  <string name="hotspot_help_fallback_intro">Galite pabandyti įsirašyti programėlę kaip .apk failą, kad bendrintumėte ją kitokiu būdu. Perkėlus failą į kitą įrenginį, jis gali būti naudojamas, kad būtų įdiegta Sushh.
 		\n\nPatarimas: Norėdami bendrinti failą per Bluetooth, iš pradžių, jums gali tekti pervadinti failą taip, kad jis baigtųsi .zip prievardžiu.</string>
   <string name="hotspot_help_fallback_button">Įsirašyti programėlę</string>
   <!--error handling-->
@@ -861,18 +861,18 @@
   <string name="hotspot_error_start_callback_failed_unknown">Nepavyko įjungti prieigos taško dėl nežinomos klaidos, priežastis %d</string>
   <string name="hotspot_error_start_callback_no_group_info">Nepavyko įjungti prieigos taško: nėra informacijos apie grupę</string>
   <string name="hotspot_error_web_server_start">Klaida paleidžiant saityno serverį</string>
-  <string name="hotspot_error_web_server_serve">Klaida pateikiant svetainę.\n\nJei problema išlieka, išsiųskite atsiliepimą (su anoniminiais duomenimis) per Briar programėlę.</string>
+  <string name="hotspot_error_web_server_serve">Klaida pateikiant svetainę.\n\nJei problema išlieka, išsiųskite atsiliepimą (su anoniminiais duomenimis) per Sushh programėlę.</string>
   <string name="hotspot_flag_test">Įspėjimas: Ši programėlė buvo įdiegta naudojant „Android Studio“ ir NEGALI būti įdiegta kitame įrenginyje.</string>
   <string name="hotspot_error_framework_busy">Nepavyko įjungti prieigos taško.\n\nJei turite veikiantį kitą prieigos tašką arba, jei bendrinate interneto ryšį per belaidį (Wi-Fi) ryšį, pabandykite to nebedaryti ir po to, bandykite dar kartą.</string>
   <!--Transfer Data via Removable Drives-->
   <string name="removable_drive_menu_title">Prisijungti per keičiamąjį diską</string>
-  <string name="removable_drive_intro">Jei negalite prisijungti prie savo adresato per internetą, belaidį (Wi-Fi) ar Bluetooth, Briar taip pat gali perkelti žinutes į keičiamąjį diską, pavyzdžiui, USB atmintuką ar SD kortelę.</string>
-  <string name="removable_drive_explanation">Jei negalite prisijungti prie savo adresato per internetą, belaidį (Wi-Fi) ar Bluetooth, Briar taip pat gali perkelti žinutes į keičiamąjį diską, pavyzdžiui, USB atmintuką ar SD kortelę.\n\nKai naudojate mygtuką „Siųsti duomenis“, bet kokie duomenys, laukiantys, kad būtų išsiųsti adresatui, bus įrašyti į keičiamąjį diską. Į juos įeina privačios žinutės, priedai, tinklaraščiai, forumai ir privačios grupės.\n\nVisa tai, prieš įrašant į keičiamąjį diską, bus užšifruota.\n\nJūsų adresatas, gavęs keičiamąjį diską, galės naudoti mygtuką „Gauti duomenis“, kad importuotų žinutes į Briar.</string>
+  <string name="removable_drive_intro">Jei negalite prisijungti prie savo adresato per internetą, belaidį (Wi-Fi) ar Bluetooth, Sushh taip pat gali perkelti žinutes į keičiamąjį diską, pavyzdžiui, USB atmintuką ar SD kortelę.</string>
+  <string name="removable_drive_explanation">Jei negalite prisijungti prie savo adresato per internetą, belaidį (Wi-Fi) ar Bluetooth, Sushh taip pat gali perkelti žinutes į keičiamąjį diską, pavyzdžiui, USB atmintuką ar SD kortelę.\n\nKai naudojate mygtuką „Siųsti duomenis“, bet kokie duomenys, laukiantys, kad būtų išsiųsti adresatui, bus įrašyti į keičiamąjį diską. Į juos įeina privačios žinutės, priedai, tinklaraščiai, forumai ir privačios grupės.\n\nVisa tai, prieš įrašant į keičiamąjį diską, bus užšifruota.\n\nJūsų adresatas, gavęs keičiamąjį diską, galės naudoti mygtuką „Gauti duomenis“, kad importuotų žinutes į Sushh.</string>
   <string name="removable_drive_title_send">Siųsti duomenis</string>
   <string name="removable_drive_title_receive">Gauti duomenis</string>
   <string name="removable_drive_send_intro">Bakstelėkite mygtuką žemiau, kad sukurtumėte naują failą su šifruotomis žinutėmis. Galite pasirinkti, kur failą įrašyti.\n\nJei norite įrašyti failą į keičiamąjį diską, tuomet įdėkite diską dabar.</string>
   <string name="removable_drive_send_no_data">Šiuo metu nėra žinučių, kurios laukia būti išsiųstos šiam adresatui.</string>
-  <string name="removable_drive_send_not_supported">Šis adresatas naudoja seną Briar versiją arba įrenginį, kuris nepalaiko šios ypatybės.</string>
+  <string name="removable_drive_send_not_supported">Šis adresatas naudoja seną Sushh versiją arba įrenginį, kuris nepalaiko šios ypatybės.</string>
   <string name="removable_drive_send_button">Pasirinkti eksportuojamą failą</string>
   <string name="removable_drive_ongoing">Palaukite, kol bus užbaigta vykdoma užduotis</string>
   <string name="removable_drive_receive_intro">Bakstelėkite žemiau esantį mygtuką, kad pasirinktumėte adresato jums išsiųsta failą.\n\nJeigu failas yra keičiamajame diske, tuomet įdėkite diską dabar.</string>
@@ -882,9 +882,9 @@
   <string name="removable_drive_success_receive_title">Importavimas sėkmingas</string>
   <string name="removable_drive_success_receive_text">Gautos visos šiame faile esančios šifruotos žinutės.</string>
   <string name="removable_drive_error_send_title">Klaida eksportuojant duomenis</string>
-  <string name="removable_drive_error_send_text">Įvyko klaida rašant duomenis į failą.\n\nJei naudojate keičiamąjį diską, įsitikinkite, jog jis yra tinkamai įkištas ir bandykite dar kartą.\n\nJei klaida išlieka, atsiųskite atsiliepimą, kad praneštumėte Briar komandai apie šią klaidą.</string>
+  <string name="removable_drive_error_send_text">Įvyko klaida rašant duomenis į failą.\n\nJei naudojate keičiamąjį diską, įsitikinkite, jog jis yra tinkamai įkištas ir bandykite dar kartą.\n\nJei klaida išlieka, atsiųskite atsiliepimą, kad praneštumėte Sushh komandai apie šią klaidą.</string>
   <string name="removable_drive_error_receive_title">Klaida importuojant duomenis</string>
-  <string name="removable_drive_error_receive_text">Pasirinktame faile nebuvo nieko tokio, ką Briar galėtų atpažinti.\n\nĮsitikinkite, kad pasirinkote teisingą failą.\n\nJeigu jūsų adresatas sukūrė failą daugiau kaip prieš 28 dienas, tuomet Briar negalės jo atpažinti.</string>
+  <string name="removable_drive_error_receive_text">Pasirinktame faile nebuvo nieko tokio, ką Sushh galėtų atpažinti.\n\nĮsitikinkite, kad pasirinkote teisingą failą.\n\nJeigu jūsų adresatas sukūrė failą daugiau kaip prieš 28 dienas, tuomet Sushh negalės jo atpažinti.</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">Jurgita</string>
@@ -895,7 +895,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Labas, Mindaugai!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Sveika, Jurgita! Ačiū, kad papasakojai man apie Briar!</string>
+  <string name="screenshot_message_2">Sveika, Jurgita! Ačiū, kad papasakojai man apie Sushh!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Jokių problemų, tikiuosi tau patiks 😀</string>
 </resources>
