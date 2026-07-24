@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="briar_primary">#FF9933</color>
-	<color name="briar_accent">#138808</color>
+	<color name="briar_primary">#881A27</color>
+	<color name="briar_accent">#2B2E3B</color>
 
 	<color name="preference_category_background">@color/briar_night_950</color>
 

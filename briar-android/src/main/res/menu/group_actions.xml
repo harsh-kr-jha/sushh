@@ -12,14 +12,6 @@
 		tools:visible="true" />
 
 	<item
-		android:id="@+id/action_group_invite"
-		android:icon="@drawable/ic_add_white"
-		android:title="@string/groups_invite_members"
-		android:visible="false"
-		app:showAsAction="never"
-		tools:visible="true" />
-
-	<item
 		android:id="@+id/action_channel_add_nearby"
 		android:icon="@drawable/ic_qr_code"
 		android:title="@string/channels_invite_with_qr"

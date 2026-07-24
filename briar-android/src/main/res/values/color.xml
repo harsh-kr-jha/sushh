@@ -47,12 +47,13 @@
 	<color name="briar_brand_blue">@color/briar_night_700</color>
 	<color name="briar_brand_green">#138808</color>
 	<color name="sanchar_green_light">#DDF2D9</color>
-	<color name="sanchar_saffron">#FF9933</color>
-	<color name="sanchar_saffron_dark">#E87900</color>
+	<color name="sanchar_saffron">#881A27</color>
+	<color name="sanchar_saffron_dark">#6E151F</color>
+	<color name="sanchar_secondary">#2B2E3B</color>
 
 	<color name="briar_primary">@color/sanchar_saffron</color>
 	<color name="briar_primary_dark">@color/sanchar_saffron_dark</color>
-	<color name="briar_accent">@color/briar_brand_green</color>
+	<color name="briar_accent">@color/sanchar_secondary</color>
 
 	<color name="window_background">@android:color/white</color>
 	<color name="card_background">@color/cardview_light_background</color>
@@ -109,7 +110,7 @@
 	<color name="md_theme_primaryContainer">@color/sanchar_saffron</color>
 	<color name="md_theme_onPrimaryContainer">#2B1600</color>
 	<color name="md_theme_inversePrimary">@color/sanchar_saffron</color>
-	<color name="md_theme_secondary">@color/briar_brand_green</color>
+	<color name="md_theme_secondary">@color/sanchar_secondary</color>
 	<color name="md_theme_onSecondary">@android:color/white</color>
 	<color name="md_theme_tertiaryContainer">@color/briar_blue_100</color>
 	<color name="md_theme_onTertiaryContainer">@color/briar_blue_600_new</color>

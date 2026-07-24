@@ -16,7 +16,6 @@ import org.briarproject.briar.R;
 import org.briarproject.briar.android.activity.ActivityComponent;
 import org.briarproject.briar.android.contact.add.nearby.AddNearbyContactActivity;
 import org.briarproject.briar.android.contact.add.remote.AddContactActivity;
-import org.briarproject.briar.android.privategroup.creation.GroupInviteActivity;
 import org.briarproject.briar.android.privategroup.memberlist.GroupMemberListActivity;
 import org.briarproject.briar.android.privategroup.reveal.RevealContactsActivity;
 import org.briarproject.briar.android.threaded.ThreadListActivity;
@@ -36,7 +35,6 @@ import androidx.lifecycle.ViewModelProvider;
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 import static android.content.DialogInterface.BUTTON_POSITIVE;
-import static org.briarproject.briar.android.activity.RequestCodes.REQUEST_GROUP_INVITE;
 import static org.briarproject.briar.android.util.UiUtils.observeOnce;
 import static org.briarproject.briar.api.privategroup.PrivateGroupConstants.MAX_GROUP_POST_TEXT_LENGTH;
 import static org.briarproject.nullsafety.NullSafety.requireNonNull;
@@ -145,7 +143,6 @@ public class GroupActivity extends
 		// show items based on role (which will not change, so observe once)
 		observeOnce(viewModel.isCreator(), this, isCreator -> {
 			menu.findItem(R.id.action_group_reveal).setVisible(!isCreator);
-			menu.findItem(R.id.action_group_invite).setVisible(true);
 			menu.findItem(R.id.action_group_leave).setVisible(!isCreator);
 			menu.findItem(R.id.action_group_dissolve).setVisible(isCreator);
 		});
@@ -170,11 +167,6 @@ public class GroupActivity extends
 			Intent i = new Intent(this, RevealContactsActivity.class);
 			i.putExtra(GROUP_ID, groupId.getBytes());
 			startActivity(i);
-			return true;
-		} else if (itemId == R.id.action_group_invite) {
-			Intent i = new Intent(this, GroupInviteActivity.class);
-			i.putExtra(GROUP_ID, groupId.getBytes());
-			startActivityForResult(i, REQUEST_GROUP_INVITE);
 			return true;
 		} else if (itemId == R.id.action_channel_add_nearby) {
 			Intent i = new Intent(this, AddNearbyContactActivity.class);
@@ -216,14 +208,6 @@ public class GroupActivity extends
 				})
 				.setNegativeButton(R.string.cancel, null)
 				.show();
-	}
-
-	@Override
-	protected void onActivityResult(int request, int result,
-			@Nullable Intent data) {
-		if (request == REQUEST_GROUP_INVITE && result == RESULT_OK) {
-			displaySnackbar(R.string.groups_invitation_sent);
-		} else super.onActivityResult(request, result, data);
 	}
 
 	@Override
