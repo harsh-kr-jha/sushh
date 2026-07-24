@@ -23,15 +23,19 @@ class MemberListItemHolder extends RecyclerView.ViewHolder {
 	private final AuthorView author;
 	private final ImageView bulb;
 	private final TextView creator;
+	private final TextView admin;
 
 	MemberListItemHolder(View v) {
 		super(v);
 		author = v.findViewById(R.id.authorView);
 		bulb = v.findViewById(R.id.bulbView);
 		creator = v.findViewById(R.id.creatorView);
+		admin = v.findViewById(R.id.adminView);
 	}
 
-	protected void bind(MemberListItem item) {
+	protected void bind(MemberListItem item,
+			MemberListAdapter.MemberClickListener listener) {
+		itemView.setOnClickListener(v -> listener.onMemberClick(item));
 		// member name, avatar and author info
 		author.setAuthor(item.getMember(), item.getAuthorInfo());
 
@@ -61,6 +65,9 @@ class MemberListItemHolder extends RecyclerView.ViewHolder {
 		} else {
 			creator.setVisibility(GONE);
 		}
+
+		admin.setVisibility(item.isAdmin() && !item.isCreator()
+				? VISIBLE : GONE);
 	}
 
 }

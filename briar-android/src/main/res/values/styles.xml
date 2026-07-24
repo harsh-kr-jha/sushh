@@ -13,7 +13,7 @@
 		<item name="colorControlNormal">@color/briar_text_primary_inverse</item>
 	</style>
 
-	<style name="PopupMenu" parent="Theme.Material3.DayNight">
+	<style name="PopupMenu" parent="Theme.Material3.Light">
 		<item name="android:colorBackground">@color/window_background</item>
 	</style>
 

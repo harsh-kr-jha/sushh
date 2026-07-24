@@ -15,15 +15,18 @@ public class GroupMember {
 	private final Author author;
 	private final AuthorInfo authorInfo;
 	private final boolean isCreator;
+	private final boolean isAdmin;
 	@Nullable
 	private final ContactId contactId;
 	private final Visibility visibility;
 
 	public GroupMember(Author author, AuthorInfo authorInfo, boolean isCreator,
-			@Nullable ContactId contactId, Visibility visibility) {
+			boolean isAdmin, @Nullable ContactId contactId,
+			Visibility visibility) {
 		this.author = author;
 		this.authorInfo = authorInfo;
 		this.isCreator = isCreator;
+		this.isAdmin = isAdmin;
 		this.contactId = contactId;
 		this.visibility = visibility;
 	}
@@ -38,6 +41,10 @@ public class GroupMember {
 
 	public boolean isCreator() {
 		return isCreator;
+	}
+
+	public boolean isAdmin() {
+		return isAdmin;
 	}
 
 	/**

@@ -30,6 +30,7 @@ import org.briarproject.briar.api.privategroup.GroupMessageHeader;
 import org.briarproject.briar.api.privategroup.JoinMessageHeader;
 import org.briarproject.briar.api.privategroup.PrivateGroup;
 import org.briarproject.briar.api.privategroup.PrivateGroupManager;
+import org.briarproject.briar.api.privategroup.event.GroupAdminAddedEvent;
 import org.briarproject.briar.api.privategroup.event.ContactRelationshipRevealedEvent;
 import org.briarproject.briar.api.privategroup.event.GroupDissolvedEvent;
 import org.briarproject.briar.api.privategroup.event.GroupInvitationResponseReceivedEvent;
@@ -67,6 +68,7 @@ class GroupViewModel extends ThreadListViewModel<GroupMessageItem> {
 	private final MutableLiveData<PrivateGroup> privateGroup =
 			new MutableLiveData<>();
 	private final MutableLiveData<Boolean> isCreator = new MutableLiveData<>();
+	private final MutableLiveData<Boolean> isAdmin = new MutableLiveData<>();
 	private final MutableLiveData<Boolean> isDissolved =
 			new MutableLiveData<>();
 
@@ -127,6 +129,9 @@ class GroupViewModel extends ThreadListViewModel<GroupMessageItem> {
 			if (g.getGroupId().equals(groupId)) {
 				isDissolved.setValue(true);
 			}
+		} else if (e instanceof GroupAdminAddedEvent) {
+			GroupAdminAddedEvent a = (GroupAdminAddedEvent) e;
+			if (a.getGroupId().equals(groupId)) loadPrivateGroup(groupId);
 		} else {
 			super.eventOccurred(e);
 		}
@@ -150,6 +155,8 @@ class GroupViewModel extends ThreadListViewModel<GroupMessageItem> {
 				privateGroup.postValue(g);
 				Author author = identityManager.getLocalAuthor();
 				isCreator.postValue(g.getCreator().equals(author));
+				isAdmin.postValue(
+						privateGroupManager.isAdmin(groupId, author));
 			} catch (DbException e) {
 				handleException(e);
 			}
@@ -278,6 +285,10 @@ class GroupViewModel extends ThreadListViewModel<GroupMessageItem> {
 
 	LiveData<Boolean> isCreator() {
 		return isCreator;
+	}
+
+	LiveData<Boolean> isAdmin() {
+		return isAdmin;
 	}
 
 	LiveData<Boolean> isDissolved() {

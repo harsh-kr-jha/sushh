@@ -45,13 +45,15 @@
 	<color name="briar_gray_100">#f2f2f2</color>
 
 	<color name="briar_brand_blue">@color/briar_night_700</color>
-	<color name="briar_brand_green">@color/briar_lime_400</color>
+	<color name="briar_brand_green">#138808</color>
+	<color name="sanchar_saffron">#FF9933</color>
+	<color name="sanchar_saffron_dark">#E87900</color>
 
-	<color name="briar_primary">@color/briar_brand_blue</color>
-	<color name="briar_primary_dark">@color/briar_night_950</color>
-	<color name="briar_accent">@color/briar_brand_blue</color>
+	<color name="briar_primary">@color/sanchar_saffron</color>
+	<color name="briar_primary_dark">@color/sanchar_saffron_dark</color>
+	<color name="briar_accent">@color/briar_brand_green</color>
 
-	<color name="window_background">@color/briar_gray_100</color>
+	<color name="window_background">@android:color/white</color>
 	<color name="card_background">@color/cardview_light_background</color>
 	<color name="item_background_highlight">@color/briar_gray_200</color>
 	<color name="briar_warning_background">@color/briar_red_500</color>
@@ -101,19 +103,19 @@
 
 
 
-	<color name="md_theme_primary">@color/briar_lime_500</color>
-	<color name="md_theme_onPrimary">@color/briar_lime_950</color>
-	<color name="md_theme_primaryContainer">@color/briar_night_700</color>
-	<color name="md_theme_onPrimaryContainer">@android:color/white</color>
-	<color name="md_theme_inversePrimary">#98DA27</color>
-	<color name="md_theme_secondary">@color/briar_night_700</color>
+	<color name="md_theme_primary">@color/sanchar_saffron</color>
+	<color name="md_theme_onPrimary">#2B1600</color>
+	<color name="md_theme_primaryContainer">@color/sanchar_saffron</color>
+	<color name="md_theme_onPrimaryContainer">#2B1600</color>
+	<color name="md_theme_inversePrimary">@color/sanchar_saffron</color>
+	<color name="md_theme_secondary">@color/briar_brand_green</color>
 	<color name="md_theme_onSecondary">@android:color/white</color>
 	<color name="md_theme_tertiaryContainer">@color/briar_blue_100</color>
 	<color name="md_theme_onTertiaryContainer">@color/briar_blue_600_new</color>
 	<color name="md_theme_tertiary">@color/briar_blue_600_new</color>
 	<color name="md_theme_onTertiary">@android:color/white</color>
-	<color name="md_theme_onBackground">#191D12</color>
-	<color name="md_theme_onSurface">#191D12</color>
+	<color name="md_theme_onBackground">#1F1F1F</color>
+	<color name="md_theme_onSurface">#1F1F1F</color>
 	<color name="md_theme_surfaceDim">@color/briar_gray_200_new</color>
 	<color name="md_theme_error">@color/briar_red_600</color>
 </resources>

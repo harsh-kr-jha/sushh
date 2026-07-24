@@ -7,6 +7,8 @@ import org.briarproject.bramble.api.identity.AuthorId;
 import org.briarproject.bramble.api.sync.GroupId;
 import org.briarproject.bramble.api.sync.MessageId;
 import org.briarproject.bramble.test.TestDatabaseConfigModule;
+import org.briarproject.briar.api.client.ProtocolStateException;
+import org.briarproject.briar.api.privategroup.AdminMessage;
 import org.briarproject.briar.api.privategroup.GroupMember;
 import org.briarproject.briar.api.privategroup.GroupMessage;
 import org.briarproject.briar.api.privategroup.GroupMessageHeader;
@@ -32,6 +34,7 @@ import static org.briarproject.briar.api.privategroup.Visibility.REVEALED_BY_US;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 /**
  * This class tests how PrivateGroupManager and GroupInvitationManager
@@ -186,7 +189,30 @@ public class PrivateGroupIntegrationTest
 		assertEquals(REVEALED_BY_CONTACT,
 				getGroupMember(groupManager2, author1.getId()).getVisibility());
 
-		// 2 sends a message to the group
+		// A regular member cannot post to the channel.
+		MessageId memberPrevious =
+				groupManager2.getPreviousMsgId(groupId0);
+		GroupMessage rejected = groupMessageFactory.createGroupMessage(groupId0,
+				c2.getClock().currentTimeMillis(), null, author2,
+				"Members cannot post", memberPrevious);
+		try {
+			groupManager2.addLocalMessage(rejected);
+			fail();
+		} catch (ProtocolStateException expected) {
+			// Expected.
+		}
+
+		// The creator appoints 2 as an admin and announces it to the channel.
+		AdminMessage adminMessage = groupMessageFactory.createAdminMessage(
+				groupId0, c0.getClock().currentTimeMillis(), author0, author2);
+		groupManager0.addLocalAdmin(adminMessage);
+		sync0To1(1, true);
+		sync0To2(1, true);
+		assertTrue(groupManager0.isAdmin(groupId0, author2));
+		assertTrue(groupManager1.isAdmin(groupId0, author2));
+		assertTrue(groupManager2.isAdmin(groupId0, author2));
+
+		// Admin 2 sends a message to the channel.
 		long time = c2.getClock().currentTimeMillis();
 		String text = "This is a test message!";
 		MessageId previousMsgId = groupManager2.getPreviousMsgId(groupId0);
@@ -201,7 +227,8 @@ public class PrivateGroupIntegrationTest
 		assertEquals(3, headers.size());
 
 		// message should sync to 1 without creator (0) being involved
-		sync2To1(1, true);
+		assertNotNull(contactId1From2);
+		syncMessage(c2, c1, contactId1From2, 1, 1, 0, 1);
 		headers = groupManager1.getHeaders(groupId0);
 		assertEquals(4, headers.size());
 		boolean foundPost = false;
@@ -218,6 +245,45 @@ public class PrivateGroupIntegrationTest
 		sync1To0(1, true);
 		headers = groupManager0.getHeaders(groupId0);
 		assertEquals(4, headers.size());
+	}
+
+	@Test
+	public void testMemberCanInviteContact() throws Exception {
+		// The creator invites 1, who joins the channel.
+		sendInvitation(contactId1From0, c0.getClock().currentTimeMillis(),
+				null);
+		sync0To1(1, true);
+		groupInvitationManager1
+				.respondToInvitation(contactId0From1, privateGroup0, true);
+		sync1To0(1, true);
+		sync0To1(2, true);
+		sync1To0(1, true);
+		assertEquals(2, groupManager1.getMembers(groupId0).size());
+
+		// Member 1 adds 2 as a contact and invites them without the creator.
+		addContacts1And2();
+		assertNotNull(contactId2From1);
+		long timestamp = c1.getClock().currentTimeMillis();
+		Contact contact2 = contactManager1.getContact(contactId2From1);
+		byte[] signature = groupInvitationFactory.signInvitation(contact2,
+				groupId0, timestamp, author1.getPrivateKey());
+		groupInvitationManager1.sendInvitation(groupId0, contactId2From1,
+				"Join this channel", timestamp, signature,
+				NO_AUTO_DELETE_TIMER);
+		sync1To2(1, true);
+
+		// 2 accepts and joins through member 1.
+		assertNotNull(contactId1From2);
+		groupInvitationManager2
+				.respondToInvitation(contactId1From2, privateGroup0, true);
+		sync2To1(1, true);
+		sync1To2(3, true);
+		sync2To1(1, true);
+
+		assertEquals(3, groupManager1.getMembers(groupId0).size());
+		assertEquals(3, groupManager2.getMembers(groupId0).size());
+		// The creator was not needed for the invitation flow.
+		assertEquals(2, groupManager0.getMembers(groupId0).size());
 	}
 
 	private void sendInvitation(ContactId c, long timestamp,

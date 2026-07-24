@@ -12,6 +12,18 @@
 		tools:visible="true" />
 
 	<item
+		android:id="@+id/action_channel_add_nearby"
+		android:icon="@drawable/ic_add_white"
+		android:title="@string/add_contact_nearby_title"
+		app:showAsAction="never" />
+
+	<item
+		android:id="@+id/action_channel_add_remotely"
+		android:icon="@drawable/ic_add_white"
+		android:title="@string/add_contact_remotely_title"
+		app:showAsAction="never" />
+
+	<item
 		android:id="@+id/action_group_member_list"
 		android:icon="@drawable/ic_group_white"
 		android:title="@string/groups_member_list"

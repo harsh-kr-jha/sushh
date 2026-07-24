@@ -10,6 +10,8 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.briarproject.briar.R;
 import org.briarproject.briar.android.activity.ActivityComponent;
+import org.briarproject.briar.android.contact.add.nearby.AddNearbyContactActivity;
+import org.briarproject.briar.android.contact.add.remote.AddContactActivity;
 import org.briarproject.briar.android.privategroup.creation.GroupInviteActivity;
 import org.briarproject.briar.android.privategroup.memberlist.GroupMemberListActivity;
 import org.briarproject.briar.android.privategroup.reveal.RevealContactsActivity;
@@ -41,6 +43,8 @@ public class GroupActivity extends
 	ViewModelProvider.Factory viewModelFactory;
 
 	private GroupViewModel viewModel;
+	private boolean admin = false;
+	private boolean dissolved = true;
 
 	@Override
 	public void injectActivity(ActivityComponent component) {
@@ -78,11 +82,16 @@ public class GroupActivity extends
 				setTitle(privateGroup.getName())
 		);
 		observeOnce(viewModel.isCreator(), this, adapter::setIsCreator);
+		viewModel.isAdmin().observe(this, isAdmin -> {
+			admin = isAdmin;
+			updatePostingState();
+		});
 
 		// start with group disabled and enable when not dissolved
 		setGroupEnabled(false);
 		viewModel.isDissolved().observe(this, dissolved -> {
-			setGroupEnabled(!dissolved);
+			this.dissolved = dissolved;
+			updatePostingState();
 			// only show dialog when no prior state
 			if (dissolved && state == null) onGroupDissolved();
 		});
@@ -97,7 +106,7 @@ public class GroupActivity extends
 		// show items based on role (which will not change, so observe once)
 		observeOnce(viewModel.isCreator(), this, isCreator -> {
 			menu.findItem(R.id.action_group_reveal).setVisible(!isCreator);
-			menu.findItem(R.id.action_group_invite).setVisible(isCreator);
+			menu.findItem(R.id.action_group_invite).setVisible(true);
 			menu.findItem(R.id.action_group_leave).setVisible(!isCreator);
 			menu.findItem(R.id.action_group_dissolve).setVisible(isCreator);
 		});
@@ -121,11 +130,15 @@ public class GroupActivity extends
 			startActivity(i);
 			return true;
 		} else if (itemId == R.id.action_group_invite) {
-			if (!requireNonNull(viewModel.isCreator().getValue()))
-				throw new IllegalStateException();
 			Intent i = new Intent(this, GroupInviteActivity.class);
 			i.putExtra(GROUP_ID, groupId.getBytes());
 			startActivityForResult(i, REQUEST_GROUP_INVITE);
+			return true;
+		} else if (itemId == R.id.action_channel_add_nearby) {
+			startActivity(new Intent(this, AddNearbyContactActivity.class));
+			return true;
+		} else if (itemId == R.id.action_channel_add_remotely) {
+			startActivity(new Intent(this, AddContactActivity.class));
 			return true;
 		} else if (itemId == R.id.action_group_leave) {
 			if (requireNonNull(viewModel.isCreator().getValue()))
@@ -157,7 +170,8 @@ public class GroupActivity extends
 	@Override
 	public void onReplyClick(GroupMessageItem item) {
 		Boolean isDissolved = viewModel.isDissolved().getValue();
-		if (isDissolved != null && !isDissolved) super.onReplyClick(item);
+		if (admin && isDissolved != null && !isDissolved)
+			super.onReplyClick(item);
 	}
 
 	@Override
@@ -176,6 +190,10 @@ public class GroupActivity extends
 		} else {
 			textInput.setVisibility(VISIBLE);
 		}
+	}
+
+	private void updatePostingState() {
+		setGroupEnabled(admin && !dissolved);
 	}
 
 	private void showLeaveGroupDialog() {

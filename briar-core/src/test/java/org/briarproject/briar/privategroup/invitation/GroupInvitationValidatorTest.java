@@ -76,7 +76,7 @@ public class GroupInvitationValidatorTest extends ValidatorTestCase {
 	@Test(expected = FormatException.class)
 	public void testRejectsTooLongInviteMessage() throws Exception {
 		BdfList body = BdfList.of(INVITE.getValue(), creatorList, groupName,
-				salt, text, signature, NO_AUTO_DELETE_TIMER, null);
+				salt, text, signature, creatorList, NO_AUTO_DELETE_TIMER, null);
 		validator.validateMessage(message, group, body);
 	}
 

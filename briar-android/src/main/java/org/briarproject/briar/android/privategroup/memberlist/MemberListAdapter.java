@@ -15,8 +15,15 @@ import static org.briarproject.briar.android.util.UiUtils.getContactDisplayName;
 class MemberListAdapter extends
 		BriarAdapter<MemberListItem, MemberListItemHolder> {
 
-	MemberListAdapter(Context context) {
+	interface MemberClickListener {
+		void onMemberClick(MemberListItem item);
+	}
+
+	private final MemberClickListener listener;
+
+	MemberListAdapter(Context context, MemberClickListener listener) {
 		super(context, MemberListItem.class);
+		this.listener = listener;
 	}
 
 	@NonNull
@@ -31,7 +38,7 @@ class MemberListAdapter extends
 	@Override
 	public void onBindViewHolder(@NonNull MemberListItemHolder ui,
 			int position) {
-		ui.bind(items.get(position));
+		ui.bind(items.get(position), listener);
 	}
 
 	@Override
@@ -48,6 +55,7 @@ class MemberListAdapter extends
 		if (m1.isOnline() != m2.isOnline()) return false;
 		if (m1.getContactId() != m2.getContactId()) return false;
 		if (m1.getStatus() != m2.getStatus()) return false;
+		if (m1.isAdmin() != m2.isAdmin()) return false;
 		return true;
 	}
 

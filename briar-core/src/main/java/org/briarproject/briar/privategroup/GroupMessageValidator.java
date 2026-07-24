@@ -27,13 +27,16 @@ import javax.annotation.concurrent.Immutable;
 import static org.briarproject.bramble.api.identity.AuthorConstants.MAX_SIGNATURE_LENGTH;
 import static org.briarproject.bramble.util.ValidationUtils.checkLength;
 import static org.briarproject.bramble.util.ValidationUtils.checkSize;
+import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_ADMIN;
 import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_JOIN;
 import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_POST;
+import static org.briarproject.briar.api.privategroup.MessageType.ADMIN;
 import static org.briarproject.briar.api.privategroup.MessageType.JOIN;
 import static org.briarproject.briar.api.privategroup.MessageType.POST;
 import static org.briarproject.briar.api.privategroup.PrivateGroupConstants.MAX_GROUP_POST_TEXT_LENGTH;
 import static org.briarproject.briar.api.privategroup.invitation.GroupInvitationFactory.SIGNING_LABEL_INVITE;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_INITIAL_JOIN_MSG;
+import static org.briarproject.briar.privategroup.GroupConstants.KEY_INVITER;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_MEMBER;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_PARENT_MSG_ID;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_PREVIOUS_MSG_ID;
@@ -60,10 +63,19 @@ class GroupMessageValidator extends BdfMessageValidator {
 	protected BdfMessageContext validateMessage(Message m, Group g,
 			BdfList body) throws InvalidMessageException, FormatException {
 
-		checkSize(body, 4, 6);
+		checkSize(body, 3, 6);
 
 		// Message type (int)
 		int type = body.getInt(0);
+		if (type == JOIN.getInt()) {
+			checkSize(body, 4);
+		} else if (type == POST.getInt()) {
+			checkSize(body, 6);
+		} else if (type == ADMIN.getInt()) {
+			checkSize(body, 3);
+		} else {
+			throw new InvalidMessageException("Unknown Message Type");
+		}
 
 		// Member (author)
 		BdfList memberList = body.getList(1);
@@ -76,8 +88,11 @@ class GroupMessageValidator extends BdfMessageValidator {
 		} else if (type == POST.getInt()) {
 			c = validatePost(m, g, body, member);
 			addMessageMetadata(c, memberList, m.getTimestamp());
+		} else if (type == ADMIN.getInt()) {
+			c = validateAdmin(m, g, body, member);
+			addMessageMetadata(c, memberList, m.getTimestamp());
 		} else {
-			throw new InvalidMessageException("Unknown Message Type");
+			throw new AssertionError();
 		}
 		c.getDictionary().put(KEY_TYPE, type);
 		return c;
@@ -99,22 +114,30 @@ class GroupMessageValidator extends BdfMessageValidator {
 			if (inviteList != null) throw new FormatException();
 		} else {
 			if (inviteList == null) throw new FormatException();
-			// Timestamp, creator's signature
-			checkSize(inviteList, 2);
+			// Timestamp, optional inviter, inviter's signature
+			checkSize(inviteList, 2, 3);
 			// Join timestamp must be greater than invite timestamp
 			long inviteTimestamp = inviteList.getLong(0);
 			if (m.getTimestamp() <= inviteTimestamp)
 				throw new FormatException();
-			byte[] creatorSignature = inviteList.getRaw(1);
-			checkLength(creatorSignature, 1, MAX_SIGNATURE_LENGTH);
-			// The invite token is signed by the creator of the private group
+			Author inviter = creator;
+			byte[] inviterSignature;
+			if (inviteList.size() == 3) {
+				BdfList inviterList = inviteList.getList(1);
+				inviter = clientHelper.parseAndValidateAuthor(inviterList);
+				inviterSignature = inviteList.getRaw(2);
+			} else {
+				inviterSignature = inviteList.getRaw(1);
+			}
+			checkLength(inviterSignature, 1, MAX_SIGNATURE_LENGTH);
+			// The invite token is signed by the member who sent the invitation
 			BdfList token = groupInvitationFactory.createInviteToken(
-					creator.getId(), member.getId(), g.getId(),
+					inviter.getId(), member.getId(), g.getId(),
 					inviteTimestamp);
 			try {
-				clientHelper.verifySignature(creatorSignature,
+				clientHelper.verifySignature(inviterSignature,
 						SIGNING_LABEL_INVITE,
-						token, creator.getPublicKey());
+						token, inviter.getPublicKey());
 			} catch (GeneralSecurityException e) {
 				throw new FormatException();
 			}
@@ -138,7 +161,28 @@ class GroupMessageValidator extends BdfMessageValidator {
 		// Return the metadata and no dependencies
 		BdfDictionary meta = new BdfDictionary();
 		meta.put(KEY_INITIAL_JOIN_MSG, isCreator);
+		if (!isCreator && inviteList != null && inviteList.size() == 3) {
+			meta.put(KEY_INVITER, inviteList.getList(1));
+		}
 		return new BdfMessageContext(meta);
+	}
+
+	private BdfMessageContext validateAdmin(Message m, Group g, BdfList body,
+			Author admin) throws FormatException {
+		// Message type, appointed admin, creator's signature
+		checkSize(body, 3);
+		byte[] signature = body.getRaw(2);
+		checkLength(signature, 1, MAX_SIGNATURE_LENGTH);
+		PrivateGroup pg = privateGroupFactory.parsePrivateGroup(g);
+		BdfList adminList = body.getList(1);
+		BdfList signed = BdfList.of(g.getId(), m.getTimestamp(), adminList);
+		try {
+			clientHelper.verifySignature(signature, SIGNING_LABEL_ADMIN,
+					signed, pg.getCreator().getPublicKey());
+		} catch (GeneralSecurityException e) {
+			throw new FormatException();
+		}
+		return new BdfMessageContext(new BdfDictionary());
 	}
 
 	private BdfMessageContext validatePost(Message m, Group g, BdfList body,

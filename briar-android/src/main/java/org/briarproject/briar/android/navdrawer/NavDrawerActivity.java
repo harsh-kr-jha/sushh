@@ -30,9 +30,6 @@ import org.briarproject.briar.android.BriarApplication;
 import org.briarproject.briar.android.StartupFailureActivity;
 import org.briarproject.briar.android.activity.ActivityComponent;
 import org.briarproject.briar.android.activity.BriarActivity;
-import org.briarproject.briar.android.blog.FeedFragment;
-import org.briarproject.briar.android.contact.ContactListFragment;
-import org.briarproject.briar.android.forum.ForumListFragment;
 import org.briarproject.briar.android.fragment.BaseFragment;
 import org.briarproject.briar.android.fragment.BaseFragment.BaseFragmentListener;
 import org.briarproject.briar.android.logout.SignOutFragment;
@@ -190,6 +187,10 @@ public class NavDrawerActivity extends BriarActivity implements
 		if (state == null) {
 			// do not call this again when there's existing state
 			onNewIntent(getIntent());
+			if (!"briar-content".equals(getIntent().getScheme())) {
+				startFragment(GroupListFragment.newInstance(),
+						R.id.nav_btn_groups);
+			}
 		}
 	}
 
@@ -238,15 +239,10 @@ public class NavDrawerActivity extends BriarActivity implements
 	private void handleContentIntent(Intent intent) {
 		Uri uri = intent.getData();
 		// TODO don't create new instances if they are on the stack (#606)
-		if (CONTACT_URI.equals(uri) || CONTACT_ADDED_URI.equals(uri)) {
-			startFragment(ContactListFragment.newInstance(),
-					R.id.nav_btn_contacts);
-		} else if (GROUP_URI.equals(uri)) {
+		if (CONTACT_URI.equals(uri) || CONTACT_ADDED_URI.equals(uri) ||
+				GROUP_URI.equals(uri) || FORUM_URI.equals(uri) ||
+				BLOG_URI.equals(uri)) {
 			startFragment(GroupListFragment.newInstance(), R.id.nav_btn_groups);
-		} else if (FORUM_URI.equals(uri)) {
-			startFragment(ForumListFragment.newInstance(), R.id.nav_btn_forums);
-		} else if (BLOG_URI.equals(uri)) {
-			startFragment(FeedFragment.newInstance(), R.id.nav_btn_blogs);
 		} else if (SIGN_OUT_URI.equals(uri)) {
 			signOut(false, false);
 		}
@@ -267,14 +263,8 @@ public class NavDrawerActivity extends BriarActivity implements
 
 	private void loadFragment(int fragmentId) {
 		// TODO re-use fragments from the manager when possible (#606)
-		if (fragmentId == R.id.nav_btn_contacts) {
-			startFragment(ContactListFragment.newInstance());
-		} else if (fragmentId == R.id.nav_btn_groups) {
+		if (fragmentId == R.id.nav_btn_groups) {
 			startFragment(GroupListFragment.newInstance());
-		} else if (fragmentId == R.id.nav_btn_forums) {
-			startFragment(ForumListFragment.newInstance());
-		} else if (fragmentId == R.id.nav_btn_blogs) {
-			startFragment(FeedFragment.newInstance());
 		} else if (fragmentId == R.id.nav_btn_settings) {
 			startActivity(new Intent(this, SettingsActivity.class));
 		} else if (fragmentId == R.id.nav_btn_signout) {
@@ -305,21 +295,21 @@ public class NavDrawerActivity extends BriarActivity implements
 			if (fm.findFragmentByTag(SignOutFragment.TAG) != null) {
 				finish();
 			} else if (fm.getBackStackEntryCount() == 0 &&
-					fm.findFragmentByTag(ContactListFragment.TAG) == null) {
+					fm.findFragmentByTag(GroupListFragment.TAG) == null) {
 				// don't start fragments in the wrong part of lifecycle (#1904)
 				if (!getLifecycle().getCurrentState().isAtLeast(STARTED)) {
-					LOG.warning("Tried to start contacts fragment in state " +
+					LOG.warning("Tried to start channels fragment in state " +
 							getLifecycle().getCurrentState().name());
 					return;
 				}
 				/*
-				 * This makes sure that the first fragment (ContactListFragment) the
+				 * This makes sure that the first fragment (GroupListFragment) the
 				 * user sees is the same as the last fragment the user sees before
 				 * exiting. This models the typical Google navigation behaviour such
 				 * as in Gmail/Inbox.
 				 */
-				startFragment(ContactListFragment.newInstance(),
-						R.id.nav_btn_contacts);
+				startFragment(GroupListFragment.newInstance(),
+						R.id.nav_btn_groups);
 			} else {
 				super.onBackPressed();
 			}

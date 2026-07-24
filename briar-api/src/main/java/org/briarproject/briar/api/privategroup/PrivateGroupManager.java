@@ -30,7 +30,7 @@ public interface PrivateGroupManager {
 	/**
 	 * The current minor version of the private group client.
 	 */
-	int MINOR_VERSION = 0;
+	int MINOR_VERSION = 1;
 
 	/**
 	 * Adds a new private group and joins it.
@@ -99,6 +99,17 @@ public interface PrivateGroupManager {
 			throws DbException;
 
 	/**
+	 * Stores and sends a creator-signed admin appointment.
+	 */
+	void addLocalAdmin(AdminMessage message) throws DbException;
+
+	/**
+	 * Stores and sends a creator-signed admin appointment.
+	 */
+	void addLocalAdmin(Transaction txn, AdminMessage message)
+			throws DbException;
+
+	/**
 	 * Returns the private group with the given ID.
 	 */
 	PrivateGroup getPrivateGroup(GroupId g) throws DbException;
@@ -161,6 +172,16 @@ public interface PrivateGroupManager {
 	 * Returns true if the given author is a member of the given private group.
 	 */
 	boolean isMember(Transaction txn, GroupId g, Author a) throws DbException;
+
+	/**
+	 * Returns true if the author may post to the channel.
+	 */
+	boolean isAdmin(Transaction txn, GroupId g, Author a) throws DbException;
+
+	/**
+	 * Returns true if the author may post to the channel.
+	 */
+	boolean isAdmin(GroupId g, Author a) throws DbException;
 
 	/**
 	 * Returns the group count for the given private group.

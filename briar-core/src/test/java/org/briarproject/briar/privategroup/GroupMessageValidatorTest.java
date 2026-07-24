@@ -92,7 +92,6 @@ public class GroupMessageValidatorTest extends ValidatorTestCase {
 
 	@Test(expected = FormatException.class)
 	public void testRejectsTooLongJoinMessage() throws Exception {
-		expectParseAuthor(memberList, member);
 		BdfList body = BdfList.of(JOIN.getInt(), memberList, invite,
 				memberSignature, "");
 		validator.validateMessage(message, group, body);
@@ -433,7 +432,6 @@ public class GroupMessageValidatorTest extends ValidatorTestCase {
 	public void testRejectsTooShortPost() throws Exception {
 		BdfList body = BdfList.of(POST.getInt(), memberList, parentId,
 				previousMsgId, text);
-		expectParseAuthor(memberList, member);
 		validator.validateMessage(message, group, body);
 	}
 
@@ -661,9 +659,8 @@ public class GroupMessageValidatorTest extends ValidatorTestCase {
 
 	@Test(expected = InvalidMessageException.class)
 	public void testRejectsMessageWithUnknownType() throws Exception {
-		BdfList body = BdfList.of(POST.getInt() + 1, memberList,
+		BdfList body = BdfList.of(MessageType.ADMIN.getInt() + 1, memberList,
 				parentId, previousMsgId, text, memberSignature);
-		expectParseAuthor(memberList, member);
 		validator.validateMessage(message, group, body);
 	}
 }

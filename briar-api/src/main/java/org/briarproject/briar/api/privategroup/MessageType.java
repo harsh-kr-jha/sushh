@@ -9,7 +9,8 @@ import javax.annotation.concurrent.Immutable;
 public enum MessageType {
 
 	JOIN(0),
-	POST(1);
+	POST(1),
+	ADMIN(2);
 
 	private final int value;
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
-	<string name="app_name" translatable="false">Briar</string>
+	<string name="app_name" translatable="false">Sanchar</string>
 	<string name="app_package" translatable="false">org.briarproject.briar.android</string>
 
 	<!-- Setup -->
-	<string name="setup_title">Welcome to Briar</string>
+	<string name="setup_title">Welcome to Sanchar</string>
 	<string name="setup_name_explanation">Your nickname will be shown next to any content you post. You can\'t change it after creating your account.</string>
 	<string name="setup_next">Next</string>
 	<string name="setup_password_intro">Choose a Password</string>
-	<string name="setup_password_explanation">Your Briar account is stored encrypted on your device, not in the cloud. If you forget your password or uninstall Briar, there\'s no way to recover your account.\n\nChoose a long password that\'s hard to guess, such as four random words, or ten random letters, numbers and symbols.</string>
-	<string name="dnkm_doze_intro">To receive messages, Briar needs to stay connected in the background.</string>
-	<string name="dnkm_doze_explanation">To receive messages, Briar needs to stay connected in the background. Please disable battery optimizations so Briar can stay connected.</string>
+	<string name="setup_password_explanation">Your Sanchar account is stored encrypted on your device, not in the cloud. If you forget your password or uninstall Sanchar, there\'s no way to recover your account.\n\nChoose a long password that\'s hard to guess, such as four random words, or ten random letters, numbers and symbols.</string>
+	<string name="dnkm_doze_intro">To receive messages, Sanchar needs to stay connected in the background.</string>
+	<string name="dnkm_doze_explanation">To receive messages, Sanchar needs to stay connected in the background. Please disable battery optimizations so Sanchar can stay connected.</string>
 	<string name="choose_nickname">Choose your nickname</string>
 	<string name="choose_password">Choose your password</string>
 	<string name="confirm_password">Confirm your password</string>
@@ -24,45 +24,45 @@
 	<string name="more_info">More Information</string>
 	<string name="don_t_ask_again">Don\'t ask again</string>
 
-	<string name="dnkm_huawei_protected_text">Please tap the button below and make sure Briar is protected in the \"Protected Apps\" screen.</string>
-	<string name="dnkm_huawei_protected_button">Protect Briar</string>
-	<string name="dnkm_huawei_protected_help">If Briar is not added to the protected apps list, it will be unable to run in the background.</string>
-	<string name="dnkm_huawei_app_launch_text">Please tap the button below, open the \"App launch\" screen and make sure Briar is set to \"Manage manually\".</string>
-	<string name="dnkm_huawei_app_launch_help">If Briar is not set to \"Manage manually\" in the \"App launch\" screen, it will not be able to run in the background.</string>
-	<string name="dnkm_xiaomi_text">To run in the background, Briar needs to be locked to the recent apps list.</string>
-	<string name="dnkm_xiaomi_button">Protect Briar</string>
-	<string name="dnkm_xiaomi_help">If Briar is not locked to the recent apps list, it will be unable to run in the background.</string>
-	<string name="dnkm_xiaomi_dialog_body_old">1. Open the recent apps list (also called the app switcher)\n\n2. Swipe down on the image of Briar to show the padlock icon\n\n3. If the padlock is not locked, tap to lock it</string>
-	<string name="dnkm_xiaomi_dialog_body_new">1. Open the recent apps list (also called the app switcher)\n\n2. If Briar has a small image of a padlock next to its name then you don\'t need to do anything\n\n3. If there\'s no padlock, press and hold the image of Briar until the padlock button appears, then tap it</string>
-	<string name="dnkm_xiaomi_lock_apps_text">Please tap the button below to open the security settings. Tap \"Boost speed\", then tap \"Lock apps\", and make sure Briar is set to \"Locked\".</string>
-	<string name="dnkm_xiaomi_lock_apps_help">If Briar is not set to \"Locked\" in the \"Lock apps\" screen, it will be unable to run in the background.</string>
-	<string name="dnkm_warning_dozed_1">Briar was unable to run in the background</string>
+	<string name="dnkm_huawei_protected_text">Please tap the button below and make sure Sanchar is protected in the \"Protected Apps\" screen.</string>
+	<string name="dnkm_huawei_protected_button">Protect Sanchar</string>
+	<string name="dnkm_huawei_protected_help">If Sanchar is not added to the protected apps list, it will be unable to run in the background.</string>
+	<string name="dnkm_huawei_app_launch_text">Please tap the button below, open the \"App launch\" screen and make sure Sanchar is set to \"Manage manually\".</string>
+	<string name="dnkm_huawei_app_launch_help">If Sanchar is not set to \"Manage manually\" in the \"App launch\" screen, it will not be able to run in the background.</string>
+	<string name="dnkm_xiaomi_text">To run in the background, Sanchar needs to be locked to the recent apps list.</string>
+	<string name="dnkm_xiaomi_button">Protect Sanchar</string>
+	<string name="dnkm_xiaomi_help">If Sanchar is not locked to the recent apps list, it will be unable to run in the background.</string>
+	<string name="dnkm_xiaomi_dialog_body_old">1. Open the recent apps list (also called the app switcher)\n\n2. Swipe down on the image of Sanchar to show the padlock icon\n\n3. If the padlock is not locked, tap to lock it</string>
+	<string name="dnkm_xiaomi_dialog_body_new">1. Open the recent apps list (also called the app switcher)\n\n2. If Sanchar has a small image of a padlock next to its name then you don\'t need to do anything\n\n3. If there\'s no padlock, press and hold the image of Sanchar until the padlock button appears, then tap it</string>
+	<string name="dnkm_xiaomi_lock_apps_text">Please tap the button below to open the security settings. Tap \"Boost speed\", then tap \"Lock apps\", and make sure Sanchar is set to \"Locked\".</string>
+	<string name="dnkm_xiaomi_lock_apps_help">If Sanchar is not set to \"Locked\" in the \"Lock apps\" screen, it will be unable to run in the background.</string>
+	<string name="dnkm_warning_dozed_1">Sanchar was unable to run in the background</string>
 
 	<!-- Login -->
 	<string name="enter_password">Password</string>
 	<string name="try_again">Wrong password, try again</string>
 	<string name="dialog_title_cannot_check_password">Cannot Check Password</string>
-	<string name="dialog_message_cannot_check_password">Briar cannot check your password. Please try rebooting your device to solve this problem.</string>
-	<string name="sign_in_title">Sign into Briar</string>
+	<string name="dialog_message_cannot_check_password">Sanchar cannot check your password. Please try rebooting your device to solve this problem.</string>
+	<string name="sign_in_title">Sign into Sanchar</string>
 	<string name="sign_in_button">Sign In</string>
 	<string name="forgotten_password">Forgot your password?</string>
 	<string name="dialog_title_lost_password">Lost Password</string>
-	<string name="dialog_message_lost_password">Your Briar account is stored encrypted on your device, not in the cloud, so we can\'t reset your password. Would you like to delete your account and start again?\n\nCaution: Your identities, contacts and messages will be permanently lost.</string>
-	<string name="startup_failed_activity_title">Briar Startup Failure</string>
-	<string name="startup_failed_clock_error">Briar was unable to start because your device\'s clock is wrong.\n\nPlease set your device\'s clock to the right time and try again.</string>
-	<string name="startup_failed_db_error">Briar was unable to open the database containing your account, your contacts and your messages.\n\nPlease upgrade to the latest version of the app and try again, or set up a new account by choosing \'I have forgotten my password\' at the password prompt.</string>
+	<string name="dialog_message_lost_password">Your Sanchar account is stored encrypted on your device, not in the cloud, so we can\'t reset your password. Would you like to delete your account and start again?\n\nCaution: Your identities, contacts and messages will be permanently lost.</string>
+	<string name="startup_failed_activity_title">Sanchar Startup Failure</string>
+	<string name="startup_failed_clock_error">Sanchar was unable to start because your device\'s clock is wrong.\n\nPlease set your device\'s clock to the right time and try again.</string>
+	<string name="startup_failed_db_error">Sanchar was unable to open the database containing your account, your contacts and your messages.\n\nPlease upgrade to the latest version of the app and try again, or set up a new account by choosing \'I have forgotten my password\' at the password prompt.</string>
 	<string name="startup_failed_data_too_old_error">Your account was created with an old version of this app and cannot be opened with this version.\n\nYou must either reinstall the old version or set up a new account by choosing \'I have forgotten my password\' at the password prompt.</string>
 	<string name="startup_failed_data_too_new_error">Your account was created with a newer version of this app and cannot be opened with this version.\n\nPlease upgrade to the latest version and try again.</string>
-	<string name="startup_failed_service_error">Briar was unable to start a required component.\n\nPlease upgrade to the latest version of the app and try again.</string>
+	<string name="startup_failed_service_error">Sanchar was unable to start a required component.\n\nPlease upgrade to the latest version of the app and try again.</string>
 	<plurals name="expiry_warning">
-		<item quantity="one">This is a test version of Briar. Your account will expire in %d day and cannot be renewed.</item>
-		<item quantity="other">This is a test version of Briar. Your account will expire in %d days and cannot be renewed.</item>
+		<item quantity="one">This is a test version of Sanchar. Your account will expire in %d day and cannot be renewed.</item>
+		<item quantity="other">This is a test version of Sanchar. Your account will expire in %d days and cannot be renewed.</item>
 	</plurals>
 	<string name="expiry_date_reached">This software has expired.\nThank you for testing!</string>
-	<string name="download_briar">To continue using Briar, please download the latest release.</string>
+	<string name="download_briar">To continue using Sanchar, please download the latest release.</string>
 	<string name="create_new_account">You will need to create a new account, but you can use the same nickname.</string>
 	<string name="download_briar_button">Download Latest Release</string>
-	<string name="old_android_expiry_date_reached">Briar no longer runs on Android 4.\nPlease install Briar on a newer device.</string>
+	<string name="old_android_expiry_date_reached">Sanchar no longer runs on Android 4.\nPlease install Sanchar on a newer device.</string>
 	<string name="old_android_delete_account">You can tap the button below to delete your account from this device.</string>
 	<string name="delete_account_button">Delete Account</string>
 	<string name="startup_open_database">Decrypting Database…</string>
@@ -73,61 +73,61 @@
 	<string name="nav_drawer_open_description">Open the navigation drawer</string>
 	<string name="nav_drawer_close_description">Close the navigation drawer</string>
 	<string name="contact_list_button">Contacts</string>
-	<string name="groups_button">Private Groups</string>
+	<string name="groups_button">Channels</string>
 	<string name="forums_button">Forums</string>
 	<string name="blogs_button">Blogs</string>
 	<!-- This is part of the main menu. The app will be locked when this is tapped. -->
 	<string name="lock_button">Lock App</string>
 	<string name="settings_button">Settings</string>
 	<string name="sign_out_button">Sign Out</string>
-	<string name="transports_onboarding_text">Tap here to control how Briar connects to your contacts.</string>
+	<string name="transports_onboarding_text">Tap here to control how Sanchar connects to your contacts.</string>
 
 	<!-- Transports: Tor -->
 	<string name="transport_tor">Internet</string>
 	<string name="tor_device_status_online_wifi">Your phone has Internet access via Wi-Fi</string>
 	<string name="tor_device_status_online_mobile">Your phone has Internet access via mobile data</string>
 	<string name="tor_device_status_offline">Your phone does not have Internet access</string>
-	<string name="tor_plugin_status_enabling">Briar is connecting to the Internet</string>
-	<string name="tor_plugin_status_active">Briar is connected to the Internet</string>
-	<string name="tor_plugin_status_inactive">Briar can\'t connect to the Internet</string>
-	<string name="tor_plugin_status_disabled">Briar is configured not to use the Internet</string>
-	<string name="tor_plugin_status_disabled_mobile_data">Briar is configured not to use mobile data</string>
-	<string name="tor_plugin_status_disabled_battery">Briar is configured not to use the Internet when running on battery</string>
-	<string name="tor_plugin_status_disabled_country_blocked">Briar is configured not to use the Internet in this country</string>
+	<string name="tor_plugin_status_enabling">Sanchar is connecting to the Internet</string>
+	<string name="tor_plugin_status_active">Sanchar is connected to the Internet</string>
+	<string name="tor_plugin_status_inactive">Sanchar can\'t connect to the Internet</string>
+	<string name="tor_plugin_status_disabled">Sanchar is configured not to use the Internet</string>
+	<string name="tor_plugin_status_disabled_mobile_data">Sanchar is configured not to use mobile data</string>
+	<string name="tor_plugin_status_disabled_battery">Sanchar is configured not to use the Internet when running on battery</string>
+	<string name="tor_plugin_status_disabled_country_blocked">Sanchar is configured not to use the Internet in this country</string>
 
 	<!-- Transports: Wi-Fi -->
 	<string name="transport_lan">Wi-Fi</string>
 	<string name="transport_lan_long">Same Wi-Fi network</string>
 	<string name="lan_device_status_on">Your phone is connected to Wi-Fi</string>
 	<string name="lan_device_status_off">Your phone is not connected to Wi-Fi</string>
-	<string name="lan_plugin_status_enabling">Briar is connecting to the Wi-Fi network</string>
-	<string name="lan_plugin_status_active">Briar is connected to the Wi-Fi network</string>
-	<string name="lan_plugin_status_inactive">Briar can\'t connect to the Wi-Fi network</string>
-	<string name="lan_plugin_status_disabled">Briar is configured not to use the Wi-Fi network</string>
+	<string name="lan_plugin_status_enabling">Sanchar is connecting to the Wi-Fi network</string>
+	<string name="lan_plugin_status_active">Sanchar is connected to the Wi-Fi network</string>
+	<string name="lan_plugin_status_inactive">Sanchar can\'t connect to the Wi-Fi network</string>
+	<string name="lan_plugin_status_disabled">Sanchar is configured not to use the Wi-Fi network</string>
 
 	<!-- Transports: Bluetooth -->
 	<string name="transport_bt">Bluetooth</string>
 	<string name="bt_device_status_on">Your phone\'s Bluetooth is turned on</string>
 	<string name="bt_device_status_off">Your phone\'s Bluetooth is turned off</string>
-	<string name="bt_plugin_status_enabling">Briar is connecting to Bluetooth</string>
-	<string name="bt_plugin_status_active">Briar is connected to Bluetooth</string>
-	<string name="bt_plugin_status_inactive">Briar can\'t connect to Bluetooth</string>
-	<string name="bt_plugin_status_disabled">Briar is configured not to use Bluetooth</string>
+	<string name="bt_plugin_status_enabling">Sanchar is connecting to Bluetooth</string>
+	<string name="bt_plugin_status_active">Sanchar is connected to Bluetooth</string>
+	<string name="bt_plugin_status_inactive">Sanchar can\'t connect to Bluetooth</string>
+	<string name="bt_plugin_status_disabled">Sanchar is configured not to use Bluetooth</string>
 
 	<!-- Notifications -->
-	<string name="reminder_notification_title">Signed out of Briar</string>
+	<string name="reminder_notification_title">Signed out of Sanchar</string>
 	<string name="reminder_notification_text">Tap to sign back in.</string>
-	<string name="reminder_notification_channel_title">Briar Sign-in Reminder</string>
+	<string name="reminder_notification_channel_title">Sanchar Sign-in Reminder</string>
 	<string name="reminder_notification_dismiss">Dismiss</string>
-	<string name="ongoing_notification_title">Signed into Briar</string>
-	<string name="ongoing_notification_text">Touch to open Briar.</string>
+	<string name="ongoing_notification_title">Signed into Sanchar</string>
+	<string name="ongoing_notification_text">Touch to open Sanchar.</string>
 	<plurals name="private_message_notification_text">
 		<item quantity="one">New private message.</item>
 		<item quantity="other">%d new private messages.</item>
 	</plurals>
 	<plurals name="group_message_notification_text">
-		<item quantity="one">New group message.</item>
-		<item quantity="other">%d new group messages.</item>
+		<item quantity="one">New channel message.</item>
+		<item quantity="other">%d new channel messages.</item>
 	</plurals>
 	<plurals name="forum_post_notification_text">
 		<item quantity="one">New forum post.</item>
@@ -231,7 +231,7 @@
 	<string name="save_image_success">Image was saved</string>
 	<string name="save_image_error">Could not save image</string>
 	<string name="dialog_title_no_image_support">Images Unavailable</string>
-	<string name="dialog_message_no_image_support">Your contact\'s Briar does not yet support image attachments. Once they upgrade you\'ll see a different icon.</string>
+	<string name="dialog_message_no_image_support">Your contact\'s Sanchar does not yet support image attachments. Once they upgrade you\'ll see a different icon.</string>
 	<string name="dialog_title_image_support">You can now send images to this contact</string>
 	<string name="dialog_message_image_support">Tap this icon to attach images.</string>
 	<string name="messaging_too_many_attachments_toast">Only the first %d images will be sent</string>
@@ -250,10 +250,10 @@
 	<string name="contact_already_exists">Contact %s already exists</string>
 	<string name="contact_already_exists_general">Contact already exists</string>
 	<string name="qr_code_invalid">The QR code is invalid</string>
-	<string name="qr_code_too_old_1">The QR code you have scanned comes from an older version of Briar.\n\nPlease ask your contact to upgrade to the latest version and then try again.</string>
-	<string name="qr_code_too_new_1">The QR code you have scanned comes from a newer version of Briar.\n\nPlease upgrade to the latest version and then try again.</string>
-	<string name="mailbox_qr_code_for_contact">The QR code you have scanned comes from Briar Mailbox.\n\nIf you want to link a Mailbox, please choose Settings > Mailbox from the Briar menu.</string>
-	<string name="qr_code_format_unknown">The QR code you have scanned is not meant for adding a Briar contact.\n\nPlease scan the QR code shown on your contact\'s screen.</string>
+	<string name="qr_code_too_old_1">The QR code you have scanned comes from an older version of Sanchar.\n\nPlease ask your contact to upgrade to the latest version and then try again.</string>
+	<string name="qr_code_too_new_1">The QR code you have scanned comes from a newer version of Sanchar.\n\nPlease upgrade to the latest version and then try again.</string>
+	<string name="mailbox_qr_code_for_contact">The QR code you have scanned comes from Sanchar Mailbox.\n\nIf you want to link a Mailbox, please choose Settings > Mailbox from the Sanchar menu.</string>
+	<string name="qr_code_format_unknown">The QR code you have scanned is not meant for adding a Sanchar contact.\n\nPlease scan the QR code shown on your contact\'s screen.</string>
 	<string name="camera_error">Camera error</string>
 	<string name="connecting_to_device">Connecting to device\u2026</string>
 	<string name="authenticating_with_device">Authenticating with device\u2026</string>
@@ -277,7 +277,7 @@
 	<string name="add_contact_choose_a_nickname">Enter a nickname</string>
 	<string name="nickname_intro">Give your contact a nickname. Only you can see it.</string>
 	<string name="your_link">Give this link to the contact you want to add</string>
-	<string name="link_clip_label">Briar link</string>
+	<string name="link_clip_label">Sanchar link</string>
 	<string name="link_copied_toast">Link copied</string>
 	<string name="adding_contact_error">There was an error adding the contact.</string>
 	<string name="pending_contact_requests_snackbar">There are pending contact requests</string>
@@ -292,7 +292,7 @@
 	<string name="own_link_error">Enter your contact\'s link, not your own</string>
 	<string name="nickname_missing">Please enter a nickname</string>
 	<string name="invalid_link">Invalid link</string>
-	<string name="unsupported_link">This link comes from a newer version of Briar. Please upgrade to the latest version and try again.</string>
+	<string name="unsupported_link">This link comes from a newer version of Sanchar. Please upgrade to the latest version and try again.</string>
 	<string name="intent_own_link">You opened your own link. Use the one of the contact you want to add!</string>
 	<string name="missing_link">Please enter a link</string>
 	<!-- This is a numeral indicating the first step in a series of screens -->
@@ -331,7 +331,7 @@
 	<!-- Introductions -->
 
 	<string name="introduction_onboarding_title">Introduce your contacts</string>
-	<string name="introduction_onboarding_text">Introduce your contacts to each other so they can connect on Briar.</string>
+	<string name="introduction_onboarding_text">Introduce your contacts to each other so they can connect on Sanchar.</string>
 	<string name="introduction_menu_item">Make Introduction</string>
 	<string name="introduction_activity_title">Select Contact</string>
 	<string name="introduction_not_possible">You already have one introduction in progress with these contacts. Please allow for this to finish first. If you or your contacts are rarely online, this can take some time.</string>
@@ -365,62 +365,67 @@
 	<string name="connect_via_bluetooth_error">Could not connect via Bluetooth.</string>
 	<string name="connect_via_bluetooth_error_not_supported">Bluetooth is not supported by device.</string>
 
-	<!-- Private Groups -->
-	<string name="groups_list_empty">No groups to show</string>
-	<string name="groups_list_empty_action">Tap the + icon to create a group, or ask your contacts to share groups with you</string>
+	<!-- Channels -->
+	<string name="groups_list_empty">No channels to show</string>
+	<string name="groups_list_empty_action">Tap the + icon to create a channel, or ask your contacts to share channels with you</string>
 	<string name="groups_created_by">Created by %s</string>
 	<plurals name="messages">
 		<item quantity="one">%d message</item>
 		<item quantity="other">%d messages</item>
 	</plurals>
-	<string name="groups_group_is_empty">This group is empty</string>
-	<string name="groups_group_is_dissolved">This group has been dissolved</string>
+	<string name="groups_group_is_empty">This channel is empty</string>
+	<string name="groups_group_is_dissolved">This channel has been dissolved</string>
 	<string name="groups_remove">Remove</string>
-	<string name="groups_create_group_title">Create Private Group</string>
-	<string name="groups_create_group_button">Create Group</string>
+	<string name="groups_create_group_title">Create Channel</string>
+	<string name="groups_create_group_button">Create Channel</string>
 	<string name="groups_create_group_invitation_button">Send Invitation</string>
-	<string name="groups_create_group_hint">Choose a name for your private group</string>
-	<string name="groups_invitation_sent">Group invitation has been sent</string>
+	<string name="groups_create_group_hint">Choose a name for your channel</string>
+	<string name="groups_invitation_sent">Channel invitation has been sent</string>
 	<string name="groups_member_list">Member List</string>
-	<string name="groups_invite_members">Invite Members</string>
-	<string name="groups_member_created_you">You created the group</string>
-	<string name="groups_member_created">%s created the group</string>
-	<string name="groups_member_joined_you">You joined the group</string>
-	<string name="groups_member_joined">%s joined the group</string>
-	<string name="groups_leave">Leave Group</string>
-	<string name="groups_leave_dialog_title">Confirm Leaving Group</string>
-	<string name="groups_leave_dialog_message">Are you sure that you want to leave this group?</string>
-	<string name="groups_dissolve">Dissolve Group</string>
-	<string name="groups_dissolve_dialog_title">Confirm Dissolving Group</string>
-	<string name="groups_dissolve_dialog_message">Are you sure that you want to dissolve this group?\n\nAll other members will not be able to continue their conversation and might not receive the latest messages.</string>
+	<string name="groups_invite_members">Add people</string>
+	<string name="channels_admin">Admin · Tap to message</string>
+	<string name="channels_make_admin">Make admin</string>
+	<string name="channels_make_admin_message">Allow %s to post in this channel? Admin access can only be granted by the creator.</string>
+	<string name="channels_admin_added">Admin added</string>
+	<string name="channels_add_admin_contact">Add this admin as a contact to send messages and pictures.</string>
+	<string name="groups_member_created_you">You created the channel</string>
+	<string name="groups_member_created">%s created the channel</string>
+	<string name="groups_member_joined_you">You joined the channel</string>
+	<string name="groups_member_joined">%s joined the channel</string>
+	<string name="groups_leave">Leave Channel</string>
+	<string name="groups_leave_dialog_title">Confirm Leaving Channel</string>
+	<string name="groups_leave_dialog_message">Are you sure that you want to leave this channel?</string>
+	<string name="groups_dissolve">Dissolve Channel</string>
+	<string name="groups_dissolve_dialog_title">Confirm Dissolving Channel</string>
+	<string name="groups_dissolve_dialog_message">Are you sure that you want to dissolve this channel?\n\nAll other members will not be able to continue their conversation and might not receive the latest messages.</string>
 	<string name="groups_dissolve_button">Dissolve</string>
-	<string name="groups_dissolved_dialog_title">Group Has Been Dissolved</string>
-	<string name="groups_dissolved_dialog_message">The creator of this group has dissolved it.\n\nYou can no longer write messages to the group and might not receive all posts that have been written.</string>
+	<string name="groups_dissolved_dialog_title">Channel Has Been Dissolved</string>
+	<string name="groups_dissolved_dialog_message">The creator of this channel has dissolved it.\n\nYou can no longer write messages to the channel and might not receive all posts that have been written.</string>
 
-	<!-- Private Group Invitations -->
-	<string name="groups_invitations_title">Group Invitations</string>
-	<string name="groups_invitations_invitation_sent">You have invited %1$s to join the group \"%2$s\".</string>
-	<string name="groups_invitations_invitation_received">%1$s has invited you to join the group \"%2$s\".</string>
-	<string name="groups_invitations_joined">Joined group</string>
-	<string name="groups_invitations_declined">Group invitation declined</string>
+	<!-- Channel Invitations -->
+	<string name="groups_invitations_title">Channel Invitations</string>
+	<string name="groups_invitations_invitation_sent">You have invited %1$s to join the channel \"%2$s\".</string>
+	<string name="groups_invitations_invitation_received">%1$s has invited you to join the channel \"%2$s\".</string>
+	<string name="groups_invitations_joined">Joined channel</string>
+	<string name="groups_invitations_declined">Channel invitation declined</string>
 	<plurals name="groups_invitations_open">
-		<item quantity="one">%d open group invitation</item>
-		<item quantity="other">%d open group invitations</item>
+		<item quantity="one">%d open channel invitation</item>
+		<item quantity="other">%d open channel invitations</item>
 	</plurals>
-	<string name="groups_invitations_response_accepted_sent">You accepted the group invitation from %s.</string>
-	<string name="groups_invitations_response_declined_sent">You declined the group invitation from %s.</string>
-	<string name="groups_invitations_response_declined_auto">The group invitation from %s was automatically declined.</string>
-	<string name="groups_invitations_response_accepted_received">%s accepted the group invitation.</string>
-	<string name="groups_invitations_response_declined_received">%s declined the group invitation.</string>
-	<string name="sharing_status_groups">Only the creator can invite new members to the group. Below are all current members of the group.</string>
+	<string name="groups_invitations_response_accepted_sent">You accepted the channel invitation from %s.</string>
+	<string name="groups_invitations_response_declined_sent">You declined the channel invitation from %s.</string>
+	<string name="groups_invitations_response_declined_auto">The channel invitation from %s was automatically declined.</string>
+	<string name="groups_invitations_response_accepted_received">%s accepted the channel invitation.</string>
+	<string name="groups_invitations_response_declined_received">%s declined the channel invitation.</string>
+	<string name="sharing_status_groups">Any member can add people. Only admins can post. Tap an admin to send a private message or picture. The creator can tap a member to make them an admin.</string>
 
-	<!-- Private Groups Revealing Contacts -->
+	<!-- Channels Revealing Contacts -->
 	<string name="groups_reveal_contacts">Reveal Contacts</string>
-	<string name="groups_reveal_dialog_message">You can choose whether to reveal contacts to all current and future members of this group.\n\nRevealing contacts makes your connection to the group faster and more reliable, because you can communicate with revealed contacts even when the creator of the group is offline.</string>
-	<string name="groups_reveal_visible">Contact relationship is visible to the group</string>
-	<string name="groups_reveal_visible_revealed_by_us">Contact relationship is visible to the group (revealed by you)</string>
-	<string name="groups_reveal_visible_revealed_by_contact">Contact relationship is visible to the group (revealed by %s)</string>
-	<string name="groups_reveal_invisible">Contact relationship is not visible to the group</string>
+	<string name="groups_reveal_dialog_message">You can choose whether to reveal contacts to all current and future members of this channel.\n\nRevealing contacts makes your connection to the channel faster and more reliable, because you can communicate with revealed contacts even when the creator of the channel is offline.</string>
+	<string name="groups_reveal_visible">Contact relationship is visible to the channel</string>
+	<string name="groups_reveal_visible_revealed_by_us">Contact relationship is visible to the channel (revealed by you)</string>
+	<string name="groups_reveal_visible_revealed_by_contact">Contact relationship is visible to the channel (revealed by %s)</string>
+	<string name="groups_reveal_invisible">Contact relationship is not visible to the channel</string>
 
 	<!-- Forums -->
 	<string name="no_forums">No forums to show</string>
@@ -540,7 +545,7 @@
 
 	<!-- Settings Display -->
 	<string name="pref_language_title">Language &amp; region</string>
-	<string name="pref_language_changed">This setting will take effect when you restart Briar. Please sign out and restart Briar.</string>
+	<string name="pref_language_changed">This setting will take effect when you restart Sanchar. Please sign out and restart Sanchar.</string>
 	<string name="pref_language_default">System default</string>
 	<string name="display_settings_title">Display</string>
 	<string name="pref_theme_title">Theme</string>
@@ -559,7 +564,7 @@
 	<string name="tor_network_setting_without_bridges">Use Tor network without bridges</string>
 	<string name="tor_network_setting_with_bridges">Use Tor network with bridges</string>
 	<string name="tor_network_setting_never">Don\'t connect to the Internet</string>
-	<!-- How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)" -->
+	<!-- How and when Sanchar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)" -->
 	<string name="tor_network_setting_summary">Automatic: %1$s (in %2$s)</string>
 	<string name="tor_mobile_data_title">Use mobile data</string>
 	<string name="tor_only_when_charging_title">Connect to the Internet only when charging</string>
@@ -568,11 +573,11 @@
 	<!-- Settings Security and Panic -->
 	<string name="security_settings_title">Security</string>
 	<string name="pref_lock_title">App lock</string>
-	<string name="pref_lock_summary">Use the device\'s screen lock to protect Briar while signed in</string>
+	<string name="pref_lock_summary">Use the device\'s screen lock to protect Sanchar while signed in</string>
 	<string name="pref_lock_disabled_summary">To use this feature, set up a screen lock for your device</string>
 	<string name="pref_lock_timeout_title">App lock inactivity timeout</string>
 	<!-- The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour -->
-	<string name="pref_lock_timeout_summary">When not using Briar, automatically lock it after %s</string>
+	<string name="pref_lock_timeout_summary">When not using Sanchar, automatically lock it after %s</string>
 	<!-- Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s" -->
 	<string name="pref_lock_timeout_1">1 minute</string>
 	<!-- Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s" -->
@@ -584,7 +589,7 @@
 	<!-- Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s" -->
 	<string name="pref_lock_timeout_60">1 hour</string>
 	<string name="pref_lock_timeout_never">Never</string>
-	<string name="pref_lock_timeout_never_summary">Never lock Briar automatically</string>
+	<string name="pref_lock_timeout_never_summary">Never lock Sanchar automatically</string>
 
 	<string name="change_password">Change password</string>
 	<string name="current_password">Current password</string>
@@ -593,7 +598,7 @@
 	<string name="password_changed">Password has been changed.</string>
 	<string name="panic_setting">Panic button setup</string>
 	<string name="panic_setting_title">Panic button</string>
-	<string name="panic_setting_hint">Configure how Briar will react when you use a panic button app</string>
+	<string name="panic_setting_hint">Configure how Sanchar will react when you use a panic button app</string>
 	<string name="panic_app_setting_title">Panic Button App</string>
 	<string name="unknown_app">an unknown app</string>
 	<string name="panic_app_setting_summary">No app has been set</string>
@@ -602,9 +607,9 @@
 	<string name="dialog_message_connect_panic_app">Are you sure that you want to allow %1$s to trigger destructive panic button actions?</string>
 	<string name="panic_setting_destructive_action">Destructive Actions</string>
 	<string name="panic_setting_signout_title">Sign Out</string>
-	<string name="panic_setting_signout_summary">Sign out of Briar if a panic button is pressed</string>
+	<string name="panic_setting_signout_summary">Sign out of Sanchar if a panic button is pressed</string>
 	<string name="purge_setting_title">Delete Account</string>
-	<string name="purge_setting_summary">Delete your Briar account if a panic button is pressed. Caution: This will permanently delete your identities, contacts and messages</string>
+	<string name="purge_setting_summary">Delete your Sanchar account if a panic button is pressed. Caution: This will permanently delete your identities, contacts and messages</string>
 
 	<!-- Settings Notifications -->
 	<string name="notification_settings_title">Notifications</string>
@@ -613,9 +618,9 @@
 	<string name="notify_private_messages_setting_title">Private messages</string>
 	<string name="notify_private_messages_setting_summary">Show alerts for private messages</string>
 	<string name="notify_private_messages_setting_summary_26">Configure alerts for private messages</string>
-	<string name="notify_group_messages_setting_title">Group messages</string>
-	<string name="notify_group_messages_setting_summary">Show alerts for group messages</string>
-	<string name="notify_group_messages_setting_summary_26">Configure alerts for group messages</string>
+	<string name="notify_group_messages_setting_title">Channel messages</string>
+	<string name="notify_group_messages_setting_summary">Show alerts for channel messages</string>
+	<string name="notify_group_messages_setting_summary_26">Configure alerts for channel messages</string>
 	<string name="notify_forum_posts_setting_title">Forum posts</string>
 	<string name="notify_forum_posts_setting_summary">Show alerts for forum posts</string>
 	<string name="notify_forum_posts_setting_summary_26">Configure alerts for forum posts</string>
@@ -633,29 +638,29 @@
 	<string name="mailbox_settings_title">Mailbox</string>
 	<string name="mailbox_setup_title">Mailbox setup</string>
 	<string name="mailbox_setup_intro">A Mailbox enables your contacts to send you messages while you are offline. The Mailbox will receive your messages and store them until you come online.\n
-		\nYou can install the Briar Mailbox app on a spare device. Keep it connected to power and Wi-Fi so it\'s always online.</string>
-	<string name="mailbox_setup_download">First, install the Mailbox app on another device by searching for \"Briar Mailbox\" on Google Play or wherever you downloaded Briar.\n
-		\nThen link your Mailbox with Briar by scanning the QR code shown by the Mailbox app.</string>
+		\nYou can install the Sanchar Mailbox app on a spare device. Keep it connected to power and Wi-Fi so it\'s always online.</string>
+	<string name="mailbox_setup_download">First, install the Mailbox app on another device by searching for \"Sanchar Mailbox\" on Google Play or wherever you downloaded Sanchar.\n
+		\nThen link your Mailbox with Sanchar by scanning the QR code shown by the Mailbox app.</string>
 	<string name="mailbox_setup_download_link">Share Download Link</string>
 	<string name="mailbox_setup_button_scan">Scan Mailbox QR code</string>
 	<string name="permission_camera_qr_denied_body">You have denied access to the camera, but scanning a QR code requires using the camera.\n\nPlease consider granting access.</string>
 	<string name="mailbox_setup_connecting">Connecting to Mailbox…</string>
 	<!-- This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes". -->
 	<string name="mailbox_setup_connecting_info">This may take up to %1s</string>
-	<string name="mailbox_qr_code_too_old">The QR code you have scanned comes from an older version of Briar Mailbox.\n\nPlease upgrade Briar Mailbox to the latest version and then try again.</string>
-	<string name="mailbox_qr_code_too_new">The QR code you have scanned comes from a newer version of Briar Mailbox.\n\nPlease upgrade Briar to the latest version and then try again.</string>
-	<string name="contact_qr_code_for_mailbox">The QR code you have scanned is for adding a Briar contact.\n\nIf you want to add a contact, please go to the contact list and tap the + icon.</string>
-	<string name="mailbox_setup_qr_code_wrong_description">The QR code you have scanned does not come from Briar Mailbox.\n\nPlease open the Briar Mailbox app on your Mailbox device and scan the QR code it presents.</string>
+	<string name="mailbox_qr_code_too_old">The QR code you have scanned comes from an older version of Sanchar Mailbox.\n\nPlease upgrade Sanchar Mailbox to the latest version and then try again.</string>
+	<string name="mailbox_qr_code_too_new">The QR code you have scanned comes from a newer version of Sanchar Mailbox.\n\nPlease upgrade Sanchar to the latest version and then try again.</string>
+	<string name="contact_qr_code_for_mailbox">The QR code you have scanned is for adding a Sanchar contact.\n\nIf you want to add a contact, please go to the contact list and tap the + icon.</string>
+	<string name="mailbox_setup_qr_code_wrong_description">The QR code you have scanned does not come from Sanchar Mailbox.\n\nPlease open the Sanchar Mailbox app on your Mailbox device and scan the QR code it presents.</string>
 	<string name="mailbox_setup_already_paired_title">Mailbox already linked</string>
 	<string name="mailbox_setup_already_paired_description">Unlink the Mailbox on your other device and try again.</string>
 	<string name="mailbox_setup_io_error_title">Could not connect</string>
 	<string name="mailbox_setup_io_error_description">Ensure that both devices are connected to the Internet and try again.</string>
 	<string name="mailbox_setup_assertion_error_title">Mailbox error</string>
-	<string name="mailbox_setup_assertion_error_description">Please send feedback (with anonymous data) via the Briar app if the issue persists.</string>
+	<string name="mailbox_setup_assertion_error_description">Please send feedback (with anonymous data) via the Sanchar app if the issue persists.</string>
 	<string name="mailbox_setup_camera_error_title" translatable="false">@string/camera_error</string>
 	<string name="mailbox_setup_camera_error_description">Could not access camera. Try again, maybe after rebooting device.</string>
 	<string name="mailbox_setup_paired_title">Connected</string>
-	<string name="mailbox_setup_paired_description">Your Mailbox has been successfully linked with Briar.\n
+	<string name="mailbox_setup_paired_description">Your Mailbox has been successfully linked with Sanchar.\n
 		\nKeep your Mailbox connected to power and Wi-Fi so it\'s always online.</string>
 	<string name="tor_offline_title">Offline</string>
 	<string name="tor_offline_description">Ensure that this device is online and connections to the Internet are allowed.\n
@@ -663,10 +668,10 @@
 	<string name="tor_offline_button_check">Check connection settings</string>
 	<string name="mailbox_status_title">Mailbox status</string>
 	<string name="mailbox_status_connected_title">Mailbox is running</string>
-	<string name="mailbox_status_problem_title">Briar is having trouble connecting to the Mailbox</string>
+	<string name="mailbox_status_problem_title">Sanchar is having trouble connecting to the Mailbox</string>
 	<string name="mailbox_status_failure_title">Mailbox is unavailable</string>
-	<string name="mailbox_status_app_too_old_title">Briar is too old</string>
-	<string name="mailbox_status_app_too_old_message">Update Briar to the latest version of the app and try again.</string>
+	<string name="mailbox_status_app_too_old_title">Sanchar is too old</string>
+	<string name="mailbox_status_app_too_old_message">Update Sanchar to the latest version of the app and try again.</string>
 	<string name="mailbox_status_mailbox_too_old_title">Mailbox is too old</string>
 	<string name="mailbox_status_mailbox_too_old_message">Update your Mailbox to the latest version of the app and try again.</string>
 	<string name="mailbox_status_check_button">Check Connection</string>
@@ -677,13 +682,13 @@
 	<string name="mailbox_status_unlink_button">Unlink</string>
 	<string name="mailbox_status_unlink_dialog_title">Unlink mailbox?</string>
 	<string name="mailbox_status_unlink_dialog_question">Are you sure you want to unlink your Mailbox?</string>
-	<string name="mailbox_status_unlink_dialog_warning">If you unlink your Mailbox, you won\'t be able to receive messages while Briar is offline.</string>
+	<string name="mailbox_status_unlink_dialog_warning">If you unlink your Mailbox, you won\'t be able to receive messages while Sanchar is offline.</string>
 	<string name="mailbox_status_unlink_no_wipe_title">Your Mailbox has been unlinked</string>
 	<string name="mailbox_status_unlink_no_wipe_message">Next time you have access to your Mailbox device, please open the Mailbox app and tap the \"Unlink\" button to complete the process.\n\nIf you no longer have access to your Mailbox device, don\'t worry. Your data is encrypted so it will remain secure even if you don\'t complete the process.</string>
 	<string name="mailbox_status_unlink_success">Your Mailbox has been unlinked</string>
 
-	<string name="mailbox_error_notification_channel_title">Briar Mailbox problem</string>
-	<string name="mailbox_error_notification_title">Briar Mailbox is unavailable</string>
+	<string name="mailbox_error_notification_channel_title">Sanchar Mailbox problem</string>
+	<string name="mailbox_error_notification_title">Sanchar Mailbox is unavailable</string>
 	<string name="mailbox_error_notification_text">Tap to fix problem.</string>
 	<string name="mailbox_error_wizard_button">Fix problem</string>
 	<string name="mailbox_error_wizard_title">Mailbox troubleshooting wizard</string>
@@ -699,17 +704,17 @@
 	<string name="mailbox_error_wizard_answer1_4">I see \"Device offline\"</string>
 	<string name="mailbox_error_wizard_info1_1_1">Please unlink your Mailbox using the button below, then follow the instructions on the Mailbox device to link it again.</string>
 	<string name="mailbox_error_wizard_info_1_1_2">Please unlink your Mailbox using the button below, then scan the QR code to link it again.</string>
-	<string name="mailbox_error_wizard_info1_1_3">Please use the button below to check the connection between Briar and the Mailbox.\n\n
+	<string name="mailbox_error_wizard_info1_1_3">Please use the button below to check the connection between Sanchar and the Mailbox.\n\n
 		If the connection fails again:\n
-		\u2022 Check that the Mailbox and Briar apps are updated to the latest version.\n
-		\u2022 Restart your Mailbox and Briar devices and try again.</string>
-	<string name="mailbox_error_wizard_info1_1_4">Check that the mailbox device is properly connected to the Internet.\n\nCheck that the clock on the Mailbox device shows the right time, date and timezone.\n\nCheck that the Mailbox and Briar apps are updated to the latest version.\n\nRestart your Mailbox and Briar devices and try again.</string>
+		\u2022 Check that the Mailbox and Sanchar apps are updated to the latest version.\n
+		\u2022 Restart your Mailbox and Sanchar devices and try again.</string>
+	<string name="mailbox_error_wizard_info1_1_4">Check that the mailbox device is properly connected to the Internet.\n\nCheck that the clock on the Mailbox device shows the right time, date and timezone.\n\nCheck that the Mailbox and Sanchar apps are updated to the latest version.\n\nRestart your Mailbox and Sanchar devices and try again.</string>
 	<string name="mailbox_error_wizard_info2">Please come back to this screen when you have access to the device.</string>
 	<string name="mailbox_error_wizard_info3">Please unlink your mailbox using the button below.\n\nAfter unlinking your old Mailbox, you can set up a new Mailbox at any time.</string>
 
 	<!-- About -->
 	<string name="about_title">About</string>
-	<string name="briar_version">Briar version: %s</string>
+	<string name="briar_version">Sanchar version: %s</string>
 	<string name="tor_version">Tor version: %s</string>
 	<string name="links">Links</string>
 	<string name="briar_website">\u2022 <a href="">Website</a></string>
@@ -736,7 +741,7 @@
 	<!-- Settings Actions -->
 	<string name="pref_category_actions">Actions</string>
 	<string name="share_app_link">Share download link</string>
-	<string name="share_app_link_text">Download Briar at %s</string>
+	<string name="share_app_link_text">Download Sanchar at %s</string>
 	<string name="send_feedback">Send feedback</string>
 
 	<!-- Link Warning -->
@@ -746,10 +751,10 @@
 	<string name="link_warning_open_link">Open Link</string>
 
 	<!-- Crash Reporter -->
-	<string name="crash_report_title">Briar Crash Report</string>
-	<string name="briar_crashed">Sorry, Briar has crashed</string>
+	<string name="crash_report_title">Sanchar Crash Report</string>
+	<string name="briar_crashed">Sorry, Sanchar has crashed</string>
 	<string name="not_your_fault">This is not your fault.</string>
-	<string name="please_send_report">Please help us build a better Briar by sending us a crash report.</string>
+	<string name="please_send_report">Please help us build a better Sanchar by sending us a crash report.</string>
 	<string name="report_is_encrypted">We promise that the report is encrypted and sent securely.</string>
 	<string name="feedback_title">Feedback</string>
 	<string name="describe_crash">Describe what happened (optional)</string>
@@ -774,72 +779,72 @@
 	<string name="close">Close</string>
 	<string name="dev_report_sending">Sending feedback…</string>
 	<string name="dev_report_sent">Feedback sent</string>
-	<string name="dev_report_saved">Report saved. It will be sent the next time you log into Briar.</string>
+	<string name="dev_report_saved">Report saved. It will be sent the next time you log into Sanchar.</string>
 	<string name="dev_report_error">Error: Sending report failed</string>
 
 	<!-- Sign Out -->
-	<string name="progress_title_logout">Signing out of Briar…</string>
+	<string name="progress_title_logout">Signing out of Sanchar…</string>
 
 	<!-- Screen Filters & Tapjacking -->
 	<string name="screen_filter_title">Screen overlay detected</string>
-	<string name="screen_filter_body">Another app is drawing on top of Briar. To protect your security, Briar will not respond to touches when another app is drawing on top.\n\nThe following apps might be drawing on top:\n\n%1$s</string>
-	<string name="screen_filter_body_api_30">Another app is drawing on top of Briar. To protect your security, Briar will not respond to touches when another app is drawing on top.\n\nReview apps below to find the responsible app.</string>
+	<string name="screen_filter_body">Another app is drawing on top of Sanchar. To protect your security, Sanchar will not respond to touches when another app is drawing on top.\n\nThe following apps might be drawing on top:\n\n%1$s</string>
+	<string name="screen_filter_body_api_30">Another app is drawing on top of Sanchar. To protect your security, Sanchar will not respond to touches when another app is drawing on top.\n\nReview apps below to find the responsible app.</string>
 	<string name="screen_filter_allow">Allow these apps to draw on top</string>
 	<string name="screen_filter_review_apps">Review apps</string>
 
 	<!-- Permission Requests -->
 	<string name="permission_camera_title">Camera permission</string>
-	<string name="permission_camera_request_body">To scan the QR code, Briar needs access to the camera.</string>
+	<string name="permission_camera_request_body">To scan the QR code, Sanchar needs access to the camera.</string>
 	<string name="permission_location_title">Location permission</string>
 	<string name="permission_nearby_devices_title">Nearby devices permission</string>
-	<string name="permission_location_request_body">To discover Bluetooth devices, Briar needs permission to access your location.\n\nBriar does not store your location or share it with anyone.</string>
+	<string name="permission_location_request_body">To discover Bluetooth devices, Sanchar needs permission to access your location.\n\nSanchar does not store your location or share it with anyone.</string>
 	<string name="permission_camera_location_title">Camera and location</string>
-	<string name="permission_camera_location_request_body">To scan the QR code, Briar needs access to the camera.\n\nTo discover Bluetooth devices, Briar needs permission to access your location.\n\nBriar does not store your location or share it with anyone.</string>
+	<string name="permission_camera_location_request_body">To scan the QR code, Sanchar needs access to the camera.\n\nTo discover Bluetooth devices, Sanchar needs permission to access your location.\n\nSanchar does not store your location or share it with anyone.</string>
 	<string name="permission_camera_bluetooth_title">Camera and nearby devices</string>
-	<string name="permission_camera_bluetooth_request_body">To scan the QR code, Briar needs access to the camera.\n\nTo discover Bluetooth devices, Briar needs permission to find and connect to nearby devices.</string>
+	<string name="permission_camera_bluetooth_request_body">To scan the QR code, Sanchar needs access to the camera.\n\nTo discover Bluetooth devices, Sanchar needs permission to find and connect to nearby devices.</string>
 	<string name="permission_camera_denied_body">You have denied access to the camera, but adding contacts requires using the camera.\n\nPlease consider granting access.</string>
-	<string name="permission_location_denied_body">You have denied access to your location, but Briar needs this permission to discover Bluetooth devices.\n\nPlease consider granting access.</string>
+	<string name="permission_location_denied_body">You have denied access to your location, but Sanchar needs this permission to discover Bluetooth devices.\n\nPlease consider granting access.</string>
 	<string name="permission_location_setting_title">Location setting</string>
 	<string name="permission_location_setting_body">Your device\'s location setting must be turned on to find other devices via Bluetooth. Please enable location to continue. You can disable it again afterwards.</string>
 	<string name="permission_location_setting_hotspot_body">Your device\'s location setting must be turned on to create a Wi-Fi hotspot. Please enable location to continue. You can disable it again afterwards.</string>
 	<string name="permission_location_setting_button">Enable location</string>
 	<string name="permission_bluetooth_title">Nearby devices permission</string>
-	<string name="permission_bluetooth_body">To use Bluetooth communication, Briar needs permission to find and connect to nearby devices.</string>
-	<string name="permission_bluetooth_denied_body">You have denied access to nearby devices, but Briar needs this permission to use Bluetooth.\n\nPlease consider granting access.</string>
+	<string name="permission_bluetooth_body">To use Bluetooth communication, Sanchar needs permission to find and connect to nearby devices.</string>
+	<string name="permission_bluetooth_denied_body">You have denied access to nearby devices, but Sanchar needs this permission to use Bluetooth.\n\nPlease consider granting access.</string>
 
 	<string name="qr_code">QR code</string>
 	<string name="show_qr_code_fullscreen">Show QR code fullscreen</string>
 
 	<!-- App Locking -->
-	<string name="lock_unlock">Unlock Briar</string>
-	<string name="lock_unlock_verbose">Enter your device PIN, pattern or password to unlock Briar</string>
+	<string name="lock_unlock">Unlock Sanchar</string>
+	<string name="lock_unlock_verbose">Enter your device PIN, pattern or password to unlock Sanchar</string>
 	<string name="lock_unlock_fingerprint_description">Touch your fingerprint sensor with the registered finger to continue</string>
 	<string name="lock_unlock_password">Use Password</string>
-	<string name="lock_is_locked">Briar is locked</string>
+	<string name="lock_is_locked">Sanchar is locked</string>
 	<string name="lock_tap_to_unlock">Tap to unlock</string>
 
 	<!-- Connections Screen -->
-	<string name="transports_help_text">Briar can connect to your contacts via the Internet, Wi-Fi or Bluetooth.\n\nAll Internet connections go through the Tor network for privacy.\n\nIf a contact can be reached by multiple methods, Briar uses them in parallel.</string>
+	<string name="transports_help_text">Sanchar can connect to your contacts via the Internet, Wi-Fi or Bluetooth.\n\nAll Internet connections go through the Tor network for privacy.\n\nIf a contact can be reached by multiple methods, Sanchar uses them in parallel.</string>
 
 	<!-- Share app offline -->
 	<string name="hotspot_title">Share this app offline</string>
 	<string name="hotspot_intro">Share this app with someone nearby without an Internet connection by using your phone\'s Wi-Fi.
-		\n\nYour phone will start a Wi-Fi hotspot. People nearby can connect to the hotspot and download the Briar app from your phone.</string>
+		\n\nYour phone will start a Wi-Fi hotspot. People nearby can connect to the hotspot and download the Sanchar app from your phone.</string>
 	<string name="hotspot_button_start_sharing">Start hotspot</string>
 	<string name="hotspot_button_stop_sharing">Stop hotspot</string>
 	<string name="hotspot_progress_text_start">Setting up hotspot…</string>
 	<string name="hotspot_notification_channel_title">Wi-Fi hotspot</string>
-	<string name="hotspot_notification_title">Sharing Briar offline</string>
+	<string name="hotspot_notification_title">Sharing Sanchar offline</string>
 	<string name="hotspot_button_connected">Next</string>
 
-	<string name="permission_hotspot_location_request_body">To create a Wi-Fi hotspot, Briar needs permission to access your location.\n\nBriar does not store your location or share it with anyone.</string>
-	<string name="permission_hotspot_location_request_precise_body">To create a Wi-Fi hotspot, Briar needs permission to access your precise location.\n\nBriar does not store your location or share it with anyone.</string>
-	<string name="permission_hotspot_location_denied_body">You have denied access to your location, but Briar needs this permission to create a Wi-Fi hotspot.\n\nPlease consider granting access.</string>
-	<string name="permission_hotspot_location_denied_precise_body">You have denied access to your precise location, but Briar needs this permission to create a Wi-Fi hotspot.\n\nPlease consider granting access.</string>
-	<string name="permission_hotspot_nearby_wifi_request_body">To create a Wi-Fi hotspot, Briar needs permission to access nearby devices.</string>
-	<string name="permission_hotspot_nearby_wifi_denied_body">You have denied access to nearby devices, but Briar needs this permission to create a Wi-Fi hotspot.\n\nPlease consider granting access.</string>
+	<string name="permission_hotspot_location_request_body">To create a Wi-Fi hotspot, Sanchar needs permission to access your location.\n\nSanchar does not store your location or share it with anyone.</string>
+	<string name="permission_hotspot_location_request_precise_body">To create a Wi-Fi hotspot, Sanchar needs permission to access your precise location.\n\nSanchar does not store your location or share it with anyone.</string>
+	<string name="permission_hotspot_location_denied_body">You have denied access to your location, but Sanchar needs this permission to create a Wi-Fi hotspot.\n\nPlease consider granting access.</string>
+	<string name="permission_hotspot_location_denied_precise_body">You have denied access to your precise location, but Sanchar needs this permission to create a Wi-Fi hotspot.\n\nPlease consider granting access.</string>
+	<string name="permission_hotspot_nearby_wifi_request_body">To create a Wi-Fi hotspot, Sanchar needs permission to access nearby devices.</string>
+	<string name="permission_hotspot_nearby_wifi_denied_body">You have denied access to nearby devices, but Sanchar needs this permission to create a Wi-Fi hotspot.\n\nPlease consider granting access.</string>
 	<string name="wifi_settings_title">Wi-Fi setting</string>
-	<string name="wifi_settings_request_enable_body">To create a Wi-Fi hotspot, Briar needs to use Wi-Fi. Please enable it.</string>
+	<string name="wifi_settings_request_enable_body">To create a Wi-Fi hotspot, Sanchar needs to use Wi-Fi. Please enable it.</string>
 
 	<string name="hotspot_tab_manual">Manual</string>
 	<!-- The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s -->
@@ -847,9 +852,9 @@
 
 	<!-- Wi-Fi setup -->
 	<!-- The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code' -->
-	<string name="hotspot_manual_wifi">Your phone is providing a Wi-Fi hotspot. People who want to download Briar can connect to the hotspot by adding it in their device\'s Wi-Fi settings using the details below or by %s. When they have connected to the hotspot, press \'Next\'.</string>
+	<string name="hotspot_manual_wifi">Your phone is providing a Wi-Fi hotspot. People who want to download Sanchar can connect to the hotspot by adding it in their device\'s Wi-Fi settings using the details below or by %s. When they have connected to the hotspot, press \'Next\'.</string>
 	<string name="hotspot_manual_wifi_ssid">Network name</string>
-	<string name="hotspot_qr_wifi">Your phone is providing a Wi-Fi hotspot. People who want to download Briar can connect to the hotspot by scanning this QR code. When they have connected to the hotspot, press \'Next\'.</string>
+	<string name="hotspot_qr_wifi">Your phone is providing a Wi-Fi hotspot. People who want to download Sanchar can connect to the hotspot by scanning this QR code. When they have connected to the hotspot, press \'Next\'.</string>
 	<string name="hotspot_no_peers_connected">No devices connected</string>
 	<plurals name="hotspot_peers_connected">
 		<item quantity="one">%s device connected</item>
@@ -858,14 +863,14 @@
 
 	<!-- Download link -->
 	<!-- The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code' -->
-	<string name="hotspot_manual_site">Your phone is providing a Wi-Fi hotspot. People who are connected to the hotspot can download Briar by typing the following link in a web browser or %s.</string>
+	<string name="hotspot_manual_site">Your phone is providing a Wi-Fi hotspot. People who are connected to the hotspot can download Sanchar by typing the following link in a web browser or %s.</string>
 	<string name="hotspot_manual_site_address">Address (URL)</string>
-	<string name="hotspot_qr_site">Your phone is providing a Wi-Fi hotspot. People who are connected to the hotspot can download Briar by scanning this QR code.</string>
+	<string name="hotspot_qr_site">Your phone is providing a Wi-Fi hotspot. People who are connected to the hotspot can download Sanchar by scanning this QR code.</string>
 
-	<!-- e.g. Download Briar 1.2.20 -->
-	<string name="website_download_title_1">Download Briar %s</string>
-	<string name="website_download_intro_1">Someone nearby shared Briar with you.</string>
-	<string name="website_download_button">Download Briar</string>
+	<!-- e.g. Download Sanchar 1.2.20 -->
+	<string name="website_download_title_1">Download Sanchar %s</string>
+	<string name="website_download_intro_1">Someone nearby shared Sanchar with you.</string>
+	<string name="website_download_button">Download Sanchar</string>
 	<string name="website_download_outro">After the download is complete, open the downloaded file and install it.</string>
 	<string name="website_troubleshooting_title">Troubleshooting</string>
 	<string name="website_troubleshooting_1">If you cannot download the app, try it with a different web browser app.</string>
@@ -875,14 +880,14 @@
 	<string name="hotspot_help_wifi_title">Problems with connecting to Wi-Fi:</string>
 	<string name="hotspot_help_wifi_1">Try disabling and re-enabling Wi-Fi on both phones and try again.</string>
 	<string name="hotspot_help_wifi_2">If your phone complains that the Wi-Fi has no Internet, tell it that you want to stay connected anyway.</string>
-	<string name="hotspot_help_wifi_3">Restart the phone which is running the Wi-Fi hotspot, then start Briar and try sharing again.</string>
+	<string name="hotspot_help_wifi_3">Restart the phone which is running the Wi-Fi hotspot, then start Sanchar and try sharing again.</string>
 	<string name="hotspot_help_site_title">Problems visiting the local website:</string>
 	<string name="hotspot_help_site_1">Double check that you entered the address exactly as shown. A small error can make it fail.</string>
 	<string name="hotspot_help_site_2">Ensure that your phone is still connected to the correct Wi-Fi (see above) when you try to access the site.</string>
 	<string name="hotspot_help_site_3">If you have a firewall app, check that it isn\'t blocking access.</string>
-	<string name="hotspot_help_site_4">If you can visit the site, but not download the Briar app, try it with a different web browser app.</string>
+	<string name="hotspot_help_site_4">If you can visit the site, but not download the Sanchar app, try it with a different web browser app.</string>
 	<string name="hotspot_help_fallback_title">Nothing works?</string>
-	<string name="hotspot_help_fallback_intro">You can try to save the app as an .apk file to share in some other way. Once the file has been transferred to the other device, it can be used to install Briar.
+	<string name="hotspot_help_fallback_intro">You can try to save the app as an .apk file to share in some other way. Once the file has been transferred to the other device, it can be used to install Sanchar.
 		\n\nTip: For sharing via Bluetooth, you might need to rename the file to end with .zip first.</string>
 	<string name="hotspot_help_fallback_button">Save app</string>
 
@@ -891,9 +896,9 @@
 	<string name="hotspot_error_no_wifi_direct">Device does not support Wi-Fi Direct</string>
 	<string name="hotspot_error_start_callback_failed">Hotspot failed to start: error %s</string>
 	<string name="hotspot_error_start_callback_failed_unknown">Hotspot failed to start with an unknown error, reason %d</string>
-	<string name="hotspot_error_start_callback_no_group_info">Hotspot failed to start: no group info</string>
+	<string name="hotspot_error_start_callback_no_group_info">Hotspot failed to start: no channel info</string>
 	<string name="hotspot_error_web_server_start">Error starting web server</string>
-	<string name="hotspot_error_web_server_serve">Error presenting website.\n\nPlease send feedback (with anonymous data) via the Briar app if the issue persists.</string>
+	<string name="hotspot_error_web_server_serve">Error presenting website.\n\nPlease send feedback (with anonymous data) via the Sanchar app if the issue persists.</string>
 	<string name="hotspot_flag_test">Warning: This app was installed with Android Studio and can NOT be installed on another device.</string>
 	<string name="hotspot_error_framework_busy">Unable to start the hotspot.\n\nIf you have another hotspot running or are sharing your Internet connection via Wi-Fi, try stopping that and try again afterwards.</string>
 
@@ -901,13 +906,13 @@
 	<!-- Transfer Data via Removable Drives -->
 
 	<string name="removable_drive_menu_title">Connect via Removable Drive</string>
-	<string name="removable_drive_intro">If you can\'t connect to your contact via the Internet, Wi-Fi or Bluetooth, Briar can also transfer messages on a removable drive such as a USB stick or an SD card.</string>
-	<string name="removable_drive_explanation">If you can\'t connect to your contact via the Internet, Wi-Fi or Bluetooth, Briar can also transfer messages on a removable drive such as a USB stick or an SD card.\n\nWhen you use the \"Send Data\" button, any data that\'s waiting to be sent to the contact will be written to the removable drive. This includes private messages, attachments, blogs, forums and private groups.\n\nEverything will be encrypted before it is written to the removable drive.\n\nWhen your contact receives the removable drive, they can use the \"Receive Data\" button to import the messages into Briar.</string>
+	<string name="removable_drive_intro">If you can\'t connect to your contact via the Internet, Wi-Fi or Bluetooth, Sanchar can also transfer messages on a removable drive such as a USB stick or an SD card.</string>
+	<string name="removable_drive_explanation">If you can\'t connect to your contact via the Internet, Wi-Fi or Bluetooth, Sanchar can also transfer messages on a removable drive such as a USB stick or an SD card.\n\nWhen you use the \"Send Data\" button, any data that\'s waiting to be sent to the contact will be written to the removable drive. This includes private messages, attachments and channels.\n\nEverything will be encrypted before it is written to the removable drive.\n\nWhen your contact receives the removable drive, they can use the \"Receive Data\" button to import the messages into Sanchar.</string>
 	<string name="removable_drive_title_send">Send data</string>
 	<string name="removable_drive_title_receive">Receive data</string>
 	<string name="removable_drive_send_intro">Tap the button below to create a new file containing the encrypted messages. You can choose where the file will be saved.\n\nIf you want to save the file on a removable drive, insert the drive now.</string>
 	<string name="removable_drive_send_no_data">There are currently no messages waiting to be sent to this contact.</string>
-	<string name="removable_drive_send_not_supported">This contact is using an old version of Briar or an old device which does not support this feature.</string>
+	<string name="removable_drive_send_not_supported">This contact is using an old version of Sanchar or an old device which does not support this feature.</string>
 	<string name="removable_drive_send_button">Choose file for export</string>
 	<string name="removable_drive_ongoing">Please wait for ongoing task to complete</string>
 	<string name="removable_drive_receive_intro">Tap the button below to choose the file that your contact sent you.\n\nIf the file is on a removable drive, insert the drive now.</string>
@@ -917,9 +922,9 @@
 	<string name="removable_drive_success_receive_title">Import successful</string>
 	<string name="removable_drive_success_receive_text">All encrypted messages contained in this file have been received.</string>
 	<string name="removable_drive_error_send_title">Error exporting data</string>
-	<string name="removable_drive_error_send_text">There was an error writing data to the file.\n\nIf you are using a removable drive, ensure that it is properly inserted and try again.\n\nIf the error persists, please send feedback to let the Briar team know about the issue.</string>
+	<string name="removable_drive_error_send_text">There was an error writing data to the file.\n\nIf you are using a removable drive, ensure that it is properly inserted and try again.\n\nIf the error persists, please send feedback to let the Sanchar team know about the issue.</string>
 	<string name="removable_drive_error_receive_title">Error importing data</string>
-	<string name="removable_drive_error_receive_text">The selected file did not contain anything that Briar could recognize.\n\nPlease check that you chose the right file.\n\nIf your contact created the file more than 28 days ago, Briar will not be able to recognize it.</string>
+	<string name="removable_drive_error_receive_text">The selected file did not contain anything that Sanchar could recognize.\n\nPlease check that you chose the right file.\n\nIf your contact created the file more than 28 days ago, Sanchar will not be able to recognize it.</string>
 
 
 	<!-- Screenshots -->
@@ -933,7 +938,7 @@
 	<!-- This is a message to be used in screenshots. Please use the same translation for Bob! -->
 	<string name="screenshot_message_1">Hi Bob!</string>
 	<!-- This is a message to be used in screenshots. Please use the same translation for Alice! -->
-	<string name="screenshot_message_2">Hi Alice! Thanks for telling me about Briar!</string>
+	<string name="screenshot_message_2">Hi Alice! Thanks for telling me about Sanchar!</string>
 	<!-- This is a message to be used in screenshots. -->
 	<string name="screenshot_message_3">No problem, hope you like it 😀</string>
 

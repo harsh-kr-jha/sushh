@@ -11,9 +11,11 @@ interface GroupConstants {
 	String KEY_PARENT_MSG_ID = "parentMsgId";
 	String KEY_PREVIOUS_MSG_ID = "previousMsgId";
 	String KEY_MEMBER = "member";
+	String KEY_INVITER = "inviter";
 	String KEY_INITIAL_JOIN_MSG = "initialJoinMsg";
 
 	String GROUP_KEY_MEMBERS = "members";
+	String GROUP_KEY_ADMINS = "admins";
 	String GROUP_KEY_OUR_GROUP = "ourGroup";
 	String GROUP_KEY_CREATOR_ID = "creatorId";
 	String GROUP_KEY_DISSOLVED = "dissolved";

@@ -39,10 +39,8 @@ import org.briarproject.briar.android.privategroup.conversation.GroupActivity;
 import org.briarproject.briar.android.splash.SplashScreenActivity;
 import org.briarproject.briar.android.util.BriarNotificationBuilder;
 import org.briarproject.briar.api.android.AndroidNotificationManager;
-import org.briarproject.briar.api.blog.event.BlogPostAddedEvent;
 import org.briarproject.briar.api.conversation.ConversationResponse;
 import org.briarproject.briar.api.conversation.event.ConversationMessageReceivedEvent;
-import org.briarproject.briar.api.forum.event.ForumPostReceivedEvent;
 import org.briarproject.briar.api.privategroup.event.GroupMessageAddedEvent;
 import org.briarproject.nullsafety.MethodsNotNullByDefault;
 import org.briarproject.nullsafety.ParametersNotNullByDefault;
@@ -150,14 +148,12 @@ class AndroidNotificationManagerImpl implements AndroidNotificationManager,
 		if (SDK_INT >= 26) {
 			// Create notification channels
 			Callable<Void> task = () -> {
+				notificationManager.deleteNotificationChannel(FORUM_CHANNEL_ID);
+				notificationManager.deleteNotificationChannel(BLOG_CHANNEL_ID);
 				createNotificationChannel(CONTACT_CHANNEL_ID,
 						R.string.contact_list_button);
 				createNotificationChannel(GROUP_CHANNEL_ID,
 						R.string.groups_button);
-				createNotificationChannel(FORUM_CHANNEL_ID,
-						R.string.forums_button);
-				createNotificationChannel(BLOG_CHANNEL_ID,
-						R.string.blogs_button);
 				return null;
 			};
 			try {
@@ -249,12 +245,6 @@ class AndroidNotificationManagerImpl implements AndroidNotificationManager,
 		} else if (e instanceof GroupMessageAddedEvent) {
 			GroupMessageAddedEvent g = (GroupMessageAddedEvent) e;
 			if (!g.isLocal()) showGroupMessageNotification(g.getGroupId());
-		} else if (e instanceof ForumPostReceivedEvent) {
-			ForumPostReceivedEvent f = (ForumPostReceivedEvent) e;
-			showForumPostNotification(f.getGroupId());
-		} else if (e instanceof BlogPostAddedEvent) {
-			BlogPostAddedEvent b = (BlogPostAddedEvent) e;
-			if (!b.isLocal()) showBlogPostNotification(b.getGroupId());
 		} else if (e instanceof ContactAddedEvent) {
 			ContactAddedEvent c = (ContactAddedEvent) e;
 			// Don't show notifications for contacts added in person

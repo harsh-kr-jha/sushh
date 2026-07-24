@@ -18,6 +18,7 @@ import org.briarproject.bramble.api.sync.MessageId;
 import org.briarproject.bramble.api.system.Clock;
 import org.briarproject.bramble.api.versioning.ClientVersioningManager;
 import org.briarproject.briar.api.autodelete.AutoDeleteManager;
+import org.briarproject.briar.api.client.ProtocolStateException;
 import org.briarproject.briar.api.client.SessionId;
 import org.briarproject.briar.api.conversation.ConversationManager;
 import org.briarproject.briar.api.privategroup.GroupMessage;
@@ -125,12 +126,27 @@ abstract class AbstractProtocolEngine<S extends Session<?>>
 			throw new DbException(e); // Invalid group descriptor
 		}
 		Message m;
+		LocalAuthor inviter = identityManager.getLocalAuthor(txn);
 		ContactId c = clientHelper.getContactId(txn, s.getContactGroupId());
-		if (contactSupportsAutoDeletion(txn, c)) {
-			m = messageEncoder.encodeInviteMessage(s.getContactGroupId(),
-					privateGroup.getId(), timestamp, privateGroup.getName(),
-					privateGroup.getCreator(), privateGroup.getSalt(), text,
-					signature, timer);
+		int minorVersion = getContactMinorVersion(txn, c);
+		boolean creatorInvite =
+				inviter.getId().equals(privateGroup.getCreator().getId());
+		// Member invitations were added in client version 0.2.
+		if (!creatorInvite && minorVersion < 2) {
+			throw new ProtocolStateException();
+		}
+		if (minorVersion >= 1) {
+			if (creatorInvite) {
+				m = messageEncoder.encodeInviteMessage(s.getContactGroupId(),
+						privateGroup.getId(), timestamp, privateGroup.getName(),
+						privateGroup.getCreator(), privateGroup.getSalt(), text,
+						signature, timer);
+			} else {
+				m = messageEncoder.encodeInviteMessage(s.getContactGroupId(),
+						privateGroup.getId(), timestamp, privateGroup.getName(),
+						privateGroup.getCreator(), privateGroup.getSalt(), text,
+						signature, inviter, timer);
+			}
 			sendMessage(txn, m, INVITE, privateGroup.getId(), true, timer);
 			// Set the auto-delete timer duration on the message
 			if (timer != NO_AUTO_DELETE_TIMER) {
@@ -292,7 +308,7 @@ abstract class AbstractProtocolEngine<S extends Session<?>>
 		LocalAuthor member = identityManager.getLocalAuthor(txn);
 		GroupMessage joinMessage = groupMessageFactory.createJoinMessage(
 				privateGroup.getId(), timestamp, member, invite.getTimestamp(),
-				invite.getSignature());
+				invite.getInviter(), invite.getSignature());
 		privateGroupManager
 				.addPrivateGroup(txn, privateGroup, joinMessage, false);
 	}
@@ -357,10 +373,13 @@ abstract class AbstractProtocolEngine<S extends Session<?>>
 
 	private boolean contactSupportsAutoDeletion(Transaction txn, ContactId c)
 			throws DbException {
-		int minorVersion = clientVersioningManager.getClientMinorVersion(txn, c,
+		return getContactMinorVersion(txn, c) >= 1;
+	}
+
+	private int getContactMinorVersion(Transaction txn, ContactId c)
+			throws DbException {
+		return clientVersioningManager.getClientMinorVersion(txn, c,
 				GroupInvitationManager.CLIENT_ID,
 				GroupInvitationManager.MAJOR_VERSION);
-		// Auto-delete was added in client version 0.1
-		return minorVersion >= 1;
 	}
 }

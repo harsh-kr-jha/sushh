@@ -9,6 +9,7 @@ import org.briarproject.bramble.api.db.DatabaseComponent;
 import org.briarproject.bramble.api.db.Transaction;
 import org.briarproject.bramble.api.identity.Author;
 import org.briarproject.bramble.api.identity.IdentityManager;
+import org.briarproject.bramble.api.identity.LocalAuthor;
 import org.briarproject.bramble.api.sync.Group;
 import org.briarproject.bramble.api.sync.Group.Visibility;
 import org.briarproject.bramble.api.sync.GroupId;
@@ -32,6 +33,7 @@ import static org.briarproject.bramble.api.sync.Group.Visibility.SHARED;
 import static org.briarproject.bramble.test.TestUtils.getContact;
 import static org.briarproject.bramble.test.TestUtils.getGroup;
 import static org.briarproject.bramble.test.TestUtils.getMessage;
+import static org.briarproject.bramble.test.TestUtils.getLocalAuthor;
 import static org.briarproject.bramble.test.TestUtils.getRandomBytes;
 import static org.briarproject.bramble.test.TestUtils.getRandomId;
 import static org.briarproject.bramble.util.StringUtils.getRandomString;
@@ -70,6 +72,7 @@ abstract class AbstractProtocolEngineTest extends BrambleMockTestCase {
 	final Contact contact = getContact();
 	final ContactId contactId = contact.getId();
 	final Author author = contact.getAuthor();
+	final LocalAuthor inviter = getLocalAuthor();
 	final GroupId contactGroupId = new GroupId(getRandomId());
 	final Group privateGroupGroup = getGroup(PrivateGroupManager.CLIENT_ID,
 			PrivateGroupManager.MAJOR_VERSION);
@@ -138,10 +141,12 @@ abstract class AbstractProtocolEngineTest extends BrambleMockTestCase {
 		expectGetTimestampForVisibleMessage(messageTimestamp);
 		expectCheckWhetherContactSupportsAutoDeletion();
 		context.checking(new Expectations() {{
+			oneOf(identityManager).getLocalAuthor(txn);
+			will(returnValue(inviter));
 			oneOf(messageEncoder).encodeInviteMessage(contactGroupId,
 					privateGroupId, inviteTimestamp, privateGroup.getName(),
 					author, privateGroup.getSalt(), text, signature,
-					NO_AUTO_DELETE_TIMER);
+					inviter, NO_AUTO_DELETE_TIMER);
 			will(returnValue(message));
 		}});
 		expectSendMessage(INVITE, true);

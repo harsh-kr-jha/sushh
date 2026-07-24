@@ -1,6 +1,7 @@
 package org.briarproject.briar.api.privategroup;
 
 import org.briarproject.bramble.api.crypto.CryptoExecutor;
+import org.briarproject.bramble.api.identity.Author;
 import org.briarproject.bramble.api.identity.LocalAuthor;
 import org.briarproject.bramble.api.sync.GroupId;
 import org.briarproject.bramble.api.sync.MessageId;
@@ -15,6 +16,7 @@ public interface GroupMessageFactory {
 
 	String SIGNING_LABEL_JOIN = CLIENT_ID.getString() + "/JOIN";
 	String SIGNING_LABEL_POST = CLIENT_ID.getString() + "/POST";
+	String SIGNING_LABEL_ADMIN = CLIENT_ID.getString() + "/ADMIN";
 
 	/**
 	 * Creates a join announcement message for the creator of a group.
@@ -43,6 +45,15 @@ public interface GroupMessageFactory {
 			LocalAuthor member, long inviteTimestamp, byte[] creatorSignature);
 
 	/**
+	 * Creates a join announcement for a member invited by another channel
+	 * member.
+	 */
+	@CryptoExecutor
+	GroupMessage createJoinMessage(GroupId groupId, long timestamp,
+			LocalAuthor member, long inviteTimestamp, Author inviter,
+			byte[] inviterSignature);
+
+	/**
 	 * Creates a private group post.
 	 *
 	 * @param groupId The ID of the private group
@@ -59,5 +70,12 @@ public interface GroupMessageFactory {
 	GroupMessage createGroupMessage(GroupId groupId, long timestamp,
 			@Nullable MessageId parentId, LocalAuthor author, String text,
 			MessageId previousMsgId);
+
+	/**
+	 * Creates a creator-signed announcement appointing a channel admin.
+	 */
+	@CryptoExecutor
+	AdminMessage createAdminMessage(GroupId groupId, long timestamp,
+			LocalAuthor creator, Author admin);
 
 }

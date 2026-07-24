@@ -43,12 +43,8 @@ import static org.briarproject.bramble.util.StringUtils.isNullOrEmpty;
 import static org.briarproject.briar.android.AppModule.getAndroidComponent;
 import static org.briarproject.briar.android.activity.RequestCodes.REQUEST_RINGTONE;
 import static org.briarproject.briar.android.settings.SettingsActivity.enableAndPersist;
-import static org.briarproject.briar.api.android.AndroidNotificationManager.BLOG_CHANNEL_ID;
 import static org.briarproject.briar.api.android.AndroidNotificationManager.CONTACT_CHANNEL_ID;
-import static org.briarproject.briar.api.android.AndroidNotificationManager.FORUM_CHANNEL_ID;
 import static org.briarproject.briar.api.android.AndroidNotificationManager.GROUP_CHANNEL_ID;
-import static org.briarproject.briar.api.android.AndroidNotificationManager.PREF_NOTIFY_BLOG;
-import static org.briarproject.briar.api.android.AndroidNotificationManager.PREF_NOTIFY_FORUM;
 import static org.briarproject.briar.api.android.AndroidNotificationManager.PREF_NOTIFY_GROUP;
 import static org.briarproject.briar.api.android.AndroidNotificationManager.PREF_NOTIFY_PRIVATE;
 import static org.briarproject.briar.api.android.AndroidNotificationManager.PREF_NOTIFY_SOUND;
@@ -69,8 +65,6 @@ public class NotificationsFragment extends PreferenceFragmentCompat {
 
 	private SwitchPreferenceCompat notifyPrivateMessages;
 	private SwitchPreferenceCompat notifyGroupMessages;
-	private SwitchPreferenceCompat notifyForumPosts;
-	private SwitchPreferenceCompat notifyBlogPosts;
 	private SwitchPreferenceCompat notifyVibration;
 
 	private Preference notifySound;
@@ -90,8 +84,6 @@ public class NotificationsFragment extends PreferenceFragmentCompat {
 
 		notifyPrivateMessages = findPreference(PREF_NOTIFY_PRIVATE);
 		notifyGroupMessages = findPreference(PREF_NOTIFY_GROUP);
-		notifyForumPosts = findPreference(PREF_NOTIFY_FORUM);
-		notifyBlogPosts = findPreference(PREF_NOTIFY_BLOG);
 		notifyVibration = findPreference(PREF_NOTIFY_VIBRATION);
 		notifySound = findPreference(PREF_NOTIFY_SOUND);
 
@@ -100,8 +92,6 @@ public class NotificationsFragment extends PreferenceFragmentCompat {
 			notifyPrivateMessages
 					.setPreferenceDataStore(viewModel.settingsStore);
 			notifyGroupMessages.setPreferenceDataStore(viewModel.settingsStore);
-			notifyForumPosts.setPreferenceDataStore(viewModel.settingsStore);
-			notifyBlogPosts.setPreferenceDataStore(viewModel.settingsStore);
 			notifyVibration.setPreferenceDataStore(viewModel.settingsStore);
 
 			notifySound.setOnPreferenceClickListener(pref ->
@@ -114,10 +104,6 @@ public class NotificationsFragment extends PreferenceFragmentCompat {
 			setupNotificationPreference(notifyGroupMessages,
 					GROUP_CHANNEL_ID,
 					R.string.notify_group_messages_setting_summary_26);
-			setupNotificationPreference(notifyForumPosts, FORUM_CHANNEL_ID,
-					R.string.notify_forum_posts_setting_summary_26);
-			setupNotificationPreference(notifyBlogPosts, BLOG_CHANNEL_ID,
-					R.string.notify_blog_posts_setting_summary_26);
 
 			notifyVibration.setVisible(false);
 			notifySound.setVisible(false);
@@ -137,14 +123,6 @@ public class NotificationsFragment extends PreferenceFragmentCompat {
 			nm.getNotifyGroupMessages().observe(lifecycleOwner, enabled -> {
 				notifyGroupMessages.setChecked(enabled);
 				enableAndPersist(notifyGroupMessages);
-			});
-			nm.getNotifyForumPosts().observe(lifecycleOwner, enabled -> {
-				notifyForumPosts.setChecked(enabled);
-				enableAndPersist(notifyForumPosts);
-			});
-			nm.getNotifyBlogPosts().observe(lifecycleOwner, enabled -> {
-				notifyBlogPosts.setChecked(enabled);
-				enableAndPersist(notifyBlogPosts);
 			});
 			nm.getNotifyVibration().observe(lifecycleOwner, enabled -> {
 				notifyVibration.setChecked(enabled);

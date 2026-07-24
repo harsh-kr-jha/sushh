@@ -3,10 +3,12 @@ package org.briarproject.briar.privategroup;
 import org.briarproject.bramble.api.FormatException;
 import org.briarproject.bramble.api.client.ClientHelper;
 import org.briarproject.bramble.api.data.BdfList;
+import org.briarproject.bramble.api.identity.Author;
 import org.briarproject.bramble.api.identity.LocalAuthor;
 import org.briarproject.bramble.api.sync.GroupId;
 import org.briarproject.bramble.api.sync.Message;
 import org.briarproject.bramble.api.sync.MessageId;
+import org.briarproject.briar.api.privategroup.AdminMessage;
 import org.briarproject.briar.api.privategroup.GroupMessage;
 import org.briarproject.briar.api.privategroup.GroupMessageFactory;
 import org.briarproject.nullsafety.NotNullByDefault;
@@ -17,6 +19,7 @@ import javax.annotation.Nullable;
 import javax.annotation.concurrent.Immutable;
 import javax.inject.Inject;
 
+import static org.briarproject.briar.api.privategroup.MessageType.ADMIN;
 import static org.briarproject.briar.api.privategroup.MessageType.JOIN;
 import static org.briarproject.briar.api.privategroup.MessageType.POST;
 
@@ -43,6 +46,15 @@ class GroupMessageFactoryImpl implements GroupMessageFactory {
 			LocalAuthor member, long inviteTimestamp, byte[] creatorSignature) {
 
 		BdfList invite = BdfList.of(inviteTimestamp, creatorSignature);
+		return createJoinMessage(groupId, timestamp, member, invite);
+	}
+
+	@Override
+	public GroupMessage createJoinMessage(GroupId groupId, long timestamp,
+			LocalAuthor member, long inviteTimestamp, Author inviter,
+			byte[] inviterSignature) {
+		BdfList invite = BdfList.of(inviteTimestamp,
+				clientHelper.toList(inviter), inviterSignature);
 		return createJoinMessage(groupId, timestamp, member, invite);
 	}
 
@@ -105,6 +117,25 @@ class GroupMessageFactoryImpl implements GroupMessageFactory {
 			);
 			Message m = clientHelper.createMessage(groupId, timestamp, body);
 			return new GroupMessage(m, parentId, member);
+		} catch (GeneralSecurityException e) {
+			throw new IllegalArgumentException(e);
+		} catch (FormatException e) {
+			throw new AssertionError(e);
+		}
+	}
+
+	@Override
+	public AdminMessage createAdminMessage(GroupId groupId, long timestamp,
+			LocalAuthor creator, Author admin) {
+		try {
+			BdfList adminList = clientHelper.toList(admin);
+			BdfList toSign = BdfList.of(groupId, timestamp, adminList);
+			byte[] signature = clientHelper.sign(SIGNING_LABEL_ADMIN, toSign,
+					creator.getPrivateKey());
+			BdfList body = BdfList.of(ADMIN.getInt(), adminList, signature);
+			Message message =
+					clientHelper.createMessage(groupId, timestamp, body);
+			return new AdminMessage(message, admin);
 		} catch (GeneralSecurityException e) {
 			throw new IllegalArgumentException(e);
 		} catch (FormatException e) {

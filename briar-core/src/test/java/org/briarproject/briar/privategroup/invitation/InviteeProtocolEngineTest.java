@@ -162,7 +162,8 @@ public class InviteeProtocolEngineTest extends AbstractProtocolEngineTest {
 			will(returnValue(localAuthor));
 			oneOf(groupMessageFactory).createJoinMessage(privateGroupId,
 					inviteMessage.getTimestamp() + 1, localAuthor,
-					inviteMessage.getTimestamp(), inviteMessage.getSignature());
+					inviteMessage.getTimestamp(), inviteMessage.getInviter(),
+					inviteMessage.getSignature());
 			will(returnValue(joinGroupMessage));
 			oneOf(privateGroupManager)
 					.addPrivateGroup(txn, privateGroup, joinGroupMessage,
