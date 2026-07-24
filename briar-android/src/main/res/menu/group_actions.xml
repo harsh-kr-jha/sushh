@@ -12,6 +12,14 @@
 		tools:visible="true" />
 
 	<item
+		android:id="@+id/action_group_invite_qr"
+		android:icon="@drawable/ic_nearby"
+		android:title="@string/groups_invite_by_qr"
+		android:visible="false"
+		app:showAsAction="never"
+		tools:visible="true" />
+
+	<item
 		android:id="@+id/action_group_member_list"
 		android:icon="@drawable/ic_group_white"
 		android:title="@string/groups_member_list"
