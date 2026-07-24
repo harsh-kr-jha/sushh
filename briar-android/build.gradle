@@ -30,8 +30,10 @@ android {
 		targetSdkVersion 35
 		versionCode 10519
 		versionName "1.5.19"
-		applicationId "org.briarproject.briar.android"
+		applicationId "in.sushh.hub"
 		buildConfigField "String", "TorVersion", "\"$tor_version\""
+		buildConfigField "boolean", "SUSHH_HUB", "true"
+		buildConfigField "int", "SUSHH_REQUIRED_OWNER_APPROVALS", "3"
 
 		vectorDrawables.useSupportLibrary = true
 		buildConfigField "String", "GitHash",
