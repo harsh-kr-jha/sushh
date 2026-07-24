@@ -104,7 +104,7 @@ public class AddNearbyContactErrorFragment extends BaseFragment {
 		tryAgain.setOnClickListener(view -> {
 			// Recreate the activity so we return to the intro fragment
 			FragmentActivity activity = requireActivity();
-			Intent i = new Intent(activity, AddNearbyContactActivity.class);
+			Intent i = new Intent(activity.getIntent());
 			i.setFlags(FLAG_ACTIVITY_CLEAR_TOP);
 			activity.startActivity(i);
 		});
