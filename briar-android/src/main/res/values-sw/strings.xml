@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<!--Setup-->
-	<string name="setup_title">Karibu kwenye Briar</string>
+	<string name="setup_title">Karibu kwenye Sushh</string>
 	<string name="setup_name_explanation">lakabu lako litaonekana kwenye kila chapisho lako . Na hutaweza badilisha baada ya kuteneneza akaunti yako .</string>
 	<string name="setup_next">Ifuatayo</string>
 	<string name="setup_password_intro">Chagua neno  siri </string>
-	<string name="setup_password_explanation">Akaunti yako ya Briar imeifaziwa katika msimbo fiche kwenye kifaa chako ,nasio kwenye mawingu. Kama utasahau nywila yako au kuondoa Briar, hamana namna unaweza kuokua akaunti yako . \n\nchagua nywila ndefu ambayo ni ngumu kubuniwa , kama maneno mannne ya nasibu, au kumi ya barua za nasibu, namba na herufi.</string>
+	<string name="setup_password_explanation">Akaunti yako ya Sushh imeifaziwa katika msimbo fiche kwenye kifaa chako ,nasio kwenye mawingu. Kama utasahau nywila yako au kuondoa Sushh, hamana namna unaweza kuokua akaunti yako . \n\nchagua nywila ndefu ambayo ni ngumu kubuniwa , kama maneno mannne ya nasibu, au kumi ya barua za nasibu, namba na herufi.</string>
 	<string name="dnkm_doze_title">Uhusiano wa nyuma</string>
-	<string name="dnkm_doze_intro">Kupokea ujumbe kwenye Briar unaitajika uwe umeunganishwa kwenye mkondo.</string>
-	<string name="dnkm_doze_explanation">li kupokea ujumbe , Briar unatakiwa uwe umeunganishwa kwenye mkongo kwa nyuma . Tafadhali tengua uboreshaji wa betri ili Briar iendele kuunganishwa.</string>
+	<string name="dnkm_doze_intro">Kupokea ujumbe kwenye Sushh unaitajika uwe umeunganishwa kwenye mkondo.</string>
+	<string name="dnkm_doze_explanation">li kupokea ujumbe , Sushh unatakiwa uwe umeunganishwa kwenye mkongo kwa nyuma . Tafadhali tengua uboreshaji wa betri ili Sushh iendele kuunganishwa.</string>
 	<string name="dnkm_doze_button">Ruhusa kuunganishwa </string>
 	<string name="choose_nickname">Chagua lakabu yako</string>
 	<string name="choose_password">Chagua nywila yako .</string>
@@ -22,11 +22,11 @@ Nenosiri zako haziendani </string>
 	<string name="create_account_button">Tengeneza akaunti</string>
 	<string name="more_info">Habari za ziada </string>
 	<string name="don_t_ask_again">Usiulize tena </string>
-	<string name="dnkm_huawei_protected_text">tafathali bonyeza alama hapo chini ili kuhakikisha Briar imelindwa na \"programu Ulizi\" kwenye kioo chako </string>
-	<string name="dnkm_huawei_protected_button">Linda Briar </string>
+	<string name="dnkm_huawei_protected_text">tafathali bonyeza alama hapo chini ili kuhakikisha Sushh imelindwa na \"programu Ulizi\" kwenye kioo chako </string>
+	<string name="dnkm_huawei_protected_button">Linda Sushh </string>
 	<string name="dnkm_huawei_protected_help">
-Kama Briar haija wekwa kwenye orotha programu ulizi, haitaweza kufanya kazi kwenye nyuma ya mkongo</string>
-	<string name="dnkm_xiaomi_button">Linda Briar </string>
+Kama Sushh haija wekwa kwenye orotha programu ulizi, haitaweza kufanya kazi kwenye nyuma ya mkongo</string>
+	<string name="dnkm_xiaomi_button">Linda Sushh </string>
 	<string name="dnkm_warning_dozed">%shaijawezekana kujiendesha kwa nyuma ya mkongo</string>
 	<!--Login-->
 	<string name="enter_password">Nywila
@@ -34,26 +34,26 @@ nenosiri</string>
 	<string name="try_again">Umekosea nywila , jaribu tena
 Umekosea nenosiri, jaribu tena</string>
 	<string name="dialog_title_cannot_check_password">Haiwezi Kuangalia nywila</string>
-  <string name="dialog_message_cannot_check_password">Briar hawezi kuangalia nywila yako. Tafadhali jaribu kuwasha upya kifaa chako ili utatue shida hii.</string>
+  <string name="dialog_message_cannot_check_password">Sushh hawezi kuangalia nywila yako. Tafadhali jaribu kuwasha upya kifaa chako ili utatue shida hii.</string>
   <string name="sign_in_button">Ingia</string>
   <string name="forgotten_password">Nimesahau nywila yangu
 nimesahau nenosiri yangu</string>
   <string name="dialog_title_lost_password">Umepoteza nywila. 
 Umepoteza nenosiri.</string>
-  <string name="dialog_message_lost_password">Briar hawezi kuhifadhi nywila yako. Tafadhali jaribu kuwasha upya kifaa chako ili utatue shida hii.</string>
-  <string name="startup_failed_notification_title">Briar imeshidwa anza</string>
+  <string name="dialog_message_lost_password">Sushh hawezi kuhifadhi nywila yako. Tafadhali jaribu kuwasha upya kifaa chako ili utatue shida hii.</string>
+  <string name="startup_failed_notification_title">Sushh imeshidwa anza</string>
   <string name="startup_failed_notification_text">Bonyeza kwa taarifa zaidi.</string>
-  <string name="startup_failed_activity_title">Briar  imeshindwa kuanza</string>
+  <string name="startup_failed_activity_title">Sushh  imeshindwa kuanza</string>
   <string name="startup_failed_db_error">Kutokana na sababu mbali mbali briar yako imevurugika kwenye hifadhi data. Na akaunti yako data na mawasiliano yako yote yamepotea. Itabidi upakue tena briar au tengeneza akaunti nyingine ila chagua umesahau nywila yako  pale kwenye uwanja nenosiri .</string>
   <string name="startup_failed_data_too_old_error">Akaunti yako imetengenezwa na tolea la zamani la programu hii na Haiwezekani kufungua hili toleo . Nilazima ubadili hili toleo la zamani au utengeneze Akaunti mpaya kwa kuchagua umesahau nenosiri Katika uwanja wa nenosiri </string>
   <string name="startup_failed_data_too_new_error">Hili toleo la programu ulilo tumia nila zamani . Tafathi boresha kuwa toleo jipya na ujaribu tena .</string>
-  <string name="startup_failed_service_error">Briar imeshindikan kuanza Unabidi uunganishwe . Hianzishe Briar kama kwawaida kuondoka hilo tatizo . Japo kuwa utapoteza Akaunti yako na data zako zote kutokana na briar hifadhi data zako kwenye save kuu.</string>
+  <string name="startup_failed_service_error">Sushh imeshindikan kuanza Unabidi uunganishwe . Hianzishe Sushh kama kwawaida kuondoka hilo tatizo . Japo kuwa utapoteza Akaunti yako na data zako zote kutokana na briar hifadhi data zako kwenye save kuu.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Hili ni toleo la jaribio la Briar. Akaunti yako itaisha %d kwa siku na haiwezi kufanywa upya.</item>
-    <item quantity="other">Hili ni toleo la jaribio la Briar. Akaunti yako itaisha %d kwa siku na haiwezi kufanywa upya.</item>
+    <item quantity="one">Hili ni toleo la jaribio la Sushh. Akaunti yako itaisha %d kwa siku na haiwezi kufanywa upya.</item>
+    <item quantity="other">Hili ni toleo la jaribio la Sushh. Akaunti yako itaisha %d kwa siku na haiwezi kufanywa upya.</item>
   </plurals>
   <string name="expiry_date_reached">Hii programu imemaliza muda wake.\nAsante kwa kujaribu </string>
-  <string name="download_briar">Ili kuendelea kutumia Briar, tafadhali pakua toleo la hivi karibuni.</string>
+  <string name="download_briar">Ili kuendelea kutumia Sushh, tafadhali pakua toleo la hivi karibuni.</string>
   <string name="create_new_account">Unahitajika  kutenege Akaunti Mpaya , ila unaweza endelea kutumia lakabu yako .</string>
   <string name="download_briar_button">Pakua Kupaata toleo la hivi Karibuni</string>
   <string name="startup_open_database">Kupunguka Hifadhidata</string>
@@ -70,43 +70,43 @@ Umepoteza nenosiri.</string>
   <string name="lock_button">Funga programu</string>
   <string name="settings_button">Mipangilio</string>
   <string name="sign_out_button">Kutoka</string>
-  <string name="transports_onboarding_text">Gonga hapa kudhibiti jinsi Briar inavyounganishwa kwenye mawasiliano yako</string>
+  <string name="transports_onboarding_text">Gonga hapa kudhibiti jinsi Sushh inavyounganishwa kwenye mawasiliano yako</string>
   <!--Transports: Tor-->
   <string name="transport_tor">Mtandao </string>
   <string name="tor_device_status_online_wifi">Simu yako ina upatikanaji wa mtandano kupitia Wi_Fi</string>
   <string name="tor_device_status_online_mobile">Simu yako ina upatikanaji wa mtandano kupitia data ya rununu</string>
   <string name="tor_device_status_offline">Simu yako haina upatikanaji wa mtandao</string>
-  <string name="tor_plugin_status_enabling">Briar inaunganishwa kwenye Mtandao</string>
+  <string name="tor_plugin_status_enabling">Sushh inaunganishwa kwenye Mtandao</string>
   <string name="tor_plugin_status_active">Simu yako imeunganishwa kwenye Mtandao</string>
-  <string name="tor_plugin_status_inactive">Briar haiwezi kuunganishwa kwenye Mtandano</string>
-  <string name="tor_plugin_status_disabled">Briar imeundwa kutotumia Mtandao</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briar imeundwa kutotumia data rununu</string>
-  <string name="tor_plugin_status_disabled_battery">Briar imeundwa kutotumia Mtandao wakati wa kutumia betri</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briar imeundwa kutotumia mtandao kwenye nchi hii</string>
+  <string name="tor_plugin_status_inactive">Sushh haiwezi kuunganishwa kwenye Mtandano</string>
+  <string name="tor_plugin_status_disabled">Sushh imeundwa kutotumia Mtandao</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushh imeundwa kutotumia data rununu</string>
+  <string name="tor_plugin_status_disabled_battery">Sushh imeundwa kutotumia Mtandao wakati wa kutumia betri</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushh imeundwa kutotumia mtandao kwenye nchi hii</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">WI-FI</string>
   <string name="transport_lan_long">mtandao sawa wa Wi_Fi</string>
   <string name="lan_device_status_on">Simu yako imeunganishwa na Wi_Fi</string>
   <string name="lan_device_status_off">Simu yako haijaunganishwa na Wi_Fi</string>
-  <string name="lan_plugin_status_enabling">Briar inaunganishwa na mtandao wa Wi_Fi</string>
-  <string name="lan_plugin_status_active">Briar imeunganishwa na mtandao wa Wi_Fi</string>
-  <string name="lan_plugin_status_inactive">Briar haiwezi kuunganishwa kwenye mtandao wa Wi_Fi</string>
-  <string name="lan_plugin_status_disabled">Briar imeundwa kutotumia mtandao wa Wi_Fi</string>
+  <string name="lan_plugin_status_enabling">Sushh inaunganishwa na mtandao wa Wi_Fi</string>
+  <string name="lan_plugin_status_active">Sushh imeunganishwa na mtandao wa Wi_Fi</string>
+  <string name="lan_plugin_status_inactive">Sushh haiwezi kuunganishwa kwenye mtandao wa Wi_Fi</string>
+  <string name="lan_plugin_status_disabled">Sushh imeundwa kutotumia mtandao wa Wi_Fi</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">Bluetooth ya simu Yako imewashwa</string>
   <string name="bt_device_status_off">Bluetooth ya simu Yako imezimwa</string>
-  <string name="bt_plugin_status_enabling">Briar inaunganishwa na Bluetooth</string>
-  <string name="bt_plugin_status_active">Briar imeunganishwa na bluetooth</string>
-  <string name="bt_plugin_status_inactive">Briar haiwezi kuunganishwa na Bluetooth</string>
-  <string name="bt_plugin_status_disabled">Briar imeundwa kutotumia Bluetooth</string>
+  <string name="bt_plugin_status_enabling">Sushh inaunganishwa na Bluetooth</string>
+  <string name="bt_plugin_status_active">Sushh imeunganishwa na bluetooth</string>
+  <string name="bt_plugin_status_inactive">Sushh haiwezi kuunganishwa na Bluetooth</string>
+  <string name="bt_plugin_status_disabled">Sushh imeundwa kutotumia Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Toka Briar</string>
+  <string name="reminder_notification_title">Toka Sushh</string>
   <string name="reminder_notification_text">bonyeza Kuingia tena .</string>
-  <string name="reminder_notification_channel_title">Briar ingia kwenye kumbukumbu </string>
+  <string name="reminder_notification_channel_title">Sushh ingia kwenye kumbukumbu </string>
   <string name="reminder_notification_dismiss">tokaa </string>
-  <string name="ongoing_notification_title">Ingia kwenye Briar </string>
-  <string name="ongoing_notification_text">bonyeza kufungua Briar.</string>
+  <string name="ongoing_notification_title">Ingia kwenye Sushh </string>
+  <string name="ongoing_notification_text">bonyeza kufungua Sushh.</string>
   <!--Misc-->
   <string name="now">sasa</string>
   <string name="show">onyesha</string>
@@ -173,7 +173,7 @@ Umepoteza nenosiri.</string>
   <string name="save_image_success">Taswira imehifathiwa </string>
   <string name="save_image_error">Haiwezekani kuhifathi Taswira.</string>
   <string name="dialog_title_no_image_support">Taswira haipatikani </string>
-  <string name="dialog_message_no_image_support">Anwani yako ya Briar bado haihimili viambatanisho vya picha. Mara tu watakapoboresha utaona aikoni tofauti</string>
+  <string name="dialog_message_no_image_support">Anwani yako ya Sushh bado haihimili viambatanisho vya picha. Mara tu watakapoboresha utaona aikoni tofauti</string>
   <string name="dialog_title_image_support">Sasa unaweza tuma taswira kwa mawasiliano haya.</string>
   <string name="dialog_message_image_support">Bonyeza ikoni hii kuambatanisha taswira.</string>
   <string name="messaging_too_many_attachments_toast">Taswira ya kwanza %d ndio itakayotumwa</string>
@@ -209,7 +209,7 @@ Umepoteza nenosiri.</string>
   <string name="add_contact_choose_a_nickname">Ingiza lakabu </string>
   <string name="nickname_intro">Ipe namba hii lakabu . Na niwewe tu utaiona .</string>
   <string name="your_link">Mpe kiungo hichi unaye taka kuwasiliana nae </string>
-  <string name="link_clip_label">Kiunga cha Briar</string>
+  <string name="link_clip_label">Kiunga cha Sushh</string>
   <string name="link_copied_toast">Kiungo nakili </string>
   <string name="adding_contact_error">Kulikuwa na hitilafu wakati wa kuongeza mawasiliano </string>
   <string name="pending_contact_requests_snackbar">Maombi ya mawasiliano yalio subirishwa </string>
@@ -254,7 +254,7 @@ Umepoteza nenosiri.</string>
   <string name="pending_contact_updated_toast">mawasilano yalio subirishwa yamesasishwa </string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Tambulisha mawasiliano yako </string>
-  <string name="introduction_onboarding_text">Unaweza yatambulisha mawasiliano yako kwenu wote,Ili isiwe lazima mpaka wakutane ndio waungane kwenye Briar.</string>
+  <string name="introduction_onboarding_text">Unaweza yatambulisha mawasiliano yako kwenu wote,Ili isiwe lazima mpaka wakutane ndio waungane kwenye Sushh.</string>
   <string name="introduction_menu_item">Anza Utambulisho </string>
   <string name="introduction_activity_title">Chagua mawasiliano </string>
   <string name="introduction_not_possible">Tayari ulisha kuwa na utambulisho wa mawasilino yanaendelea. Tafathali ruhusa kwanza haya yaishe. Ila kama wewe au unaye wasiliananae wanapatikana muda mchache mtandaoni, itachukua muda kuisha .</string>
@@ -413,7 +413,7 @@ Umepoteza nenosiri.</string>
   <!--Settings Profile Picture-->
   <!--Settings Display-->
   <string name="pref_language_title">Lugha &amp;mkoa</string>
-  <string name="pref_language_changed">Huu mpango utafanya kazi utakapo anzisha tena Briar. Tafathali toka na kuanzisha tena Briar.</string>
+  <string name="pref_language_changed">Huu mpango utafanya kazi utakapo anzisha tena Sushh. Tafathali toka na kuanzisha tena Sushh.</string>
   <string name="pref_language_default">Mfumo msingi </string>
   <string name="display_settings_title">Onyesha</string>
   <string name="pref_theme_title">Lengo</string>
@@ -432,7 +432,7 @@ Umepoteza nenosiri.</string>
   <string name="tor_network_setting_without_bridges">Tumia mtandao wa Tor bila madaraja</string>
   <string name="tor_network_setting_with_bridges">Tumia mtandao wa Tor na madaraja</string>
   <string name="tor_network_setting_never">Usiunganishe kwenye mtandao</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">kiotomatiki:%1$s (ndani%2$s)</string>
   <string name="tor_mobile_data_title">Tumia Data ya simu</string>
   <string name="tor_only_when_charging_title">Unganisha kwenye mtandao wakati wa kuchaji tu</string>
@@ -440,11 +440,11 @@ Umepoteza nenosiri.</string>
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Ulizi</string>
   <string name="pref_lock_title">Funga programu</string>
-  <string name="pref_lock_summary">Tumia nenosiri katika kifaa chako kulinda Briar wakati wa kuingia</string>
+  <string name="pref_lock_summary">Tumia nenosiri katika kifaa chako kulinda Sushh wakati wa kuingia</string>
   <string name="pref_lock_disabled_summary">Ili kutumia huu mfumo , weka ulizi kwenye kifaa chako </string>
   <string name="pref_lock_timeout_title">Kifungo cha Programu kimefika mwisho wake </string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Usipo kuwa unatumia Briar , kiotomatiki itajifunga baada ya %s</string>
+  <string name="pref_lock_timeout_summary">Usipo kuwa unatumia Sushh , kiotomatiki itajifunga baada ya %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">Dakika 1</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -456,7 +456,7 @@ Umepoteza nenosiri.</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">lisaa 1</string>
   <string name="pref_lock_timeout_never">Kamwe</string>
-  <string name="pref_lock_timeout_never_summary">kamwe usifunge Briar kiotomatiki</string>
+  <string name="pref_lock_timeout_never_summary">kamwe usifunge Sushh kiotomatiki</string>
   <string name="change_password">Badili nenosiri</string>
   <string name="current_password">Nenosiri Lasasa</string>
   <string name="choose_new_password">Nywila mpya</string>
@@ -464,7 +464,7 @@ Umepoteza nenosiri.</string>
   <string name="password_changed">Nywila imebadilishwa</string>
   <string name="panic_setting">Usanidi wa kitufe cha hofu.</string>
   <string name="panic_setting_title">kitufe cha hofu </string>
-  <string name="panic_setting_hint">Sanidi jinsi Briar atavyoitikia wakati unatumia programu ya kitufe cha hofu. </string>
+  <string name="panic_setting_hint">Sanidi jinsi Sushh atavyoitikia wakati unatumia programu ya kitufe cha hofu. </string>
   <string name="panic_app_setting_title">Programu ya Kitufe cha Hofu.</string>
   <string name="unknown_app">programu isiyojulikana</string>
   <string name="panic_app_setting_summary">Hakuna programu iliyowekwa</string>
@@ -473,9 +473,9 @@ Umepoteza nenosiri.</string>
   <string name="dialog_message_connect_panic_app">Una hakika unataka kuruhusu %1$skuchochea vitendo vya kifungo vya uharibifu.</string>
   <string name="panic_setting_destructive_action">Vitendo vya Uharibifu.</string>
   <string name="panic_setting_signout_title">Toka.</string>
-  <string name="panic_setting_signout_summary">Sanidi kutoka kwa Briar ikiwa kitufe cha hofu kimesisitizwa.</string>
+  <string name="panic_setting_signout_summary">Sanidi kutoka kwa Sushh ikiwa kitufe cha hofu kimesisitizwa.</string>
   <string name="purge_setting_title">Futa Akaunti.</string>
-  <string name="purge_setting_summary">Futa Akaunti yako ya Briar ikiwa kitufe cha hofu kimesisitizwa .Tahadhari: Hii itafuta kabisa utambulisho wako, anwani na ujumbe.</string>
+  <string name="purge_setting_summary">Futa Akaunti yako ya Sushh ikiwa kitufe cha hofu kimesisitizwa .Tahadhari: Hii itafuta kabisa utambulisho wako, anwani na ujumbe.</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Arifa</string>
   <string name="notify_sign_in_title">Nikumbushe kuingia.</string>
@@ -509,9 +509,9 @@ Umepoteza nenosiri.</string>
   <string name="link_warning_open_link">kiunga wazi</string>
   <!--Crash Reporter-->
   <string name="crash_report_title">Ripoti  fupi ya ajali ya Brair</string>
-  <string name="briar_crashed">Samahani, Briar imeharibika.</string>
+  <string name="briar_crashed">Samahani, Sushh imeharibika.</string>
   <string name="not_your_fault"> Hili sio kosa lako</string>
-  <string name="please_send_report">Tafadhali tusaidie kujenga Briar bora kwa kututumia ripoti ya taharifa.</string>
+  <string name="please_send_report">Tafadhali tusaidie kujenga Sushh bora kwa kututumia ripoti ya taharifa.</string>
   <string name="report_is_encrypted">Tunaahidi kuwa ripoti hiyo imesimbwa kwa njia fiche na kutumwa salama.</string>
   <string name="feedback_title">maoni</string>
   <string name="describe_crash">Eleza kilicho tokea (hiari)</string>
@@ -522,32 +522,32 @@ Umepoteza nenosiri.</string>
   <string name="send_report">Tuma repoti </string>
   <string name="close">Funga</string>
   <string name="dev_report_sending">Kutuma mrejesho...</string>
-  <string name="dev_report_saved">Ripoti imehifadhiwa. Itatumwa wakati ujao ukiingia kwenye Briar.</string>
+  <string name="dev_report_saved">Ripoti imehifadhiwa. Itatumwa wakati ujao ukiingia kwenye Sushh.</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Kuondoka Kwenye Briar...</string>
+  <string name="progress_title_logout">Kuondoka Kwenye Sushh...</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Ufunikaji wa skrini umegunduliwa</string>
-  <string name="screen_filter_body">Programu nyingine inachorwa juu ya Briar. Ili kulinda usalama wako, Briar haitajibu kugusa wakati programu nyingine inachorwa juu. \n\nProgramu zifuatazo zinaweza kuchorwa juu:\n\n%1$s</string>
+  <string name="screen_filter_body">Programu nyingine inachorwa juu ya Sushh. Ili kulinda usalama wako, Sushh haitajibu kugusa wakati programu nyingine inachorwa juu. \n\nProgramu zifuatazo zinaweza kuchorwa juu:\n\n%1$s</string>
   <string name="screen_filter_allow">Ruhusu programu hizi kuteka juu</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Ruhusa ya Kamera</string>
-  <string name="permission_camera_request_body">Ili kuchanganua nambari ya QR, Briar inahitaji ufikiaji wa kamera.</string>
+  <string name="permission_camera_request_body">Ili kuchanganua nambari ya QR, Sushh inahitaji ufikiaji wa kamera.</string>
   <string name="permission_location_title">Ruhusa ya eneo</string>
-  <string name="permission_location_request_body">ilikugundua vifaa vya Bluetooth, Briar inahitaji idhini ya kufikia eneo lako. \n\ nBriar hahifadhi eneo lako au kushiriki na mtu yeyote.</string>
+  <string name="permission_location_request_body">ilikugundua vifaa vya Bluetooth, Sushh inahitaji idhini ya kufikia eneo lako. \n\ nSushh hahifadhi eneo lako au kushiriki na mtu yeyote.</string>
   <string name="permission_camera_location_title">Kamera na Eneo</string>
-  <string name="permission_camera_location_request_body">Ili kuchanganua nambari ya QR, Briar inahitaji ufikiaji wa kamera. \n\nKugundua vifaa vya Bluetooth, Briar inahitaji idhini ya kufikia eneo lako. \n\nBriar hahifadhi eneo lako au kushiriki na mtu yeyote.</string>
+  <string name="permission_camera_location_request_body">Ili kuchanganua nambari ya QR, Sushh inahitaji ufikiaji wa kamera. \n\nKugundua vifaa vya Bluetooth, Sushh inahitaji idhini ya kufikia eneo lako. \n\nSushh hahifadhi eneo lako au kushiriki na mtu yeyote.</string>
   <string name="permission_camera_denied_body">Umekataa ufikiaji wa kamera, lakini kuongeza anwani kunahitaji kutumia kamera. \n\nTafadhali fikiria kutoa idhini ya kufikia.</string>
   <string name="qr_code">msimbo wa QR</string>
   <string name="show_qr_code_fullscreen">Onyesha skrini nzima ya msimbo wa QR</string>
   <!--App Locking-->
-  <string name="lock_unlock">Fungua Briar</string>
-  <string name="lock_unlock_verbose">Ingiza PIN ya kifaa chako, fumbo au nywila kufungua Briar </string>
+  <string name="lock_unlock">Fungua Sushh</string>
+  <string name="lock_unlock_verbose">Ingiza PIN ya kifaa chako, fumbo au nywila kufungua Sushh </string>
   <string name="lock_unlock_fingerprint_description">Gusa kihisi cha alama za vidole kilicho sajiliwa na kidole husika ili kuendelea</string>
   <string name="lock_unlock_password">Tumia Nywila</string>
-  <string name="lock_is_locked">Briar imefungwa </string>
+  <string name="lock_is_locked">Sushh imefungwa </string>
   <string name="lock_tap_to_unlock">Bonyeza kufungua</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar inaweza kuungana na anwani zako kupitia mtandao, Wi-Fi au Bluetooth. \n\n Muunganisho wote wa mtandao hupitia mtandao wa Tor kwa faragha. \n\n Ikiwa anwani inaweza kufikiwa kwa njia nyingi, Briar huitumia kwa usawa.</string>
+  <string name="transports_help_text">Sushh inaweza kuungana na anwani zako kupitia mtandao, Wi-Fi au Bluetooth. \n\n Muunganisho wote wa mtandao hupitia mtandao wa Tor kwa faragha. \n\n Ikiwa anwani inaweza kufikiwa kwa njia nyingi, Sushh huitumia kwa usawa.</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">Alice</string>
@@ -558,7 +558,7 @@ Umepoteza nenosiri.</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Habari Bob!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Habari Alice! Asante kwa kuniambia kuhusu Briar!</string>
+  <string name="screenshot_message_2">Habari Alice! Asante kwa kuniambia kuhusu Sushh!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Hakuna tatizo, natumaini umeipenda 😀</string>
 </resources>
