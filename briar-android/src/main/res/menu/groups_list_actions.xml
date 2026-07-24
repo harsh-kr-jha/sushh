@@ -9,4 +9,11 @@
 		android:title="@string/groups_create_group_title"
 		app:showAsAction="ifRoom"/>
 
+	<item
+		android:id="@+id/action_join_group_qr"
+		android:icon="@drawable/ic_nearby"
+		android:title="@string/groups_join_by_qr"
+		android:visible="false"
+		app:showAsAction="ifRoom"/>
+
 </menu>
