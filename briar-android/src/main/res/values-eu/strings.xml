@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<!--Setup-->
-	<string name="setup_title">Ongi etorri Briar-era</string>
+	<string name="setup_title">Ongi etorri Sushh-era</string>
 	<string name="setup_name_explanation">Zure ezizena argitaratzen dituzun eduki guztien ondoan agertuko da. Ezingo duzu aldatu, kontua sortu eta gero.</string>
 	<string name="setup_next">Hurrengoa</string>
 	<string name="setup_password_intro">Aukeratu pasahitz bat</string>
-	<string name="setup_password_explanation">Zure Briar kontua zure gailuan zifratuta gordetzen da, ez hodeian. Briar desinstalatzen baduzu edo pasahitza ahazten baduzu, ez dago zure kontua eta datuak berreskuratzeko modurik.\n\nAukeratu asmatzeko zaila den pasahitz luze bat, adibidez ausazko lau hitz edo ausazko hamar letra, zenbaki eta ikur.</string>
+	<string name="setup_password_explanation">Zure Sushh kontua zure gailuan zifratuta gordetzen da, ez hodeian. Sushh desinstalatzen baduzu edo pasahitza ahazten baduzu, ez dago zure kontua eta datuak berreskuratzeko modurik.\n\nAukeratu asmatzeko zaila den pasahitz luze bat, adibidez ausazko lau hitz edo ausazko hamar letra, zenbaki eta ikur.</string>
 	<string name="dnkm_doze_title">Atzeko planoko konexioak</string>
-	<string name="dnkm_doze_intro">Mezuak jasotzeko, Briar bigarren planoan konektatuta gelditu behar da.</string>
-	<string name="dnkm_doze_explanation">Mezuak jasotzeko, Briar bigarren planoan konektatuta gelditu behar da. Mesedez desgaitu bateria optimizazioak Briar konektatuta mantendu dadin.</string>
+	<string name="dnkm_doze_intro">Mezuak jasotzeko, Sushh bigarren planoan konektatuta gelditu behar da.</string>
+	<string name="dnkm_doze_explanation">Mezuak jasotzeko, Sushh bigarren planoan konektatuta gelditu behar da. Mesedez desgaitu bateria optimizazioak Sushh konektatuta mantendu dadin.</string>
 	<string name="dnkm_doze_button">Baimendu konexioak</string>
 	<string name="choose_nickname">Aukeratu zure ezizena</string>
 	<string name="choose_password">Aukeratu zure pasahitza</string>
@@ -19,33 +19,33 @@
 	<string name="create_account_button">Sortu kontua</string>
 	<string name="more_info">Informazio gehiago</string>
 	<string name="don_t_ask_again">Ez galdetu berriro</string>
-	<string name="dnkm_huawei_protected_text">Sakatu beheko botoia eta ziurtatu Briar babestuta dagoela \"Babestutako aplikazioak\" pantailan.</string>
-	<string name="dnkm_huawei_protected_button">Babestu Briar</string>
-	<string name="dnkm_huawei_protected_help">Briar ez bada babestutako aplikazioen zerrendara gehitzen, ezin izango du bigarren planoan ibili.</string>
-	<string name="dnkm_xiaomi_button">Babestu Briar</string>
+	<string name="dnkm_huawei_protected_text">Sakatu beheko botoia eta ziurtatu Sushh babestuta dagoela \"Babestutako aplikazioak\" pantailan.</string>
+	<string name="dnkm_huawei_protected_button">Babestu Sushh</string>
+	<string name="dnkm_huawei_protected_help">Sushh ez bada babestutako aplikazioen zerrendara gehitzen, ezin izango du bigarren planoan ibili.</string>
+	<string name="dnkm_xiaomi_button">Babestu Sushh</string>
 	<string name="dnkm_warning_dozed">%s ezin izan da bigarren planoan exekutatu</string>
 	<!--Login-->
 	<string name="enter_password">Pasahitza</string>
 	<string name="try_again">Pasahitz okerra, saiatu berriro</string>
 	<string name="dialog_title_cannot_check_password">Ezin izan da pasahitza egiaztatu</string>
-	<string name="dialog_message_cannot_check_password">Briar-ek ezin du zure pasahitza egiaztatu. Saiatu gailua berrabiarazten arazo hau konpontzeko.</string>
+	<string name="dialog_message_cannot_check_password">Sushh-ek ezin du zure pasahitza egiaztatu. Saiatu gailua berrabiarazten arazo hau konpontzeko.</string>
 	<string name="sign_in_button">Hasi saioa</string>
 	<string name="forgotten_password">Nire pasahitza ahaztu dut</string>
   <string name="dialog_title_lost_password">Pasahitzaren galera</string>
-  <string name="dialog_message_lost_password">Zure Briar kontua zure gailuan zifratuta gordetzen da, ez hodeian, beraz ezin dugu zure pasahitza berrezarri. Zure kontua ezabatu eta berriro hasi nahi zenuke?\n\nKontuz: Zure identitateak, kontaktuak eta mezuak betirako galduko dira.</string>
-  <string name="startup_failed_notification_title">Briar ezin izan da abiatu</string>
+  <string name="dialog_message_lost_password">Zure Sushh kontua zure gailuan zifratuta gordetzen da, ez hodeian, beraz ezin dugu zure pasahitza berrezarri. Zure kontua ezabatu eta berriro hasi nahi zenuke?\n\nKontuz: Zure identitateak, kontaktuak eta mezuak betirako galduko dira.</string>
+  <string name="startup_failed_notification_title">Sushh ezin izan da abiatu</string>
   <string name="startup_failed_notification_text">Sakatu informazio gehiagorako.</string>
-  <string name="startup_failed_activity_title">Briar abio-hutsegitea</string>
-  <string name="startup_failed_db_error">Dena delakoagatik, zure Briar datu-basea hondatuta dago eta ezin da konpondu. Zure kontua, zure datuak eta zure kontaktuak galdu dira. Zoritxarrez Briar berrinstalatu behar duzu edo kontu berria sortu pasahitzaren gonbitan \'Nire pasahitza ahaztu dut\' aukeratuz.</string>
+  <string name="startup_failed_activity_title">Sushh abio-hutsegitea</string>
+  <string name="startup_failed_db_error">Dena delakoagatik, zure Sushh datu-basea hondatuta dago eta ezin da konpondu. Zure kontua, zure datuak eta zure kontaktuak galdu dira. Zoritxarrez Sushh berrinstalatu behar duzu edo kontu berria sortu pasahitzaren gonbitan \'Nire pasahitza ahaztu dut\' aukeratuz.</string>
   <string name="startup_failed_data_too_old_error">Zure kontua aplikazio honen bertsio zahar batekin sortu zen eta ezin da bertsio honekin ireki. Aurreko bertsioa berrinstalatu behar duzu edo kontu berri bat ezarri pasahitzaren gonbitan \'Nire pasahitza ahaztu dut\' aukeratuz.</string>
   <string name="startup_failed_data_too_new_error">Aplikazioaren bertsio hau zaharregia da. Bertsio-berritu azken bertsiora eta saiatu berriro.</string>
-  <string name="startup_failed_service_error">Briar aplikazioak ezin izan du derrigorrezko plugin bat abiatu. Briar berrinstalatzeak arazoa konpondu ohi du. Hala ere, jakin zure kontua eta datuak galduko dituzula Briar aplikazioak ez baititu zerbitzari zentralak erabiltzen zure datuak gordetzeko.</string>
+  <string name="startup_failed_service_error">Sushh aplikazioak ezin izan du derrigorrezko plugin bat abiatu. Sushh berrinstalatzeak arazoa konpondu ohi du. Hala ere, jakin zure kontua eta datuak galduko dituzula Sushh aplikazioak ez baititu zerbitzari zentralak erabiltzen zure datuak gordetzeko.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Hau Briar-en probetarako bertsio bat da. Zure kontua egun %d barru iraungituko da eta ezin da berriztu.</item>
-    <item quantity="other">Hau Briar-en probetarako bertsio bat da. Zure kontua %d egun barru iraungituko da eta ezin da berriztu.</item>
+    <item quantity="one">Hau Sushh-en probetarako bertsio bat da. Zure kontua egun %d barru iraungituko da eta ezin da berriztu.</item>
+    <item quantity="other">Hau Sushh-en probetarako bertsio bat da. Zure kontua %d egun barru iraungituko da eta ezin da berriztu.</item>
   </plurals>
   <string name="expiry_date_reached">Programa hau iraungitu da.\nEskerrik asko probatzeagatik!</string>
-  <string name="download_briar">Briar erabiltzen jarraitzeko, deskargatu azken bertsioa.</string>
+  <string name="download_briar">Sushh erabiltzen jarraitzeko, deskargatu azken bertsioa.</string>
   <string name="create_new_account">Kontu berri bat sortu beharko duzu, baina erabiltzaile-izen bera erabili dezakezu.</string>
   <string name="download_briar_button">Deskargatu azken bertsioa</string>
   <string name="startup_open_database">Datu-basea deszifratzen...</string>
@@ -69,12 +69,12 @@
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Briar saioa amaituta</string>
+  <string name="reminder_notification_title">Sushh saioa amaituta</string>
   <string name="reminder_notification_text">Sakatu saioa berriro hasteko.</string>
-  <string name="reminder_notification_channel_title">Briar saioa hasteko oroigarria</string>
+  <string name="reminder_notification_channel_title">Sushh saioa hasteko oroigarria</string>
   <string name="reminder_notification_dismiss">Baztertu</string>
-  <string name="ongoing_notification_title">Briar saioa hasita</string>
-  <string name="ongoing_notification_text">Ukitu Briar irekitzeko.</string>
+  <string name="ongoing_notification_title">Sushh saioa hasita</string>
+  <string name="ongoing_notification_text">Ukitu Sushh irekitzeko.</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Mezu pribatu berri bat.</item>
     <item quantity="other">%d mezu pribatu berri.</item>
@@ -157,7 +157,7 @@
   <string name="save_image_success">Irudia gorde da</string>
   <string name="save_image_error">Ezin izan da irudia gorde</string>
   <string name="dialog_title_no_image_support">Irudiak ez daude erabilgarri</string>
-  <string name="dialog_message_no_image_support">Zure kontaktuaren Briar bertsioak ez ditu oraindik irudiak eranskin gisa onartzen. Eguneratzen duenean zuk ikono desberdin bat ikusiko duzu.</string>
+  <string name="dialog_message_no_image_support">Zure kontaktuaren Sushh bertsioak ez ditu oraindik irudiak eranskin gisa onartzen. Eguneratzen duenean zuk ikono desberdin bat ikusiko duzu.</string>
   <string name="dialog_title_image_support">Orain irudiak bidali ahal dizkiozu kontaktu honi</string>
   <string name="dialog_message_image_support">Sakatu ikono hau irudiak eransteko.</string>
   <string name="messaging_too_many_attachments_toast">Lehen %d irudiak bidaliko dira, gehiagorik ez</string>
@@ -193,7 +193,7 @@
   <string name="add_contact_choose_a_nickname">Sartu ezizen bat</string>
   <string name="nickname_intro">Eman ezizena zure kontaktuari. Zuk ikusi dezakezu, beste inork ez</string>
   <string name="your_link">Eman esteka hau gehitu nahi duzun kontaktuari</string>
-  <string name="link_clip_label">Briar esteka</string>
+  <string name="link_clip_label">Sushh esteka</string>
   <string name="link_copied_toast">Esteka kopiatu da</string>
   <string name="adding_contact_error">Errore bat gertatu da kontaktua gehitzean.</string>
   <string name="pending_contact_requests_snackbar">Kontaktu eskaerak daude aztertzeke</string>
@@ -208,7 +208,7 @@
   <string name="own_link_error">Sartu zure kontaktuaren esteka, ez zurea</string>
   <string name="nickname_missing">Sartu ezizen bat</string>
   <string name="invalid_link">Esteka baliogabea</string>
-  <string name="unsupported_link">Esteka hau Briar-en bertsio berriago batetik dator. Eguneratu azken bertsiora eta saiatu berriro.</string>
+  <string name="unsupported_link">Esteka hau Sushh-en bertsio berriago batetik dator. Eguneratu azken bertsiora eta saiatu berriro.</string>
   <string name="intent_own_link">Zure esteka ireki duzu. Erabili gehitu nahi duzun kontaktuarena!</string>
   <string name="missing_link">Sartu esteka bat</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -237,7 +237,7 @@
   <string name="pending_contact_updated_toast">Aztertzeke zegoen kontaktua eguneratu da</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Aurkeztu zure kontaktuak</string>
-  <string name="introduction_onboarding_text">Zure kontaktuak elkarren artean aurkez ditzakezu, Briar bidez konektatzeko aurrez aurre egon behar izan ez dezaten.</string>
+  <string name="introduction_onboarding_text">Zure kontaktuak elkarren artean aurkez ditzakezu, Sushh bidez konektatzeko aurrez aurre egon behar izan ez dezaten.</string>
   <string name="introduction_menu_item">Egin aurkezpena</string>
   <string name="introduction_activity_title">Hautatu kontaktua</string>
   <string name="introduction_not_possible">Baduzu aurkezpen bat abian kontaktu hauekin. Aurrena utzi honi amaitzen. Zu edo zure kontaktuak gutxitan konektatzen bazarete, honek burutzeko denboratxo bat beharko du.</string>
@@ -408,7 +408,7 @@
   <!--Settings Profile Picture-->
   <!--Settings Display-->
   <string name="pref_language_title">Hizkuntza eta eskualdea</string>
-  <string name="pref_language_changed">Ezarpen hau Briar berrabiaraztean jarriko da indarrean. Amaitu saioa eta berrabiarazi Briar.</string>
+  <string name="pref_language_changed">Ezarpen hau Sushh berrabiaraztean jarriko da indarrean. Amaitu saioa eta berrabiarazi Sushh.</string>
   <string name="pref_language_default">Sistemak lehenetsitakoa</string>
   <string name="display_settings_title">Bistaratzea</string>
   <string name="pref_theme_title">Gaia</string>
@@ -418,18 +418,18 @@
   <string name="pref_theme_system">Sisteman lehenetsia</string>
   <!--Settings Connections-->
   <string name="tor_network_setting_automatic">Automatikoa kokalekuan oinarritua</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Automatikoa: %1$s (%2$s(e)n)</string>
   <string name="tor_mobile_data_title">Erabili datu mugikorrak</string>
   <string name="tor_only_when_charging_summary">Internet konexio desgaitzen du gailuak bateria darabilenean</string>
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Segurtasuna</string>
   <string name="pref_lock_title">Aplikazioaren blokeoa</string>
-  <string name="pref_lock_summary">Erabili gailuaren pantaila-blokeoa Briar babesteko saioa irekita dagoen bitartean</string>
+  <string name="pref_lock_summary">Erabili gailuaren pantaila-blokeoa Sushh babesteko saioa irekita dagoen bitartean</string>
   <string name="pref_lock_disabled_summary">Eginbide hau erabiltzeko, ezarri zure gailuarentzako pantaila-blokeo bat</string>
   <string name="pref_lock_timeout_title">Aplikazioa blokeatzeko jarduera ezaren denbora-muga</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Briar ez erabiltzean, hura automatikoki blokeatu %s eta gero</string>
+  <string name="pref_lock_timeout_summary">Sushh ez erabiltzean, hura automatikoki blokeatu %s eta gero</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">minutu 1</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -441,7 +441,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">ordu 1</string>
   <string name="pref_lock_timeout_never">Inoiz ez</string>
-  <string name="pref_lock_timeout_never_summary">Ez blokeatu inoiz Briar automatikoki</string>
+  <string name="pref_lock_timeout_never_summary">Ez blokeatu inoiz Sushh automatikoki</string>
   <string name="change_password">Aldatu pasahitza</string>
   <string name="current_password">Oraingo pasahitza</string>
   <string name="choose_new_password">Pasahitz berria</string>
@@ -449,7 +449,7 @@
   <string name="password_changed">Pasahitza aldatu egin da.</string>
   <string name="panic_setting">Larrialdi-botoiaren ezarpena</string>
   <string name="panic_setting_title">Larrialdi-botoia</string>
-  <string name="panic_setting_hint">Konfiguratu Briar aplikazioak nola jokatuko duen zuk larrialdi-botoi aplikazio bat erabiltzen duzunean</string>
+  <string name="panic_setting_hint">Konfiguratu Sushh aplikazioak nola jokatuko duen zuk larrialdi-botoi aplikazio bat erabiltzen duzunean</string>
   <string name="panic_app_setting_title">Larrialdi-botoi aplikazioa</string>
   <string name="unknown_app">aplikazio ezezagun bat</string>
   <string name="panic_app_setting_summary">Ez da aplikaziorik ezarri</string>
@@ -458,9 +458,9 @@
   <string name="dialog_message_connect_panic_app">Ziur zaude %1$s larrialdi-botoiaren ekintza suntsitzaileak eragitera baimendu nahi duzula?</string>
   <string name="panic_setting_destructive_action">Ekintza suntsigarriak</string>
   <string name="panic_setting_signout_title">Amaitu saioa</string>
-  <string name="panic_setting_signout_summary">Amaitu Briar saioa larrialdi-botoia zapaltzen bada</string>
+  <string name="panic_setting_signout_summary">Amaitu Sushh saioa larrialdi-botoia zapaltzen bada</string>
   <string name="purge_setting_title">Ezabatu kontua</string>
-  <string name="purge_setting_summary">Ezabatu zure Briar kontua larrialdi-botoia zapaltzen bada. Kontuz: Honek behin betiko ezabatuko ditu zure identitateak, kontaktuak eta mezuak</string>
+  <string name="purge_setting_summary">Ezabatu zure Sushh kontua larrialdi-botoia zapaltzen bada. Kontuz: Honek behin betiko ezabatuko ditu zure identitateak, kontaktuak eta mezuak</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Jakinarazpenak</string>
   <string name="notify_sign_in_title">Gogorarazi niri saioa hastea</string>
@@ -493,10 +493,10 @@
   <string name="link_warning_text">Hau zu identifikatzeko erabili daiteke. Pentsatu esteka hau bidali dizun pertsonarengan konfiantza duzun eta baloratu Tor nabigatzailearekin irekitzea.</string>
   <string name="link_warning_open_link">Ireki esteka</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar kraskatze txostena</string>
-  <string name="briar_crashed">Briar kraskatu egin da.</string>
+  <string name="crash_report_title">Sushh kraskatze txostena</string>
+  <string name="briar_crashed">Sushh kraskatu egin da.</string>
   <string name="not_your_fault">Hau ez da zure errua.</string>
-  <string name="please_send_report">Lagundu iezaguzu Briar hobe bat eraikitzen, guri kraskatze txostenak bidaliz.</string>
+  <string name="please_send_report">Lagundu iezaguzu Sushh hobe bat eraikitzen, guri kraskatze txostenak bidaliz.</string>
   <string name="report_is_encrypted">Txostena zifratuta dagoela eta modu seguruan bidaliko dela hitzematen dizugu.</string>
   <string name="feedback_title">Garatzaileentzako iruzkinak</string>
   <string name="describe_crash">Deskribatu zer gertatu den (aukerakoa)</string>
@@ -506,29 +506,29 @@
   <string name="include_debug_report_feedback">Gehitu gailu honi buruzko datu anonimoak</string>
   <string name="send_report">Bidali txostena</string>
   <string name="close">Itxi</string>
-  <string name="dev_report_saved">Txostena gordeta. Briar-en saioa hasten duzun hurrengoan bidaliko da.</string>
+  <string name="dev_report_saved">Txostena gordeta. Sushh-en saioa hasten duzun hurrengoan bidaliko da.</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Briar saioa amaitzen...</string>
+  <string name="progress_title_logout">Sushh saioa amaitzen...</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Pantaila gainjartzea antzeman da</string>
-  <string name="screen_filter_body">Beste aplikazio bat ari da Briar-en gainean marrazten. Zure segurtasuna babesteko, Briar-ek ez die ukituei jaramon egingo beste aplikazio bat gainean marrazten ari denean.\n\nOndoko aplikazioak dira gainean marrazten egon daitezkeenak:\n\n%1$s</string>
+  <string name="screen_filter_body">Beste aplikazio bat ari da Sushh-en gainean marrazten. Zure segurtasuna babesteko, Sushh-ek ez die ukituei jaramon egingo beste aplikazio bat gainean marrazten ari denean.\n\nOndoko aplikazioak dira gainean marrazten egon daitezkeenak:\n\n%1$s</string>
   <string name="screen_filter_allow">Baimendu aplikazio hauei gainean marraztea</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Kamera erabiltzeko baimena</string>
-  <string name="permission_camera_request_body">QR kodea eskaneatzeko Briar-ek kamera atzitu behar du.</string>
+  <string name="permission_camera_request_body">QR kodea eskaneatzeko Sushh-ek kamera atzitu behar du.</string>
   <string name="permission_location_title">Kokapen baimena</string>
-  <string name="permission_location_request_body">Bluetooth gailuak aurkitzeko, Briar aplikazioak zure kokapena atzitzeko baimena behar du.\n\n Briar-ek ez du zure kokapena gordetzen ezta inorekin partekatzen.</string>
+  <string name="permission_location_request_body">Bluetooth gailuak aurkitzeko, Sushh aplikazioak zure kokapena atzitzeko baimena behar du.\n\n Sushh-ek ez du zure kokapena gordetzen ezta inorekin partekatzen.</string>
   <string name="permission_camera_location_title">Kamera eta kokapena</string>
-  <string name="permission_camera_location_request_body">QR kodea eskaneatzeko, Briar aplikazioak zure kamera atzitzeko baimena behar du.\n\nBluetooth gailuak aurkitzeko, Briar aplikazioak zure kokapena atzitzeko baimena behar du.\n\n Briar-ek ez du zure kokapena gordetzen ezta inorekin partekatzen.</string>
+  <string name="permission_camera_location_request_body">QR kodea eskaneatzeko, Sushh aplikazioak zure kamera atzitzeko baimena behar du.\n\nBluetooth gailuak aurkitzeko, Sushh aplikazioak zure kokapena atzitzeko baimena behar du.\n\n Sushh-ek ez du zure kokapena gordetzen ezta inorekin partekatzen.</string>
   <string name="permission_camera_denied_body">Kamera atzitzeko baimena ukatu duzu, baina kontaktuak gehitzeko kamera erabili behar da.\n\nMesedez baimendu kamera atzitzea.</string>
   <string name="qr_code">QR kodea</string>
   <string name="show_qr_code_fullscreen">Erakutsi QR kodea pantaila osoan</string>
   <!--App Locking-->
-  <string name="lock_unlock">Desblokeatu Briar</string>
-  <string name="lock_unlock_verbose">Sartu zure gailuaren PIN zenbakia, eredua edo pasahitza Briar desblokeatzeko</string>
+  <string name="lock_unlock">Desblokeatu Sushh</string>
+  <string name="lock_unlock_verbose">Sartu zure gailuaren PIN zenbakia, eredua edo pasahitza Sushh desblokeatzeko</string>
   <string name="lock_unlock_fingerprint_description">Jarraitzeko ukitu hatz-marka sentsorea erregistratutako atzamarrarekin </string>
   <string name="lock_unlock_password">Erabili pasahitza</string>
-  <string name="lock_is_locked">Briar blokeatuta dago</string>
+  <string name="lock_is_locked">Sushh blokeatuta dago</string>
   <string name="lock_tap_to_unlock">Sakatu desblokeatzeko</string>
   <!--Connections Screen-->
   <!--Screenshots-->
@@ -541,7 +541,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Kaixo Jokin!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Kaixo Arantza, eskerrik asko Briar ezagutzera emateagatik!</string>
+  <string name="screenshot_message_2">Kaixo Arantza, eskerrik asko Sushh ezagutzera emateagatik!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Ez horregatik, ea gustuko duzun 😀</string>
 </resources>
