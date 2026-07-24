@@ -135,7 +135,9 @@ public class GroupActivity extends
 			startActivityForResult(i, REQUEST_GROUP_INVITE);
 			return true;
 		} else if (itemId == R.id.action_channel_add_nearby) {
-			startActivity(new Intent(this, AddNearbyContactActivity.class));
+			Intent i = new Intent(this, AddNearbyContactActivity.class);
+			i.putExtra(GROUP_ID, groupId.getBytes());
+			startActivity(i);
 			return true;
 		} else if (itemId == R.id.action_channel_add_remotely) {
 			startActivity(new Intent(this, AddContactActivity.class));

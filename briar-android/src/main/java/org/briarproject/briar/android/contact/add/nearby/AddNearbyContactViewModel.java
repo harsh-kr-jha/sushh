@@ -486,7 +486,7 @@ class AddNearbyContactViewModel extends AndroidViewModel
 				// Reuse the connection as a transport connection
 				connectionManager
 						.manageOutgoingConnection(contact.getId(), t, conn);
-				Success success = new Success(contact.getAuthor());
+				Success success = new Success(contact);
 				state.postValue(new ContactExchangeFinished(success));
 			} catch (ContactExistsException e) {
 				tryToClose(conn);
@@ -528,6 +528,11 @@ class AddNearbyContactViewModel extends AndroidViewModel
 
 	QrCodeDecoder getQrCodeDecoder() {
 		return qrCodeDecoder;
+	}
+
+	@UiThread
+	void waitForChannelInvitation() {
+		state.setValue(new AddContactState.ChannelInvitationWaiting());
 	}
 
 	LiveEvent<Boolean> getRequestBluetoothDiscoverable() {

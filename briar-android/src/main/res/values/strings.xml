@@ -367,7 +367,7 @@
 
 	<!-- Channels -->
 	<string name="groups_list_empty">No channels to show</string>
-	<string name="groups_list_empty_action">Tap the + icon to create a channel, or ask your contacts to share channels with you</string>
+	<string name="groups_list_empty_action">Create a channel, or scan a member\'s QR code to join one</string>
 	<string name="groups_created_by">Created by %s</string>
 	<plurals name="messages">
 		<item quantity="one">%d message</item>
@@ -387,6 +387,12 @@
 	<string name="channels_make_admin">Make admin</string>
 	<string name="channels_make_admin_message">Allow %s to post in this channel? Admin access can only be granted by the creator.</string>
 	<string name="channels_admin_added">Admin added</string>
+	<string name="channels_join_channel">Join Channel</string>
+	<string name="channels_invite_with_qr">Invite with QR</string>
+	<string name="channels_scan_to_join">Scan QR to join a channel</string>
+	<string name="channels_qr_join_explanation">Open this screen with a current channel member. You must both scan each other\'s QR codes to connect securely and join.</string>
+	<string name="channels_qr_both_scan">Scan each other\'s QR codes to exchange the channel invitation securely.</string>
+	<string name="channels_waiting_for_invitation">Waiting for the channel invitation…</string>
 	<string name="channels_add_admin_contact">Add this admin as a contact to send messages and pictures.</string>
 	<string name="groups_member_created_you">You created the channel</string>
 	<string name="groups_member_created">%s created the channel</string>

@@ -30,6 +30,7 @@ import org.briarproject.briar.android.BriarApplication;
 import org.briarproject.briar.android.StartupFailureActivity;
 import org.briarproject.briar.android.activity.ActivityComponent;
 import org.briarproject.briar.android.activity.BriarActivity;
+import org.briarproject.briar.android.contact.add.nearby.AddNearbyContactActivity;
 import org.briarproject.briar.android.fragment.BaseFragment;
 import org.briarproject.briar.android.fragment.BaseFragment.BaseFragmentListener;
 import org.briarproject.briar.android.logout.SignOutFragment;
@@ -265,6 +266,11 @@ public class NavDrawerActivity extends BriarActivity implements
 		// TODO re-use fragments from the manager when possible (#606)
 		if (fragmentId == R.id.nav_btn_groups) {
 			startFragment(GroupListFragment.newInstance());
+		} else if (fragmentId == R.id.nav_btn_join_channel) {
+			Intent intent =
+					new Intent(this, AddNearbyContactActivity.class);
+			intent.putExtra(AddNearbyContactActivity.EXTRA_JOIN_CHANNEL, true);
+			startActivity(intent);
 		} else if (fragmentId == R.id.nav_btn_settings) {
 			startActivity(new Intent(this, SettingsActivity.class));
 		} else if (fragmentId == R.id.nav_btn_signout) {
@@ -282,7 +288,8 @@ public class NavDrawerActivity extends BriarActivity implements
 		} else {
 			loadFragment(item.getItemId());
 			// Don't display the Settings item as checked
-			return item.getItemId() != R.id.nav_btn_settings;
+			return item.getItemId() != R.id.nav_btn_settings &&
+					item.getItemId() != R.id.nav_btn_join_channel;
 		}
 	}
 

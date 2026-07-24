@@ -8,6 +8,10 @@
 			android:checked="true"
 			android:icon="@drawable/ic_group"
 			android:title="@string/groups_button" />
+		<item
+			android:id="@+id/nav_btn_join_channel"
+			android:icon="@drawable/ic_qr_code"
+			android:title="@string/channels_join_channel" />
 	</group>
 
 	<group android:checkableBehavior="single">

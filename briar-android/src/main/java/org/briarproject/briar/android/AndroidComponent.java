@@ -27,6 +27,7 @@ import org.briarproject.bramble.api.plugin.PluginManager;
 import org.briarproject.bramble.api.settings.SettingsManager;
 import org.briarproject.bramble.api.system.AndroidExecutor;
 import org.briarproject.bramble.api.system.Clock;
+import org.briarproject.bramble.api.versioning.ClientVersioningManager;
 import org.briarproject.bramble.mailbox.ModularMailboxModule;
 import org.briarproject.bramble.plugin.file.RemovableDriveModule;
 import org.briarproject.bramble.system.ClockModule;
@@ -141,6 +142,8 @@ public interface AndroidComponent
 	ConnectionRegistry connectionRegistry();
 
 	ContactManager contactManager();
+
+	ClientVersioningManager clientVersioningManager();
 
 	ConversationManager conversationManager();
 
