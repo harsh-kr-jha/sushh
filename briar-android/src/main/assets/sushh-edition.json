@@ -1,0 +1,7 @@
+{
+  "edition": "hub",
+  "applicationId": "in.sushh.hub",
+  "requiredOwnerApprovals": 3,
+  "urgentAlerts": true,
+  "locationSubchannels": true
+}

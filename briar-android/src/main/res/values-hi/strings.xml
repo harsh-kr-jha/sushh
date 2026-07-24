@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<!--Setup-->
-	<string name="setup_title">Briar में आपका स्वागत है</string>
+	<string name="setup_title">Sushh में आपका स्वागत है</string>
 	<string name="setup_name_explanation">आपके उपनाम आप पोस्ट किसी भी सामग्री के बगल में दिखाया जाएगा। आप अपना खाता बनाने के बाद इसे बदल नहीं सकते</string>
 	<string name="setup_next">अगला</string>
 	<string name="setup_password_intro">अपना पासवर्ड चुनें</string>
-	<string name="setup_password_explanation">आपका Briar खाता आपके डिवाइस पर एन्क्रिप्ट किया गया है, न कि क्लाउड में। यदि आप अपना पासवर्ड भूल जाते हैं या Briar  को अनइंस्टॉल करते हैं, तो आपका खाता पुनर्प्राप्त करने का कोई तरीका नहीं है। \ N \ n एक लंबे पासवर्ड चुनें जो अनुमान लगाने में मुश्किल हो, जैसे चार यादृच्छिक शब्द, या दस यादृच्छिक वर्ण, संख्याएं और प्रतीकों।</string>
+	<string name="setup_password_explanation">आपका Sushh खाता आपके डिवाइस पर एन्क्रिप्ट किया गया है, न कि क्लाउड में। यदि आप अपना पासवर्ड भूल जाते हैं या Sushh  को अनइंस्टॉल करते हैं, तो आपका खाता पुनर्प्राप्त करने का कोई तरीका नहीं है। \ N \ n एक लंबे पासवर्ड चुनें जो अनुमान लगाने में मुश्किल हो, जैसे चार यादृच्छिक शब्द, या दस यादृच्छिक वर्ण, संख्याएं और प्रतीकों।</string>
 	<string name="dnkm_doze_title">पृष्ठभूमि कनेक्शन</string>
-	<string name="dnkm_doze_intro">संदेश प्राप्त करने के लिए, Briar को पृष्ठभूमि में जुड़े रहने की आवश्यकता है।</string>
-	<string name="dnkm_doze_explanation">संदेश प्राप्त करने के लिए, Briar  को पृष्ठभूमि में जुड़े रहने की आवश्यकता है। कृपया बैटरी ऑप्टिमाइजेशन अक्षम करें ताकि Briar  कनेक्ट रह सकें।</string>
+	<string name="dnkm_doze_intro">संदेश प्राप्त करने के लिए, Sushh को पृष्ठभूमि में जुड़े रहने की आवश्यकता है।</string>
+	<string name="dnkm_doze_explanation">संदेश प्राप्त करने के लिए, Sushh  को पृष्ठभूमि में जुड़े रहने की आवश्यकता है। कृपया बैटरी ऑप्टिमाइजेशन अक्षम करें ताकि Sushh  कनेक्ट रह सकें।</string>
 	<string name="dnkm_doze_button">कनेक्शन की अनुमति दें</string>
 	<string name="choose_nickname">आपका मुंहबोला नाम चुनें</string>
 	<string name="choose_password">अपना पासवर्ड चुनें</string>
@@ -19,9 +19,9 @@
 	<string name="create_account_button">खाता बनाएं</string>
 	<string name="more_info">अधिक जानकारी</string>
 	<string name="don_t_ask_again">फिर से मत पूछो</string>
-	<string name="dnkm_huawei_protected_text">कृपया नीचे दिए गए बटन को टैप करें और सुनिश्चित करें कि \"संरक्षित ऐप्स\" स्क्रीन पर Briar  सुरक्षित है</string>
-	<string name="dnkm_huawei_protected_button">Briar की रक्षा करें</string>
-	<string name="dnkm_huawei_protected_help">अगर Briar संरक्षित ऐप्स सूची में नहीं जोड़ा गया है, तो यह पृष्ठभूमि में चलने में असमर्थ होगा।</string>
+	<string name="dnkm_huawei_protected_text">कृपया नीचे दिए गए बटन को टैप करें और सुनिश्चित करें कि \"संरक्षित ऐप्स\" स्क्रीन पर Sushh  सुरक्षित है</string>
+	<string name="dnkm_huawei_protected_button">Sushh की रक्षा करें</string>
+	<string name="dnkm_huawei_protected_help">अगर Sushh संरक्षित ऐप्स सूची में नहीं जोड़ा गया है, तो यह पृष्ठभूमि में चलने में असमर्थ होगा।</string>
 	<string name="dnkm_warning_dozed">%sपृष्ठभूमि में चलाने में असमर्थ था</string>
 	<!--Login-->
 	<string name="enter_password">पासवर्ड</string>
@@ -29,17 +29,17 @@
 	<string name="sign_in_button">साइन इन करें</string>
 	<string name="forgotten_password">मुझे अपना पासवर्ड याद नहीं है</string>
 	<string name="dialog_title_lost_password">पासवर्ड खो गया</string>
-	<string name="dialog_message_lost_password">आपका Briar  खाता आपके डिवाइस पर एन्क्रिप्ट किया गया है, बादल में नहीं, इसलिए हम आपका पासवर्ड रीसेट नहीं कर सकते। क्या आप अपना खाता हटाना चाहते हैं और फिर से शुरू करना चाहते हैं? \ N \ n सावधानी: आपकी पहचान, संपर्क और संदेश स्थायी रूप से खो जाएंगे</string>
-	<string name="startup_failed_notification_title">Briar  शुरू नहीं हो सका</string>
+	<string name="dialog_message_lost_password">आपका Sushh  खाता आपके डिवाइस पर एन्क्रिप्ट किया गया है, बादल में नहीं, इसलिए हम आपका पासवर्ड रीसेट नहीं कर सकते। क्या आप अपना खाता हटाना चाहते हैं और फिर से शुरू करना चाहते हैं? \ N \ n सावधानी: आपकी पहचान, संपर्क और संदेश स्थायी रूप से खो जाएंगे</string>
+	<string name="startup_failed_notification_title">Sushh  शुरू नहीं हो सका</string>
   <string name="startup_failed_notification_text">अधिक जानकारी के लिए टैप करें।</string>
-  <string name="startup_failed_activity_title">Briar  स्टार्टअप विफलता</string>
-  <string name="startup_failed_db_error">किसी कारण से, आपका Briar  डेटाबेस मरम्मत से परे दूषित हो गया है। आपका खाता, आपका डेटा और आपके सभी संपर्क खो गए हैं। दुर्भाग्यवश, आपको पासवर्ड प्रॉम्प्ट पर \'मेरा पासवर्ड भूल गया है\' चुनकर Briar  को पुनर्स्थापित करने या एक नया खाता सेट अप करने की आवश्यकता है।</string>
+  <string name="startup_failed_activity_title">Sushh  स्टार्टअप विफलता</string>
+  <string name="startup_failed_db_error">किसी कारण से, आपका Sushh  डेटाबेस मरम्मत से परे दूषित हो गया है। आपका खाता, आपका डेटा और आपके सभी संपर्क खो गए हैं। दुर्भाग्यवश, आपको पासवर्ड प्रॉम्प्ट पर \'मेरा पासवर्ड भूल गया है\' चुनकर Sushh  को पुनर्स्थापित करने या एक नया खाता सेट अप करने की आवश्यकता है।</string>
   <string name="startup_failed_data_too_old_error">आपका खाता इस ऐप के पुराने संस्करण के साथ बनाया गया था और इस संस्करण के साथ खोला नहीं जा सकता है। आपको या तो पुराने संस्करण को पुनर्स्थापित करना होगा या पासवर्ड प्रॉम्प्ट पर \'मैं अपना पासवर्ड भूल गया हूं\' चुनकर एक नया खाता सेट करना होगा।</string>
   <string name="startup_failed_data_too_new_error">ऐप का यह संस्करण बहुत पुराना है। कृपया नवीनतम संस्करण में अपग्रेड करें और पुनः प्रयास करें।</string>
-  <string name="startup_failed_service_error">Briar  एक आवश्यक प्लगइन प्रारंभ करने में असमर्थ था Briar  को पुनः स्थापित करना आमतौर पर इस समस्या को हल करता है हालांकि, कृपया ध्यान दें कि Briar  आपके डेटा को स्टोर करने के लिए केंद्रीय सर्वर का उपयोग नहीं कर रहा है, इसके बाद आप अपने खाता और उसके साथ जुड़े सभी डेटा खो देंगे।</string>
+  <string name="startup_failed_service_error">Sushh  एक आवश्यक प्लगइन प्रारंभ करने में असमर्थ था Sushh  को पुनः स्थापित करना आमतौर पर इस समस्या को हल करता है हालांकि, कृपया ध्यान दें कि Sushh  आपके डेटा को स्टोर करने के लिए केंद्रीय सर्वर का उपयोग नहीं कर रहा है, इसके बाद आप अपने खाता और उसके साथ जुड़े सभी डेटा खो देंगे।</string>
   <plurals name="expiry_warning">
-    <item quantity="one">यह Briar का एक परीक्षण संस्करण है आपका खाता %dदिनों में समाप्त हो जाएगा और नवीनीकरण नहीं किया जा सकता है</item>
-    <item quantity="other">यह Briar का एक परीक्षण संस्करण है आपका खाता %dदिनों में समाप्त हो जाएगा और नवीनीकरण नहीं किया जा सकता है</item>
+    <item quantity="one">यह Sushh का एक परीक्षण संस्करण है आपका खाता %dदिनों में समाप्त हो जाएगा और नवीनीकरण नहीं किया जा सकता है</item>
+    <item quantity="other">यह Sushh का एक परीक्षण संस्करण है आपका खाता %dदिनों में समाप्त हो जाएगा और नवीनीकरण नहीं किया जा सकता है</item>
   </plurals>
   <string name="expiry_date_reached">यह सॉफ्टवेयर समाप्त हो गया है। \n परीक्षण के लिए धन्यवाद!</string>
   <string name="create_new_account">आपको एक नया खाता बनाना होगा, लेकिन आप उसी उपनाम का उपयोग कर सकते हैं।</string>
@@ -64,12 +64,12 @@
   <!--Transports: Bluetooth-->
   <string name="transport_bt">ब्लूटूथ</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Briar  से साइन आउट हो रहा है ...</string>
+  <string name="reminder_notification_title">Sushh  से साइन आउट हो रहा है ...</string>
   <string name="reminder_notification_text">वापस साइन इन करने के लिए टैप करें।</string>
-  <string name="reminder_notification_channel_title">Briar साइन-इन अनुस्मारक</string>
+  <string name="reminder_notification_channel_title">Sushh साइन-इन अनुस्मारक</string>
   <string name="reminder_notification_dismiss">खारिज करना</string>
-  <string name="ongoing_notification_title">Briar  में हस्ताक्षर किए</string>
-  <string name="ongoing_notification_text">Briar को खोलने के लिए स्पर्श करें</string>
+  <string name="ongoing_notification_title">Sushh  में हस्ताक्षर किए</string>
+  <string name="ongoing_notification_text">Sushh को खोलने के लिए स्पर्श करें</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">नया निजी संदेश</item>
     <item quantity="other">%dनया निजी संदेश</item>
@@ -141,7 +141,7 @@
   <string name="save_image_success">छवि सहेज ली गई थी</string>
   <string name="save_image_error">छवि नहीं बचा सका</string>
   <string name="dialog_title_no_image_support">चित्र अनुपलब्ध</string>
-  <string name="dialog_message_no_image_support">आपके संपर्क का Briar अभी तक छवि अनुलग्नकों का समर्थन नहीं करता है। एक बार जब वे अद्यतन करेंगे तो आपको एक अलग छवि दिखाई देगा।</string>
+  <string name="dialog_message_no_image_support">आपके संपर्क का Sushh अभी तक छवि अनुलग्नकों का समर्थन नहीं करता है। एक बार जब वे अद्यतन करेंगे तो आपको एक अलग छवि दिखाई देगा।</string>
   <string name="dialog_title_image_support">अब आप इस संपर्क को चित्र भेज सकते हैं</string>
   <string name="dialog_message_image_support">छवियों को संलग्न करने के लिए इस प्रतिकृति को दबायें।</string>
   <!--Adding Contacts-->
@@ -176,7 +176,7 @@
   <string name="add_contact_choose_a_nickname">एक उपनाम दर्ज करें</string>
   <string name="nickname_intro">अपने संपर्क को एक उपनाम दें। केवल आप इसे देख सकते हैं।</string>
   <string name="your_link">आप जिस संपर्क को जोड़ना चाहते हैं, उसे यह लिंक दें</string>
-  <string name="link_clip_label">Briar लिंक</string>
+  <string name="link_clip_label">Sushh लिंक</string>
   <string name="link_copied_toast">लिंक कॉपी किया गया</string>
   <string name="adding_contact_error">संपर्क जोड़ने में त्रुटि हुई।</string>
   <string name="pending_contact_requests_snackbar">संपर्क अनुरोध लंबित हैं</string>
@@ -191,7 +191,7 @@
   <string name="own_link_error">अपना संपर्क का लिंक दर्ज करें, अपना नहीं</string>
   <string name="nickname_missing">कृपया एक उपनाम दर्ज करें</string>
   <string name="invalid_link">अमान्य लिंक</string>
-  <string name="unsupported_link">यह लिंक Briar के नए संस्करण से आया है। कृपया नवीनतम संस्करण में अद्यतन करें और पुनः प्रयास करें।</string>
+  <string name="unsupported_link">यह लिंक Sushh के नए संस्करण से आया है। कृपया नवीनतम संस्करण में अद्यतन करें और पुनः प्रयास करें।</string>
   <string name="intent_own_link">आपने अपना लिंक खोला। उस संपर्क का उपयोग करें जिसे आप जोड़ना चाहते हैं!</string>
   <string name="missing_link">कृपया एक लिंक डालें।</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -219,7 +219,7 @@
   <string name="pending_contact_updated_toast">लंबित संपर्क अपडेट किया गया</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">अपने संपर्कों का परिचय दें</string>
-  <string name="introduction_onboarding_text">आप अपने संपर्कों को एक दूसरे से जोड़ सकते हैं, इसलिए उन्हें Briar  से जुड़ने के लिए व्यक्तिगत रूप से मिलने की जरूरत नहीं है।</string>
+  <string name="introduction_onboarding_text">आप अपने संपर्कों को एक दूसरे से जोड़ सकते हैं, इसलिए उन्हें Sushh  से जुड़ने के लिए व्यक्तिगत रूप से मिलने की जरूरत नहीं है।</string>
   <string name="introduction_menu_item">परिचय करें</string>
   <string name="introduction_activity_title">संपर्क का चयन करें</string>
   <string name="introduction_not_possible">इन संपर्कों के साथ आपके पास पहले से ही एक परिचय प्रगति है। कृपया इसे पहले खत्म करने की अनुमति दें। यदि आप या आपके संपर्क शायद ही कभी ऑनलाइन हैं, तो इसमें कुछ समय लग सकता है।</string>
@@ -389,7 +389,7 @@
   <!--Settings Profile Picture-->
   <!--Settings Display-->
   <string name="pref_language_title">भाषा और amp; क्षेत्र</string>
-  <string name="pref_language_changed">जब आप Briar को पुनरारंभ करते हैं तो यह सेटिंग प्रभावी होगी। कृपया साइन आउट करें और Briar को पुनरारंभ करें।</string>
+  <string name="pref_language_changed">जब आप Sushh को पुनरारंभ करते हैं तो यह सेटिंग प्रभावी होगी। कृपया साइन आउट करें और Sushh को पुनरारंभ करें।</string>
   <string name="pref_language_default">प्रणालीगत चूक</string>
   <string name="display_settings_title">प्रदर्शन</string>
   <string name="pref_theme_title">विषय</string>
@@ -399,18 +399,18 @@
   <string name="pref_theme_system">प्रणालीगत चूक</string>
   <!--Settings Connections-->
   <string name="tor_network_setting_automatic">स्वचालित स्थान पर आधारित</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">स्वचालित:%1$s (में %2$s)</string>
   <string name="tor_mobile_data_title">मोबाइल डेटा का प्रयोग करें</string>
   <string name="tor_only_when_charging_summary">जब यंत्र बैटरी पर चल रहा हो तो इंटरनेट संबंध को निष्क्रिय कर देता है</string>
   <!--Settings Security and Panic-->
   <string name="security_settings_title">सुरक्षा</string>
   <string name="pref_lock_title">एप्लिकेशन का लॉक</string>
-  <string name="pref_lock_summary">साइन इन करते समय Briar की सुरक्षा के लिए डिवाइस के स्क्रीन लॉक का उपयोग करें</string>
+  <string name="pref_lock_summary">साइन इन करते समय Sushh की सुरक्षा के लिए डिवाइस के स्क्रीन लॉक का उपयोग करें</string>
   <string name="pref_lock_disabled_summary">इस सुविधा का उपयोग करने के लिए, अपने डिवाइस के लिए एक स्क्रीन लॉक सेट करें</string>
   <string name="pref_lock_timeout_title">ऐप लॉक निष्क्रियता टाइमआउट</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Briar का उपयोग नहीं करते समय, इसे स्वचालित रूप से बाद में लॉक करें %s</string>
+  <string name="pref_lock_timeout_summary">Sushh का उपयोग नहीं करते समय, इसे स्वचालित रूप से बाद में लॉक करें %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 मिनट</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -422,7 +422,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 घंटा</string>
   <string name="pref_lock_timeout_never">कभी नहीँ</string>
-  <string name="pref_lock_timeout_never_summary">कभी भी Briar को स्वचालित रूप से लॉक न करें</string>
+  <string name="pref_lock_timeout_never_summary">कभी भी Sushh को स्वचालित रूप से लॉक न करें</string>
   <string name="change_password">पासवर्ड बदलें</string>
   <string name="current_password">वर्तमान पासवर्ड</string>
   <string name="choose_new_password">नया पासवर्ड</string>
@@ -430,7 +430,7 @@
   <string name="password_changed">पासवर्ड बदला जा चुका है।</string>
   <string name="panic_setting">आतंक बटन सेटअप</string>
   <string name="panic_setting_title">घबराहट होना</string>
-  <string name="panic_setting_hint">कॉन्फ़िगर करें कि जब आप एक आतंक बटन ऐप का उपयोग करते हैं तो Briar कैसे प्रतिक्रिया करेगा</string>
+  <string name="panic_setting_hint">कॉन्फ़िगर करें कि जब आप एक आतंक बटन ऐप का उपयोग करते हैं तो Sushh कैसे प्रतिक्रिया करेगा</string>
   <string name="panic_app_setting_title">आतंक बटन ऐप</string>
   <string name="unknown_app">एक अज्ञात ऐप</string>
   <string name="panic_app_setting_summary">कोई ऐप सेट नहीं किया गया है</string>
@@ -439,9 +439,9 @@
   <string name="dialog_message_connect_panic_app">क्या आप निश्चित हैं कि आप%1$s को विनाशकारी आतंक बटन क्रियाओं को ट्रिगर करने की अनुमति देना चाहते हैं?</string>
   <string name="panic_setting_destructive_action">विनाशकारी क्रियाएँ</string>
   <string name="panic_setting_signout_title">साइन आउट</string>
-  <string name="panic_setting_signout_summary">यदि कोई आतंक बटन दबाया जाता है तो Briar  से साइन आउट करें</string>
+  <string name="panic_setting_signout_summary">यदि कोई आतंक बटन दबाया जाता है तो Sushh  से साइन आउट करें</string>
   <string name="purge_setting_title">खाता हटा दो</string>
-  <string name="purge_setting_summary">यदि आपका आतंक बटन दबाया गया हो तो अपने Briar  खाते को हटा दें। सावधानी: यह आपकी पहचान, संपर्क और संदेश को स्थायी रूप से हटा देगा</string>
+  <string name="purge_setting_summary">यदि आपका आतंक बटन दबाया गया हो तो अपने Sushh  खाते को हटा दें। सावधानी: यह आपकी पहचान, संपर्क और संदेश को स्थायी रूप से हटा देगा</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">सूचनाएं</string>
   <string name="notify_sign_in_title">मुझे साइन इन करने के लिए याद दिलाएं</string>
@@ -474,10 +474,10 @@
   <string name="link_warning_text">इसका उपयोग आपकी पहचान करने के लिए किया जा सकता है। इस बारे में सोचें कि क्या आप उस व्यक्ति पर भरोसा करते हैं जिसने आपको यह लिंक भेजा है और इसे टोर ब्राउज़र से खोलने पर विचार करें।</string>
   <string name="link_warning_open_link">खुली लिंक</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar  क्रैश रिपोर्ट</string>
-  <string name="briar_crashed">क्षमा करें, Briar  दुर्घटनाग्रस्त हो गया है।</string>
+  <string name="crash_report_title">Sushh  क्रैश रिपोर्ट</string>
+  <string name="briar_crashed">क्षमा करें, Sushh  दुर्घटनाग्रस्त हो गया है।</string>
   <string name="not_your_fault">यह आपकी गलती नहीं है</string>
-  <string name="please_send_report">कृपया हमें क्रैश रिपोर्ट भेजकर बेहतर Briar  बनाने में हमारी सहायता करें</string>
+  <string name="please_send_report">कृपया हमें क्रैश रिपोर्ट भेजकर बेहतर Sushh  बनाने में हमारी सहायता करें</string>
   <string name="report_is_encrypted">हम वादा करते हैं कि रिपोर्ट एन्क्रिप्ट की गई है और सुरक्षित रूप से भेजा गया है।</string>
   <string name="feedback_title">प्रतिक्रिया</string>
   <string name="describe_crash">वर्णन करें कि क्या हुआ (वैकल्पिक)</string>
@@ -487,29 +487,29 @@
   <string name="include_debug_report_feedback">इस डिवाइस के बारे में अनाम डेटा शामिल करें</string>
   <string name="send_report">रिपोर्ट भेजो</string>
   <string name="close">बंद करे</string>
-  <string name="dev_report_saved">रिपोर्ट सहेजी गई अगली बार जब आप Briar  में प्रवेश करेंगे तो उसे भेजा जाएगा।</string>
+  <string name="dev_report_saved">रिपोर्ट सहेजी गई अगली बार जब आप Sushh  में प्रवेश करेंगे तो उसे भेजा जाएगा।</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Briar  से साइन आउट हो रहा है ...</string>
+  <string name="progress_title_logout">Sushh  से साइन आउट हो रहा है ...</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">स्क्रीन ओवरले का पता लगाया</string>
-  <string name="screen_filter_body">एक और ऐप Briar  के शीर्ष पर है। आपकी सुरक्षा की रक्षा के लिए, Briar  स्पर्श करने का जवाब नहीं देगा, जब किसी अन्य ऐप को शीर्ष पर आ रही है। \ N \ n निम्न एप्लिकेशन शीर्ष पर ड्राइंग कर सकते हैं: \ n \ n%1$s</string>
+  <string name="screen_filter_body">एक और ऐप Sushh  के शीर्ष पर है। आपकी सुरक्षा की रक्षा के लिए, Sushh  स्पर्श करने का जवाब नहीं देगा, जब किसी अन्य ऐप को शीर्ष पर आ रही है। \ N \ n निम्न एप्लिकेशन शीर्ष पर ड्राइंग कर सकते हैं: \ n \ n%1$s</string>
   <string name="screen_filter_allow">इन ऐप्स को शीर्ष पर आकर्षित करने की अनुमति दें</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">कैमरा अनुमति</string>
-  <string name="permission_camera_request_body">QR कोड को स्कैन करने के लिए, Briar को कैमरे तक पहुंच की आवश्यकता है।</string>
+  <string name="permission_camera_request_body">QR कोड को स्कैन करने के लिए, Sushh को कैमरे तक पहुंच की आवश्यकता है।</string>
   <string name="permission_location_title">स्थान की अनुमति</string>
-  <string name="permission_location_request_body">ब्लूटूथ उपकरणों को खोजने के लिए, Briar को आपके स्थान तक पहुंचने की अनुमति की आवश्यकता है। \ N \ n Briar आपके स्थान को स्टोर नहीं करता है या इसे किसी के साथ साझा नहीं करता है।</string>
+  <string name="permission_location_request_body">ब्लूटूथ उपकरणों को खोजने के लिए, Sushh को आपके स्थान तक पहुंचने की अनुमति की आवश्यकता है। \ N \ n Sushh आपके स्थान को स्टोर नहीं करता है या इसे किसी के साथ साझा नहीं करता है।</string>
   <string name="permission_camera_location_title">कैमरा और स्थान</string>
-  <string name="permission_camera_location_request_body">क्यूआर कोड को स्कैन करने के लिए, Briar को कैमरे तक पहुंच की आवश्यकता होती है। \ N \ n ब्लूटूथ डिवाइसों को खोजने के लिए, Briar को आपके स्थान तक पहुंचने की अनुमति की आवश्यकता होती है। \ n\n \ Briar आपके स्थान को स्टोर नहीं करता है या इसे किसी के साथ साझा नहीं करता है।</string>
+  <string name="permission_camera_location_request_body">क्यूआर कोड को स्कैन करने के लिए, Sushh को कैमरे तक पहुंच की आवश्यकता होती है। \ N \ n ब्लूटूथ डिवाइसों को खोजने के लिए, Sushh को आपके स्थान तक पहुंचने की अनुमति की आवश्यकता होती है। \ n\n \ Sushh आपके स्थान को स्टोर नहीं करता है या इसे किसी के साथ साझा नहीं करता है।</string>
   <string name="permission_camera_denied_body">आपने कैमरे तक पहुंच से वंचित किया है, लेकिन संपर्क जोड़ने के लिए कैमरे का उपयोग करने की आवश्यकता है। \ N \ n कृपया पहुंच प्रदान करने पर विचार करें।</string>
   <string name="qr_code">क्यूआर कोड</string>
   <string name="show_qr_code_fullscreen">क्यूआर कोड पूर्णस्क्रीन दिखाएं</string>
   <!--App Locking-->
-  <string name="lock_unlock">Briar अनलॉक करें</string>
-  <string name="lock_unlock_verbose">Briar अनलॉक करने के लिए अपना डिवाइस पिन, पैटर्न या पासवर्ड दर्ज करें</string>
+  <string name="lock_unlock">Sushh अनलॉक करें</string>
+  <string name="lock_unlock_verbose">Sushh अनलॉक करने के लिए अपना डिवाइस पिन, पैटर्न या पासवर्ड दर्ज करें</string>
   <string name="lock_unlock_fingerprint_description">जारी रखने के लिए पंजीकृत उंगली के साथ अपने फिंगरप्रिंट सेंसर को स्पर्श करें</string>
   <string name="lock_unlock_password">पासवर्ड का प्रयोग करें</string>
-  <string name="lock_is_locked">Briar लॉक है</string>
+  <string name="lock_is_locked">Sushh लॉक है</string>
   <string name="lock_tap_to_unlock">अनलॉक करने के लिए टैप करें</string>
   <!--Connections Screen-->
   <!--Screenshots-->
@@ -522,7 +522,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">हाय बॉब!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">हाय ऐलिस! Briar के बारे में मुझे बताने के लिए धन्यवाद!</string>
+  <string name="screenshot_message_2">हाय ऐलिस! Sushh के बारे में मुझे बताने के लिए धन्यवाद!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">कोई समस्या नहीं, आशा है कि आप इसे पसंद करेंगे 😀</string>
 </resources>

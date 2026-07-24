@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">Bem-vindo ao Briar</string>
+  <string name="setup_title">Bem-vindo ao Sushh</string>
   <string name="setup_name_explanation">O teu nome de utilizador será apresentado junto a qualquer conteúdo que publiques. Não o podes alterar depois de criares a tua conta.</string>
   <string name="setup_next">Seguinte</string>
   <string name="setup_password_intro">Escolhe uma palavra-passe</string>
-  <string name="setup_password_explanation">A tua conta Briar é armazenada de forma encriptada no teu dispositivo, não na nuvem. Se te esqueceres da tua palavra-passe ou desinstalares o Briar, não há forma de recuperar a tua conta.\n\nEscolhe uma palavra-passe longa e difícil de adivinhar, como quatro palavras aleatórias ou dez letras, números e símbolos aleatórios.</string>
-  <string name="dnkm_doze_intro">Para receberes mensagens, o Briar precisa de ficar conectado em segundo plano.</string>
-  <string name="dnkm_doze_explanation">Para receberes mensagens, o Briar precisa de ficar conectado em segundo plano. Desativa as otimizações da bateria para que o Briar possa manter-se conectado.</string>
+  <string name="setup_password_explanation">A tua conta Sushh é armazenada de forma encriptada no teu dispositivo, não na nuvem. Se te esqueceres da tua palavra-passe ou desinstalares o Sushh, não há forma de recuperar a tua conta.\n\nEscolhe uma palavra-passe longa e difícil de adivinhar, como quatro palavras aleatórias ou dez letras, números e símbolos aleatórios.</string>
+  <string name="dnkm_doze_intro">Para receberes mensagens, o Sushh precisa de ficar conectado em segundo plano.</string>
+  <string name="dnkm_doze_explanation">Para receberes mensagens, o Sushh precisa de ficar conectado em segundo plano. Desativa as otimizações da bateria para que o Sushh possa manter-se conectado.</string>
   <string name="choose_nickname">Escolhe o teu nome de utilizador</string>
   <string name="choose_password">Escolhe a tua palavra-passe</string>
   <string name="confirm_password">Confirma a tua palavra-passe</string>
@@ -19,45 +19,45 @@
   <string name="create_account_button">Criar conta</string>
   <string name="more_info">Mais informação</string>
   <string name="don_t_ask_again">Não perguntar novamente</string>
-  <string name="dnkm_huawei_protected_text">Toca no botão abaixo e certifica-te que o Briar está protegido no ecrã \"Aplicações protegidas\".</string>
-  <string name="dnkm_huawei_protected_button">Proteger o Briar</string>
-  <string name="dnkm_huawei_protected_help">Se o Briar não for adicionado à lista de aplicações protegidas, não poderá ser executado em segundo plano.</string>
-  <string name="dnkm_huawei_app_launch_text">Toca no botão abaixo, abre o ecrã \"Lançamento da aplicação\" e certifica-te que o Briar está definido para \"Gerir manualmente\".</string>
-  <string name="dnkm_huawei_app_launch_help">Se o Briar não estiver definido para \"Gerir manualmente\" no ecrã \"Lançamento da aplicação\", não poderá ser executado em segundo plano.</string>
-  <string name="dnkm_xiaomi_text">Para ser executado em segundo plano, o Briar tem de ser bloqueado na lista de aplicações recentes.</string>
-  <string name="dnkm_xiaomi_button">Proteger o Briar</string>
-  <string name="dnkm_xiaomi_help">Se o Briar não estiver bloqueado na lista de aplicações recentes, ele não poderá ser executado em segundo plano.</string>
-  <string name="dnkm_xiaomi_dialog_body_old">1. Abre a lista de aplicações recentes (também chamada de alternador de aplicações)\n\n2. Desliza para baixo sobre a imagem do Briar para mostrar o ícone do cadeado\n\n3. Se o cadeado não estiver bloqueado, toca nele para o bloquear</string>
-  <string name="dnkm_xiaomi_dialog_body_new">1. Abre a lista de aplicações recentes (também chamada de alternador de aplicações)\n\n2. Se o Briar tiver uma pequena imagem de um cadeado junto ao seu nome, então não precisas de fazer nada\n\n3. Se não houver nenhum cadeado, prime e mantém premida a imagem do Briar até aparecer o botão do cadeado e, em seguida, toca nele</string>
-  <string name="dnkm_xiaomi_lock_apps_text">Toca no botão abaixo para abrir as configurações de segurança. Toca em \"Aumentar a velocidade\", depois em \"Bloquear aplicações\" e certifica-te que o Briar está definido como \"Bloqueado\".</string>
-  <string name="dnkm_xiaomi_lock_apps_help">Se o Briar não estiver definido como \"Bloqueado\" no ecrã \"Bloquear aplicações\", não poderá ser executado em segundo plano.</string>
-  <string name="dnkm_warning_dozed_1">O Briar não foi capaz de ser executado em segundo plano</string>
+  <string name="dnkm_huawei_protected_text">Toca no botão abaixo e certifica-te que o Sushh está protegido no ecrã \"Aplicações protegidas\".</string>
+  <string name="dnkm_huawei_protected_button">Proteger o Sushh</string>
+  <string name="dnkm_huawei_protected_help">Se o Sushh não for adicionado à lista de aplicações protegidas, não poderá ser executado em segundo plano.</string>
+  <string name="dnkm_huawei_app_launch_text">Toca no botão abaixo, abre o ecrã \"Lançamento da aplicação\" e certifica-te que o Sushh está definido para \"Gerir manualmente\".</string>
+  <string name="dnkm_huawei_app_launch_help">Se o Sushh não estiver definido para \"Gerir manualmente\" no ecrã \"Lançamento da aplicação\", não poderá ser executado em segundo plano.</string>
+  <string name="dnkm_xiaomi_text">Para ser executado em segundo plano, o Sushh tem de ser bloqueado na lista de aplicações recentes.</string>
+  <string name="dnkm_xiaomi_button">Proteger o Sushh</string>
+  <string name="dnkm_xiaomi_help">Se o Sushh não estiver bloqueado na lista de aplicações recentes, ele não poderá ser executado em segundo plano.</string>
+  <string name="dnkm_xiaomi_dialog_body_old">1. Abre a lista de aplicações recentes (também chamada de alternador de aplicações)\n\n2. Desliza para baixo sobre a imagem do Sushh para mostrar o ícone do cadeado\n\n3. Se o cadeado não estiver bloqueado, toca nele para o bloquear</string>
+  <string name="dnkm_xiaomi_dialog_body_new">1. Abre a lista de aplicações recentes (também chamada de alternador de aplicações)\n\n2. Se o Sushh tiver uma pequena imagem de um cadeado junto ao seu nome, então não precisas de fazer nada\n\n3. Se não houver nenhum cadeado, prime e mantém premida a imagem do Sushh até aparecer o botão do cadeado e, em seguida, toca nele</string>
+  <string name="dnkm_xiaomi_lock_apps_text">Toca no botão abaixo para abrir as configurações de segurança. Toca em \"Aumentar a velocidade\", depois em \"Bloquear aplicações\" e certifica-te que o Sushh está definido como \"Bloqueado\".</string>
+  <string name="dnkm_xiaomi_lock_apps_help">Se o Sushh não estiver definido como \"Bloqueado\" no ecrã \"Bloquear aplicações\", não poderá ser executado em segundo plano.</string>
+  <string name="dnkm_warning_dozed_1">O Sushh não foi capaz de ser executado em segundo plano</string>
   <!--Login-->
   <string name="enter_password">Palavra-passe</string>
   <string name="try_again">Palavra-passe errada, tenta novamente</string>
   <string name="dialog_title_cannot_check_password">Não foi possível verificar a palavra-passe</string>
-  <string name="dialog_message_cannot_check_password">O Briar não consegue verificar a tua palavra-passe. Tenta reiniciar o teu dispositivo para resolver este problema.</string>
-  <string name="sign_in_title">Iniciar sessão no Briar</string>
+  <string name="dialog_message_cannot_check_password">O Sushh não consegue verificar a tua palavra-passe. Tenta reiniciar o teu dispositivo para resolver este problema.</string>
+  <string name="sign_in_title">Iniciar sessão no Sushh</string>
   <string name="sign_in_button">Iniciar sessão</string>
   <string name="forgotten_password">Esqueceu-se da sua palavra-passe?</string>
   <string name="dialog_title_lost_password">Palavra-passe perdida</string>
-  <string name="dialog_message_lost_password">A tua conta Briar é armazenada de forma encriptada no teu dispositivo, não na nuvem, pelo que não podemos redefinir a tua palavra-passe. Gostarias de eliminar a tua conta e começar de novo?\n\nCuidado: as tuas identidades, contactos e mensagens serão perdidos permanentemente.</string>
-  <string name="startup_failed_activity_title">Falha no arranque do Briar</string>
-  <string name="startup_failed_clock_error">Não foi possível iniciar o Briar porque o relógio do teu dispositivo está errado.\n\nAcerta o relógio do teu dispositivo para a hora correta e tenta novamente.</string>
-  <string name="startup_failed_db_error">O Briar não conseguiu abrir a base de dados que contém a tua conta, os teus contactos e as tuas mensagens.\n\nAtualiza para a versão mais recente da aplicação e tenta novamente, ou cria uma nova conta escolhendo \"Esqueci-me da minha palavra-passe\" no ecrã onde introduzes a palavra-passe.</string>
+  <string name="dialog_message_lost_password">A tua conta Sushh é armazenada de forma encriptada no teu dispositivo, não na nuvem, pelo que não podemos redefinir a tua palavra-passe. Gostarias de eliminar a tua conta e começar de novo?\n\nCuidado: as tuas identidades, contactos e mensagens serão perdidos permanentemente.</string>
+  <string name="startup_failed_activity_title">Falha no arranque do Sushh</string>
+  <string name="startup_failed_clock_error">Não foi possível iniciar o Sushh porque o relógio do teu dispositivo está errado.\n\nAcerta o relógio do teu dispositivo para a hora correta e tenta novamente.</string>
+  <string name="startup_failed_db_error">O Sushh não conseguiu abrir a base de dados que contém a tua conta, os teus contactos e as tuas mensagens.\n\nAtualiza para a versão mais recente da aplicação e tenta novamente, ou cria uma nova conta escolhendo \"Esqueci-me da minha palavra-passe\" no ecrã onde introduzes a palavra-passe.</string>
   <string name="startup_failed_data_too_old_error">A tua conta foi criada com uma versão antiga desta aplicação e não pode ser aberta com esta versão.\n\nDeves reinstalar a versão antiga ou configurar uma nova conta escolhendo \"Esqueci-me da minha palavra-passe\" no ecrã onde introduzes a palavra-passe.</string>
   <string name="startup_failed_data_too_new_error">A tua conta foi criada com uma versão mais recente desta aplicação e não pode ser aberta com esta versão.\n\nAtualiza para a versão mais recente e tenta novamente.</string>
-  <string name="startup_failed_service_error">O Briar não conseguiu iniciar um componente necessário.\n\nAtualiza para a versão mais recente da aplicação e tenta novamente.</string>
+  <string name="startup_failed_service_error">O Sushh não conseguiu iniciar um componente necessário.\n\nAtualiza para a versão mais recente da aplicação e tenta novamente.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Esta é uma versão de teste do Briar. A tua conta expirará em %d dia e não poderá ser renovada.</item>
-    <item quantity="many">Esta é uma versão de teste do Briar. A tua conta expirará em %d dias e não poderá ser renovada.</item>
-    <item quantity="other">Esta é uma versão de teste do Briar. A tua conta expirará em %d dias e não poderá ser renovada.</item>
+    <item quantity="one">Esta é uma versão de teste do Sushh. A tua conta expirará em %d dia e não poderá ser renovada.</item>
+    <item quantity="many">Esta é uma versão de teste do Sushh. A tua conta expirará em %d dias e não poderá ser renovada.</item>
+    <item quantity="other">Esta é uma versão de teste do Sushh. A tua conta expirará em %d dias e não poderá ser renovada.</item>
   </plurals>
   <string name="expiry_date_reached">Este software expirou.\nObrigado pelo teste!</string>
-  <string name="download_briar">Para continuar a utilizar o Briar, descarrega a versão mais recente.</string>
+  <string name="download_briar">Para continuar a utilizar o Sushh, descarrega a versão mais recente.</string>
   <string name="create_new_account">Terás de criar uma nova conta, mas podes utilizar o mesmo nome de utilizador.</string>
   <string name="download_briar_button">Descarregar a versão mais recente</string>
-  <string name="old_android_expiry_date_reached">O Briar já não funciona no Android 4.\nInstala o Briar num dispositivo mais recente.</string>
+  <string name="old_android_expiry_date_reached">O Sushh já não funciona no Android 4.\nInstala o Sushh num dispositivo mais recente.</string>
   <string name="old_android_delete_account">Podes tocar no botão abaixo para eliminar a tua conta neste dispositivo.</string>
   <string name="delete_account_button">Eliminar conta</string>
   <string name="startup_open_database">A desencriptar a base de dados…</string>
@@ -74,43 +74,43 @@
   <string name="lock_button">Bloquear aplicação</string>
   <string name="settings_button">Configurações</string>
   <string name="sign_out_button">Sair</string>
-  <string name="transports_onboarding_text">Toca aqui para controlar a forma como o Briar se conecta aos teus contactos.</string>
+  <string name="transports_onboarding_text">Toca aqui para controlar a forma como o Sushh se conecta aos teus contactos.</string>
   <!--Transports: Tor-->
   <string name="transport_tor">Internet</string>
   <string name="tor_device_status_online_wifi">O teu telemóvel tem acesso à Internet através de Wi-Fi</string>
   <string name="tor_device_status_online_mobile">O teu telemóvel tem acesso à Internet através de dados móveis</string>
   <string name="tor_device_status_offline">O teu telemóvel não tem acesso à Internet</string>
-  <string name="tor_plugin_status_enabling">O Briar está a conectar-se à Internet</string>
-  <string name="tor_plugin_status_active">O Briar está conectado à Internet</string>
-  <string name="tor_plugin_status_inactive">O Briar não consegue conectar-se à Internet</string>
-  <string name="tor_plugin_status_disabled">O Briar está configurado para não usar a Internet</string>
-  <string name="tor_plugin_status_disabled_mobile_data">O Briar está configurado para não usar dados móveis</string>
-  <string name="tor_plugin_status_disabled_battery">O Briar está configurado para não utilizar a Internet quando está a funcionar com a bateria</string>
-  <string name="tor_plugin_status_disabled_country_blocked">O Briar está configurado para não usar a Internet neste país</string>
+  <string name="tor_plugin_status_enabling">O Sushh está a conectar-se à Internet</string>
+  <string name="tor_plugin_status_active">O Sushh está conectado à Internet</string>
+  <string name="tor_plugin_status_inactive">O Sushh não consegue conectar-se à Internet</string>
+  <string name="tor_plugin_status_disabled">O Sushh está configurado para não usar a Internet</string>
+  <string name="tor_plugin_status_disabled_mobile_data">O Sushh está configurado para não usar dados móveis</string>
+  <string name="tor_plugin_status_disabled_battery">O Sushh está configurado para não utilizar a Internet quando está a funcionar com a bateria</string>
+  <string name="tor_plugin_status_disabled_country_blocked">O Sushh está configurado para não usar a Internet neste país</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Wi-Fi</string>
   <string name="transport_lan_long">Mesma rede Wi-Fi</string>
   <string name="lan_device_status_on">O teu telemóvel está ligado a uma rede Wi-Fi</string>
   <string name="lan_device_status_off">O teu telemóvel não está ligado a uma rede Wi-Fi</string>
-  <string name="lan_plugin_status_enabling">O Briar está a conectar-se à rede Wi-Fi</string>
-  <string name="lan_plugin_status_active">O Briar está a conectado à rede Wi-Fi</string>
-  <string name="lan_plugin_status_inactive">O Briar não consegue conectar-se à rede Wi-Fi</string>
-  <string name="lan_plugin_status_disabled">O Briar está configurado para não utilizar a rede Wi-Fi</string>
+  <string name="lan_plugin_status_enabling">O Sushh está a conectar-se à rede Wi-Fi</string>
+  <string name="lan_plugin_status_active">O Sushh está a conectado à rede Wi-Fi</string>
+  <string name="lan_plugin_status_inactive">O Sushh não consegue conectar-se à rede Wi-Fi</string>
+  <string name="lan_plugin_status_disabled">O Sushh está configurado para não utilizar a rede Wi-Fi</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">O Bluetooth do teu telemóvel está ativado</string>
   <string name="bt_device_status_off">O Bluetooth do teu telemóvel está desativado</string>
-  <string name="bt_plugin_status_enabling">O Briar está a conectar-se ao Bluetooth</string>
-  <string name="bt_plugin_status_active">O Briar está conectado ao Bluetooth</string>
-  <string name="bt_plugin_status_inactive">O Briar não consegue conectar-se ao Bluetooth</string>
-  <string name="bt_plugin_status_disabled">O Briar está configurado para não utilizar Bluetooth</string>
+  <string name="bt_plugin_status_enabling">O Sushh está a conectar-se ao Bluetooth</string>
+  <string name="bt_plugin_status_active">O Sushh está conectado ao Bluetooth</string>
+  <string name="bt_plugin_status_inactive">O Sushh não consegue conectar-se ao Bluetooth</string>
+  <string name="bt_plugin_status_disabled">O Sushh está configurado para não utilizar Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Terminaste a sessão do Briar</string>
+  <string name="reminder_notification_title">Terminaste a sessão do Sushh</string>
   <string name="reminder_notification_text">Toca para voltar a iniciar a sessão.</string>
-  <string name="reminder_notification_channel_title">Lembrete de iniciar sessão do Briar</string>
+  <string name="reminder_notification_channel_title">Lembrete de iniciar sessão do Sushh</string>
   <string name="reminder_notification_dismiss">Ignorar</string>
-  <string name="ongoing_notification_title">Iniciaste a sessão no Briar</string>
-  <string name="ongoing_notification_text">Toca para abrir o Briar</string>
+  <string name="ongoing_notification_title">Iniciaste a sessão no Sushh</string>
+  <string name="ongoing_notification_text">Toca para abrir o Sushh</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Nova mensagem privada.</item>
     <item quantity="many">%d novas mensagens privadas.</item>
@@ -226,7 +226,7 @@
   <string name="save_image_success">A imagem foi guardada</string>
   <string name="save_image_error">Não foi possível guardar a imagem</string>
   <string name="dialog_title_no_image_support">Imagens não disponíveis</string>
-  <string name="dialog_message_no_image_support">O Briar do teu contacto ainda não suporta anexos de imagens. Assim que for atualizado, verás um ícone diferente.</string>
+  <string name="dialog_message_no_image_support">O Sushh do teu contacto ainda não suporta anexos de imagens. Assim que for atualizado, verás um ícone diferente.</string>
   <string name="dialog_title_image_support">Agora podes enviar imagens para este contacto</string>
   <string name="dialog_message_image_support">Toca neste ícone para anexar imagens.</string>
   <string name="messaging_too_many_attachments_toast">Apenas as primeiras %d imagens serão enviadas</string>
@@ -243,10 +243,10 @@
   <string name="contact_already_exists">O contacto %s já existe</string>
   <string name="contact_already_exists_general">O contacto já existe</string>
   <string name="qr_code_invalid">O código QR não é válido</string>
-  <string name="qr_code_too_old_1">O código QR que digitalizaste provém de uma versão mais antiga do Briar.\n\nPede ao teu contacto para atualizar para a versão mais recente e depois tenta novamente.</string>
-  <string name="qr_code_too_new_1">O código QR que digitalizaste provém de uma versão mais recente do Briar.\n\nAtualiza para a versão mais recente e tenta novamente.</string>
-  <string name="mailbox_qr_code_for_contact">O código QR que digitalizaste provém do Briar Mailbox.\n\nSe pretenderes vincular a uma Mailbox, seleciona Configurações &gt; Mailbox no menu Briar.</string>
-  <string name="qr_code_format_unknown">O código QR que digitalizaste não se destina a adicionar um contacto Briar.\n\nDigitaliza o código QR apresentado no ecrã do teu contacto.</string>
+  <string name="qr_code_too_old_1">O código QR que digitalizaste provém de uma versão mais antiga do Sushh.\n\nPede ao teu contacto para atualizar para a versão mais recente e depois tenta novamente.</string>
+  <string name="qr_code_too_new_1">O código QR que digitalizaste provém de uma versão mais recente do Sushh.\n\nAtualiza para a versão mais recente e tenta novamente.</string>
+  <string name="mailbox_qr_code_for_contact">O código QR que digitalizaste provém do Sushh Mailbox.\n\nSe pretenderes vincular a uma Mailbox, seleciona Configurações &gt; Mailbox no menu Sushh.</string>
+  <string name="qr_code_format_unknown">O código QR que digitalizaste não se destina a adicionar um contacto Sushh.\n\nDigitaliza o código QR apresentado no ecrã do teu contacto.</string>
   <string name="camera_error">Erro da câmara</string>
   <string name="connecting_to_device">A conectar ao dispositivo\u2026</string>
   <string name="authenticating_with_device">A autenticar com o dispositivo\u2026</string>
@@ -268,7 +268,7 @@
   <string name="add_contact_choose_a_nickname">Insere um nome de utilizador</string>
   <string name="nickname_intro">Atribui um nome de utilizador ao teu contacto. Só tu o podes ver.</string>
   <string name="your_link">Dá esta ligação ao contacto que pretendes adicionar</string>
-  <string name="link_clip_label">Hiperligação Briar</string>
+  <string name="link_clip_label">Hiperligação Sushh</string>
   <string name="link_copied_toast">Hiperligação copiada</string>
   <string name="adding_contact_error">Ocorreu um erro ao adicionar o contacto.</string>
   <string name="pending_contact_requests_snackbar">Existem pedidos de contacto pendentes</string>
@@ -283,7 +283,7 @@
   <string name="own_link_error">Introduz a hiperligação do teu contacto, não a tua</string>
   <string name="nickname_missing">Insere um nome de utilizador</string>
   <string name="invalid_link">Hiperligação inválida</string>
-  <string name="unsupported_link">Esta hiperligação é proveniente de uma versão mais recente do Briar. Atualiza para a versão mais recente e tenta novamente.</string>
+  <string name="unsupported_link">Esta hiperligação é proveniente de uma versão mais recente do Sushh. Atualiza para a versão mais recente e tenta novamente.</string>
   <string name="intent_own_link">Abriste a tua própria hiperligação. Utiliza a do contacto que pretendes adicionar!</string>
   <string name="missing_link">Introduz uma hiperligação</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -319,7 +319,7 @@
   <string name="peer_trust_level_stranger">Desconhecido</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Apresentar os teus contactos</string>
-  <string name="introduction_onboarding_text">Apresenta os teus contactos uns aos outros para que eles se possam conectar no Briar.</string>
+  <string name="introduction_onboarding_text">Apresenta os teus contactos uns aos outros para que eles se possam conectar no Sushh.</string>
   <string name="introduction_menu_item">Fazer apresentação</string>
   <string name="introduction_activity_title">Selecionar contacto</string>
   <string name="introduction_not_possible">Já tens uma apresentação em curso com estes contactos. Aguarda que esta termine primeiro. Se tu ou os teus contactos raramente estão online, isto pode demorar algum tempo.</string>
@@ -519,7 +519,7 @@
   <string name="change_profile_picture_failed_message">Lamentamos, mas houve um problema ao atualizar a tua fotografia do perfil</string>
   <!--Settings Display-->
   <string name="pref_language_title">Idioma e região</string>
-  <string name="pref_language_changed">Esta configuração terá efeito quando reiniciares o Briar. Termina a sessão e reinicia o Briar.</string>
+  <string name="pref_language_changed">Esta configuração terá efeito quando reiniciares o Sushh. Termina a sessão e reinicia o Sushh.</string>
   <string name="pref_language_default">Predefinição do sistema</string>
   <string name="display_settings_title">Visualização</string>
   <string name="pref_theme_title">Tema</string>
@@ -537,7 +537,7 @@
   <string name="tor_network_setting_without_bridges">Utilizar a rede Tor sem pontes</string>
   <string name="tor_network_setting_with_bridges">Utilizar a rede Tor com pontes</string>
   <string name="tor_network_setting_never">Não conectar à Internet</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Automático: %1$s (em %2$s) </string>
   <string name="tor_mobile_data_title">Usar dados móveis</string>
   <string name="tor_only_when_charging_title">Conectar à Internet apenas quando o dispositivo estiver a carregar</string>
@@ -545,11 +545,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Segurança</string>
   <string name="pref_lock_title">Bloqueio da aplicação</string>
-  <string name="pref_lock_summary">Utiliza o bloqueio de ecrã do dispositivo para proteger o Briar enquanto tem a sessão iniciada</string>
+  <string name="pref_lock_summary">Utiliza o bloqueio de ecrã do dispositivo para proteger o Sushh enquanto tem a sessão iniciada</string>
   <string name="pref_lock_disabled_summary">Para utilizar esta funcionalidade, configura um bloqueio de ecrã no teu dispositivo</string>
   <string name="pref_lock_timeout_title">Tempo limite de inatividade do bloqueio da aplicação</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Quando não estiveres a utilizar o Briar, bloqueia-o automaticamente após %s</string>
+  <string name="pref_lock_timeout_summary">Quando não estiveres a utilizar o Sushh, bloqueia-o automaticamente após %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 minuto</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -561,7 +561,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 hora</string>
   <string name="pref_lock_timeout_never">Nunca</string>
-  <string name="pref_lock_timeout_never_summary">Nunca bloquear o Briar automaticamente</string>
+  <string name="pref_lock_timeout_never_summary">Nunca bloquear o Sushh automaticamente</string>
   <string name="change_password">Alterar palavra-passe</string>
   <string name="current_password">Palavra-passe atual</string>
   <string name="choose_new_password">Nova palavra-passe</string>
@@ -569,7 +569,7 @@
   <string name="password_changed">A palavra-passe foi alterada.</string>
   <string name="panic_setting">Configuração do botão de pânico</string>
   <string name="panic_setting_title">Botão de pânico</string>
-  <string name="panic_setting_hint">Configura a forma como o Briar irá reagir quando utilizares uma aplicação de botão de pânico</string>
+  <string name="panic_setting_hint">Configura a forma como o Sushh irá reagir quando utilizares uma aplicação de botão de pânico</string>
   <string name="panic_app_setting_title">Aplicação de botão de pânico</string>
   <string name="unknown_app">uma aplicação desconhecida</string>
   <string name="panic_app_setting_summary">Não foi definida nenhuma aplicação</string>
@@ -578,9 +578,9 @@
   <string name="dialog_message_connect_panic_app">Queres mesmo permitir que %1$s ative ações destrutivas do botão de pânico?</string>
   <string name="panic_setting_destructive_action">Ações destrutivas</string>
   <string name="panic_setting_signout_title">Sair</string>
-  <string name="panic_setting_signout_summary">Terminar sessão no Briar se for premido um botão de pânico</string>
+  <string name="panic_setting_signout_summary">Terminar sessão no Sushh se for premido um botão de pânico</string>
   <string name="purge_setting_title">Eliminar conta</string>
-  <string name="purge_setting_summary">Elimina a tua conta Briar se for premido um botão de pânico. Cuidado: isto irá eliminar permanentemente as tuas identidades, contactos e mensagens</string>
+  <string name="purge_setting_summary">Elimina a tua conta Sushh se for premido um botão de pânico. Cuidado: isto irá eliminar permanentemente as tuas identidades, contactos e mensagens</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Notificações</string>
   <string name="notify_sign_in_title">Lembrar-me de iniciar sessão</string>
@@ -607,28 +607,28 @@
   <string name="mailbox_settings_title">Mailbox</string>
   <string name="mailbox_setup_title">Configuração da Mailbox</string>
   <string name="mailbox_setup_intro">Uma Mailbox permite que os teus contactos te enviem mensagens enquanto estás offline. A Mailbox irá receber as tuas mensagens e guardá-las até ficares online.\n
-Podes instalar a aplicação Briar Mailbox num dispositivo de reserva. Mantêm-no ligado à corrente e à rede Wi-Fi para que estejas sempre online.</string>
-  <string name="mailbox_setup_download">Primeiro, instala a aplicação Mailbox noutro dispositivo, procurando por \"Briar Mailbox\" no Google Play ou onde quer que tenhas descarregado o Briar.
-Em seguida, vincula a tua Mailbox ao Briar digitalizando o código QR mostrado pela aplicação Mailbox.</string>
+Podes instalar a aplicação Sushh Mailbox num dispositivo de reserva. Mantêm-no ligado à corrente e à rede Wi-Fi para que estejas sempre online.</string>
+  <string name="mailbox_setup_download">Primeiro, instala a aplicação Mailbox noutro dispositivo, procurando por \"Sushh Mailbox\" no Google Play ou onde quer que tenhas descarregado o Sushh.
+Em seguida, vincula a tua Mailbox ao Sushh digitalizando o código QR mostrado pela aplicação Mailbox.</string>
   <string name="mailbox_setup_download_link">Partilhar a hiperligação de descarregamento</string>
   <string name="mailbox_setup_button_scan">Digitalizar código QR do Mailbox</string>
   <string name="permission_camera_qr_denied_body">O acesso à câmara foi negado, mas a leitura de um código QR requer a utilização da câmara.\n\nConsidera conceder o acesso.</string>
   <string name="mailbox_setup_connecting">A conectar à Mailbox…</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">Isto pode demorar até %1s</string>
-  <string name="mailbox_qr_code_too_old">O código QR que digitalizaste provém de uma versão mais antiga do Briar Mailbox.\n\nAtualiza o Briar Mailbox para a versão mais recente e tenta novamente.</string>
-  <string name="mailbox_qr_code_too_new">O código QR que digitalizaste provém de uma versão mais recente do Briar Mailbox.\n\nAtualiza o Briar para a versão mais recente e tenta novamente.</string>
-  <string name="contact_qr_code_for_mailbox">O código QR que digitalizaste serve para adicionar um contacto Briar.\n\nSe quiseres adicionar um contacto, vai à lista de contactos e toca no ícone +.</string>
-  <string name="mailbox_setup_qr_code_wrong_description">O código QR que digitalizaste não é proveniente da aplicação Briar Mailbox.\n\nAbre a aplicação Briar Mailbox no teu dispositivo com a Mailbox e digitaliza o código QR apresentado.</string>
+  <string name="mailbox_qr_code_too_old">O código QR que digitalizaste provém de uma versão mais antiga do Sushh Mailbox.\n\nAtualiza o Sushh Mailbox para a versão mais recente e tenta novamente.</string>
+  <string name="mailbox_qr_code_too_new">O código QR que digitalizaste provém de uma versão mais recente do Sushh Mailbox.\n\nAtualiza o Sushh para a versão mais recente e tenta novamente.</string>
+  <string name="contact_qr_code_for_mailbox">O código QR que digitalizaste serve para adicionar um contacto Sushh.\n\nSe quiseres adicionar um contacto, vai à lista de contactos e toca no ícone +.</string>
+  <string name="mailbox_setup_qr_code_wrong_description">O código QR que digitalizaste não é proveniente da aplicação Sushh Mailbox.\n\nAbre a aplicação Sushh Mailbox no teu dispositivo com a Mailbox e digitaliza o código QR apresentado.</string>
   <string name="mailbox_setup_already_paired_title">Mailbox já vinculado</string>
   <string name="mailbox_setup_already_paired_description">Desvincula o Mailbox no teu outro dispositivo e tenta de novo.</string>
   <string name="mailbox_setup_io_error_title">Não foi possível conectar</string>
   <string name="mailbox_setup_io_error_description">Garante que ambos os dispositivo estão conectados à Internet e tenta novamente.</string>
   <string name="mailbox_setup_assertion_error_title">Erro no Mailbox</string>
-  <string name="mailbox_setup_assertion_error_description">Por favor indica-nos o problema (com dados anónimos) através da aplicação Briar se o problema persistir.</string>
+  <string name="mailbox_setup_assertion_error_description">Por favor indica-nos o problema (com dados anónimos) através da aplicação Sushh se o problema persistir.</string>
   <string name="mailbox_setup_camera_error_description">Não foi possível aceder à câmara. Tenta novamente, talvez depois de reiniciar o dispositivo.</string>
   <string name="mailbox_setup_paired_title">Conectado</string>
-  <string name="mailbox_setup_paired_description">A tua Mailbox foi vinculada com sucesso ao Briar.\n
+  <string name="mailbox_setup_paired_description">A tua Mailbox foi vinculada com sucesso ao Sushh.\n
 		\nMantém o dispositivo com a tua Mailbox ligado à corrente e à rede Wi-Fi para que estejas sempre online.</string>
   <string name="tor_offline_title">Offline</string>
   <string name="tor_offline_description">Certifica-te que este dispositivo está online e que as conexões à Internet são permitidas.\n
@@ -636,10 +636,10 @@ Em seguida, vincula a tua Mailbox ao Briar digitalizando o código QR mostrado p
   <string name="tor_offline_button_check">Verificar as configurações de conexão</string>
   <string name="mailbox_status_title">Estado da Mailbox</string>
   <string name="mailbox_status_connected_title">A Mailbox está em execução</string>
-  <string name="mailbox_status_problem_title">O Briar está a ter problemas em ligar-se à Mailbox</string>
+  <string name="mailbox_status_problem_title">O Sushh está a ter problemas em ligar-se à Mailbox</string>
   <string name="mailbox_status_failure_title">A Mailbox não está disponível</string>
-  <string name="mailbox_status_app_too_old_title">O Briar é demasiado antigo</string>
-  <string name="mailbox_status_app_too_old_message">Atualiza o Briar para a versão mais recente da aplicação e tenta novamente.</string>
+  <string name="mailbox_status_app_too_old_title">O Sushh é demasiado antigo</string>
+  <string name="mailbox_status_app_too_old_message">Atualiza o Sushh para a versão mais recente da aplicação e tenta novamente.</string>
   <string name="mailbox_status_mailbox_too_old_title">A Mailbox é demasiado antiga</string>
   <string name="mailbox_status_mailbox_too_old_message">Atualiza a tua Mailbox para a versão mais recente da aplicação e tenta novamente.</string>
   <string name="mailbox_status_check_button">Verificar conexão</string>
@@ -650,12 +650,12 @@ Em seguida, vincula a tua Mailbox ao Briar digitalizando o código QR mostrado p
   <string name="mailbox_status_unlink_button">Desvincular</string>
   <string name="mailbox_status_unlink_dialog_title">Desvincular a Mailbox?</string>
   <string name="mailbox_status_unlink_dialog_question">Queres mesmo desvincular a tua Mailbox?</string>
-  <string name="mailbox_status_unlink_dialog_warning">Se desvinculares a tua Mailbox, não poderás receber mensagens enquanto o Briar estiver offline.</string>
+  <string name="mailbox_status_unlink_dialog_warning">Se desvinculares a tua Mailbox, não poderás receber mensagens enquanto o Sushh estiver offline.</string>
   <string name="mailbox_status_unlink_no_wipe_title">A tua Mailbox foi desvinculada</string>
   <string name="mailbox_status_unlink_no_wipe_message">Da próxima vez que tiveres acesso ao teu dispositivo com a Mailbox, abre a aplicação Mailbox e toca no botão \"Desvincular\" para concluir o processo.\n\nSe já não tiveres acesso ao teu dispositivo com a Mailbox, não te preocupes. Os teus dados estão encriptados, pelo que permanecerão seguros mesmo que não concluas o processo.</string>
   <string name="mailbox_status_unlink_success">A tua Mailbox foi desvinculada</string>
-  <string name="mailbox_error_notification_channel_title">Problema no Briar Mailbox</string>
-  <string name="mailbox_error_notification_title">O Briar Mailbox não está disponível</string>
+  <string name="mailbox_error_notification_channel_title">Problema no Sushh Mailbox</string>
+  <string name="mailbox_error_notification_title">O Sushh Mailbox não está disponível</string>
   <string name="mailbox_error_notification_text">Toca para corrigir o problema.</string>
   <string name="mailbox_error_wizard_button">Corrigir o problema</string>
   <string name="mailbox_error_wizard_title">Assistente de resolução de problemas da Mailbox</string>
@@ -671,16 +671,16 @@ Em seguida, vincula a tua Mailbox ao Briar digitalizando o código QR mostrado p
   <string name="mailbox_error_wizard_answer1_4">Vejo \"Dispositivo offline\"</string>
   <string name="mailbox_error_wizard_info1_1_1">Desvincula a tua Mailbox utilizando o botão abaixo e, em seguida, segue as instruções no dispositivo com a Mailbox para a vincular novamente.</string>
   <string name="mailbox_error_wizard_info_1_1_2">Desvincula a tua Mailbox utilizando o botão abaixo e, em seguida, digitaliza o código QR para a vincular novamente.</string>
-  <string name="mailbox_error_wizard_info1_1_3">Utiliza o botão abaixo para verificar a conexão entre o Briar e a Mailbox.\n\n
+  <string name="mailbox_error_wizard_info1_1_3">Utiliza o botão abaixo para verificar a conexão entre o Sushh e a Mailbox.\n\n
 		Se a conexão falhar novamente:\n
-		\u2022 Verifica se as aplicações Mailbox e Briar estão atualizadas para a versão mais recente.\n
-		\u2022 Reinicia os dispositivos Mailbox e Briar e tenta novamente.</string>
-  <string name="mailbox_error_wizard_info1_1_4">Verifica se o dispositivo com a Mailbox está corretamente conectado à Internet.\n\nVerifica se o relógio do dispositivo com a Mailbox apresenta a hora, a data e o fuso horário corretos.\n\nVerifica se as aplicações Mailbox e Briar estão atualizadas com a versão mais recente.\n\nReinicia os dispositivos Mailbox e Briar e tenta novamente.</string>
+		\u2022 Verifica se as aplicações Mailbox e Sushh estão atualizadas para a versão mais recente.\n
+		\u2022 Reinicia os dispositivos Mailbox e Sushh e tenta novamente.</string>
+  <string name="mailbox_error_wizard_info1_1_4">Verifica se o dispositivo com a Mailbox está corretamente conectado à Internet.\n\nVerifica se o relógio do dispositivo com a Mailbox apresenta a hora, a data e o fuso horário corretos.\n\nVerifica se as aplicações Mailbox e Sushh estão atualizadas com a versão mais recente.\n\nReinicia os dispositivos Mailbox e Sushh e tenta novamente.</string>
   <string name="mailbox_error_wizard_info2">Volta a este ecrã quando tiveres acesso ao dispositivo.</string>
   <string name="mailbox_error_wizard_info3">Desvincula a tua Mailbox utilizando o botão abaixo.\n\nDepois de desvinculares a Mailbox antiga, podes configurar uma nova Mailbox em qualquer altura.</string>
   <!--About-->
   <string name="about_title">Sobre</string>
-  <string name="briar_version">Versão do Briar: %s</string>
+  <string name="briar_version">Versão do Sushh: %s</string>
   <string name="tor_version">Versão do Tor: %s</string>
   <string name="links">Hiperligações</string>
   <string name="briar_website">\u2022 <a href="">Website</a></string>
@@ -705,7 +705,7 @@ O teu contacto também pode alterar esta configuração para ambos.</string>
   <!--Settings Actions-->
   <string name="pref_category_actions">Ações</string>
   <string name="share_app_link">Partilhar a hiperligação de descarregamento</string>
-  <string name="share_app_link_text">Descarrega o Briar em %s</string>
+  <string name="share_app_link_text">Descarrega o Sushh em %s</string>
   <string name="send_feedback">Enviar comentários</string>
   <!--Link Warning-->
   <string name="link_warning_title">Aviso sobre a hiperligação</string>
@@ -713,10 +713,10 @@ O teu contacto também pode alterar esta configuração para ambos.</string>
   <string name="link_warning_text">Isto pode ser utilizado para te identificarem. Pensa se confias na pessoa que te enviou esta hiperligação e considera a possibilidade de a abrir no Tor Browser.</string>
   <string name="link_warning_open_link">Abrir hiperligação</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Relatório de falhas do Briar</string>
-  <string name="briar_crashed">Desculpa, o Briar encerrou de maneira inesperada</string>
+  <string name="crash_report_title">Relatório de falhas do Sushh</string>
+  <string name="briar_crashed">Desculpa, o Sushh encerrou de maneira inesperada</string>
   <string name="not_your_fault">A culpa não é tua.</string>
-  <string name="please_send_report">Ajuda-nos a construir um Briar melhor, enviando-nos um relatório de falhas.</string>
+  <string name="please_send_report">Ajuda-nos a construir um Sushh melhor, enviando-nos um relatório de falhas.</string>
   <string name="report_is_encrypted">Prometemos que o relatório é encriptado e enviado de forma segura.</string>
   <string name="feedback_title">Comentário</string>
   <string name="describe_crash">Descreve o que aconteceu (opcional)</string>
@@ -741,72 +741,72 @@ O teu contacto também pode alterar esta configuração para ambos.</string>
   <string name="close">Fechar</string>
   <string name="dev_report_sending">A enviar o comentário…</string>
   <string name="dev_report_sent">Comentário enviado</string>
-  <string name="dev_report_saved">Relatório guardado. Ele será enviado na próxima vez que iniciares a sessão no Briar.</string>
+  <string name="dev_report_saved">Relatório guardado. Ele será enviado na próxima vez que iniciares a sessão no Sushh.</string>
   <string name="dev_report_error">Erro: o envio do relatório falhou</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">A terminar a sessão do Briar…</string>
+  <string name="progress_title_logout">A terminar a sessão do Sushh…</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Detetada sobreposição de ecrã</string>
-  <string name="screen_filter_body">Outra aplicação está a sobrepor-se ao Briar. Para proteger a tua segurança, o Briar não responderá a toques quando outra aplicação estiver a sobrepor-se.\n\nAs seguintes aplicações podem estar a sobreporem-se:\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">Outra aplicação está a sobrepor-se ao Briar. Para proteger a tua segurança, o Briar não responderá a toques quando outra aplicação estiver a sobrepor-se.\n\nRevê as aplicações abaixo para encontrares a aplicação responsável.</string>
+  <string name="screen_filter_body">Outra aplicação está a sobrepor-se ao Sushh. Para proteger a tua segurança, o Sushh não responderá a toques quando outra aplicação estiver a sobrepor-se.\n\nAs seguintes aplicações podem estar a sobreporem-se:\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">Outra aplicação está a sobrepor-se ao Sushh. Para proteger a tua segurança, o Sushh não responderá a toques quando outra aplicação estiver a sobrepor-se.\n\nRevê as aplicações abaixo para encontrares a aplicação responsável.</string>
   <string name="screen_filter_allow">Permitir que estas aplicações se sobreponham</string>
   <string name="screen_filter_review_apps">Rever aplicações</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Permissão da câmara</string>
-  <string name="permission_camera_request_body">Para digitalizar o código QR, o Briar precisa de ter acesso à câmara.</string>
+  <string name="permission_camera_request_body">Para digitalizar o código QR, o Sushh precisa de ter acesso à câmara.</string>
   <string name="permission_location_title">Permissão de localização</string>
   <string name="permission_nearby_devices_title">Permissão de dispositivos próximos</string>
-  <string name="permission_location_request_body">Para descobrir dispositivos Bluetooth, o Briar precisa de permissão para aceder à tua localização.\n\nO Briar não armazena a tua localização nem a partilha com ninguém.</string>
+  <string name="permission_location_request_body">Para descobrir dispositivos Bluetooth, o Sushh precisa de permissão para aceder à tua localização.\n\nO Sushh não armazena a tua localização nem a partilha com ninguém.</string>
   <string name="permission_camera_location_title">Câmara e localização</string>
-  <string name="permission_camera_location_request_body">Para digitalizar o código QR, o Briar precisa de acesso à câmara.\n\nPara descobrir dispositivos Bluetooth, o Briar precisa de permissão para aceder à tua localização.\n\nO Briar não armazena a tua localização nem a partilha com ninguém.</string>
+  <string name="permission_camera_location_request_body">Para digitalizar o código QR, o Sushh precisa de acesso à câmara.\n\nPara descobrir dispositivos Bluetooth, o Sushh precisa de permissão para aceder à tua localização.\n\nO Sushh não armazena a tua localização nem a partilha com ninguém.</string>
   <string name="permission_camera_bluetooth_title">Câmara e dispositivos próximos</string>
-  <string name="permission_camera_bluetooth_request_body">Para digitalizar o código QR, o Briar precisa de acesso à câmara.\n\nPara descobrir dispositivos Bluetooth, o Briar precisa de permissão para encontrar e conectar-se a dispositivos próximos.</string>
+  <string name="permission_camera_bluetooth_request_body">Para digitalizar o código QR, o Sushh precisa de acesso à câmara.\n\nPara descobrir dispositivos Bluetooth, o Sushh precisa de permissão para encontrar e conectar-se a dispositivos próximos.</string>
   <string name="permission_camera_denied_body">O acesso à câmara foi negado, mas para adicionar contactos é necessário utilizar a câmara.\n\nConsidera conceder o acesso.</string>
-  <string name="permission_location_denied_body">Negaste o acesso à tua localização, mas o Briar precisa desta permissão para descobrir dispositivos Bluetooth.\n\nConsidera conceder o acesso.</string>
+  <string name="permission_location_denied_body">Negaste o acesso à tua localização, mas o Sushh precisa desta permissão para descobrir dispositivos Bluetooth.\n\nConsidera conceder o acesso.</string>
   <string name="permission_location_setting_title">Configuração de localização</string>
   <string name="permission_location_setting_body">A configuração de localização do teu dispositivo tem de estar ativada para encontrar outros dispositivos através de Bluetooth. Ativa a localização para continuar. Podes voltar a desativá-la mais tarde.</string>
   <string name="permission_location_setting_hotspot_body">A configuração de localização do teu dispositivo tem de estar ativada para criar um ponto de acesso Wi-Fi. Ativa a localização para continuar. Podes voltar a desativá-la mais tarde.</string>
   <string name="permission_location_setting_button">Ativar localização</string>
   <string name="permission_bluetooth_title">Permissão de dispositivos próximos</string>
-  <string name="permission_bluetooth_body">Para utilizar a comunicação Bluetooth, o Briar precisa de permissão para encontrar e conectar-se a dispositivos próximos.</string>
-  <string name="permission_bluetooth_denied_body">Negaste o acesso a dispositivos próximos, mas o Briar precisa desta permissão para utilizar o Bluetooth.\n\nConsidera conceder o acesso.</string>
+  <string name="permission_bluetooth_body">Para utilizar a comunicação Bluetooth, o Sushh precisa de permissão para encontrar e conectar-se a dispositivos próximos.</string>
+  <string name="permission_bluetooth_denied_body">Negaste o acesso a dispositivos próximos, mas o Sushh precisa desta permissão para utilizar o Bluetooth.\n\nConsidera conceder o acesso.</string>
   <string name="qr_code">Código QR</string>
   <string name="show_qr_code_fullscreen">Mostrar código QR em ecrã inteiro</string>
   <!--App Locking-->
-  <string name="lock_unlock">Desbloquear o Briar</string>
-  <string name="lock_unlock_verbose">Introduz o PIN, o padrão ou a palavra-passe do teu dispositivo para desbloquear o Briar</string>
+  <string name="lock_unlock">Desbloquear o Sushh</string>
+  <string name="lock_unlock_verbose">Introduz o PIN, o padrão ou a palavra-passe do teu dispositivo para desbloquear o Sushh</string>
   <string name="lock_unlock_fingerprint_description">Toca no sensor de impressões digitais com o dedo registado para continuar</string>
   <string name="lock_unlock_password">Utilizar palavra-passe</string>
-  <string name="lock_is_locked">O Briar está bloqueado</string>
+  <string name="lock_is_locked">O Sushh está bloqueado</string>
   <string name="lock_tap_to_unlock">Toca para desbloquear</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">O Briar pode conectar-se aos teus contactos através da Internet, Wi-Fi ou Bluetooth.\n\nTodas as conexões à Internet passam pela rede Tor para maior privacidade.\n\nSe um contacto puder ser contactado por vários métodos, o Briar utiliza-os em paralelo.</string>
+  <string name="transports_help_text">O Sushh pode conectar-se aos teus contactos através da Internet, Wi-Fi ou Bluetooth.\n\nTodas as conexões à Internet passam pela rede Tor para maior privacidade.\n\nSe um contacto puder ser contactado por vários métodos, o Sushh utiliza-os em paralelo.</string>
   <!--Share app offline-->
   <string name="hotspot_title">Partilhar esta aplicação offline</string>
   <string name="hotspot_intro">Partilha esta aplicação com alguém próximo sem uma ligação à Internet, utilizando o Wi-Fi do teu telemóvel.
-		\n\nO teu telemóvel irá iniciar um ponto de acesso Wi-Fi (hotspot). As pessoas próximas podem ligar-se ao ponto de acesso e transferir a aplicação Briar a partir do teu telemóvel.</string>
+		\n\nO teu telemóvel irá iniciar um ponto de acesso Wi-Fi (hotspot). As pessoas próximas podem ligar-se ao ponto de acesso e transferir a aplicação Sushh a partir do teu telemóvel.</string>
   <string name="hotspot_button_start_sharing">Iniciar ponto de acesso</string>
   <string name="hotspot_button_stop_sharing">Parar ponto de acesso</string>
   <string name="hotspot_progress_text_start">A configurar o ponto de acesso…</string>
   <string name="hotspot_notification_channel_title">Ponto de acesso Wi-Fi</string>
-  <string name="hotspot_notification_title">Partilhar o Briar offline</string>
+  <string name="hotspot_notification_title">Partilhar o Sushh offline</string>
   <string name="hotspot_button_connected">Seguinte</string>
-  <string name="permission_hotspot_location_request_body">Para criar um ponto de acesso Wi-Fi, o Briar precisa de permissão para aceder à tua localização.\n\nO Briar não armazena a tua localização nem a partilha com ninguém.</string>
-  <string name="permission_hotspot_location_request_precise_body">Para criar um ponto de acesso Wi-Fi, o Briar precisa de permissão para aceder à tua localização exata.\n\nO Briar não armazena a tua localização nem a partilha com ninguém.</string>
-  <string name="permission_hotspot_location_denied_body">Negaste o acesso à tua localização, mas o Briar precisa desta permissão para criar um ponto de acesso Wi-Fi.\n\nConsidera conceder o acesso.</string>
-  <string name="permission_hotspot_location_denied_precise_body">Negaste o acesso à tua localização exata, mas o Briar precisa desta permissão para criar um ponto de acesso Wi-Fi.\n\nConsidera conceder o acesso.</string>
-  <string name="permission_hotspot_nearby_wifi_request_body">Para criar um ponto de acesso Wi-Fi, o Briar precisa de permissão para aceder a dispositivos próximos.</string>
-  <string name="permission_hotspot_nearby_wifi_denied_body">Negaste o acesso a dispositivos próximos, mas o Briar precisa desta permissão para criar um ponto de acesso Wi-Fi.\n\nConsidera conceder o acesso.</string>
+  <string name="permission_hotspot_location_request_body">Para criar um ponto de acesso Wi-Fi, o Sushh precisa de permissão para aceder à tua localização.\n\nO Sushh não armazena a tua localização nem a partilha com ninguém.</string>
+  <string name="permission_hotspot_location_request_precise_body">Para criar um ponto de acesso Wi-Fi, o Sushh precisa de permissão para aceder à tua localização exata.\n\nO Sushh não armazena a tua localização nem a partilha com ninguém.</string>
+  <string name="permission_hotspot_location_denied_body">Negaste o acesso à tua localização, mas o Sushh precisa desta permissão para criar um ponto de acesso Wi-Fi.\n\nConsidera conceder o acesso.</string>
+  <string name="permission_hotspot_location_denied_precise_body">Negaste o acesso à tua localização exata, mas o Sushh precisa desta permissão para criar um ponto de acesso Wi-Fi.\n\nConsidera conceder o acesso.</string>
+  <string name="permission_hotspot_nearby_wifi_request_body">Para criar um ponto de acesso Wi-Fi, o Sushh precisa de permissão para aceder a dispositivos próximos.</string>
+  <string name="permission_hotspot_nearby_wifi_denied_body">Negaste o acesso a dispositivos próximos, mas o Sushh precisa desta permissão para criar um ponto de acesso Wi-Fi.\n\nConsidera conceder o acesso.</string>
   <string name="wifi_settings_title">Configurações de Wi-Fi</string>
-  <string name="wifi_settings_request_enable_body">Para criar um ponto de acesso Wi-Fi, o Briar precisa de utilizar Wi-Fi. Por favor, ativa-o.</string>
+  <string name="wifi_settings_request_enable_body">Para criar um ponto de acesso Wi-Fi, o Sushh precisa de utilizar Wi-Fi. Por favor, ativa-o.</string>
   <string name="hotspot_tab_manual">Manual</string>
   <!--The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s-->
   <string name="hotspot_scanning_a_qr_code">digitalizando um código QR</string>
   <!--Wi-Fi setup-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_wifi">O teu telemóvel está a fornecer um ponto de acesso Wi-Fi. As pessoas que pretendam descarregar o Briar podem conectar-se ao ponto de acesso adicionando-o nas configurações de Wi-Fi do seus dispositivos utilizando os detalhes abaixo ou através de %s. Quando se tiverem conectado ao ponto de acesso, prime o botão \"Seguinte\".</string>
+  <string name="hotspot_manual_wifi">O teu telemóvel está a fornecer um ponto de acesso Wi-Fi. As pessoas que pretendam descarregar o Sushh podem conectar-se ao ponto de acesso adicionando-o nas configurações de Wi-Fi do seus dispositivos utilizando os detalhes abaixo ou através de %s. Quando se tiverem conectado ao ponto de acesso, prime o botão \"Seguinte\".</string>
   <string name="hotspot_manual_wifi_ssid">Nome da rede</string>
-  <string name="hotspot_qr_wifi">O teu telemóvel está a fornecer um ponto de acesso Wi-Fi. As pessoas que pretendam descarregar o Briar podem conecta-se ao ponto de acesso digitalizando este código QR. Depois de se conectarem ao ponto de acesso, prime o botão \"Seguinte\".</string>
+  <string name="hotspot_qr_wifi">O teu telemóvel está a fornecer um ponto de acesso Wi-Fi. As pessoas que pretendam descarregar o Sushh podem conecta-se ao ponto de acesso digitalizando este código QR. Depois de se conectarem ao ponto de acesso, prime o botão \"Seguinte\".</string>
   <string name="hotspot_no_peers_connected">Nenhum dispositivo conectado</string>
   <plurals name="hotspot_peers_connected">
     <item quantity="one">%s dispositivo conectado</item>
@@ -815,13 +815,13 @@ O teu contacto também pode alterar esta configuração para ambos.</string>
   </plurals>
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_site">O teu telemóvel está a fornecer um ponto de acesso Wi-Fi. As pessoas que estão conectadas ao ponto de acesso podem descarregar o Briar escrevendo a seguinte hiperligação num navegador web ou %s.</string>
+  <string name="hotspot_manual_site">O teu telemóvel está a fornecer um ponto de acesso Wi-Fi. As pessoas que estão conectadas ao ponto de acesso podem descarregar o Sushh escrevendo a seguinte hiperligação num navegador web ou %s.</string>
   <string name="hotspot_manual_site_address">Endereço (URL)</string>
-  <string name="hotspot_qr_site">O teu telemóvel está a fornecer um ponto de acesso Wi-Fi. As pessoas que estão conectadas ao ponto de acesso podem descarregar o Briar através da leitura deste código QR.</string>
-  <!--e.g. Download Briar 1.2.20-->
-  <string name="website_download_title_1">Descarregar o Briar em %s</string>
-  <string name="website_download_intro_1">Alguém nas proximidades partilhou o Briar contigo.</string>
-  <string name="website_download_button">Descarregar o Briar</string>
+  <string name="hotspot_qr_site">O teu telemóvel está a fornecer um ponto de acesso Wi-Fi. As pessoas que estão conectadas ao ponto de acesso podem descarregar o Sushh através da leitura deste código QR.</string>
+  <!--e.g. Download Sushh 1.2.20-->
+  <string name="website_download_title_1">Descarregar o Sushh em %s</string>
+  <string name="website_download_intro_1">Alguém nas proximidades partilhou o Sushh contigo.</string>
+  <string name="website_download_button">Descarregar o Sushh</string>
   <string name="website_download_outro">Quando a descarga estiver concluída, abre o ficheiro descarregado e instala-o.</string>
   <string name="website_troubleshooting_title">Resolução de problemas</string>
   <string name="website_troubleshooting_1">Se não conseguires descarregar a aplicação, experimenta-a com uma aplicação de navegador web diferente.</string>
@@ -830,14 +830,14 @@ O teu contacto também pode alterar esta configuração para ambos.</string>
   <string name="hotspot_help_wifi_title">Problemas com a conexão ao Wi-Fi:</string>
   <string name="hotspot_help_wifi_1">Tenta desativar e voltar a ativar o Wi-Fi em ambos os telemóveis e tenta novamente.</string>
   <string name="hotspot_help_wifi_2">Se o teu telemóvel avisar que o Wi-Fi não tem Internet, escolhe a opção que queres ficar conectado mesmo assim.</string>
-  <string name="hotspot_help_wifi_3">Reinicia o telemóvel que está a executar o ponto de acesso Wi-Fi e, em seguida, inicia o Briar e tenta partilhar novamente.</string>
+  <string name="hotspot_help_wifi_3">Reinicia o telemóvel que está a executar o ponto de acesso Wi-Fi e, em seguida, inicia o Sushh e tenta partilhar novamente.</string>
   <string name="hotspot_help_site_title">Problemas a visitar o sítio web local:</string>
   <string name="hotspot_help_site_1">Verifica novamente se introduziste o endereço exatamente como indicado. Um pequeno erro pode fazer com que falhe.</string>
   <string name="hotspot_help_site_2">Certifica-te que o teu telemóvel ainda está ligado à rede Wi-Fi correta (ver acima) quando tentares aceder ao site.</string>
   <string name="hotspot_help_site_3">Se tiveres uma aplicação de firewall, verifica se esta não está a bloquear o acesso.</string>
-  <string name="hotspot_help_site_4">Se conseguires visitar o site, mas não consegues descarregar a aplicação Briar, experimenta com uma aplicação de navegador web diferente.</string>
+  <string name="hotspot_help_site_4">Se conseguires visitar o site, mas não consegues descarregar a aplicação Sushh, experimenta com uma aplicação de navegador web diferente.</string>
   <string name="hotspot_help_fallback_title">Nada funciona?</string>
-  <string name="hotspot_help_fallback_intro">Podes tentar guardar a aplicação como um ficheiro .apk para partilhar de outra forma. Quando o ficheiro tiver sido transferido para o outro dispositivo, este pode ser utilizado para instalar o Briar.
+  <string name="hotspot_help_fallback_intro">Podes tentar guardar a aplicação como um ficheiro .apk para partilhar de outra forma. Quando o ficheiro tiver sido transferido para o outro dispositivo, este pode ser utilizado para instalar o Sushh.
 		\n\nDica: para partilhares via Bluetooth, pode ser necessário alterar o nome do ficheiro para que este termine com .zip no nome.</string>
   <string name="hotspot_help_fallback_button">Guardar aplicação</string>
   <!--error handling-->
@@ -847,18 +847,18 @@ O teu contacto também pode alterar esta configuração para ambos.</string>
   <string name="hotspot_error_start_callback_failed_unknown">O ponto de acesso falhou ao iniciar com um erro desconhecido. Motivo: %d</string>
   <string name="hotspot_error_start_callback_no_group_info">Falha no arranque do ponto de acesso: nenhuma informação de grupo</string>
   <string name="hotspot_error_web_server_start">Erro ao iniciar servidor web</string>
-  <string name="hotspot_error_web_server_serve">Erro ao apresentar o sítio web.\n\nPor favor, envia um comentário (com dados anónimos) através da aplicação Briar se o problema persistir.</string>
+  <string name="hotspot_error_web_server_serve">Erro ao apresentar o sítio web.\n\nPor favor, envia um comentário (com dados anónimos) através da aplicação Sushh se o problema persistir.</string>
   <string name="hotspot_flag_test">Aviso: esta aplicação foi instalada com o Android Studio e NÃO pode ser instalada noutro dispositivo.</string>
   <string name="hotspot_error_framework_busy">Não é possível iniciar o ponto de acesso.\n\nSe tiveres outro ponto de acesso em execução ou se estiveres a partilhar a conexão à Internet através de Wi-Fi, tenta pará-la e tenta novamente depois.</string>
   <!--Transfer Data via Removable Drives-->
   <string name="removable_drive_menu_title">Conectar via unidade removível</string>
-  <string name="removable_drive_intro">Se não conseguires conectar-te ao teu contacto através da Internet, Wi-Fi ou Bluetooth, o Briar também pode transferir mensagens para uma unidade amovível, como uma pen USB ou um cartão SD.</string>
-  <string name="removable_drive_explanation">Se não conseguires conectar-te ao teu contacto através da Internet, Wi-Fi ou Bluetooth, o Briar também pode transferir mensagens para uma unidade amovível, como uma pen USB ou um cartão SD.\n\nQuando utilizares o botão \"Enviar dados\", todos os dados que estão à espera de ser enviados para o contacto serão gravados na unidade amovível. Isto inclui mensagens privadas, anexos, blogues, fóruns e grupos privados.\n\nTudo será encriptado antes de ser gravado na unidade amovível.\n\nQuando o teu contacto receber a unidade amovível, pode utilizar o botão \"Receber dados\" para importar as mensagens para o Briar.</string>
+  <string name="removable_drive_intro">Se não conseguires conectar-te ao teu contacto através da Internet, Wi-Fi ou Bluetooth, o Sushh também pode transferir mensagens para uma unidade amovível, como uma pen USB ou um cartão SD.</string>
+  <string name="removable_drive_explanation">Se não conseguires conectar-te ao teu contacto através da Internet, Wi-Fi ou Bluetooth, o Sushh também pode transferir mensagens para uma unidade amovível, como uma pen USB ou um cartão SD.\n\nQuando utilizares o botão \"Enviar dados\", todos os dados que estão à espera de ser enviados para o contacto serão gravados na unidade amovível. Isto inclui mensagens privadas, anexos, blogues, fóruns e grupos privados.\n\nTudo será encriptado antes de ser gravado na unidade amovível.\n\nQuando o teu contacto receber a unidade amovível, pode utilizar o botão \"Receber dados\" para importar as mensagens para o Sushh.</string>
   <string name="removable_drive_title_send">Enviar dados</string>
   <string name="removable_drive_title_receive">Receber dados</string>
   <string name="removable_drive_send_intro">Toca no botão abaixo para criar um novo ficheiro com as mensagens encriptadas. Podes escolher onde o ficheiro será guardado.\n\nSe pretenderes guardar o ficheiro numa unidade amovível, insere a unidade agora.</string>
   <string name="removable_drive_send_no_data">Atualmente, não há mensagens à espera de serem enviadas para este contacto.</string>
-  <string name="removable_drive_send_not_supported">Este contacto está a utilizar uma versão antiga do Briar ou um dispositivo antigo que não suporta esta funcionalidade.</string>
+  <string name="removable_drive_send_not_supported">Este contacto está a utilizar uma versão antiga do Sushh ou um dispositivo antigo que não suporta esta funcionalidade.</string>
   <string name="removable_drive_send_button">Escolher ficheiro para exportar</string>
   <string name="removable_drive_ongoing">Aguarda a conclusão da tarefa em curso</string>
   <string name="removable_drive_receive_intro">Toca no botão abaixo para escolheres o ficheiro que o teu contacto te enviou.\n\nSe o ficheiro estiver numa unidade amovível, insere a unidade agora.</string>
@@ -868,9 +868,9 @@ O teu contacto também pode alterar esta configuração para ambos.</string>
   <string name="removable_drive_success_receive_title">Importação bem sucedida</string>
   <string name="removable_drive_success_receive_text">Todas as mensagens encriptadas contidas neste ficheiro foram recebidas.</string>
   <string name="removable_drive_error_send_title">Erro ao exportar dados</string>
-  <string name="removable_drive_error_send_text">Ocorreu um erro ao gravar os dados no ficheiro.\n\nSe estiveres a utilizar uma unidade amovível, certifica-te que está corretamente inserida e tenta novamente.\n\nSe o erro persistir, envia um comentário para informar a equipa do Briar sobre o problema.</string>
+  <string name="removable_drive_error_send_text">Ocorreu um erro ao gravar os dados no ficheiro.\n\nSe estiveres a utilizar uma unidade amovível, certifica-te que está corretamente inserida e tenta novamente.\n\nSe o erro persistir, envia um comentário para informar a equipa do Sushh sobre o problema.</string>
   <string name="removable_drive_error_receive_title">Erro ao importar dados</string>
-  <string name="removable_drive_error_receive_text">O ficheiro selecionado não continha nada que o Briar pudesse reconhecer.\n\nVerifica se escolheste o ficheiro correto.\n\nSe o teu contacto criou o ficheiro há mais de 28 dias, o Briar não o poderá reconhecer.</string>
+  <string name="removable_drive_error_receive_text">O ficheiro selecionado não continha nada que o Sushh pudesse reconhecer.\n\nVerifica se escolheste o ficheiro correto.\n\nSe o teu contacto criou o ficheiro há mais de 28 dias, o Sushh não o poderá reconhecer.</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">Alice</string>
@@ -881,7 +881,7 @@ O teu contacto também pode alterar esta configuração para ambos.</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Olá Bernardo!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Olá Alice! Obrigada por me falares do Briar!</string>
+  <string name="screenshot_message_2">Olá Alice! Obrigada por me falares do Sushh!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Não há problema, espero que gostes 😀</string>
 </resources>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">Bun venit la Briar</string>
+  <string name="setup_title">Bun venit la Sushh</string>
   <string name="setup_name_explanation">Pseudonimul dvs. va fi afișat lângă orice conținut postat. Nu îl veți putea modifica după crearea contului.</string>
   <string name="setup_next">Înainte</string>
   <string name="setup_password_intro">Alegeți o parolă</string>
-  <string name="setup_password_explanation">Contul dvs. Briar este stocat criptat pe dispozitivul dvs., nu în cloud. Dacă uitați parola sau dezinstalați Briar, nu există nicio modalitate de a recupera contul. Alegeți o parolă lungă și greu de ghicit, cum ar fi patru cuvinte aleatorii sau zece litere, numere și simboluri aleatorii.</string>
-  <string name="dnkm_doze_intro">Pentru a primi mesaje, aplicația Briar trebuie să ruleze în fundal.</string>
-  <string name="dnkm_doze_explanation">Pentru a primi mesaje, Briar trebuie să ruleze în fundal. Pentru ca acest lucru să se întâmple, dezactivați optimizarea bateriei.</string>
+  <string name="setup_password_explanation">Contul dvs. Sushh este stocat criptat pe dispozitivul dvs., nu în cloud. Dacă uitați parola sau dezinstalați Sushh, nu există nicio modalitate de a recupera contul. Alegeți o parolă lungă și greu de ghicit, cum ar fi patru cuvinte aleatorii sau zece litere, numere și simboluri aleatorii.</string>
+  <string name="dnkm_doze_intro">Pentru a primi mesaje, aplicația Sushh trebuie să ruleze în fundal.</string>
+  <string name="dnkm_doze_explanation">Pentru a primi mesaje, Sushh trebuie să ruleze în fundal. Pentru ca acest lucru să se întâmple, dezactivați optimizarea bateriei.</string>
   <string name="choose_nickname">Alegeți pseudonimul dvs.</string>
   <string name="choose_password">Alegeți parola dvs.</string>
   <string name="confirm_password">Confirmați parola</string>
@@ -19,45 +19,45 @@
   <string name="create_account_button">Creați cont</string>
   <string name="more_info">Informații suplimentare</string>
   <string name="don_t_ask_again">Nu întreba din nou</string>
-  <string name="dnkm_huawei_protected_text">Atingeți butonul de mai jos și asigurați-vă că aplicația Briar este protejată, verificând acest lucru în fereastra „Aplicații protejate”.</string>
-  <string name="dnkm_huawei_protected_button">Protejați Briar</string>
-  <string name="dnkm_huawei_protected_help">Dacă aplicația Briar nu este adăugată în lista de aplicații protejate, nu va putea rula în fundal.</string>
-  <string name="dnkm_huawei_app_launch_text">Atingeți butonul de mai jos, deschideți ecranul „Lansare aplicație” și asigurați-vă că aplicația Briar este setată pe „Gestionare manuală”.</string>
-  <string name="dnkm_huawei_app_launch_help">Dacă aplicația Briar nu este setată pe „Gestionare manuală” în ecranul „Lansare aplicație”, nu va putea rula în fundal.</string>
-  <string name="dnkm_xiaomi_text">Pentru a rula în fundal, aplicația Briar trebuie să fie blocată în lista de aplicații recente.</string>
-  <string name="dnkm_xiaomi_button">Protejați Briar</string>
-  <string name="dnkm_xiaomi_help">Dacă aplicația Briar nu este blocată în lista de aplicații recente, aceasta nu va putea rula în fundal.</string>
-  <string name="dnkm_xiaomi_dialog_body_old">1. Deschideți lista de aplicații recente (denumită și comutatorul de aplicații)\n\n2. Glisați în jos pe imaginea Briar pentru a afișa pictograma lacăt\n\n3. Dacă lacătul nu este blocat, atingeți-l pentru a-l bloca</string>
-  <string name="dnkm_xiaomi_dialog_body_new">1. Deschideți lista de aplicații recente (denumită și comutatorul de aplicatii)\n\n2. Dacă Briar are o mică imagine cu un lacăt lângă nume atunci nu este nevoie să faceți nimic.\n\n3. Dacă lacătul lipsește, atunci atingeți lung imaginea Briar până când lacătul apare, apoi atingeți-l</string>
-  <string name="dnkm_xiaomi_lock_apps_text">Atingeți butonul de mai jos pentru a deschide setările de securitate. Atingeți „Creșteți viteza”, apoi atingeți „Blocare aplicații” și asigurați-vă că aplicația Briar e setată pe opțiunea „Blocată”.</string>
-  <string name="dnkm_xiaomi_lock_apps_help">Dacă aplicația Briar nu este setată pe opțiunea „Blocată” în ecranul „Blocare aplicații” atunci nu va putea rula în fundal.</string>
-  <string name="dnkm_warning_dozed_1">Briar nu a putut rula în fundal</string>
+  <string name="dnkm_huawei_protected_text">Atingeți butonul de mai jos și asigurați-vă că aplicația Sushh este protejată, verificând acest lucru în fereastra „Aplicații protejate”.</string>
+  <string name="dnkm_huawei_protected_button">Protejați Sushh</string>
+  <string name="dnkm_huawei_protected_help">Dacă aplicația Sushh nu este adăugată în lista de aplicații protejate, nu va putea rula în fundal.</string>
+  <string name="dnkm_huawei_app_launch_text">Atingeți butonul de mai jos, deschideți ecranul „Lansare aplicație” și asigurați-vă că aplicația Sushh este setată pe „Gestionare manuală”.</string>
+  <string name="dnkm_huawei_app_launch_help">Dacă aplicația Sushh nu este setată pe „Gestionare manuală” în ecranul „Lansare aplicație”, nu va putea rula în fundal.</string>
+  <string name="dnkm_xiaomi_text">Pentru a rula în fundal, aplicația Sushh trebuie să fie blocată în lista de aplicații recente.</string>
+  <string name="dnkm_xiaomi_button">Protejați Sushh</string>
+  <string name="dnkm_xiaomi_help">Dacă aplicația Sushh nu este blocată în lista de aplicații recente, aceasta nu va putea rula în fundal.</string>
+  <string name="dnkm_xiaomi_dialog_body_old">1. Deschideți lista de aplicații recente (denumită și comutatorul de aplicații)\n\n2. Glisați în jos pe imaginea Sushh pentru a afișa pictograma lacăt\n\n3. Dacă lacătul nu este blocat, atingeți-l pentru a-l bloca</string>
+  <string name="dnkm_xiaomi_dialog_body_new">1. Deschideți lista de aplicații recente (denumită și comutatorul de aplicatii)\n\n2. Dacă Sushh are o mică imagine cu un lacăt lângă nume atunci nu este nevoie să faceți nimic.\n\n3. Dacă lacătul lipsește, atunci atingeți lung imaginea Sushh până când lacătul apare, apoi atingeți-l</string>
+  <string name="dnkm_xiaomi_lock_apps_text">Atingeți butonul de mai jos pentru a deschide setările de securitate. Atingeți „Creșteți viteza”, apoi atingeți „Blocare aplicații” și asigurați-vă că aplicația Sushh e setată pe opțiunea „Blocată”.</string>
+  <string name="dnkm_xiaomi_lock_apps_help">Dacă aplicația Sushh nu este setată pe opțiunea „Blocată” în ecranul „Blocare aplicații” atunci nu va putea rula în fundal.</string>
+  <string name="dnkm_warning_dozed_1">Sushh nu a putut rula în fundal</string>
   <!--Login-->
   <string name="enter_password">Parola</string>
   <string name="try_again">Parolă greșită, încercați din nou</string>
   <string name="dialog_title_cannot_check_password">Nu se poate verifica parola</string>
-  <string name="dialog_message_cannot_check_password">Briar nu poate verifica parola. Încercați să reporniți dispozitivul pentru a rezolva această problemă.</string>
-  <string name="sign_in_title">Conectați-vă la Briar</string>
+  <string name="dialog_message_cannot_check_password">Sushh nu poate verifica parola. Încercați să reporniți dispozitivul pentru a rezolva această problemă.</string>
+  <string name="sign_in_title">Conectați-vă la Sushh</string>
   <string name="sign_in_button">Autentificare</string>
   <string name="forgotten_password">V-ați uitat parola?</string>
   <string name="dialog_title_lost_password">Parolă uitată</string>
-  <string name="dialog_message_lost_password">Contul dvs. Briar este stocat criptat pe dispozitivul dvs., nu în cloud, prin urmare nu putem reseta parola dvs. Doriți să vă ștergeți contul și să o luați de la capăt? Atenție: identitățile, contactele și mesajele dvs. vor fi pierdute definitiv.</string>
-  <string name="startup_failed_activity_title">Eroare de pornire Briar</string>
-  <string name="startup_failed_clock_error">Briar nu a putut porni pentru că ceasul dispozitivului dvs. nu indică ora corectă. Vă rugăm să setați ora corectă și să încercați din nou.</string>
-  <string name="startup_failed_db_error">Briar nu a reușit să deschidă baza de date care conține contul, contactele și mesajele dvs.\n\nRealizați un upgrade la cea mai recentă versiune a aplicației și încercați din nou sau configurați un cont nou alegând „Mi-am uitat parola” în momentul solicitării parolei.</string>
+  <string name="dialog_message_lost_password">Contul dvs. Sushh este stocat criptat pe dispozitivul dvs., nu în cloud, prin urmare nu putem reseta parola dvs. Doriți să vă ștergeți contul și să o luați de la capăt? Atenție: identitățile, contactele și mesajele dvs. vor fi pierdute definitiv.</string>
+  <string name="startup_failed_activity_title">Eroare de pornire Sushh</string>
+  <string name="startup_failed_clock_error">Sushh nu a putut porni pentru că ceasul dispozitivului dvs. nu indică ora corectă. Vă rugăm să setați ora corectă și să încercați din nou.</string>
+  <string name="startup_failed_db_error">Sushh nu a reușit să deschidă baza de date care conține contul, contactele și mesajele dvs.\n\nRealizați un upgrade la cea mai recentă versiune a aplicației și încercați din nou sau configurați un cont nou alegând „Mi-am uitat parola” în momentul solicitării parolei.</string>
   <string name="startup_failed_data_too_old_error">Contul dvs. a fost creat cu o versiune veche a acestei aplicații și nu poate fi deschis cu această versiune. Trebuie fie să reinstalați versiunea veche, fie să creați un cont nou selectând „Mi-am uitat parola” în momentul solicitării parolei.</string>
   <string name="startup_failed_data_too_new_error">Contul dvs. a fost creat cu o versiune mai nouă a acestei aplicații și nu poate fi deschis cu această versiune. Vă rugăm să realizați un upgrade la cea mai recentă versiune și să încercați din nou.</string>
-  <string name="startup_failed_service_error">Briar nu a reușit să pornească o componentă necesară. Vă rugăm să faceți un upgrade la cea mai recentă versiune a aplicației și să încercați din nou.</string>
+  <string name="startup_failed_service_error">Sushh nu a reușit să pornească o componentă necesară. Vă rugăm să faceți un upgrade la cea mai recentă versiune a aplicației și să încercați din nou.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Aceasta este o versiune de test Briar. Contul dvs. va expira în decurs de %d zi și nu poate fi reînnoit.</item>
-    <item quantity="few">Aceasta este o versiune de test Briar. Contul dvs. va expira în %d zile și nu poate fi reînnoit.</item>
-    <item quantity="other">Aceasta este o versiune de test Briar. Contul dvs. va expira în %d zile și nu poate fi reînnoit.</item>
+    <item quantity="one">Aceasta este o versiune de test Sushh. Contul dvs. va expira în decurs de %d zi și nu poate fi reînnoit.</item>
+    <item quantity="few">Aceasta este o versiune de test Sushh. Contul dvs. va expira în %d zile și nu poate fi reînnoit.</item>
+    <item quantity="other">Aceasta este o versiune de test Sushh. Contul dvs. va expira în %d zile și nu poate fi reînnoit.</item>
   </plurals>
   <string name="expiry_date_reached">Acest program software a expirat.\nVă mulțumim că l-ați testat!</string>
-  <string name="download_briar">Pentru a putea să utilizați Briar în continuare, descărcați cea mai recentă versiune.</string>
+  <string name="download_briar">Pentru a putea să utilizați Sushh în continuare, descărcați cea mai recentă versiune.</string>
   <string name="create_new_account">Va trebui să creați un cont nou, dar puteți să folosiți același pseudonim.</string>
   <string name="download_briar_button">Descărcați cea mai recentă versiune</string>
-  <string name="old_android_expiry_date_reached">Briar nu mai funcționează pe Android 4.\nInstalați Briar pe un dispozitiv mai nou.</string>
+  <string name="old_android_expiry_date_reached">Sushh nu mai funcționează pe Android 4.\nInstalați Sushh pe un dispozitiv mai nou.</string>
   <string name="old_android_delete_account">Puteți atinge butonul de mai jos pentru a șterge contul dvs. de pe acest dispozitiv.</string>
   <string name="delete_account_button">Ștergeți contul</string>
   <string name="startup_open_database">Se decriptează baza de date...</string>
@@ -74,43 +74,43 @@
   <string name="lock_button">Blocați aplicația</string>
   <string name="settings_button">Setări</string>
   <string name="sign_out_button">Deconectare</string>
-  <string name="transports_onboarding_text">Atingeți aici pentru a controla modul în care Briar se conectează la contacte.</string>
+  <string name="transports_onboarding_text">Atingeți aici pentru a controla modul în care Sushh se conectează la contacte.</string>
   <!--Transports: Tor-->
   <string name="transport_tor">Internet</string>
   <string name="tor_device_status_online_wifi">Telefonul dvs. are acces internet prin Wi-Fi</string>
   <string name="tor_device_status_online_mobile">Telefonul dvs. are acces internet prin date mobile</string>
   <string name="tor_device_status_offline">Telefonul dvs. nu are acces internet</string>
-  <string name="tor_plugin_status_enabling">Briar se conectează la internet</string>
-  <string name="tor_plugin_status_active">Aplicația Briar este conectată la internet</string>
-  <string name="tor_plugin_status_inactive">Briar nu se poate conecta la internet</string>
-  <string name="tor_plugin_status_disabled">Aplicația Briar este configurată să nu se conecteze la internet</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Aplicația Briar este configurată să nu folosească date mobile</string>
-  <string name="tor_plugin_status_disabled_battery">Aplicația Briar este configurată să nu folosească internetul când funcționează pe baterie</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Aplicația Briar este configurată să nu folosească internetul în această țară</string>
+  <string name="tor_plugin_status_enabling">Sushh se conectează la internet</string>
+  <string name="tor_plugin_status_active">Aplicația Sushh este conectată la internet</string>
+  <string name="tor_plugin_status_inactive">Sushh nu se poate conecta la internet</string>
+  <string name="tor_plugin_status_disabled">Aplicația Sushh este configurată să nu se conecteze la internet</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Aplicația Sushh este configurată să nu folosească date mobile</string>
+  <string name="tor_plugin_status_disabled_battery">Aplicația Sushh este configurată să nu folosească internetul când funcționează pe baterie</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Aplicația Sushh este configurată să nu folosească internetul în această țară</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Wi-Fi</string>
   <string name="transport_lan_long">Aceeași rețea Wi-Fi</string>
   <string name="lan_device_status_on">Telefonul dvs. este conectat la Wi-Fi</string>
   <string name="lan_device_status_off">Telefonul dvs. nu este conectat la Wi-Fi</string>
-  <string name="lan_plugin_status_enabling">Briar se conectează la rețeaua Wi-Fi</string>
-  <string name="lan_plugin_status_active">Aplicația Briar este conectată la rețeaua Wi-Fi</string>
-  <string name="lan_plugin_status_inactive">Briar nu se poate conecta la rețeaua Wi-Fi</string>
-  <string name="lan_plugin_status_disabled">Aplicația Briar este configurată să nu folosească rețeaua Wi-Fi</string>
+  <string name="lan_plugin_status_enabling">Sushh se conectează la rețeaua Wi-Fi</string>
+  <string name="lan_plugin_status_active">Aplicația Sushh este conectată la rețeaua Wi-Fi</string>
+  <string name="lan_plugin_status_inactive">Sushh nu se poate conecta la rețeaua Wi-Fi</string>
+  <string name="lan_plugin_status_disabled">Aplicația Sushh este configurată să nu folosească rețeaua Wi-Fi</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">Funcția Bluetooth a telefonului dvs. este pornită</string>
   <string name="bt_device_status_off">Funcția Bluetooth a telefonului dvs. este oprită</string>
-  <string name="bt_plugin_status_enabling">Briar se conectează la Bluetooth</string>
-  <string name="bt_plugin_status_active">Aplicația Briar este conectată la Bluetooth</string>
-  <string name="bt_plugin_status_inactive">Briar nu se poate conecta la Bluetooth</string>
-  <string name="bt_plugin_status_disabled">Aplicația Briar este configurată să nu folosească Bluetooth</string>
+  <string name="bt_plugin_status_enabling">Sushh se conectează la Bluetooth</string>
+  <string name="bt_plugin_status_active">Aplicația Sushh este conectată la Bluetooth</string>
+  <string name="bt_plugin_status_inactive">Sushh nu se poate conecta la Bluetooth</string>
+  <string name="bt_plugin_status_disabled">Aplicația Sushh este configurată să nu folosească Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">V-ați deconectat din Briar</string>
+  <string name="reminder_notification_title">V-ați deconectat din Sushh</string>
   <string name="reminder_notification_text">Atingeți pentru a vă reconecta.</string>
-  <string name="reminder_notification_channel_title">Memento de conectare la Briar</string>
+  <string name="reminder_notification_channel_title">Memento de conectare la Sushh</string>
   <string name="reminder_notification_dismiss">Renunțați</string>
-  <string name="ongoing_notification_title">Sunteți conectat la Briar</string>
-  <string name="ongoing_notification_text">Atingeți pentru a deschide Briar</string>
+  <string name="ongoing_notification_title">Sunteți conectat la Sushh</string>
+  <string name="ongoing_notification_text">Atingeți pentru a deschide Sushh</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Mesaj privat nou.</item>
     <item quantity="few">%d mesaje private noi.</item>
@@ -226,7 +226,7 @@
   <string name="save_image_success">Imaginea a fost salvată</string>
   <string name="save_image_error">Nu s-a putut salva imaginea</string>
   <string name="dialog_title_no_image_support">Imagini indisponibile</string>
-  <string name="dialog_message_no_image_support">Versiunea Briar a contactului dvs. nu acceptă încă imaginile. Odată ce realizează un upgrade, veți vedea o altă pictogramă.</string>
+  <string name="dialog_message_no_image_support">Versiunea Sushh a contactului dvs. nu acceptă încă imaginile. Odată ce realizează un upgrade, veți vedea o altă pictogramă.</string>
   <string name="dialog_title_image_support">Acum puteți trimite imagini acestui contact</string>
   <string name="dialog_message_image_support">Atingeți această pictogramă pentru a atașa imagini.</string>
   <string name="messaging_too_many_attachments_toast">Doar primele %d imagini vor fi trimise</string>
@@ -243,10 +243,10 @@
   <string name="contact_already_exists">Contactul %s există deja</string>
   <string name="contact_already_exists_general">Contactul există deja</string>
   <string name="qr_code_invalid">Codul QR este nevalid!</string>
-  <string name="qr_code_too_old_1">Codul QR pe care l-ați scanat provine de la o versiune Briar mai veche.\n\nSolicitați contactului să actualizeze aplicația la cea mai recentă versiune, după care încercați din nou.</string>
-  <string name="qr_code_too_new_1">Codul QR pe care l-ați scanat provine de la o versiune Briar mai nouă.\n\nActualizați aplicația la cea mai recentă versiune, după care încercați din nou.</string>
-  <string name="mailbox_qr_code_for_contact">Codul QR pe care l-ați scanat provine de la o Cutie poștală Briar.\n\nDacă doriți să conectați Cutia poștală, vă rugăm să mergeți în Setări &gt; Cutie Poștală în meniul Briar..</string>
-  <string name="qr_code_format_unknown">Codul QR pe care l-ați scanat nu este menit pentru a adăuga un contact Briar.\n\nVă rugăm să scanați codul QR afișat pe ecranul contactului dumneavoastră.</string>
+  <string name="qr_code_too_old_1">Codul QR pe care l-ați scanat provine de la o versiune Sushh mai veche.\n\nSolicitați contactului să actualizeze aplicația la cea mai recentă versiune, după care încercați din nou.</string>
+  <string name="qr_code_too_new_1">Codul QR pe care l-ați scanat provine de la o versiune Sushh mai nouă.\n\nActualizați aplicația la cea mai recentă versiune, după care încercați din nou.</string>
+  <string name="mailbox_qr_code_for_contact">Codul QR pe care l-ați scanat provine de la o Cutie poștală Sushh.\n\nDacă doriți să conectați Cutia poștală, vă rugăm să mergeți în Setări &gt; Cutie Poștală în meniul Sushh..</string>
+  <string name="qr_code_format_unknown">Codul QR pe care l-ați scanat nu este menit pentru a adăuga un contact Sushh.\n\nVă rugăm să scanați codul QR afișat pe ecranul contactului dumneavoastră.</string>
   <string name="camera_error">Eroare cameră</string>
   <string name="connecting_to_device">Se conectează la dispozitiv\u2026</string>
   <string name="authenticating_with_device">Se realizează autentificarea cu dispozitivul\u2026</string>
@@ -268,7 +268,7 @@
   <string name="add_contact_choose_a_nickname">Introduceți un pseudonim</string>
   <string name="nickname_intro">Dați un nume contactului. Doar dvs. îl puteți vedea.</string>
   <string name="your_link">Trimiteți acest link contactului pe care doriți să-l adăugați</string>
-  <string name="link_clip_label">Link Briar</string>
+  <string name="link_clip_label">Link Sushh</string>
   <string name="link_copied_toast">Link copiat</string>
   <string name="adding_contact_error">A apărut o eroare la adăugarea contactului.</string>
   <string name="pending_contact_requests_snackbar">Există cereri de contact în așteptare</string>
@@ -283,7 +283,7 @@
   <string name="own_link_error">Introduceți linkul contactului, nu al dvs.</string>
   <string name="nickname_missing">Introduceți un pseudonim</string>
   <string name="invalid_link">Link nevalid</string>
-  <string name="unsupported_link">Linkul provine de la o versiune Briar mai nouă. Actualizați aplicația la cea mai recentă versiune, după care încercați din nou.</string>
+  <string name="unsupported_link">Linkul provine de la o versiune Sushh mai nouă. Actualizați aplicația la cea mai recentă versiune, după care încercați din nou.</string>
   <string name="intent_own_link">Ați deschis propriul link. Folosiți-l pe cel trimis de contactul pe care doriți să-l adăugați!</string>
   <string name="missing_link">Introduceți un link</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -319,7 +319,7 @@
   <string name="peer_trust_level_stranger">Necunoscut</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Prezentați contactele dvs.</string>
-  <string name="introduction_onboarding_text">Prezentați contactele dvs. unele altora pentru a se putea conecta prin Briar.</string>
+  <string name="introduction_onboarding_text">Prezentați contactele dvs. unele altora pentru a se putea conecta prin Sushh.</string>
   <string name="introduction_menu_item">Realizați prezentarea</string>
   <string name="introduction_activity_title">Selectați un contact</string>
   <string name="introduction_not_possible">Aveți deja o prezentare în curs cu aceste contacte. Așteptați întâi finalizarea acesteia. Dacă dvs. sau contactele sunteți rareori online, este posibil ca acest proces să dureze ceva timp.</string>
@@ -519,7 +519,7 @@
   <string name="change_profile_picture_failed_message">Ne pare rău, dar ceva nu a funcționat în momentul actualizării pozei de profil</string>
   <!--Settings Display-->
   <string name="pref_language_title">Limbă și regiune</string>
-  <string name="pref_language_changed">Această setare se va aplica după repornirea Briar. Deconectați-vă din Briar și reporniți aplicația.</string>
+  <string name="pref_language_changed">Această setare se va aplica după repornirea Sushh. Deconectați-vă din Sushh și reporniți aplicația.</string>
   <string name="pref_language_default">Setări implicite sistem</string>
   <string name="display_settings_title">Afișaj</string>
   <string name="pref_theme_title">Temă</string>
@@ -537,7 +537,7 @@
   <string name="tor_network_setting_without_bridges">Folosiți Tor fără punți</string>
   <string name="tor_network_setting_with_bridges">Folosiți Tor cu punți</string>
   <string name="tor_network_setting_never">Nu vă conectați la internet</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Automat: %1$s (în %2$s)</string>
   <string name="tor_mobile_data_title">Utilizați date mobile</string>
   <string name="tor_only_when_charging_title">Conectați-vă la internet doar când dispozitivul se încarcă</string>
@@ -545,11 +545,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Securitate</string>
   <string name="pref_lock_title">Blocare aplicație</string>
-  <string name="pref_lock_summary">Folosiți blocarea ecranului dispozitivului pentru protejarea Briar cand sunteți autentificat</string>
+  <string name="pref_lock_summary">Folosiți blocarea ecranului dispozitivului pentru protejarea Sushh cand sunteți autentificat</string>
   <string name="pref_lock_disabled_summary">Pentru a utiliza această funcție, setați blocarea ecranului dispozitivului dvs.</string>
   <string name="pref_lock_timeout_title">Durata de inactivitate până la blocarea ecranului</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Când nu utilizați Briar, se va bloca automat după %s</string>
+  <string name="pref_lock_timeout_summary">Când nu utilizați Sushh, se va bloca automat după %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 minut</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -561,7 +561,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 oră</string>
   <string name="pref_lock_timeout_never">Niciodată</string>
-  <string name="pref_lock_timeout_never_summary">Nu blocați Briar automat niciodată</string>
+  <string name="pref_lock_timeout_never_summary">Nu blocați Sushh automat niciodată</string>
   <string name="change_password">Modificați parola</string>
   <string name="current_password">Parola curentă</string>
   <string name="choose_new_password">Parola nouă</string>
@@ -569,7 +569,7 @@
   <string name="password_changed">Parola a fost modificată.</string>
   <string name="panic_setting">Setarea butonului de panică</string>
   <string name="panic_setting_title">Buton de panică</string>
-  <string name="panic_setting_hint">Configurați modul în care va reacționa Briar când folosiți o aplicație de buton de panică</string>
+  <string name="panic_setting_hint">Configurați modul în care va reacționa Sushh când folosiți o aplicație de buton de panică</string>
   <string name="panic_app_setting_title">Aplicație de buton de panică</string>
   <string name="unknown_app">aplicație necunoscută</string>
   <string name="panic_app_setting_summary">Nu a fost setată nicio aplicație</string>
@@ -578,9 +578,9 @@
   <string name="dialog_message_connect_panic_app">Sigur doriți să permiteți ca %1$s să declanșeze acțiuni distructive pentru butonul de panică?</string>
   <string name="panic_setting_destructive_action">Acțiuni distructive</string>
   <string name="panic_setting_signout_title">Deconectare</string>
-  <string name="panic_setting_signout_summary">Deconectați-vă din Briar la apăsarea unui buton de panică</string>
+  <string name="panic_setting_signout_summary">Deconectați-vă din Sushh la apăsarea unui buton de panică</string>
   <string name="purge_setting_title">Ștergerea contului</string>
-  <string name="purge_setting_summary">Ștergeți contul Briar la apăsarea unui buton de panică. Atenție: aceasta acțiune va șterge definitiv identitatea, contactele și mesajele dvs.</string>
+  <string name="purge_setting_summary">Ștergeți contul Sushh la apăsarea unui buton de panică. Atenție: aceasta acțiune va șterge definitiv identitatea, contactele și mesajele dvs.</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Notificări</string>
   <string name="notify_sign_in_title">Reamintește-mi să mă conectez</string>
@@ -607,28 +607,28 @@
   <string name="mailbox_settings_title">Cutia poștală</string>
   <string name="mailbox_setup_title">Configurarea cutiei poștale</string>
   <string name="mailbox_setup_intro">Având o cutie poștală, contactele dvs. pot să vă trimită mesaje în timp ce sunteți offline. Cutia poștală va primi mesajele și le va stoca până când intrați online.\n
-		\nPuteți instala aplicația de cutie poștală Briar pe un dispozitiv de rezervă. Țineți-l conectat la o sursă de curent și la Wi-Fi, astfel încât să fie întotdeauna online.</string>
-  <string name="mailbox_setup_download">În primul rând, instalați aplicația de cutie poștală pe un alt dispozitiv căutând „Cutie poștală Briar” în Google Play sau de unde ați descărcat Briar.\n
-		\nApoi conectați cutia poștală la Briar prin scanarea codului QR afișat de aplicația de cutie poștală.</string>
+		\nPuteți instala aplicația de cutie poștală Sushh pe un dispozitiv de rezervă. Țineți-l conectat la o sursă de curent și la Wi-Fi, astfel încât să fie întotdeauna online.</string>
+  <string name="mailbox_setup_download">În primul rând, instalați aplicația de cutie poștală pe un alt dispozitiv căutând „Cutie poștală Sushh” în Google Play sau de unde ați descărcat Sushh.\n
+		\nApoi conectați cutia poștală la Sushh prin scanarea codului QR afișat de aplicația de cutie poștală.</string>
   <string name="mailbox_setup_download_link">Partajați linkul de descărcare</string>
   <string name="mailbox_setup_button_scan">Scanați codul QR al cutiei poștale</string>
   <string name="permission_camera_qr_denied_body">Ați refuzat accesul la cameră, dar scanarea unui cod QR necesită utilizarea camerei.\n\nLuați în considerare acordarea accesului.</string>
   <string name="mailbox_setup_connecting">Se conectează la Cutia poștală…</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">Asta ar putea dura până la %1s</string>
-  <string name="mailbox_qr_code_too_old">Codul QR pe care l-ați scanat provine de la o versiune de Cutie poștală Briar mai veche.\n\nActualizați Cutia poștală la cea mai recentă versiune, după care încercați din nou.</string>
-  <string name="mailbox_qr_code_too_new">Codul QR pe care l-ați scanat provine de la o versiune de Cutie poștală Briar mai nouă.\n\nActualizați Briar la cea mai recentă versiune, după care încercați din nou.</string>
-  <string name="contact_qr_code_for_mailbox">Codul QR pe care l-ați scanat este pentru a adăuga un contact Briar.\n\nDacă doriți să adăugați un contact, vă rugăm să mergeți la lista de contacte și să apăsați +.</string>
-  <string name="mailbox_setup_qr_code_wrong_description">Codul QR pe care l-ați scanat nu provine de la o Cutie poștală Briar.\n\nVă rugăm să deschideți aplicația de Cutie poștală Briar pe dispozitivul pe care este instalată și scanați codul QR pe care îl afișează.</string>
+  <string name="mailbox_qr_code_too_old">Codul QR pe care l-ați scanat provine de la o versiune de Cutie poștală Sushh mai veche.\n\nActualizați Cutia poștală la cea mai recentă versiune, după care încercați din nou.</string>
+  <string name="mailbox_qr_code_too_new">Codul QR pe care l-ați scanat provine de la o versiune de Cutie poștală Sushh mai nouă.\n\nActualizați Sushh la cea mai recentă versiune, după care încercați din nou.</string>
+  <string name="contact_qr_code_for_mailbox">Codul QR pe care l-ați scanat este pentru a adăuga un contact Sushh.\n\nDacă doriți să adăugați un contact, vă rugăm să mergeți la lista de contacte și să apăsați +.</string>
+  <string name="mailbox_setup_qr_code_wrong_description">Codul QR pe care l-ați scanat nu provine de la o Cutie poștală Sushh.\n\nVă rugăm să deschideți aplicația de Cutie poștală Sushh pe dispozitivul pe care este instalată și scanați codul QR pe care îl afișează.</string>
   <string name="mailbox_setup_already_paired_title">Cutia poștală este deja conectată</string>
   <string name="mailbox_setup_already_paired_description">Anulați conectarea cutiei poștale la celălalt dispozitiv și încercați din nou.</string>
   <string name="mailbox_setup_io_error_title">Nu s-a reușit conectarea</string>
   <string name="mailbox_setup_io_error_description">Asigurați-vă că ambele dispozitive sunt conectate la internet și încercați din nou.</string>
   <string name="mailbox_setup_assertion_error_title">Eroare de cutie poștală</string>
-  <string name="mailbox_setup_assertion_error_description">Trimiteți feedback (cu date anonime) prin intermediul aplicației Briar dacă problema persistă.</string>
+  <string name="mailbox_setup_assertion_error_description">Trimiteți feedback (cu date anonime) prin intermediul aplicației Sushh dacă problema persistă.</string>
   <string name="mailbox_setup_camera_error_description">Nu s-a putut accesa camera. Încercați din nou, poate după repornirea dispozitivului.</string>
   <string name="mailbox_setup_paired_title">Conectată</string>
-  <string name="mailbox_setup_paired_description">Cutia dvs. poștală a fost conectată la Briar.\n
+  <string name="mailbox_setup_paired_description">Cutia dvs. poștală a fost conectată la Sushh.\n
 		\nȚineți conectată cutia poștală la o sursă de alimentare și la Wi-Fi, astfel încât să fie întotdeauna online.</string>
   <string name="tor_offline_title">Offline</string>
   <string name="tor_offline_description">Asigurați-vă că acest dispozitiv este online și că sunt permise conexiunile la internet.\n
@@ -636,10 +636,10 @@
   <string name="tor_offline_button_check">Verificați setările de conectare</string>
   <string name="mailbox_status_title">Starea cutiei poștale</string>
   <string name="mailbox_status_connected_title">Cutia poștală este în funcțiune</string>
-  <string name="mailbox_status_problem_title">Briar nu se poate conecta la cutia poștală</string>
+  <string name="mailbox_status_problem_title">Sushh nu se poate conecta la cutia poștală</string>
   <string name="mailbox_status_failure_title">Cutia poștală nu este disponibilă</string>
-  <string name="mailbox_status_app_too_old_title">Versiunea Briar este prea veche</string>
-  <string name="mailbox_status_app_too_old_message">Actualizați aplicația Briar la cea mai nouă versiune și încercați din nou.</string>
+  <string name="mailbox_status_app_too_old_title">Versiunea Sushh este prea veche</string>
+  <string name="mailbox_status_app_too_old_message">Actualizați aplicația Sushh la cea mai nouă versiune și încercați din nou.</string>
   <string name="mailbox_status_mailbox_too_old_title">Versiunea cutiei poștale este prea veche</string>
   <string name="mailbox_status_mailbox_too_old_message">Actualizați cutia poștală la cea mai nouă versiune și încercați din nou.</string>
   <string name="mailbox_status_check_button">Verificați conexiunea</string>
@@ -650,12 +650,12 @@
   <string name="mailbox_status_unlink_button">Deconectați</string>
   <string name="mailbox_status_unlink_dialog_title">Deconectați cutia poștală?</string>
   <string name="mailbox_status_unlink_dialog_question">Sigur doriți deconectarea cutiei poștale?</string>
-  <string name="mailbox_status_unlink_dialog_warning">În cazul în care deconectați cutia poștală, nu veți mai putea primii mesaje cât timp Briar este offline.</string>
+  <string name="mailbox_status_unlink_dialog_warning">În cazul în care deconectați cutia poștală, nu veți mai putea primii mesaje cât timp Sushh este offline.</string>
   <string name="mailbox_status_unlink_no_wipe_title">Cutia dvs. poștală a fost deconectată.</string>
   <string name="mailbox_status_unlink_no_wipe_message">Data viitoare când veți avea acces la dispozitivul pe care aveți cutia poștală, deschideți aplicația de cutie poștală și atingeți butonul „Deconectare” pentru a finaliza procesul.\n\nDacă nu mai aveți acces la dispozitivul pe care aveți cutia poștală, nu vă faceți griji. Datele dvs. sunt criptate, astfel încât vor rămâne în siguranță chiar dacă nu finalizați procesul.</string>
   <string name="mailbox_status_unlink_success">Cutia dvs. poștală a fost deconectată</string>
-  <string name="mailbox_error_notification_channel_title">Problemă cu cutia poștală Briar</string>
-  <string name="mailbox_error_notification_title">Cutia poștală Briar nu este disponibilă</string>
+  <string name="mailbox_error_notification_channel_title">Problemă cu cutia poștală Sushh</string>
+  <string name="mailbox_error_notification_title">Cutia poștală Sushh nu este disponibilă</string>
   <string name="mailbox_error_notification_text">Atingeți pentru a remedia problema.</string>
   <string name="mailbox_error_wizard_button">Remediați problema</string>
   <string name="mailbox_error_wizard_title">Expert de depanare a cutiei poștale</string>
@@ -671,16 +671,16 @@
   <string name="mailbox_error_wizard_answer1_4">Văd „Dispozitiv offline” (Device offlie)</string>
   <string name="mailbox_error_wizard_info1_1_1">Deconectați cutia poștală folosind butonul de mai jos, apoi urmați instrucțiunile de pe dispozitivul pe care aveți cutia poștală pentru a o conecta din nou.</string>
   <string name="mailbox_error_wizard_info_1_1_2">Deconectați cutia poștală folosind butonul de mai jos, apoi scanați codul QR pentru a o conecta din nou.</string>
-  <string name="mailbox_error_wizard_info1_1_3">Folosiți butonul de mai jos pentru verificarea conexiunii dintre Briar și cutia poștală.\n\n
+  <string name="mailbox_error_wizard_info1_1_3">Folosiți butonul de mai jos pentru verificarea conexiunii dintre Sushh și cutia poștală.\n\n
 		Dacă apare din nou o eroare de conectare:\n
-		\u2022 Verificați dacă aplicațiile de cutie poștală și Briar sunt actualizate la cea mai recentă versiune.\n
-		\u2022 Reporniți dispozitivele pe care sunt instalate aplicațiile de cutie poștală și Briar și încercați din nou.</string>
-  <string name="mailbox_error_wizard_info1_1_4">Verificați dacă dispozitivul pe care este instalată cutia poștală este conectat corect la internet.\n\nVerificați dacă ceasul de pe dispozitivul pe care este aplcația de cutie poștală indică ora, data și fusul orar corecte.\n\nVerificați dacă aplicațiile de cutie poștală și Briar sunt actualizate la cea mai recentă versiune.\n\nReporniți dispozitivele pe care aveți aplicațiile de cutie poștală și Briar și încercați din nou.</string>
+		\u2022 Verificați dacă aplicațiile de cutie poștală și Sushh sunt actualizate la cea mai recentă versiune.\n
+		\u2022 Reporniți dispozitivele pe care sunt instalate aplicațiile de cutie poștală și Sushh și încercați din nou.</string>
+  <string name="mailbox_error_wizard_info1_1_4">Verificați dacă dispozitivul pe care este instalată cutia poștală este conectat corect la internet.\n\nVerificați dacă ceasul de pe dispozitivul pe care este aplcația de cutie poștală indică ora, data și fusul orar corecte.\n\nVerificați dacă aplicațiile de cutie poștală și Sushh sunt actualizate la cea mai recentă versiune.\n\nReporniți dispozitivele pe care aveți aplicațiile de cutie poștală și Sushh și încercați din nou.</string>
   <string name="mailbox_error_wizard_info2">Reveniți la acest ecran atunci când aveți acces la dispozitiv.</string>
   <string name="mailbox_error_wizard_info3">Deconectați cutia poștală folosind butonul de mai jos\n\nDupă ce ați deconectat vechea cutie poștală, puteți configura una nouă în orice moment.</string>
   <!--About-->
   <string name="about_title">Despre</string>
-  <string name="briar_version">Versiune Briar: %s</string>
+  <string name="briar_version">Versiune Sushh: %s</string>
   <string name="tor_version">Versiune Tor: %s</string>
   <string name="links">Linkuri</string>
   <string name="briar_website">\u2022 <a href="">Site</a></string>
@@ -705,7 +705,7 @@
   <!--Settings Actions-->
   <string name="pref_category_actions">Actiuni</string>
   <string name="share_app_link">Partajează legătură de descărcare</string>
-  <string name="share_app_link_text">Descarcă Briar de la %s</string>
+  <string name="share_app_link_text">Descarcă Sushh de la %s</string>
   <string name="send_feedback">Trimiteți feedback</string>
   <!--Link Warning-->
   <string name="link_warning_title">Avertisment privind un link</string>
@@ -713,10 +713,10 @@
   <string name="link_warning_text">Acest lucru poate duce la identificarea dvs. Gândiți-vă dacă aveți încredere în persoana care v-a trimis acest link și luați în considerare deschiderea acestuia cu browserul Tor.</string>
   <string name="link_warning_open_link">Deschideți link</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Raport de cădere a aplicației Briar</string>
-  <string name="briar_crashed">Ne pare rău, dar aplicația Briar a căzut</string>
+  <string name="crash_report_title">Raport de cădere a aplicației Sushh</string>
+  <string name="briar_crashed">Ne pare rău, dar aplicația Sushh a căzut</string>
   <string name="not_your_fault">Nu este vina dvs.</string>
-  <string name="please_send_report">Vă rugăm să ne ajutați să îmbunătățim Briar trimițându-ne un raport de cădere a aplicației.</string>
+  <string name="please_send_report">Vă rugăm să ne ajutați să îmbunătățim Sushh trimițându-ne un raport de cădere a aplicației.</string>
   <string name="report_is_encrypted">Vă asigurăm că raportul este criptat și trimis securizat.</string>
   <string name="feedback_title">Feedback</string>
   <string name="describe_crash">Descrieți ce s-a întâmplat (opțional)</string>
@@ -741,72 +741,72 @@
   <string name="close">Închideți</string>
   <string name="dev_report_sending">Se trimite feedback…</string>
   <string name="dev_report_sent">Feedback trimis</string>
-  <string name="dev_report_saved">Raport salvat. Va fi trimis data viitoare când vă conectați la Briar.</string>
+  <string name="dev_report_saved">Raport salvat. Va fi trimis data viitoare când vă conectați la Sushh.</string>
   <string name="dev_report_error">Eroare: trimiterea raportului a eșuat</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">În curs de deconectare din Briar...</string>
+  <string name="progress_title_logout">În curs de deconectare din Sushh...</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">S-a detectat o suprapunere de ecran</string>
-  <string name="screen_filter_body">O altă aplicație este suprapusă pe Briar. Pentru a asigura securitatea dvs., Briar nu va reacționa la atingeri în timpul suprapunerii altei aplicații..\n\nAplicațiile următoare ar putea fi suprapuse:\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">O altă aplicație este suprapusă pe Briar. Pentru a asigura securitatea dvs., Briar nu va reacționa la atingeri în timpul suprapunerii altei aplicații.\n\nVerificați aplicațiile de mai jos pentru a o găsi pe cea responsabilă.</string>
+  <string name="screen_filter_body">O altă aplicație este suprapusă pe Sushh. Pentru a asigura securitatea dvs., Sushh nu va reacționa la atingeri în timpul suprapunerii altei aplicații..\n\nAplicațiile următoare ar putea fi suprapuse:\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">O altă aplicație este suprapusă pe Sushh. Pentru a asigura securitatea dvs., Sushh nu va reacționa la atingeri în timpul suprapunerii altei aplicații.\n\nVerificați aplicațiile de mai jos pentru a o găsi pe cea responsabilă.</string>
   <string name="screen_filter_allow">Permiteți suprapunerea acestor aplicații</string>
   <string name="screen_filter_review_apps">Verificați aplicațiile</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Acces la camera foto</string>
-  <string name="permission_camera_request_body">Pentru a scana codul QR, Briar are nevoie de acces la cameră.</string>
+  <string name="permission_camera_request_body">Pentru a scana codul QR, Sushh are nevoie de acces la cameră.</string>
   <string name="permission_location_title">Acces la locație</string>
   <string name="permission_nearby_devices_title">Permisiunea dispozitivelor apropiate</string>
-  <string name="permission_location_request_body">Pentru a putea descoperi dispozitive Bluetooth, Briar are nevoie de permisiunea de a accesa locația dvs.\n\nBriar nu stochează locația dvs. și nici nu o partajează cu nimeni.  </string>
+  <string name="permission_location_request_body">Pentru a putea descoperi dispozitive Bluetooth, Sushh are nevoie de permisiunea de a accesa locația dvs.\n\nSushh nu stochează locația dvs. și nici nu o partajează cu nimeni.  </string>
   <string name="permission_camera_location_title">Cameră foto și locație</string>
-  <string name="permission_camera_location_request_body">Pentru a scana codul QR, Briar are nevoie de acces la camera foto.\n\nPentru a putea descoperi dispozitive Bluetooth, Briar are nevoie de permisiunea de acces la locația dvs.\n\nBriar nu stochează locația dvs. și nici nu o partajează cu nimeni.</string>
+  <string name="permission_camera_location_request_body">Pentru a scana codul QR, Sushh are nevoie de acces la camera foto.\n\nPentru a putea descoperi dispozitive Bluetooth, Sushh are nevoie de permisiunea de acces la locația dvs.\n\nSushh nu stochează locația dvs. și nici nu o partajează cu nimeni.</string>
   <string name="permission_camera_bluetooth_title">Camera și dispozitivele din apropiere</string>
-  <string name="permission_camera_bluetooth_request_body">Pentru a scana codul QR, Briar are nevoie de acces la camera foto.\n\nPentru a descoperi dispozitive Bluetooth, Briar are nevoie de permisiunea de a găsi și de a se conecta la dispozitivele din apropiere.</string>
+  <string name="permission_camera_bluetooth_request_body">Pentru a scana codul QR, Sushh are nevoie de acces la camera foto.\n\nPentru a descoperi dispozitive Bluetooth, Sushh are nevoie de permisiunea de a găsi și de a se conecta la dispozitivele din apropiere.</string>
   <string name="permission_camera_denied_body">Ați refuzat accesul la camera foto, dar folosirea acesteia este obligatorie pentru a adăuga contacte.\n\nVă rugăm să luați în considerare acordarea accesului.</string>
-  <string name="permission_location_denied_body">Ați refuzat accesul la locație, dar Briar are nevoie de această permisiune pentru a descoperi dispozitive Bluetooth.\n\nVă rugăm să luați în considerare acordarea accesului.</string>
+  <string name="permission_location_denied_body">Ați refuzat accesul la locație, dar Sushh are nevoie de această permisiune pentru a descoperi dispozitive Bluetooth.\n\nVă rugăm să luați în considerare acordarea accesului.</string>
   <string name="permission_location_setting_title">Setări privind locația</string>
   <string name="permission_location_setting_body">Funcția de locație a dispozitivului dvs. trebuie să fie activată pentru a găsi alte dispozitive prin Bluetooth. Activați locația pentru a continua. Puteți să o dezactivați din nou ulterior.</string>
   <string name="permission_location_setting_hotspot_body">Setarea de localizare a dispozitivului dumneavoastră trebuie să fie activată pentru a crea un hotspot Wi-Fi. Vă rugăm să activați localizarea pentru a continua. Puteți să o dezactivați din nou după aceea.</string>
   <string name="permission_location_setting_button">Activați locația</string>
   <string name="permission_bluetooth_title">Permisiunea dispozitivelor apropiate</string>
-  <string name="permission_bluetooth_body">Pentru a utiliza comunicarea Bluetooth, Briar are nevoie de permisiunea de a găsi și de a se conecta la dispozitivele din apropiere.</string>
-  <string name="permission_bluetooth_denied_body">Ați refuzat accesul la dispozitivele din apropiere, dar Briar are nevoie de această permisiune pentru a utiliza Bluetooth.\n\nVă rugăm să luați în considerare acordarea accesului.</string>
+  <string name="permission_bluetooth_body">Pentru a utiliza comunicarea Bluetooth, Sushh are nevoie de permisiunea de a găsi și de a se conecta la dispozitivele din apropiere.</string>
+  <string name="permission_bluetooth_denied_body">Ați refuzat accesul la dispozitivele din apropiere, dar Sushh are nevoie de această permisiune pentru a utiliza Bluetooth.\n\nVă rugăm să luați în considerare acordarea accesului.</string>
   <string name="qr_code">Cod QR</string>
   <string name="show_qr_code_fullscreen">Afișați codul QR pe tot ecranul</string>
   <!--App Locking-->
-  <string name="lock_unlock">Deblocarea Briar</string>
-  <string name="lock_unlock_verbose">Introduceți codul PIN, modelul sau parola pentru a debloca aplicația Briar</string>
+  <string name="lock_unlock">Deblocarea Sushh</string>
+  <string name="lock_unlock_verbose">Introduceți codul PIN, modelul sau parola pentru a debloca aplicația Sushh</string>
   <string name="lock_unlock_fingerprint_description">Pentru a continua, atingeți senzorul de amprentă cu degetul înregistrat</string>
   <string name="lock_unlock_password">Utilizați parolă</string>
-  <string name="lock_is_locked">Aplicația Briar este blocată</string>
+  <string name="lock_is_locked">Aplicația Sushh este blocată</string>
   <string name="lock_tap_to_unlock">Atingeți pentru deblocare</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar se poate conecta la contactele dvs. prin Internet, Wi-Fi sau Bluetooth.\n\nToate conexiunile la internet trec prin rețeaua Tor din motive de confidențialitate.\n\nDacă un contact poate fi accesat prin mai multe metode, Briar le va folosi simultan.</string>
+  <string name="transports_help_text">Sushh se poate conecta la contactele dvs. prin Internet, Wi-Fi sau Bluetooth.\n\nToate conexiunile la internet trec prin rețeaua Tor din motive de confidențialitate.\n\nDacă un contact poate fi accesat prin mai multe metode, Sushh le va folosi simultan.</string>
   <!--Share app offline-->
   <string name="hotspot_title">Partajați această aplicație offline</string>
   <string name="hotspot_intro">Partajați această aplicație cu o persoană din apropiere fără conexiune la internet, utilizând funcția Wi-Fi a telefonului dvs.
-		\n\nTelefonul dvs. va porni un hotspot Wi-Fi. Persoanele din apropiere se pot conecta la hotspot și pot descărca aplicația Briar de pe telefonul dvs.</string>
+		\n\nTelefonul dvs. va porni un hotspot Wi-Fi. Persoanele din apropiere se pot conecta la hotspot și pot descărca aplicația Sushh de pe telefonul dvs.</string>
   <string name="hotspot_button_start_sharing">Porniți hotspot</string>
   <string name="hotspot_button_stop_sharing">Opriți hotspot</string>
   <string name="hotspot_progress_text_start">Se configurează hotspot...</string>
   <string name="hotspot_notification_channel_title">Hotspot Wi-Fi</string>
   <string name="hotspot_notification_title">Se partajează Brian offline</string>
   <string name="hotspot_button_connected">Înainte</string>
-  <string name="permission_hotspot_location_request_body">Pentru a crea un hotspot Wi-Fi, Briar are nevoie de permisiunea de a accesa locația dvs.\n\nBriar nu stochează locația dvs. și nici nu o partajează cu nimeni.</string>
-  <string name="permission_hotspot_location_request_precise_body">Pentru a crea un hotspot Wi-Fi, Briar are nevoie de permisiunea de a accesa locația dumneavoastră exactă.\n\nBriar nu stochează locația dumneavoastră și nu o împărtășește cu nimeni.</string>
-  <string name="permission_hotspot_location_denied_body">Ați refuzat accesul la locație, dar Briar are nevoie de această permisiune pentru a crea un hotspot Wi-Fi.\n\nVă rugăm să luați în considerare acordarea accesului.</string>
-  <string name="permission_hotspot_location_denied_precise_body">Ați refuzat accesul la locația dumneavoastră exactă, dar Briar are nevoie de această permisiune pentru a crea un hotspot Wi-Fi.Vă rugăm să luați în considerare acordarea accesului.</string>
-  <string name="permission_hotspot_nearby_wifi_request_body">Pentru a putea crea un hotspot Wi-Fi, Briar are nevoie de permisiunea de accesare a dispozitivelor din apropiere.</string>
-  <string name="permission_hotspot_nearby_wifi_denied_body">Ați refuzat accesul la dispozitivele din apropiere, dar Briar are nevoie de această permisiune pentru a crea un hotspot Wi-Fi.\n\nVă rugăm să luați în considerare acordarea accesului.</string>
+  <string name="permission_hotspot_location_request_body">Pentru a crea un hotspot Wi-Fi, Sushh are nevoie de permisiunea de a accesa locația dvs.\n\nSushh nu stochează locația dvs. și nici nu o partajează cu nimeni.</string>
+  <string name="permission_hotspot_location_request_precise_body">Pentru a crea un hotspot Wi-Fi, Sushh are nevoie de permisiunea de a accesa locația dumneavoastră exactă.\n\nSushh nu stochează locația dumneavoastră și nu o împărtășește cu nimeni.</string>
+  <string name="permission_hotspot_location_denied_body">Ați refuzat accesul la locație, dar Sushh are nevoie de această permisiune pentru a crea un hotspot Wi-Fi.\n\nVă rugăm să luați în considerare acordarea accesului.</string>
+  <string name="permission_hotspot_location_denied_precise_body">Ați refuzat accesul la locația dumneavoastră exactă, dar Sushh are nevoie de această permisiune pentru a crea un hotspot Wi-Fi.Vă rugăm să luați în considerare acordarea accesului.</string>
+  <string name="permission_hotspot_nearby_wifi_request_body">Pentru a putea crea un hotspot Wi-Fi, Sushh are nevoie de permisiunea de accesare a dispozitivelor din apropiere.</string>
+  <string name="permission_hotspot_nearby_wifi_denied_body">Ați refuzat accesul la dispozitivele din apropiere, dar Sushh are nevoie de această permisiune pentru a crea un hotspot Wi-Fi.\n\nVă rugăm să luați în considerare acordarea accesului.</string>
   <string name="wifi_settings_title">Se setează Wi-Fi</string>
-  <string name="wifi_settings_request_enable_body">Pentru a crea un hotspot Wi-Fi, Briar trebuie să folosească Wi-Fi. Vă rugăm să activați funcția.</string>
+  <string name="wifi_settings_request_enable_body">Pentru a crea un hotspot Wi-Fi, Sushh trebuie să folosească Wi-Fi. Vă rugăm să activați funcția.</string>
   <string name="hotspot_tab_manual">Manual</string>
   <!--The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s-->
   <string name="hotspot_scanning_a_qr_code">se scanează un cod QR</string>
   <!--Wi-Fi setup-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_wifi">Telefonul dvs. oferă un hotspot Wi-Fi. Persoanele care doresc să descarce Briar se pot conecta la hotspot adăugându-l la setările Wi-Fi folosind detaliile de mai jos sau prin %s. După ce s-au conectat la hotspot, atingeți „Înainte”.</string>
+  <string name="hotspot_manual_wifi">Telefonul dvs. oferă un hotspot Wi-Fi. Persoanele care doresc să descarce Sushh se pot conecta la hotspot adăugându-l la setările Wi-Fi folosind detaliile de mai jos sau prin %s. După ce s-au conectat la hotspot, atingeți „Înainte”.</string>
   <string name="hotspot_manual_wifi_ssid">Numele rețelei</string>
-  <string name="hotspot_qr_wifi">Telefonul dvs. oferă un hotspot Wi-Fi. Persoanele care doresc să descarce Briar se pot conecta la hotspot scanând acest cod QR. După ce s-au conectat la hotspot, atingeți „Înainte”.</string>
+  <string name="hotspot_qr_wifi">Telefonul dvs. oferă un hotspot Wi-Fi. Persoanele care doresc să descarce Sushh se pot conecta la hotspot scanând acest cod QR. După ce s-au conectat la hotspot, atingeți „Înainte”.</string>
   <string name="hotspot_no_peers_connected">Nu este conectat niciun dispozitiv</string>
   <plurals name="hotspot_peers_connected">
     <item quantity="one">%s dispozitiv conectat</item>
@@ -815,13 +815,13 @@
   </plurals>
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_site">Telefonul dvs. oferă un hotspot Wi-Fi. Persoanele care sunt conectate la hotspot pot descărca Briar introducând linkul de mai jos într-un browser sau %s.</string>
+  <string name="hotspot_manual_site">Telefonul dvs. oferă un hotspot Wi-Fi. Persoanele care sunt conectate la hotspot pot descărca Sushh introducând linkul de mai jos într-un browser sau %s.</string>
   <string name="hotspot_manual_site_address">Adresa (URL)</string>
-  <string name="hotspot_qr_site">Telefonul dvs. oferă un hotspot Wi-Fi. Persoanele care sunt conectate la hotspot pot descărca Briar prin scanarea acestui cod QR.</string>
-  <!--e.g. Download Briar 1.2.20-->
-  <string name="website_download_title_1">Descărcați Briar %s</string>
-  <string name="website_download_intro_1">Cineva din apropiere a partajat Briar cu dvs.</string>
-  <string name="website_download_button">Descărcați Briar</string>
+  <string name="hotspot_qr_site">Telefonul dvs. oferă un hotspot Wi-Fi. Persoanele care sunt conectate la hotspot pot descărca Sushh prin scanarea acestui cod QR.</string>
+  <!--e.g. Download Sushh 1.2.20-->
+  <string name="website_download_title_1">Descărcați Sushh %s</string>
+  <string name="website_download_intro_1">Cineva din apropiere a partajat Sushh cu dvs.</string>
+  <string name="website_download_button">Descărcați Sushh</string>
   <string name="website_download_outro">După finalizare descărcării, deschideți și instalați fișierul descărcat.</string>
   <string name="website_troubleshooting_title">Depanare</string>
   <string name="website_troubleshooting_1">Dacă nu puteți descărca aplicația, încercați cu un alt browser.</string>
@@ -830,14 +830,14 @@
   <string name="hotspot_help_wifi_title">Probleme cu conectarea la Wi-Fi:</string>
   <string name="hotspot_help_wifi_1">Dezactivați și reactivați funcția Wi-Fi pe ambele dispozitive și încercați din nou.</string>
   <string name="hotspot_help_wifi_2">Dacă telefonul vă informează că nu este acces internet prin Wi-Fi, alegeți să rămâneți conectat oricum.</string>
-  <string name="hotspot_help_wifi_3">Reporniți telefonul pe care rulează hotspotul Wi-Fi, apoi porniți Briar și încercați să partajați conexiunea din nou.</string>
+  <string name="hotspot_help_wifi_3">Reporniți telefonul pe care rulează hotspotul Wi-Fi, apoi porniți Sushh și încercați să partajați conexiunea din nou.</string>
   <string name="hotspot_help_site_title">Probleme cu accesarea site-ului local:</string>
   <string name="hotspot_help_site_1">Verificați încă o dată dacă ați introdus adresa exact așa cum apare. O mică eroare este suficientă pentru ca aceasta să nu funcționeze.</string>
   <string name="hotspot_help_site_2">Asigurați-vă că telefonul este conectat în continuare la rețeaua Wi-Fi corectă (vedeți mai sus) când încercați să accesați site-ul.</string>
   <string name="hotspot_help_site_3">Dacă aveți o aplicație de firewall, asigurați-vă că aceasta nu blochează accesul.</string>
-  <string name="hotspot_help_site_4">Dacă puteți accesa site-ul, dar nu puteți descărca aplicația Briar, încercați cu un alt browser.</string>
+  <string name="hotspot_help_site_4">Dacă puteți accesa site-ul, dar nu puteți descărca aplicația Sushh, încercați cu un alt browser.</string>
   <string name="hotspot_help_fallback_title">Nimic nu funcționează?</string>
-  <string name="hotspot_help_fallback_intro">Puteți încerca să salvați aplicația ca un fișier .apk pentru a-l partaja în alt mod. Odată fișierul transferat pe celălalt dispozitiv, poate fi folosit pentru instalarea Briar.
+  <string name="hotspot_help_fallback_intro">Puteți încerca să salvați aplicația ca un fișier .apk pentru a-l partaja în alt mod. Odată fișierul transferat pe celălalt dispozitiv, poate fi folosit pentru instalarea Sushh.
 		\n\nNotă: pentru partajarea prin Bluetooth, s-ar putea sa fie nevoie să redenumiți întâi fișierul în așa fel încât să aibă extensia .zip.</string>
   <string name="hotspot_help_fallback_button">Salvați aplicația</string>
   <!--error handling-->
@@ -847,18 +847,18 @@
   <string name="hotspot_error_start_callback_failed_unknown">Hotspotul nu a putut porni din cauza unei erori necunoscute. Motivul: %d</string>
   <string name="hotspot_error_start_callback_no_group_info">Hotspotul nu a putut porni: nu există informații privind grupul</string>
   <string name="hotspot_error_web_server_start">Eroare la pornirea serverului web</string>
-  <string name="hotspot_error_web_server_serve">Eroare la prezentarea site-ului.\n\nTrimiteți feedback (cu date anonime) prin intermediul aplicației Briar dacă problema persistă.</string>
+  <string name="hotspot_error_web_server_serve">Eroare la prezentarea site-ului.\n\nTrimiteți feedback (cu date anonime) prin intermediul aplicației Sushh dacă problema persistă.</string>
   <string name="hotspot_flag_test">Avertisment: această aplicație a fost instalată din Android Studio și NU poate fi instalată pe alt dispozitiv.</string>
   <string name="hotspot_error_framework_busy">Nu s-a putut porni hotspotul.\n\nDacă aveți alt hotspot pornit sau dacă partajați conexiunea la internet prin Wi-Fi, încercați să le opriți, după care încercați din nou.</string>
   <!--Transfer Data via Removable Drives-->
   <string name="removable_drive_menu_title">Conectarea cu o unitate amovibilă</string>
-  <string name="removable_drive_intro">Dacă nu vă puteți conecta la persoana de contact prin internet, Wi-Fi sau Bluetooth, Briar oferă și opțiunea de a transfera mesaje pe o unitate amovibilă, cum ar fi un stick USB sau un card SD.</string>
-  <string name="removable_drive_explanation">Dacă nu vă puteți conecta la persoana de contact prin internet, Wi-Fi sau Bluetooth, Briar oferă și opțiunea de a transfera mesaje pe o unitate amovibilă, cum ar fi un stick USB sau un card SD.\n\nCând folosiți butonul „Trimitere date”, datele care așteaptă să fie trimise contactului vor fi scrise pe unitatea amovibilă. Aceastea includ mesajele private, fișierele atașate, blogurile, forumurile și grupurile private.\n\nToate vor fi criptate înainte de a fi scrise pe unitatea amovibilă.\n\nCând persoana de contact primește unitatea amovibilă, poate folosi butonul „Primire date\" pentru a importa mesajele în Briar.</string>
+  <string name="removable_drive_intro">Dacă nu vă puteți conecta la persoana de contact prin internet, Wi-Fi sau Bluetooth, Sushh oferă și opțiunea de a transfera mesaje pe o unitate amovibilă, cum ar fi un stick USB sau un card SD.</string>
+  <string name="removable_drive_explanation">Dacă nu vă puteți conecta la persoana de contact prin internet, Wi-Fi sau Bluetooth, Sushh oferă și opțiunea de a transfera mesaje pe o unitate amovibilă, cum ar fi un stick USB sau un card SD.\n\nCând folosiți butonul „Trimitere date”, datele care așteaptă să fie trimise contactului vor fi scrise pe unitatea amovibilă. Aceastea includ mesajele private, fișierele atașate, blogurile, forumurile și grupurile private.\n\nToate vor fi criptate înainte de a fi scrise pe unitatea amovibilă.\n\nCând persoana de contact primește unitatea amovibilă, poate folosi butonul „Primire date\" pentru a importa mesajele în Sushh.</string>
   <string name="removable_drive_title_send">Trimitere date</string>
   <string name="removable_drive_title_receive">Primire date</string>
   <string name="removable_drive_send_intro">Atingeți butonul de mai jos pentru a crea un fișier nou cu mesajele criptate. Puteți alege unde să fie salvat fișierul.\n\nDacă doriți să salvați fișierul pe o unitate amovibilă, introduceți unitatea acum.</string>
   <string name="removable_drive_send_no_data">În prezent, nu sunt mesaje în așteptare de a fi trimise la acest contact.</string>
-  <string name="removable_drive_send_not_supported">Acest contact utilizează o versiune Briar veche sau un dispozitiv vechi care nu acceptă această funcție.</string>
+  <string name="removable_drive_send_not_supported">Acest contact utilizează o versiune Sushh veche sau un dispozitiv vechi care nu acceptă această funcție.</string>
   <string name="removable_drive_send_button">Alegeți fișierul de exportat</string>
   <string name="removable_drive_ongoing">Așteptați finalizarea sarcinii în curs</string>
   <string name="removable_drive_receive_intro">Atingeți butonul de mai jos pentru a alege fișierul pe care l-a trimis contactul dvs.\n\nDacă fișierul se află pe o unitate amovibilă, introduceți unitatea acum.</string>
@@ -868,9 +868,9 @@
   <string name="removable_drive_success_receive_title">Importare reușită</string>
   <string name="removable_drive_success_receive_text">Toate mesajele criptate din acest fișier au fost primite.</string>
   <string name="removable_drive_error_send_title">Eroare la exportarea datelor</string>
-  <string name="removable_drive_error_send_text">A apărut o eroare la scrierea datelor în fișier.\n\nDacă utilizați o unitate amovibilă, asigurați-vă că este introdusă corect și încercați din nou.\n\nDacă eroarea persistă, trimiteți feedback pentru a informa echipa Briar despre problemă.</string>
+  <string name="removable_drive_error_send_text">A apărut o eroare la scrierea datelor în fișier.\n\nDacă utilizați o unitate amovibilă, asigurați-vă că este introdusă corect și încercați din nou.\n\nDacă eroarea persistă, trimiteți feedback pentru a informa echipa Sushh despre problemă.</string>
   <string name="removable_drive_error_receive_title">Eroare la importarea datelor</string>
-  <string name="removable_drive_error_receive_text">Fișierul selectat nu conține nimic care să poată fi recunoscut de Briar.\n\nVerificați dacă ați ales fișierul corect.\n\nDacă persoana de contact a creat fișierul în urmă cu peste 28 de zile, Briar nu îl va putea recunoaște.</string>
+  <string name="removable_drive_error_receive_text">Fișierul selectat nu conține nimic care să poată fi recunoscut de Sushh.\n\nVerificați dacă ați ales fișierul corect.\n\nDacă persoana de contact a creat fișierul în urmă cu peste 28 de zile, Sushh nu îl va putea recunoaște.</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">Dana</string>
@@ -881,7 +881,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Bună, Andrei!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Bună, Dana! Mulțumesc că mi-ai spus despre Briar!</string>
+  <string name="screenshot_message_2">Bună, Dana! Mulțumesc că mi-ai spus despre Sushh!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Cu plăcere. Sper să îți placă. 😀</string>
 </resources>

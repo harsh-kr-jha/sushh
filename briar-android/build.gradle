@@ -16,20 +16,24 @@ def getStdout = { command, defaultValue ->
 }
 
 android {
-	compileSdk 34
-	buildToolsVersion '34.0.0'
-
+	compileSdk 35
+	buildToolsVersion '35.0.0'
 	packagingOptions {
-		doNotStrip '**/*.so'
+		jniLibs {
+			keepDebugSymbols += ['**/*.so']
+		}
 	}
+
 
 	defaultConfig {
 		minSdkVersion 21
-		targetSdkVersion 34
-		versionCode 10514
-		versionName "1.5.14"
-		applicationId "org.briarproject.briar.android"
+		targetSdkVersion 35
+		versionCode 10519
+		versionName "1.5.19"
+		applicationId "in.sushh.hub"
 		buildConfigField "String", "TorVersion", "\"$tor_version\""
+		buildConfigField "boolean", "SUSHH_HUB", "true"
+		buildConfigField "int", "SUSHH_REQUIRED_OWNER_APPROVALS", "3"
 
 		vectorDrawables.useSupportLibrary = true
 		buildConfigField "String", "GitHash",
@@ -76,8 +80,8 @@ android {
 	}
 
 	compileOptions {
-		sourceCompatibility JavaVersion.VERSION_1_8
-		targetCompatibility JavaVersion.VERSION_1_8
+		sourceCompatibility JavaVersion.VERSION_17
+		targetCompatibility JavaVersion.VERSION_17
 	}
 
 	testOptions {
@@ -86,15 +90,11 @@ android {
 			includeAndroidResources = true
 		}
 	}
-
-	lintOptions {
-		warning 'MissingTranslation'
-		warning 'MissingDefaultResource'
-		warning 'ImpliedQuantity'
-		warning 'ExtraTranslation'
-		// FIXME
-		warning 'InvalidPackage'
+	namespace 'org.briarproject.briar'
+	lint {
+		warning 'MissingTranslation', 'MissingDefaultResource', 'ImpliedQuantity', 'ExtraTranslation', 'InvalidPackage'
 	}
+
 }
 
 dependencies {
@@ -218,6 +218,8 @@ task verifyTranslations {
 	}
 }
 
+// Force evaluation of bramble-android before briar-android
+project.evaluationDependsOn(project.getRootProject().findProject("bramble-android").getPath())
 project.afterEvaluate {
 	preBuild.dependsOn.add(verifyTranslations)
 }

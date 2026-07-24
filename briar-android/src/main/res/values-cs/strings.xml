@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">Vítejte v aplikaci Briar</string>
+  <string name="setup_title">Vítejte v aplikaci Sushh</string>
   <string name="setup_name_explanation">Vaše uživatelské jméno bude zobrazeno u jakéhokoli obsahu, který zveřejníte. Následná změna již nebude možná.</string>
   <string name="setup_next">Další</string>
   <string name="setup_password_intro">Zvolte heslo</string>
-  <string name="setup_password_explanation">Váš Briar účet je šifrován a uložen ve vašem zařízení, nikoli v cloudu. Pokud zapomenete své heslo nebo odinstalujete Briar, obnovit Váš účet již nebude možné.\n\nZvolte si dlouhé heslo, které je těžké uhádnout, například čtyři náhodné fráze nebo deset náhodných písmen, čísel a znaků.</string>
-  <string name="dnkm_doze_intro">Pro příjem zpráv je nutné, aby byl Briar stále spuštěn na pozadí.</string>
-  <string name="dnkm_doze_explanation">Pro příjem zpráv je nutné, aby byl Briar spuštěn na pozadí. Vypněte prosím optimalizaci baterie, aby mohl být Briar stále připojen.</string>
+  <string name="setup_password_explanation">Váš Sushh účet je šifrován a uložen ve vašem zařízení, nikoli v cloudu. Pokud zapomenete své heslo nebo odinstalujete Sushh, obnovit Váš účet již nebude možné.\n\nZvolte si dlouhé heslo, které je těžké uhádnout, například čtyři náhodné fráze nebo deset náhodných písmen, čísel a znaků.</string>
+  <string name="dnkm_doze_intro">Pro příjem zpráv je nutné, aby byl Sushh stále spuštěn na pozadí.</string>
+  <string name="dnkm_doze_explanation">Pro příjem zpráv je nutné, aby byl Sushh spuštěn na pozadí. Vypněte prosím optimalizaci baterie, aby mohl být Sushh stále připojen.</string>
   <string name="choose_nickname">Zvolte si uživatelské jméno</string>
   <string name="choose_password">Zvolte si heslo</string>
   <string name="confirm_password">Potvrďte své heslo</string>
@@ -19,46 +19,46 @@
   <string name="create_account_button">Vytvořit účet</string>
   <string name="more_info">Další informace</string>
   <string name="don_t_ask_again">Znovu se neptat</string>
-  <string name="dnkm_huawei_protected_text">Klepněte na tlačítko níže a ujistěte se, že byl Briar zařazen mezi „Chráněné aplikace“.</string>
-  <string name="dnkm_huawei_protected_button">Chránit Briar</string>
-  <string name="dnkm_huawei_protected_help">Pokud nebyl Briar přidán mezi chráněné aplikace, nebude ho možné spustit na pozadí.</string>
-  <string name="dnkm_huawei_app_launch_text">Klepněte na tlačítko níže, otevřete nabídku „Spouštění aplikací“ a ujistěte se, že je Briar nastaven na „Ruční správa“.</string>
-  <string name="dnkm_huawei_app_launch_help">Pokud Briar není na obrazovce „Spouštění aplikací“ nastaven na „Ruční správa“, nebude moci běžet na pozadí.</string>
-  <string name="dnkm_xiaomi_text">Aby mohl Briar běžet na pozadí, musí být uzamčen v seznamu nedávných aplikací.</string>
-  <string name="dnkm_xiaomi_button">Chránit Briar</string>
-  <string name="dnkm_xiaomi_help">Pokud není Briar uzamčen v seznamu nedávných aplikací, nebude moci běžet na pozadí.</string>
-  <string name="dnkm_xiaomi_dialog_body_old">1. Otevřete seznam nedávných aplikací (také známý jako přepínač aplikací)\n\n2. Přejeďte prstem dolů po obrazu Briaru pro zobrazení ikony zámku\n\n3. Pokud není zámek uzamčen, uzamkněte ho klepnutím na něj</string>
-  <string name="dnkm_xiaomi_dialog_body_new">1. Otevřete seznam nedávných aplikací (také známý jako přepínač aplikací)\n\n2. Pokud má Briar vedle svého názvu malý obrázek zámku, nemusíte nic dělat\n\n3. Pokud tam žádný zámek není, stiskněte a podržte obraz Briaru, dokud se nezobrazí tlačítko visacího zámku, a pak na něj klepněte</string>
-  <string name="dnkm_xiaomi_lock_apps_text">Klepněte na tlačítko níže pro otevření nastavení zabezpečení. Klepněte na „Zvýšení rychlosti“, poté na „Uzamčení aplikací“ a ujistěte se, že je Briar nastaven na „Uzamčeno“.</string>
-  <string name="dnkm_xiaomi_lock_apps_help">Pokud není Briar na obrazovce „Uzamčení aplikací“ nastaven na „Uzamčeno“, nebude moci běžet na pozadí.</string>
-  <string name="dnkm_warning_dozed_1">Briar nemůže běžet na pozadí</string>
+  <string name="dnkm_huawei_protected_text">Klepněte na tlačítko níže a ujistěte se, že byl Sushh zařazen mezi „Chráněné aplikace“.</string>
+  <string name="dnkm_huawei_protected_button">Chránit Sushh</string>
+  <string name="dnkm_huawei_protected_help">Pokud nebyl Sushh přidán mezi chráněné aplikace, nebude ho možné spustit na pozadí.</string>
+  <string name="dnkm_huawei_app_launch_text">Klepněte na tlačítko níže, otevřete nabídku „Spouštění aplikací“ a ujistěte se, že je Sushh nastaven na „Ruční správa“.</string>
+  <string name="dnkm_huawei_app_launch_help">Pokud Sushh není na obrazovce „Spouštění aplikací“ nastaven na „Ruční správa“, nebude moci běžet na pozadí.</string>
+  <string name="dnkm_xiaomi_text">Aby mohl Sushh běžet na pozadí, musí být uzamčen v seznamu nedávných aplikací.</string>
+  <string name="dnkm_xiaomi_button">Chránit Sushh</string>
+  <string name="dnkm_xiaomi_help">Pokud není Sushh uzamčen v seznamu nedávných aplikací, nebude moci běžet na pozadí.</string>
+  <string name="dnkm_xiaomi_dialog_body_old">1. Otevřete seznam nedávných aplikací (také známý jako přepínač aplikací)\n\n2. Přejeďte prstem dolů po obrazu Sushhu pro zobrazení ikony zámku\n\n3. Pokud není zámek uzamčen, uzamkněte ho klepnutím na něj</string>
+  <string name="dnkm_xiaomi_dialog_body_new">1. Otevřete seznam nedávných aplikací (také známý jako přepínač aplikací)\n\n2. Pokud má Sushh vedle svého názvu malý obrázek zámku, nemusíte nic dělat\n\n3. Pokud tam žádný zámek není, stiskněte a podržte obraz Sushhu, dokud se nezobrazí tlačítko visacího zámku, a pak na něj klepněte</string>
+  <string name="dnkm_xiaomi_lock_apps_text">Klepněte na tlačítko níže pro otevření nastavení zabezpečení. Klepněte na „Zvýšení rychlosti“, poté na „Uzamčení aplikací“ a ujistěte se, že je Sushh nastaven na „Uzamčeno“.</string>
+  <string name="dnkm_xiaomi_lock_apps_help">Pokud není Sushh na obrazovce „Uzamčení aplikací“ nastaven na „Uzamčeno“, nebude moci běžet na pozadí.</string>
+  <string name="dnkm_warning_dozed_1">Sushh nemůže běžet na pozadí</string>
   <!--Login-->
   <string name="enter_password">Heslo</string>
   <string name="try_again">Zadali jste špatné heslo, zkuste to znovu</string>
   <string name="dialog_title_cannot_check_password">Nepodařilo se zkontrolovat heslo</string>
-  <string name="dialog_message_cannot_check_password">Briar nemůže zkontrolovat vaše heslo. Zkuste tento problém vyřešit restartováním zařízení.</string>
-  <string name="sign_in_title">Přihlásit do Briaru</string>
+  <string name="dialog_message_cannot_check_password">Sushh nemůže zkontrolovat vaše heslo. Zkuste tento problém vyřešit restartováním zařízení.</string>
+  <string name="sign_in_title">Přihlásit do Sushhu</string>
   <string name="sign_in_button">Přihlásit se</string>
   <string name="forgotten_password">Zapomněli jste své heslo?</string>
   <string name="dialog_title_lost_password">Ztracené heslo</string>
-  <string name="dialog_message_lost_password">Váš Briar účet je šifrován a uložen ve vašem zařízení, nikoli v cloudu, z tohoto důvodu není možné obnovit Vaše heslo. Chcete odstranit svůj účet a začít znovu?\n\nUpozornění: Vaše identita, kontakty a zprávy budou permanentně ztraceny.</string>
-  <string name="startup_failed_activity_title">Spuštění Briar selhalo.</string>
-  <string name="startup_failed_clock_error">Nepodařilo se spustit Briar, protože hodiny vašeho zařízení jsou špatně nastavené.\n\nNastavte prosím hodiny vašeho zařízení na správný čas a zkuste to znovu.</string>
-  <string name="startup_failed_db_error">Aplikaci Briar se nepodařilo otevřít databázi obsahující váš účet, kontakty a zprávy.\n\nPřejděte na nejnovější verzi aplikace a zkuste to znovu, nebo si nastavte nový účet tak, že na výzvu k zadání hesla zvolíte „Zapomněl jsem heslo“.</string>
+  <string name="dialog_message_lost_password">Váš Sushh účet je šifrován a uložen ve vašem zařízení, nikoli v cloudu, z tohoto důvodu není možné obnovit Vaše heslo. Chcete odstranit svůj účet a začít znovu?\n\nUpozornění: Vaše identita, kontakty a zprávy budou permanentně ztraceny.</string>
+  <string name="startup_failed_activity_title">Spuštění Sushh selhalo.</string>
+  <string name="startup_failed_clock_error">Nepodařilo se spustit Sushh, protože hodiny vašeho zařízení jsou špatně nastavené.\n\nNastavte prosím hodiny vašeho zařízení na správný čas a zkuste to znovu.</string>
+  <string name="startup_failed_db_error">Aplikaci Sushh se nepodařilo otevřít databázi obsahující váš účet, kontakty a zprávy.\n\nPřejděte na nejnovější verzi aplikace a zkuste to znovu, nebo si nastavte nový účet tak, že na výzvu k zadání hesla zvolíte „Zapomněl jsem heslo“.</string>
   <string name="startup_failed_data_too_old_error">Váš účet byl vytvořen ve starší verzi této aplikace a v této verzi jej nelze otevřít.\n\nMusíte buď přeinstalovat starou verzi, nebo nastavit nový účet tak, že na výzvu k zadání hesla vyberete možnost „Zapomněl jsem heslo“.</string>
   <string name="startup_failed_data_too_new_error">Váš účet byl vytvořen s novější verzí této aplikace a s touto verzí jej nelze otevřít.\n\nPřejděte prosím na nejnovější verzi a zkuste to znovu.</string>
-  <string name="startup_failed_service_error">Aplikaci Briar se nepodařilo spustit požadovanou komponentu.\n\nAktualizujte prosím aplikaci na nejnovější verzi a zkuste to znovu.</string>
+  <string name="startup_failed_service_error">Aplikaci Sushh se nepodařilo spustit požadovanou komponentu.\n\nAktualizujte prosím aplikaci na nejnovější verzi a zkuste to znovu.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Toto je testovací verze Briar. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
-    <item quantity="few">Toto je testovací verze Briar. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
-    <item quantity="many">Toto je testovací verze Briar. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
-    <item quantity="other">Toto je testovací verze Briar. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
+    <item quantity="one">Toto je testovací verze Sushh. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
+    <item quantity="few">Toto je testovací verze Sushh. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
+    <item quantity="many">Toto je testovací verze Sushh. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
+    <item quantity="other">Toto je testovací verze Sushh. Váš účet a jeho platnost vyprší po %d dnech a není možné ho obnovit.</item>
   </plurals>
   <string name="expiry_date_reached">Platnost tohoto software vypršela.\nDěkujeme za jeho otestování!</string>
-  <string name="download_briar">Pro pokračování v používání aplikace Briar si prosím stáhněte její nejnovější verzi.</string>
+  <string name="download_briar">Pro pokračování v používání aplikace Sushh si prosím stáhněte její nejnovější verzi.</string>
   <string name="create_new_account">Budete potřebovat vytvořit nový účet, ale můžete použít stejné uživatelské jméno.</string>
   <string name="download_briar_button">Stáhnout nejnovější vydání</string>
-  <string name="old_android_expiry_date_reached">Briar již neběží na systému Android 4.\nNainstalujte prosím Briar na novější zařízení.</string>
+  <string name="old_android_expiry_date_reached">Sushh již neběží na systému Android 4.\nNainstalujte prosím Sushh na novější zařízení.</string>
   <string name="old_android_delete_account">Klepnutím na tlačítko níže odstraníte svůj účet z tohoto zařízení.</string>
   <string name="delete_account_button">Odstranit účet</string>
   <string name="startup_open_database">Dešifrování databáze...</string>
@@ -75,43 +75,43 @@
   <string name="lock_button">Zamknout aplikaci</string>
   <string name="settings_button">Nastavení</string>
   <string name="sign_out_button">Odhlásit se</string>
-  <string name="transports_onboarding_text">Klepněte sem pro ovládání způsobu, kterým se Briar připojuje k vašim kontaktům.</string>
+  <string name="transports_onboarding_text">Klepněte sem pro ovládání způsobu, kterým se Sushh připojuje k vašim kontaktům.</string>
   <!--Transports: Tor-->
   <string name="transport_tor">Internet</string>
   <string name="tor_device_status_online_wifi">Váš mobil má přístup k internetu přes Wi-Fi</string>
   <string name="tor_device_status_online_mobile">Váš mobil má přístup k internetu přes mobilní data</string>
   <string name="tor_device_status_offline">Váš mobil nemá přístup k internetu</string>
-  <string name="tor_plugin_status_enabling">Briar se připojuje k internetu</string>
-  <string name="tor_plugin_status_active">Briar je připojen k internetu</string>
-  <string name="tor_plugin_status_inactive">Briar se nemůže připojit k internetu</string>
-  <string name="tor_plugin_status_disabled">Briar je nastaven tak, aby nepoužíval internet</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briar je nastaven tak, aby nepoužíval mobilní data</string>
-  <string name="tor_plugin_status_disabled_battery">Briar je nastaven tak, aby nepoužíval internet při provozu na baterii</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briar je nastaven tak, aby v této zemi nepoužíval internet</string>
+  <string name="tor_plugin_status_enabling">Sushh se připojuje k internetu</string>
+  <string name="tor_plugin_status_active">Sushh je připojen k internetu</string>
+  <string name="tor_plugin_status_inactive">Sushh se nemůže připojit k internetu</string>
+  <string name="tor_plugin_status_disabled">Sushh je nastaven tak, aby nepoužíval internet</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushh je nastaven tak, aby nepoužíval mobilní data</string>
+  <string name="tor_plugin_status_disabled_battery">Sushh je nastaven tak, aby nepoužíval internet při provozu na baterii</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushh je nastaven tak, aby v této zemi nepoužíval internet</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Wi-Fi</string>
   <string name="transport_lan_long">Stejná síť Wi-Fi</string>
   <string name="lan_device_status_on">Váš mobil je připojen k síti Wi-Fi</string>
   <string name="lan_device_status_off">Váš mobil není připojen k síti Wi-Fi</string>
-  <string name="lan_plugin_status_enabling">Briar se připojuje k síti Wi-Fi</string>
-  <string name="lan_plugin_status_active">Briar se připojuje k síti Wi-Fi</string>
-  <string name="lan_plugin_status_inactive">Briar se nemůže připojit k síti Wi-Fi</string>
-  <string name="lan_plugin_status_disabled">Briar je nastaven tak, aby nepoužíval síť Wi-Fi</string>
+  <string name="lan_plugin_status_enabling">Sushh se připojuje k síti Wi-Fi</string>
+  <string name="lan_plugin_status_active">Sushh se připojuje k síti Wi-Fi</string>
+  <string name="lan_plugin_status_inactive">Sushh se nemůže připojit k síti Wi-Fi</string>
+  <string name="lan_plugin_status_disabled">Sushh je nastaven tak, aby nepoužíval síť Wi-Fi</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">Bluetooth v mobilu je zapnutý</string>
   <string name="bt_device_status_off">Bluetooth v mobilu je vypnutý</string>
-  <string name="bt_plugin_status_enabling">Briar se připojuje k Bluetooth</string>
-  <string name="bt_plugin_status_active">Briar je připojen k Bluetooth</string>
-  <string name="bt_plugin_status_inactive">Briar se nemůže připojit k Bluetooth</string>
-  <string name="bt_plugin_status_disabled">Briar je nastaven tak, aby nepoužíval Bluetooth</string>
+  <string name="bt_plugin_status_enabling">Sushh se připojuje k Bluetooth</string>
+  <string name="bt_plugin_status_active">Sushh je připojen k Bluetooth</string>
+  <string name="bt_plugin_status_inactive">Sushh se nemůže připojit k Bluetooth</string>
+  <string name="bt_plugin_status_disabled">Sushh je nastaven tak, aby nepoužíval Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Byl jste odhlášen z Briar</string>
+  <string name="reminder_notification_title">Byl jste odhlášen z Sushh</string>
   <string name="reminder_notification_text">Klepněte pro opětovné přihlášení.</string>
-  <string name="reminder_notification_channel_title">Připomenutí k přihlášení Briar</string>
+  <string name="reminder_notification_channel_title">Připomenutí k přihlášení Sushh</string>
   <string name="reminder_notification_dismiss">Zavřít</string>
-  <string name="ongoing_notification_title">Přihlásit se do Briar</string>
-  <string name="ongoing_notification_text">Kliknutím otevřít Briar</string>
+  <string name="ongoing_notification_title">Přihlásit se do Sushh</string>
+  <string name="ongoing_notification_text">Kliknutím otevřít Sushh</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Nová soukromá zpráva</item>
     <item quantity="few">%d nových soukromých zpráv.</item>
@@ -234,7 +234,7 @@
   <string name="save_image_success">Obrázek byl uložen</string>
   <string name="save_image_error">Nebylo možné uložit obrázek</string>
   <string name="dialog_title_no_image_support">Obrázky jsou nedostupné</string>
-  <string name="dialog_message_no_image_support">Briar vašich kontaktů ještě nepodporuje obrázkové přílohy. Jakmile navýší na  odpovídající verzi aplikace, uvidíte odlišnou ikonu.</string>
+  <string name="dialog_message_no_image_support">Sushh vašich kontaktů ještě nepodporuje obrázkové přílohy. Jakmile navýší na  odpovídající verzi aplikace, uvidíte odlišnou ikonu.</string>
   <string name="dialog_title_image_support">Nyní můžete tomuto kontaktu posílat obrázky</string>
   <string name="dialog_message_image_support">Klepněte na tuto ikonu pro připojení obrázků.</string>
   <string name="messaging_too_many_attachments_toast">Pouze prvních %d obrázků bude odesláno</string>
@@ -251,10 +251,10 @@
   <string name="contact_already_exists">Kontakt %s již existuje</string>
   <string name="contact_already_exists_general">Kontakt již existuje</string>
   <string name="qr_code_invalid">QR kód je neplatný</string>
-  <string name="qr_code_too_old_1">QR kód, který jste oskenovali pochází ze starší verze Briaru.\n\nProsím požádejte svůj kontakt, aby aktualizoval aplikaci na nejnovější verzi a zkuste to znovu.</string>
-  <string name="qr_code_too_new_1">QR kód, který jste oskenovali pochází z novější verze Briaru.\n\nProsím aktualizujte Briar na nejnovější verzi a zkuste to znovu.</string>
-  <string name="mailbox_qr_code_for_contact">QR kód, který jste oskenovali pochází z Briar Mailbox.\n\nPokud chcete odkázat Mailbox, vyberte Nastavení &gt; Mailbox z nabídky Briar.</string>
-  <string name="qr_code_format_unknown">QR kód, který jste oskenovali není určen pro přidávání Briar kontaktu.\n\nProsím oskenujte QR kód, který je zobrazen na obrazovce vašeho kontaktu.</string>
+  <string name="qr_code_too_old_1">QR kód, který jste oskenovali pochází ze starší verze Sushhu.\n\nProsím požádejte svůj kontakt, aby aktualizoval aplikaci na nejnovější verzi a zkuste to znovu.</string>
+  <string name="qr_code_too_new_1">QR kód, který jste oskenovali pochází z novější verze Sushhu.\n\nProsím aktualizujte Sushh na nejnovější verzi a zkuste to znovu.</string>
+  <string name="mailbox_qr_code_for_contact">QR kód, který jste oskenovali pochází z Sushh Mailbox.\n\nPokud chcete odkázat Mailbox, vyberte Nastavení &gt; Mailbox z nabídky Sushh.</string>
+  <string name="qr_code_format_unknown">QR kód, který jste oskenovali není určen pro přidávání Sushh kontaktu.\n\nProsím oskenujte QR kód, který je zobrazen na obrazovce vašeho kontaktu.</string>
   <string name="camera_error">Vyskytla se chyba fotoaparátu</string>
   <string name="connecting_to_device">Připojování k zařízení\u2026</string>
   <string name="authenticating_with_device">Ověřování se zařízením\u2026</string>
@@ -276,7 +276,7 @@
   <string name="add_contact_choose_a_nickname">Vložit přezdívku</string>
   <string name="nickname_intro">Dejte vašemu kontaktu přezdívku. Jen vy ji uvidíte.</string>
   <string name="your_link">Dejte tento odkaz kontaktu, který chcete přidat</string>
-  <string name="link_clip_label">Briar link</string>
+  <string name="link_clip_label">Sushh link</string>
   <string name="link_copied_toast">Odkaz zkopírován</string>
   <string name="adding_contact_error">Došlo k chybě přidávání kontaktu.</string>
   <string name="pending_contact_requests_snackbar">Existují čekající žádosti o kontakt</string>
@@ -291,7 +291,7 @@
   <string name="own_link_error">Zadejte odkaz vašeho kontaktu, ne svůj.</string>
   <string name="nickname_missing">Prosím zadejte přezdívku</string>
   <string name="invalid_link">Neplatný odkaz</string>
-  <string name="unsupported_link">Tento odkaz pochází z novější verze Briaru. Prosím proveďte aktualizaci na nejnovější verzi a zkuste to znovu.</string>
+  <string name="unsupported_link">Tento odkaz pochází z novější verze Sushhu. Prosím proveďte aktualizaci na nejnovější verzi a zkuste to znovu.</string>
   <string name="intent_own_link">Otevřeli jste váš odkaz. Použijte odkaz kontaktu, který chcete přidat.</string>
   <string name="missing_link">Prosím zadejte odkaz</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -532,7 +532,7 @@
   <string name="change_profile_picture_failed_message">Omlouváme se, ale něco se pokazilo při aktualizaci vašeho profilového obrázku</string>
   <!--Settings Display-->
   <string name="pref_language_title">Jazyk a oblast</string>
-  <string name="pref_language_changed">Toto nastavení bude mít efekt když vykonáre restart svého Briar. Prosím odhlaste se a restartujte Briar.</string>
+  <string name="pref_language_changed">Toto nastavení bude mít efekt když vykonáre restart svého Sushh. Prosím odhlaste se a restartujte Sushh.</string>
   <string name="pref_language_default">Podle systému</string>
   <string name="display_settings_title">Zobrazení</string>
   <string name="pref_theme_title">Motiv</string>
@@ -550,7 +550,7 @@
   <string name="tor_network_setting_without_bridges">Použít síť Tor bez mostů</string>
   <string name="tor_network_setting_with_bridges">Použít síť Tor s mosty</string>
   <string name="tor_network_setting_never">Nepřipojovat se k internetu</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Automatické: %1$s (v %2$s)</string>
   <string name="tor_mobile_data_title">Použít mobilní data</string>
   <string name="tor_only_when_charging_title">Připojit se k internetu pouze při nabíjení</string>
@@ -558,11 +558,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Zabezpečení</string>
   <string name="pref_lock_title">Zamčení aplikace</string>
-  <string name="pref_lock_summary">Použít zamčení obrazovky zařízení pro ochranu Briaru po přihlášení</string>
+  <string name="pref_lock_summary">Použít zamčení obrazovky zařízení pro ochranu Sushhu po přihlášení</string>
   <string name="pref_lock_disabled_summary">Pro použité této funkce nastavte zamčení obrazovky zařízení</string>
   <string name="pref_lock_timeout_title">Doba neaktivity pro zamčení aplikace</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Když Briar není používán, automaticky ho zamknou po %s</string>
+  <string name="pref_lock_timeout_summary">Když Sushh není používán, automaticky ho zamknou po %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 minutě</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -574,7 +574,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 hodina</string>
   <string name="pref_lock_timeout_never">Nikdy</string>
-  <string name="pref_lock_timeout_never_summary">Nikdy nezamykat Briar automaticky</string>
+  <string name="pref_lock_timeout_never_summary">Nikdy nezamykat Sushh automaticky</string>
   <string name="change_password">Změnit heslo</string>
   <string name="current_password">Současné heslo</string>
   <string name="choose_new_password">Nové heslo</string>
@@ -582,7 +582,7 @@
   <string name="password_changed">Heslo bylo změněno.</string>
   <string name="panic_setting">Nastavení tlačítka paniky</string>
   <string name="panic_setting_title">Tlačítko paniky</string>
-  <string name="panic_setting_hint">Nastavte, jak bude Briar reagovat, když použijete aplikaci tlačítka paniky</string>
+  <string name="panic_setting_hint">Nastavte, jak bude Sushh reagovat, když použijete aplikaci tlačítka paniky</string>
   <string name="panic_app_setting_title">Aplikace paniky</string>
   <string name="unknown_app">neznámá aplikace</string>
   <string name="panic_app_setting_summary">Žádná aplikace nebyla nastavena</string>
@@ -591,9 +591,9 @@
   <string name="dialog_message_connect_panic_app">Jste si jisti, že chcete povolit %1$s spustit akci zneškodnění pomocí tlačítka paniky?</string>
   <string name="panic_setting_destructive_action">Destruktivní akce</string>
   <string name="panic_setting_signout_title">Odhlásit se</string>
-  <string name="panic_setting_signout_summary">Odhlásit se z Briar, pokud je stisknuto tlačítko paniky</string>
+  <string name="panic_setting_signout_summary">Odhlásit se z Sushh, pokud je stisknuto tlačítko paniky</string>
   <string name="purge_setting_title">Odstranit účet</string>
-  <string name="purge_setting_summary">Při stisknutí tlačítka paniky odstranit váš účet Briar. Varování: tato akce trvale vymaže vaše identity, kontakty a zprávy</string>
+  <string name="purge_setting_summary">Při stisknutí tlačítka paniky odstranit váš účet Sushh. Varování: tato akce trvale vymaže vaše identity, kontakty a zprávy</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Upozornění</string>
   <string name="notify_sign_in_title">Připomenout mi, abych se přihlásil/a</string>
@@ -620,28 +620,28 @@
   <string name="mailbox_settings_title">Mailbox</string>
   <string name="mailbox_setup_title">Mailbox nastavení</string>
   <string name="mailbox_setup_intro">Mailbox umožňuje vašim kontaktům posílat vám zprávy když jste offline. Mailbox obdrží vaše zprávy a uchová je dokud nebudete online.\n
-		\nBriar Mailbox aplikaci můžete nainstalovat na nevyužité zařízení. Nechte ho připojené do elektrické sítě a k Wi-Fi aby bylo neustále online.</string>
-  <string name="mailbox_setup_download">Nejprve nainstalujte aplikaci Mailbox na jiné zařízení tak, že si vyhledáte \"Briar Mailbox\" na Google Play nebo jinde odkud stahujete Briar.\n
-		\nPotom spojte váš Mailbox s Briarem oskenováním QR kódu zobrazeném aplikací Mailbox.</string>
+		\nSushh Mailbox aplikaci můžete nainstalovat na nevyužité zařízení. Nechte ho připojené do elektrické sítě a k Wi-Fi aby bylo neustále online.</string>
+  <string name="mailbox_setup_download">Nejprve nainstalujte aplikaci Mailbox na jiné zařízení tak, že si vyhledáte \"Sushh Mailbox\" na Google Play nebo jinde odkud stahujete Sushh.\n
+		\nPotom spojte váš Mailbox s Sushhem oskenováním QR kódu zobrazeném aplikací Mailbox.</string>
   <string name="mailbox_setup_download_link">Sdílet odkaz pro stažení</string>
   <string name="mailbox_setup_button_scan">Skenovat Mailbox QR kód</string>
   <string name="permission_camera_qr_denied_body">Přístup k fotoaparátu máte zakázaný ale skenování QR kódu vyžaduje použití fotoaparátu.\n\nProsím zvažte povolení přístupu.</string>
   <string name="mailbox_setup_connecting">Připojování k Mailboxu...</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">Toto může trvat až %1s</string>
-  <string name="mailbox_qr_code_too_old">QR kód, který jste oskenovali, pochází ze starší verze Briar Mailboxu.\n\nProsím aktualizujte Briar Mailbox na nejnovější verzi a pak akci opakujte.</string>
-  <string name="mailbox_qr_code_too_new">QR kód, který jste oskenovali, pochází z novější verze Briar Mailboxu.\n\nProsím aktualizujte Briar Mailbox na nejnovější verzi a pak akci opakujte.</string>
-  <string name="contact_qr_code_for_mailbox">QR kód, který jste oskenovali, je určen k přidání kontaktu Briar.\n\nPokud chcete přidat kontakt, prosím jděte do seznamu kontaktů a klepněte na ikonu +.</string>
-  <string name="mailbox_setup_qr_code_wrong_description">QR kód, který jste oskenovali, nepochází z Briar Mailboxu.\n\nProsím otevřete Briar Mailbox aplikaci na vašem Mailbox zařízení a oskenujte QR kód který vám zobrazí.</string>
+  <string name="mailbox_qr_code_too_old">QR kód, který jste oskenovali, pochází ze starší verze Sushh Mailboxu.\n\nProsím aktualizujte Sushh Mailbox na nejnovější verzi a pak akci opakujte.</string>
+  <string name="mailbox_qr_code_too_new">QR kód, který jste oskenovali, pochází z novější verze Sushh Mailboxu.\n\nProsím aktualizujte Sushh Mailbox na nejnovější verzi a pak akci opakujte.</string>
+  <string name="contact_qr_code_for_mailbox">QR kód, který jste oskenovali, je určen k přidání kontaktu Sushh.\n\nPokud chcete přidat kontakt, prosím jděte do seznamu kontaktů a klepněte na ikonu +.</string>
+  <string name="mailbox_setup_qr_code_wrong_description">QR kód, který jste oskenovali, nepochází z Sushh Mailboxu.\n\nProsím otevřete Sushh Mailbox aplikaci na vašem Mailbox zařízení a oskenujte QR kód který vám zobrazí.</string>
   <string name="mailbox_setup_already_paired_title">Mailbox již byl spojen</string>
   <string name="mailbox_setup_already_paired_description">Odpojte Mailbox na vašem dalším zařízení a akci opakujte.</string>
   <string name="mailbox_setup_io_error_title">Nebylo možné se připojit</string>
   <string name="mailbox_setup_io_error_description">Ujistěte se, že obě zařízení jsou připojena k internetu a akci opakujte.</string>
   <string name="mailbox_setup_assertion_error_title">Chyba Mailboxu</string>
-  <string name="mailbox_setup_assertion_error_description">Pokud problém přetrvává, použijte prosím aplikaci Briar k odeslání zpětné vazby (s anonymizovanými daty).</string>
+  <string name="mailbox_setup_assertion_error_description">Pokud problém přetrvává, použijte prosím aplikaci Sushh k odeslání zpětné vazby (s anonymizovanými daty).</string>
   <string name="mailbox_setup_camera_error_description">Nebylo možné získat přístup k fotoaparátu. Možná zkuste restartovat zařízení a opakovat akci.</string>
   <string name="mailbox_setup_paired_title">Připojeno</string>
-  <string name="mailbox_setup_paired_description">Váš Mailbox byl úspěšně spojen s Briarem.\n
+  <string name="mailbox_setup_paired_description">Váš Mailbox byl úspěšně spojen s Sushhem.\n
 		\nNechte Mailbox připojený k elektrické síti a k Wi-Fi aby byl neustále online.</string>
   <string name="tor_offline_title">Offline</string>
   <string name="tor_offline_description">Ujistěte se, že toto zařízení je online a přístup k internetu je povolen.\n
@@ -649,10 +649,10 @@
   <string name="tor_offline_button_check">Zkontrolujte nastavení připojení</string>
   <string name="mailbox_status_title">Stav Mailboxu</string>
   <string name="mailbox_status_connected_title">Mailbox běží</string>
-  <string name="mailbox_status_problem_title">Briar má problém s připojením k Mailboxu</string>
+  <string name="mailbox_status_problem_title">Sushh má problém s připojením k Mailboxu</string>
   <string name="mailbox_status_failure_title">Mailbox je nedostupný</string>
-  <string name="mailbox_status_app_too_old_title">Briar je příliš zastaralý</string>
-  <string name="mailbox_status_app_too_old_message">Aktualizujte Briar na nejnovější verzi aplikace a opakujte akci.</string>
+  <string name="mailbox_status_app_too_old_title">Sushh je příliš zastaralý</string>
+  <string name="mailbox_status_app_too_old_message">Aktualizujte Sushh na nejnovější verzi aplikace a opakujte akci.</string>
   <string name="mailbox_status_mailbox_too_old_title">Mailbox je příliš zastaralý</string>
   <string name="mailbox_status_mailbox_too_old_message">Aktualizujte váš Mailbox na nejnovější verzi aplikace a zkuste to znovu.</string>
   <string name="mailbox_status_check_button">Zkontrolujte připojení</string>
@@ -663,12 +663,12 @@
   <string name="mailbox_status_unlink_button">Odpojit</string>
   <string name="mailbox_status_unlink_dialog_title">Odpojit Mailbox?</string>
   <string name="mailbox_status_unlink_dialog_question">Jste si jisti, že si přejete odpojit váš Mailbox?</string>
-  <string name="mailbox_status_unlink_dialog_warning">Pokud odpojíte svůj Mailbox, nebudete moci obdržet zprávy když bude Briar nedostupný/offline.</string>
+  <string name="mailbox_status_unlink_dialog_warning">Pokud odpojíte svůj Mailbox, nebudete moci obdržet zprávy když bude Sushh nedostupný/offline.</string>
   <string name="mailbox_status_unlink_no_wipe_title">Váš Mailbox byl odpojen</string>
   <string name="mailbox_status_unlink_no_wipe_message">Až budete mít příště přístup do vašeho Mailbox zařízení, otevřete prosím Mailbox aplikaci a klepněte na tlačítko \"Odpojit\" pro dokončení procesu.\n\nPokud již nemáte přístup k vašemu Mailbox zařízení, nezoufejte. Vaše data jsou šifrována, takže zůstanou v bezpečí i v případě, že proces nedokončíte.</string>
   <string name="mailbox_status_unlink_success">Váš Mailbox byl odpojen</string>
-  <string name="mailbox_error_notification_channel_title">Problém s Briar Mailboxem</string>
-  <string name="mailbox_error_notification_title">Briar Mailbox je nedostupný</string>
+  <string name="mailbox_error_notification_channel_title">Problém s Sushh Mailboxem</string>
+  <string name="mailbox_error_notification_title">Sushh Mailbox je nedostupný</string>
   <string name="mailbox_error_notification_text">Klepněte pro vyřešení problému.</string>
   <string name="mailbox_error_wizard_button">Vyřešit problém</string>
   <string name="mailbox_error_wizard_title">Průvodce řešení problémů s Mailboxem</string>
@@ -684,16 +684,16 @@
   <string name="mailbox_error_wizard_answer1_4">Vidím \"Zařízení je nedostupné\"</string>
   <string name="mailbox_error_wizard_info1_1_1">Prosím odpojte váš Mailbox pomocí tlačítka níže, potom postupujte podle instrukcí na Mailbox zařízení pro opětovné spojení.</string>
   <string name="mailbox_error_wizard_info_1_1_2">Prosím odpojte váš Mailbox pomocí tlačítka níže, potom oskenujte QR kód pro opětovné spojení.</string>
-  <string name="mailbox_error_wizard_info1_1_3">Prosím, použijte tlačítko níže pro kontrolu spojení mezi Briarem a Mailboxem.\n\n
+  <string name="mailbox_error_wizard_info1_1_3">Prosím, použijte tlačítko níže pro kontrolu spojení mezi Sushhem a Mailboxem.\n\n
 		Pokud spojení znovu selže:\n
-		\u2022 Zkontrolujte, že Mailbox a Briar aplikace jsou aktualizované na nejnovější verzi.\n
-		\u2022 Restartujte Mailbox a Briar zařízení a zkuste to znovu.</string>
-  <string name="mailbox_error_wizard_info1_1_4">Zkontrolujte že mailbox zařízení je správně připojeno k internetu.\n\nZkontrolujte že hodiny na Mailbox zařízení ukazují správný čas, datum a časové pásmo.\n\nZkontrolujte že Mailbox a Briar aplikace jsou aktualizované na nejnovější verzi.\n\nRestartujte Mailbox i Briar zařízení a zkuste to znovu.</string>
+		\u2022 Zkontrolujte, že Mailbox a Sushh aplikace jsou aktualizované na nejnovější verzi.\n
+		\u2022 Restartujte Mailbox a Sushh zařízení a zkuste to znovu.</string>
+  <string name="mailbox_error_wizard_info1_1_4">Zkontrolujte že mailbox zařízení je správně připojeno k internetu.\n\nZkontrolujte že hodiny na Mailbox zařízení ukazují správný čas, datum a časové pásmo.\n\nZkontrolujte že Mailbox a Sushh aplikace jsou aktualizované na nejnovější verzi.\n\nRestartujte Mailbox i Sushh zařízení a zkuste to znovu.</string>
   <string name="mailbox_error_wizard_info2">Prosím vraťte se zpět na tuto obrazovku jakmile získáte přístup k zařízení.</string>
   <string name="mailbox_error_wizard_info3">Prosím odpojte váš Mailbox pomocí tlačítka níže.\n\nPo odpojení vašeho starého Mailboxu můžete kdykoliv nastavit nový Mailbox.</string>
   <!--About-->
   <string name="about_title">O</string>
-  <string name="briar_version">Briar verze: %s</string>
+  <string name="briar_version">Sushh verze: %s</string>
   <string name="tor_version">Tor verze: %s</string>
   <string name="links">Odkazy</string>
   <string name="briar_website">\u2022 <a href="">Webová stránka</a></string>
@@ -718,7 +718,7 @@
   <!--Settings Actions-->
   <string name="pref_category_actions">Akce</string>
   <string name="share_app_link">Sdílet odkaz ke stažení</string>
-  <string name="share_app_link_text">Stáhnout Briar z %s</string>
+  <string name="share_app_link_text">Stáhnout Sushh z %s</string>
   <string name="send_feedback">Poslat zpětnou vazbu</string>
   <!--Link Warning-->
   <string name="link_warning_title">Odkaz varování</string>
@@ -726,10 +726,10 @@
   <string name="link_warning_text">Toto může být použito k vaší identifikaci. Zamyslete se, zda věříte osobě, která vám poslala tento odkaz a zvažte otevření pomocí Prohlížeče Tor.</string>
   <string name="link_warning_open_link">Otevřít odkaz</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Hlášení o pádu Briar</string>
-  <string name="briar_crashed">Omlouváme se, Briar se zhroutil</string>
+  <string name="crash_report_title">Hlášení o pádu Sushh</string>
+  <string name="briar_crashed">Omlouváme se, Sushh se zhroutil</string>
   <string name="not_your_fault">Toto není vaše chyba.</string>
-  <string name="please_send_report">Vaše pomoc je důležitá. Díky ní můžeme postavit lepší Briar tím, že nám pošlete zprávu o pádu aplikace.</string>
+  <string name="please_send_report">Vaše pomoc je důležitá. Díky ní můžeme postavit lepší Sushh tím, že nám pošlete zprávu o pádu aplikace.</string>
   <string name="report_is_encrypted">Slibujeme, že hlášení je zašifrováno a bezpečně odesláno.</string>
   <string name="feedback_title">Zpětná vazba</string>
   <string name="describe_crash">Popište, co se stalo (nepovinné)</string>
@@ -754,72 +754,72 @@
   <string name="close">Zavřít</string>
   <string name="dev_report_sending">Odesílání zpětné vazby...</string>
   <string name="dev_report_sent">Zpětná vazba odeslána</string>
-  <string name="dev_report_saved">Hlášení uloženo. Odesláno bude při příštím přihlášení do Briar.</string>
+  <string name="dev_report_saved">Hlášení uloženo. Odesláno bude při příštím přihlášení do Sushh.</string>
   <string name="dev_report_error">Chyba: Odesílání hlášení selhalo</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Odhlásit se z Briar...</string>
+  <string name="progress_title_logout">Odhlásit se z Sushh...</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Bylo zjištěno překrytí obrazovky</string>
-  <string name="screen_filter_body">Jiná aplikace se nachází nad aplikací Briar. Kvůli ochraně vaší bezpečnosti Briar nebude odpovídat na klepnutí prstem pokud jiná aplikace je na popředí.\n\nNásledující aplikace mohou být na popředí:\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">Jiná aplikace se nachází nad aplikací Briar. Kvůli ochraně vaší bezpečnosti Briar nebude odpovídat na klepnutí prstem pokud jiná aplikace je na popředí.\n\nZkontrolujte níže uvedené aplikace abyste našli dotyčnou aplikaci.</string>
+  <string name="screen_filter_body">Jiná aplikace se nachází nad aplikací Sushh. Kvůli ochraně vaší bezpečnosti Sushh nebude odpovídat na klepnutí prstem pokud jiná aplikace je na popředí.\n\nNásledující aplikace mohou být na popředí:\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">Jiná aplikace se nachází nad aplikací Sushh. Kvůli ochraně vaší bezpečnosti Sushh nebude odpovídat na klepnutí prstem pokud jiná aplikace je na popředí.\n\nZkontrolujte níže uvedené aplikace abyste našli dotyčnou aplikaci.</string>
   <string name="screen_filter_allow">Povolit těmto aplikacím zůstat navrchu</string>
   <string name="screen_filter_review_apps">Zkontrolujte aplikace</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Oprávnění pro přístup k fotoaparátu</string>
-  <string name="permission_camera_request_body">Pro scan QR kódu, Briar vyžaduje přístup k fotoaparátu.</string>
+  <string name="permission_camera_request_body">Pro scan QR kódu, Sushh vyžaduje přístup k fotoaparátu.</string>
   <string name="permission_location_title">Místní povolení</string>
   <string name="permission_nearby_devices_title">Povolení pro zařízení v okolí</string>
-  <string name="permission_location_request_body">Aby mohl Briar najít zařízení Bluetooth, potřebuje Briar povolení zjistit vaše umístění.\n\nBriar neukládá vaše umístění ani ho s nikým nesdílí.</string>
+  <string name="permission_location_request_body">Aby mohl Sushh najít zařízení Bluetooth, potřebuje Sushh povolení zjistit vaše umístění.\n\nSushh neukládá vaše umístění ani ho s nikým nesdílí.</string>
   <string name="permission_camera_location_title">Fotoaparát a umístění</string>
-  <string name="permission_camera_location_request_body">Pro oskenování QR kódu potřebuje Briar přístup k fotoaparátu.\n\nPro nalezení zařízení Bluetooth potřebuje Briar povolení zjistit vaše umístění.\n\nBriar neukládá vaše umístění ani ho s nikým nesdílí.</string>
+  <string name="permission_camera_location_request_body">Pro oskenování QR kódu potřebuje Sushh přístup k fotoaparátu.\n\nPro nalezení zařízení Bluetooth potřebuje Sushh povolení zjistit vaše umístění.\n\nSushh neukládá vaše umístění ani ho s nikým nesdílí.</string>
   <string name="permission_camera_bluetooth_title">Fotoaparát a zařízení v okolí</string>
-  <string name="permission_camera_bluetooth_request_body">Pro oskenování QR kódu Briar potřebuje přístup k vašemu fotoaparátu.\n\nPro nalezení Bluetooth zařízení potřebuje Briar povolení přístupu k zařízením v okolí.</string>
+  <string name="permission_camera_bluetooth_request_body">Pro oskenování QR kódu Sushh potřebuje přístup k vašemu fotoaparátu.\n\nPro nalezení Bluetooth zařízení potřebuje Sushh povolení přístupu k zařízením v okolí.</string>
   <string name="permission_camera_denied_body">Odmítli jste udělit oprávnění přístupu k fotoaparátu, avšak pro přidání kontaktů je nutné použití fotoaparátu.\n\nZvažte prosím, opětovné udělení přístupu.</string>
-  <string name="permission_location_denied_body">Zamítli jste přístup k umístění ale Briar tento přístup potřebuje k nalezení zařízení Bluetooth.\n\nZvažte povolení přístupu.</string>
+  <string name="permission_location_denied_body">Zamítli jste přístup k umístění ale Sushh tento přístup potřebuje k nalezení zařízení Bluetooth.\n\nZvažte povolení přístupu.</string>
   <string name="permission_location_setting_title">Volba umístění</string>
   <string name="permission_location_setting_body">Volba umístění vašeho zařízení musí být zapnuta aby byla nalezena jiná zařízení přes Bluetooth. Prosím zapněte umístění pro pokračování. Následně ho můžete zase vypnout.</string>
   <string name="permission_location_setting_hotspot_body">Volba umístění vašeho zařízení musí být zapnuta aby mohl být vytvořen Wi-Fi hotspot. Prosím zapněte umístění pro pokračování. Následně ho můžete zase vypnout.</string>
   <string name="permission_location_setting_button">Zapnout umístění</string>
   <string name="permission_bluetooth_title">Povolení pro zařízení v okolí</string>
-  <string name="permission_bluetooth_body">Pro využití Bluetooth komunikace potřebuje Briar povolení hledat a spojovat se se zařízeními v okolí.</string>
-  <string name="permission_bluetooth_denied_body">Zamítli jste přístup k zařízením v okolí. Briar ale potřebuje tento přístup pro použití Bluetooth.\n\nProsím zvažte povolení přístupu.</string>
+  <string name="permission_bluetooth_body">Pro využití Bluetooth komunikace potřebuje Sushh povolení hledat a spojovat se se zařízeními v okolí.</string>
+  <string name="permission_bluetooth_denied_body">Zamítli jste přístup k zařízením v okolí. Sushh ale potřebuje tento přístup pro použití Bluetooth.\n\nProsím zvažte povolení přístupu.</string>
   <string name="qr_code">QR kód</string>
   <string name="show_qr_code_fullscreen">Zobrazit QR kód na celou obrazovku</string>
   <!--App Locking-->
-  <string name="lock_unlock">Odemknout Briar</string>
-  <string name="lock_unlock_verbose">K odemknutí aplikace Briar zadejte PIN, vzor nebo heslo vašeho zařízení</string>
+  <string name="lock_unlock">Odemknout Sushh</string>
+  <string name="lock_unlock_verbose">K odemknutí aplikace Sushh zadejte PIN, vzor nebo heslo vašeho zařízení</string>
   <string name="lock_unlock_fingerprint_description">Pro pokračování se dotkněte snímače otisku prstu registrovaným prstem</string>
   <string name="lock_unlock_password">Použít heslo</string>
-  <string name="lock_is_locked">Briar je zamčen</string>
+  <string name="lock_is_locked">Sushh je zamčen</string>
   <string name="lock_tap_to_unlock">Klepněte pro odemčení</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar se může připojit k vašim kontaktům pomocí internetu, Wi-Fi nebo Bluetooth.\n\nVšechna internetová spojení jsou kvůli soukromí přenášena sítí Tor.\n\nPokud kontakt může být dosažen pomocí několika metod, Briar je využije zároveň.</string>
+  <string name="transports_help_text">Sushh se může připojit k vašim kontaktům pomocí internetu, Wi-Fi nebo Bluetooth.\n\nVšechna internetová spojení jsou kvůli soukromí přenášena sítí Tor.\n\nPokud kontakt může být dosažen pomocí několika metod, Sushh je využije zároveň.</string>
   <!--Share app offline-->
   <string name="hotspot_title">Sdílet tuto aplikaci offline</string>
   <string name="hotspot_intro">Sdílejte tuto aplikaci s někým, kdo je v okolí a to bez použití internetu, jen pomocí místní Wi-Fi sítě.
-		\n\nVáš telefon vytvoří Wi-Fi hotspot. Lidé v okolí se budou moci připojit k hotspotu a stáhnout aplikaci Briar z vašeho telefonu.</string>
+		\n\nVáš telefon vytvoří Wi-Fi hotspot. Lidé v okolí se budou moci připojit k hotspotu a stáhnout aplikaci Sushh z vašeho telefonu.</string>
   <string name="hotspot_button_start_sharing">Spustit hotspot</string>
   <string name="hotspot_button_stop_sharing">Zastavit hotspot</string>
   <string name="hotspot_progress_text_start">Nastavování hotspotu...</string>
   <string name="hotspot_notification_channel_title">Wi-Fi hotspot</string>
-  <string name="hotspot_notification_title">Sdílení Briaru offline</string>
+  <string name="hotspot_notification_title">Sdílení Sushhu offline</string>
   <string name="hotspot_button_connected">Další</string>
-  <string name="permission_hotspot_location_request_body">Pro vytvoření Wi-Fi hotspotu potřebuje Briar povolení zjistit vaše umístění.\n\nBriar neukládá vaše umístění ani ho s nikým nesdílí.</string>
-  <string name="permission_hotspot_location_request_precise_body">Pro vytvoření Wi-Fi hotspotu potřebuje Briar povolení zjistit vaše přesné umístění.\n\nBriar neukládá vaše umístění ani ho s nikým nesdílí.</string>
-  <string name="permission_hotspot_location_denied_body">Zamítli jste přístup k vašemu umístění. Briar přístup potřebuje, aby mohl vytvořit Wi-Fi hotspot.\n\nProsím zvažte povolení přístupu.</string>
-  <string name="permission_hotspot_location_denied_precise_body">Zamítli jste přístup k vašemu přesnému umístění. Briar přístup potřebuje, aby mohl vytvořit Wi-Fi hotspot.\n\nProsím zvažte povolení přístupu.</string>
-  <string name="permission_hotspot_nearby_wifi_request_body">Pro vytvoření Wi-Fi hotspotu, potřebuje Briar povolení přístupu k zařízením v okolí.</string>
-  <string name="permission_hotspot_nearby_wifi_denied_body">Odmítli jste přístup k zařízením v okolí i když Briar potřebuje povolení, aby mohl vytvořit Wi-Fi hotspot.\n\nProsím zvažte udělení přístupu.</string>
+  <string name="permission_hotspot_location_request_body">Pro vytvoření Wi-Fi hotspotu potřebuje Sushh povolení zjistit vaše umístění.\n\nSushh neukládá vaše umístění ani ho s nikým nesdílí.</string>
+  <string name="permission_hotspot_location_request_precise_body">Pro vytvoření Wi-Fi hotspotu potřebuje Sushh povolení zjistit vaše přesné umístění.\n\nSushh neukládá vaše umístění ani ho s nikým nesdílí.</string>
+  <string name="permission_hotspot_location_denied_body">Zamítli jste přístup k vašemu umístění. Sushh přístup potřebuje, aby mohl vytvořit Wi-Fi hotspot.\n\nProsím zvažte povolení přístupu.</string>
+  <string name="permission_hotspot_location_denied_precise_body">Zamítli jste přístup k vašemu přesnému umístění. Sushh přístup potřebuje, aby mohl vytvořit Wi-Fi hotspot.\n\nProsím zvažte povolení přístupu.</string>
+  <string name="permission_hotspot_nearby_wifi_request_body">Pro vytvoření Wi-Fi hotspotu, potřebuje Sushh povolení přístupu k zařízením v okolí.</string>
+  <string name="permission_hotspot_nearby_wifi_denied_body">Odmítli jste přístup k zařízením v okolí i když Sushh potřebuje povolení, aby mohl vytvořit Wi-Fi hotspot.\n\nProsím zvažte udělení přístupu.</string>
   <string name="wifi_settings_title">Wi-Fi volba</string>
-  <string name="wifi_settings_request_enable_body">Pro vytvoření Wi-Fi hotspotu potřebuje Briar využít Wi-Fi. Prosím zapněte ji.</string>
+  <string name="wifi_settings_request_enable_body">Pro vytvoření Wi-Fi hotspotu potřebuje Sushh využít Wi-Fi. Prosím zapněte ji.</string>
   <string name="hotspot_tab_manual">Manuálně</string>
   <!--The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s-->
   <string name="hotspot_scanning_a_qr_code">oskenováním QR kódu</string>
   <!--Wi-Fi setup-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_wifi">Váš telefon poskytuje Wi-Fi hotspot. Lidé, kteří si chtějí stáhnout Briar se mohou k hotspotu připojit tak, že ho přidají ve Wi-Fi nastavení svého zařízení, za použití údajů uvedených níže a nebo %s. Jakmile se připojí k hotspotu, klikněte na \'Další\'.</string>
+  <string name="hotspot_manual_wifi">Váš telefon poskytuje Wi-Fi hotspot. Lidé, kteří si chtějí stáhnout Sushh se mohou k hotspotu připojit tak, že ho přidají ve Wi-Fi nastavení svého zařízení, za použití údajů uvedených níže a nebo %s. Jakmile se připojí k hotspotu, klikněte na \'Další\'.</string>
   <string name="hotspot_manual_wifi_ssid">Název sítě</string>
-  <string name="hotspot_qr_wifi">Váš telefon poskytuje Wi-Fi hotspot. Lidé, kteří si chtějí stáhnout Briar se mohou k hotspotu připojit tak, že oskenují tento QR kód. Jakmile se připojí k hotspotu, klikněte na \'Další\'.</string>
+  <string name="hotspot_qr_wifi">Váš telefon poskytuje Wi-Fi hotspot. Lidé, kteří si chtějí stáhnout Sushh se mohou k hotspotu připojit tak, že oskenují tento QR kód. Jakmile se připojí k hotspotu, klikněte na \'Další\'.</string>
   <string name="hotspot_no_peers_connected">Nejsou připojena žádná zařízení</string>
   <plurals name="hotspot_peers_connected">
     <item quantity="one">%s zařízení připojeno</item>
@@ -829,13 +829,13 @@
   </plurals>
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_site">Váš telefon poskytuje Wi-Fi hotspot. Lidé, kteří jsou připojeni k hotspotu si mohou stáhnout Briar tak, že zadají následující odkaz do internetového prohlížeče nebo %s.</string>
+  <string name="hotspot_manual_site">Váš telefon poskytuje Wi-Fi hotspot. Lidé, kteří jsou připojeni k hotspotu si mohou stáhnout Sushh tak, že zadají následující odkaz do internetového prohlížeče nebo %s.</string>
   <string name="hotspot_manual_site_address">Adresa (URL)</string>
-  <string name="hotspot_qr_site">Váš telefon poskytuje Wi-Fi hotspot. Lidé, kteří jsou připojeni k hotspotu si mohou stáhnout Briar po oskenování tohoto QR kódu.</string>
-  <!--e.g. Download Briar 1.2.20-->
-  <string name="website_download_title_1">Stáhnout Briar %s</string>
-  <string name="website_download_intro_1">Někdo v okolí s vámi sdílel Briar.</string>
-  <string name="website_download_button">Stáhnout Briar</string>
+  <string name="hotspot_qr_site">Váš telefon poskytuje Wi-Fi hotspot. Lidé, kteří jsou připojeni k hotspotu si mohou stáhnout Sushh po oskenování tohoto QR kódu.</string>
+  <!--e.g. Download Sushh 1.2.20-->
+  <string name="website_download_title_1">Stáhnout Sushh %s</string>
+  <string name="website_download_intro_1">Někdo v okolí s vámi sdílel Sushh.</string>
+  <string name="website_download_button">Stáhnout Sushh</string>
   <string name="website_download_outro">Po tom, co stahování skončí, otevřete stažený soubor a nainstalujte ho.</string>
   <string name="website_troubleshooting_title">Odstraňování problémů</string>
   <string name="website_troubleshooting_1">Pokud nemůžete aplikaci stáhnout, zkuste použít jiný internetový prohlížeč.</string>
@@ -844,14 +844,14 @@
   <string name="hotspot_help_wifi_title">Potíže s připojením k Wi-Fi:</string>
   <string name="hotspot_help_wifi_1">Zkuste vypnout a zapnout Wi-Fi na obou telefonech a zkusit to znovu.</string>
   <string name="hotspot_help_wifi_2">Pokud si váš telefon stěžuje, že Wi-Fi není připojena k internetu, vyberte i tak volbu zachování připojení k Wi-Fi.</string>
-  <string name="hotspot_help_wifi_3">Restartujte telefon, který provozuje Wi-Fi hotspot. Spusťte Briar a akci opakujte.</string>
+  <string name="hotspot_help_wifi_3">Restartujte telefon, který provozuje Wi-Fi hotspot. Spusťte Sushh a akci opakujte.</string>
   <string name="hotspot_help_site_title">Potíže při navštívení místní webové stránky:</string>
   <string name="hotspot_help_site_1">Dobře zkontrolujte, že jste zadali adresu přesně tak, jak je zobrazena. Malá chyba může způsobit selhání.</string>
   <string name="hotspot_help_site_2">Ujistěte se, že váš telefon je stále připojen ke správně síti Wi-Fi (viz. výše) ve chvíli, kdy se pokoušíte přistoupit na stránku.</string>
   <string name="hotspot_help_site_3">Pokud používáte firewall aplikaci, zkontrolujte že neblokuje přístup.</string>
-  <string name="hotspot_help_site_4">Pokud můžete navštívit stránku, ale stahování aplikace Briar nefunguje, zkuste to s jiným internetovým prohlížečem.</string>
+  <string name="hotspot_help_site_4">Pokud můžete navštívit stránku, ale stahování aplikace Sushh nefunguje, zkuste to s jiným internetovým prohlížečem.</string>
   <string name="hotspot_help_fallback_title">Nic nefunguje?</string>
-  <string name="hotspot_help_fallback_intro">Můžete zkusit uložit aplikaci jako .apk soubor a sdílet i jinými způsoby. Po přenesení souboru na jiné zařízení je možné ho využít k instalaci Briaru.
+  <string name="hotspot_help_fallback_intro">Můžete zkusit uložit aplikaci jako .apk soubor a sdílet i jinými způsoby. Po přenesení souboru na jiné zařízení je možné ho využít k instalaci Sushhu.
 		\n\nTip: Pro sdílení přes Bluetooth může být potřeba nejprve soubor přejmenovat aby končil příponou .zip.</string>
   <string name="hotspot_help_fallback_button">Uložit aplikaci</string>
   <!--error handling-->
@@ -861,18 +861,18 @@
   <string name="hotspot_error_start_callback_failed_unknown">Hotspot se nespustil kvůli neznámé chybě, důvod %d</string>
   <string name="hotspot_error_start_callback_no_group_info">Spuštění hotspotu selhalo: žádné info skupiny</string>
   <string name="hotspot_error_web_server_start">Chyba spuštění web serveru</string>
-  <string name="hotspot_error_web_server_serve">Chyba představení webové stránky.\n\nPokud problém přetrvává, prosím odešlete zpětnou vazbu (s anonymizovanými daty) pomocí aplikace Briar.</string>
+  <string name="hotspot_error_web_server_serve">Chyba představení webové stránky.\n\nPokud problém přetrvává, prosím odešlete zpětnou vazbu (s anonymizovanými daty) pomocí aplikace Sushh.</string>
   <string name="hotspot_flag_test">Varování: Tato aplikace byla instalována pomocí Android Studia a NEMŮŽE být instalována na jiném zařízení.</string>
   <string name="hotspot_error_framework_busy">Nebylo možné spustit hotspot.\n\nPokud máte spuštěný jiný hotspot a nebo sdílíte své internetové připojení pomocí Wi-Fi, zkuste to vypnout a pak akci opakovat.</string>
   <!--Transfer Data via Removable Drives-->
   <string name="removable_drive_menu_title">Připojit se přes vyměnitelný disk</string>
-  <string name="removable_drive_intro">Pokud se nemůžete připojit k vašemu kontaktu pomocí internetu, Wi-Fi nebo Bluetooth, Briar může také přenést zprávy na vyměnitelný disk, kterým je například USB klíčenka a nebo SD karta.</string>
-  <string name="removable_drive_explanation">Pokud se nemůžete připojit k vašemu kontaktu pomocí internetu, Wi-Fi nebo Bluetooth, Briar může také přenést zprávy na vyměnitelný disk, kterým je například USB klíčenka a nebo SD karta.\n\nKdyž použijete tlačítko \"Poslat data\", budou data čekající na odeslání kontaktům, zapsána na vyměnitelný disk. Tato data zahrnují soukromé zprávy, přílohy, blogy, fóra a soukromé skupiny.\n\nVše bude zašifrováno před zapsáním na vyměnitelný disk.\n\nJakmile kontakt obdrží vyměnitelný disk, může použít tlačítko \"Přijmout data\" a tím importovat zprávy do Briaru.</string>
+  <string name="removable_drive_intro">Pokud se nemůžete připojit k vašemu kontaktu pomocí internetu, Wi-Fi nebo Bluetooth, Sushh může také přenést zprávy na vyměnitelný disk, kterým je například USB klíčenka a nebo SD karta.</string>
+  <string name="removable_drive_explanation">Pokud se nemůžete připojit k vašemu kontaktu pomocí internetu, Wi-Fi nebo Bluetooth, Sushh může také přenést zprávy na vyměnitelný disk, kterým je například USB klíčenka a nebo SD karta.\n\nKdyž použijete tlačítko \"Poslat data\", budou data čekající na odeslání kontaktům, zapsána na vyměnitelný disk. Tato data zahrnují soukromé zprávy, přílohy, blogy, fóra a soukromé skupiny.\n\nVše bude zašifrováno před zapsáním na vyměnitelný disk.\n\nJakmile kontakt obdrží vyměnitelný disk, může použít tlačítko \"Přijmout data\" a tím importovat zprávy do Sushhu.</string>
   <string name="removable_drive_title_send">Poslat data</string>
   <string name="removable_drive_title_receive">Přijmout data</string>
   <string name="removable_drive_send_intro">Klepněte na tlačítko níže pro vytvoření nového souboru obsahujícího šifrované zprávy. Můžete si zvolit kam bude soubor uložen.\n\nPokud chcete uložit soubor na vyměnitelný disk, tak ho nyní připojte.</string>
   <string name="removable_drive_send_no_data">Nyní zde nejsou žádné zprávy čekající na odeslání tomuto kontaktu.</string>
-  <string name="removable_drive_send_not_supported">Tento kontakt používá starou verzi Briar a nebo staré zařízení, které nepodporuje tuto funkci.</string>
+  <string name="removable_drive_send_not_supported">Tento kontakt používá starou verzi Sushh a nebo staré zařízení, které nepodporuje tuto funkci.</string>
   <string name="removable_drive_send_button">Vyberte soubor k exportu</string>
   <string name="removable_drive_ongoing">Prosím čekejte až bude probíhající úloha dokončena</string>
   <string name="removable_drive_receive_intro">Klepněte na tlačítko níže pro výběr souboru, který vám zaslal kontakt.\n\nPokud je soubor na vyměnitelném disku, tak disk nyní připojte.</string>
@@ -882,9 +882,9 @@
   <string name="removable_drive_success_receive_title">Import byl úspěšný</string>
   <string name="removable_drive_success_receive_text">Všechny šifrované zprávy obsažené v tomto souboru byly přijaty.</string>
   <string name="removable_drive_error_send_title">Chyba při exportu dat</string>
-  <string name="removable_drive_error_send_text">Došlo k chybě při zápisu dat do souboru.\n\nPokud používáte vyměnitelný disk, ujistěte se že je správně vložen a akci opakujte.\n\nPokud chyba přetrvává, prosím informujte o problému Briar team odesláním zpětné vazby.</string>
+  <string name="removable_drive_error_send_text">Došlo k chybě při zápisu dat do souboru.\n\nPokud používáte vyměnitelný disk, ujistěte se že je správně vložen a akci opakujte.\n\nPokud chyba přetrvává, prosím informujte o problému Sushh team odesláním zpětné vazby.</string>
   <string name="removable_drive_error_receive_title">Chyba importu dat</string>
-  <string name="removable_drive_error_receive_text">Vybraný soubor neobsahoval nic co by Briar rozpoznal.\n\nProsím zkontrolujte, že jste vybrali správný soubor.\n\nPokud váš kontakt vytvořil soubor před více než 28 dny, Briar ho nebude moci rozpoznat.</string>
+  <string name="removable_drive_error_receive_text">Vybraný soubor neobsahoval nic co by Sushh rozpoznal.\n\nProsím zkontrolujte, že jste vybrali správný soubor.\n\nPokud váš kontakt vytvořil soubor před více než 28 dny, Sushh ho nebude moci rozpoznat.</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">Alice</string>
@@ -895,7 +895,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Ahoj Tomáši!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Ahoj Alice! Díky, že jsi mi dala vědět o Briaru!</string>
+  <string name="screenshot_message_2">Ahoj Alice! Díky, že jsi mi dala vědět o Sushhu!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">V pořádku, doufám že se ti líbí 😀</string>
 </resources>

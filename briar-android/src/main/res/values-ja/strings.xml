@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">Briarへようこそ</string>
+  <string name="setup_title">Sushhへようこそ</string>
   <string name="setup_name_explanation">あなたのニックネームは、常に、あなたが投稿するコンテンツとともに表示されます。プロフィール作成後、編集はできません。</string>
   <string name="setup_next">次へ</string>
   <string name="setup_password_intro">パスワードを選択</string>
-  <string name="setup_password_explanation">Briarのアカウント情報はクラウドではなく、暗号化された端末に保存されます。アプリのアンインストールやパスワードを紛失した場合、アカウントへのアクセスとデータを回復する手段はありません。\n\n推測するのが難しい、長いパスワードを設定してください。無作為な４単語や無作為な10文字と数字と記号を組み合わせたものなどです。</string>
-  <string name="dnkm_doze_intro">メッセージを受信するために、Briarはバックグラウンドで接続を維持する必要があります。</string>
-  <string name="dnkm_doze_explanation">メッセージを受信するために、Briarはバックグラウンドで接続を維持する必要があります。 Briarが接続を維持できるように、電池の最適化を無効にしてください。</string>
+  <string name="setup_password_explanation">Sushhのアカウント情報はクラウドではなく、暗号化された端末に保存されます。アプリのアンインストールやパスワードを紛失した場合、アカウントへのアクセスとデータを回復する手段はありません。\n\n推測するのが難しい、長いパスワードを設定してください。無作為な４単語や無作為な10文字と数字と記号を組み合わせたものなどです。</string>
+  <string name="dnkm_doze_intro">メッセージを受信するために、Sushhはバックグラウンドで接続を維持する必要があります。</string>
+  <string name="dnkm_doze_explanation">メッセージを受信するために、Sushhはバックグラウンドで接続を維持する必要があります。 Sushhが接続を維持できるように、電池の最適化を無効にしてください。</string>
   <string name="choose_nickname">ニックネームを入力</string>
   <string name="choose_password">パスワードを入力</string>
   <string name="confirm_password">確認のため再度パスワードを入力</string>
@@ -17,39 +17,39 @@
   <string name="create_account_button">アカウントを作成</string>
   <string name="more_info">詳細情報</string>
   <string name="don_t_ask_again">次からは尋ねない</string>
-  <string name="dnkm_huawei_protected_text">下のボタンをタップして、「保護されたアプリ」画面で Briarが保護されていることを確認してください。</string>
-  <string name="dnkm_huawei_protected_button">Briarを保護する</string>
-  <string name="dnkm_huawei_protected_help">Briarが保護されたアプリの一覧に追加されていないと、Briarはバックグラウンドで実行することができません。</string>
-  <string name="dnkm_huawei_app_launch_text">下のボタンをタップして「アプリの起動」画面を開き、Briarが「手動で管理する」に設定されていることを確認してください。</string>
-  <string name="dnkm_huawei_app_launch_help">「アプリ起動」画面で Briarを「手動で管理する」に設定していないと、バックグラウンドで動作させることができません。</string>
-  <string name="dnkm_xiaomi_text">バックグラウンドで実行するには、Briarを最近のアプリの一覧にロックする必要があります。</string>
-  <string name="dnkm_xiaomi_button">Briarを保護する</string>
-  <string name="dnkm_xiaomi_help">Briarが最近使ったアプリの一覧にロックされていないと、バックグラウンドで実行することができません。</string>
-  <string name="dnkm_xiaomi_dialog_body_old">1. 最近使ったアプリの一覧（アプリスイッチャーともいう）を開いて下さい。\n\n2. Briarの画像を下にスワイプすると、南京錠のアイコンが表示されます。\n\n3. 南京錠がロックされていない場合は、タップしてロックします。</string>
-  <string name="dnkm_xiaomi_dialog_body_new">1. 最近使ったアプリの一覧（アプリスイッチャーともいう）を開いて下さい。\n\n2. Briarの名前の隣に南京錠の小さな画像があれば、何もする必要がありません。\n\n3. そこに南京錠がなければ、南京錠ボタンが現れるまでBriarの画像を押し続け、そしてBriarをタップしてください。</string>
-  <string name="dnkm_warning_dozed_1">Briarはバックグラウンドで実行できませんでした</string>
+  <string name="dnkm_huawei_protected_text">下のボタンをタップして、「保護されたアプリ」画面で Sushhが保護されていることを確認してください。</string>
+  <string name="dnkm_huawei_protected_button">Sushhを保護する</string>
+  <string name="dnkm_huawei_protected_help">Sushhが保護されたアプリの一覧に追加されていないと、Sushhはバックグラウンドで実行することができません。</string>
+  <string name="dnkm_huawei_app_launch_text">下のボタンをタップして「アプリの起動」画面を開き、Sushhが「手動で管理する」に設定されていることを確認してください。</string>
+  <string name="dnkm_huawei_app_launch_help">「アプリ起動」画面で Sushhを「手動で管理する」に設定していないと、バックグラウンドで動作させることができません。</string>
+  <string name="dnkm_xiaomi_text">バックグラウンドで実行するには、Sushhを最近のアプリの一覧にロックする必要があります。</string>
+  <string name="dnkm_xiaomi_button">Sushhを保護する</string>
+  <string name="dnkm_xiaomi_help">Sushhが最近使ったアプリの一覧にロックされていないと、バックグラウンドで実行することができません。</string>
+  <string name="dnkm_xiaomi_dialog_body_old">1. 最近使ったアプリの一覧（アプリスイッチャーともいう）を開いて下さい。\n\n2. Sushhの画像を下にスワイプすると、南京錠のアイコンが表示されます。\n\n3. 南京錠がロックされていない場合は、タップしてロックします。</string>
+  <string name="dnkm_xiaomi_dialog_body_new">1. 最近使ったアプリの一覧（アプリスイッチャーともいう）を開いて下さい。\n\n2. Sushhの名前の隣に南京錠の小さな画像があれば、何もする必要がありません。\n\n3. そこに南京錠がなければ、南京錠ボタンが現れるまでSushhの画像を押し続け、そしてSushhをタップしてください。</string>
+  <string name="dnkm_warning_dozed_1">Sushhはバックグラウンドで実行できませんでした</string>
   <!--Login-->
   <string name="enter_password">パスワード</string>
   <string name="try_again">パスワードが間違っています。もう一度入力してください。</string>
   <string name="dialog_title_cannot_check_password">パスワードを確認できません</string>
-  <string name="dialog_message_cannot_check_password">Briarがパスワードを確認することができませんでした。この問題を解決するには、端末の再起動を試してください。</string>
+  <string name="dialog_message_cannot_check_password">Sushhがパスワードを確認することができませんでした。この問題を解決するには、端末の再起動を試してください。</string>
   <string name="sign_in_button">サインイン</string>
   <string name="dialog_title_lost_password">パスワードを紛失</string>
-  <string name="dialog_message_lost_password">Briarアカウントはクラウド上ではなく、暗号化された上であなたの端末に保存さています。したがって、Briarはパスワードをリセットできません。アカウントを削除して、はじめからやり直しますか？\n\n注意：あなたのID、連絡先、メッセージは永久に失われます。</string>
-  <string name="startup_failed_activity_title">Briarの起動に失敗</string>
-  <string name="startup_failed_clock_error">お使いの端末の時計が正しくないため、Briarは起動できませんでした。\n\n端末の時計を正しい時刻に設定してから、もう一度試してください。</string>
-  <string name="startup_failed_db_error">Briarは、あなたのアカウント、連絡先、メッセージを含むデータベースを開くことができませんでした。\n\nアプリを最新版にアップグレードしてもう一度お試しいただくか、パスワード入力画面で「パスワードを忘れました」を選択して新規アカウントを設定してください。</string>
+  <string name="dialog_message_lost_password">Sushhアカウントはクラウド上ではなく、暗号化された上であなたの端末に保存さています。したがって、Sushhはパスワードをリセットできません。アカウントを削除して、はじめからやり直しますか？\n\n注意：あなたのID、連絡先、メッセージは永久に失われます。</string>
+  <string name="startup_failed_activity_title">Sushhの起動に失敗</string>
+  <string name="startup_failed_clock_error">お使いの端末の時計が正しくないため、Sushhは起動できませんでした。\n\n端末の時計を正しい時刻に設定してから、もう一度試してください。</string>
+  <string name="startup_failed_db_error">Sushhは、あなたのアカウント、連絡先、メッセージを含むデータベースを開くことができませんでした。\n\nアプリを最新版にアップグレードしてもう一度お試しいただくか、パスワード入力画面で「パスワードを忘れました」を選択して新規アカウントを設定してください。</string>
   <string name="startup_failed_data_too_old_error">あなたのアカウントは古いバージョンのアプリで作成されたもので、このバージョンでは開くことができません。\n\n古いバージョンを再インストールするか、パスワード入力画面で「パスワードを忘れました」を選択して新規アカウントを設定する必要があります。</string>
   <string name="startup_failed_data_too_new_error">あなたのアカウントは、このアプリの新しいバージョンで作成されたもので、このバージョンでは開くことができません。\n\n最新版にアップグレードしてから、もう一度試してください。</string>
-  <string name="startup_failed_service_error">Briarは必要なコンポーネントを起動できませんでした。\n\nアプリの最新版にアップグレードしてから、もう一度試してください。</string>
+  <string name="startup_failed_service_error">Sushhは必要なコンポーネントを起動できませんでした。\n\nアプリの最新版にアップグレードしてから、もう一度試してください。</string>
   <plurals name="expiry_warning">
-    <item quantity="other">これは、Briarの試験バージョンです。 アカウントはあと%d日で期限切れになり、更新できません。</item>
+    <item quantity="other">これは、Sushhの試験バージョンです。 アカウントはあと%d日で期限切れになり、更新できません。</item>
   </plurals>
   <string name="expiry_date_reached">このソフトウェアの有効期限が切れました。試験に参加してくださりありがとうございます！</string>
-  <string name="download_briar">Briarを使用し続けるには、最新のリリースをダウンロードしてください。</string>
+  <string name="download_briar">Sushhを使用し続けるには、最新のリリースをダウンロードしてください。</string>
   <string name="create_new_account">新規アカウントを作成する必要があります。同じニックネームも使用できます。</string>
   <string name="download_briar_button">最新リリースをダウンロード</string>
-  <string name="old_android_expiry_date_reached">BriarはAndroid 4では動作しなくなりました。\n新しい端末にBriarをインストールしてください。</string>
+  <string name="old_android_expiry_date_reached">SushhはAndroid 4では動作しなくなりました。\n新しい端末にSushhをインストールしてください。</string>
   <string name="old_android_delete_account">下のボタンをタップして、この端末からあなたのアカウントを削除できます。</string>
   <string name="delete_account_button">アカウントを削除</string>
   <string name="startup_open_database">データベースを復号中…</string>
@@ -66,43 +66,43 @@
   <string name="lock_button">アプリをロック</string>
   <string name="settings_button">設定</string>
   <string name="sign_out_button">サインアウト</string>
-  <string name="transports_onboarding_text">ここにタップすると、Briarがあなたの連絡先に接続する方法を制御できます。</string>
+  <string name="transports_onboarding_text">ここにタップすると、Sushhがあなたの連絡先に接続する方法を制御できます。</string>
   <!--Transports: Tor-->
   <string name="transport_tor">インターネット</string>
   <string name="tor_device_status_online_wifi">電話機はWi-Fiでインターネットにアクセスできます</string>
   <string name="tor_device_status_online_mobile">電話機は携帯電話回線でインターネットにアクセスできます</string>
   <string name="tor_device_status_offline">電話機はインターネットに接続していません</string>
-  <string name="tor_plugin_status_enabling">Briarはインターネットに接続中です</string>
-  <string name="tor_plugin_status_active">Briarはインターネットに接続されました</string>
-  <string name="tor_plugin_status_inactive">Briarはインターネットに接続できません</string>
-  <string name="tor_plugin_status_disabled">Briarはインターネットを使用しないように設定されています</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briarは携帯電話回線を使用しないように設定されています</string>
-  <string name="tor_plugin_status_disabled_battery">Briarは電池で動作する時に、インターネットを使用しないように設定されています</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briarはこの国でインターネットを使用しないように設定されています</string>
+  <string name="tor_plugin_status_enabling">Sushhはインターネットに接続中です</string>
+  <string name="tor_plugin_status_active">Sushhはインターネットに接続されました</string>
+  <string name="tor_plugin_status_inactive">Sushhはインターネットに接続できません</string>
+  <string name="tor_plugin_status_disabled">Sushhはインターネットを使用しないように設定されています</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushhは携帯電話回線を使用しないように設定されています</string>
+  <string name="tor_plugin_status_disabled_battery">Sushhは電池で動作する時に、インターネットを使用しないように設定されています</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushhはこの国でインターネットを使用しないように設定されています</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Wi-Fi</string>
   <string name="transport_lan_long">同じWi-Fiネットワーク</string>
   <string name="lan_device_status_on">電話機はWi-Fiに接続されました</string>
   <string name="lan_device_status_off">電話機はWi-Fiに接続されていません</string>
-  <string name="lan_plugin_status_enabling">BriarはWi-Fiネットワークに接続中です</string>
-  <string name="lan_plugin_status_active">BriarはWi-Fiネットワークに接続されました</string>
-  <string name="lan_plugin_status_inactive">BriarはWi-Fiネットワークに接続できません</string>
-  <string name="lan_plugin_status_disabled">BriarはWi-Fiネットワークを使用しないように設定されています</string>
+  <string name="lan_plugin_status_enabling">SushhはWi-Fiネットワークに接続中です</string>
+  <string name="lan_plugin_status_active">SushhはWi-Fiネットワークに接続されました</string>
+  <string name="lan_plugin_status_inactive">SushhはWi-Fiネットワークに接続できません</string>
+  <string name="lan_plugin_status_disabled">SushhはWi-Fiネットワークを使用しないように設定されています</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">電話機のBluetoothはオンにされました</string>
   <string name="bt_device_status_off">電話機のBluetoothはオフにされました</string>
-  <string name="bt_plugin_status_enabling">BriarはBluetoothに接続中です</string>
-  <string name="bt_plugin_status_active">BriarはBluetoothに接続されました</string>
-  <string name="bt_plugin_status_inactive">BriarはBluetoothに接続できません</string>
-  <string name="bt_plugin_status_disabled">BriarはBluetoothを使用しないように設定されています</string>
+  <string name="bt_plugin_status_enabling">SushhはBluetoothに接続中です</string>
+  <string name="bt_plugin_status_active">SushhはBluetoothに接続されました</string>
+  <string name="bt_plugin_status_inactive">SushhはBluetoothに接続できません</string>
+  <string name="bt_plugin_status_disabled">SushhはBluetoothを使用しないように設定されています</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Briarからサインアウト</string>
+  <string name="reminder_notification_title">Sushhからサインアウト</string>
   <string name="reminder_notification_text">タップして再ログインします。</string>
-  <string name="reminder_notification_channel_title">Briarサインインリマインダー</string>
+  <string name="reminder_notification_channel_title">Sushhサインインリマインダー</string>
   <string name="reminder_notification_dismiss">退かせる</string>
-  <string name="ongoing_notification_title">Briarにサインイン</string>
-  <string name="ongoing_notification_text">触れてBriarを開く。</string>
+  <string name="ongoing_notification_title">Sushhにサインイン</string>
+  <string name="ongoing_notification_text">触れてSushhを開く。</string>
   <plurals name="private_message_notification_text">
     <item quantity="other">%d件の新規非公開メッセージ</item>
   </plurals>
@@ -204,7 +204,7 @@
   <string name="save_image_success">画像を保存しました</string>
   <string name="save_image_error">画像を保存できませんでした</string>
   <string name="dialog_title_no_image_support">画像は利用できません</string>
-  <string name="dialog_message_no_image_support">あなたの連絡先のBriarは画像の添付をまだサポートしていません。連絡先がアップグレードすると、別のアイコンが表示されます。</string>
+  <string name="dialog_message_no_image_support">あなたの連絡先のSushhは画像の添付をまだサポートしていません。連絡先がアップグレードすると、別のアイコンが表示されます。</string>
   <string name="dialog_title_image_support">今はこの連絡先に画像を送信できます</string>
   <string name="dialog_message_image_support">このアイコンをタップして画像を添付します。</string>
   <string name="messaging_too_many_attachments_toast">最初の%d個の画像のみが送信されます。</string>
@@ -221,10 +221,10 @@
   <string name="contact_already_exists">連絡先%sは既に存在しています </string>
   <string name="contact_already_exists_general">連絡先は既に存在します </string>
   <string name="qr_code_invalid">QRコードが無効です</string>
-  <string name="qr_code_too_old_1">読み取ったQRコードは、Briarの古いバージョンから生じました。\n\n最新版へアップグレードしてもらって、もう一度お試しください。</string>
-  <string name="qr_code_too_new_1">読み取ったQRコードは、新しいバージョンのBriarから生じました。\n\n最新版にアップグレードしてから、もう一度お試しください。</string>
-  <string name="mailbox_qr_code_for_contact">読み取ったQRコードは、Briarメールボックスから生じました。\n\nメールボックスに関連付けたいならば、設定を選択してください&gt; Briarメニューからメールボックス</string>
-  <string name="qr_code_format_unknown">読み取ったQRコードは、Briarの連絡先を追加するために示されたものではありません。\n\nあなたの連絡先の画面上に表示されたQRコードを読み取ってください。</string>
+  <string name="qr_code_too_old_1">読み取ったQRコードは、Sushhの古いバージョンから生じました。\n\n最新版へアップグレードしてもらって、もう一度お試しください。</string>
+  <string name="qr_code_too_new_1">読み取ったQRコードは、新しいバージョンのSushhから生じました。\n\n最新版にアップグレードしてから、もう一度お試しください。</string>
+  <string name="mailbox_qr_code_for_contact">読み取ったQRコードは、Sushhメールボックスから生じました。\n\nメールボックスに関連付けたいならば、設定を選択してください&gt; Sushhメニューからメールボックス</string>
+  <string name="qr_code_format_unknown">読み取ったQRコードは、Sushhの連絡先を追加するために示されたものではありません。\n\nあなたの連絡先の画面上に表示されたQRコードを読み取ってください。</string>
   <string name="camera_error">カメラエラー</string>
   <string name="connecting_to_device">端末に接続中\u2026</string>
   <string name="authenticating_with_device">端末同士での認証中\u2026</string>
@@ -246,7 +246,7 @@
   <string name="add_contact_choose_a_nickname">ニックネームを入力してください</string>
   <string name="nickname_intro">この連絡先にニックネームを付けます。 あなただけがそれを見ることができます。</string>
   <string name="your_link">追加したい連絡先にこのリンクを渡す</string>
-  <string name="link_clip_label">Briarリンク</string>
+  <string name="link_clip_label">Sushhリンク</string>
   <string name="link_copied_toast">リンクをコピーしました</string>
   <string name="adding_contact_error">連絡先を追加中にエラーが発生しました。</string>
   <string name="pending_contact_requests_snackbar">保留中の連絡先への追加要求があります</string>
@@ -261,7 +261,7 @@
   <string name="own_link_error">あなたのリンクではなく、連絡先のリンクを入力してください</string>
   <string name="nickname_missing">ニックネームを入力してください</string>
   <string name="invalid_link">無効なリンク</string>
-  <string name="unsupported_link">このリンクはBriarの新しいバージョンからのものです。 最新版にアップグレードしてから、もう一度試してください。</string>
+  <string name="unsupported_link">このリンクはSushhの新しいバージョンからのものです。 最新版にアップグレードしてから、もう一度試してください。</string>
   <string name="intent_own_link">あなた自身のリンクを開きました。追加したい連絡先のリンクを使用してください！</string>
   <string name="missing_link">リンクを入力してください</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -295,7 +295,7 @@
   <string name="peer_trust_level_stranger">見知らぬ人</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">連絡先を紹介</string>
-  <string name="introduction_onboarding_text">連絡先をお互いに紹介することで、Briarで繋がることができます。</string>
+  <string name="introduction_onboarding_text">連絡先をお互いに紹介することで、Sushhで繋がることができます。</string>
   <string name="introduction_menu_item">紹介する</string>
   <string name="introduction_activity_title">連絡先を選択</string>
   <string name="introduction_not_possible">これらの連絡先と、すでに1つの紹介が進行中です。最初にこれを終了するため、これを許可してください。 あなたやあなたの連絡相手が滅多にオンラインにならない場合、時間がかかることがあります。</string>
@@ -487,7 +487,7 @@
   <string name="change_profile_picture_failed_message">申し訳ありませんが、あなたのプロフィール画像の更新中に何か過ちが発生しました</string>
   <!--Settings Display-->
   <string name="pref_language_title">言語 &amp; 地域</string>
-  <string name="pref_language_changed">この設定は、Briarを再起動すると有効になります。 サインアウトしてBriarを再起動してください。</string>
+  <string name="pref_language_changed">この設定は、Sushhを再起動すると有効になります。 サインアウトしてSushhを再起動してください。</string>
   <string name="pref_language_default">システムのデフォルト</string>
   <string name="display_settings_title">表示</string>
   <string name="pref_theme_title">テーマ</string>
@@ -505,7 +505,7 @@
   <string name="tor_network_setting_without_bridges">ブリッジなしでTorネットワークを使用する</string>
   <string name="tor_network_setting_with_bridges">ブリッジを通してTorネットワークを使用する</string>
   <string name="tor_network_setting_never">インターネットに接続しない</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">自動：%1$s（%2$s内）</string>
   <string name="tor_mobile_data_title">携帯電話回線を使用する</string>
   <string name="tor_only_when_charging_title">充電時にのみインターネットに接続する</string>
@@ -513,11 +513,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">安全</string>
   <string name="pref_lock_title">アプリロック</string>
-  <string name="pref_lock_summary">ログイン中に端末の画面ロックを使用して、Briarを保護します</string>
+  <string name="pref_lock_summary">ログイン中に端末の画面ロックを使用して、Sushhを保護します</string>
   <string name="pref_lock_disabled_summary">この機能を使用するには、端末の画面ロックを設定します</string>
   <string name="pref_lock_timeout_title">操作がない場合に時間切れになり、アプリロックをロックする</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Briarを使用しない場合、%s後に自動的にロックします</string>
+  <string name="pref_lock_timeout_summary">Sushhを使用しない場合、%s後に自動的にロックします</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1分</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -529,7 +529,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1時間</string>
   <string name="pref_lock_timeout_never">行わない</string>
-  <string name="pref_lock_timeout_never_summary">Briarを自動的にロックしない</string>
+  <string name="pref_lock_timeout_never_summary">Sushhを自動的にロックしない</string>
   <string name="change_password">パスワードを変更</string>
   <string name="current_password">現在のパスワード</string>
   <string name="choose_new_password">新規パスワード</string>
@@ -537,7 +537,7 @@
   <string name="password_changed">パスワードが変更されました。</string>
   <string name="panic_setting">パニックボタンをセットアップ</string>
   <string name="panic_setting_title">パニックボタン</string>
-  <string name="panic_setting_hint">パニックボタンアプリを使用したときのBriarの反応を設定する</string>
+  <string name="panic_setting_hint">パニックボタンアプリを使用したときのSushhの反応を設定する</string>
   <string name="panic_app_setting_title">パニックボタンアプリ</string>
   <string name="unknown_app">未知のアプリ</string>
   <string name="panic_app_setting_summary">アプリが設定されていません</string>
@@ -546,9 +546,9 @@
   <string name="dialog_message_connect_panic_app">%1$sが強制力の強いパニックボタンアクションをトリガーすることを許可してもよろしいですか？</string>
   <string name="panic_setting_destructive_action">強制力の強いアクション</string>
   <string name="panic_setting_signout_title">サインアウト</string>
-  <string name="panic_setting_signout_summary">パニックボタンが押された場合、Briarからログアウトする</string>
+  <string name="panic_setting_signout_summary">パニックボタンが押された場合、Sushhからログアウトする</string>
   <string name="purge_setting_title">アカウントを削除</string>
-  <string name="purge_setting_summary">パニックボタンが押された場合は、Briarアカウントを削除します。 注意：これにより、ID、連絡先、メッセージが完全に削除されます</string>
+  <string name="purge_setting_summary">パニックボタンが押された場合は、Sushhアカウントを削除します。 注意：これにより、ID、連絡先、メッセージが完全に削除されます</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">通知</string>
   <string name="notify_sign_in_title">サインインするように通知する</string>
@@ -575,28 +575,28 @@
   <string name="mailbox_settings_title">メールボックス</string>
   <string name="mailbox_setup_title">メールボックスをセットアップ</string>
   <string name="mailbox_setup_intro">メールボックスはあなたがオフラインの間、連絡先があなたにメッセージを送信することを有効にします。メールボックスはあなたがオンラインになるまで、メッセージを受信し保管します。\n
-		\n予備端末上にBriarのメールボックスアプリをインストールできます。それを電源とWi-Fiに接続し、常時オンラインにしてください。</string>
-  <string name="mailbox_setup_download">最初に、Google PlayまたはBriarをダウンロードしたどこかで「BriarMailbox」を検索して、他の端末上にメールボックスアプリをインストールします。\n
-		\nそして、メールボックスアプリによって表示されるQRコードを読み取って、Briarとあなたのメールボックスをリンクします。</string>
+		\n予備端末上にSushhのメールボックスアプリをインストールできます。それを電源とWi-Fiに接続し、常時オンラインにしてください。</string>
+  <string name="mailbox_setup_download">最初に、Google PlayまたはSushhをダウンロードしたどこかで「SushhMailbox」を検索して、他の端末上にメールボックスアプリをインストールします。\n
+		\nそして、メールボックスアプリによって表示されるQRコードを読み取って、Sushhとあなたのメールボックスをリンクします。</string>
   <string name="mailbox_setup_download_link">ダウンロードリンクを共有</string>
   <string name="mailbox_setup_button_scan">メールボックスのQRコードを読み取る</string>
   <string name="permission_camera_qr_denied_body">あなたはカメラにアクセスすることを拒否しましたが、QRコードを読み取るには、カメラを使用する必要があります。\n\nアクセス権を付与することを考慮願います。</string>
   <string name="mailbox_setup_connecting">メールボックスへ接続中…</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">%1sまでかかる場合があります</string>
-  <string name="mailbox_qr_code_too_old">読み取ったQRコードは、古いバージョンのBriarメールボックスから生じました。\n\nBriarメールボックスを最新版にアップグレードしてから、もう一度お試しください。</string>
-  <string name="mailbox_qr_code_too_new">読み取ったQRコードは、新しいバージョンのBriarメールボックスから生じました。\n\nBriarを最新版にアップグレードしてから、もう一度お試しください。</string>
-  <string name="contact_qr_code_for_mailbox">読み取ったQRコードは、Briarの連絡先を追加するためのものです。\n\n連絡先を追加したいならば、連絡先一覧に行き、+アイコンをタップしてください。</string>
-  <string name="mailbox_setup_qr_code_wrong_description">読み取ったQRコードは、Briarメールボックスから生じたものではありません。メールボックス端末上のBriarメールボックスアプリを開き、提示されたQRコードを読み取ってください。</string>
+  <string name="mailbox_qr_code_too_old">読み取ったQRコードは、古いバージョンのSushhメールボックスから生じました。\n\nSushhメールボックスを最新版にアップグレードしてから、もう一度お試しください。</string>
+  <string name="mailbox_qr_code_too_new">読み取ったQRコードは、新しいバージョンのSushhメールボックスから生じました。\n\nSushhを最新版にアップグレードしてから、もう一度お試しください。</string>
+  <string name="contact_qr_code_for_mailbox">読み取ったQRコードは、Sushhの連絡先を追加するためのものです。\n\n連絡先を追加したいならば、連絡先一覧に行き、+アイコンをタップしてください。</string>
+  <string name="mailbox_setup_qr_code_wrong_description">読み取ったQRコードは、Sushhメールボックスから生じたものではありません。メールボックス端末上のSushhメールボックスアプリを開き、提示されたQRコードを読み取ってください。</string>
   <string name="mailbox_setup_already_paired_title">メールボックスは既にリンクされています</string>
   <string name="mailbox_setup_already_paired_description">あなたの端末上のメールボックスのリンクを解き、再試行してください。</string>
   <string name="mailbox_setup_io_error_title">接続できません</string>
   <string name="mailbox_setup_io_error_description">双方の端末がインターネットに接続されていることを確かにして、再試行してください。</string>
   <string name="mailbox_setup_assertion_error_title">メールボックスにエラー</string>
-  <string name="mailbox_setup_assertion_error_description">もし問題が続くのであれば、Briarアプリ経由で（匿名データ付きの）フィードバックを送信してください。</string>
+  <string name="mailbox_setup_assertion_error_description">もし問題が続くのであれば、Sushhアプリ経由で（匿名データ付きの）フィードバックを送信してください。</string>
   <string name="mailbox_setup_camera_error_description">カメラにアクセスできません。端末を再起動してから、もう一度試してみてください。</string>
   <string name="mailbox_setup_paired_title">接続済み</string>
-  <string name="mailbox_setup_paired_description">あなたのメールボックスはBriarとのリンクに成功しています。\n
+  <string name="mailbox_setup_paired_description">あなたのメールボックスはSushhとのリンクに成功しています。\n
 		メールボックスを電源とW-Fiに接続して、常時オンラインにしてください。</string>
   <string name="tor_offline_title">オフライン</string>
   <string name="tor_offline_description">この端末がオンラインかつインターネットへの接続が許可されていること確かにしてください。\n
@@ -604,10 +604,10 @@
   <string name="tor_offline_button_check">接続設定を確認</string>
   <string name="mailbox_status_title">メールボックスの状態</string>
   <string name="mailbox_status_connected_title">メールボックスは実行中</string>
-  <string name="mailbox_status_problem_title">Briarはメールボックスへの接続が不調です</string>
+  <string name="mailbox_status_problem_title">Sushhはメールボックスへの接続が不調です</string>
   <string name="mailbox_status_failure_title">メールボックスは利用できません</string>
-  <string name="mailbox_status_app_too_old_title">Briarは古すぎます</string>
-  <string name="mailbox_status_app_too_old_message">Briarをアプリの最新版に更新し、再度お試しください。</string>
+  <string name="mailbox_status_app_too_old_title">Sushhは古すぎます</string>
+  <string name="mailbox_status_app_too_old_message">Sushhをアプリの最新版に更新し、再度お試しください。</string>
   <string name="mailbox_status_mailbox_too_old_title">メールボックスは古すぎます</string>
   <string name="mailbox_status_mailbox_too_old_message">メールボックスをアプリの最新版に更新し、再度お試しください。</string>
   <string name="mailbox_status_check_button">接続を確認</string>
@@ -618,12 +618,12 @@
   <string name="mailbox_status_unlink_button">リンク解除</string>
   <string name="mailbox_status_unlink_dialog_title">メールボックスをリンク解除しますか？</string>
   <string name="mailbox_status_unlink_dialog_question">本当にあなたのメールボックスをリンク解除してもよろしいですか?</string>
-  <string name="mailbox_status_unlink_dialog_warning">メールボックスをリンク解除すると、Briarがオフライン中にメッセージを受信できません。</string>
+  <string name="mailbox_status_unlink_dialog_warning">メールボックスをリンク解除すると、Sushhがオフライン中にメッセージを受信できません。</string>
   <string name="mailbox_status_unlink_no_wipe_title">メールボックスはリンク解除されました</string>
   <string name="mailbox_status_unlink_no_wipe_message">次回、メールボックス端末にアクセスした際に、メールボックスアプリを起動し、「リンク解除」ボタンをタップして処理を完了してください。\n\nメールボックス端末にアクセスできなくなった場合でも、ご安心ください。データは暗号化されているので、処理を完了しなくても安全なままです。</string>
   <string name="mailbox_status_unlink_success">メールボックスはリンク解除されました</string>
-  <string name="mailbox_error_notification_channel_title">Briarメールボックスに問題</string>
-  <string name="mailbox_error_notification_title">Briarメールボックスは利用できません</string>
+  <string name="mailbox_error_notification_channel_title">Sushhメールボックスに問題</string>
+  <string name="mailbox_error_notification_title">Sushhメールボックスは利用できません</string>
   <string name="mailbox_error_notification_text">タップして問題を修正する。</string>
   <string name="mailbox_error_wizard_button">問題を修正する</string>
   <string name="mailbox_error_wizard_title">メールボックスのトラブルシューティングウィザード</string>
@@ -639,16 +639,16 @@
   <string name="mailbox_error_wizard_answer1_4">「端末がオフライン」と表示されます</string>
   <string name="mailbox_error_wizard_info1_1_1">以下のボタンでメールボックスのリンクを解除し、メールボックスの端末の指示に従って再度リンクしてください。</string>
   <string name="mailbox_error_wizard_info_1_1_2">以下のボタンでメールボックスのリンクを解除し、QRコードを読み取って再度リンクしてください。</string>
-  <string name="mailbox_error_wizard_info1_1_3">以下のボタンを使用して、Briarとメールボックスの間での接続を確認してください。\n\n
+  <string name="mailbox_error_wizard_info1_1_3">以下のボタンを使用して、Sushhとメールボックスの間での接続を確認してください。\n\n
 		接続が再び失敗する場合:\n
-		\u2022 メールボックスとBriarアプリが最新版に更新されているか確認してください。\n
-		\u2022 メールボックスとBriarの端末を再起動して、再度お試しください。</string>
-  <string name="mailbox_error_wizard_info1_1_4">メールボックス端末がインターネットに適切に接続されているか、確認してください。\n\nメールボックス端末の時計が正しい時刻、日付、時間帯を表示しているか、確認してください。\n\nメールボックスとBriarアプリが最新版に更新されているか、確認してください。\n\nメールボックスとBriarの端末を再起動し、再度お試しください。</string>
+		\u2022 メールボックスとSushhアプリが最新版に更新されているか確認してください。\n
+		\u2022 メールボックスとSushhの端末を再起動して、再度お試しください。</string>
+  <string name="mailbox_error_wizard_info1_1_4">メールボックス端末がインターネットに適切に接続されているか、確認してください。\n\nメールボックス端末の時計が正しい時刻、日付、時間帯を表示しているか、確認してください。\n\nメールボックスとSushhアプリが最新版に更新されているか、確認してください。\n\nメールボックスとSushhの端末を再起動し、再度お試しください。</string>
   <string name="mailbox_error_wizard_info2">端末にアクセスしたら、この画面に戻って来てください。</string>
   <string name="mailbox_error_wizard_info3">以下のボタンを使用してメールボックスをリンク解除してください。\n\n古いメールボックスをリンク解除した後、いつでも新しいメールボックスをセットアップできます。</string>
   <!--About-->
   <string name="about_title">バージョン情報</string>
-  <string name="briar_version">Briarバージョン: %s</string>
+  <string name="briar_version">Sushhバージョン: %s</string>
   <string name="tor_version">Torバージョン: %s</string>
   <string name="links">リンク</string>
   <string name="briar_website">\u2022 <a href="">ウェブサイト</a></string>
@@ -673,7 +673,7 @@
   <!--Settings Actions-->
   <string name="pref_category_actions">操作</string>
   <string name="share_app_link">ダウンロードリンクを共有</string>
-  <string name="share_app_link_text">%s でBriarをダウンロード</string>
+  <string name="share_app_link_text">%s でSushhをダウンロード</string>
   <string name="send_feedback">フィードバックを送信</string>
   <!--Link Warning-->
   <string name="link_warning_title">リンクの警告</string>
@@ -681,10 +681,10 @@
   <string name="link_warning_text">これはあなたを識別するために使用できます。 このリンクを送ってきた人を信頼していいのどうか考えてください。リンクを開く場合は、Tor Browserで開いてください。</string>
   <string name="link_warning_open_link">リンクを開く</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briarのクラッシュレポート</string>
-  <string name="briar_crashed">申し訳ありませんが、Briarはクラッシュしました</string>
+  <string name="crash_report_title">Sushhのクラッシュレポート</string>
+  <string name="briar_crashed">申し訳ありませんが、Sushhはクラッシュしました</string>
   <string name="not_your_fault">これはあなたのせいではありません。</string>
-  <string name="please_send_report">クラッシュレポートを送信して、より良いBriarの開発にご協力ください。</string>
+  <string name="please_send_report">クラッシュレポートを送信して、より良いSushhの開発にご協力ください。</string>
   <string name="report_is_encrypted">レポートは暗号化され、安全に送信されることをお約束します。</string>
   <string name="feedback_title">フィードバック</string>
   <string name="describe_crash">何が起こったかのかを説明してください（任意）</string>
@@ -709,85 +709,85 @@
   <string name="close">閉じる</string>
   <string name="dev_report_sending">フィードバックを送信中…</string>
   <string name="dev_report_sent">フィードバックを送信しました</string>
-  <string name="dev_report_saved">レポートを保存しました。 次回、Briarにログインしたときに送信されます。</string>
+  <string name="dev_report_saved">レポートを保存しました。 次回、Sushhにログインしたときに送信されます。</string>
   <string name="dev_report_error">エラー：レポート送信に失敗</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Briarからサインアウト中…</string>
+  <string name="progress_title_logout">Sushhからサインアウト中…</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">画面オーバーレイが検出されました</string>
-  <string name="screen_filter_body">他のアプリがBriarの上に描画されています。セキュリティ保護のため、他のアプリが上に描画しているときは、Briarに触れても反応しません。\n\n以下のアプリが上に描画されている可能性があります:\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">他のアプリがBriarの上に描画されています。セキュリティ保護のため、他のアプリが上に描画しているときは、Briarに触れても反応しません。\n\n以下のアプリを確認して、原因のアプリを見つけてください。</string>
-  <string name="screen_filter_allow">これらのアプリがBriarの画面上に描画できるようにする</string>
+  <string name="screen_filter_body">他のアプリがSushhの上に描画されています。セキュリティ保護のため、他のアプリが上に描画しているときは、Sushhに触れても反応しません。\n\n以下のアプリが上に描画されている可能性があります:\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">他のアプリがSushhの上に描画されています。セキュリティ保護のため、他のアプリが上に描画しているときは、Sushhに触れても反応しません。\n\n以下のアプリを確認して、原因のアプリを見つけてください。</string>
+  <string name="screen_filter_allow">これらのアプリがSushhの画面上に描画できるようにする</string>
   <string name="screen_filter_review_apps">アプリを確認</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">カメラの権限</string>
-  <string name="permission_camera_request_body">QRコードを読み取るには、Briarはカメラにアクセスする必要があります。</string>
+  <string name="permission_camera_request_body">QRコードを読み取るには、Sushhはカメラにアクセスする必要があります。</string>
   <string name="permission_location_title">位置情報の権限</string>
   <string name="permission_nearby_devices_title">付近の端末の権限</string>
-  <string name="permission_location_request_body">Bluetooth端末を検出するには、Briarがあなたの位置情報へアクセスする権限を必要とします。\n\nBriarはあなたの場所を保存したり、誰とも共有したりしません。</string>
+  <string name="permission_location_request_body">Bluetooth端末を検出するには、Sushhがあなたの位置情報へアクセスする権限を必要とします。\n\nSushhはあなたの場所を保存したり、誰とも共有したりしません。</string>
   <string name="permission_camera_location_title">カメラと位置情報</string>
-  <string name="permission_camera_location_request_body">QRコードを読み取るには、Briarはカメラにアクセスする権限を必要とします。\n\nBluetooth端末を検出するには、Briarは現在地情報にアクセスする許可が必要です。\n\nBriarは現在地を保存したり、誰とも共有したりしません。</string>
+  <string name="permission_camera_location_request_body">QRコードを読み取るには、Sushhはカメラにアクセスする権限を必要とします。\n\nBluetooth端末を検出するには、Sushhは現在地情報にアクセスする許可が必要です。\n\nSushhは現在地を保存したり、誰とも共有したりしません。</string>
   <string name="permission_camera_bluetooth_title">カメラと付近の端末</string>
-  <string name="permission_camera_bluetooth_request_body">QRコードを読み取るには、Briarはカメラにアクセスする権限を必要とします。\n\nBluetooth端末を検出するには、Briarは付近の端末を探し接続する許可が必要です。</string>
+  <string name="permission_camera_bluetooth_request_body">QRコードを読み取るには、Sushhはカメラにアクセスする権限を必要とします。\n\nBluetooth端末を検出するには、Sushhは付近の端末を探し接続する許可が必要です。</string>
   <string name="permission_camera_denied_body">あなたはカメラにアクセスすることを拒否しましたが、連絡先を追加するには、カメラを使用する必要があります。\n\nアクセス権を付与することを考慮願います。</string>
-  <string name="permission_location_denied_body">あなたは位置情報にアクセスすることを拒否しましたが、BriarはBluetooth端末を発見するのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
+  <string name="permission_location_denied_body">あなたは位置情報にアクセスすることを拒否しましたが、SushhはBluetooth端末を発見するのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
   <string name="permission_location_setting_title">位置情報設定</string>
   <string name="permission_location_setting_body">端末の位置情報設定は、Bluetoothを介して他の端末を見つけるために、オンにする必要があります。続けるには位置情報を有効にしてください。その後、位置情報を無効にできます。</string>
   <string name="permission_location_setting_hotspot_body">端末の位置情報設定は、Wi-Fiホットスポットを作成するために、オンにする必要があります。続けるには位置情報を有効にしてください。その後、位置情報を無効にできます。</string>
   <string name="permission_location_setting_button">位置情報を有効化</string>
   <string name="permission_bluetooth_title">付近の端末の権限</string>
-  <string name="permission_bluetooth_body">Bluetooth通信を使用するには、Briarは付近の端末を探し接続する権限が必要です。</string>
-  <string name="permission_bluetooth_denied_body">あなたは付近の端末にアクセスすることを拒否しましたが、BriarはBluetoothを使用するのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
+  <string name="permission_bluetooth_body">Bluetooth通信を使用するには、Sushhは付近の端末を探し接続する権限が必要です。</string>
+  <string name="permission_bluetooth_denied_body">あなたは付近の端末にアクセスすることを拒否しましたが、SushhはBluetoothを使用するのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
   <string name="qr_code">QRコード</string>
   <string name="show_qr_code_fullscreen">QRコードを全画面表示する</string>
   <!--App Locking-->
-  <string name="lock_unlock">Briarのロックを解除</string>
-  <string name="lock_unlock_verbose">Briarのロックを解除するには、端末のPIN、パターン、またはパスワードを入力してください</string>
+  <string name="lock_unlock">Sushhのロックを解除</string>
+  <string name="lock_unlock_verbose">Sushhのロックを解除するには、端末のPIN、パターン、またはパスワードを入力してください</string>
   <string name="lock_unlock_fingerprint_description">登録した指で指紋センサーに触れて続行します</string>
   <string name="lock_unlock_password">パスワードを使用</string>
-  <string name="lock_is_locked">Briarはロックされています</string>
+  <string name="lock_is_locked">Sushhはロックされています</string>
   <string name="lock_tap_to_unlock">タップしてロック解除</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briarは、インターネット、Wi-Fi、Bluetoothを介して連絡先に接続することができます。\n\n全てのインターネット接続は、プライバシー保護のためにTorネットワークを経由します。\n\n複数の方法で連絡が取れる場合、Briarはそれらを並行して使用します。</string>
+  <string name="transports_help_text">Sushhは、インターネット、Wi-Fi、Bluetoothを介して連絡先に接続することができます。\n\n全てのインターネット接続は、プライバシー保護のためにTorネットワークを経由します。\n\n複数の方法で連絡が取れる場合、Sushhはそれらを並行して使用します。</string>
   <!--Share app offline-->
   <string name="hotspot_title">このアプリをオフラインで共有</string>
   <string name="hotspot_intro">あなたの電話機のWi-Fiを使用して、インターネット接続なしで、近くの誰かとこのアプリを共有します。
-		\n\nあなたの電話機はWi-Fiホットスポットになります。近くの人はホットスポットへ接続し、あなたの電話機からBriarアプリをダウンロードできます。</string>
+		\n\nあなたの電話機はWi-Fiホットスポットになります。近くの人はホットスポットへ接続し、あなたの電話機からSushhアプリをダウンロードできます。</string>
   <string name="hotspot_button_start_sharing">ホットスポットを開始</string>
   <string name="hotspot_button_stop_sharing">ホットスポットを停止</string>
   <string name="hotspot_progress_text_start">ホットスポットを設定する…</string>
   <string name="hotspot_notification_channel_title">Wi-Fiホットスポット</string>
-  <string name="hotspot_notification_title">Briarをオフラインで共有</string>
+  <string name="hotspot_notification_title">Sushhをオフラインで共有</string>
   <string name="hotspot_button_connected">次へ</string>
-  <string name="permission_hotspot_location_request_body">Wi-Fiホットスポットを作るには、Briarはあなたの位置情報にアクセスする権限が必要です。\n\nBriarはあなたの位置情報を保存せず、誰かに共有することもありません。</string>
-  <string name="permission_hotspot_location_request_precise_body">Wi-Fiホットスポットを作るには、Briarはあなたの正確な位置情報にアクセスする権限が必要です。\n\nBriarはあなたの位置情報を保存せず、誰かに共有することもありません。</string>
-  <string name="permission_hotspot_location_denied_body">あなたは位置情報にアクセスすることを拒否しましたが、BriarはWi-Fiホットスポットを作るのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
-  <string name="permission_hotspot_location_denied_precise_body">あなたは正確な位置情報にアクセスすることを拒否しましたが、BriarはWi-Fiホットスポットを作るのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
-  <string name="permission_hotspot_nearby_wifi_request_body">Wi-Fiホットスポットを作るには、Briarは付近の端末にアクセスする権限が必要です。</string>
-  <string name="permission_hotspot_nearby_wifi_denied_body">あなたは付近の端末にアクセスすることを拒否しましたが、BriarはWi-Fiホットスポットを作るのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
+  <string name="permission_hotspot_location_request_body">Wi-Fiホットスポットを作るには、Sushhはあなたの位置情報にアクセスする権限が必要です。\n\nSushhはあなたの位置情報を保存せず、誰かに共有することもありません。</string>
+  <string name="permission_hotspot_location_request_precise_body">Wi-Fiホットスポットを作るには、Sushhはあなたの正確な位置情報にアクセスする権限が必要です。\n\nSushhはあなたの位置情報を保存せず、誰かに共有することもありません。</string>
+  <string name="permission_hotspot_location_denied_body">あなたは位置情報にアクセスすることを拒否しましたが、SushhはWi-Fiホットスポットを作るのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
+  <string name="permission_hotspot_location_denied_precise_body">あなたは正確な位置情報にアクセスすることを拒否しましたが、SushhはWi-Fiホットスポットを作るのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
+  <string name="permission_hotspot_nearby_wifi_request_body">Wi-Fiホットスポットを作るには、Sushhは付近の端末にアクセスする権限が必要です。</string>
+  <string name="permission_hotspot_nearby_wifi_denied_body">あなたは付近の端末にアクセスすることを拒否しましたが、SushhはWi-Fiホットスポットを作るのに、この権限が必要です。\n\nアクセス権を付与することを考慮願います。</string>
   <string name="wifi_settings_title">Wi-Fi設定</string>
-  <string name="wifi_settings_request_enable_body">Wi-Fiホットスポットを作るには、BriarはWi-Fiの使用が必要です。有効にしてください。</string>
+  <string name="wifi_settings_request_enable_body">Wi-Fiホットスポットを作るには、SushhはWi-Fiの使用が必要です。有効にしてください。</string>
   <string name="hotspot_tab_manual">手動</string>
   <!--The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s-->
   <string name="hotspot_scanning_a_qr_code">QRコードを読み取る</string>
   <!--Wi-Fi setup-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_wifi">あなたの電話機はWi-Fiホットスポットを提供しています。Briarのダウンロードを希望する人は、以下の方法で端末のWi-Fi設定に追加するか、または %s によるホットスポットに接続してください。そのホットスポットに接続されたら、「次へ」を押してください。</string>
+  <string name="hotspot_manual_wifi">あなたの電話機はWi-Fiホットスポットを提供しています。Sushhのダウンロードを希望する人は、以下の方法で端末のWi-Fi設定に追加するか、または %s によるホットスポットに接続してください。そのホットスポットに接続されたら、「次へ」を押してください。</string>
   <string name="hotspot_manual_wifi_ssid">ネットワーク名</string>
-  <string name="hotspot_qr_wifi">あなたの電話機はWi-Fiホットスポットを提供しています。Briarのダウンロードを希望する人は、このQRコードを読み取ってホットスポットに接続してください。そのホットスポットに接続されたら、「次へ」を押してください。</string>
+  <string name="hotspot_qr_wifi">あなたの電話機はWi-Fiホットスポットを提供しています。Sushhのダウンロードを希望する人は、このQRコードを読み取ってホットスポットに接続してください。そのホットスポットに接続されたら、「次へ」を押してください。</string>
   <string name="hotspot_no_peers_connected">接続された端末なし</string>
   <plurals name="hotspot_peers_connected">
     <item quantity="other">%s機の接続された端末</item>
   </plurals>
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_site">あなたの電話機はWi-Fiホットスポットを提供しています。ホットスポットに接続された人は、ウェブブラウザまたは %s 内で以下のリンクを入力して、Briarをダウンロードできます。</string>
+  <string name="hotspot_manual_site">あなたの電話機はWi-Fiホットスポットを提供しています。ホットスポットに接続された人は、ウェブブラウザまたは %s 内で以下のリンクを入力して、Sushhをダウンロードできます。</string>
   <string name="hotspot_manual_site_address">アドレス（URL）</string>
-  <string name="hotspot_qr_site">あなたの電話機はWi-Fiホットスポットを提供しています。ホットスポットに接続された人は、このQRコードを読み取って、Briarをダウンロードできます。</string>
-  <!--e.g. Download Briar 1.2.20-->
-  <string name="website_download_title_1">Briar%sをダウンロード</string>
-  <string name="website_download_intro_1">近くの誰かが、あなたとBriarを共有しました。</string>
-  <string name="website_download_button">Briarをダウンロード</string>
+  <string name="hotspot_qr_site">あなたの電話機はWi-Fiホットスポットを提供しています。ホットスポットに接続された人は、このQRコードを読み取って、Sushhをダウンロードできます。</string>
+  <!--e.g. Download Sushh 1.2.20-->
+  <string name="website_download_title_1">Sushh%sをダウンロード</string>
+  <string name="website_download_intro_1">近くの誰かが、あなたとSushhを共有しました。</string>
+  <string name="website_download_button">Sushhをダウンロード</string>
   <string name="website_download_outro">ダウンロードが完了した後に、ダウンロードしたファイルを開いて、インストールしてください。</string>
   <string name="website_troubleshooting_title">トラブルシューティング</string>
   <string name="website_troubleshooting_1">アプリをインストールできない場合、別のブラウザアプリで試してください。</string>
@@ -796,14 +796,14 @@
   <string name="hotspot_help_wifi_title">W-Fi接続の問題:</string>
   <string name="hotspot_help_wifi_1">双方の電話機でWi-Fiを無効にして、再び有効にするのを試してください。</string>
   <string name="hotspot_help_wifi_2">もし電話機が「Wi-Fiにはインターネットがない」と不満を訴えてきたら、「とにかく接続していたい」と伝えてください。</string>
-  <string name="hotspot_help_wifi_3">Wi-Fiホットスポットが実行中の電話機を再起動して、Briarの起動と共有を再び試してください。</string>
+  <string name="hotspot_help_wifi_3">Wi-Fiホットスポットが実行中の電話機を再起動して、Sushhの起動と共有を再び試してください。</string>
   <string name="hotspot_help_site_title">ローカルのウェブサイト訪問の問題:</string>
   <string name="hotspot_help_site_1">表示されている通りにアドレスを入力したかどうかを再確認してください。小さなミスで失敗することがあります。</string>
   <string name="hotspot_help_site_2">サイトにアクセスする際に、電話機が正しいWi-Fi（上記を参照）に接続されていることを確認してください。</string>
   <string name="hotspot_help_site_3">ファイアウォールアプリを使用している場合は、それがアクセスをブロックしていないか確認してください。</string>
-  <string name="hotspot_help_site_4">サイトにはアクセスできるが、Briarアプリがダウンロードできない場合は、別のウェブブラウザアプリで試してみてください。</string>
+  <string name="hotspot_help_site_4">サイトにはアクセスできるが、Sushhアプリがダウンロードできない場合は、別のウェブブラウザアプリで試してみてください。</string>
   <string name="hotspot_help_fallback_title">どれもうまくいきませんか?</string>
-  <string name="hotspot_help_fallback_intro">他の方法で共有するために、アプリを.apkファイルとして保存してみてください。そのファイルをもう一方の端末に転送すると、Briarをインストールすることができます。
+  <string name="hotspot_help_fallback_intro">他の方法で共有するために、アプリを.apkファイルとして保存してみてください。そのファイルをもう一方の端末に転送すると、Sushhをインストールすることができます。
 		\n\nヒント: Bluetoothで共有する場合は、まずファイル名を.zipで終わるように名前変更する必要があるかもしれません。</string>
   <string name="hotspot_help_fallback_button">アプリを保存する</string>
   <!--error handling-->
@@ -813,18 +813,18 @@
   <string name="hotspot_error_start_callback_failed_unknown">ホットスポットは未知のエラーで開始に失敗しました。理由 %d</string>
   <string name="hotspot_error_start_callback_no_group_info">ホットスポットの開始に失敗しました: グループ情報なし</string>
   <string name="hotspot_error_web_server_start">ウェブサーバー起動エラー</string>
-  <string name="hotspot_error_web_server_serve">ウェブサイトの表示にエラーが発生しました。\n\n問題が解決しない場合は、Briarアプリから（匿名のデータで）フィードバックを送ってください。</string>
+  <string name="hotspot_error_web_server_serve">ウェブサイトの表示にエラーが発生しました。\n\n問題が解決しない場合は、Sushhアプリから（匿名のデータで）フィードバックを送ってください。</string>
   <string name="hotspot_flag_test">警告: このアプリはAndroid Studioでインストールされたものであり、他の端末にインストールすることはできません。</string>
   <string name="hotspot_error_framework_busy">ホットスポットの起動ができません。\n\n他のホットスポットを起動している場合や、Wi-Fiでインターネット接続を共有している場合は、そのホットスポットを停止してから再度試してみてください。</string>
   <!--Transfer Data via Removable Drives-->
   <string name="removable_drive_menu_title">リムーバブルドライブ経由で接続する</string>
-  <string name="removable_drive_intro">インターネット、Wi-FiまたはBluetooth経由であなたの連絡先と接続できない場合、Briarは例えばUSBメモリーまたはSDカードのような、リムーバルドライブ上でメッセージを転送することもできます。</string>
-  <string name="removable_drive_explanation">インターネット、Wi-FiまたはBluetooth経由であなたの連絡先と接続できない場合、Briarは例えばUSBメモリーまたはSDカードのような、リムーバルドライブ上でメッセージを転送することもできます。\n\n「データ送信」ボタンを使用したとき、連絡先への送信を待っているデータは、リムーバブルドライブに書き込まれます。これは非公開メッセージ、添付、ブログ、フォーラムと非公開グループを含みます。\n\n連絡先はリムーバルドライブを受け取ったときに、Briar内にメッセージをインポートするため、「データ受信」ボタンを使用できます。</string>
+  <string name="removable_drive_intro">インターネット、Wi-FiまたはBluetooth経由であなたの連絡先と接続できない場合、Sushhは例えばUSBメモリーまたはSDカードのような、リムーバルドライブ上でメッセージを転送することもできます。</string>
+  <string name="removable_drive_explanation">インターネット、Wi-FiまたはBluetooth経由であなたの連絡先と接続できない場合、Sushhは例えばUSBメモリーまたはSDカードのような、リムーバルドライブ上でメッセージを転送することもできます。\n\n「データ送信」ボタンを使用したとき、連絡先への送信を待っているデータは、リムーバブルドライブに書き込まれます。これは非公開メッセージ、添付、ブログ、フォーラムと非公開グループを含みます。\n\n連絡先はリムーバルドライブを受け取ったときに、Sushh内にメッセージをインポートするため、「データ受信」ボタンを使用できます。</string>
   <string name="removable_drive_title_send">データ送信</string>
   <string name="removable_drive_title_receive">データ受信</string>
   <string name="removable_drive_send_intro">暗号化されたメッセージを含む新規ファイルを作成するには、下のボタンをタップしてください。ファイルの保存先を選択できます。\n\nリムーバブルドライブ上にファイルを保存したければ、ドライブを今挿れてください。</string>
   <string name="removable_drive_send_no_data">現在、この連絡先に送信待ちのメッセージはありません。</string>
-  <string name="removable_drive_send_not_supported">この連絡先はBriarの古いバージョン、またはこの機能をサポートしない古い端末を使用中です。</string>
+  <string name="removable_drive_send_not_supported">この連絡先はSushhの古いバージョン、またはこの機能をサポートしない古い端末を使用中です。</string>
   <string name="removable_drive_send_button">エクスポート用ファイルを選択してください</string>
   <string name="removable_drive_ongoing">継続中の作業が完了するのをお待ちください</string>
   <string name="removable_drive_receive_intro">連絡先があなたに送信したファイルを選択するため、以下のボタンをタップしてください。\n\nそのファイルがリムーバルドライブ上にある場合、そのドライブを今挿入してください。</string>
@@ -834,9 +834,9 @@
   <string name="removable_drive_success_receive_title">インポート成功</string>
   <string name="removable_drive_success_receive_text">全ての暗号化されたメッセージは、受信しているこのファイル内に含まれました。</string>
   <string name="removable_drive_error_send_title">データエクスポートでエラー</string>
-  <string name="removable_drive_error_send_text">ファイルへデータを書き込み中にエラーが発生しました。\n\nリムーバブルドライブを使用している場合、適切に挿入されていることを確かにして、再度お試しください。\n\nエラーが持続する場合、経験している問題について、Briarチームにフィードバックを送信してください。</string>
+  <string name="removable_drive_error_send_text">ファイルへデータを書き込み中にエラーが発生しました。\n\nリムーバブルドライブを使用している場合、適切に挿入されていることを確かにして、再度お試しください。\n\nエラーが持続する場合、経験している問題について、Sushhチームにフィードバックを送信してください。</string>
   <string name="removable_drive_error_receive_title">データインポート中にエラー</string>
-  <string name="removable_drive_error_receive_text">選択されたファイルは、Briarが正しく認識するものが含まれていません。\n\n正しいファイルが選択されていることを確認してください。\n\n連絡先が28日より前にファイルを作成した場合、Briarは正しく認識することができません。</string>
+  <string name="removable_drive_error_receive_text">選択されたファイルは、Sushhが正しく認識するものが含まれていません。\n\n正しいファイルが選択されていることを確認してください。\n\n連絡先が28日より前にファイルを作成した場合、Sushhは正しく認識することができません。</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">アリス</string>
@@ -847,7 +847,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">こんにちは、ボブ！</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">やあ、アリス！ Briarを教えてくれてありがとう！</string>
+  <string name="screenshot_message_2">やあ、アリス！ Sushhを教えてくれてありがとう！</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">どういたしまして！気に入ってくれるといいな😀</string>
 </resources>
