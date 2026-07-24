@@ -127,7 +127,7 @@ public class AddNearbyContactActivity extends BriarActivity
 	}
 
 	@Override
-	protected void onStart() {
+	public void onStart() {
 		super.onStart();
 		if (isChannelFlow()) eventBus.addListener(this);
 	}
@@ -320,7 +320,7 @@ public class AddNearbyContactActivity extends BriarActivity
 		GroupInvitationRequestReceivedEvent event = pendingInvitation;
 		invitationActionStarted = true;
 		channelJoinController.acceptInvitation(channelContact,
-				event.getMessageHeader().getShareable(),
+				event.getMessageHeader().getNameable(),
 				new UiResultExceptionHandler<Void, DbException>(this) {
 					@Override
 					public void onResultUi(Void result) {
