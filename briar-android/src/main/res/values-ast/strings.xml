@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<!--Setup-->
-	<string name="setup_title">Afáyate\'n Briar</string>
+	<string name="setup_title">Afáyate\'n Sushh</string>
 	<string name="setup_name_explanation">El to alcuñu apaecerá cabo cualquier conteníu que publiques.Nun puede cambiase después de crear la cuenta.</string>
 	<string name="setup_next">Siguiente</string>
 	<string name="setup_password_intro">Escueye una contraseña</string>
@@ -16,7 +16,7 @@
 	<string name="create_account_button">Crear cuenta</string>
 	<string name="more_info">Más información</string>
 	<string name="don_t_ask_again">Nun volver a entrugar</string>
-	<string name="dnkm_huawei_protected_button">Protexer Briar</string>
+	<string name="dnkm_huawei_protected_button">Protexer Sushh</string>
   <string name="dnkm_warning_dozed">%s nun pudo executase\'n segundu planu</string>
   <!--Login-->
   <string name="enter_password">Contraseña</string>
@@ -24,14 +24,14 @@
   <string name="sign_in_button">Aniciar sesión</string>
   <string name="forgotten_password">Escaecí la contraseña</string>
   <string name="dialog_title_lost_password">Contraseña perdida</string>
-  <string name="dialog_message_lost_password">La cuenta de Briar guárdase cifrada nel preséu, non na nube, de manera que nun podemos reaniciala.. ¿Quies desaniciar la cuenta y principiar de cero?\n\nAtención: Les tos identidaes, contautos y mensaxes perderánse de mou permanente.</string>
-  <string name="startup_failed_notification_title">Briar nun pudo arrancar</string>
+  <string name="dialog_message_lost_password">La cuenta de Sushh guárdase cifrada nel preséu, non na nube, de manera que nun podemos reaniciala.. ¿Quies desaniciar la cuenta y principiar de cero?\n\nAtención: Les tos identidaes, contautos y mensaxes perderánse de mou permanente.</string>
+  <string name="startup_failed_notification_title">Sushh nun pudo arrancar</string>
   <string name="startup_failed_notification_text">Toca pa más información</string>
-  <string name="startup_failed_activity_title">Fallu nel arranque de Briar</string>
+  <string name="startup_failed_activity_title">Fallu nel arranque de Sushh</string>
   <string name="expiry_date_reached">Esti software caducó.\n¡Gracies por probalu!</string>
-  <string name="download_briar">Pa siguir usando Briar, descarga la versión 1.0.</string>
+  <string name="download_briar">Pa siguir usando Sushh, descarga la versión 1.0.</string>
   <string name="create_new_account">Tendrás de crear una cuenta nueva, pero puedes usar el mesmu alcuñu.</string>
-  <string name="download_briar_button">Descargar Briar 1.0</string>
+  <string name="download_briar_button">Descargar Sushh 1.0</string>
   <!--Navigation Drawer-->
   <string name="nav_drawer_open_description">Abrir el caxón de navegación</string>
   <string name="nav_drawer_close_description">Zarrar el caxón de navegación</string>
@@ -49,7 +49,7 @@
   <string name="transport_lan">Wi-Fi</string>
   <!--Notifications-->
   <string name="ongoing_notification_title">Sesión aniciada</string>
-  <string name="ongoing_notification_text">Toca p\'abrir Briar.</string>
+  <string name="ongoing_notification_text">Toca p\'abrir Sushh.</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Mensaxes priváu nuevu.</item>
     <item quantity="other">%d mensaxes privaos nuevos.</item>
@@ -177,7 +177,7 @@
   <string name="panic_setting">Configuración del Botón d\'espantu</string>
   <string name="panic_setting_title">Botón d\'espantu</string>
   <string name="panic_setting_signout_title">Colar</string>
-  <string name="uninstall_setting_title">Desinstalar Briar</string>
+  <string name="uninstall_setting_title">Desinstalar Sushh</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Avisos</string>
   <string name="notify_private_messages_setting_title">Mensaxes privaos</string>
