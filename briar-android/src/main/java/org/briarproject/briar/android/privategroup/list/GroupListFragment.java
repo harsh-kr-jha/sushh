@@ -12,8 +12,10 @@ import android.view.ViewGroup;
 
 import com.google.android.material.snackbar.Snackbar;
 
+import org.briarproject.briar.BuildConfig;
 import org.briarproject.briar.R;
 import org.briarproject.briar.android.activity.ActivityComponent;
+import org.briarproject.briar.android.contact.add.nearby.AddNearbyContactActivity;
 import org.briarproject.briar.android.fragment.BaseFragment;
 import org.briarproject.briar.android.privategroup.creation.CreateGroupActivity;
 import org.briarproject.briar.android.privategroup.invitation.GroupInvitationActivity;
@@ -32,6 +34,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import static com.google.android.material.snackbar.Snackbar.LENGTH_INDEFINITE;
 import static java.util.Objects.requireNonNull;
+import static org.briarproject.briar.android.contact.add.nearby.AddNearbyContactActivity.EXTRA_JOIN_GROUP_QR;
 
 @MethodsNotNullByDefault
 @ParametersNotNullByDefault
@@ -123,13 +126,23 @@ public class GroupListFragment extends BaseFragment implements
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 		inflater.inflate(R.menu.groups_list_actions, menu);
+		menu.findItem(R.id.action_add_group).setVisible(BuildConfig.SUSHH_HUB);
+		menu.findItem(R.id.action_join_group_qr)
+				.setVisible(!BuildConfig.SUSHH_HUB);
 		super.onCreateOptionsMenu(menu, inflater);
 	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		if (item.getItemId() == R.id.action_add_group) {
+			if (!BuildConfig.SUSHH_HUB) throw new IllegalStateException();
 			Intent i = new Intent(getContext(), CreateGroupActivity.class);
+			startActivity(i);
+			return true;
+		} else if (item.getItemId() == R.id.action_join_group_qr) {
+			if (BuildConfig.SUSHH_HUB) throw new IllegalStateException();
+			Intent i = new Intent(getContext(), AddNearbyContactActivity.class);
+			i.putExtra(EXTRA_JOIN_GROUP_QR, true);
 			startActivity(i);
 			return true;
 		}
