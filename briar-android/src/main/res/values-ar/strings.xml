@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">مرحبًا بك في Briar (براير)</string>
+  <string name="setup_title">مرحبًا بك في Sushh (براير)</string>
   <string name="setup_name_explanation">سيتم إظهار اسمك المستعار بجانب كل ما تنشره من محتوى. لا يمكنك تغيير الاسم بعد إنشاء حسابك.</string>
   <string name="setup_next">التالي</string>
   <string name="setup_password_intro">اختيار كلمة السر</string>
-  <string name="setup_password_explanation">سيتم تخزين حسابك على Briar (براير) مشفرا على جهازك، وليس على الإنترنت. لذا في حالة نسيان كلمة السر الخاصة بك أو إلغاء تثبيت Briar (براير) لا توجد طريقه لاسترجاع حسابك.\n\nالرجاء اختيار كلمة سر طويلة يصعب تخمينها مثل أربع كلمات عشوائية أو عشرة حروف عشوائية مع أرقام ورموز.</string>
+  <string name="setup_password_explanation">سيتم تخزين حسابك على Sushh (براير) مشفرا على جهازك، وليس على الإنترنت. لذا في حالة نسيان كلمة السر الخاصة بك أو إلغاء تثبيت Sushh (براير) لا توجد طريقه لاسترجاع حسابك.\n\nالرجاء اختيار كلمة سر طويلة يصعب تخمينها مثل أربع كلمات عشوائية أو عشرة حروف عشوائية مع أرقام ورموز.</string>
   <string name="dnkm_doze_intro">لاستقبال الرسائل، يحتاج براير أن يبقى متصلاً في الخلفية.</string>
   <string name="dnkm_doze_explanation">لاستقبال الرسائل، يحتاج براير أن يبقى متصلاً في الخلفية. الرجاء تعطيل تحسين البطارية حتى يتمكن براير من البقاء متصلاً.</string>
   <string name="choose_nickname">اختيار اسمك المستعار</string>
@@ -41,23 +41,23 @@
   <string name="sign_in_button">تسجيل الدخول</string>
   <string name="forgotten_password">نسيت كلمة سرّك؟</string>
   <string name="dialog_title_lost_password">فقدت كلمة السر</string>
-  <string name="dialog_message_lost_password">حسابك على Briar (براير) سيتم تخزينه مشفرا على جهازك، وليس على الإنترنت. لذا فلا يمكننا إعادة تعيين كلمة السر الخاصة بك. فهل تودّ/ين حذف حسابك والبدء من جديد؟\n\nتحذير: سيتمّ حذف هويّاتك وجهات اتصالك ورسائلك الى الأبد.</string>
-  <string name="startup_failed_activity_title">فشل تشغيل Briar (براير)</string>
+  <string name="dialog_message_lost_password">حسابك على Sushh (براير) سيتم تخزينه مشفرا على جهازك، وليس على الإنترنت. لذا فلا يمكننا إعادة تعيين كلمة السر الخاصة بك. فهل تودّ/ين حذف حسابك والبدء من جديد؟\n\nتحذير: سيتمّ حذف هويّاتك وجهات اتصالك ورسائلك الى الأبد.</string>
+  <string name="startup_failed_activity_title">فشل تشغيل Sushh (براير)</string>
   <string name="startup_failed_clock_error">تعذر بدء تشغيل تطبيق براير لأن ساعة جهازك خاطئة.\n\nيُرجى ضبط ساعة جهازك على الوقت الصحيح والمحاولة مرة أخرى.</string>
   <string name="startup_failed_db_error">لم يتمكن براير من فتح قاعدة البيانات التي تحتوي على حسابك وجهات اتصالك ورسائلك.\n\nيُرجى الترقية إلى أحدث إصدار من التطبيق والمحاولة مرة أخرى، أو إعداد حساب جديد عن طريق اختيار \"نسيتُ كلمة السر\" في مطالبة كلمة السر.</string>
   <string name="startup_failed_data_too_old_error">أُنشئ حسابك باستخدام إصدار قديم من هذا التطبيق ولا يمكن فتحه باستخدام هذا الإصدار.\n\nيجب عليك إما إعادة تثبيت الإصدار القديم أو إعداد حساب جديد عن طريق اختيار \"نسيتُ كلمة السر\" في مطالبة كلمة السر.</string>
   <string name="startup_failed_data_too_new_error">أُنشئ حسابك باستخدام إصدار أحدث من هذا التطبيق ولا يمكن فتحه باستخدام هذا الإصدار.\n\nيُرجى الترقية إلى احدث إصدار والمحاولة مرة أخرى.</string>
   <string name="startup_failed_service_error">تعذر على براير بدء تشغيل المكون المطلوب.\n\nيُرجى الترقية إلى أحدث إصدار من التطبيق والمحاولة مرة أخرى.</string>
   <plurals name="expiry_warning">
-    <item quantity="zero">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي اليوم ولن يمكن تجديده.</item>
-    <item quantity="one">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال يوم ولن يمكن تجديده.</item>
-    <item quantity="two">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال يومين ولن يمكن تجديده.</item>
-    <item quantity="few">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال %d أيام ولن يمكن تجديده.</item>
-    <item quantity="many">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال %d يوم ولن يمكن تجديده.</item>
-    <item quantity="other">هذا إصدار تجريبي من Briar (براير). حسابك سينتهي خلال %d يوم ولن يمكن تجديده.</item>
+    <item quantity="zero">هذا إصدار تجريبي من Sushh (براير). حسابك سينتهي اليوم ولن يمكن تجديده.</item>
+    <item quantity="one">هذا إصدار تجريبي من Sushh (براير). حسابك سينتهي خلال يوم ولن يمكن تجديده.</item>
+    <item quantity="two">هذا إصدار تجريبي من Sushh (براير). حسابك سينتهي خلال يومين ولن يمكن تجديده.</item>
+    <item quantity="few">هذا إصدار تجريبي من Sushh (براير). حسابك سينتهي خلال %d أيام ولن يمكن تجديده.</item>
+    <item quantity="many">هذا إصدار تجريبي من Sushh (براير). حسابك سينتهي خلال %d يوم ولن يمكن تجديده.</item>
+    <item quantity="other">هذا إصدار تجريبي من Sushh (براير). حسابك سينتهي خلال %d يوم ولن يمكن تجديده.</item>
   </plurals>
   <string name="expiry_date_reached">هذا البرنامج قد انتهت مدته.\nشكرا لك للتجربة!</string>
-  <string name="download_briar">لمتابعة استخدام Briar (براير)، يرجى تنزيل آخر إصدار. </string>
+  <string name="download_briar">لمتابعة استخدام Sushh (براير)، يرجى تنزيل آخر إصدار. </string>
   <string name="create_new_account">انت في حاجة لانشاء حساب جديد، لكن يمكنك استعمال نفس الاسم المستعار.</string>
   <string name="download_briar_button">تنزيل آخر أصدار</string>
   <string name="old_android_expiry_date_reached">لم يعد براير يعمل على نظام التشغيل Android 4.\nيُرجى تثبيت براير على جهاز أحدث.</string>
@@ -83,11 +83,11 @@
   <string name="tor_device_status_online_wifi">جهازك لديه ولوج لشبكة الانترنت عبر ال Wi-Fi </string>
   <string name="tor_device_status_online_mobile">جهازك لديه ولوج لشبكة الانترنت عبر بيانات الهاتف</string>
   <string name="tor_device_status_offline">جهازك ليس متصل بالانترنت</string>
-  <string name="tor_plugin_status_enabling">جاري اتصال Briar  بالانترنت</string>
-  <string name="tor_plugin_status_active">Briar متصل بالانترنت</string>
+  <string name="tor_plugin_status_enabling">جاري اتصال Sushh  بالانترنت</string>
+  <string name="tor_plugin_status_active">Sushh متصل بالانترنت</string>
   <string name="tor_plugin_status_inactive">لم يتمكن براير من الاتصال بالانترنت </string>
-  <string name="tor_plugin_status_disabled">ضُبط Briar على عدم استخدام الإنترنت</string>
-  <string name="tor_plugin_status_disabled_mobile_data">ضُبط Briar على عدم استخدام بيانات الهاتف المحمول</string>
+  <string name="tor_plugin_status_disabled">ضُبط Sushh على عدم استخدام الإنترنت</string>
+  <string name="tor_plugin_status_disabled_mobile_data">ضُبط Sushh على عدم استخدام بيانات الهاتف المحمول</string>
   <string name="tor_plugin_status_disabled_battery">ضُبط براير على عدم استخدام الإنترنت عند التشغيل على البطارية</string>
   <string name="tor_plugin_status_disabled_country_blocked">ضُبط براير على عدم استخدام الإنترنت في هذا البلد</string>
   <!--Transports: Wi-Fi-->
@@ -95,25 +95,25 @@
   <string name="transport_lan_long">نفس شبكة الWi-Fi </string>
   <string name="lan_device_status_on">جهازك متصل بشبكة الWi-Fi</string>
   <string name="lan_device_status_off">جهازك ليس متصل بشبكة الWi-Fi</string>
-  <string name="lan_plugin_status_enabling">جاري ايصال Briar بشبكة الWi-Fi</string>
-  <string name="lan_plugin_status_active"> Briar متصل بشبكة الWi-Fi</string>
-  <string name="lan_plugin_status_inactive">لم يتمكن Briar من الاتصال بشبكة ال Wi-Fi</string>
-  <string name="lan_plugin_status_disabled">إعدادات Briar لاتسمح بالاتصال بشبكة ال Wi-Fi</string>
+  <string name="lan_plugin_status_enabling">جاري ايصال Sushh بشبكة الWi-Fi</string>
+  <string name="lan_plugin_status_active"> Sushh متصل بشبكة الWi-Fi</string>
+  <string name="lan_plugin_status_inactive">لم يتمكن Sushh من الاتصال بشبكة ال Wi-Fi</string>
+  <string name="lan_plugin_status_disabled">إعدادات Sushh لاتسمح بالاتصال بشبكة ال Wi-Fi</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">بلوتوث</string>
   <string name="bt_device_status_on"> البلوتوث مفعّل  </string>
   <string name="bt_device_status_off">البلوتوث مفعّل</string>
   <string name="bt_plugin_status_enabling">جارِ اتصال براير بالبلوتوث</string>
-  <string name="bt_plugin_status_active">Briar متصل بالبلوتوث</string>
-  <string name="bt_plugin_status_inactive">لم يتمكن Briar من الاتصال بالبلوتوث</string>
-  <string name="bt_plugin_status_disabled">إعدادات Briar لاتسمح بالاتصال بالبلوتوث</string>
+  <string name="bt_plugin_status_active">Sushh متصل بالبلوتوث</string>
+  <string name="bt_plugin_status_inactive">لم يتمكن Sushh من الاتصال بالبلوتوث</string>
+  <string name="bt_plugin_status_disabled">إعدادات Sushh لاتسمح بالاتصال بالبلوتوث</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">تم تسجيل الخروج من Briar (براير)</string>
+  <string name="reminder_notification_title">تم تسجيل الخروج من Sushh (براير)</string>
   <string name="reminder_notification_text">الرجاء اللمس لإعادة الدخول</string>
-  <string name="reminder_notification_channel_title">التذكير بتسجيل الدخول إلى Briar (براير)</string>
+  <string name="reminder_notification_channel_title">التذكير بتسجيل الدخول إلى Sushh (براير)</string>
   <string name="reminder_notification_dismiss">رفض</string>
-  <string name="ongoing_notification_title">تم تسجيل الدخول إلى Briar (براير)</string>
-  <string name="ongoing_notification_text">الرجاء اللمس لفتح Briar (براير).</string>
+  <string name="ongoing_notification_title">تم تسجيل الدخول إلى Sushh (براير)</string>
+  <string name="ongoing_notification_text">الرجاء اللمس لفتح Sushh (براير).</string>
   <plurals name="private_message_notification_text">
     <item quantity="zero">لا رسائل خاصة جديدة.</item>
     <item quantity="one"> رسالة خاصة جديدة.</item>
@@ -250,7 +250,7 @@
   <string name="save_image_success">تم حفظ الصورة</string>
   <string name="save_image_error">لم نتمكن من حفظ الصورة </string>
   <string name="dialog_title_no_image_support">الصور غير متوفرة</string>
-  <string name="dialog_message_no_image_support">Briar (براير) لدى جهة الاتصال لا يدعم إرفاق الصور. فور تحديثهم للبرنامج ستظهر لكم أيفونة مختلفة. </string>
+  <string name="dialog_message_no_image_support">Sushh (براير) لدى جهة الاتصال لا يدعم إرفاق الصور. فور تحديثهم للبرنامج ستظهر لكم أيفونة مختلفة. </string>
   <string name="dialog_title_image_support">يمكنم الآن إرسال الصور لجهة الاتصال هذه</string>
   <string name="dialog_message_image_support">الضغط على هذه الأيقونة لإرفاق الصور.</string>
   <string name="messaging_too_many_attachments_toast">تمكّنا من إرسال %d من الصورة فقط</string>
@@ -269,7 +269,7 @@
   <string name="qr_code_invalid">رمز QR غير صالح</string>
   <string name="qr_code_too_old_1">رمز QR الذي قمت بمسحه ضوئيًا يأتي من إصدار أقدم من براير.\n\nيُرجى مطالبة جهة الاتصال اتصالك بالترقية إلى أحدث إصدار ثم حاول مجددًا.</string>
   <string name="qr_code_too_new_1">رمز QR الذي قمت بمسحه ضوئيًا يأتي من إصدار أحدث من براير.\n\nيُرجى مطالبة جهة الاتصال اتصالك بالترقية إلى أحدث إصدار ثم حاول مجددًا.</string>
-  <string name="mailbox_qr_code_for_contact">يأتي رمز QR الذي مسحته ضوئيًا من صندوق بريد براير Briar Mailbox.\n\nإذا كنت تريد ربط صندوق بريد، فيرجى اختيار الإعدادات &gt; صندوق البريد من قائمة براير.</string>
+  <string name="mailbox_qr_code_for_contact">يأتي رمز QR الذي مسحته ضوئيًا من صندوق بريد براير Sushh Mailbox.\n\nإذا كنت تريد ربط صندوق بريد، فيرجى اختيار الإعدادات &gt; صندوق البريد من قائمة براير.</string>
   <string name="qr_code_format_unknown">رمز QR الذي مسحته ضوئيًا ليس مخصصًا لإضافة جهة اتصال لـبراير.\n\nيُرجى مسح رمز QR الظاهر على شاشة جهة اتصالك.</string>
   <string name="camera_error">خطأ بالكاميرا</string>
   <string name="connecting_to_device">يتم الإتصال بالجهاز\u2026</string>
@@ -292,7 +292,7 @@
   <string name="add_contact_choose_a_nickname">إدخال اسم مستعار</string>
   <string name="nickname_intro">إعطاء اسم مستعار لجهة الاتصال بإمكانكم رؤيته فقط. </string>
   <string name="your_link">أرسلوا هذا الرّابط لجهة الاتصال التي تودّون إضافتها </string>
-  <string name="link_clip_label">رابط Briar (براير)</string>
+  <string name="link_clip_label">رابط Sushh (براير)</string>
   <string name="link_copied_toast">تمّ نسخ الرّابط</string>
   <string name="adding_contact_error">حصل خطأ عند إضافة جهة الاتصال.</string>
   <string name="pending_contact_requests_snackbar">هناك طلبات للاتصال بكم في الانتظار  </string>
@@ -307,7 +307,7 @@
   <string name="own_link_error">يرجى إخال رابط جهة الاتصال، وليس رابطكم</string>
   <string name="nickname_missing">يرجى إدخال اسم مستعار</string>
   <string name="invalid_link">الرّابط غير صالح</string>
-  <string name="unsupported_link">هذا الرّابط قادم من إصدار أحدث من Briar (براير). يرجى التحديث لآخر إصدار والمحاولة من جديد. </string>
+  <string name="unsupported_link">هذا الرّابط قادم من إصدار أحدث من Sushh (براير). يرجى التحديث لآخر إصدار والمحاولة من جديد. </string>
   <string name="intent_own_link">لقد فتحتم الرابط الخاص بكم. يرجى استخدام رابط جهة الاتصال التي تودّون إضافتها! </string>
   <string name="missing_link">يرجى إدخال رابط</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -346,7 +346,7 @@
   <string name="peer_trust_level_stranger">غريب</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">قم بتقديم جهات إتصالك</string>
-  <string name="introduction_onboarding_text">قم بتقديم جهات اتصالك لبعضها البعض حتى يتمكنوا من الاتصال على Briar.</string>
+  <string name="introduction_onboarding_text">قم بتقديم جهات اتصالك لبعضها البعض حتى يتمكنوا من الاتصال على Sushh.</string>
   <string name="introduction_menu_item">إعمل تقديم</string>
   <string name="introduction_activity_title">إختر جهة إتصال</string>
   <string name="introduction_not_possible">بالفعل لديك تقديم مع جهات الإتصال هذه. من فضلك إسمح لذلك بالإنتهاء أولاً. إذا كنت أنت أو جهات اتصالك نادرًا ما تكونوا متصلين فإن ذلك يمكن أن يستغرق بعض الوقت.</string>
@@ -559,7 +559,7 @@
   <string name="change_profile_picture_failed_message">عذرًا، ولكن حدث خطأ ما أثناء تحديث صورة ملفك الشخصي</string>
   <!--Settings Display-->
   <string name="pref_language_title">اللغة &amp; المنطقة</string>
-  <string name="pref_language_changed">هذا الإعداد سيتفعل بعد إعادة تشغيل Briar (براير). الرجاء تسجيل الخروج ثم اعادة تشغيل Briar (براير).</string>
+  <string name="pref_language_changed">هذا الإعداد سيتفعل بعد إعادة تشغيل Sushh (براير). الرجاء تسجيل الخروج ثم اعادة تشغيل Sushh (براير).</string>
   <string name="pref_language_default">النظام الإفتراضي</string>
   <string name="display_settings_title">العرض</string>
   <string name="pref_theme_title">السمة</string>
@@ -577,7 +577,7 @@
   <string name="tor_network_setting_without_bridges">استخدام شبكة تور بدون جسور</string>
   <string name="tor_network_setting_with_bridges">استخدام شبكة تور مع جسور</string>
   <string name="tor_network_setting_never">لا يمكن الاتصال بالإنترنت</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">تلقائيا: %1$s (في %2$s)</string>
   <string name="tor_mobile_data_title">إستخدام بيانات الجوال</string>
   <string name="tor_only_when_charging_title">الاتصال بالإنترنت فقط عن الشحن</string>
@@ -585,11 +585,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">الأمان</string>
   <string name="pref_lock_title">قفل التطبيق</string>
-  <string name="pref_lock_summary">الرجاء استخدام قفل شاشة الجهاز لحماية Briar (براير) في حال تسجيل الدخول</string>
+  <string name="pref_lock_summary">الرجاء استخدام قفل شاشة الجهاز لحماية Sushh (براير) في حال تسجيل الدخول</string>
   <string name="pref_lock_disabled_summary">لاستخدام هذه الميزة، الرجاء إعداد قفل شاشة لجهازك</string>
   <string name="pref_lock_timeout_title">قفل التطبيق لعدم النّشاط </string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">في حالة عدم استعمال Briar (براير)، يقفل تلقائيا بعد %s</string>
+  <string name="pref_lock_timeout_summary">في حالة عدم استعمال Sushh (براير)، يقفل تلقائيا بعد %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 دقيقة</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -601,7 +601,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">ساعة</string>
   <string name="pref_lock_timeout_never">أبدًا</string>
-  <string name="pref_lock_timeout_never_summary">لا تقم أبدًا بقفل Briar (براير) تلقائيًا</string>
+  <string name="pref_lock_timeout_never_summary">لا تقم أبدًا بقفل Sushh (براير) تلقائيًا</string>
   <string name="change_password">تغيير كلمة السرّ</string>
   <string name="current_password">كلمة السر الحالية</string>
   <string name="choose_new_password">كلمة السر الجديدة</string>
@@ -609,7 +609,7 @@
   <string name="password_changed">تم تغيير كلمة السر</string>
   <string name="panic_setting">إعداد زر الذعر</string>
   <string name="panic_setting_title">زر الذعر</string>
-  <string name="panic_setting_hint">اضبط كيف يتصرف Briar (براير) عندما تضغط زر الذعر</string>
+  <string name="panic_setting_hint">اضبط كيف يتصرف Sushh (براير) عندما تضغط زر الذعر</string>
   <string name="panic_app_setting_title">تطبيق زر الذعر</string>
   <string name="unknown_app">تطبيق غير معروف</string>
   <string name="panic_app_setting_summary">لا تطبيق قد تم إعداده</string>
@@ -618,9 +618,9 @@
   <string name="dialog_message_connect_panic_app">هل متأكد أنك تريد السماح ل %1$s أن يقوم بتفعيل إجراءات زر الذعر؟</string>
   <string name="panic_setting_destructive_action">إجراءات الخطر </string>
   <string name="panic_setting_signout_title">تسجيل الخروج</string>
-  <string name="panic_setting_signout_summary">تسجيل الخروج من Briar (براير) عند ضغط زر الذعر</string>
+  <string name="panic_setting_signout_summary">تسجيل الخروج من Sushh (براير) عند ضغط زر الذعر</string>
   <string name="purge_setting_title">حذف الحساب</string>
-  <string name="purge_setting_summary">احذف حساب Briar (براير) إذا تم ضغط زر الذعر. انتبه: هذا سيسبب حذف دائم لكل معرفات وحساباتك ورسائلك.</string>
+  <string name="purge_setting_summary">احذف حساب Sushh (براير) إذا تم ضغط زر الذعر. انتبه: هذا سيسبب حذف دائم لكل معرفات وحساباتك ورسائلك.</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">الإشعارات</string>
   <string name="notify_sign_in_title">ذكرني لتسجيل الدخول</string>
@@ -647,19 +647,19 @@
   <string name="mailbox_settings_title">صندوق البريد</string>
   <string name="mailbox_setup_title">إعداد صندوق البريد</string>
   <string name="mailbox_setup_intro">يتيح صندوق البريد (Mailbox) لجهات اتصالك إرسال رسائل إليك أثناء عدم الاتصال بالإنترنت. سيتلقى صندوق البريد رسائلك ويخزنها حتى تتصل بالإنترنت.\n
-\nيمكنك تثبيت تطبيق Briar Mailbox على جهاز احتياطي. أبقِ جهازك متصلاً بمصدر الطاقة وشبكة Wi-Fi حتى يكون متصلاً بالإنترنت دائمًا.</string>
-  <string name="mailbox_setup_download">أولاً، ثبّت تطبيق Mailbox على جهاز آخر من خلال البحث عن \"Briar Mailbox\" على متجر Google أو في أي مكان قمت فيه بتنزيل براير.\n
-\nثم اربط صندوق البريد (Mailbox) الخاص بك مع Briar عن طريق مسح رمز QR الذي يظهر في تطبيق Mailbox.</string>
+\nيمكنك تثبيت تطبيق Sushh Mailbox على جهاز احتياطي. أبقِ جهازك متصلاً بمصدر الطاقة وشبكة Wi-Fi حتى يكون متصلاً بالإنترنت دائمًا.</string>
+  <string name="mailbox_setup_download">أولاً، ثبّت تطبيق Mailbox على جهاز آخر من خلال البحث عن \"Sushh Mailbox\" على متجر Google أو في أي مكان قمت فيه بتنزيل براير.\n
+\nثم اربط صندوق البريد (Mailbox) الخاص بك مع Sushh عن طريق مسح رمز QR الذي يظهر في تطبيق Mailbox.</string>
   <string name="mailbox_setup_download_link">مشاركة رابط التنزيل</string>
   <string name="mailbox_setup_button_scan">امسح رمز QR صندوق البريد</string>
   <string name="permission_camera_qr_denied_body">لقد رفضت الوصول إلى الكاميرا، ولكن مسح رمز QR يتطلب استخدام الكاميرا.\n\nيُرجى مراعاة منح حق الوصول.</string>
   <string name="mailbox_setup_connecting">جارِ الاتصال بصندوق البريد…</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">قد يستغرق هذا ما يصل إلى %1s</string>
-  <string name="mailbox_qr_code_too_old">يأتي رمز QR الذي مسحته ضوئيًا من إصدار أقدم من Briar Mailbox.\n\nيُرجى ترقية Briar Mailbox إلى احدث إصدار ثم حاول مرة أخرى.</string>
-  <string name="mailbox_qr_code_too_new">يأتي رمز QR الذي مسحته ضوئيًا من إصدار أحدث من Briar Mailbox.\n\nيُرجى ترقية براير إلى احدث إصدار ثم حاول مرة أخرى.</string>
+  <string name="mailbox_qr_code_too_old">يأتي رمز QR الذي مسحته ضوئيًا من إصدار أقدم من Sushh Mailbox.\n\nيُرجى ترقية Sushh Mailbox إلى احدث إصدار ثم حاول مرة أخرى.</string>
+  <string name="mailbox_qr_code_too_new">يأتي رمز QR الذي مسحته ضوئيًا من إصدار أحدث من Sushh Mailbox.\n\nيُرجى ترقية براير إلى احدث إصدار ثم حاول مرة أخرى.</string>
   <string name="contact_qr_code_for_mailbox">رمز QR الذي مسحته ضوئيًا مخصص لإضافة جهة اتصال لـبراير.\n\nإذا كنت تريد إضافة جهة اتصال، فيُرجى الانتقال إلى قائمة جهات الاتصال والنقر على أيقونة +.</string>
-  <string name="mailbox_setup_qr_code_wrong_description">رمز QR الذي مسحته ضوئيًا لا يأتي من Briar Mailbox.\n\nيُرجى فتح تطبيق Briar Mailbox على جهاز Mailbox الخاص بك ومسح رمز QR الذي يقدمه ضوئيًا.</string>
+  <string name="mailbox_setup_qr_code_wrong_description">رمز QR الذي مسحته ضوئيًا لا يأتي من Sushh Mailbox.\n\nيُرجى فتح تطبيق Sushh Mailbox على جهاز Mailbox الخاص بك ومسح رمز QR الذي يقدمه ضوئيًا.</string>
   <string name="mailbox_setup_already_paired_title">صندوق البريد مرتبط بالفعل</string>
   <string name="mailbox_setup_already_paired_description">قم بإلغاء ربط صندوق البريد على جهازك الآخر وحاول مرة أخرى.</string>
   <string name="mailbox_setup_io_error_title">تعذر الاتصال</string>
@@ -752,10 +752,10 @@
   <string name="link_warning_text">يمكن لهذا كشف هويّتك. تأكّدوا من ثقتكم بالشخص الذي أرسل لكم هذا الرّابط خذوا بعين الاعتبار فتح الرّابط في متصفّح تور (Tor).</string>
   <string name="link_warning_open_link">افتح الرابط</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">تقرير إنهيار Briar (براير)</string>
+  <string name="crash_report_title">تقرير إنهيار Sushh (براير)</string>
   <string name="briar_crashed">آسف، لقد تحطم براير</string>
   <string name="not_your_fault">هذا ليس خطؤك.</string>
-  <string name="please_send_report">الرجاء مساعدتنا في تحسين Briar (براير) عبر إرسال تقرير الإنهيار.</string>
+  <string name="please_send_report">الرجاء مساعدتنا في تحسين Sushh (براير) عبر إرسال تقرير الإنهيار.</string>
   <string name="report_is_encrypted">نعدك بأن التقرير سيرسل مشفرًا وبشكل آمن.</string>
   <string name="feedback_title">الإفادة حول التطبيق</string>
   <string name="describe_crash">وصف ما حدث (إختياري)</string>
@@ -780,24 +780,24 @@
   <string name="close">إغلاق</string>
   <string name="dev_report_sending">ارسال التعليقات</string>
   <string name="dev_report_sent">أرسلت ملاحظات</string>
-  <string name="dev_report_saved">تم حفظ التقرير. سيتم إرساله عند تسجيل الدخول إلى Briar (براير) في المرة القادمة.</string>
+  <string name="dev_report_saved">تم حفظ التقرير. سيتم إرساله عند تسجيل الدخول إلى Sushh (براير) في المرة القادمة.</string>
   <string name="dev_report_error">خطأ: فشل إرسال التقرير</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">تسجيل الخروج من Briar (براير)...</string>
+  <string name="progress_title_logout">تسجيل الخروج من Sushh (براير)...</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">تم إكتشاف غلاف شاشة</string>
-  <string name="screen_filter_body">تطبيق آخر يعمل كغلاف فوق Briar (براير). لحماية أمنك فإن Briar (براير) لن يستجيب للمس طالما كان تطبيق آخر فوقه.\n\nيحتمل أن تكون أحد هذه التطبيقات التي تعمل بالفوق:\n\n %1$s</string>
+  <string name="screen_filter_body">تطبيق آخر يعمل كغلاف فوق Sushh (براير). لحماية أمنك فإن Sushh (براير) لن يستجيب للمس طالما كان تطبيق آخر فوقه.\n\nيحتمل أن تكون أحد هذه التطبيقات التي تعمل بالفوق:\n\n %1$s</string>
   <string name="screen_filter_body_api_30">تطبيق آخر يعمل كغلاف فوق براير. لحماية أمنك فإن براير لن يستجيب للمس طالما كان تطبيق آخر فوقه.\n\nراجع التطبيقات أدناه للعثور على التطبيق المسؤول.</string>
   <string name="screen_filter_allow">السماح لهذه التطبيقات بالعمل فوق غيرها</string>
   <string name="screen_filter_review_apps">راجعْ التطبيقات</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">إذن الكاميرا</string>
-  <string name="permission_camera_request_body">للتمكن من مسح رمز QR، يحتاج Briar (براير) إلى إستعمال الكاميرا.</string>
+  <string name="permission_camera_request_body">للتمكن من مسح رمز QR، يحتاج Sushh (براير) إلى إستعمال الكاميرا.</string>
   <string name="permission_location_title">إذن معرفة الموقع </string>
   <string name="permission_nearby_devices_title">إذن الأجهزة القريبة</string>
-  <string name="permission_location_request_body">لاكتشاف أجهزة بلوتوث، يحتاج Briar (براير) لإذن بالوصول إلى موقعكم.\n\n لا يخزّن Briar (براير) موقعكم ولا يشاركه مع أي شخص. </string>
+  <string name="permission_location_request_body">لاكتشاف أجهزة بلوتوث، يحتاج Sushh (براير) لإذن بالوصول إلى موقعكم.\n\n لا يخزّن Sushh (براير) موقعكم ولا يشاركه مع أي شخص. </string>
   <string name="permission_camera_location_title">الكاميرا والموقع</string>
-  <string name="permission_camera_location_request_body">لمسح رمز الاستجابة السّريعة أو QR، يحتاج Briar (براير) للوصول إلى الكاميرا. \n\n لاكتشاف أجهزة بلوتوث، يحتاج Briar (براير) لإذن بالوصول إلى موقعكم. \n\n لا يخزّن Briar (براير) موقعكم ولا يشاركه مع أي شخص. </string>
+  <string name="permission_camera_location_request_body">لمسح رمز الاستجابة السّريعة أو QR، يحتاج Sushh (براير) للوصول إلى الكاميرا. \n\n لاكتشاف أجهزة بلوتوث، يحتاج Sushh (براير) لإذن بالوصول إلى موقعكم. \n\n لا يخزّن Sushh (براير) موقعكم ولا يشاركه مع أي شخص. </string>
   <string name="permission_camera_bluetooth_title">الكاميرا والأجهزة القريبة</string>
   <string name="permission_camera_bluetooth_request_body">لمسح رمز QR ضوئيًا، يحتاج براير إلى الوصول إلى الكاميرا.\n\nلاكتشاف أجهزة البلوتوث، يحتاج براير إلى إذن للعثور على الأجهزة القريبة والاتصال بها.</string>
   <string name="permission_camera_denied_body">قد رفضت إعطاء إذن الكاميرا، لكن إضافة جهات إتصال يتطلب إستعمال الكاميرا.\n\nالرجاء منح الإذن.</string>
@@ -812,14 +812,14 @@
   <string name="qr_code">رمز QR</string>
   <string name="show_qr_code_fullscreen">اظهار رمز QR بوضع ملء الشاشة</string>
   <!--App Locking-->
-  <string name="lock_unlock">فك قفل Briar (براير)</string>
-  <string name="lock_unlock_verbose">ادخال رمز، نمط أو كلمة سر جهازك لإلغاء قفل Briar (براير)</string>
+  <string name="lock_unlock">فك قفل Sushh (براير)</string>
+  <string name="lock_unlock_verbose">ادخال رمز، نمط أو كلمة سر جهازك لإلغاء قفل Sushh (براير)</string>
   <string name="lock_unlock_fingerprint_description">لمس حساس البصمة ببصمتك المسجلة للإستمرار</string>
   <string name="lock_unlock_password">استخدام كلمة السر</string>
-  <string name="lock_is_locked">Briar (براير) مقفل</string>
+  <string name="lock_is_locked">Sushh (براير) مقفل</string>
   <string name="lock_tap_to_unlock">الرجاء اللمس لفك القفل</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">يمكن ل Briar التواصل مع جهات الاتصال عن طريق الانترنت, شكبة ال Wi-Fi أو البلوتوث.n\n\كل وسائل الاتصال عن طريق الانترنت تمر عبر شبكة تور من أجل الخصوصية.n\n\إذا كان من الممكن الوصول إلى شبكة إتصال بعدة طرق فإن Briar سوف يستعملهم جميعاً بالتوازي.</string>
+  <string name="transports_help_text">يمكن ل Sushh التواصل مع جهات الاتصال عن طريق الانترنت, شكبة ال Wi-Fi أو البلوتوث.n\n\كل وسائل الاتصال عن طريق الانترنت تمر عبر شبكة تور من أجل الخصوصية.n\n\إذا كان من الممكن الوصول إلى شبكة إتصال بعدة طرق فإن Sushh سوف يستعملهم جميعاً بالتوازي.</string>
   <!--Share app offline-->
   <string name="hotspot_title">مشاركة هذا التطبيق بدون اتصال</string>
   <string name="hotspot_intro">شارك هذا التطبيق مع شخص قريب منك دون اتصال بالإنترنت باستخدام شبكة Wi-Fi بهاتفك.
@@ -860,7 +860,7 @@
   <string name="hotspot_manual_site">يوفر هاتفك نقطة اتصال Wi-Fi. يمكن للأشخاص المتصلين بنقطة الاتصال تنزيل براير عن طريق كتابة الرابط التالي في متصفح الويب أو%s.</string>
   <string name="hotspot_manual_site_address">عنوان (URL)</string>
   <string name="hotspot_qr_site">يوفر هاتفك نقطة اتصال Wi-Fi. يمكن للأشخاص المتصلين بنقطة الاتصال تنزيل براير عن طريق مسح رمز QR هذا.</string>
-  <!--e.g. Download Briar 1.2.20-->
+  <!--e.g. Download Sushh 1.2.20-->
   <string name="website_download_title_1">نزّل براير %s</string>
   <string name="website_download_intro_1">قام أحد الأشخاص القريبين بمشاركة براير معك.</string>
   <string name="website_download_button">نزّل براير</string>
@@ -923,7 +923,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">مرحبا بوب! </string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">مرحبا أليس! شكراً لأنّك أخبرتني عن Briar (براير) !</string>
+  <string name="screenshot_message_2">مرحبا أليس! شكراً لأنّك أخبرتني عن Sushh (براير) !</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">أهلاً وسهلاً، أتمنى أن يعجبك 😀</string>
 </resources>
