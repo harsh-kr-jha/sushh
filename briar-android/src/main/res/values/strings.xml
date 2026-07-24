@@ -937,4 +937,11 @@
 	<!-- This is a message to be used in screenshots. -->
 	<string name="screenshot_message_3">No problem, hope you like it 😀</string>
 
+
+	<!-- Sushh group QR membership -->
+	<string name="groups_invite_by_qr">Invite member by QR</string>
+	<string name="groups_join_by_qr">Join group by QR</string>
+	<string name="groups_qr_invitation_sent">Group invitation sent securely to %1$s</string>
+	<string name="groups_qr_waiting_for_invitation">Connected securely to %1$s. The group invitation will appear shortly.</string>
+
 </resources>
