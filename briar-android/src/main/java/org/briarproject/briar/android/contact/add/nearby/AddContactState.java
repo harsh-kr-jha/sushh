@@ -2,6 +2,7 @@ package org.briarproject.briar.android.contact.add.nearby;
 
 import android.graphics.Bitmap;
 
+import org.briarproject.bramble.api.contact.Contact;
 import org.briarproject.bramble.api.identity.Author;
 import org.briarproject.bramble.api.qrcode.QrCodeClassifier.QrCodeType;
 
@@ -68,10 +69,12 @@ abstract class AddContactState {
 
 		static class Success extends ContactExchangeResult {
 
-			final Author remoteAuthor;
+			final Contact contact;
+			final boolean alreadyExisted;
 
-			Success(Author remoteAuthor) {
-				this.remoteAuthor = remoteAuthor;
+			Success(Contact contact, boolean alreadyExisted) {
+				this.contact = contact;
+				this.alreadyExisted = alreadyExisted;
 			}
 		}
 
