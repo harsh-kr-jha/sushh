@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">Briar uygulamasına hoş geldiniz</string>
+  <string name="setup_title">Sushh uygulamasına hoş geldiniz</string>
   <string name="setup_name_explanation">Takma adınız, gönderdiğiniz herhangi bir içeriğin yanında görüntülenir. Hesabınızı açtıktan sonra takma adınızı değiştiremezsiniz.</string>
   <string name="setup_next">Sonraki</string>
   <string name="setup_password_intro">Bir parola yazın</string>
-  <string name="setup_password_explanation">Briar hesabınız bulutta değil aygıtınızda şifrelenmiş olarak saklanır. Parolanızı unutursanız veya Briar uygulamasını kaldırırsanız hesabınızı kurtarmanın bir yolu yoktur.\n\nÖngörülmesi zor rastgele dört sözcük, on harf, rakam ve simge karakterinden oluşan uzun bir parola seçin.</string>
-  <string name="dnkm_doze_intro">İletileri alabilmesi için Briar arka planda bağlı olmalıdır.</string>
-  <string name="dnkm_doze_explanation">İletileri alabilmesi için Briar arka planda bağlı olmalıdır. Briar uygulamasının bağlı kalabilmesi için lütfen pil tasarrufu seçeneğini kapatın.</string>
+  <string name="setup_password_explanation">Sushh hesabınız bulutta değil aygıtınızda şifrelenmiş olarak saklanır. Parolanızı unutursanız veya Sushh uygulamasını kaldırırsanız hesabınızı kurtarmanın bir yolu yoktur.\n\nÖngörülmesi zor rastgele dört sözcük, on harf, rakam ve simge karakterinden oluşan uzun bir parola seçin.</string>
+  <string name="dnkm_doze_intro">İletileri alabilmesi için Sushh arka planda bağlı olmalıdır.</string>
+  <string name="dnkm_doze_explanation">İletileri alabilmesi için Sushh arka planda bağlı olmalıdır. Sushh uygulamasının bağlı kalabilmesi için lütfen pil tasarrufu seçeneğini kapatın.</string>
   <string name="choose_nickname">Takma adınızı yazın</string>
   <string name="choose_password">Parolanızı yazın</string>
   <string name="confirm_password">Parolanızı onaylayın</string>
@@ -19,44 +19,44 @@
   <string name="create_account_button">Hesap aç</string>
   <string name="more_info">Diğer bilgiler</string>
   <string name="don_t_ask_again">Yeniden sorma</string>
-  <string name="dnkm_huawei_protected_text">Lütfen aşağıdaki düğmeye dokunun ve \"Korunan uygulamalar\" bölümünde Briar uygulamasının da korunduğundan emin olun.</string>
-  <string name="dnkm_huawei_protected_button">Briar uygulamasını koru</string>
-  <string name="dnkm_huawei_protected_help">Briar korunan uygulamalar listesine eklenmezse, arka planda çalışamaz.</string>
-  <string name="dnkm_huawei_app_launch_text">Lütfen aşağıdaki düğmeye dokunun, \"Uygulama başlatma\" ekranını açın ve Briar için \"El ile yönetilsin\" olarak ayarlanmış olduğundan emin olun.</string>
-  <string name="dnkm_huawei_app_launch_help">Briar, \"Uygulama başlatma\" ekranında \"El ile yönetilsin\" olarak ayarlanmamışsa, arka planda çalışmayabilir.</string>
-  <string name="dnkm_xiaomi_text">Arka planda çalışabilmesi için Briar korunan uygulamalar listesine eklenmelidir.</string>
-  <string name="dnkm_xiaomi_button">Briar uygulamasını koru</string>
-  <string name="dnkm_xiaomi_help">Briar korunan uygulamalar listesine eklenmezse, arka planda çalışamaz.</string>
-  <string name="dnkm_xiaomi_dialog_body_old">1. Son uygulamalar listesini açın (uygulama değiştirici de deniyor)\n\n2. Briar görselini kilit simgesini görene kadar aşağı kaydırın\n\n3. Kilit simgesi kilitli değilse, kilitlemek için dokunun</string>
-  <string name="dnkm_xiaomi_dialog_body_new">1. Son uygulamalar listesini açın (uygulama değiştirici de deniyor)\n\n2. Briar uygulamasının yanında bir kilit simgesi varsa bir şey yapmanız gerekmez\n\n3. Kilit simgesi yoksa, kilit düğmesi görünene kadar Briar görseline basılı tutun. Ardından kilit düğmesine dokunun</string>
-  <string name="dnkm_xiaomi_lock_apps_text">Güvenlik ayarlarını açmak için aşağıdaki düğmeye dokunun. \"Hızı artır\" üzerine dokunun. Ardından \"Uygulamaları kilitle\" üzerine dokunun ve Briar uygulamasının \"Kilitli\" olarak ayarlandığından emin olun.</string>
-  <string name="dnkm_xiaomi_lock_apps_help">Briar uygulaması \"Uygulamaları kilitle\" ekranında \"Kilitli\" değilse, arka planda çalışamaz.</string>
-  <string name="dnkm_warning_dozed_1">Briar arka planda çalışamadı</string>
+  <string name="dnkm_huawei_protected_text">Lütfen aşağıdaki düğmeye dokunun ve \"Korunan uygulamalar\" bölümünde Sushh uygulamasının da korunduğundan emin olun.</string>
+  <string name="dnkm_huawei_protected_button">Sushh uygulamasını koru</string>
+  <string name="dnkm_huawei_protected_help">Sushh korunan uygulamalar listesine eklenmezse, arka planda çalışamaz.</string>
+  <string name="dnkm_huawei_app_launch_text">Lütfen aşağıdaki düğmeye dokunun, \"Uygulama başlatma\" ekranını açın ve Sushh için \"El ile yönetilsin\" olarak ayarlanmış olduğundan emin olun.</string>
+  <string name="dnkm_huawei_app_launch_help">Sushh, \"Uygulama başlatma\" ekranında \"El ile yönetilsin\" olarak ayarlanmamışsa, arka planda çalışmayabilir.</string>
+  <string name="dnkm_xiaomi_text">Arka planda çalışabilmesi için Sushh korunan uygulamalar listesine eklenmelidir.</string>
+  <string name="dnkm_xiaomi_button">Sushh uygulamasını koru</string>
+  <string name="dnkm_xiaomi_help">Sushh korunan uygulamalar listesine eklenmezse, arka planda çalışamaz.</string>
+  <string name="dnkm_xiaomi_dialog_body_old">1. Son uygulamalar listesini açın (uygulama değiştirici de deniyor)\n\n2. Sushh görselini kilit simgesini görene kadar aşağı kaydırın\n\n3. Kilit simgesi kilitli değilse, kilitlemek için dokunun</string>
+  <string name="dnkm_xiaomi_dialog_body_new">1. Son uygulamalar listesini açın (uygulama değiştirici de deniyor)\n\n2. Sushh uygulamasının yanında bir kilit simgesi varsa bir şey yapmanız gerekmez\n\n3. Kilit simgesi yoksa, kilit düğmesi görünene kadar Sushh görseline basılı tutun. Ardından kilit düğmesine dokunun</string>
+  <string name="dnkm_xiaomi_lock_apps_text">Güvenlik ayarlarını açmak için aşağıdaki düğmeye dokunun. \"Hızı artır\" üzerine dokunun. Ardından \"Uygulamaları kilitle\" üzerine dokunun ve Sushh uygulamasının \"Kilitli\" olarak ayarlandığından emin olun.</string>
+  <string name="dnkm_xiaomi_lock_apps_help">Sushh uygulaması \"Uygulamaları kilitle\" ekranında \"Kilitli\" değilse, arka planda çalışamaz.</string>
+  <string name="dnkm_warning_dozed_1">Sushh arka planda çalışamadı</string>
   <!--Login-->
   <string name="enter_password">Parola</string>
   <string name="try_again">Parola yanlış, yeniden deneyin</string>
   <string name="dialog_title_cannot_check_password">Parola denetlenemedi</string>
-  <string name="dialog_message_cannot_check_password">Briar parolanızı denetleyemedi. Sorunu çözmek için lütfen aygıtınızı yeniden başlatın.</string>
-  <string name="sign_in_title">Briar oturumu aç</string>
+  <string name="dialog_message_cannot_check_password">Sushh parolanızı denetleyemedi. Sorunu çözmek için lütfen aygıtınızı yeniden başlatın.</string>
+  <string name="sign_in_title">Sushh oturumu aç</string>
   <string name="sign_in_button">Oturum aç</string>
   <string name="forgotten_password">Parolamı unuttum</string>
   <string name="dialog_title_lost_password">Parolamı unuttum</string>
-  <string name="dialog_message_lost_password">Briar hesabınız, bulutta değil şifrelenmiş olarak aygıtınızda tutulur. Bu nedenle şifrenizi sıfırlayamıyoruz. Hesabınızı silmek ve baştan başlamak ister misiniz? \n\nUyarı: Kimlikleriniz, kişileriniz ve iletileriniz kaybolur.</string>
-  <string name="startup_failed_activity_title">Briar başlatılamadı</string>
-  <string name="startup_failed_clock_error">Aygıtınızın saati yanlış olduğu için Briar başlatılamadı.\n\nLütfen aygıtınızın saatini doğru zamana ayarlayıp yeniden deneyin.</string>
-  <string name="startup_failed_db_error">Briar, hesabınızın, bağlantılarınızın ve iletilerinizin bulunduğu veri tabanını açamadı.\n\nLütfen uygulamayı güncel sürümüne yükseltip yeniden deneyin ya da parola ekranındaki \"Parolamı unuttum\" seçeneğini kullanarak yeni bir hesap oluşturun.</string>
+  <string name="dialog_message_lost_password">Sushh hesabınız, bulutta değil şifrelenmiş olarak aygıtınızda tutulur. Bu nedenle şifrenizi sıfırlayamıyoruz. Hesabınızı silmek ve baştan başlamak ister misiniz? \n\nUyarı: Kimlikleriniz, kişileriniz ve iletileriniz kaybolur.</string>
+  <string name="startup_failed_activity_title">Sushh başlatılamadı</string>
+  <string name="startup_failed_clock_error">Aygıtınızın saati yanlış olduğu için Sushh başlatılamadı.\n\nLütfen aygıtınızın saatini doğru zamana ayarlayıp yeniden deneyin.</string>
+  <string name="startup_failed_db_error">Sushh, hesabınızın, bağlantılarınızın ve iletilerinizin bulunduğu veri tabanını açamadı.\n\nLütfen uygulamayı güncel sürümüne yükseltip yeniden deneyin ya da parola ekranındaki \"Parolamı unuttum\" seçeneğini kullanarak yeni bir hesap oluşturun.</string>
   <string name="startup_failed_data_too_old_error">Hesabınız bu uygulamanın daha eski bir sürümüyle oluşturulmuş ve bu sürümle açılamaz.\n\nEski sürümü yeniden kurun ya da parola sorulduğunda \"Parolamı unuttum\" seçeneğini kullanarak yeni bir hesap oluşturun.</string>
   <string name="startup_failed_data_too_new_error">Hesabınız bu uygulamanın daha yeni bir sürümüyle oluşturulmuş ve bu sürümle açılamaz.\n\nLütfen uygulamayı güncel sürümüne yükseltip yeniden deneyin.</string>
-  <string name="startup_failed_service_error">Briar gerek duyduğu bir bileşeni başlatamadı.\n\nLütfen uygulamayı güncel sürümüne yükseltip yeniden deneyin.</string>
+  <string name="startup_failed_service_error">Sushh gerek duyduğu bir bileşeni başlatamadı.\n\nLütfen uygulamayı güncel sürümüne yükseltip yeniden deneyin.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Briar deneme sürümünü kullanıyorsunuz. Hesabınız %d gün sonra geçersiz olacak ve yenilenemeyecek.</item>
-    <item quantity="other">Briar deneme sürümünü kullanıyorsunuz. Hesabınız %d gün sonra geçersiz olacak ve yenilenemeyecek.</item>
+    <item quantity="one">Sushh deneme sürümünü kullanıyorsunuz. Hesabınız %d gün sonra geçersiz olacak ve yenilenemeyecek.</item>
+    <item quantity="other">Sushh deneme sürümünü kullanıyorsunuz. Hesabınız %d gün sonra geçersiz olacak ve yenilenemeyecek.</item>
   </plurals>
   <string name="expiry_date_reached">Bu yazılımın geçerlilik süresi geçmiş.\nDenediğiniz için teşekkürler!</string>
-  <string name="download_briar">Briar kullanmayı sürdürmek için lütfen güncel sürümü indirin.</string>
+  <string name="download_briar">Sushh kullanmayı sürdürmek için lütfen güncel sürümü indirin.</string>
   <string name="create_new_account">Yeni bir hesap oluşturmanız gerekecek, fakat aynı takma adı kullanabilirsiniz.</string>
   <string name="download_briar_button">Güncel sürümü indir</string>
-  <string name="old_android_expiry_date_reached">Briar artık Android 4 üzerinde çalışmıyor.\nLütfen Briar uygulamasını daha yeni bir aygıta kurun.</string>
+  <string name="old_android_expiry_date_reached">Sushh artık Android 4 üzerinde çalışmıyor.\nLütfen Sushh uygulamasını daha yeni bir aygıta kurun.</string>
   <string name="old_android_delete_account">Bu aygıttaki hesabınızı silmek için aşağıdaki düğmeye dokunabilirsiniz.</string>
   <string name="delete_account_button">Hesabı sil</string>
   <string name="startup_open_database">Veri tabanının şifresi çözülüyor...</string>
@@ -73,43 +73,43 @@
   <string name="lock_button">Uygulamayı kilitle</string>
   <string name="settings_button">Ayarlar</string>
   <string name="sign_out_button">Oturumu kapat</string>
-  <string name="transports_onboarding_text">Briar uygulamasının kişilerinizle nasıl bağlanacağını belirlemek için buraya dokunun</string>
+  <string name="transports_onboarding_text">Sushh uygulamasının kişilerinizle nasıl bağlanacağını belirlemek için buraya dokunun</string>
   <!--Transports: Tor-->
   <string name="transport_tor">İnternet</string>
   <string name="tor_device_status_online_wifi">Telefonunuzun Wi-Fi İnternet erişimi var</string>
   <string name="tor_device_status_online_mobile">Telefonunuzun mobil veri ile İnternet erişimi var</string>
   <string name="tor_device_status_offline">Telefonunuzun İnternet erişimi yok</string>
-  <string name="tor_plugin_status_enabling">Briar İnternet bağlantısı kuruyor</string>
-  <string name="tor_plugin_status_active">Briar İnternet bağlantısını kurdu</string>
-  <string name="tor_plugin_status_inactive">Briar İnternet bağlantısı kuramadı</string>
-  <string name="tor_plugin_status_disabled">Briar İnternet kullanmayacak şekilde yapılandırılmış</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briar mobil veri kullanmayacak şekilde yapılandırılmış</string>
-  <string name="tor_plugin_status_disabled_battery">Briar pil ile çalışırken İnternet kullanmayacak şekilde yapılandırılmış</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briar bu ülkede İnternet kullanmayacak şekilde yapılandırılmış</string>
+  <string name="tor_plugin_status_enabling">Sushh İnternet bağlantısı kuruyor</string>
+  <string name="tor_plugin_status_active">Sushh İnternet bağlantısını kurdu</string>
+  <string name="tor_plugin_status_inactive">Sushh İnternet bağlantısı kuramadı</string>
+  <string name="tor_plugin_status_disabled">Sushh İnternet kullanmayacak şekilde yapılandırılmış</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushh mobil veri kullanmayacak şekilde yapılandırılmış</string>
+  <string name="tor_plugin_status_disabled_battery">Sushh pil ile çalışırken İnternet kullanmayacak şekilde yapılandırılmış</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushh bu ülkede İnternet kullanmayacak şekilde yapılandırılmış</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Wi-Fi</string>
   <string name="transport_lan_long">Aynı Wi-Fi ağı</string>
   <string name="lan_device_status_on">Telefonunuzun Wi-Fi bağlantısı var</string>
   <string name="lan_device_status_off">Telefonunuzun Wi-Fi bağlantısı yok</string>
-  <string name="lan_plugin_status_enabling">Briar Wi-Fi ağı ile bağlantı kuruyor</string>
-  <string name="lan_plugin_status_active">Briar Wi-Fi ağı ile bağlantı kurdu</string>
-  <string name="lan_plugin_status_inactive">Briar Wi-Fi ağı ile bağlantı kuramadı</string>
-  <string name="lan_plugin_status_disabled">Briar Wi-Fi ağını kullanmayacak şekilde yapılandırılmış</string>
+  <string name="lan_plugin_status_enabling">Sushh Wi-Fi ağı ile bağlantı kuruyor</string>
+  <string name="lan_plugin_status_active">Sushh Wi-Fi ağı ile bağlantı kurdu</string>
+  <string name="lan_plugin_status_inactive">Sushh Wi-Fi ağı ile bağlantı kuramadı</string>
+  <string name="lan_plugin_status_disabled">Sushh Wi-Fi ağını kullanmayacak şekilde yapılandırılmış</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">Telefonunuzda Bluetooth açık</string>
   <string name="bt_device_status_off">Telefonunuzda Bluetooth kapalı</string>
-  <string name="bt_plugin_status_enabling">Briar Bluetooth ile bağlantı kuruyor</string>
-  <string name="bt_plugin_status_active">Briar Bluetooth ile bağlantı kurdu</string>
-  <string name="bt_plugin_status_inactive">Briar Bluetooth ile bağlantı kuramadı</string>
-  <string name="bt_plugin_status_disabled">Briar Bluetooth kullanmayacak şekilde yapılandırılmış</string>
+  <string name="bt_plugin_status_enabling">Sushh Bluetooth ile bağlantı kuruyor</string>
+  <string name="bt_plugin_status_active">Sushh Bluetooth ile bağlantı kurdu</string>
+  <string name="bt_plugin_status_inactive">Sushh Bluetooth ile bağlantı kuramadı</string>
+  <string name="bt_plugin_status_disabled">Sushh Bluetooth kullanmayacak şekilde yapılandırılmış</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Briar oturumu kapatıldı</string>
+  <string name="reminder_notification_title">Sushh oturumu kapatıldı</string>
   <string name="reminder_notification_text">Yeniden oturum açmak için dokunun.</string>
-  <string name="reminder_notification_channel_title">Briar oturum açma anımsatıcısı</string>
+  <string name="reminder_notification_channel_title">Sushh oturum açma anımsatıcısı</string>
   <string name="reminder_notification_dismiss">Vazgeç</string>
-  <string name="ongoing_notification_title">Briar oturumu açıldı</string>
-  <string name="ongoing_notification_text">Briar\'ı açmak için dokunun.</string>
+  <string name="ongoing_notification_title">Sushh oturumu açıldı</string>
+  <string name="ongoing_notification_text">Sushh\'ı açmak için dokunun.</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Yeni özel ileti.</item>
     <item quantity="other">%d yeni özel ileti.</item>
@@ -218,7 +218,7 @@
   <string name="save_image_success">Görsel kaydedildi</string>
   <string name="save_image_error">Görsel kaydedilemedi</string>
   <string name="dialog_title_no_image_support">Görseller kullanılamıyor</string>
-  <string name="dialog_message_no_image_support">Kişinizin Briar uygulaması henüz görsel eklerini desteklemiyor. Kişi uygulamasını yükselttiğinde farklı bir simge göreceksiniz.</string>
+  <string name="dialog_message_no_image_support">Kişinizin Sushh uygulaması henüz görsel eklerini desteklemiyor. Kişi uygulamasını yükselttiğinde farklı bir simge göreceksiniz.</string>
   <string name="dialog_title_image_support">Artık bu kişiye görseller gönderebilirsiniz</string>
   <string name="dialog_message_image_support">Görsel eklemek için bu simgeye dokunun.</string>
   <string name="messaging_too_many_attachments_toast">Yalnızca ilk %d görsel gönderilecek</string>
@@ -235,10 +235,10 @@
   <string name="contact_already_exists"> %s kişisi zaten var</string>
   <string name="contact_already_exists_general">Kişi zaten var</string>
   <string name="qr_code_invalid">Kare kod geçersiz</string>
-  <string name="qr_code_too_old_1">Taradığınız kare kod eski bir Briar sürümünden geliyor.\n\nLütfen kişinize uygulamayı güncel sürümüne yükseltip yeniden denemesini söyleyin.</string>
-  <string name="qr_code_too_new_1">Taradığınız kare kod daha yeni bir Briar sürümünden geliyor.\n\nLütfen uygulamayı güncel sürümüne yükseltip yeniden deneyin.</string>
-  <string name="mailbox_qr_code_for_contact">Taradığınız kare kod Briar Mailbox uygulamasından geliyor.\n\nMailbox ile bağlantı kurmak istiyorsanız, Briar menüsünden Ayarlar &gt; Mailbox bölümüne gidin.</string>
-  <string name="qr_code_format_unknown">Taradığınız kare kod bir Briar kişisi eklemek için değil.\n\nLütfen kişi ekranında görüntülenen kare kodu tarayın.</string>
+  <string name="qr_code_too_old_1">Taradığınız kare kod eski bir Sushh sürümünden geliyor.\n\nLütfen kişinize uygulamayı güncel sürümüne yükseltip yeniden denemesini söyleyin.</string>
+  <string name="qr_code_too_new_1">Taradığınız kare kod daha yeni bir Sushh sürümünden geliyor.\n\nLütfen uygulamayı güncel sürümüne yükseltip yeniden deneyin.</string>
+  <string name="mailbox_qr_code_for_contact">Taradığınız kare kod Sushh Mailbox uygulamasından geliyor.\n\nMailbox ile bağlantı kurmak istiyorsanız, Sushh menüsünden Ayarlar &gt; Mailbox bölümüne gidin.</string>
+  <string name="qr_code_format_unknown">Taradığınız kare kod bir Sushh kişisi eklemek için değil.\n\nLütfen kişi ekranında görüntülenen kare kodu tarayın.</string>
   <string name="camera_error">Kamera sorunu</string>
   <string name="connecting_to_device">Aygıt ile bağlantı kuruluyor\u2026</string>
   <string name="authenticating_with_device">Aygıt üzerinde kimlik doğrulanıyor\u2026</string>
@@ -260,7 +260,7 @@
   <string name="add_contact_choose_a_nickname">Bir takma ad yazın</string>
   <string name="nickname_intro">Kişinize bir takma ad verin. Bunu yalnızca siz görebilirsiniz.</string>
   <string name="your_link">Bu bağlantıyı eklemek istediğiniz kişiye verin</string>
-  <string name="link_clip_label">Briar bağlantısı</string>
+  <string name="link_clip_label">Sushh bağlantısı</string>
   <string name="link_copied_toast">Bağlantı kopyalandı</string>
   <string name="adding_contact_error">Kişi eklenirken bir sorun çıktı.</string>
   <string name="pending_contact_requests_snackbar">Bekleyen kişi istekleri var</string>
@@ -275,7 +275,7 @@
   <string name="own_link_error">Kişinizin bağlantısını yazın. Kendi bağlantınızı değil</string>
   <string name="nickname_missing">Lütfen bir takma ad yazın</string>
   <string name="invalid_link">Bağlantı geçersiz</string>
-  <string name="unsupported_link">Bu bağlantı daha yeni bir Briar sürümünden geliyor. Lütfen uygulamayı güncel sürüme yükseltip yeniden deneyin.</string>
+  <string name="unsupported_link">Bu bağlantı daha yeni bir Sushh sürümünden geliyor. Lütfen uygulamayı güncel sürüme yükseltip yeniden deneyin.</string>
   <string name="intent_own_link">Kendi bağlantınızı açtınız. Eklemek istediğiniz kişilerden birinin bağlantısını kullanın!</string>
   <string name="missing_link">Lütfen bir bağlantı yazın</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -310,7 +310,7 @@
   <string name="peer_trust_level_stranger">Yabancı</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Kişilerinizi tanıştırın</string>
-  <string name="introduction_onboarding_text">Kişilerinizi birbirleriyle tanıştırın Böylece Briar üzerinden bağlantı kurabilirler.</string>
+  <string name="introduction_onboarding_text">Kişilerinizi birbirleriyle tanıştırın Böylece Sushh üzerinden bağlantı kurabilirler.</string>
   <string name="introduction_menu_item">Tanıştır</string>
   <string name="introduction_activity_title">Kişi seç</string>
   <string name="introduction_not_possible">Bu kişileri tanıştırma süreciniz henüz tamamlanmamış. Lütfen bu sürecin tamamlanmasını bekleyin. Kişileriniz nadiren çevrim içi oluyorsa, sürecin tamamlanması zaman alabilir. </string>
@@ -506,7 +506,7 @@
   <string name="change_profile_picture_failed_message">Üzgünüz. Profil görseliniz güncellenirken bir sorun çıktı</string>
   <!--Settings Display-->
   <string name="pref_language_title">Dil ve bölge</string>
-  <string name="pref_language_changed">Bu ayar Briar yeniden başlatıldığında geçerli olacak. Lütfen oturumunuzu kapatıp Briar uygulamasını yeniden başlatın.</string>
+  <string name="pref_language_changed">Bu ayar Sushh yeniden başlatıldığında geçerli olacak. Lütfen oturumunuzu kapatıp Sushh uygulamasını yeniden başlatın.</string>
   <string name="pref_language_default">Sistem varsayılanı</string>
   <string name="display_settings_title">Görünüm</string>
   <string name="pref_theme_title">Tema</string>
@@ -524,7 +524,7 @@
   <string name="tor_network_setting_without_bridges">Tor köprüler olmadan kullanılsın</string>
   <string name="tor_network_setting_with_bridges">Tor köprüler ile kullanılsın</string>
   <string name="tor_network_setting_never">İnternet bağlantısı kurulmasın</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Otomatik: %1$s (%2$s içinde)</string>
   <string name="tor_mobile_data_title">Mobil veri kullanılsın</string>
   <string name="tor_only_when_charging_title">İnternet bağlantısı yalnızca şarj edilirken kullanılsın</string>
@@ -532,11 +532,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Güvenlik</string>
   <string name="pref_lock_title">Uygulama kilidi</string>
-  <string name="pref_lock_summary">Oturum açmışken Briar uygulamasını korumak için aygıtın ekran kilidini kullanın</string>
+  <string name="pref_lock_summary">Oturum açmışken Sushh uygulamasını korumak için aygıtın ekran kilidini kullanın</string>
   <string name="pref_lock_disabled_summary">Bu özelliği kullanabilmek için aygıtınızda bir ekran kilidi ayarlayın</string>
   <string name="pref_lock_timeout_title">Uygulama kilidi bekleme süresi</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Briar uygulaması kullanılmadığında %s sonra otomatik olarak kilitlensin</string>
+  <string name="pref_lock_timeout_summary">Sushh uygulaması kullanılmadığında %s sonra otomatik olarak kilitlensin</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 dakika</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -548,7 +548,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 saat</string>
   <string name="pref_lock_timeout_never">Asla</string>
-  <string name="pref_lock_timeout_never_summary">Briar asla otomatik olarak kilitlenmesin</string>
+  <string name="pref_lock_timeout_never_summary">Sushh asla otomatik olarak kilitlenmesin</string>
   <string name="change_password">Parolayı değiştir</string>
   <string name="current_password">Geçerli parola</string>
   <string name="choose_new_password">Yeni parola</string>
@@ -556,7 +556,7 @@
   <string name="password_changed">Parola değiştirildi.</string>
   <string name="panic_setting">Panik düğmesi ayarları</string>
   <string name="panic_setting_title">Panik düğmesi</string>
-  <string name="panic_setting_hint">Panik düğmesini kullandığınızda verilecek Briar tepkisini yapılandırın</string>
+  <string name="panic_setting_hint">Panik düğmesini kullandığınızda verilecek Sushh tepkisini yapılandırın</string>
   <string name="panic_app_setting_title">Panik düğmesi uygulaması</string>
   <string name="unknown_app">bilinmeyen bir uygulama</string>
   <string name="panic_app_setting_summary">Herhangi bir uygulama ayarlanmamış</string>
@@ -565,9 +565,9 @@
   <string name="dialog_message_connect_panic_app">%1$s kişisinin yıkıcı panik düğmesi işlemlerini başlatmasına izin vermek istediğinize emin misiniz?</string>
   <string name="panic_setting_destructive_action">Yıkıcı işlemler</string>
   <string name="panic_setting_signout_title">Oturum kapatılsın</string>
-  <string name="panic_setting_signout_summary">Panik düğmesine basıldığında Briar oturumu kapatılsın</string>
+  <string name="panic_setting_signout_summary">Panik düğmesine basıldığında Sushh oturumu kapatılsın</string>
   <string name="purge_setting_title">Hesap silinsin</string>
-  <string name="purge_setting_summary">Panik düğmesine basıldığında Briar hesabınızı siler. Dikkat: Bu işlem, kimliklerinizi, kişilerinizi ve iletilerinizi kalıcı olarak siler.</string>
+  <string name="purge_setting_summary">Panik düğmesine basıldığında Sushh hesabınızı siler. Dikkat: Bu işlem, kimliklerinizi, kişilerinizi ve iletilerinizi kalıcı olarak siler.</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Bildirimler</string>
   <string name="notify_sign_in_title">Oturum açmam anımsatılsın</string>
@@ -594,28 +594,28 @@
   <string name="mailbox_settings_title">Mailbox</string>
   <string name="mailbox_setup_title">Mailbox kurulumu</string>
   <string name="mailbox_setup_intro">Mailbox siz çevrim dışıyken kişilerinizin size ileti gönderebilmesini sağlar. İletilerinizi Mailbox alır ve siz çevrim içi olana kadar saklar.\n
-		\nBriar Mailbox uygulamasını yedek bir aygıta kurabilirsiniz. Bu aygıtı şarja ve Wi-Fi ağına bağlı tutarsanız sürekli çevrim içi olur.</string>
-  <string name="mailbox_setup_download">İlk olarak bir başka aygıt üzerinde, Google Play ile ya da Briar uygulamasını indirdiğiniz yerde \"Briar Mailbox\" ifadesini arayın ve Mailbox uygulamasını bularak kurun.\n
-		\nArdından Briar üzerinden Mailbox uygulamasında görüntülenen kare kodu tarayarak Mailbox uygulamasını ilişkilendirin.</string>
+		\nSushh Mailbox uygulamasını yedek bir aygıta kurabilirsiniz. Bu aygıtı şarja ve Wi-Fi ağına bağlı tutarsanız sürekli çevrim içi olur.</string>
+  <string name="mailbox_setup_download">İlk olarak bir başka aygıt üzerinde, Google Play ile ya da Sushh uygulamasını indirdiğiniz yerde \"Sushh Mailbox\" ifadesini arayın ve Mailbox uygulamasını bularak kurun.\n
+		\nArdından Sushh üzerinden Mailbox uygulamasında görüntülenen kare kodu tarayarak Mailbox uygulamasını ilişkilendirin.</string>
   <string name="mailbox_setup_download_link">İndirme bağlantısını paylaş</string>
   <string name="mailbox_setup_button_scan">Mailbox kare kodunu tarayın</string>
   <string name="permission_camera_qr_denied_body">Kameraya erişme izni vermemişsiniz. Ancak Mailbox kare kodunu taramak için kamerayı kullanmanız gerekiyor.\n\nLütfen kameraya erişme iznini vermeyi değerlendirin.</string>
   <string name="mailbox_setup_connecting">Mailbox ile bağlantı kuruluyor…</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">Bu işlem %1s kadar sürebilir</string>
-  <string name="mailbox_qr_code_too_old">Taradığınız kare kod daha eski bir Briar Mailbox sürümünden geliyor.\n\nLütfen Briar Mailbox uygulamasının güncel sürümüne yükseltip yeniden deneyin.</string>
-  <string name="mailbox_qr_code_too_new">Taradığınız kare kod daha yeni bir Briar Mailbox sürümünden geliyor.\n\nLütfen Briar uygulamasını güncel sürümüne yükseltip yeniden deneyin.</string>
-  <string name="contact_qr_code_for_mailbox">Taradığınız kare kod bir Briar kişisi eklemek için.\n\nBir kişi eklemek istiyorsanız kişi listesine gidin ve + simgesine dokunun.</string>
-  <string name="mailbox_setup_qr_code_wrong_description">Taradığınız kare kod Briar Mailbox uygulamasından gelmiyor.\n\nLütfen Mailbox aygıtında Briar Mailbox uygulamasını açın ve görüntülenen kare kodu o uygulama ile tarayın.</string>
+  <string name="mailbox_qr_code_too_old">Taradığınız kare kod daha eski bir Sushh Mailbox sürümünden geliyor.\n\nLütfen Sushh Mailbox uygulamasının güncel sürümüne yükseltip yeniden deneyin.</string>
+  <string name="mailbox_qr_code_too_new">Taradığınız kare kod daha yeni bir Sushh Mailbox sürümünden geliyor.\n\nLütfen Sushh uygulamasını güncel sürümüne yükseltip yeniden deneyin.</string>
+  <string name="contact_qr_code_for_mailbox">Taradığınız kare kod bir Sushh kişisi eklemek için.\n\nBir kişi eklemek istiyorsanız kişi listesine gidin ve + simgesine dokunun.</string>
+  <string name="mailbox_setup_qr_code_wrong_description">Taradığınız kare kod Sushh Mailbox uygulamasından gelmiyor.\n\nLütfen Mailbox aygıtında Sushh Mailbox uygulamasını açın ve görüntülenen kare kodu o uygulama ile tarayın.</string>
   <string name="mailbox_setup_already_paired_title">Mailbox zaten bağlanmış</string>
   <string name="mailbox_setup_already_paired_description">Diğer aygıttan Mailbox bağlantısını kaldırıp yeniden deneyin</string>
   <string name="mailbox_setup_io_error_title">Bağlantı kurulamadı</string>
   <string name="mailbox_setup_io_error_description">İki aygıtın da İnternete bağlı olduğundan emin olduktan sonra yeniden deneyin.</string>
   <string name="mailbox_setup_assertion_error_title">Mailbox sorunu</string>
-  <string name="mailbox_setup_assertion_error_description">Sorun sürerse lütfen Briar uygulaması üzerinden (anonim olarak) bize bildirin.</string>
+  <string name="mailbox_setup_assertion_error_description">Sorun sürerse lütfen Sushh uygulaması üzerinden (anonim olarak) bize bildirin.</string>
   <string name="mailbox_setup_camera_error_description">Kameraya erişilemedi. Aygıtı yeniden başlatıp yeniden deneyin.</string>
   <string name="mailbox_setup_paired_title">Bağlantı kuruldu</string>
-  <string name="mailbox_setup_paired_description">Mailbox uygulamanız ile Briar bağlandı.\n
+  <string name="mailbox_setup_paired_description">Mailbox uygulamanız ile Sushh bağlandı.\n
 		\nMailbox çalışan aygıtı şarja ve Wi-Fi ağına bağlı tutun. Böylece sürekli çevrim içi olur.</string>
   <string name="tor_offline_title">Çevrim dışı</string>
   <string name="tor_offline_description">Bu aygıtın çevrim içi olduğundan ve İnternet bağlantılarına izin verildiğinden emin olun.\n
@@ -623,10 +623,10 @@
   <string name="tor_offline_button_check">Bağlantı ayarlarını denetle</string>
   <string name="mailbox_status_title">Mailbox durumu</string>
   <string name="mailbox_status_connected_title">Mailbox çalışıyor</string>
-  <string name="mailbox_status_problem_title">Briar Mailbox ile bağlantı kurmakta sorun yaşıyor.</string>
+  <string name="mailbox_status_problem_title">Sushh Mailbox ile bağlantı kurmakta sorun yaşıyor.</string>
   <string name="mailbox_status_failure_title">Mailbox kullanılamıyor</string>
-  <string name="mailbox_status_app_too_old_title">Briar sürümü çok eski</string>
-  <string name="mailbox_status_app_too_old_message">Briar uygulamasını güncel sürümüne yükseltip yeniden deneyin.</string>
+  <string name="mailbox_status_app_too_old_title">Sushh sürümü çok eski</string>
+  <string name="mailbox_status_app_too_old_message">Sushh uygulamasını güncel sürümüne yükseltip yeniden deneyin.</string>
   <string name="mailbox_status_mailbox_too_old_title">Mailbox sürümü çok eski</string>
   <string name="mailbox_status_mailbox_too_old_message">Mailbox uygulamasını güncel sürümüne yükseltip yeniden deneyin.</string>
   <string name="mailbox_status_check_button">Bağlantıyı denetle</string>
@@ -637,12 +637,12 @@
   <string name="mailbox_status_unlink_button">Bağlantıyı kaldır</string>
   <string name="mailbox_status_unlink_dialog_title">Mailbox bağlantısı kaldırılsın mı?</string>
   <string name="mailbox_status_unlink_dialog_question">Mailbox bağlantısını kaldırmak istediğinize emin misiniz?</string>
-  <string name="mailbox_status_unlink_dialog_warning">Mailbox bağlantısını kaldırırsanız, Briar çevrim dışı olduğunda iletileri alamazsınız.</string>
+  <string name="mailbox_status_unlink_dialog_warning">Mailbox bağlantısını kaldırırsanız, Sushh çevrim dışı olduğunda iletileri alamazsınız.</string>
   <string name="mailbox_status_unlink_no_wipe_title">Mailbox bağlantınız kaldırıldı</string>
   <string name="mailbox_status_unlink_no_wipe_message">Mailbox aygıtınıza bir sonra erişmenizde lütfen Mailbox uygulamasını açın ve \"Bağlantıyı kaldır\" düğmesine dokunarak işlemi tamamlayın.\n\nMailbox aygıtınıza artık erişemiyorsanız endişelenmeyin. Verileriniz şifrelenmiştir ve bu süreci tamamlamasanız bile güvende kalır.</string>
   <string name="mailbox_status_unlink_success">Mailbox bağlantınız kaldırıldı</string>
-  <string name="mailbox_error_notification_channel_title">Briar Mailbox sorunu</string>
-  <string name="mailbox_error_notification_title">Briar Mailbox kullanılamıyor</string>
+  <string name="mailbox_error_notification_channel_title">Sushh Mailbox sorunu</string>
+  <string name="mailbox_error_notification_title">Sushh Mailbox kullanılamıyor</string>
   <string name="mailbox_error_notification_text">Sorunu çözmek için dokunun.</string>
   <string name="mailbox_error_wizard_button">Sorunu çöz</string>
   <string name="mailbox_error_wizard_title">Mailbox sorun çözme yardımcısı</string>
@@ -658,16 +658,16 @@
   <string name="mailbox_error_wizard_answer1_4">\"Aygıt çevrim dışı\" ifadesini görüyorum</string>
   <string name="mailbox_error_wizard_info1_1_1">Lütfen aşağıdaki düğmeyi kullanarak Mailbox bağlantınızı kesin. Ardından bağlantıyı yeniden kurmak için Mailbox aygıtındaki yönergeleri izleyin.</string>
   <string name="mailbox_error_wizard_info_1_1_2">Lütfen aşağıdaki düğmeyi kullanarak Mailbox bağlantınızı kesin. Ardından bağlantıyı yeniden kurmak için kare kodu tarayın.</string>
-  <string name="mailbox_error_wizard_info1_1_3">Briar ve Mailbox arasındaki bağlantıyı denetlemek için aşağıdaki düğmeyi kullanın.\n\n
+  <string name="mailbox_error_wizard_info1_1_3">Sushh ve Mailbox arasındaki bağlantıyı denetlemek için aşağıdaki düğmeyi kullanın.\n\n
 		Bağlantı yeniden kurulamazsa:\n
-		\u2022 Mailbox ve Briar uygulamalarının sürümlerinin güncel olduğundan emin olun.\n
-		\u2022 Mailbox ve Briar aygıtlarını yeniden başlatıp yeniden deneyin.</string>
-  <string name="mailbox_error_wizard_info1_1_4">Mailbox aygıtının İnternet bağlantısının düzgün olduğundan emin olun.\n\nMailbox aygıtındaki saatin ve tarihin ve saat diliminin doğru olduğundan emin olun.\n\nMailbox ve Briar uygulamalarının sürümünün güncel olduğundan emin olun.\n\nMailbox ve Briar aygıtlarınızı yeniden başlattıktan sonra yeniden deneyin.</string>
+		\u2022 Mailbox ve Sushh uygulamalarının sürümlerinin güncel olduğundan emin olun.\n
+		\u2022 Mailbox ve Sushh aygıtlarını yeniden başlatıp yeniden deneyin.</string>
+  <string name="mailbox_error_wizard_info1_1_4">Mailbox aygıtının İnternet bağlantısının düzgün olduğundan emin olun.\n\nMailbox aygıtındaki saatin ve tarihin ve saat diliminin doğru olduğundan emin olun.\n\nMailbox ve Sushh uygulamalarının sürümünün güncel olduğundan emin olun.\n\nMailbox ve Sushh aygıtlarınızı yeniden başlattıktan sonra yeniden deneyin.</string>
   <string name="mailbox_error_wizard_info2">Aygıta eriştiğinizde bu ekranı yeniden açın.</string>
   <string name="mailbox_error_wizard_info3">Lütfen aşağıdaki düğmeyi kullanarak Mailbox bağlantısını kaldırın.\n\nMailbox bağlantısını kaldırdıktan sonra istediğiniz zaman yeni bir Mailbox ayarlayabilirsiniz.</string>
   <!--About-->
   <string name="about_title">Hakkında</string>
-  <string name="briar_version">Briar sürümü: %s</string>
+  <string name="briar_version">Sushh sürümü: %s</string>
   <string name="tor_version">Tor sürümü: %s</string>
   <string name="links">Bağlantılar</string>
   <string name="briar_website">\u2022 <a href="">Site</a></string>
@@ -692,7 +692,7 @@
   <!--Settings Actions-->
   <string name="pref_category_actions">İşlemler</string>
   <string name="share_app_link">İndirme bağlantısını paylaş</string>
-  <string name="share_app_link_text">%s adresinden Briar indir</string>
+  <string name="share_app_link_text">%s adresinden Sushh indir</string>
   <string name="send_feedback">Geri bildirim gönder</string>
   <!--Link Warning-->
   <string name="link_warning_title">Bağlantı uyarısı</string>
@@ -700,10 +700,10 @@
   <string name="link_warning_text">Bu kim olduğunuzu belirlemek için kullanılabilir. Size bu bağlantıyı gönderen kişiye güvenip güvenmediğinizi düşünün ve bağlantıyı Tor Browser ile açın.</string>
   <string name="link_warning_open_link">Bağlantıyı aç</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar çökme bildirimi</string>
-  <string name="briar_crashed">Ne yazık ki Briar çöktü</string>
+  <string name="crash_report_title">Sushh çökme bildirimi</string>
+  <string name="briar_crashed">Ne yazık ki Sushh çöktü</string>
   <string name="not_your_fault">Bu sizin hatanız değil.</string>
-  <string name="please_send_report">Bize bir çökme bildirimi göndererek Briar uygulamasını iyileştirmemize yardımcı olun.</string>
+  <string name="please_send_report">Bize bir çökme bildirimi göndererek Sushh uygulamasını iyileştirmemize yardımcı olun.</string>
   <string name="report_is_encrypted">Bildirim şifreleneceğine ve güvenli bir şekilde gönderileceğine söz veriyoruz.</string>
   <string name="feedback_title">Geri bildirim</string>
   <string name="describe_crash">Ne olduğunu anlatın (isteğe bağlı)</string>
@@ -728,72 +728,72 @@
   <string name="close">Kapat</string>
   <string name="dev_report_sending">Geri bildirim gönderiliyor…</string>
   <string name="dev_report_sent">Geri bildirim gönderildi</string>
-  <string name="dev_report_saved">Bildirim kaydedildi. Briar oturumunu bir sonraki açışınızda gönderilecek.</string>
+  <string name="dev_report_saved">Bildirim kaydedildi. Sushh oturumunu bir sonraki açışınızda gönderilecek.</string>
   <string name="dev_report_error">Hata: Bildirim gönderilemedi</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Briar oturumu kapatılıyor...</string>
+  <string name="progress_title_logout">Sushh oturumu kapatılıyor...</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Üste açılan uygulama algılandı</string>
-  <string name="screen_filter_body">Briar üzerinde başka bir uygulama görüntüleniyor. Briar üzerinde bir başka uygulama görüntülendiğinde, Briar güvenliğinizi korumak için dokunmalara tepki vermez.\n\nÜstte görüntülenen uygulama şunlardan biri olabilir:\n\n%1$s </string>
-  <string name="screen_filter_body_api_30">Briar üzerinde başka bir uygulama görüntüleniyor. Briar üzerinde başka bir uygulama görüntülendiğinde, Briar güvenliğinizi korumak için dokunmalara tepki vermez.\n\nSorumlu uygulamayı bulmak için aşağıdaki uygulamaları gözden geçirin. </string>
+  <string name="screen_filter_body">Sushh üzerinde başka bir uygulama görüntüleniyor. Sushh üzerinde bir başka uygulama görüntülendiğinde, Sushh güvenliğinizi korumak için dokunmalara tepki vermez.\n\nÜstte görüntülenen uygulama şunlardan biri olabilir:\n\n%1$s </string>
+  <string name="screen_filter_body_api_30">Sushh üzerinde başka bir uygulama görüntüleniyor. Sushh üzerinde başka bir uygulama görüntülendiğinde, Sushh güvenliğinizi korumak için dokunmalara tepki vermez.\n\nSorumlu uygulamayı bulmak için aşağıdaki uygulamaları gözden geçirin. </string>
   <string name="screen_filter_allow">Bu uygulamalar üstte görüntülenebilsin</string>
   <string name="screen_filter_review_apps">Uygulamaları değerlendirin</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Kameraya erişme izni</string>
-  <string name="permission_camera_request_body">Briar kare kodu tarayabilmek için kameraya erişme iznine gerek duyuyor.</string>
+  <string name="permission_camera_request_body">Sushh kare kodu tarayabilmek için kameraya erişme iznine gerek duyuyor.</string>
   <string name="permission_location_title">Konuma erişme izni</string>
   <string name="permission_nearby_devices_title">Yakındaki aygıtlara erişme izni</string>
-  <string name="permission_location_request_body">Briar Bluetooth aygıtlarını bulabilmek için konumunuza erişme iznine gerek duyuyor.\n\nBriar konum bilginizi kaydetmez ve kimseyle paylaşmaz.</string>
+  <string name="permission_location_request_body">Sushh Bluetooth aygıtlarını bulabilmek için konumunuza erişme iznine gerek duyuyor.\n\nSushh konum bilginizi kaydetmez ve kimseyle paylaşmaz.</string>
   <string name="permission_camera_location_title">Kamera ve konuma erişme izni</string>
-  <string name="permission_camera_location_request_body">Briar kare kodu tarayabilmek için kameraya erişme iznine gerek duyuyor.\n\nBriar Bluetooth aygıtlarını bulabilmek için konumunuza erişme iznine gerek duyuyor.\n\nBriar konum bilginizi kaydetmez ve kimseyle paylaşmaz.</string>
+  <string name="permission_camera_location_request_body">Sushh kare kodu tarayabilmek için kameraya erişme iznine gerek duyuyor.\n\nSushh Bluetooth aygıtlarını bulabilmek için konumunuza erişme iznine gerek duyuyor.\n\nSushh konum bilginizi kaydetmez ve kimseyle paylaşmaz.</string>
   <string name="permission_camera_bluetooth_title">Kamera ve yakındaki aygıtlara erişme izni</string>
-  <string name="permission_camera_bluetooth_request_body">Briar kare kodu tarayabilmek için kameraya erişme iznine gerek duyuyor.\n\nBriar Bluetooth aygıtlarını bulabilmek için yakındaki aygıtları bulma ve bağlanma iznine gerek duyuyor.</string>
-  <string name="permission_camera_denied_body">Kameraya erişme izni vermemişsiniz. Ancak Briar kişileri ekleyebilmek için kameraya erişme iznine gerek duyuyor.\n\nLütfen kameraya erişme izni vermeyi değerlendirin.</string>
-  <string name="permission_location_denied_body">Konumunuza erişme izni vermemişsiniz. Ancak Briar Bluetooth aygıtlarını bulabilmek için konum bilginize erişme iznine gerek duyuyor.\n\nLütfen konumunuza erişme izni vermeyi değerlendirin.</string>
+  <string name="permission_camera_bluetooth_request_body">Sushh kare kodu tarayabilmek için kameraya erişme iznine gerek duyuyor.\n\nSushh Bluetooth aygıtlarını bulabilmek için yakındaki aygıtları bulma ve bağlanma iznine gerek duyuyor.</string>
+  <string name="permission_camera_denied_body">Kameraya erişme izni vermemişsiniz. Ancak Sushh kişileri ekleyebilmek için kameraya erişme iznine gerek duyuyor.\n\nLütfen kameraya erişme izni vermeyi değerlendirin.</string>
+  <string name="permission_location_denied_body">Konumunuza erişme izni vermemişsiniz. Ancak Sushh Bluetooth aygıtlarını bulabilmek için konum bilginize erişme iznine gerek duyuyor.\n\nLütfen konumunuza erişme izni vermeyi değerlendirin.</string>
   <string name="permission_location_setting_title">Konum ayarı</string>
   <string name="permission_location_setting_body">Bluetooth ile diğer aygıtları bulabilmek için aygıtınızın konum ayarının açık olması gerekiyor. İlerlemek için lütfen konum ayarını açın. Daha sonra yeniden kapatabilirsiniz. </string>
   <string name="permission_location_setting_hotspot_body">Wi-Fi bağlantı noktası oluşturabilmek için aygıtınızın konum ayarının açık olması gerekiyor. İlerlemek için lütfen konum ayarını açın. Daha sonra yeniden kapatabilirsiniz. </string>
   <string name="permission_location_setting_button">Konumu aç</string>
   <string name="permission_bluetooth_title">Yakındaki aygıtlara erişme izni</string>
-  <string name="permission_bluetooth_body">Briar Bluetooth iletişimini kullanabilmek için yakındaki aygıtları bulma ve bağlanma iznine gerek duyuyor.</string>
-  <string name="permission_bluetooth_denied_body">Yakındaki aygıtlara erişme izni vermemişsiniz. Ancak Briar yakındaki aygıtları bulabilmek için Bluetooth bağlantısını kullanmaya gerek duyuyor.\n\nLütfen yakındaki aygıtlara erişme izni vermeyi değerlendirin.</string>
+  <string name="permission_bluetooth_body">Sushh Bluetooth iletişimini kullanabilmek için yakındaki aygıtları bulma ve bağlanma iznine gerek duyuyor.</string>
+  <string name="permission_bluetooth_denied_body">Yakındaki aygıtlara erişme izni vermemişsiniz. Ancak Sushh yakındaki aygıtları bulabilmek için Bluetooth bağlantısını kullanmaya gerek duyuyor.\n\nLütfen yakındaki aygıtlara erişme izni vermeyi değerlendirin.</string>
   <string name="qr_code">Kare kod</string>
   <string name="show_qr_code_fullscreen">Kare kod tam ekranda görüntülensin</string>
   <!--App Locking-->
-  <string name="lock_unlock">Briar kilidini aç</string>
-  <string name="lock_unlock_verbose">Briar kilidini açmak için aygıtınızın PIN kodunu ya da parolasını yazın ya da desenini çizin</string>
+  <string name="lock_unlock">Sushh kilidini aç</string>
+  <string name="lock_unlock_verbose">Sushh kilidini açmak için aygıtınızın PIN kodunu ya da parolasını yazın ya da desenini çizin</string>
   <string name="lock_unlock_fingerprint_description">İlerlemek için, kayıtlı parmağınızla parmak izi okuyucuya dokunun</string>
   <string name="lock_unlock_password">Parolayı kullan</string>
-  <string name="lock_is_locked">Briar kilitli</string>
+  <string name="lock_is_locked">Sushh kilitli</string>
   <string name="lock_tap_to_unlock">Kilidi açmak için dokunun</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar kişilerinizle İnternet, Wi-Fi veya Bluetooth üzerinden bağlantı kurabilir.\n\nTüm İnternet bağlantıları gizliliğinizi korumak için Tor ağı üzerinden yapılır.\n\nBir kişiye birden fazla yöntemle erişilebiliyorsa, Briar bu yöntemleri paralel olarak kullanır.</string>
+  <string name="transports_help_text">Sushh kişilerinizle İnternet, Wi-Fi veya Bluetooth üzerinden bağlantı kurabilir.\n\nTüm İnternet bağlantıları gizliliğinizi korumak için Tor ağı üzerinden yapılır.\n\nBir kişiye birden fazla yöntemle erişilebiliyorsa, Sushh bu yöntemleri paralel olarak kullanır.</string>
   <!--Share app offline-->
   <string name="hotspot_title">Bu uygulamayı çevrim dışı paylaşın</string>
   <string name="hotspot_intro">Bu uygulamayı, İnternet olmadan, telefonunuzun Wi-Fi ağı ile yakınınızdaki kişilerle paylaşabilirsiniz.
-		\n\nTelefonunuzda mobil erişim noktası açılır ve yakındaki kişiler bu erişim noktasına bağlanarak Briar uygulamasını kendi telefonlarına indirebilir.</string>
+		\n\nTelefonunuzda mobil erişim noktası açılır ve yakındaki kişiler bu erişim noktasına bağlanarak Sushh uygulamasını kendi telefonlarına indirebilir.</string>
   <string name="hotspot_button_start_sharing">Erişim noktasını aç</string>
   <string name="hotspot_button_stop_sharing">Erişim noktasını kapat</string>
   <string name="hotspot_progress_text_start">Erişim noktası ayarlanıyor…</string>
   <string name="hotspot_notification_channel_title">Wi-Fi erişim noktası</string>
-  <string name="hotspot_notification_title">Briar çevrim dışı paylaşılıyor</string>
+  <string name="hotspot_notification_title">Sushh çevrim dışı paylaşılıyor</string>
   <string name="hotspot_button_connected">İleri</string>
-  <string name="permission_hotspot_location_request_body">Briar bir Wi-Fi erişim noktası oluşturabilmek için konumunuza erişme iznine gerek duyuyor.\n\nBriar konum bilginizi kaydetmez ve kimseyle paylaşmaz.</string>
-  <string name="permission_hotspot_location_request_precise_body">Briar bir Wi-Fi erişim noktası oluşturabilmek için kesin konumunuza erişme iznine gerek duyuyor.\n\nBriar konum bilginizi kaydetmez ve kimseyle paylaşmaz.</string>
-  <string name="permission_hotspot_location_denied_body">Konumunuza erişme izni vermemişsiniz. Ancak Briar bir Wi-Fi erişim noktası oluşturabilmek için bu izne gerek duyuyor.\n\nLütfen konumunuza erişme izni vermeyi değerlendirin.</string>
-  <string name="permission_hotspot_location_denied_precise_body">Kesin konumunuza erişme izni vermemişsiniz. Ancak Briar bir Wi-Fi erişim noktası oluşturabilmek için bu izne gerek duyuyor.\n\nLütfen konumunuza erişme izni vermeyi değerlendirin.</string>
-  <string name="permission_hotspot_nearby_wifi_request_body">Briar bir Wi-Fi erişim noktası oluşturabilmek için yakınlardaki aygıtlara erişme iznine gerek duyuyor.</string>
-  <string name="permission_hotspot_nearby_wifi_denied_body">Yakınlardaki aygıtlara erişme izni vermemişsiniz. Ancak Briar bir Wi-Fi erişim noktası oluşturabilmek için bu izne gerek duyuyor.\n\nLütfen yakınlardaki aygıtlara erişme izni vermeyi değerlendirin.</string>
+  <string name="permission_hotspot_location_request_body">Sushh bir Wi-Fi erişim noktası oluşturabilmek için konumunuza erişme iznine gerek duyuyor.\n\nSushh konum bilginizi kaydetmez ve kimseyle paylaşmaz.</string>
+  <string name="permission_hotspot_location_request_precise_body">Sushh bir Wi-Fi erişim noktası oluşturabilmek için kesin konumunuza erişme iznine gerek duyuyor.\n\nSushh konum bilginizi kaydetmez ve kimseyle paylaşmaz.</string>
+  <string name="permission_hotspot_location_denied_body">Konumunuza erişme izni vermemişsiniz. Ancak Sushh bir Wi-Fi erişim noktası oluşturabilmek için bu izne gerek duyuyor.\n\nLütfen konumunuza erişme izni vermeyi değerlendirin.</string>
+  <string name="permission_hotspot_location_denied_precise_body">Kesin konumunuza erişme izni vermemişsiniz. Ancak Sushh bir Wi-Fi erişim noktası oluşturabilmek için bu izne gerek duyuyor.\n\nLütfen konumunuza erişme izni vermeyi değerlendirin.</string>
+  <string name="permission_hotspot_nearby_wifi_request_body">Sushh bir Wi-Fi erişim noktası oluşturabilmek için yakınlardaki aygıtlara erişme iznine gerek duyuyor.</string>
+  <string name="permission_hotspot_nearby_wifi_denied_body">Yakınlardaki aygıtlara erişme izni vermemişsiniz. Ancak Sushh bir Wi-Fi erişim noktası oluşturabilmek için bu izne gerek duyuyor.\n\nLütfen yakınlardaki aygıtlara erişme izni vermeyi değerlendirin.</string>
   <string name="wifi_settings_title">Wi-Fi ayarı</string>
-  <string name="wifi_settings_request_enable_body">Briar bir Wi-Fi erişim noktası oluşturabilmek için Wi-Fi kullanmaya gerek duyuyor. Lütfen Wi-Fi özelliğini açın.</string>
+  <string name="wifi_settings_request_enable_body">Sushh bir Wi-Fi erişim noktası oluşturabilmek için Wi-Fi kullanmaya gerek duyuyor. Lütfen Wi-Fi özelliğini açın.</string>
   <string name="hotspot_tab_manual">El ile</string>
   <!--The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s-->
   <string name="hotspot_scanning_a_qr_code">Bir kare kodu tarayarak</string>
   <!--Wi-Fi setup-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_wifi">Telefonunuz bir Wi-Fi erişim noktası sunuyor. Briar uygulamasını indirmek isteyen kişiler, aşağıdaki bilgileri kendi aygıtlarındaki Wi-Fi ayarlarına ekleyerek ya da %s ile bu erişim noktasına bağlanabilirler. Kişiler erişim noktasına bağlandıklarında \'Sonraki\' üzerine basın.</string>
+  <string name="hotspot_manual_wifi">Telefonunuz bir Wi-Fi erişim noktası sunuyor. Sushh uygulamasını indirmek isteyen kişiler, aşağıdaki bilgileri kendi aygıtlarındaki Wi-Fi ayarlarına ekleyerek ya da %s ile bu erişim noktasına bağlanabilirler. Kişiler erişim noktasına bağlandıklarında \'Sonraki\' üzerine basın.</string>
   <string name="hotspot_manual_wifi_ssid">Ağ adı</string>
-  <string name="hotspot_qr_wifi">Telefonunuz bir Wi-Fi erişim noktası sunuyor. Briar indirmek isteyen kişiler bu erişim noktasına kare kodu tarayarak bağlanabilir. Kişiler erişim noktasına bağlandıklarında \'İleri\' üzerine basın.</string>
+  <string name="hotspot_qr_wifi">Telefonunuz bir Wi-Fi erişim noktası sunuyor. Sushh indirmek isteyen kişiler bu erişim noktasına kare kodu tarayarak bağlanabilir. Kişiler erişim noktasına bağlandıklarında \'İleri\' üzerine basın.</string>
   <string name="hotspot_no_peers_connected">Bağlı bir aygıt yok</string>
   <plurals name="hotspot_peers_connected">
     <item quantity="one">%s aygıt bağlı</item>
@@ -801,13 +801,13 @@
   </plurals>
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_site">Telefonunuz bir Wi-Fi erişim noktası sunuyor. Erişim noktasına bağlı kişiler, şu bağlantıyı tarayıcı adres satırına yazarak ya da %s ile Briar uygulamasını indirebilirler. </string>
+  <string name="hotspot_manual_site">Telefonunuz bir Wi-Fi erişim noktası sunuyor. Erişim noktasına bağlı kişiler, şu bağlantıyı tarayıcı adres satırına yazarak ya da %s ile Sushh uygulamasını indirebilirler. </string>
   <string name="hotspot_manual_site_address">Adres (URL)</string>
-  <string name="hotspot_qr_site">Telefonunuz bir Wi-Fi erişim noktası sunuyor. Erişim noktasına bağlı kişiler kare kodu tarayarak Briar uygulamasını indirebilirler. </string>
-  <!--e.g. Download Briar 1.2.20-->
-  <string name="website_download_title_1">Briar indir %s</string>
-  <string name="website_download_intro_1">Yakınlarınızdaki biri sizinle Briar paylaşıyor.</string>
-  <string name="website_download_button">Briar indir</string>
+  <string name="hotspot_qr_site">Telefonunuz bir Wi-Fi erişim noktası sunuyor. Erişim noktasına bağlı kişiler kare kodu tarayarak Sushh uygulamasını indirebilirler. </string>
+  <!--e.g. Download Sushh 1.2.20-->
+  <string name="website_download_title_1">Sushh indir %s</string>
+  <string name="website_download_intro_1">Yakınlarınızdaki biri sizinle Sushh paylaşıyor.</string>
+  <string name="website_download_button">Sushh indir</string>
   <string name="website_download_outro">İndirme tamamlandıktan sonra, indirdiğiniz dosyayı açın ve kurun.</string>
   <string name="website_troubleshooting_title">Sorun çözme</string>
   <string name="website_troubleshooting_1">Uygulamayı indiremiyorsanız, başka bir tarayıcı uygulamasıyla deneyin.</string>
@@ -816,14 +816,14 @@
   <string name="hotspot_help_wifi_title">Wi-Fi ile bağlanma sorunları:</string>
   <string name="hotspot_help_wifi_1">İki telefonda da Wi-Fi özelliğini kapatıp yeniden açın ve yeniden deneyin.</string>
   <string name="hotspot_help_wifi_2">Telefonunuz Wi-Fi bağlantısında İnternet olmadığını söylüyorsa yine de bağlı kalmasını söyleyin.</string>
-  <string name="hotspot_help_wifi_3">Wi-Fi bağlantı noktasını sunan telefonu yeniden başlatın. Ardından Briar uygulamasını başlatın ve yeniden paylaşmayı deneyin.</string>
+  <string name="hotspot_help_wifi_3">Wi-Fi bağlantı noktasını sunan telefonu yeniden başlatın. Ardından Sushh uygulamasını başlatın ve yeniden paylaşmayı deneyin.</string>
   <string name="hotspot_help_site_title">Yerel siteyi ziyaret etme sorunları:</string>
   <string name="hotspot_help_site_1">Adresi tam olarak gösterildiği şekilde yazdığınızdan emin olun. Çok küçük bir hata sorun yaratabilir.</string>
   <string name="hotspot_help_site_2">Siteye erişmeye çalışırken telefonunuzun doğru Wi-Fi ağına bağlı olduğundan emin olun (yukarıya bakın).</string>
   <string name="hotspot_help_site_3">Bir güvenlik duvarı uygulamanız varsa, erişimi engellemediğinden emin olun.</string>
-  <string name="hotspot_help_site_4">Siteyi ziyaret edebiliyor ama Briar uygulamasını indiremiyorsanız, başka bir tarayıcı deneyin.</string>
+  <string name="hotspot_help_site_4">Siteyi ziyaret edebiliyor ama Sushh uygulamasını indiremiyorsanız, başka bir tarayıcı deneyin.</string>
   <string name="hotspot_help_fallback_title">Hiç bir şey işe yaramıyor mu?</string>
-  <string name="hotspot_help_fallback_intro">Uygulamayı, başka bir şekilde paylaşmak için .apk olarak kaydetmeyi deneyebilirsiniz. Dosya diğer aygıta aktarıldığında, Briar uygulamasını kurmak için kullanılabilir.
+  <string name="hotspot_help_fallback_intro">Uygulamayı, başka bir şekilde paylaşmak için .apk olarak kaydetmeyi deneyebilirsiniz. Dosya diğer aygıta aktarıldığında, Sushh uygulamasını kurmak için kullanılabilir.
 		\n\nİpucu: Bluetooth üzerinden paylaşmak için, aktarmadan önce dosya uzantısını .zip olarak değiştirmeniz gerekebilir.</string>
   <string name="hotspot_help_fallback_button">Uygulamayı kaydet</string>
   <!--error handling-->
@@ -833,18 +833,18 @@
   <string name="hotspot_error_start_callback_failed_unknown">Erişim noktası bilinmeyen bir sorunla başlatılamadı. Nedeni %d</string>
   <string name="hotspot_error_start_callback_no_group_info">Erişim noktası başlatılamadı: Grup bilgisi yok</string>
   <string name="hotspot_error_web_server_start">Site sunucusu başlatılırken sorun çıktı</string>
-  <string name="hotspot_error_web_server_serve">Site görüntülenirken sorun çıktı.\n\n Sorun sürerse, Briar uygulaması üzerinden (anonim olarak) bize bildirin.</string>
+  <string name="hotspot_error_web_server_serve">Site görüntülenirken sorun çıktı.\n\n Sorun sürerse, Sushh uygulaması üzerinden (anonim olarak) bize bildirin.</string>
   <string name="hotspot_flag_test">Uyarı: Bu uygulama Android Studio ile kurulduğu için başka bir aygıta kurulamaz.</string>
   <string name="hotspot_error_framework_busy">Erişim noktası başlatılamadı.\n\nBaşka bir erişim noktası çalışıyorsa veya İnternet bağlantınızı Wi-Fi üzerinden paylaşıyorsanız, lütfen paylaşımı durdurduktan sonra yeniden deneyin.</string>
   <!--Transfer Data via Removable Drives-->
   <string name="removable_drive_menu_title">Çıkarılabilir sürücü ile bağlan</string>
-  <string name="removable_drive_intro">İnternet, Wi-Fi veya Bluetooth ile bağlantı kuramıyorsanız, Briar iletileri USB bellek veya SD kart gibi bir çıkarılabilir bir sürücüyle de aktarabilir.</string>
-  <string name="removable_drive_explanation">İnternet, Wi-Fi veya Bluetooth ile bağlantı kuramıyorsanız, Briar iletileri USB bellek veya SD kart gibi çıkarılabilir bir sürücüyle de aktarabilir.\n\n\"Verileri gönder\" düğmesini kullandığınızda, kişilere gönderilmeyi bekleyen veriler çıkarılabilir sürücüye yazılır. Bu verilerde, özel iletiler, ek dosyalar, günlükler, forumlar ve özel gruplar bulunur.\n\nÇıkarılabilir sürücüye kaydedilmeden önce her şey şifrelenir.\n\nKişiler çıkarılabilir sürücüyü aldığında, \"Verileri al\" düğmesini kullanarak iletileri Briar üzerine aktarabilir.</string>
+  <string name="removable_drive_intro">İnternet, Wi-Fi veya Bluetooth ile bağlantı kuramıyorsanız, Sushh iletileri USB bellek veya SD kart gibi bir çıkarılabilir bir sürücüyle de aktarabilir.</string>
+  <string name="removable_drive_explanation">İnternet, Wi-Fi veya Bluetooth ile bağlantı kuramıyorsanız, Sushh iletileri USB bellek veya SD kart gibi çıkarılabilir bir sürücüyle de aktarabilir.\n\n\"Verileri gönder\" düğmesini kullandığınızda, kişilere gönderilmeyi bekleyen veriler çıkarılabilir sürücüye yazılır. Bu verilerde, özel iletiler, ek dosyalar, günlükler, forumlar ve özel gruplar bulunur.\n\nÇıkarılabilir sürücüye kaydedilmeden önce her şey şifrelenir.\n\nKişiler çıkarılabilir sürücüyü aldığında, \"Verileri al\" düğmesini kullanarak iletileri Sushh üzerine aktarabilir.</string>
   <string name="removable_drive_title_send">Verileri gönder</string>
   <string name="removable_drive_title_receive">Verileri al</string>
   <string name="removable_drive_send_intro">Şifrelenmiş iletilerin bulunduğu yeni bir dosya oluşturmak için aşağıdaki düğmeye dokunun. Dosyanın kaydedileceği yeri seçebilirsiniz.\n\nÇıkarılabilir bir sürücü kullanmak istiyorsanız, sürücüyü şimdi takın.</string>
   <string name="removable_drive_send_no_data">Şu anda bu kişiye gönderilmeyi bekleyen bir ileti yok.</string>
-  <string name="removable_drive_send_not_supported">Bu kişi, bu özelliği desteklemeyen eski bir Briar sürümü veya eski bir aygıt kullanıyor.</string>
+  <string name="removable_drive_send_not_supported">Bu kişi, bu özelliği desteklemeyen eski bir Sushh sürümü veya eski bir aygıt kullanıyor.</string>
   <string name="removable_drive_send_button">Dışa aktarılacak dosyayı seçin</string>
   <string name="removable_drive_ongoing">Lütfen sürmekte olan işlemin bitmesini bekleyin</string>
   <string name="removable_drive_receive_intro">Kişinin size gönderdiği dosyayı seçmek için aşağıdaki düğmeye dokunun.\n\nDosya çıkarılabilir bir sürücüde bulunuyorsa, sürücüyü şimdi takın.</string>
@@ -854,9 +854,9 @@
   <string name="removable_drive_success_receive_title">İçe aktarma tamamlandı</string>
   <string name="removable_drive_success_receive_text">Bu dosyada bulunan tüm şifrelenmiş iletiler alındı.</string>
   <string name="removable_drive_error_send_title">Veriler dışa aktarılırken sorun çıktı</string>
-  <string name="removable_drive_error_send_text">Veriler dosyaya yazılırken bir sorun çıktı.\n\nÇıkarılabilir bir sürücü kullanıyorsanız, doğru şekilde takıldığından emin olun ve yeniden deneyin.\n\nSorun sürerse, bu sorunu Briar ekibine bildirin.</string>
+  <string name="removable_drive_error_send_text">Veriler dosyaya yazılırken bir sorun çıktı.\n\nÇıkarılabilir bir sürücü kullanıyorsanız, doğru şekilde takıldığından emin olun ve yeniden deneyin.\n\nSorun sürerse, bu sorunu Sushh ekibine bildirin.</string>
   <string name="removable_drive_error_receive_title">Veriler içe aktarılırken sorun çıktı</string>
-  <string name="removable_drive_error_receive_text">Seçilmiş olan dosyada Briar tarafından tanınabilecek bir şey bulunamadı.\n\nLütfen doğru dosyayı seçtiğinizden emin olun.\n\nKişiniz dosyayı 28 günden önce oluşturduysa, Briar onu tanıyamayabilir.</string>
+  <string name="removable_drive_error_receive_text">Seçilmiş olan dosyada Sushh tarafından tanınabilecek bir şey bulunamadı.\n\nLütfen doğru dosyayı seçtiğinizden emin olun.\n\nKişiniz dosyayı 28 günden önce oluşturduysa, Sushh onu tanıyamayabilir.</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">Alice</string>
@@ -867,7 +867,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Selam Bob!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Selam Alice! Bana Briar uygulamasını anlattığın için teşekkürler!</string>
+  <string name="screenshot_message_2">Selam Alice! Bana Sushh uygulamasını anlattığın için teşekkürler!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Sorun değil, umarım beğenirsin 😀</string>
 </resources>
