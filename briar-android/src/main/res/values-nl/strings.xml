@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<!--Setup-->
-	<string name="setup_title">Welkom bij Briar</string>
+	<string name="setup_title">Welkom bij Sushh</string>
 	<string name="setup_name_explanation">Je bijnaam wordt getoond bij alle content die je post. Nadat je account is aangemaakt is het niet mogelijk je bijnaam te wijzigen.</string>
 	<string name="setup_next">Volgende</string>
 	<string name="setup_password_intro">Kies een wachtwoord</string>
-	<string name="setup_password_explanation">Je Briar-account is versleuteld opgeslagen op je apparaat, niet in de cloud. Als je je wachtzin vergeet of Briar deïnstalleert is er geen manier om je account te herstellen.\n\nKies een lang wachtwoord die moeilijk is om te raden, bijvoorbeeld vier willekeurige woorden of tien willekeurige letters, cijfers en symbolen.</string>
+	<string name="setup_password_explanation">Je Sushh-account is versleuteld opgeslagen op je apparaat, niet in de cloud. Als je je wachtzin vergeet of Sushh deïnstalleert is er geen manier om je account te herstellen.\n\nKies een lang wachtwoord die moeilijk is om te raden, bijvoorbeeld vier willekeurige woorden of tien willekeurige letters, cijfers en symbolen.</string>
 	<string name="dnkm_doze_title">Achtergrondverbindingen</string>
-	<string name="dnkm_doze_intro">Om berichten te ontvangen dient Briar in de achtergrond verbonden te blijven.</string>
-	<string name="dnkm_doze_explanation">Briar moet in de achtergrond verbonden blijven om berichten te ontvangen. Schakel batterij-optimalisaties alsjeblieft uit zodat Briar verbonden kan blijven.</string>
+	<string name="dnkm_doze_intro">Om berichten te ontvangen dient Sushh in de achtergrond verbonden te blijven.</string>
+	<string name="dnkm_doze_explanation">Sushh moet in de achtergrond verbonden blijven om berichten te ontvangen. Schakel batterij-optimalisaties alsjeblieft uit zodat Sushh verbonden kan blijven.</string>
 	<string name="dnkm_doze_button">Sta verbindingen toe</string>
 	<string name="choose_nickname">Kies een bijnaam</string>
 	<string name="choose_password">Kies een wachtwoord</string>
@@ -19,27 +19,27 @@
 	<string name="create_account_button">Maak account aan</string>
 	<string name="more_info">Meer informatie</string>
 	<string name="don_t_ask_again">Vraag niet nog een keer</string>
-	<string name="dnkm_huawei_protected_text">Tik alsjeblieft op de knop hieronder en ga nadat Briar is beschermd naar het scherm \"Beveiligde apps\".</string>
-	<string name="dnkm_huawei_protected_button">Bescherm Briar</string>
-	<string name="dnkm_huawei_protected_help">Als Briar niet is toegevoegd aan de beschermde apps, is het niet mogelijk om het in de achtergrond uit te voeren.</string>
-	<string name="dnkm_xiaomi_button">Bescherm Briar</string>
+	<string name="dnkm_huawei_protected_text">Tik alsjeblieft op de knop hieronder en ga nadat Sushh is beschermd naar het scherm \"Beveiligde apps\".</string>
+	<string name="dnkm_huawei_protected_button">Bescherm Sushh</string>
+	<string name="dnkm_huawei_protected_help">Als Sushh niet is toegevoegd aan de beschermde apps, is het niet mogelijk om het in de achtergrond uit te voeren.</string>
+	<string name="dnkm_xiaomi_button">Bescherm Sushh</string>
 	<string name="dnkm_warning_dozed">%s kon niet in de achtergrond worden uitgevoerd</string>
 	<!--Login-->
 	<string name="enter_password">Wachtwoord</string>
 	<string name="try_again">Verkeerd wachtwoord, probeer het nog een keer</string>
 	<string name="dialog_title_cannot_check_password">Kan wachtwoord niet controleren</string>
-	<string name="dialog_message_cannot_check_password">Briar kan je wachtwoord niet controleren. Start je apparaat opnieuw op en probeer het nog eens.</string>
+	<string name="dialog_message_cannot_check_password">Sushh kan je wachtwoord niet controleren. Start je apparaat opnieuw op en probeer het nog eens.</string>
 	<string name="sign_in_button">Log in</string>
 	<string name="forgotten_password">Ik ben mijn wachtwoord vergeten</string>
   <string name="dialog_title_lost_password">Wachtwoord vergeten</string>
-  <string name="dialog_message_lost_password">Je Briar-account is versleuteld opgeslagen op je apparaat, niet in de cloud, dus kunnen we je wachtwoord niet herstellen. Wil je je account verwijderen en opnieuw beginnen?\n\nLet op: Je identiteiten, contacten en berichten zullen permanent verloren gaan.</string>
-  <string name="startup_failed_activity_title">Opstarten Briar mislukt</string>
+  <string name="dialog_message_lost_password">Je Sushh-account is versleuteld opgeslagen op je apparaat, niet in de cloud, dus kunnen we je wachtwoord niet herstellen. Wil je je account verwijderen en opnieuw beginnen?\n\nLet op: Je identiteiten, contacten en berichten zullen permanent verloren gaan.</string>
+  <string name="startup_failed_activity_title">Opstarten Sushh mislukt</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Dit is een testversie van Briar. Je account verloopt binnen %d dag en kan niet worden vernieuwd.</item>
-    <item quantity="other">Dit is een testversie van Briar. Je account verloopt binnen %d dagen en kan niet worden vernieuwd.</item>
+    <item quantity="one">Dit is een testversie van Sushh. Je account verloopt binnen %d dag en kan niet worden vernieuwd.</item>
+    <item quantity="other">Dit is een testversie van Sushh. Je account verloopt binnen %d dagen en kan niet worden vernieuwd.</item>
   </plurals>
   <string name="expiry_date_reached">Deze software is verlopen.\nBedankt vor het testen!</string>
-  <string name="download_briar">Download de laatste versie om Briar te kunnen blijven gebruiken.</string>
+  <string name="download_briar">Download de laatste versie om Sushh te kunnen blijven gebruiken.</string>
   <string name="create_new_account">Je moet een nieuw account aanmaken. Je kan dezelfde bijnaam gebruiken.</string>
   <string name="download_briar_button">Download de laatste versie</string>
   <string name="delete_account_button">Verwijder account</string>
@@ -57,43 +57,43 @@
   <string name="lock_button">App vergrendelen</string>
   <string name="settings_button">Instellingen</string>
   <string name="sign_out_button">Log uit</string>
-  <string name="transports_onboarding_text">Tik hier om in te stellen hoe Briar een verbinding met je contacten opzet.</string>
+  <string name="transports_onboarding_text">Tik hier om in te stellen hoe Sushh een verbinding met je contacten opzet.</string>
   <!--Transports: Tor-->
   <string name="transport_tor">Internet</string>
   <string name="tor_device_status_online_wifi">Je apparaat heeft internettoegang via wifi</string>
   <string name="tor_device_status_online_mobile">Je apparaat heeft internettoegang via mobiele dataverbinding</string>
   <string name="tor_device_status_offline">Je apparaat heeft geen internettoegang</string>
-  <string name="tor_plugin_status_enabling">Briar is aan het verbinden met internet</string>
-  <string name="tor_plugin_status_active">Briar is verbonden met het internet</string>
-  <string name="tor_plugin_status_inactive">Briar kan geen verbinding maken met het internet</string>
-  <string name="tor_plugin_status_disabled">Briar is geconfigureerd om internet niet te gebruiken</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briar is geconfigureerd om mobiele dataverbinding niet te gebruiken</string>
-  <string name="tor_plugin_status_disabled_battery">Briar is geconfigureerd om het internet niet te gebruiken als apparaat op baterij loopt</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briar is geconfigureerd om internet niet te gebruiken in dit land</string>
+  <string name="tor_plugin_status_enabling">Sushh is aan het verbinden met internet</string>
+  <string name="tor_plugin_status_active">Sushh is verbonden met het internet</string>
+  <string name="tor_plugin_status_inactive">Sushh kan geen verbinding maken met het internet</string>
+  <string name="tor_plugin_status_disabled">Sushh is geconfigureerd om internet niet te gebruiken</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushh is geconfigureerd om mobiele dataverbinding niet te gebruiken</string>
+  <string name="tor_plugin_status_disabled_battery">Sushh is geconfigureerd om het internet niet te gebruiken als apparaat op baterij loopt</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushh is geconfigureerd om internet niet te gebruiken in dit land</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Wifi</string>
   <string name="transport_lan_long">Hetzelfde wifinetwerk</string>
   <string name="lan_device_status_on">Je apparaat is verbonden met wifi</string>
   <string name="lan_device_status_off">Je apparaat is niet verbonden met wifi</string>
-  <string name="lan_plugin_status_enabling">Briar is verbinding aan het maken met het wifinetwerk</string>
-  <string name="lan_plugin_status_active">Briar is verbonden met het wifinetwerk</string>
-  <string name="lan_plugin_status_inactive">Briar kan geen verbinding maken met het wifinetwerk</string>
-  <string name="lan_plugin_status_disabled">Briar is geconfigureerd om het wifinetwerk niet te gebruiken</string>
+  <string name="lan_plugin_status_enabling">Sushh is verbinding aan het maken met het wifinetwerk</string>
+  <string name="lan_plugin_status_active">Sushh is verbonden met het wifinetwerk</string>
+  <string name="lan_plugin_status_inactive">Sushh kan geen verbinding maken met het wifinetwerk</string>
+  <string name="lan_plugin_status_disabled">Sushh is geconfigureerd om het wifinetwerk niet te gebruiken</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">Bluetooth op je apparaat staat aan</string>
   <string name="bt_device_status_off">Bluetooth op je apparaat staat uit</string>
-  <string name="bt_plugin_status_enabling">Briar is aan het verbinden met bluetooth</string>
-  <string name="bt_plugin_status_active">Briar is verbonden met bluetooth</string>
-  <string name="bt_plugin_status_inactive">Briar kan geen verbinding maken met bluetooth</string>
-  <string name="bt_plugin_status_disabled">Briar is geconfigureerd om bluetooth niet te gebruiken</string>
+  <string name="bt_plugin_status_enabling">Sushh is aan het verbinden met bluetooth</string>
+  <string name="bt_plugin_status_active">Sushh is verbonden met bluetooth</string>
+  <string name="bt_plugin_status_inactive">Sushh kan geen verbinding maken met bluetooth</string>
+  <string name="bt_plugin_status_disabled">Sushh is geconfigureerd om bluetooth niet te gebruiken</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Uitgelogd van Briar</string>
+  <string name="reminder_notification_title">Uitgelogd van Sushh</string>
   <string name="reminder_notification_text">Tik om opnieuw in te loggen.</string>
-  <string name="reminder_notification_channel_title">Briar inlogherinnering</string>
+  <string name="reminder_notification_channel_title">Sushh inlogherinnering</string>
   <string name="reminder_notification_dismiss">Afwijzen</string>
-  <string name="ongoing_notification_title">Ingelogd op Briar</string>
-  <string name="ongoing_notification_text">Raak aan om Briar te openen.</string>
+  <string name="ongoing_notification_title">Ingelogd op Sushh</string>
+  <string name="ongoing_notification_text">Raak aan om Sushh te openen.</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Nieuwe privéberichten.</item>
     <item quantity="other">%d nieuwe privéberichten.</item>
@@ -177,7 +177,7 @@
   <string name="save_image_success">Afbeelding was opgeslagen</string>
   <string name="save_image_error">Kon afbeelding niet opslaan</string>
   <string name="dialog_title_no_image_support">Afbeeldingen niet beschikbaar</string>
-  <string name="dialog_message_no_image_support">Briar van jouw contact ondersteunt nog geen afbeeldingen als bijlagen. Zodat zij upgraden zul je een ander icoon zien.</string>
+  <string name="dialog_message_no_image_support">Sushh van jouw contact ondersteunt nog geen afbeeldingen als bijlagen. Zodat zij upgraden zul je een ander icoon zien.</string>
   <string name="dialog_title_image_support">Je kan nu afbeeldingen naar dit contact sturen</string>
   <string name="dialog_message_image_support">Tik op dit icoon om afbeelding bij te sluiten.</string>
   <string name="messaging_too_many_attachments_toast">Alleen de eerste %d afbeeldingen worden verstuurd</string>
@@ -214,7 +214,7 @@
   <string name="add_contact_choose_a_nickname">Voer bijnaam in</string>
   <string name="nickname_intro">Geef je contact een bijnaam. Alleen jij dat dit zien.</string>
   <string name="your_link">Geef deze link aan de contact die je toe wil voegen</string>
-  <string name="link_clip_label">Briar-link</string>
+  <string name="link_clip_label">Sushh-link</string>
   <string name="link_copied_toast">Link is gekopieerd</string>
   <string name="adding_contact_error">Er was een probleem met toevoegen van het contact.</string>
   <string name="pending_contact_requests_snackbar">Er zijn geen wachtende contactverzoeken</string>
@@ -229,7 +229,7 @@
   <string name="own_link_error">Voer de link van je contact in, niet je eigenste</string>
   <string name="nickname_missing">Voer a.u.b. een bijnaam in</string>
   <string name="invalid_link">Ongeldige link</string>
-  <string name="unsupported_link">Deze link komt van een nieuwe versie van Briar. Upgrade alsjeblieft naar de laatste versie en probeer het nog eens.</string>
+  <string name="unsupported_link">Deze link komt van een nieuwe versie van Sushh. Upgrade alsjeblieft naar de laatste versie en probeer het nog eens.</string>
   <string name="intent_own_link">Je hebt je eigen link geopend. Gebruik de link van jouw contact die je wil toevoegen!</string>
   <string name="missing_link">Voeg a.u.b. link in</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -256,7 +256,7 @@
   <string name="pending_contact_updated_toast">Wachtend contact is bijgewerkt</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Introduceer je contacten</string>
-  <string name="introduction_onboarding_text">Je kan je contacten aan elkaar introduceren zodat ze niet in levenden lijve elkaar te hoeven ontmoeten om op Briar in contact te komen.</string>
+  <string name="introduction_onboarding_text">Je kan je contacten aan elkaar introduceren zodat ze niet in levenden lijve elkaar te hoeven ontmoeten om op Sushh in contact te komen.</string>
   <string name="introduction_menu_item">Introduceer</string>
   <string name="introduction_activity_title">Selecteer contact</string>
   <string name="introduction_not_possible">Je bent al met een introductie bezig met deze contacten. Laat dit alsjeblieft eerst voltooien. Als jij of je contact weinig online zijn, kan dit even duren.</string>
@@ -434,7 +434,7 @@
   <string name="change_profile_picture_failed_message">Excuses, maar er is iets misgegaan met het updaten van je profielfoto</string>
   <!--Settings Display-->
   <string name="pref_language_title">Taal &amp; regio</string>
-  <string name="pref_language_changed">Deze instelling zal werken wanneer u Briar opnieuw opstart. Gelieve uit te loggen en Briar opnieuw te starten.</string>
+  <string name="pref_language_changed">Deze instelling zal werken wanneer u Sushh opnieuw opstart. Gelieve uit te loggen en Sushh opnieuw te starten.</string>
   <string name="pref_language_default">Systeemstandaard</string>
   <string name="display_settings_title">Weergeven</string>
   <string name="pref_theme_title">Thema</string>
@@ -453,7 +453,7 @@
   <string name="tor_network_setting_without_bridges">Gebruikt Tornetwerk zonder bridges</string>
   <string name="tor_network_setting_with_bridges">Gebruik Tornetwerk met bridges</string>
   <string name="tor_network_setting_never">Verbind niet met het internet</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Automatisch: %1$s (in %2$s)</string>
   <string name="tor_mobile_data_title">Gebruik mobiele data</string>
   <string name="tor_only_when_charging_title">Verbind alleen met het internet tijdens opladen</string>
@@ -461,11 +461,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Beveiliging</string>
   <string name="pref_lock_title">App-vergrendeling</string>
-  <string name="pref_lock_summary">Gebruik de schermvergrendeling van het apparaat om Briar te beschermen terwijl je bent ingelogd</string>
+  <string name="pref_lock_summary">Gebruik de schermvergrendeling van het apparaat om Sushh te beschermen terwijl je bent ingelogd</string>
   <string name="pref_lock_disabled_summary">Stel een schermvergrendeling in op je apparaat om deze feature te gebruiken</string>
   <string name="pref_lock_timeout_title">App-vergrendeling inactiviteitstime-out</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Als Briar niet wordt gebruikt, vergrendel automatisch na %s</string>
+  <string name="pref_lock_timeout_summary">Als Sushh niet wordt gebruikt, vergrendel automatisch na %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 minuut</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -477,7 +477,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 uur</string>
   <string name="pref_lock_timeout_never">Nooit</string>
-  <string name="pref_lock_timeout_never_summary">Vergrendel Briar nooit automatisch</string>
+  <string name="pref_lock_timeout_never_summary">Vergrendel Sushh nooit automatisch</string>
   <string name="change_password">Wijzig wachtwoord</string>
   <string name="current_password">Huidig wachtwoord</string>
   <string name="choose_new_password">Nieuw wachtwoord</string>
@@ -485,7 +485,7 @@
   <string name="password_changed">Wachtwoord is gewijzigd</string>
   <string name="panic_setting">Paniekknopinstellingen</string>
   <string name="panic_setting_title">Paniekknop</string>
-  <string name="panic_setting_hint">Configureer hoe Briar reageert als je  paniekknopapp gebruikt.</string>
+  <string name="panic_setting_hint">Configureer hoe Sushh reageert als je  paniekknopapp gebruikt.</string>
   <string name="panic_app_setting_title">Paniekknopapp</string>
   <string name="unknown_app">een onbekende app</string>
   <string name="panic_app_setting_summary">Er is geen app ingesteld</string>
@@ -494,9 +494,9 @@
   <string name="dialog_message_connect_panic_app">Weet je zeker dat je wil toestaan dat %1$s vernietigende paniekknopacties mag veroorzaken?</string>
   <string name="panic_setting_destructive_action">Vernietigende acties</string>
   <string name="panic_setting_signout_title">Log uit</string>
-  <string name="panic_setting_signout_summary">Log uit op Briar als de paniekknop wordt ingedrukt.</string>
+  <string name="panic_setting_signout_summary">Log uit op Sushh als de paniekknop wordt ingedrukt.</string>
   <string name="purge_setting_title">Verwijder account</string>
-  <string name="purge_setting_summary">Verwijder je Briar-account als een paniekknop wordt ingedrukt. Let op: dit zal permanent je identiteit, contacten en berichten verwijderen.</string>
+  <string name="purge_setting_summary">Verwijder je Sushh-account als een paniekknop wordt ingedrukt. Let op: dit zal permanent je identiteit, contacten en berichten verwijderen.</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Meldingen</string>
   <string name="notify_sign_in_title">Herinner me om in te loggen</string>
@@ -530,9 +530,9 @@
   <string name="link_warning_text">Dit kan worden gebruikt om je te identificeren. Denk goed na of je de persoon die je deze link heeft gestuurd wil vertrouwen en overweeg om deze te openen met een Tor-browser.</string>
   <string name="link_warning_open_link">Open link</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar Crashrapport</string>
+  <string name="crash_report_title">Sushh Crashrapport</string>
   <string name="not_your_fault">Dit is niet jouw schuld</string>
-  <string name="please_send_report">Help ons alsjeblieft om Briar te verbeteren door crashrapporten naar ons te sturen.</string>
+  <string name="please_send_report">Help ons alsjeblieft om Sushh te verbeteren door crashrapporten naar ons te sturen.</string>
   <string name="report_is_encrypted">We beloven dat het rapport is versleuteld en veilig wordt verzonden.</string>
   <string name="feedback_title">Feedback</string>
   <string name="describe_crash">Beschrijf wat er is gebeurd (optioneel)</string>
@@ -554,36 +554,36 @@
   <string name="close">Sluit</string>
   <string name="dev_report_sending">Verstuur Feedback...</string>
   <string name="dev_report_sent">Feedback is verzonden</string>
-  <string name="dev_report_saved">Rapport is opgeslagen. Het zal worden verstuurd als je de volgende keer inlogt op Briar </string>
+  <string name="dev_report_saved">Rapport is opgeslagen. Het zal worden verstuurd als je de volgende keer inlogt op Sushh </string>
   <string name="dev_report_error">Fout: Verzenden van rapport is gefaald</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Uitloggen bij Briar…</string>
+  <string name="progress_title_logout">Uitloggen bij Sushh…</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Schermoverlay is gedetecteerd</string>
-  <string name="screen_filter_body">Een andere app tekent bovenop Briar. Om je veiligheid te beschermen zal Briar niet reageren op aanrakingen als er een andere app bovenop ligt.\n\nDe volgende apps proberen waarschijnlijk dit te doen:\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">Een andere app wordt voor Briar getoond. Voor veiligheidsredenen zal Briar niet reageren op input als er een andere app voor wordt getoond.\n\nHerzie de apps hieronder om de verantwoordelijke app te vinden.</string>
+  <string name="screen_filter_body">Een andere app tekent bovenop Sushh. Om je veiligheid te beschermen zal Sushh niet reageren op aanrakingen als er een andere app bovenop ligt.\n\nDe volgende apps proberen waarschijnlijk dit te doen:\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">Een andere app wordt voor Sushh getoond. Voor veiligheidsredenen zal Sushh niet reageren op input als er een andere app voor wordt getoond.\n\nHerzie de apps hieronder om de verantwoordelijke app te vinden.</string>
   <string name="screen_filter_allow">Sta toe dat deze apps weergeven vóór andere apps.</string>
   <string name="screen_filter_review_apps">Herzie apps</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Cameratoestemming</string>
-  <string name="permission_camera_request_body">Om de QR-code te scannen moet Briar toegang hebben tot de camera.</string>
+  <string name="permission_camera_request_body">Om de QR-code te scannen moet Sushh toegang hebben tot de camera.</string>
   <string name="permission_location_title">Toegang tot locatie</string>
-  <string name="permission_location_request_body">Om bluetoothapparaten te ontdekken heeft Briar toestemming nodig tot je locatie.\n\nBriar slaat je locatie niet op en deelt het met niemand.</string>
+  <string name="permission_location_request_body">Om bluetoothapparaten te ontdekken heeft Sushh toestemming nodig tot je locatie.\n\nSushh slaat je locatie niet op en deelt het met niemand.</string>
   <string name="permission_camera_location_title">Camera en locatie</string>
-  <string name="permission_camera_location_request_body">Om de QR-code in te scannen heeft Briar toegang nodig tot de camera.\n\nOm bluetoothapparaten te ontdekken heeft Briar toestemming nodig tot je locatie.\n\nBriar slaat je locatie niet op en deelt het met niemand.</string>
+  <string name="permission_camera_location_request_body">Om de QR-code in te scannen heeft Sushh toegang nodig tot de camera.\n\nOm bluetoothapparaten te ontdekken heeft Sushh toestemming nodig tot je locatie.\n\nSushh slaat je locatie niet op en deelt het met niemand.</string>
   <string name="permission_camera_denied_body">Je hebt toegang tot de camera niet vrijgegeven, terwijl het toevoegen van contacten de camera nodig heeft.\n\nOverweeg alsjeblieft toegang vrij te geven.</string>
-  <string name="permission_location_denied_body">Je hebt geen toegang tot je locatie gegeven, maar Briar heeft deze rechten nodig om apparaten via bluetooth te vinden.\n\nOverweeg a.u.b. deze rechten te geven.</string>
+  <string name="permission_location_denied_body">Je hebt geen toegang tot je locatie gegeven, maar Sushh heeft deze rechten nodig om apparaten via bluetooth te vinden.\n\nOverweeg a.u.b. deze rechten te geven.</string>
   <string name="qr_code">QR-code</string>
   <string name="show_qr_code_fullscreen">Toon QR-code op volledig scherm</string>
   <!--App Locking-->
-  <string name="lock_unlock">Ontgrendel Briar</string>
-  <string name="lock_unlock_verbose">Voer je apparaat PIN, patroon of wachtwoord in om Briar te ontgrendelen</string>
+  <string name="lock_unlock">Ontgrendel Sushh</string>
+  <string name="lock_unlock_verbose">Voer je apparaat PIN, patroon of wachtwoord in om Sushh te ontgrendelen</string>
   <string name="lock_unlock_fingerprint_description">Raak met de geregistreerde vinger de vingerafdrukscanner aan om door te gaan</string>
   <string name="lock_unlock_password">Gebruik Wachtwoord</string>
-  <string name="lock_is_locked">Briar is vergrendeld</string>
+  <string name="lock_is_locked">Sushh is vergrendeld</string>
   <string name="lock_tap_to_unlock">Tik om te ontgrendelen</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar kan met je contacten verbinden via het internet, wifi of bluetooth.\n\nAlle internetverbindingen gaan voor privacy door het Tornetwerk.\n\nAls een contact via meerdere methoden te bereiken is, zal Briar die parallel gebruiken.</string>
+  <string name="transports_help_text">Sushh kan met je contacten verbinden via het internet, wifi of bluetooth.\n\nAlle internetverbindingen gaan voor privacy door het Tornetwerk.\n\nAls een contact via meerdere methoden te bereiken is, zal Sushh die parallel gebruiken.</string>
   <!--Share app offline-->
   <string name="hotspot_notification_channel_title">Wifi-hotspot</string>
   <string name="hotspot_button_connected">Volgende</string>
@@ -593,7 +593,7 @@
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <!--e.g. Download Briar 1.2.20-->
+  <!--e.g. Download Sushh 1.2.20-->
   <string name="website_troubleshooting_title">Probleem oplossen</string>
   <!--error handling-->
   <!--Transfer Data via Removable Drives-->
@@ -608,7 +608,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Hoi Soem!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Hoi Veerle! Bedankt dat je me Briar hebt laten zien!</string>
+  <string name="screenshot_message_2">Hoi Veerle! Bedankt dat je me Sushh hebt laten zien!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Geen probleem, ik hoop dat je het handig vindt! 😀</string>
 </resources>
