@@ -16,4 +16,10 @@ public interface GroupMemberListController extends DbController {
 	void appointAdmin(GroupId groupId, Author admin,
 			ResultExceptionHandler<Void, DbException> handler);
 
+	void removeAdmin(GroupId groupId, Author admin,
+			ResultExceptionHandler<Void, DbException> handler);
+
+	void removeMember(GroupId groupId, Author member,
+			ResultExceptionHandler<Void, DbException> handler);
+
 }

@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import org.briarproject.briar.R;
 import org.briarproject.briar.android.threaded.BaseThreadItemViewHolder;
 import org.briarproject.briar.android.threaded.ThreadItemAdapter;
-import org.briarproject.briar.android.threaded.ThreadPostViewHolder;
 import org.briarproject.nullsafety.NotNullByDefault;
 
 import androidx.annotation.LayoutRes;
@@ -18,6 +17,7 @@ import androidx.annotation.UiThread;
 class GroupMessageAdapter extends ThreadItemAdapter<GroupMessageItem> {
 
 	private boolean isCreator = false;
+	private boolean isAdmin = false;
 
 	GroupMessageAdapter(ThreadItemListener<GroupMessageItem> listener) {
 		super(listener);
@@ -38,11 +38,16 @@ class GroupMessageAdapter extends ThreadItemAdapter<GroupMessageItem> {
 		if (type == R.layout.list_item_group_join_notice) {
 			return new JoinMessageItemViewHolder(v, isCreator);
 		}
-		return new ThreadPostViewHolder<>(v);
+		return new GroupMessageItemViewHolder(v, isAdmin);
 	}
 
 	void setIsCreator(boolean isCreator) {
 		this.isCreator = isCreator;
+		notifyDataSetChanged();
+	}
+
+	void setIsAdmin(boolean isAdmin) {
+		this.isAdmin = isAdmin;
 		notifyDataSetChanged();
 	}
 

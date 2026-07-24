@@ -4,6 +4,14 @@
 	xmlns:tools="http://schemas.android.com/tools">
 
 	<item
+		android:id="@+id/action_channel_share_image"
+		android:icon="@drawable/ic_image"
+		android:title="@string/channels_share_image"
+		android:visible="false"
+		app:showAsAction="ifRoom"
+		tools:visible="true" />
+
+	<item
 		android:id="@+id/action_group_invite"
 		android:icon="@drawable/ic_add_white"
 		android:title="@string/groups_invite_members"

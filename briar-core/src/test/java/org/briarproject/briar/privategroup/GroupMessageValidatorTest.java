@@ -659,7 +659,7 @@ public class GroupMessageValidatorTest extends ValidatorTestCase {
 
 	@Test(expected = InvalidMessageException.class)
 	public void testRejectsMessageWithUnknownType() throws Exception {
-		BdfList body = BdfList.of(MessageType.ADMIN.getInt() + 1, memberList,
+		BdfList body = BdfList.of(MessageType.PIN.getInt() + 1, memberList,
 				parentId, previousMsgId, text, memberSignature);
 		validator.validateMessage(message, group, body);
 	}

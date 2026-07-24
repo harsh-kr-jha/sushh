@@ -1,10 +1,14 @@
 package org.briarproject.briar.android.privategroup.conversation;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
@@ -24,11 +28,14 @@ import org.briarproject.nullsafety.ParametersNotNullByDefault;
 import javax.annotation.Nullable;
 import javax.inject.Inject;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts.GetContent;
 import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.ViewModelProvider;
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
+import static android.content.DialogInterface.BUTTON_POSITIVE;
 import static org.briarproject.briar.android.activity.RequestCodes.REQUEST_GROUP_INVITE;
 import static org.briarproject.briar.android.util.UiUtils.observeOnce;
 import static org.briarproject.briar.api.privategroup.PrivateGroupConstants.MAX_GROUP_POST_TEXT_LENGTH;
@@ -37,7 +44,8 @@ import static org.briarproject.nullsafety.NullSafety.requireNonNull;
 @MethodsNotNullByDefault
 @ParametersNotNullByDefault
 public class GroupActivity extends
-		ThreadListActivity<GroupMessageItem, GroupMessageAdapter> {
+		ThreadListActivity<GroupMessageItem, GroupMessageAdapter>
+		implements GroupMessageItemViewHolder.PinListener {
 
 	@Inject
 	ViewModelProvider.Factory viewModelFactory;
@@ -45,6 +53,12 @@ public class GroupActivity extends
 	private GroupViewModel viewModel;
 	private boolean admin = false;
 	private boolean dissolved = true;
+	private View messageAdminsButton;
+	private View pinnedMessageContainer;
+	private TextView pinnedMessage;
+
+	private final ActivityResultLauncher<String> imageLauncher =
+			registerForActivityResult(new GetContent(), this::onImageChosen);
 
 	@Override
 	public void injectActivity(ActivityComponent component) {
@@ -84,8 +98,25 @@ public class GroupActivity extends
 		observeOnce(viewModel.isCreator(), this, adapter::setIsCreator);
 		viewModel.isAdmin().observe(this, isAdmin -> {
 			admin = isAdmin;
+			adapter.setIsAdmin(isAdmin);
 			updatePostingState();
+			invalidateOptionsMenu();
 		});
+		messageAdminsButton = findViewById(R.id.messageAdminsButton);
+		messageAdminsButton.setOnClickListener(v -> showAdminRequestDialog());
+		pinnedMessageContainer =
+				findViewById(R.id.pinnedMessageContainer);
+		pinnedMessage = findViewById(R.id.pinnedMessage);
+		pinnedMessageContainer.setOnClickListener(v -> {
+			GroupMessageItem item = viewModel.getPinnedMessage().getValue();
+			if (item != null) scrollToItemAtTop(item.getId());
+		});
+		pinnedMessageContainer.setOnLongClickListener(v -> {
+			if (admin) confirmUnpinMessage();
+			return admin;
+		});
+		viewModel.getPinnedMessage().observe(this,
+				this::displayPinnedMessage);
 
 		// start with group disabled and enable when not dissolved
 		setGroupEnabled(false);
@@ -94,7 +125,15 @@ public class GroupActivity extends
 			updatePostingState();
 			// only show dialog when no prior state
 			if (dissolved && state == null) onGroupDissolved();
+			invalidateOptionsMenu();
 		});
+	}
+
+	@Override
+	public boolean onPrepareOptionsMenu(Menu menu) {
+		MenuItem image = menu.findItem(R.id.action_channel_share_image);
+		if (image != null) image.setVisible(admin && !dissolved);
+		return super.onPrepareOptionsMenu(menu);
 	}
 
 	@Override
@@ -121,6 +160,9 @@ public class GroupActivity extends
 			Intent i = new Intent(this, GroupMemberListActivity.class);
 			i.putExtra(GROUP_ID, groupId.getBytes());
 			startActivity(i);
+			return true;
+		} else if (itemId == R.id.action_channel_share_image) {
+			imageLauncher.launch("image/*");
 			return true;
 		} else if (itemId == R.id.action_group_reveal) {
 			if (requireNonNull(viewModel.isCreator().getValue()))
@@ -156,6 +198,26 @@ public class GroupActivity extends
 		return super.onOptionsItemSelected(item);
 	}
 
+	private void onImageChosen(@Nullable Uri uri) {
+		if (uri == null) return;
+		EditText caption = new EditText(this);
+		caption.setHint(R.string.image_caption_hint);
+		int padding = getResources().getDimensionPixelSize(
+				R.dimen.margin_medium);
+		caption.setPadding(padding, padding, padding, padding);
+		new MaterialAlertDialogBuilder(this, R.style.BriarDialogTheme)
+				.setTitle(R.string.channels_share_image)
+				.setView(caption)
+				.setPositiveButton(R.string.send, (dialog, which) -> {
+					String text = caption.getText().toString().trim();
+					viewModel.createAndStoreImage(uri,
+							text.isEmpty() ? null : text,
+							null);
+				})
+				.setNegativeButton(R.string.cancel, null)
+				.show();
+	}
+
 	@Override
 	protected void onActivityResult(int request, int result,
 			@Nullable Intent data) {
@@ -184,18 +246,80 @@ public class GroupActivity extends
 
 	private void setGroupEnabled(boolean enabled) {
 		sendController.setReady(enabled);
-		list.getRecyclerView().setAlpha(enabled ? 1f : 0.5f);
-
+		list.getRecyclerView().setAlpha(dissolved ? 0.5f : 1f);
 		if (!enabled) {
 			textInput.setVisibility(GONE);
 			if (textInput.isKeyboardOpen()) textInput.hideSoftKeyboard();
 		} else {
 			textInput.setVisibility(VISIBLE);
 		}
+		if (messageAdminsButton != null) {
+			messageAdminsButton.setVisibility(!admin && !dissolved
+					? VISIBLE : GONE);
+		}
 	}
 
 	private void updatePostingState() {
 		setGroupEnabled(admin && !dissolved);
+	}
+
+	private void showAdminRequestDialog() {
+		EditText input = new EditText(this);
+		input.setHint(R.string.channels_admin_request_hint);
+		int padding = getResources().getDimensionPixelSize(
+				R.dimen.margin_medium);
+		input.setPadding(padding, padding, padding, padding);
+		MaterialAlertDialogBuilder dialog = new MaterialAlertDialogBuilder(
+				this, R.style.BriarDialogTheme)
+				.setTitle(R.string.channels_message_admins)
+				.setView(input)
+				.setPositiveButton(R.string.send, null)
+				.setNegativeButton(R.string.cancel, null);
+		androidx.appcompat.app.AlertDialog alert = dialog.create();
+		alert.setOnShowListener(ignored ->
+				alert.getButton(BUTTON_POSITIVE)
+						.setOnClickListener(v -> {
+							String text = input.getText().toString().trim();
+							if (!text.isEmpty()) {
+								viewModel.createAndStoreAdminRequest(text);
+								alert.dismiss();
+							}
+						}));
+		alert.show();
+	}
+
+	@Override
+	public void onPinClick(GroupMessageItem item) {
+		new MaterialAlertDialogBuilder(this, R.style.BriarDialogTheme)
+				.setTitle(R.string.channels_pin_message)
+				.setMessage(R.string.channels_pin_message_confirm)
+				.setPositiveButton(R.string.channels_pin_message,
+						(dialog, which) -> viewModel.pinMessage(item.getId()))
+				.setNegativeButton(R.string.cancel, null)
+				.show();
+	}
+
+	private void confirmUnpinMessage() {
+		new MaterialAlertDialogBuilder(this, R.style.BriarDialogTheme)
+				.setTitle(R.string.channels_unpin_message)
+				.setMessage(R.string.channels_unpin_message_confirm)
+				.setPositiveButton(R.string.channels_unpin_message,
+						(dialog, which) -> viewModel.pinMessage(null))
+				.setNegativeButton(R.string.cancel, null)
+				.show();
+	}
+
+	private void displayPinnedMessage(@Nullable GroupMessageItem item) {
+		if (item == null) {
+			pinnedMessageContainer.setVisibility(GONE);
+			return;
+		}
+		String text = item.hasImage()
+				? getString(R.string.channels_pinned_image)
+				: item.getText();
+		pinnedMessage.setText(getString(R.string.channels_pinned_format,
+				item.getAuthorName(), text));
+		pinnedMessageContainer.setVisibility(VISIBLE);
 	}
 
 	private void showLeaveGroupDialog() {

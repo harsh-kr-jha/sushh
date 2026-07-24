@@ -8,6 +8,11 @@ import android.view.ViewGroup;
 import org.briarproject.briar.R;
 import org.briarproject.briar.android.util.BriarAdapter;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Locale;
+
 import androidx.annotation.NonNull;
 
 import static org.briarproject.briar.android.util.UiUtils.getContactDisplayName;
@@ -20,10 +25,38 @@ class MemberListAdapter extends
 	}
 
 	private final MemberClickListener listener;
+	private final List<MemberListItem> allItems = new ArrayList<>();
+	private String query = "";
 
 	MemberListAdapter(Context context, MemberClickListener listener) {
 		super(context, MemberListItem.class);
 		this.listener = listener;
+	}
+
+	void setMembers(Collection<MemberListItem> members) {
+		allItems.clear();
+		allItems.addAll(members);
+		applyFilter();
+	}
+
+	void setQuery(String query) {
+		this.query = query.trim().toLowerCase(Locale.getDefault());
+		applyFilter();
+	}
+
+	private void applyFilter() {
+		if (query.isEmpty()) {
+			setItems(allItems);
+			return;
+		}
+		List<MemberListItem> filtered = new ArrayList<>();
+		for (MemberListItem item : allItems) {
+			String name = getContactDisplayName(item.getMember(),
+					item.getAuthorInfo().getAlias());
+			if (name.toLowerCase(Locale.getDefault()).contains(query))
+				filtered.add(item);
+		}
+		setItems(filtered);
 	}
 
 	@NonNull

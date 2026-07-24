@@ -16,6 +16,7 @@ import org.briarproject.briar.android.controller.handler.ResultExceptionHandler;
 import org.briarproject.briar.api.privategroup.AdminMessage;
 import org.briarproject.briar.api.privategroup.GroupMember;
 import org.briarproject.briar.api.privategroup.GroupMessageFactory;
+import org.briarproject.briar.api.privategroup.MemberRemovalMessage;
 import org.briarproject.briar.api.privategroup.PrivateGroupManager;
 
 import java.util.ArrayList;
@@ -84,31 +85,63 @@ class GroupMemberListControllerImpl extends DbControllerImpl
 	@Override
 	public void appointAdmin(GroupId groupId, Author admin,
 			ResultExceptionHandler<Void, DbException> handler) {
+		createControlMessage(groupId, (timestamp, localAuthor) -> {
+			AdminMessage message = groupMessageFactory.createAdminMessage(
+					groupId, timestamp, localAuthor, admin);
+			privateGroupManager.addLocalAdmin(message);
+		}, handler);
+	}
+
+	@Override
+	public void removeAdmin(GroupId groupId, Author admin,
+			ResultExceptionHandler<Void, DbException> handler) {
+		createControlMessage(groupId, (timestamp, localAuthor) -> {
+			AdminMessage message = groupMessageFactory
+					.createAdminRemovalMessage(groupId, timestamp, localAuthor,
+							admin);
+			privateGroupManager.addLocalAdminRemoval(message);
+		}, handler);
+	}
+
+	@Override
+	public void removeMember(GroupId groupId, Author member,
+			ResultExceptionHandler<Void, DbException> handler) {
+		createControlMessage(groupId, (timestamp, localAuthor) -> {
+			MemberRemovalMessage message = groupMessageFactory
+					.createMemberRemovalMessage(groupId, timestamp, localAuthor,
+							member);
+			privateGroupManager.addLocalMemberRemoval(message);
+		}, handler);
+	}
+
+	private void createControlMessage(GroupId groupId,
+			ControlMessageCreator creator,
+			ResultExceptionHandler<Void, DbException> handler) {
 		runOnDbThread(() -> {
 			try {
-				LocalAuthor creator = identityManager.getLocalAuthor();
+				LocalAuthor localAuthor = identityManager.getLocalAuthor();
 				long latest = privateGroupManager.getGroupCount(groupId)
 						.getLatestMsgTime();
 				long timestamp = Math.max(clock.currentTimeMillis(), latest + 1);
 				cryptoExecutor.execute(() -> {
-					AdminMessage message = groupMessageFactory
-							.createAdminMessage(groupId, timestamp, creator,
-									admin);
-					runOnDbThread(() -> {
-						try {
-							privateGroupManager.addLocalAdmin(message);
-							handler.onResult(null);
-						} catch (DbException e) {
-							logException(LOG, WARNING, e);
-							handler.onException(e);
-						}
-					});
+					try {
+						creator.createAndStore(timestamp, localAuthor);
+						handler.onResult(null);
+					} catch (DbException e) {
+						logException(LOG, WARNING, e);
+						handler.onException(e);
+					}
 				});
 			} catch (DbException e) {
 				logException(LOG, WARNING, e);
 				handler.onException(e);
 			}
 		});
+	}
+
+	private interface ControlMessageCreator {
+		void createAndStore(long timestamp, LocalAuthor localAuthor)
+				throws DbException;
 	}
 
 }

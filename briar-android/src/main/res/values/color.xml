@@ -46,6 +46,7 @@
 
 	<color name="briar_brand_blue">@color/briar_night_700</color>
 	<color name="briar_brand_green">#138808</color>
+	<color name="sanchar_green_light">#DDF2D9</color>
 	<color name="sanchar_saffron">#FF9933</color>
 	<color name="sanchar_saffron_dark">#E87900</color>
 

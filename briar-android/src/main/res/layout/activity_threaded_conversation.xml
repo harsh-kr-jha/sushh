@@ -9,6 +9,30 @@
 
 	<include layout="@layout/toolbar" />
 
+	<com.google.android.material.card.MaterialCardView
+		android:id="@+id/pinnedMessageContainer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/margin_small"
+		android:visibility="gone"
+		app:cardBackgroundColor="@color/sanchar_green_light"
+		app:cardCornerRadius="@dimen/margin_small"
+		tools:visibility="visible">
+
+		<TextView
+			android:id="@+id/pinnedMessage"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:drawableStart="@drawable/ic_pin"
+			android:drawablePadding="@dimen/margin_small"
+			android:maxLines="2"
+			android:ellipsize="end"
+			android:padding="@dimen/margin_medium"
+			android:textColor="@color/briar_gray_900"
+			tools:text="Pinned: Important channel announcement" />
+
+	</com.google.android.material.card.MaterialCardView>
+
 	<FrameLayout
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
@@ -37,6 +61,17 @@
 			app:direction="down" />
 
 	</FrameLayout>
+
+	<com.google.android.material.button.MaterialButton
+		android:id="@+id/messageAdminsButton"
+		style="@style/Widget.MaterialComponents.Button.TextButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/margin_medium"
+		android:layout_marginEnd="@dimen/margin_medium"
+		android:text="@string/channels_message_admins"
+		android:visibility="gone"
+		tools:visibility="visible" />
 
 	<org.briarproject.briar.android.view.TextInputView
 		android:id="@+id/text_input_container"

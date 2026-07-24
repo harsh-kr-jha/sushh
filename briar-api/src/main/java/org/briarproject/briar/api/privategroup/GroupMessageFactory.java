@@ -17,6 +17,14 @@ public interface GroupMessageFactory {
 	String SIGNING_LABEL_JOIN = CLIENT_ID.getString() + "/JOIN";
 	String SIGNING_LABEL_POST = CLIENT_ID.getString() + "/POST";
 	String SIGNING_LABEL_ADMIN = CLIENT_ID.getString() + "/ADMIN";
+	String SIGNING_LABEL_ADMIN_REMOVED =
+			CLIENT_ID.getString() + "/ADMIN_REMOVED";
+	String SIGNING_LABEL_MEMBER_REMOVED =
+			CLIENT_ID.getString() + "/MEMBER_REMOVED";
+	String SIGNING_LABEL_ADMIN_REQUEST =
+			CLIENT_ID.getString() + "/ADMIN_REQUEST";
+	String SIGNING_LABEL_IMAGE = CLIENT_ID.getString() + "/IMAGE";
+	String SIGNING_LABEL_PIN = CLIENT_ID.getString() + "/PIN";
 
 	/**
 	 * Creates a join announcement message for the creator of a group.
@@ -77,5 +85,42 @@ public interface GroupMessageFactory {
 	@CryptoExecutor
 	AdminMessage createAdminMessage(GroupId groupId, long timestamp,
 			LocalAuthor creator, Author admin);
+
+	/**
+	 * Creates a creator-signed announcement removing a channel admin.
+	 */
+	@CryptoExecutor
+	AdminMessage createAdminRemovalMessage(GroupId groupId, long timestamp,
+			LocalAuthor creator, Author admin);
+
+	/**
+	 * Creates an admin-signed announcement removing a channel member.
+	 */
+	@CryptoExecutor
+	MemberRemovalMessage createMemberRemovalMessage(GroupId groupId,
+			long timestamp, LocalAuthor admin, Author member);
+
+	/**
+	 * Creates a message from a read-only member to all channel admins.
+	 */
+	@CryptoExecutor
+	GroupMessage createAdminRequestMessage(GroupId groupId, long timestamp,
+			LocalAuthor member, String text, MessageId previousMsgId);
+
+	/**
+	 * Creates an image post with an optional caption.
+	 */
+	@CryptoExecutor
+	GroupMessage createImageMessage(GroupId groupId, long timestamp,
+			@Nullable MessageId parentId, LocalAuthor author,
+			@Nullable String caption, String contentType, byte[] image,
+			MessageId previousMsgId);
+
+	/**
+	 * Creates an admin-signed pin or unpin announcement.
+	 */
+	@CryptoExecutor
+	PinMessage createPinMessage(GroupId groupId, long timestamp,
+			LocalAuthor admin, @Nullable MessageId messageId);
 
 }

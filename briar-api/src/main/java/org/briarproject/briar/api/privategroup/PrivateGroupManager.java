@@ -30,7 +30,7 @@ public interface PrivateGroupManager {
 	/**
 	 * The current minor version of the private group client.
 	 */
-	int MINOR_VERSION = 1;
+	int MINOR_VERSION = 2;
 
 	/**
 	 * Adds a new private group and joins it.
@@ -109,6 +109,21 @@ public interface PrivateGroupManager {
 	void addLocalAdmin(Transaction txn, AdminMessage message)
 			throws DbException;
 
+	void addLocalAdminRemoval(AdminMessage message) throws DbException;
+
+	void addLocalAdminRemoval(Transaction txn, AdminMessage message)
+			throws DbException;
+
+	void addLocalMemberRemoval(MemberRemovalMessage message)
+			throws DbException;
+
+	void addLocalMemberRemoval(Transaction txn, MemberRemovalMessage message)
+			throws DbException;
+
+	void addLocalPin(PinMessage message) throws DbException;
+
+	void addLocalPin(Transaction txn, PinMessage message) throws DbException;
+
 	/**
 	 * Returns the private group with the given ID.
 	 */
@@ -145,6 +160,18 @@ public interface PrivateGroupManager {
 	 * Returns the text of the private group message with the given ID.
 	 */
 	String getMessageText(Transaction txn, MessageId m) throws DbException;
+
+	/**
+	 * Returns the JPEG bytes of an image post.
+	 */
+	byte[] getMessageImage(Transaction txn, MessageId m) throws DbException;
+
+	/**
+	 * Returns the currently pinned message, or null if no message is pinned.
+	 */
+	@javax.annotation.Nullable
+	MessageId getPinnedMessageId(Transaction txn, GroupId g)
+			throws DbException;
 
 	/**
 	 * Returns the headers of all messages in the given private group.
