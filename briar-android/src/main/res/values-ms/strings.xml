@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <!--Setup-->
-  <string name="setup_title">Tetapan Briar</string>
+  <string name="setup_title">Tetapan Sushh</string>
   <string name="choose_nickname">Pilih nama samaran anda:</string>
   <string name="choose_password">Pilih kata laluan anda:</string>
   <string name="confirm_password">Pastikan kata laluan ada:</string>
@@ -10,8 +10,8 @@
   <string name="passwords_do_not_match">Kata laluan tidak sepadan</string>
   <!--Login-->
   <string name="enter_password">Masukkan kata laluan anda:</string>
-  <string name="startup_failed_notification_title">Briar gagal dimulakan</string>
-  <string name="startup_failed_notification_text">Anda perlu pasang ulang Briar.</string>
+  <string name="startup_failed_notification_title">Sushh gagal dimulakan</string>
+  <string name="startup_failed_notification_text">Anda perlu pasang ulang Sushh.</string>
   <string name="expiry_date_reached">Aplikasi ini telah tamat tempoh.\nSila pasang ulang versi baru.</string>
   <!--Navigation Drawer-->
   <string name="contact_list_button">Kenalan</string>
@@ -20,7 +20,7 @@
   <string name="sign_out_button">Daftar Keluar</string>
   <!--Transports-->
   <!--Notifications-->
-  <string name="ongoing_notification_title">Briar sedang berjalan</string>
+  <string name="ongoing_notification_title">Sushh sedang berjalan</string>
   <plurals name="private_message_notification_text">
     <item quantity="other">%d mesej peribadi baru.</item>
   </plurals>
@@ -37,7 +37,7 @@
   <string name="your_invitation_code">Kod jemputan anda adalah</string>
   <string name="enter_invitation_code">Sila masukkan kod jemputan kenalan anda:</string>
   <string name="connection_failed">Sambungan gagal</string>
-  <string name="could_not_find_contact">Briar tidak dapat mencari kenalan anda berhampiran</string>
+  <string name="could_not_find_contact">Sushh tidak dapat mencari kenalan anda berhampiran</string>
   <string name="connected_to_contact">Tersambung dengan kenalan</string>
   <string name="calculating_confirmation_code">Sedang mencuba kod pengesahan\u2026</string>
   <string name="your_confirmation_code">Kod pengesahan anda adalah</string>
@@ -72,6 +72,6 @@
   <!--Settings Feedback-->
   <!--Link Warning-->
   <!--Crash Reporter-->
-  <string name="crash_report_title">Laporan Kesalahan Briar</string>
+  <string name="crash_report_title">Laporan Kesalahan Sushh</string>
   <!--Sign Out-->
 </resources>
