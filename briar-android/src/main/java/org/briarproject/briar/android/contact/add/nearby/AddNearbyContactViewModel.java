@@ -17,6 +17,7 @@ import org.briarproject.bramble.api.UnsupportedVersionException;
 import org.briarproject.bramble.api.connection.ConnectionManager;
 import org.briarproject.bramble.api.contact.Contact;
 import org.briarproject.bramble.api.contact.ContactExchangeManager;
+import org.briarproject.bramble.api.contact.ContactManager;
 import org.briarproject.bramble.api.crypto.SecretKey;
 import org.briarproject.bramble.api.db.ContactExistsException;
 import org.briarproject.bramble.api.db.DbException;
@@ -140,6 +141,7 @@ class AddNearbyContactViewModel extends AndroidViewModel
 	private final PayloadParser payloadParser;
 	private final Provider<KeyAgreementTask> keyAgreementTaskProvider;
 	private final ContactExchangeManager contactExchangeManager;
+	private final ContactManager contactManager;
 	private final ConnectionManager connectionManager;
 
 	private final MutableLiveEvent<Boolean> requestBluetoothDiscoverable =
@@ -191,6 +193,7 @@ class AddNearbyContactViewModel extends AndroidViewModel
 			PayloadParser payloadParser,
 			Provider<KeyAgreementTask> keyAgreementTaskProvider,
 			ContactExchangeManager contactExchangeManager,
+			ContactManager contactManager,
 			ConnectionManager connectionManager) {
 		super(app);
 		this.eventBus = eventBus;
@@ -201,6 +204,7 @@ class AddNearbyContactViewModel extends AndroidViewModel
 		this.payloadParser = payloadParser;
 		this.keyAgreementTaskProvider = keyAgreementTaskProvider;
 		this.contactExchangeManager = contactExchangeManager;
+		this.contactManager = contactManager;
 		this.connectionManager = connectionManager;
 		bt = BluetoothAdapter.getDefaultAdapter();
 		wifiPlugin = pluginManager.getPlugin(LanTcpConstants.ID);
@@ -486,12 +490,21 @@ class AddNearbyContactViewModel extends AndroidViewModel
 				// Reuse the connection as a transport connection
 				connectionManager
 						.manageOutgoingConnection(contact.getId(), t, conn);
-				Success success = new Success(contact.getAuthor());
+				Success success = new Success(contact, false);
 				state.postValue(new ContactExchangeFinished(success));
 			} catch (ContactExistsException e) {
 				tryToClose(conn);
-				Error error = new Error(e.getRemoteAuthor());
-				state.postValue(new ContactExchangeFinished(error));
+				try {
+					Contact contact = contactManager.getContact(
+							e.getRemoteAuthor().getId(),
+							e.getLocalAuthorId());
+					Success success = new Success(contact, true);
+					state.postValue(new ContactExchangeFinished(success));
+				} catch (DbException dbException) {
+					logException(LOG, WARNING, dbException);
+					Error error = new Error(e.getRemoteAuthor());
+					state.postValue(new ContactExchangeFinished(error));
+				}
 			} catch (DbException | IOException e) {
 				tryToClose(conn);
 				logException(LOG, WARNING, e);
