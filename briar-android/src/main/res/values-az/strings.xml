@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<!--Setup-->
-	<string name="setup_title">Briar-a xoş gəlmisiniz!</string>
+	<string name="setup_title">Sushh-a xoş gəlmisiniz!</string>
 	<string name="setup_name_explanation">Sizin nikiniz yazdığlarınızın yanında görsənəcək. Hesabı yaradandan sonra onu dəyişə bilməzsiniz.</string>
 	<string name="setup_next">Növbəti</string>
 	<string name="setup_password_intro">Şifrə seçin</string>
-	<string name="setup_password_explanation">Sizin Briar hesabınız internetda yox, cihazınızda şifrələnir. Şifrənizi unutursanız və ya Briar\'ı qaldırsanız, hesabınızı bərpa etmək üçün heç bir yol yoxdur. Uzun şifrə seçin. Və o şifrəni təxmin etmək çətin olan dörd təsadüfi sözdən və ya on təsadüfi hərfdən, nömrələrdən və simvollardan olması məsləhətdir.</string>
+	<string name="setup_password_explanation">Sizin Sushh hesabınız internetda yox, cihazınızda şifrələnir. Şifrənizi unutursanız və ya Sushh\'ı qaldırsanız, hesabınızı bərpa etmək üçün heç bir yol yoxdur. Uzun şifrə seçin. Və o şifrəni təxmin etmək çətin olan dörd təsadüfi sözdən və ya on təsadüfi hərfdən, nömrələrdən və simvollardan olması məsləhətdir.</string>
 	<string name="dnkm_doze_title">Fon qoşulmaları</string>
-	<string name="dnkm_doze_intro">Mesajları qəbul etmək üçün Briar arxa planda işləməlidir.</string>
-	<string name="dnkm_doze_explanation">Mesajları qəbul etmək üçün Briar arxa planda işləməlidir. Briar-ın xəttdə qalması üçün, batareya optimallaşdırmalarını söndürün</string>
+	<string name="dnkm_doze_intro">Mesajları qəbul etmək üçün Sushh arxa planda işləməlidir.</string>
+	<string name="dnkm_doze_explanation">Mesajları qəbul etmək üçün Sushh arxa planda işləməlidir. Sushh-ın xəttdə qalması üçün, batareya optimallaşdırmalarını söndürün</string>
 	<string name="dnkm_doze_button">Qoşulmalara izn ver</string>
 	<string name="choose_nickname">Nik seçin</string>
 	<string name="choose_password">Şifrə seçin</string>
@@ -19,9 +19,9 @@
 	<string name="create_account_button">Hesab yaradın</string>
 	<string name="more_info">Digər məlumatlar</string>
 	<string name="don_t_ask_again">Bir daha soruşulmasın</string>
-	<string name="dnkm_huawei_protected_text">Aşağıdakı düyməni basın və əmin olun ki, Briar \"Qorunan proqramlar\" ekranında qorunur.</string>
-	<string name="dnkm_huawei_protected_button">Briar-ın qorunması</string>
-	<string name="dnkm_huawei_protected_help">Briar qorunan tətbiqlər siyahısına əlavə olunmasa, arxa planda işləməyəcəkdir.</string>
+	<string name="dnkm_huawei_protected_text">Aşağıdakı düyməni basın və əmin olun ki, Sushh \"Qorunan proqramlar\" ekranında qorunur.</string>
+	<string name="dnkm_huawei_protected_button">Sushh-ın qorunması</string>
+	<string name="dnkm_huawei_protected_help">Sushh qorunan tətbiqlər siyahısına əlavə olunmasa, arxa planda işləməyəcəkdir.</string>
 	<string name="dnkm_warning_dozed">%sarxa planda işə düşmədi</string>
 	<!--Login-->
 	<string name="enter_password">Şifrə</string>
@@ -29,20 +29,20 @@
 	<string name="sign_in_button">Daxil ol</string>
 	<string name="forgotten_password">Mən şifrəni unutmuşam</string>
 	<string name="dialog_title_lost_password">Yaddan çıxmış şifrə</string>
-	<string name="dialog_message_lost_password">Sizin Briar hesabınız internetda yox, cihazınızda şifrələnir, ona görə biz onu silə bilmirik. Hesabı silib yenidən başlamaq istəyirsiniz? Diqqət: Sizin şəxsi məlumatlarınız, kontaktlarınız, məktublar və parametrlər silinəcək.</string>
-	<string name="startup_failed_notification_title">Briar başlamadı</string>
+	<string name="dialog_message_lost_password">Sizin Sushh hesabınız internetda yox, cihazınızda şifrələnir, ona görə biz onu silə bilmirik. Hesabı silib yenidən başlamaq istəyirsiniz? Diqqət: Sizin şəxsi məlumatlarınız, kontaktlarınız, məktublar və parametrlər silinəcək.</string>
+	<string name="startup_failed_notification_title">Sushh başlamadı</string>
   <string name="startup_failed_notification_text">Digər malumat üçün toxunun.</string>
   <string name="startup_failed_activity_title">Başlama xətası</string>
-  <string name="startup_failed_db_error">Briar məlumat bazası nədənsə sıradan çıxıb. Hesabınız, məlumatlarınız və bütün əlaqələriniz itirilmişdır. Təəssüf ki, Briar\'ı yenidən bərpa etməli və ya \'Şifrəni unutmuşam\' seçərək yeni hesab yaratmalısınız.</string>
+  <string name="startup_failed_db_error">Sushh məlumat bazası nədənsə sıradan çıxıb. Hesabınız, məlumatlarınız və bütün əlaqələriniz itirilmişdır. Təəssüf ki, Sushh\'ı yenidən bərpa etməli və ya \'Şifrəni unutmuşam\' seçərək yeni hesab yaratmalısınız.</string>
   <string name="startup_failed_data_too_old_error">Hesabınız bu tətbiqin köhnə versiyası ilə yaradılmış və bu versiya ilə açıla bilməz. Parolu istəniləndə \'Mənim parolumu unutdum\' seçərək köhnə versiyanı yenidən bərpa etməli və ya yeni hesab yaratmalısınız</string>
   <string name="startup_failed_data_too_new_error">Bu tətbiq çox köhnədir. Zəhmət olmasa ən son versiyaya keçin və yenidən cəhd edin</string>
-  <string name="startup_failed_service_error">Briar lazımi bir plugin qura bilmədi. Briarın yenidən qurulması bu problemi həll edir. Lakin, Briar sizin məlumatlarınızı saxlamaq üçün mərkəzi serverlərdən istifadə etmədikdən sonra hesabınızı və onunla əlaqəli bütün məlumatları itirəcəyinizi nəzərə alın.</string>
+  <string name="startup_failed_service_error">Sushh lazımi bir plugin qura bilmədi. Sushhın yenidən qurulması bu problemi həll edir. Lakin, Sushh sizin məlumatlarınızı saxlamaq üçün mərkəzi serverlərdən istifadə etmədikdən sonra hesabınızı və onunla əlaqəli bütün məlumatları itirəcəyinizi nəzərə alın.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Bu Briar\'ın test versiyasıdır. Hesabınız %dgün ərzində sona çatacaq və yeniləmə mümkün deyil.</item>
-    <item quantity="other">Bu Briar\'ın test versiyasıdır. Hesabınız %dgün ərzində sona çatacaq və yeniləmə mümkün deyil.</item>
+    <item quantity="one">Bu Sushh\'ın test versiyasıdır. Hesabınız %dgün ərzində sona çatacaq və yeniləmə mümkün deyil.</item>
+    <item quantity="other">Bu Sushh\'ın test versiyasıdır. Hesabınız %dgün ərzində sona çatacaq və yeniləmə mümkün deyil.</item>
   </plurals>
   <string name="expiry_date_reached">Bu proqram sona çatdı. Test üçün təşəkkür edirik!</string>
-  <string name="download_briar">Briar-dan istifadə etməyə davam etmək üçün ən son versiyanı yükləyin.</string>
+  <string name="download_briar">Sushh-dan istifadə etməyə davam etmək üçün ən son versiyanı yükləyin.</string>
   <string name="create_new_account">Yeni bir hesab yaratmaq lazımdır, lakin eyni ləqəbi istifadə edə bilərsiniz.</string>
   <string name="download_briar_button">Son versiyasını yükləyin </string>
   <string name="startup_open_database">Məlumatlar şifrədən açılması...</string>
@@ -66,12 +66,12 @@
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Briar-dan çıxdı</string>
+  <string name="reminder_notification_title">Sushh-dan çıxdı</string>
   <string name="reminder_notification_text">Daxil olmağınız üçün toxunun.</string>
-  <string name="reminder_notification_channel_title">Briar-a giriş haqqında xatırlama</string>
+  <string name="reminder_notification_channel_title">Sushh-a giriş haqqında xatırlama</string>
   <string name="reminder_notification_dismiss">İmtina</string>
-  <string name="ongoing_notification_title">Briar-da imza olundu</string>
-  <string name="ongoing_notification_text">Briar-ı açmaq üçün toxunun</string>
+  <string name="ongoing_notification_title">Sushh-da imza olundu</string>
+  <string name="ongoing_notification_text">Sushh-ı açmaq üçün toxunun</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Yeni şəxsi məktub</item>
     <item quantity="other">%dyeni şəxsi məktub</item>
@@ -142,7 +142,7 @@
   <string name="save_image_success">Şəkil saxlanıldı</string>
   <string name="save_image_error">Şəkil saxlanılmadı</string>
   <string name="dialog_title_no_image_support">Şəkillər mövcud deyil</string>
-  <string name="dialog_message_no_image_support">Sizin Briar kontaktınız hələlik şəkillər dəstəkləmir. Təkmilləşmədən sonra fərqli bir simvol görürsünüz.</string>
+  <string name="dialog_message_no_image_support">Sizin Sushh kontaktınız hələlik şəkillər dəstəkləmir. Təkmilləşmədən sonra fərqli bir simvol görürsünüz.</string>
   <string name="dialog_title_image_support">İndi bu kontakta şəkilləri göndərə bilərsiniz</string>
   <string name="dialog_message_image_support">Şəkilləri əlavə etmək üçün bu simvola toxunun.</string>
   <string name="messaging_too_many_attachments_toast">Yalnız %d ilk şəkil göndəriləcək</string>
@@ -178,7 +178,7 @@
   <string name="add_contact_choose_a_nickname">Ad daxil et</string>
   <string name="nickname_intro">Niklə kontakt saxlayın. Bunu ancaq siz görəcəksiniz. </string>
   <string name="your_link">Əlavə etmək istədiyiniz kontakt üçün bu linki verin</string>
-  <string name="link_clip_label">Briar link</string>
+  <string name="link_clip_label">Sushh link</string>
   <string name="link_copied_toast">Link kopyalandı</string>
   <string name="adding_contact_error">Kontaktı əlavə edərkən səhv baş verdi.</string>
   <string name="pending_contact_requests_snackbar">Gözləyən kontakt sorğuları var. </string>
@@ -193,7 +193,7 @@
   <string name="own_link_error">Kontaktınızın linkini daxil edin, özünüzü deyil</string>
   <string name="nickname_missing">Zəhmət olmasa adı daxil edin</string>
   <string name="invalid_link">Səhv link</string>
-  <string name="unsupported_link">Bu link Briar-ın daha yeni versiyasından gəlir. Ən son versiyaya keçin və yenidən cəhd edin.</string>
+  <string name="unsupported_link">Bu link Sushh-ın daha yeni versiyasından gəlir. Ən son versiyaya keçin və yenidən cəhd edin.</string>
   <string name="intent_own_link">Öz linkini açdın. Əlavə etmək istədiyiniz kontaktlardan birini istifadə edin!</string>
   <string name="missing_link">Zəhmət olmasa linki daxil edin</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -218,7 +218,7 @@
   <string name="pending_contact_updated_toast">Gözləyən kontakt yeniləndi</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Kontaktınızı tanıtın</string>
-  <string name="introduction_onboarding_text">Kontaktlarınızı bir-birinizə təqdim edə bilərsiniz, lakin Briar-a qoşulmaq üçün şəxsən görüşmək lazım deyil.</string>
+  <string name="introduction_onboarding_text">Kontaktlarınızı bir-birinizə təqdim edə bilərsiniz, lakin Sushh-a qoşulmaq üçün şəxsən görüşmək lazım deyil.</string>
   <string name="introduction_menu_item">Giriş edin</string>
   <string name="introduction_activity_title">Kontakt seçin</string>
   <string name="introduction_not_possible">Bu kontaktlara artıq bir girişiniz var. Xahiş edirik, bu işi bitirməyə icazə verin. Siz və ya kontaktlarınız nadir hallarda onlaynsa, bu bir az vaxt tələb edə bilər.</string>
@@ -358,7 +358,7 @@
   <!--Settings Profile Picture-->
   <!--Settings Display-->
   <string name="pref_language_title">Dil və region</string>
-  <string name="pref_language_changed">Briar-ı yenidən başlatdığınızda bu parametr qüvvəyə minir. Lütfən çıxın və Briar-ı yenidən başladın.</string>
+  <string name="pref_language_changed">Sushh-ı yenidən başlatdığınızda bu parametr qüvvəyə minir. Lütfən çıxın və Sushh-ı yenidən başladın.</string>
   <string name="pref_language_default">Sistemdə olduğu kimi </string>
   <string name="display_settings_title">Görüntü</string>
   <string name="pref_theme_title">Tema</string>
@@ -368,17 +368,17 @@
   <string name="pref_theme_system">Sistem Olduğu kimi</string>
   <!--Settings Connections-->
   <string name="tor_network_setting_automatic">Yerə görə avtomatik olaraq</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_mobile_data_title">Mobil interneti istifadə etmək</string>
   <string name="tor_only_when_charging_summary">Cihaz batareyadan işləyərkən internet bağlantısını kəsir</string>
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Təhlükəsizlik</string>
   <string name="pref_lock_title">Tətbiq kilidi</string>
-  <string name="pref_lock_summary">Briar-a girmək üçün ekran kilidindən istifadə edin. </string>
+  <string name="pref_lock_summary">Sushh-a girmək üçün ekran kilidindən istifadə edin. </string>
   <string name="pref_lock_disabled_summary">Bundan istifadə etmək üçün ekran kilidini quraşdırın. </string>
   <string name="pref_lock_timeout_title">Tətbiq kilidinin hərəkətsizlik müddəti</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Briar-ı istifadə etməsəniz, onu avtomatik olaraq %s dəqiqədən sonra kilidləyin</string>
+  <string name="pref_lock_timeout_summary">Sushh-ı istifadə etməsəniz, onu avtomatik olaraq %s dəqiqədən sonra kilidləyin</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 dəqiqə</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -390,7 +390,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 saat</string>
   <string name="pref_lock_timeout_never">Heç vaxt</string>
-  <string name="pref_lock_timeout_never_summary">Briar-ı avtomatik olaraq kilidləməyin</string>
+  <string name="pref_lock_timeout_never_summary">Sushh-ı avtomatik olaraq kilidləməyin</string>
   <string name="change_password">Şifrəni dəyiş</string>
   <string name="current_password">Hazırkı şifrə</string>
   <string name="choose_new_password">Yeni parol</string>
@@ -398,7 +398,7 @@
   <string name="password_changed">Şifrə dəyişdi.</string>
   <string name="panic_setting">Təhlükə düyməsini quraşdırılması </string>
   <string name="panic_setting_title">Təhlükə düyməsi</string>
-  <string name="panic_setting_hint">Təhlükə düyməsini işə salarkən Briarın necə reaksiya verəcəyini konfiqurasiya edin</string>
+  <string name="panic_setting_hint">Təhlükə düyməsini işə salarkən Sushhın necə reaksiya verəcəyini konfiqurasiya edin</string>
   <string name="panic_app_setting_title">Təhlükə tətgiq düyməsi</string>
   <string name="unknown_app">Naməlum bir tətbiq</string>
   <string name="panic_app_setting_summary">Heç bir tətbiq quraşdırılmadı</string>
@@ -406,7 +406,7 @@
   <string name="dialog_title_connect_panic_app">Təhlükəli tətbiqi təsdiq edin</string>
   <string name="panic_setting_destructive_action">Təhlükəli hərəkətlər</string>
   <string name="panic_setting_signout_title">Çıxış</string>
-  <string name="panic_setting_signout_summary">Panik düyməsi basarkən Briar-dan çıxın</string>
+  <string name="panic_setting_signout_summary">Panik düyməsi basarkən Sushh-dan çıxın</string>
   <string name="purge_setting_title">Hesabı sil</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Bildirişler</string>
@@ -439,10 +439,10 @@
   <string name="link_warning_text">Bu sizi tanımaq üçün istifadə edilə bilər. Sizə bu link göndərən adama etibar edirsinizmi?  Bu linki Tor Browserda açmaq məsləhət görülür. </string>
   <string name="link_warning_open_link">Link-i aç</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar qəza göndərişi</string>
-  <string name="briar_crashed">Bağışlayın, Briar qəzaya uğrayıb.</string>
+  <string name="crash_report_title">Sushh qəza göndərişi</string>
+  <string name="briar_crashed">Bağışlayın, Sushh qəzaya uğrayıb.</string>
   <string name="not_your_fault">Bu sizin günahınız deyil.</string>
-  <string name="please_send_report">Xahiş edirik bizə bir qəza hesabatı göndərərək daha yaxşı bir Briar qurmamıza kömək edin.</string>
+  <string name="please_send_report">Xahiş edirik bizə bir qəza hesabatı göndərərək daha yaxşı bir Sushh qurmamıza kömək edin.</string>
   <string name="report_is_encrypted">Hesabatın şifrələndiyini və təhlükəsiz olaraq göndərildiyinə əmin edirik.</string>
   <string name="feedback_title">Şərh</string>
   <string name="describe_crash">Nə baş verdiyini təsvir edin (istəyə bağlıdır)</string>
@@ -452,26 +452,26 @@
   <string name="include_debug_report_feedback">Bu cihaz haqqında anonim məlumatları əlavə edin</string>
   <string name="send_report">Hesabat göndər</string>
   <string name="close">Bağla</string>
-  <string name="dev_report_saved">Hesabat saxlandı. Briar-a növbəti dəfə daxil olduqda göndəriləcək.</string>
+  <string name="dev_report_saved">Hesabat saxlandı. Sushh-a növbəti dəfə daxil olduqda göndəriləcək.</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Briar-dan çıxış... </string>
+  <string name="progress_title_logout">Sushh-dan çıxış... </string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Ekran örtüyü aşkarlandı</string>
   <string name="screen_filter_allow">Bu tətbiqlərin yuxarı çəkilməsinə icazə verin</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Camera izni</string>
-  <string name="permission_camera_request_body">QR kodunu skan etmək üçün Briar-a kameraya icazə lazımdır.</string>
+  <string name="permission_camera_request_body">QR kodunu skan etmək üçün Sushh-a kameraya icazə lazımdır.</string>
   <string name="permission_location_title">Mövqe icazəsi</string>
   <string name="permission_camera_location_title">Kamera və mövqe</string>
   <string name="permission_camera_denied_body">Kameraya daxil olmağı rədd etdiniz, lakin əlaqə əlavə etmək kameradan istifadə etməyi tələb edir. \n\nİcazə verilməsini düşünün.</string>
   <string name="qr_code">QR kodu</string>
   <string name="show_qr_code_fullscreen">QR kodu tam ekranda göstər</string>
   <!--App Locking-->
-  <string name="lock_unlock">Briar kilidini aç</string>
-  <string name="lock_unlock_verbose">Briar kilidini açmaq üçün cihazınızın PİN, naxış və ya parolunuzu daxil edin</string>
+  <string name="lock_unlock">Sushh kilidini aç</string>
+  <string name="lock_unlock_verbose">Sushh kilidini açmaq üçün cihazınızın PİN, naxış və ya parolunuzu daxil edin</string>
   <string name="lock_unlock_fingerprint_description">Davam etmək üçün qeyd olunan barmaq ilə barmaq izinizi sensorunuza toxunun</string>
   <string name="lock_unlock_password">Şifrəni istifadə edin</string>
-  <string name="lock_is_locked">Briar kilidləndi</string>
+  <string name="lock_is_locked">Sushh kilidləndi</string>
   <string name="lock_tap_to_unlock">Kilidi açmaq üçün toxunun</string>
   <!--Connections Screen-->
   <!--Screenshots-->
@@ -484,7 +484,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Salam Bob!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Salam Elis! Briar haqqında danışdığınız üçün təşəkkür edirik!</string>
+  <string name="screenshot_message_2">Salam Elis! Sushh haqqında danışdığınız üçün təşəkkür edirik!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Problem yoxdur, bunu ümüd edirəm 😀</string>
 </resources>
