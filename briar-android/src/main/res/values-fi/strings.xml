@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<!--Setup-->
-	<string name="setup_title">Tervetuloa Briariin</string>
+	<string name="setup_title">Tervetuloa Sushhiin</string>
 	<string name="setup_name_explanation">Nimimerkkisi tulee näkymään julkaisemasi sisällön yhteydessä. Et voi muuttaa nimimerkkiä sen jälkeen kun olet luonut tilin.</string>
 	<string name="setup_next">Seuraava</string>
 	<string name="setup_password_intro">Valitse salasana</string>
-	<string name="setup_password_explanation">Sinun Briar tili on tallennettu salattuna sinun laitteelle, ei pilvipalvelimelle. Jos unohdat salasanasi tai poistat Briarin asennuksen, ei ole mitään keinoa jolla tilisi voisi palauttaa.\n\nValitse pitkä salasana, joka on vaikea arvata, esimerkiksi neljä sattumanvaraista sanaa tai kymmenen sattumanvaraista kirjainta, numeroa ja symbolia.</string>
+	<string name="setup_password_explanation">Sinun Sushh tili on tallennettu salattuna sinun laitteelle, ei pilvipalvelimelle. Jos unohdat salasanasi tai poistat Sushhin asennuksen, ei ole mitään keinoa jolla tilisi voisi palauttaa.\n\nValitse pitkä salasana, joka on vaikea arvata, esimerkiksi neljä sattumanvaraista sanaa tai kymmenen sattumanvaraista kirjainta, numeroa ja symbolia.</string>
 	<string name="dnkm_doze_title">Taustayhteydet</string>
-	<string name="dnkm_doze_intro">Vastaanottaakseen viestejä, Briarin täytyy pitää yhteyttä yllä taustalla.</string>
-	<string name="dnkm_doze_explanation">Vastaanottaakseen viestejä, Briarin täytyy pitää yhteyttä yllä taustalla. Ole hyvä ja kytke pois akun optimisaatiot, jotta Briar voisi pitää yhteyden yllä.</string>
+	<string name="dnkm_doze_intro">Vastaanottaakseen viestejä, Sushhin täytyy pitää yhteyttä yllä taustalla.</string>
+	<string name="dnkm_doze_explanation">Vastaanottaakseen viestejä, Sushhin täytyy pitää yhteyttä yllä taustalla. Ole hyvä ja kytke pois akun optimisaatiot, jotta Sushh voisi pitää yhteyden yllä.</string>
 	<string name="dnkm_doze_button">Salli yhteydet</string>
 	<string name="choose_nickname">Valitse nimimerkki</string>
 	<string name="choose_password">Valitse salasana</string>
@@ -19,9 +19,9 @@
 	<string name="create_account_button">Luo tili</string>
 	<string name="more_info">Lisätietoja</string>
 	<string name="don_t_ask_again">Älä kysy uudelleen</string>
-	<string name="dnkm_huawei_protected_text">Napsauta alla olevaa nappia varmistaaksesi, että Briar on suojattu \"Suojatut sovellukset\" -näkymässä.</string>
-	<string name="dnkm_huawei_protected_button">Suojaa Briar</string>
-	<string name="dnkm_huawei_protected_help">Jos Briaria ei lisätä suojattujen sovellusten listalle, se ei voi toimia taustalla.</string>
+	<string name="dnkm_huawei_protected_text">Napsauta alla olevaa nappia varmistaaksesi, että Sushh on suojattu \"Suojatut sovellukset\" -näkymässä.</string>
+	<string name="dnkm_huawei_protected_button">Suojaa Sushh</string>
+	<string name="dnkm_huawei_protected_help">Jos Sushhia ei lisätä suojattujen sovellusten listalle, se ei voi toimia taustalla.</string>
 	<string name="dnkm_warning_dozed">%s ei voinut toimia taustalla</string>
 	<!--Login-->
 	<string name="enter_password">Salasana</string>
@@ -29,17 +29,17 @@
 	<string name="sign_in_button">Kirjaudu sisään</string>
 	<string name="forgotten_password">Olen unohtanut salasanani</string>
 	<string name="dialog_title_lost_password">Unohtunut salasana</string>
-	<string name="dialog_message_lost_password">Sinun Briar tili on tallennettu salattuna sinun laitteelle, ei pilvipalvelimelle, joten emme voi palauttaa salasanaasi. Haluatko poistaa tilisi ja aloittaa alusta?\n\nVaroitus: Tulet menettämään tunnuksesi, yhteystietosi ja viestisi lopullisesti.</string>
-	<string name="startup_failed_notification_title">Briarin käynnistys epäonnistui</string>
+	<string name="dialog_message_lost_password">Sinun Sushh tili on tallennettu salattuna sinun laitteelle, ei pilvipalvelimelle, joten emme voi palauttaa salasanaasi. Haluatko poistaa tilisi ja aloittaa alusta?\n\nVaroitus: Tulet menettämään tunnuksesi, yhteystietosi ja viestisi lopullisesti.</string>
+	<string name="startup_failed_notification_title">Sushhin käynnistys epäonnistui</string>
   <string name="startup_failed_notification_text">Napauta nähdäksesi lisätietoja.</string>
-  <string name="startup_failed_activity_title">Briarin käynnistys epäonnistui</string>
-  <string name="startup_failed_db_error">Jostain syystä sinun Briar tietokanta on korruptoitunut korjauskelvottomaksi. Tilisi, tietosi ja kaikki yhteystietosi on menetetty. Valitettavasti, sinun täytyy asentaa Briar uudelleen ja luoda uusi tili valitsemalla \'Olen unohtanut salasanani\' kun sinulta kysytään salasanaa.</string>
+  <string name="startup_failed_activity_title">Sushhin käynnistys epäonnistui</string>
+  <string name="startup_failed_db_error">Jostain syystä sinun Sushh tietokanta on korruptoitunut korjauskelvottomaksi. Tilisi, tietosi ja kaikki yhteystietosi on menetetty. Valitettavasti, sinun täytyy asentaa Sushh uudelleen ja luoda uusi tili valitsemalla \'Olen unohtanut salasanani\' kun sinulta kysytään salasanaa.</string>
   <string name="startup_failed_data_too_old_error">Sinun tili luotiin vanhalla versiolla eikä sitä voida avata tällä versiolla. Sinun täytyy joko asentaa vanha versio uudelleen tai luoda uusi tili valitsemalla \'Olen unohtanut salasanani\' kun sinulta kysytään salasanaa.</string>
   <string name="startup_failed_data_too_new_error">Tämän sovelluksen versio on liian vanha. Päivitä viimeisimpään versioon ja yritä uudelleen.</string>
-  <string name="startup_failed_service_error">Briar ei kyennyt käynnistämään vaadittua liitännäistä. Briarin uudelleenasennus yleensä korjaa ongelman. Huomaa kuitenkin, että tulet menettämään tilisi ja kaikki siihen liittyvä data koska Briar ei käytä palvelimia sinun tietojesi säilyttämiseen.</string>
+  <string name="startup_failed_service_error">Sushh ei kyennyt käynnistämään vaadittua liitännäistä. Sushhin uudelleenasennus yleensä korjaa ongelman. Huomaa kuitenkin, että tulet menettämään tilisi ja kaikki siihen liittyvä data koska Sushh ei käytä palvelimia sinun tietojesi säilyttämiseen.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Tämä on Briarin testiversio. Sinun tilisi tulee vanhentumaan %d päivän päästä eikä sitä voi uusia.</item>
-    <item quantity="other">Tämä on Briarin testiversio. Sinun tilisi tulee vanhentumaan %d päivän päästä eikä sitä voi uusia.</item>
+    <item quantity="one">Tämä on Sushhin testiversio. Sinun tilisi tulee vanhentumaan %d päivän päästä eikä sitä voi uusia.</item>
+    <item quantity="other">Tämä on Sushhin testiversio. Sinun tilisi tulee vanhentumaan %d päivän päästä eikä sitä voi uusia.</item>
   </plurals>
   <string name="expiry_date_reached">Tämä sovellus on vanhentunut.\nKiitos testaamisesta!</string>
   <string name="create_new_account">Sinun täytyy luoda uusi tili, mutta voit käyttää samaa tunnusta.</string>
@@ -61,12 +61,12 @@
   <string name="transport_bt">Bluetooth</string>
   <string name="transport_lan">Wi-Fi</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Uloskirjautunut Briarista</string>
+  <string name="reminder_notification_title">Uloskirjautunut Sushhista</string>
   <string name="reminder_notification_text">Napauta kirjautuaksesi takaisin sisään.</string>
-  <string name="reminder_notification_channel_title">Briarin sisäänkirjautumisen muistutus</string>
+  <string name="reminder_notification_channel_title">Sushhin sisäänkirjautumisen muistutus</string>
   <string name="reminder_notification_dismiss">Hylkää</string>
-  <string name="ongoing_notification_title">Kirjautunut Briariin</string>
-  <string name="ongoing_notification_text">Napauta avataksesi Briar.</string>
+  <string name="ongoing_notification_title">Kirjautunut Sushhiin</string>
+  <string name="ongoing_notification_text">Napauta avataksesi Sushh.</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Uusi yksityisviesti.</item>
     <item quantity="other">%d uutta yksityisviestiä.</item>
@@ -154,7 +154,7 @@
 	please use "No" instead, and use "Yes" for the "Same Person" button-->
   <!--Introductions-->
   <string name="introduction_onboarding_title">Esittele yhteyshenkilösi</string>
-  <string name="introduction_onboarding_text">Voit esitellä muita käyttäjiä toisilleen, niin että heidän ei tarvitse tavata kasvokkain ollakseen yhteydessä Briarin kautta.</string>
+  <string name="introduction_onboarding_text">Voit esitellä muita käyttäjiä toisilleen, niin että heidän ei tarvitse tavata kasvokkain ollakseen yhteydessä Sushhin kautta.</string>
   <string name="introduction_menu_item">Tee esittely</string>
   <string name="introduction_activity_title">Valitse yhteystieto</string>
   <string name="introduction_not_possible">Sinulla on jo yksi esittely käynnissä näillä yhteystiedoilla. Odota kunnes se tulee valmiiksi. Tämä voi kestää jonkin aikaa jos sinä tai yhteyshenkilösi ovat harvoin netissä.</string>
@@ -324,7 +324,7 @@
   <string name="blogs_rss_feeds_manage_error">Syötteiden lataamisessa tapahtui virhe. Yritä myöhemmin uudelleen.</string>
   <!--Settings Display-->
   <string name="pref_language_title">Kieli &amp; alue</string>
-  <string name="pref_language_changed">Tämä asetus otetaan käyttöön kun uudelleenkäynnistät Briarin. Kirjaudu ulos ja käynnistä Briar uudelleen.</string>
+  <string name="pref_language_changed">Tämä asetus otetaan käyttöön kun uudelleenkäynnistät Sushhin. Kirjaudu ulos ja käynnistä Sushh uudelleen.</string>
   <string name="pref_language_default">Järjestelmäoletus</string>
   <string name="display_settings_title">Näytä</string>
   <string name="pref_theme_title">Teema</string>
@@ -347,10 +347,10 @@
   <string name="tor_mobile_data_title">Käytä mobiilitiedonsiirtoa</string>
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Turvallisuus</string>
-  <string name="pref_lock_summary">Käytä laitteen näytön lukitusta suojataksesi Briar kun olet kirjautunut sisään</string>
+  <string name="pref_lock_summary">Käytä laitteen näytön lukitusta suojataksesi Sushh kun olet kirjautunut sisään</string>
   <string name="pref_lock_disabled_summary">Käyttääksesi tätä ominaisuutta, ota käyttöön laitteesi näytön lukitus</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Kun Briar ei ole käytössä, lukitse se automaattisesti %s jälkeen</string>
+  <string name="pref_lock_timeout_summary">Kun Sushh ei ole käytössä, lukitse se automaattisesti %s jälkeen</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 minuutin</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -362,7 +362,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 tunnin</string>
   <string name="pref_lock_timeout_never">Ei koskaan</string>
-  <string name="pref_lock_timeout_never_summary">Älä lukitse Briaria automaattisesti</string>
+  <string name="pref_lock_timeout_never_summary">Älä lukitse Sushhia automaattisesti</string>
   <string name="change_password">Vaihda salasana</string>
   <string name="current_password">Nykyinen salasana</string>
   <string name="choose_new_password">Uusi salasana</string>
@@ -370,7 +370,7 @@
   <string name="password_changed">Salasana on vaihdettu.</string>
   <string name="panic_setting">Paniikkinapin asetus</string>
   <string name="panic_setting_title">Paniikkinappi</string>
-  <string name="panic_setting_hint">Säädä miten Briar tulee käyttäytymään kun käytät paniikkinappisovellusta</string>
+  <string name="panic_setting_hint">Säädä miten Sushh tulee käyttäytymään kun käytät paniikkinappisovellusta</string>
   <string name="panic_app_setting_title">Paniikkinappisovellus</string>
   <string name="unknown_app">tuntematon sovellus</string>
   <string name="panic_app_setting_summary">Sovellusta ei ole valittu</string>
@@ -378,10 +378,10 @@
   <string name="dialog_title_connect_panic_app">Vahvista paniikkisovellus</string>
   <string name="dialog_message_connect_panic_app">Oletko varma, että haluat myöntää ohjelmalle %1$s luvan laukaista tuhoa aiheuttavia paniikkinapin toimintoja?</string>
   <string name="panic_setting_signout_title">Kirjaudu ulos</string>
-  <string name="panic_setting_signout_summary">Kirjaudu ulos Briarista jos paniikkinappia on painettu</string>
+  <string name="panic_setting_signout_summary">Kirjaudu ulos Sushhista jos paniikkinappia on painettu</string>
   <string name="purge_setting_title">Poista tili</string>
-  <string name="purge_setting_summary">Poista Briar tilisi jos paniikkinappia on painettu. Varoitus: Tämä tulee pysyvästi poistamaan sinun tunnukset, yhteystiedot ja viestit</string>
-  <string name="uninstall_setting_title">Poista Briarin asennus</string>
+  <string name="purge_setting_summary">Poista Sushh tilisi jos paniikkinappia on painettu. Varoitus: Tämä tulee pysyvästi poistamaan sinun tunnukset, yhteystiedot ja viestit</string>
+  <string name="uninstall_setting_title">Poista Sushhin asennus</string>
   <string name="uninstall_setting_summary">Tämä tulee vaatimaan manuaalisen varmennuksen paniikkitilanteessa</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Ilmoitukset</string>
@@ -413,10 +413,10 @@
   <string name="link_warning_intro">Olet aikomassa avata seuraavan linkin toisessa sovelluksessa.</string>
   <string name="link_warning_open_link">Avaa linkki</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar kaatumisilmoitus</string>
-  <string name="briar_crashed">Pahoittelemme, Briar on kaatunut.</string>
+  <string name="crash_report_title">Sushh kaatumisilmoitus</string>
+  <string name="briar_crashed">Pahoittelemme, Sushh on kaatunut.</string>
   <string name="not_your_fault">Tämä ei ole sinun syysi.</string>
-  <string name="please_send_report">Auta meitä rakentamaan parempi Briar lähettämällä meille kaatumisilmoitus.</string>
+  <string name="please_send_report">Auta meitä rakentamaan parempi Sushh lähettämällä meille kaatumisilmoitus.</string>
   <string name="report_is_encrypted">Lupaamme, että ilmoitus on salattu ja lähetetty turvallisesti.</string>
   <string name="feedback_title">Palaute</string>
   <string name="describe_crash">Kuvaile mitä tapahtui (valinnainen)</string>
@@ -427,25 +427,25 @@
   <string name="could_not_load_report_data">Ilmoituksen tietojen lataaminen epäonnistui.</string>
   <string name="send_report">Lähetä ilmoitus</string>
   <string name="close">Sulje</string>
-  <string name="dev_report_saved">Ilmoitus tallennettu. Sen lähetys tapahtuu seuraavan kerran kun kirjaudut sisään Briariin.</string>
+  <string name="dev_report_saved">Ilmoitus tallennettu. Sen lähetys tapahtuu seuraavan kerran kun kirjaudut sisään Sushhiin.</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Kirjaudutaan ulos Briarista...</string>
+  <string name="progress_title_logout">Kirjaudutaan ulos Sushhista...</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Näyttökerros havaittu</string>
-  <string name="screen_filter_body">Toinen sovellus on piirtämässä Briarin päälle. Suojellakseen sinun turvallisuutta, Briar ei tule vastaamaan kosketuksiin silloin kun toinen sovellus on piirtämässä Briarin päälle.\n\nOn mahdollista, että seuraavat sovellukset piirtävät päälle:\n\n%1$s</string>
+  <string name="screen_filter_body">Toinen sovellus on piirtämässä Sushhin päälle. Suojellakseen sinun turvallisuutta, Sushh ei tule vastaamaan kosketuksiin silloin kun toinen sovellus on piirtämässä Sushhin päälle.\n\nOn mahdollista, että seuraavat sovellukset piirtävät päälle:\n\n%1$s</string>
   <string name="screen_filter_allow">Salli näiden sovellusten piirtää päälle</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Kameran käyttöoikeus</string>
-  <string name="permission_camera_request_body">Skannatakseen QR koodin, Briar tarvitsee luvan käyttää kameraa.</string>
+  <string name="permission_camera_request_body">Skannatakseen QR koodin, Sushh tarvitsee luvan käyttää kameraa.</string>
   <string name="permission_camera_denied_body">Olet kieltänyt käyttämästä kameraa, mutta yhteyshenkilöiden lisääminen vaatii kameran käyttöä.\n\nOle hyvä ja harkitse kameraluvan myöntämistä.</string>
   <string name="qr_code">QR-koodi</string>
   <string name="show_qr_code_fullscreen">Näytä QR-koodi koko näytöllä</string>
   <!--App Locking-->
-  <string name="lock_unlock">Avaa Briarin lukitus</string>
-  <string name="lock_unlock_verbose">Syötä laitteesi PIN, kuvio tai salasana avataksesi Briar</string>
+  <string name="lock_unlock">Avaa Sushhin lukitus</string>
+  <string name="lock_unlock_verbose">Syötä laitteesi PIN, kuvio tai salasana avataksesi Sushh</string>
   <string name="lock_unlock_fingerprint_description">Kosketa sormenjälkitunnistinta rekisteröidyllä sormella jatkaaksesi</string>
   <string name="lock_unlock_password">Käytä salasanaa</string>
-  <string name="lock_is_locked">Briar on lukittu</string>
+  <string name="lock_is_locked">Sushh on lukittu</string>
   <string name="lock_tap_to_unlock">Napauta avataksesi lukitus</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
