@@ -29,22 +29,32 @@ jobs:
           java-version: "11"
           cache: gradle
 
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
       - name: Build official debug APK
         run: ./gradlew --no-daemon :briar-android:assembleOfficialDebug
 
-      - name: Prepare APK artifact
+      - name: Build official release APK
+        run: ./gradlew --no-daemon :briar-android:assembleOfficialRelease
+
+      - name: Prepare APK artifacts
         run: |
           mkdir -p apk
           cp briar-android/build/outputs/apk/official/debug/*.apk apk/Goonj-debug.apk
+          cp briar-android/build/outputs/apk/official/release/*.apk apk/Goonj-release.apk
           sha256sum apk/Goonj-debug.apk > apk/Goonj-debug.apk.sha256
+          sha256sum apk/Goonj-release.apk > apk/Goonj-release.apk.sha256
 
-      - name: Upload APK
+      - name: Upload APK artifacts
         uses: actions/upload-artifact@v6
         with:
-          name: Goonj-debug-apk-${{ github.run_number }}
+          name: Goonj-apks-${{ github.run_number }}
           path: |
             apk/Goonj-debug.apk
             apk/Goonj-debug.apk.sha256
+            apk/Goonj-release.apk
+            apk/Goonj-release.apk.sha256
           if-no-files-found: error
           compression-level: 0
           retention-days: 14

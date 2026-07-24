@@ -111,9 +111,10 @@ public class BriarApplicationImpl extends Application
 
 	private void setTheme(Context ctx, SharedPreferences prefs) {
 		String theme = prefs.getString(PREF_THEME, null);
-		if (theme == null) {
-			// set default value
-			theme = getString(R.string.pref_theme_system_value);
+		String lightTheme = getString(R.string.pref_theme_light_value);
+		if (theme == null || theme.equals(getString(R.string.pref_theme_dark_value))) {
+			// default new installs to light mode, and normalize legacy dark values
+			theme = lightTheme;
 			prefs.edit().putString(PREF_THEME, theme).apply();
 		}
 		// set theme
