@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<!--Setup-->
-	<string name="setup_title">ברוך בואך אל Briar</string>
+	<string name="setup_title">ברוך בואך אל Sushh</string>
 	<string name="setup_name_explanation">כינויך יוראה ליד תוכן כלשהו שתכתוב. אינך יכול לשנות אותו לאחר יצירת חשבונך.</string>
 	<string name="setup_next">הבא</string>
 	<string name="setup_password_intro">נא לבחור סיסמה</string>
-	<string name="setup_password_explanation">חשבון Briar שלך מאוחסן באופן מוצפן במכשירך, לא בענן. אם תשכח את סיסמתך או תסיר את Briar, אין דרך להשיב את חשבונך.\n\nבחר סיסמה ארוכה שקשה לנחש אותה, כגון ארבע מילים אקראיות, או עשרה תווים אקראיים של אותיות, מספרים וסמלים.</string>
+	<string name="setup_password_explanation">חשבון Sushh שלך מאוחסן באופן מוצפן במכשירך, לא בענן. אם תשכח את סיסמתך או תסיר את Sushh, אין דרך להשיב את חשבונך.\n\nבחר סיסמה ארוכה שקשה לנחש אותה, כגון ארבע מילים אקראיות, או עשרה תווים אקראיים של אותיות, מספרים וסמלים.</string>
 	<string name="dnkm_doze_title">חיבורי רקע</string>
-	<string name="dnkm_doze_intro">כדי לקבל הודעות, Briar צריך להישאר מחובר ברקע.</string>
-	<string name="dnkm_doze_explanation">כדי לקבל הודעות, Briar צריך להישאר מחובר ברקע. אנא השבת מיטובי סוללה כך ש־Briar יוכל להישאר מחובר.</string>
+	<string name="dnkm_doze_intro">כדי לקבל הודעות, Sushh צריך להישאר מחובר ברקע.</string>
+	<string name="dnkm_doze_explanation">כדי לקבל הודעות, Sushh צריך להישאר מחובר ברקע. אנא השבת מיטובי סוללה כך ש־Sushh יוכל להישאר מחובר.</string>
 	<string name="dnkm_doze_button">התר חיבורים</string>
 	<string name="choose_nickname">נא לבחור את הכינוי שלך</string>
 	<string name="choose_password">בחר סיסמה</string>
@@ -19,29 +19,29 @@
 	<string name="create_account_button">יצירת חשבון</string>
 	<string name="more_info">מידע נוסף</string>
 	<string name="don_t_ask_again">לא לשאול שוב</string>
-	<string name="dnkm_huawei_protected_text">נא להקיש על הכפתור למטה וולוודא כי Briar מוגן במסך \"יישומים מוגנים\".</string>
-	<string name="dnkm_huawei_protected_button">הגן על Briar</string>
-	<string name="dnkm_huawei_protected_help">אם Briar אינו מוסף אל רשימת היישומים המוגנים, הוא לא יוכל לרוץ ברקע.</string>
-	<string name="dnkm_xiaomi_button">הגן על Briar</string>
+	<string name="dnkm_huawei_protected_text">נא להקיש על הכפתור למטה וולוודא כי Sushh מוגן במסך \"יישומים מוגנים\".</string>
+	<string name="dnkm_huawei_protected_button">הגן על Sushh</string>
+	<string name="dnkm_huawei_protected_help">אם Sushh אינו מוסף אל רשימת היישומים המוגנים, הוא לא יוכל לרוץ ברקע.</string>
+	<string name="dnkm_xiaomi_button">הגן על Sushh</string>
 	<string name="dnkm_warning_dozed">%s לא היה יכול לרוץ ברקע</string>
 	<!--Login-->
 	<string name="enter_password">סיסמה</string>
 	<string name="try_again">סיסמה שגויה, נסה שוב</string>
 	<string name="dialog_title_cannot_check_password">לא יכול לבדוק סיסמה</string>
-	<string name="dialog_message_cannot_check_password">Briar לא יכול לבדוק את הסיסמה שלך. אנא נסה לאתחל מחדש את המכשיר שלך כדי לפתור בעיה זאת.</string>
+	<string name="dialog_message_cannot_check_password">Sushh לא יכול לבדוק את הסיסמה שלך. אנא נסה לאתחל מחדש את המכשיר שלך כדי לפתור בעיה זאת.</string>
 	<string name="sign_in_button">כניסה</string>
 	<string name="forgotten_password">שכחתי את הסיסמה שלי</string>
   <string name="dialog_title_lost_password">סיסמה אבודה</string>
-  <string name="dialog_message_lost_password">חשבון Briar שלך מאוחסן באופן מוצפן על המכשיר שלך, לא בענן, כך שאנחנו לא יכולים לאפס את הסיסמה שלך. האם תרצה למחוק את החשבון שלך ולהתחיל מחדש?\n\nזהירות: הזהויות, אנשי הקשר וההודעות שלך יאבדו לצמיתות.</string>
-  <string name="startup_failed_activity_title">כישלון הזנק Briar</string>
+  <string name="dialog_message_lost_password">חשבון Sushh שלך מאוחסן באופן מוצפן על המכשיר שלך, לא בענן, כך שאנחנו לא יכולים לאפס את הסיסמה שלך. האם תרצה למחוק את החשבון שלך ולהתחיל מחדש?\n\nזהירות: הזהויות, אנשי הקשר וההודעות שלך יאבדו לצמיתות.</string>
+  <string name="startup_failed_activity_title">כישלון הזנק Sushh</string>
   <plurals name="expiry_warning">
-    <item quantity="one">זאת גרסת בחינה של Briar. חשבונך יפוג תוך יום %d ואינו יכול להתחדש.</item>
-    <item quantity="two">זאת גרסת בחינה של Briar. חשבונך יפוג תוך %d ימים ואינו יכול להתחדש.</item>
-    <item quantity="many">זאת גרסת בחינה של Briar. חשבונך יפוג תוך %d ימים ואינו יכול להתחדש.</item>
-    <item quantity="other">זאת גרסת בחינה של Briar. חשבונך יפוג תוך %d ימים ואינו יכול להתחדש.</item>
+    <item quantity="one">זאת גרסת בחינה של Sushh. חשבונך יפוג תוך יום %d ואינו יכול להתחדש.</item>
+    <item quantity="two">זאת גרסת בחינה של Sushh. חשבונך יפוג תוך %d ימים ואינו יכול להתחדש.</item>
+    <item quantity="many">זאת גרסת בחינה של Sushh. חשבונך יפוג תוך %d ימים ואינו יכול להתחדש.</item>
+    <item quantity="other">זאת גרסת בחינה של Sushh. חשבונך יפוג תוך %d ימים ואינו יכול להתחדש.</item>
   </plurals>
   <string name="expiry_date_reached">תוכנה זו פגה.\nתודה על הבדיקה!</string>
-  <string name="download_briar">כדי להמשיך להשתמש ב־Briar, אנא הורד את השחרור האחרון.</string>
+  <string name="download_briar">כדי להמשיך להשתמש ב־Sushh, אנא הורד את השחרור האחרון.</string>
   <string name="create_new_account">יהיה צריך ליצור חשבון חדש, אבל אפשר להשתמש באותו הכינוי.</string>
   <string name="download_briar_button">הורד שחרור אחרון</string>
   <string name="delete_account_button">מחק חשבון</string>
@@ -59,43 +59,43 @@
   <string name="lock_button">נעל יישום</string>
   <string name="settings_button">הגדרות</string>
   <string name="sign_out_button">יציאה</string>
-  <string name="transports_onboarding_text">הקש כאן כדי לשלוט איך Briar מתחבר אל אנשי הקשר שלך.</string>
+  <string name="transports_onboarding_text">הקש כאן כדי לשלוט איך Sushh מתחבר אל אנשי הקשר שלך.</string>
   <!--Transports: Tor-->
   <string name="transport_tor">אינטרנט</string>
   <string name="tor_device_status_online_wifi">לטלפון שלך גישה לאינטרנט באמצעות רשת אלחוטית</string>
   <string name="tor_device_status_online_mobile">לטלפון שלך גישה לאינטרנט באמצעות נתונים ניידים</string>
   <string name="tor_device_status_offline">לטלפון שלך אין גישה לאינטרנט</string>
-  <string name="tor_plugin_status_enabling">Briar מתחבר אל האינטרנט</string>
-  <string name="tor_plugin_status_active">Briar מחובר אל האינטרנט</string>
-  <string name="tor_plugin_status_inactive">Briar אינו יכול להתחבר אל האינטרנט</string>
-  <string name="tor_plugin_status_disabled">Briar מתוצר לא להשתמש באינטרנט</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briar מתוצר לא להשתמש בנתונים סלולריים</string>
-  <string name="tor_plugin_status_disabled_battery">Briar מתוצר לא להשתמש באינטרנט בעת הרצה על סוללה</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briar מתוצר לא להשתמש באינטרנט במדינה זו</string>
+  <string name="tor_plugin_status_enabling">Sushh מתחבר אל האינטרנט</string>
+  <string name="tor_plugin_status_active">Sushh מחובר אל האינטרנט</string>
+  <string name="tor_plugin_status_inactive">Sushh אינו יכול להתחבר אל האינטרנט</string>
+  <string name="tor_plugin_status_disabled">Sushh מתוצר לא להשתמש באינטרנט</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushh מתוצר לא להשתמש בנתונים סלולריים</string>
+  <string name="tor_plugin_status_disabled_battery">Sushh מתוצר לא להשתמש באינטרנט בעת הרצה על סוללה</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushh מתוצר לא להשתמש באינטרנט במדינה זו</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">רשת אלחוטית</string>
   <string name="transport_lan_long">אותה הרשת האלחוטית</string>
   <string name="lan_device_status_on">הטלפון שלך מחובר לרשת אלחוטית</string>
   <string name="lan_device_status_off">הטלפון שלך אינו מחובר לרשת האלחוטית</string>
-  <string name="lan_plugin_status_enabling">Briar מתחבר לרשת האלחוטית</string>
-  <string name="lan_plugin_status_active">Briar מחובר לרשת האלחוטית</string>
-  <string name="lan_plugin_status_inactive">אין באפשרות Briar להתחבר לרשת האלחוטית</string>
-  <string name="lan_plugin_status_disabled">Briar מוגדר לא להשתמש ברשת האלחוטית</string>
+  <string name="lan_plugin_status_enabling">Sushh מתחבר לרשת האלחוטית</string>
+  <string name="lan_plugin_status_active">Sushh מחובר לרשת האלחוטית</string>
+  <string name="lan_plugin_status_inactive">אין באפשרות Sushh להתחבר לרשת האלחוטית</string>
+  <string name="lan_plugin_status_disabled">Sushh מוגדר לא להשתמש ברשת האלחוטית</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">Bluetooth של הטלפון שלך מופעל</string>
   <string name="bt_device_status_off">Bluetooth של הטלפון שלך מכובה</string>
-  <string name="bt_plugin_status_enabling">Briar מתחבר אל Bluetooth</string>
-  <string name="bt_plugin_status_active">Briar מחובר אל Bluetooth</string>
-  <string name="bt_plugin_status_inactive">Briar אינו יכול להתחבר אל Bluetooth</string>
-  <string name="bt_plugin_status_disabled">Briar מתוצר לא להשתמש ב־Bluetooth</string>
+  <string name="bt_plugin_status_enabling">Sushh מתחבר אל Bluetooth</string>
+  <string name="bt_plugin_status_active">Sushh מחובר אל Bluetooth</string>
+  <string name="bt_plugin_status_inactive">Sushh אינו יכול להתחבר אל Bluetooth</string>
+  <string name="bt_plugin_status_disabled">Sushh מתוצר לא להשתמש ב־Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">נותקת מן Briar</string>
+  <string name="reminder_notification_title">נותקת מן Sushh</string>
   <string name="reminder_notification_text">הקש כדי להתחבר חזרה.</string>
-  <string name="reminder_notification_channel_title">תזכורת התחברות של Briar</string>
+  <string name="reminder_notification_channel_title">תזכורת התחברות של Sushh</string>
   <string name="reminder_notification_dismiss">שחרר</string>
-  <string name="ongoing_notification_title">מחובר אל Briar</string>
-  <string name="ongoing_notification_text">גע כדי לפתוח את Briar.</string>
+  <string name="ongoing_notification_title">מחובר אל Sushh</string>
+  <string name="ongoing_notification_text">גע כדי לפתוח את Sushh.</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">הודעה פרטית חדשה.</item>
     <item quantity="two">%d הודעות פרטיות חדשות.</item>
@@ -187,7 +187,7 @@
   <string name="save_image_success">התמונה נשמרה</string>
   <string name="save_image_error">לא היה ניתן לשמור תמונה</string>
   <string name="dialog_title_no_image_support">תמונות בלתי זמינות</string>
-  <string name="dialog_message_no_image_support">Briar של איש הקשר שלך אינו תומך בצרופות תמונה. ברגע שהוא ישדרג, תראה צלמית שונה.</string>
+  <string name="dialog_message_no_image_support">Sushh של איש הקשר שלך אינו תומך בצרופות תמונה. ברגע שהוא ישדרג, תראה צלמית שונה.</string>
   <string name="dialog_title_image_support">כעת אפשר לשלוח תמונות אל איש קשר זה</string>
   <string name="dialog_message_image_support">הקש על צלמית זו כדי לצרף תמונות.</string>
   <string name="messaging_too_many_attachments_toast">רק %d התמונות הראשונות יישלחו</string>
@@ -224,7 +224,7 @@
   <string name="add_contact_choose_a_nickname">הכנס כינוי</string>
   <string name="nickname_intro">יש לתת את הכינוי לאיש הקשר שלך. רק את/ה יכול/ה לראות אותו.</string>
   <string name="your_link">יש לתת את הקישור הזה לאיש הקשר שברצונך להוסיף</string>
-  <string name="link_clip_label">קישור Briar</string>
+  <string name="link_clip_label">קישור Sushh</string>
   <string name="link_copied_toast">קישור הועתק</string>
   <string name="adding_contact_error">הייתה שגיאה בהוספת איש הקשר.</string>
   <string name="pending_contact_requests_snackbar">יש בקשות ממתינות של אנשי קשר</string>
@@ -239,7 +239,7 @@
   <string name="own_link_error">הכנס את הקישור של איש הקשר שלך, לא את שלך</string>
   <string name="nickname_missing">אנא הכנס כינוי</string>
   <string name="invalid_link">קישור בלתי תקף</string>
-  <string name="unsupported_link">קישור זה מגיע מגרסה חדשה יותר של Briar. אנא שדרג אל הגרסה האחרונה ונסה שוב.</string>
+  <string name="unsupported_link">קישור זה מגיע מגרסה חדשה יותר של Sushh. אנא שדרג אל הגרסה האחרונה ונסה שוב.</string>
   <string name="intent_own_link">פתחת את הקישור של עצמך. יש להשתמש בקישור של איש הקשר שברצונך להוסיף!</string>
   <string name="missing_link">אנא הכנס קישור</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -268,7 +268,7 @@
   <string name="pending_contact_updated_toast">איש קשר ממתין עודכן</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">הכר בין אנשי הקשר שלך</string>
-  <string name="introduction_onboarding_text">אפשר להכיר בין אנשי הקשר שלך אחד עם השני, כך שהם לא צריכים להיפגש פנים מול פנים כדי להתחבר ב־Briar.</string>
+  <string name="introduction_onboarding_text">אפשר להכיר בין אנשי הקשר שלך אחד עם השני, כך שהם לא צריכים להיפגש פנים מול פנים כדי להתחבר ב־Sushh.</string>
   <string name="introduction_menu_item">בצע היכרות</string>
   <string name="introduction_activity_title">בחר איש קשר</string>
   <string name="introduction_not_possible">יש לך כבר היכרות אחת בתהליך עם אנשי קשר אלו. אנא התר לה תחילה לסיים. אם אתה או אנשי הקשר שלך לעיתים נדירות מחוברים, זה עשוי לקחת זמן מה.</string>
@@ -458,7 +458,7 @@
   <string name="change_profile_picture_failed_message">אנו מצטערים משהו השתבש בעת עדכון תמונת הפרופיל שלך</string>
   <!--Settings Display-->
   <string name="pref_language_title">שפה ואזור</string>
-  <string name="pref_language_changed">הגדרה זו תיכנס לתוקף כשתפעיל מחדש את Briar. אנא התנתק והפעל מחדש את Briar.</string>
+  <string name="pref_language_changed">הגדרה זו תיכנס לתוקף כשתפעיל מחדש את Sushh. אנא התנתק והפעל מחדש את Sushh.</string>
   <string name="pref_language_default">ברירת מחדל של מערכת</string>
   <string name="display_settings_title">תצוגה</string>
   <string name="pref_theme_title">ערכת נושא</string>
@@ -477,7 +477,7 @@
   <string name="tor_network_setting_without_bridges">השתמש ברשת Tor בלי גשרים</string>
   <string name="tor_network_setting_with_bridges">השתמש ברשת Tor עם גשרים</string>
   <string name="tor_network_setting_never">אל תתחבר אל האינטרנט</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">אוטומטי: %1$s (תוך %2$s)</string>
   <string name="tor_mobile_data_title">השתמש בנתונים סלולריים</string>
   <string name="tor_only_when_charging_title">התחבר אל האינטרנט רק בעת טעינה</string>
@@ -485,11 +485,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">אבטחה</string>
   <string name="pref_lock_title">נעילת יישום</string>
-  <string name="pref_lock_summary">השתמש במסך הנעילה של המכשיר כדי להגן על Briar כשאתה מחובר</string>
+  <string name="pref_lock_summary">השתמש במסך הנעילה של המכשיר כדי להגן על Sushh כשאתה מחובר</string>
   <string name="pref_lock_disabled_summary">כדי להשתמש במאפיין זה, הגדר לראשונה מסך נעילה עבור מכשירך</string>
   <string name="pref_lock_timeout_title">הפוגת אי־פעילות של נעילת יישום</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">בעת אי־שימוש ב־Briar, נעל אותו באופן אוטומטי לאחר %s</string>
+  <string name="pref_lock_timeout_summary">בעת אי־שימוש ב־Sushh, נעל אותו באופן אוטומטי לאחר %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">דקה 1</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -501,7 +501,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">שעה 1</string>
   <string name="pref_lock_timeout_never">לעולם לא</string>
-  <string name="pref_lock_timeout_never_summary">לעולם אל תנעל את Briar באופן אוטומטי</string>
+  <string name="pref_lock_timeout_never_summary">לעולם אל תנעל את Sushh באופן אוטומטי</string>
   <string name="change_password">שינוי הסיסמה</string>
   <string name="current_password">סיסמה נוכחית</string>
   <string name="choose_new_password">סיסמה חדשה</string>
@@ -509,7 +509,7 @@
   <string name="password_changed">סיסמה שונתה.</string>
   <string name="panic_setting">הגדרה ראשונית של כפתור בהלה</string>
   <string name="panic_setting_title">כפתור בהלה</string>
-  <string name="panic_setting_hint">קבע כיצד Briar יגיב כשתשתמש ביישום כפתור בהלה</string>
+  <string name="panic_setting_hint">קבע כיצד Sushh יגיב כשתשתמש ביישום כפתור בהלה</string>
   <string name="panic_app_setting_title">יישום כפתור בהלה</string>
   <string name="unknown_app">יישום בלתי ידוע</string>
   <string name="panic_app_setting_summary">יישום לא הוגדר</string>
@@ -518,9 +518,9 @@
   <string name="dialog_message_connect_panic_app">האם אתה בטוח שאתה רוצה להתיר אל %1$s לעורר פעולות הרסניות של כפתור בהלה?</string>
   <string name="panic_setting_destructive_action">פעולות הרסניות</string>
   <string name="panic_setting_signout_title">התנתק</string>
-  <string name="panic_setting_signout_summary">התנתק מן Briar אם כפתור בהלה נלחץ</string>
+  <string name="panic_setting_signout_summary">התנתק מן Sushh אם כפתור בהלה נלחץ</string>
   <string name="purge_setting_title">מחק חשבון</string>
-  <string name="purge_setting_summary">מחק את חשבון Briar שלך אם כפתור בהלה נלחץ. זהירות: זה ימחק לצמיתות את הזהויות, אנשי הקשר וההודעות שלך</string>
+  <string name="purge_setting_summary">מחק את חשבון Sushh שלך אם כפתור בהלה נלחץ. זהירות: זה ימחק לצמיתות את הזהויות, אנשי הקשר וההודעות שלך</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">התראות</string>
   <string name="notify_sign_in_title">הזכר לי להתחבר</string>
@@ -554,9 +554,9 @@
   <string name="link_warning_text">זה יכול לשמש כדי לזהות אותך. נא לחשוב האם הנך בוטח/ת באיש ששלח לך את הקישור הזה ולשקול לפתוח את הקישור עם דפדפן Tor.</string>
   <string name="link_warning_open_link">פתח קישור</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">דוח קריסת Briar</string>
+  <string name="crash_report_title">דוח קריסת Sushh</string>
   <string name="not_your_fault">זאת לא אשמתך.</string>
-  <string name="please_send_report">אנא עזור לנו לבנות Briar טוב יותר ע״י שליחת דוח קריסה אלינו.</string>
+  <string name="please_send_report">אנא עזור לנו לבנות Sushh טוב יותר ע״י שליחת דוח קריסה אלינו.</string>
   <string name="report_is_encrypted">אנו מבטיחים שהדוח הזה מוצפן ונשלח באופן מאובטח.</string>
   <string name="feedback_title">משוב</string>
   <string name="describe_crash">תאר מה קרה (רשותי)</string>
@@ -578,36 +578,36 @@
   <string name="close">סגירה</string>
   <string name="dev_report_sending">שולח משוב…</string>
   <string name="dev_report_sent">משוב נשלח</string>
-  <string name="dev_report_saved">הדוח נשמר. הוא יישלח בפעם הבאה שתתחבר אל Briar.</string>
+  <string name="dev_report_saved">הדוח נשמר. הוא יישלח בפעם הבאה שתתחבר אל Sushh.</string>
   <string name="dev_report_error">שגיאה: שליחת דוח נכשלה</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">יוצא מ־Briar…</string>
+  <string name="progress_title_logout">יוצא מ־Sushh…</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">ציפוי מסך התגלה</string>
-  <string name="screen_filter_body">יישום אחר מציירת מעל Briar. כדי להגן על אבטחתך, Briar לא יגיב לנגיעות כאשר יישום אחר מצייר מעל.\n\nהיישומים הבאים יכולים לצייר מעל:\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">יישום אחר מצייר מעל Briar. כדי להגן על אבטחתך, Briar לא יגיב לנגיעות כאשר יישום אחר מצייר מעל.\n\nסקור יישומים למטה כדי למצוא את היישום האחראי.</string>
+  <string name="screen_filter_body">יישום אחר מציירת מעל Sushh. כדי להגן על אבטחתך, Sushh לא יגיב לנגיעות כאשר יישום אחר מצייר מעל.\n\nהיישומים הבאים יכולים לצייר מעל:\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">יישום אחר מצייר מעל Sushh. כדי להגן על אבטחתך, Sushh לא יגיב לנגיעות כאשר יישום אחר מצייר מעל.\n\nסקור יישומים למטה כדי למצוא את היישום האחראי.</string>
   <string name="screen_filter_allow">התר ליישומים אלו לצייר מעל</string>
   <string name="screen_filter_review_apps">סקור יישומים</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">הרשאת מצלמה</string>
-  <string name="permission_camera_request_body">כדי לסרוק את קוד ה־QR, היישום Briar צריך גישה אל המצלמה.</string>
+  <string name="permission_camera_request_body">כדי לסרוק את קוד ה־QR, היישום Sushh צריך גישה אל המצלמה.</string>
   <string name="permission_location_title">הרשאת מיקום</string>
-  <string name="permission_location_request_body">כדי לגלות מכשירי Bluetooth, היישום Briar צריך הרשאה להשיג גישה אל מיקומך.\n\nBriar אינו מאחסן את מיקומך או משתף אותו עם אף אחד.</string>
+  <string name="permission_location_request_body">כדי לגלות מכשירי Bluetooth, היישום Sushh צריך הרשאה להשיג גישה אל מיקומך.\n\nSushh אינו מאחסן את מיקומך או משתף אותו עם אף אחד.</string>
   <string name="permission_camera_location_title">מצלמה ומיקום</string>
-  <string name="permission_camera_location_request_body">כדי לסרוק את קוד ה־QR, היישום Briar צריך הרשאה אל המצלמה.\n\nכדי לגלות מכשירי שן־כחולה, Briar צריך הרשאה להשיג גישה אל מיקומך.\n\nBriar אינו מאחסן את מיקומך או משתף אותו עם אף אחד.</string>
+  <string name="permission_camera_location_request_body">כדי לסרוק את קוד ה־QR, היישום Sushh צריך הרשאה אל המצלמה.\n\nכדי לגלות מכשירי שן־כחולה, Sushh צריך הרשאה להשיג גישה אל מיקומך.\n\nSushh אינו מאחסן את מיקומך או משתף אותו עם אף אחד.</string>
   <string name="permission_camera_denied_body">דחית גישה אל המצלמה, אבל הוספת אנשי קשר דורשת שימוש במצלמה.\n\nאנא שקול הענקת גישה.</string>
-  <string name="permission_location_denied_body">דחית גישה אל המיקום שלך, אבל Briar צריך הרשאה זו כדי לגלות מכשירי Bluetooth.\n\nאנא שקול להעניק גישה.</string>
+  <string name="permission_location_denied_body">דחית גישה אל המיקום שלך, אבל Sushh צריך הרשאה זו כדי לגלות מכשירי Bluetooth.\n\nאנא שקול להעניק גישה.</string>
   <string name="qr_code">קוד QR</string>
   <string name="show_qr_code_fullscreen">הראה קוד QR במסך מלא</string>
   <!--App Locking-->
-  <string name="lock_unlock">בטל נעילת Briar</string>
-  <string name="lock_unlock_verbose">אנא הכנס PIN, דפוס או סיסמה של מכשריך כדי לבטל נעילת Briar</string>
+  <string name="lock_unlock">בטל נעילת Sushh</string>
+  <string name="lock_unlock_verbose">אנא הכנס PIN, דפוס או סיסמה של מכשריך כדי לבטל נעילת Sushh</string>
   <string name="lock_unlock_fingerprint_description">גע בחיישן טביעת האצבע שלך עם האצבע הרשומה כדי להמשיך</string>
   <string name="lock_unlock_password">השתמש בסיסמה</string>
-  <string name="lock_is_locked">Briar נעול</string>
+  <string name="lock_is_locked">Sushh נעול</string>
   <string name="lock_tap_to_unlock">הקשה תבטל את הנעילה</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar יכול להתחבר אל אנשי הקשר שלך באמצעות האינטרנט, הרשת האלחוטית או Bluetooth.\n\nכל חיבורי האינטרנט עוברים דרך רשת Tor למען פרטיות.\n\nאם איש קשר ניתן להשגה באמצעות שיטות רבות, Briar משתמש בהן במקביל.</string>
+  <string name="transports_help_text">Sushh יכול להתחבר אל אנשי הקשר שלך באמצעות האינטרנט, הרשת האלחוטית או Bluetooth.\n\nכל חיבורי האינטרנט עוברים דרך רשת Tor למען פרטיות.\n\nאם איש קשר ניתן להשגה באמצעות שיטות רבות, Sushh משתמש בהן במקביל.</string>
   <!--Share app offline-->
   <string name="hotspot_notification_channel_title">נקודה חמה של Wi-Fi</string>
   <string name="hotspot_button_connected">הבא</string>
@@ -616,7 +616,7 @@
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <!--e.g. Download Briar 1.2.20-->
+  <!--e.g. Download Sushh 1.2.20-->
   <string name="website_troubleshooting_title">פתרון תקלות</string>
   <!--error handling-->
   <!--Transfer Data via Removable Drives-->
@@ -630,7 +630,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">היי יהונתן!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">היי נועה! תודה שסיפרת לי על Briar!</string>
+  <string name="screenshot_message_2">היי נועה! תודה שסיפרת לי על Sushh!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">על לא דבר, מקווה שאתה אוהב אותו 😀</string>
 </resources>
