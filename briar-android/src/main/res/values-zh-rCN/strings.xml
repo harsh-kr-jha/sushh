@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--Setup-->
-  <string name="setup_title">欢迎来到 Briar</string>
+  <string name="setup_title">欢迎来到 Sushh</string>
   <string name="setup_name_explanation">您的昵称将被显示在您发布的任何内容旁边。昵称在创建帐户后无法更改。</string>
   <string name="setup_next">下一步</string>
   <string name="setup_password_intro">设置一个密码</string>
-  <string name="setup_password_explanation">您的 Briar 帐户将被加密储存在您的设备上，而非云端。卸载 Briar 或忘记密码，将导致帐户无法恢复。请设置一个不易被猜出的长密码，比如四个随机英文单词，或是由随机字母、数字和符号组成的十位字符。</string>
-  <string name="dnkm_doze_intro">为了接收消息，Briar 需要在后台保持连接。</string>
-  <string name="dnkm_doze_explanation">为了接收消息，Briar 需要在后台保持连接。因此，请禁用电量优化选项。</string>
+  <string name="setup_password_explanation">您的 Sushh 帐户将被加密储存在您的设备上，而非云端。卸载 Sushh 或忘记密码，将导致帐户无法恢复。请设置一个不易被猜出的长密码，比如四个随机英文单词，或是由随机字母、数字和符号组成的十位字符。</string>
+  <string name="dnkm_doze_intro">为了接收消息，Sushh 需要在后台保持连接。</string>
+  <string name="dnkm_doze_explanation">为了接收消息，Sushh 需要在后台保持连接。因此，请禁用电量优化选项。</string>
   <string name="choose_nickname">设置昵称</string>
   <string name="choose_password">设置密码</string>
   <string name="confirm_password">确认密码</string>
@@ -19,43 +19,43 @@
   <string name="create_account_button">创建帐户</string>
   <string name="more_info">更多信息</string>
   <string name="don_t_ask_again">不再询问</string>
-  <string name="dnkm_huawei_protected_text">轻按下方的按钮将 Briar 加入“受保护的应用”列表。</string>
-  <string name="dnkm_huawei_protected_button">保护 Briar</string>
-  <string name="dnkm_huawei_protected_help">如果 Briar 未被加入受保护应用列表，它将无法在后台运行。</string>
-  <string name="dnkm_huawei_app_launch_text">轻按下方按钮，打开“应用启动管理”界面，确保 Briar 被设置为“手动管理”。</string>
-  <string name="dnkm_huawei_app_launch_help">如果“应用启动管理”界面中 Briar 没有设置为“手动管理”，将无法在后台运行。</string>
-  <string name="dnkm_xiaomi_text">要在后台运行，需将 Briar 锁定在最近的应用列表中。</string>
-  <string name="dnkm_xiaomi_button">保护 Briar</string>
-  <string name="dnkm_xiaomi_help">如果未将 Briar 锁定到最近的应用列表，它将无法在后台运行。</string>
-  <string name="dnkm_xiaomi_dialog_body_old">1. 打开最近的应用列表(也称为应用切换器)\n\n2. 向下滑动 Briar 的图像，显示挂锁图标\n\n3.如果挂锁没有被锁上，轻按锁定它</string>
-  <string name="dnkm_xiaomi_dialog_body_new">1. 打开最近的应用列表 (也称为应用切换器)\n\n2. 如果 Briar 名称边上有挂锁图标，那么您无需做任何事 \n\n3. 如果没有挂锁图标，按住 Briar 直到挂锁按钮出现，接着轻按它</string>
-  <string name="dnkm_xiaomi_lock_apps_text">请轻按下方图片打开安全性设置。轻按 “提高速度”，接着轻按 “锁定应用”，并确保 Briar 状态被设为 “已锁定”</string>
-  <string name="dnkm_xiaomi_lock_apps_help">如 Briar 未在“锁定应用”屏幕中被设为“已锁定”，它将无法在后台运行。</string>
-  <string name="dnkm_warning_dozed_1">Briar 无法在后台运行</string>
+  <string name="dnkm_huawei_protected_text">轻按下方的按钮将 Sushh 加入“受保护的应用”列表。</string>
+  <string name="dnkm_huawei_protected_button">保护 Sushh</string>
+  <string name="dnkm_huawei_protected_help">如果 Sushh 未被加入受保护应用列表，它将无法在后台运行。</string>
+  <string name="dnkm_huawei_app_launch_text">轻按下方按钮，打开“应用启动管理”界面，确保 Sushh 被设置为“手动管理”。</string>
+  <string name="dnkm_huawei_app_launch_help">如果“应用启动管理”界面中 Sushh 没有设置为“手动管理”，将无法在后台运行。</string>
+  <string name="dnkm_xiaomi_text">要在后台运行，需将 Sushh 锁定在最近的应用列表中。</string>
+  <string name="dnkm_xiaomi_button">保护 Sushh</string>
+  <string name="dnkm_xiaomi_help">如果未将 Sushh 锁定到最近的应用列表，它将无法在后台运行。</string>
+  <string name="dnkm_xiaomi_dialog_body_old">1. 打开最近的应用列表(也称为应用切换器)\n\n2. 向下滑动 Sushh 的图像，显示挂锁图标\n\n3.如果挂锁没有被锁上，轻按锁定它</string>
+  <string name="dnkm_xiaomi_dialog_body_new">1. 打开最近的应用列表 (也称为应用切换器)\n\n2. 如果 Sushh 名称边上有挂锁图标，那么您无需做任何事 \n\n3. 如果没有挂锁图标，按住 Sushh 直到挂锁按钮出现，接着轻按它</string>
+  <string name="dnkm_xiaomi_lock_apps_text">请轻按下方图片打开安全性设置。轻按 “提高速度”，接着轻按 “锁定应用”，并确保 Sushh 状态被设为 “已锁定”</string>
+  <string name="dnkm_xiaomi_lock_apps_help">如 Sushh 未在“锁定应用”屏幕中被设为“已锁定”，它将无法在后台运行。</string>
+  <string name="dnkm_warning_dozed_1">Sushh 无法在后台运行</string>
   <!--Login-->
   <string name="enter_password">密码</string>
   <string name="try_again">密码错误，请重试</string>
   <string name="dialog_title_cannot_check_password">无法检查密码</string>
-  <string name="dialog_message_cannot_check_password">Briar 无法检查您的密码。请尝试重新启动您的设备以解决此问题。</string>
-  <string name="sign_in_title">登录 Briar</string>
+  <string name="dialog_message_cannot_check_password">Sushh 无法检查您的密码。请尝试重新启动您的设备以解决此问题。</string>
+  <string name="sign_in_title">登录 Sushh</string>
   <string name="sign_in_button">登录</string>
   <string name="forgotten_password">忘记了密码？</string>
   <string name="dialog_title_lost_password">密码遗失</string>
-  <string name="dialog_message_lost_password">您的 Briar 帐户被加密储存在您的设备上，而非云端，因此我们无法重置您的密码。您是否希望删除帐户，重新开始？\n\n注意：删除帐户将导致您的身份信息、联系人和消息永久丢失。</string>
-  <string name="startup_failed_activity_title">Briar 启动失败</string>
-  <string name="startup_failed_clock_error">无法启动 Briar，因为设备的时钟错误。\n\n请将设备的时钟设置为正确的时间，然后重试。</string>
-  <string name="startup_failed_db_error">Briar 无法打开包含您的帐户、联系人和信息的数据库。\n\n请升级到最新版本再试一次，或者在密码提示时选择“我忘记密码”建立新账号。</string>
+  <string name="dialog_message_lost_password">您的 Sushh 帐户被加密储存在您的设备上，而非云端，因此我们无法重置您的密码。您是否希望删除帐户，重新开始？\n\n注意：删除帐户将导致您的身份信息、联系人和消息永久丢失。</string>
+  <string name="startup_failed_activity_title">Sushh 启动失败</string>
+  <string name="startup_failed_clock_error">无法启动 Sushh，因为设备的时钟错误。\n\n请将设备的时钟设置为正确的时间，然后重试。</string>
+  <string name="startup_failed_db_error">Sushh 无法打开包含您的帐户、联系人和信息的数据库。\n\n请升级到最新版本再试一次，或者在密码提示时选择“我忘记密码”建立新账号。</string>
   <string name="startup_failed_data_too_old_error">您的帐户是用此应用程序的旧版本创建的，不能用此版本打开。\n\n您必须重新安装旧版本，或者在密码提示时选择“我忘记密码”，建立一个新帐户。</string>
   <string name="startup_failed_data_too_new_error">您的帐户是用此应用程序的较新版本创建的，不能用此版本打开。\n\n请升级到最新版本，然后重试。</string>
-  <string name="startup_failed_service_error">Briar 无法启动必需的组件。\n\n请升级到最新版并重新尝试。</string>
+  <string name="startup_failed_service_error">Sushh 无法启动必需的组件。\n\n请升级到最新版并重新尝试。</string>
   <plurals name="expiry_warning">
-    <item quantity="other">这是 Briar 的一个测试版本。您的帐户将在 %d 天后到期，且无法延期。</item>
+    <item quantity="other">这是 Sushh 的一个测试版本。您的帐户将在 %d 天后到期，且无法延期。</item>
   </plurals>
   <string name="expiry_date_reached">本软件已过期。\n感谢您的测试！</string>
-  <string name="download_briar">请下载最新版本以继续使用 Briar</string>
+  <string name="download_briar">请下载最新版本以继续使用 Sushh</string>
   <string name="create_new_account">您将需要创建一个新帐户，但可以使用相同的昵称。</string>
   <string name="download_briar_button">下载最新版本</string>
-  <string name="old_android_expiry_date_reached">Briar 不再运行于 Andriod 4 系统。\n请在更高版本系统上安装 Briar</string>
+  <string name="old_android_expiry_date_reached">Sushh 不再运行于 Andriod 4 系统。\n请在更高版本系统上安装 Sushh</string>
   <string name="old_android_delete_account">您可以轻按下面的按钮从这个设备上删除您的帐户。</string>
   <string name="delete_account_button">删除帐户</string>
   <string name="startup_open_database">正在解密数据库……</string>
@@ -72,43 +72,43 @@
   <string name="lock_button">锁定应用</string>
   <string name="settings_button">设置</string>
   <string name="sign_out_button">登出</string>
-  <string name="transports_onboarding_text">点击这里来控制 Briar 如何与您的联系人连接。</string>
+  <string name="transports_onboarding_text">点击这里来控制 Sushh 如何与您的联系人连接。</string>
   <!--Transports: Tor-->
   <string name="transport_tor">互联网</string>
   <string name="tor_device_status_online_wifi">您的手机通过 Wi-Fi 访问互联网</string>
   <string name="tor_device_status_online_mobile">您的手机通过移动数据访问互联网</string>
   <string name="tor_device_status_offline">您的手机无法访问互联网</string>
-  <string name="tor_plugin_status_enabling">Briar 正在连接互联网</string>
-  <string name="tor_plugin_status_active">Briar 已连接到互联网</string>
-  <string name="tor_plugin_status_inactive">Briar 无法连接到互联网</string>
-  <string name="tor_plugin_status_disabled">Briar 被配置为不使用互联网</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briar 被配置为不使用移动数据</string>
-  <string name="tor_plugin_status_disabled_battery">Briar 被配置为在用电池运行时不使用互联网</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briar 被配置为在这个国家不使用互联网</string>
+  <string name="tor_plugin_status_enabling">Sushh 正在连接互联网</string>
+  <string name="tor_plugin_status_active">Sushh 已连接到互联网</string>
+  <string name="tor_plugin_status_inactive">Sushh 无法连接到互联网</string>
+  <string name="tor_plugin_status_disabled">Sushh 被配置为不使用互联网</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushh 被配置为不使用移动数据</string>
+  <string name="tor_plugin_status_disabled_battery">Sushh 被配置为在用电池运行时不使用互联网</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushh 被配置为在这个国家不使用互联网</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">无线局域网</string>
   <string name="transport_lan_long">同一 Wi-Fi 网络</string>
   <string name="lan_device_status_on">您的手机已连接到 Wi-Fi</string>
   <string name="lan_device_status_off">您的手机未连接到 Wi-Fi</string>
-  <string name="lan_plugin_status_enabling">Briar 正在连接 Wi-Fi 网络</string>
-  <string name="lan_plugin_status_active">Briar 已连接到 Wi-Fi 网络</string>
-  <string name="lan_plugin_status_inactive">Briar 无法连接到此 Wi-Fi 网络</string>
-  <string name="lan_plugin_status_disabled">Briar 被配置为不使用 Wi-Fi 网络</string>
+  <string name="lan_plugin_status_enabling">Sushh 正在连接 Wi-Fi 网络</string>
+  <string name="lan_plugin_status_active">Sushh 已连接到 Wi-Fi 网络</string>
+  <string name="lan_plugin_status_inactive">Sushh 无法连接到此 Wi-Fi 网络</string>
+  <string name="lan_plugin_status_disabled">Sushh 被配置为不使用 Wi-Fi 网络</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">蓝牙</string>
   <string name="bt_device_status_on">您手机的蓝牙已开启</string>
   <string name="bt_device_status_off">您手机的蓝牙已关闭</string>
-  <string name="bt_plugin_status_enabling">Briar 正连接蓝牙</string>
-  <string name="bt_plugin_status_active">Briar 已连接蓝牙</string>
-  <string name="bt_plugin_status_inactive">Briar 无法连接蓝牙</string>
-  <string name="bt_plugin_status_disabled">Briar 被配置为不使用蓝牙</string>
+  <string name="bt_plugin_status_enabling">Sushh 正连接蓝牙</string>
+  <string name="bt_plugin_status_active">Sushh 已连接蓝牙</string>
+  <string name="bt_plugin_status_inactive">Sushh 无法连接蓝牙</string>
+  <string name="bt_plugin_status_disabled">Sushh 被配置为不使用蓝牙</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">已登出 Briar</string>
+  <string name="reminder_notification_title">已登出 Sushh</string>
   <string name="reminder_notification_text">轻按以重新登录。</string>
-  <string name="reminder_notification_channel_title">Briar 登录提醒</string>
+  <string name="reminder_notification_channel_title">Sushh 登录提醒</string>
   <string name="reminder_notification_dismiss">忽略</string>
-  <string name="ongoing_notification_title">已登录 Briar</string>
-  <string name="ongoing_notification_text">轻触以打开 Briar</string>
+  <string name="ongoing_notification_title">已登录 Sushh</string>
+  <string name="ongoing_notification_text">轻触以打开 Sushh</string>
   <plurals name="private_message_notification_text">
     <item quantity="other">%d 条新私信。</item>
   </plurals>
@@ -210,7 +210,7 @@
   <string name="save_image_success">图片已保存</string>
   <string name="save_image_error">无法保存图片</string>
   <string name="dialog_title_no_image_support">图片无法访问</string>
-  <string name="dialog_message_no_image_support">你的联系人的 Briar 尚未支持图片附件。一旦他们升级你就会看到一个不同的图标。</string>
+  <string name="dialog_message_no_image_support">你的联系人的 Sushh 尚未支持图片附件。一旦他们升级你就会看到一个不同的图标。</string>
   <string name="dialog_title_image_support">你现在可以向此联系人发送图片</string>
   <string name="dialog_message_image_support">轻按此图标即可附加图片。</string>
   <string name="messaging_too_many_attachments_toast">只有前 %d 个图片将被发送</string>
@@ -227,10 +227,10 @@
   <string name="contact_already_exists">联系人 %s 已存在</string>
   <string name="contact_already_exists_general">联系人已存在</string>
   <string name="qr_code_invalid">二维码无效</string>
-  <string name="qr_code_too_old_1">您扫描的二维码来自旧版本的 Briar。\n\n请让您的联系人升级到最新版本，然后重试。</string>
-  <string name="qr_code_too_new_1">您扫描的二维码来自新版本的 Briar。\n\n请升级到最新版本，然后重试。</string>
-  <string name="mailbox_qr_code_for_contact">你已经扫过的二维码来自 Briar Mailbox。\n\n如果你想链接一个 Mailbox，请从 Briar 菜单中选择设置&gt; Mailbox</string>
-  <string name="qr_code_format_unknown">你已经扫过的二维码不是用来添加 Briar 联系人的。\n\n请扫描显示在你联系人设备屏幕上的二维码。</string>
+  <string name="qr_code_too_old_1">您扫描的二维码来自旧版本的 Sushh。\n\n请让您的联系人升级到最新版本，然后重试。</string>
+  <string name="qr_code_too_new_1">您扫描的二维码来自新版本的 Sushh。\n\n请升级到最新版本，然后重试。</string>
+  <string name="mailbox_qr_code_for_contact">你已经扫过的二维码来自 Sushh Mailbox。\n\n如果你想链接一个 Mailbox，请从 Sushh 菜单中选择设置&gt; Mailbox</string>
+  <string name="qr_code_format_unknown">你已经扫过的二维码不是用来添加 Sushh 联系人的。\n\n请扫描显示在你联系人设备屏幕上的二维码。</string>
   <string name="camera_error">相机出错</string>
   <string name="connecting_to_device">正在连接至设备\u2026</string>
   <string name="authenticating_with_device">正在验证设备\u2026</string>
@@ -252,7 +252,7 @@
   <string name="add_contact_choose_a_nickname">输入昵称</string>
   <string name="nickname_intro">为联系人添加一个昵称。仅您可见。</string>
   <string name="your_link">将此链接发送给您希望添加的联系人</string>
-  <string name="link_clip_label">Briar 链接</string>
+  <string name="link_clip_label">Sushh 链接</string>
   <string name="link_copied_toast">链接已复制</string>
   <string name="adding_contact_error">添加联系人时发生错误。</string>
   <string name="pending_contact_requests_snackbar">有待处理的联系人请求</string>
@@ -267,7 +267,7 @@
   <string name="own_link_error">输入您联系人的链接，不要输入您自己的</string>
   <string name="nickname_missing">请输入一个昵称</string>
   <string name="invalid_link">无效的链接</string>
-  <string name="unsupported_link">这条链接来自更新版本的 Briar。请升级到最新版本后并重试。</string>
+  <string name="unsupported_link">这条链接来自更新版本的 Sushh。请升级到最新版本后并重试。</string>
   <string name="intent_own_link">您打开了自己的链接。请使用您希望添加的联系人的链接！</string>
   <string name="missing_link">请输入一个链接</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -301,7 +301,7 @@
   <string name="peer_trust_level_stranger">陌生人</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">介绍您的联系人</string>
-  <string name="introduction_onboarding_text">介绍您的联系人互相认识，这样他们可以在 Briar 上建立联系。</string>
+  <string name="introduction_onboarding_text">介绍您的联系人互相认识，这样他们可以在 Sushh 上建立联系。</string>
   <string name="introduction_menu_item">做介绍</string>
   <string name="introduction_activity_title">选择联系人</string>
   <string name="introduction_not_possible">您已将这两位联系人互相介绍过。请先等待该任务完成。如果您或您的联系人很少在线，这可能需要一些时间。</string>
@@ -493,7 +493,7 @@
   <string name="change_profile_picture_failed_message">抱歉，更新你的个人资料图片时出了问题</string>
   <!--Settings Display-->
   <string name="pref_language_title">语言 &amp; 区域</string>
-  <string name="pref_language_changed">该设置将会在 Briar 重启后生效。请登出并重启 Briar。</string>
+  <string name="pref_language_changed">该设置将会在 Sushh 重启后生效。请登出并重启 Sushh。</string>
   <string name="pref_language_default">系统默认</string>
   <string name="display_settings_title">显示</string>
   <string name="pref_theme_title">主题</string>
@@ -511,7 +511,7 @@
   <string name="tor_network_setting_without_bridges">不通过网桥连接到 Tor</string>
   <string name="tor_network_setting_with_bridges">通过网桥连接到 Tor</string>
   <string name="tor_network_setting_never">不连接到互联网</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">自动选择：%1$s（在 %2$s）</string>
   <string name="tor_mobile_data_title">使用移动数据</string>
   <string name="tor_only_when_charging_title">仅在充电时联网</string>
@@ -519,11 +519,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">安全</string>
   <string name="pref_lock_title">应用锁</string>
-  <string name="pref_lock_summary">登录后，使用设备的屏幕锁定保护 Briar</string>
+  <string name="pref_lock_summary">登录后，使用设备的屏幕锁定保护 Sushh</string>
   <string name="pref_lock_disabled_summary">为了使用该功能，请为设备设置屏幕锁定</string>
   <string name="pref_lock_timeout_title">应用锁所需的无操作时间</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">当有 %s 不使用 Briar 后，自动将其锁定</string>
+  <string name="pref_lock_timeout_summary">当有 %s 不使用 Sushh 后，自动将其锁定</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 分钟</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -535,7 +535,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 小时</string>
   <string name="pref_lock_timeout_never">永不</string>
-  <string name="pref_lock_timeout_never_summary">永不自动锁定 Briar</string>
+  <string name="pref_lock_timeout_never_summary">永不自动锁定 Sushh</string>
   <string name="change_password">更改密码</string>
   <string name="current_password">当前密码</string>
   <string name="choose_new_password">新密码</string>
@@ -543,7 +543,7 @@
   <string name="password_changed">密码已更改。</string>
   <string name="panic_setting">创建应急开关</string>
   <string name="panic_setting_title">应急开关</string>
-  <string name="panic_setting_hint">设置触发应急开关时 Briar 将作出的响应</string>
+  <string name="panic_setting_hint">设置触发应急开关时 Sushh 将作出的响应</string>
   <string name="panic_app_setting_title">应急开关应用</string>
   <string name="unknown_app">未知应用</string>
   <string name="panic_app_setting_summary">尚未设置应用</string>
@@ -552,9 +552,9 @@
   <string name="dialog_message_connect_panic_app">确认要允许 %1$s 触发破坏性应急开关反应吗？</string>
   <string name="panic_setting_destructive_action">破坏性操作</string>
   <string name="panic_setting_signout_title">登出</string>
-  <string name="panic_setting_signout_summary">触发应急开关时登出 Briar</string>
+  <string name="panic_setting_signout_summary">触发应急开关时登出 Sushh</string>
   <string name="purge_setting_title">删除帐户</string>
-  <string name="purge_setting_summary">触发应急开关时删除您的 Briar 帐户。注意：这将导致您的身份信息、联系人和消息永久丢失。</string>
+  <string name="purge_setting_summary">触发应急开关时删除您的 Sushh 帐户。注意：这将导致您的身份信息、联系人和消息永久丢失。</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">消息通知</string>
   <string name="notify_sign_in_title">提醒我登录</string>
@@ -581,28 +581,28 @@
   <string name="mailbox_settings_title">Mailbox</string>
   <string name="mailbox_setup_title">Mailbox 设置</string>
   <string name="mailbox_setup_intro">Mailbox 使你的联系人能够在你离线时向你发送消息。它将接收你的邮件，并将其存储到你上线为止。\n
-		\n 你可以在备用设备上安装 Briar Mailbox 应用，并确保此设备始终有电且和Wi-Fi连接，这样它就永远在线了。</string>
-  <string name="mailbox_setup_download">首先，通过 Google Play 或任何你下载了 Briar 的地方搜索“Briar Mailbox”，在另一台设备上安装 Mailbox 应用。\n
-		\n然后通过扫描邮箱应用显示的二维码将你的 Mailbox 与Briar 链接起来。</string>
+		\n 你可以在备用设备上安装 Sushh Mailbox 应用，并确保此设备始终有电且和Wi-Fi连接，这样它就永远在线了。</string>
+  <string name="mailbox_setup_download">首先，通过 Google Play 或任何你下载了 Sushh 的地方搜索“Sushh Mailbox”，在另一台设备上安装 Mailbox 应用。\n
+		\n然后通过扫描邮箱应用显示的二维码将你的 Mailbox 与Sushh 链接起来。</string>
   <string name="mailbox_setup_download_link">分享下载链接</string>
   <string name="mailbox_setup_button_scan">扫描 Mailbox 二维码</string>
   <string name="permission_camera_qr_denied_body">您拒绝了相机权限，但扫描二维码需要使用相机。\n\n请考虑授予访问权限。</string>
   <string name="mailbox_setup_connecting">正在连接到 Mailbox…</string>
   <!--This string is shown when connecting to a Mailbox for the first time. The placeholder will be replaced with a duration, e.g. "2 minutes".-->
   <string name="mailbox_setup_connecting_info">这可能最多需要 %1s 分钟</string>
-  <string name="mailbox_qr_code_too_old">你已经扫过的二维码来自旧版本的 Briar Mailbox。\n\n请升级 Briar Mailbox 到最新版本后再试一次</string>
-  <string name="mailbox_qr_code_too_new">你已经扫过的二维码来自新版本的 Briar Mailbox。\n\n请升级 Briar 到最新版本后再试一次。</string>
-  <string name="contact_qr_code_for_mailbox">你已经扫过的二维码的用途是添加 Briar 联系人。\n\n如果你想添加联系人，请转到联系人列表，并轻按 + 图标。</string>
-  <string name="mailbox_setup_qr_code_wrong_description">你已经扫过的二维码不是来自 Briar Mailbox。\n\n请在装有 Mailbox 应用的设备商上打开 Briar Mailbox 并扫描该应用显示的二维码。</string>
+  <string name="mailbox_qr_code_too_old">你已经扫过的二维码来自旧版本的 Sushh Mailbox。\n\n请升级 Sushh Mailbox 到最新版本后再试一次</string>
+  <string name="mailbox_qr_code_too_new">你已经扫过的二维码来自新版本的 Sushh Mailbox。\n\n请升级 Sushh 到最新版本后再试一次。</string>
+  <string name="contact_qr_code_for_mailbox">你已经扫过的二维码的用途是添加 Sushh 联系人。\n\n如果你想添加联系人，请转到联系人列表，并轻按 + 图标。</string>
+  <string name="mailbox_setup_qr_code_wrong_description">你已经扫过的二维码不是来自 Sushh Mailbox。\n\n请在装有 Mailbox 应用的设备商上打开 Sushh Mailbox 并扫描该应用显示的二维码。</string>
   <string name="mailbox_setup_already_paired_title">Mailbox 已链接</string>
   <string name="mailbox_setup_already_paired_description">取消链接你其他设备上的 Mailbox 并重试。</string>
   <string name="mailbox_setup_io_error_title">无法连接</string>
   <string name="mailbox_setup_io_error_description">请确保两台设备都已连接到互联网，然后重试。</string>
   <string name="mailbox_setup_assertion_error_title">Mailbox 错误</string>
-  <string name="mailbox_setup_assertion_error_description">如这个问题持续，请通过 Briar 应用发送反馈（附匿名数据）。</string>
+  <string name="mailbox_setup_assertion_error_description">如这个问题持续，请通过 Sushh 应用发送反馈（附匿名数据）。</string>
   <string name="mailbox_setup_camera_error_description">无法访问摄像头。再试一次，可能在重启设备之后。</string>
   <string name="mailbox_setup_paired_title">已连接</string>
-  <string name="mailbox_setup_paired_description">你的 Mailbox 已成功和 Briar 链接。\n
+  <string name="mailbox_setup_paired_description">你的 Mailbox 已成功和 Sushh 链接。\n
 		\n保持你的 Mailbox 连接到电源和 Wi-Fi，这样它就能始终处于在线状态。</string>
   <string name="tor_offline_title">离线</string>
   <string name="tor_offline_description">请确保设备处于在线状态，且允许连接到互联网。\n
@@ -610,10 +610,10 @@
   <string name="tor_offline_button_check">检查连接设置</string>
   <string name="mailbox_status_title">Mailbox 状态</string>
   <string name="mailbox_status_connected_title">Mailbox 运行中</string>
-  <string name="mailbox_status_problem_title">Briar 连接到 Mailbox 时出现问题</string>
+  <string name="mailbox_status_problem_title">Sushh 连接到 Mailbox 时出现问题</string>
   <string name="mailbox_status_failure_title">已与信箱失去连接</string>
-  <string name="mailbox_status_app_too_old_title">Briar 版本太旧</string>
-  <string name="mailbox_status_app_too_old_message">更新 Briar 到最新版本并重试</string>
+  <string name="mailbox_status_app_too_old_title">Sushh 版本太旧</string>
+  <string name="mailbox_status_app_too_old_message">更新 Sushh 到最新版本并重试</string>
   <string name="mailbox_status_mailbox_too_old_title">Mailbox 版本太旧</string>
   <string name="mailbox_status_mailbox_too_old_message">将你的 Mailbox 应用更新到最新版本并重试</string>
   <string name="mailbox_status_check_button">请检查联网状况</string>
@@ -624,12 +624,12 @@
   <string name="mailbox_status_unlink_button">断开</string>
   <string name="mailbox_status_unlink_dialog_title">解除 mailbox 链接？</string>
   <string name="mailbox_status_unlink_dialog_question">你确定要解除 Mailbox 的链接吗？</string>
-  <string name="mailbox_status_unlink_dialog_warning">如果您解除Mailbox 的链接，您将无法在 Briar 离线时接收消息。</string>
+  <string name="mailbox_status_unlink_dialog_warning">如果您解除Mailbox 的链接，您将无法在 Sushh 离线时接收消息。</string>
   <string name="mailbox_status_unlink_no_wipe_title">已解除你 Mailbox 的链接</string>
   <string name="mailbox_status_unlink_no_wipe_message">下次您有机会访问安装有 Mailbox 应用的设备时，请打开此应用程序并轻按“解除链接”按钮来完成这个过程。\n\n如果您不再能够访问此设备，不要担心。您的数据是加密的，所以即使您没有完成这个过程，数据也会保持安全。</string>
   <string name="mailbox_status_unlink_success">已解除你 Mailbox 的链接</string>
-  <string name="mailbox_error_notification_channel_title">Briar Mailbox 问题</string>
-  <string name="mailbox_error_notification_title">Briar Mailbox 不可用</string>
+  <string name="mailbox_error_notification_channel_title">Sushh Mailbox 问题</string>
+  <string name="mailbox_error_notification_title">Sushh Mailbox 不可用</string>
   <string name="mailbox_error_notification_text">轻按修复问题。</string>
   <string name="mailbox_error_wizard_button">修复问题</string>
   <string name="mailbox_error_wizard_title">Mailbox 故障诊断向导</string>
@@ -645,16 +645,16 @@
   <string name="mailbox_error_wizard_answer1_4">我看到”设备离线“</string>
   <string name="mailbox_error_wizard_info1_1_1">请使用下面的按钮取消你的 Mailbox 链接，然后按照装有Mailbox 应用设备上的说明重新链接。</string>
   <string name="mailbox_error_wizard_info_1_1_2">请使用下面的按钮取消你的 Mailbox 链接，然后扫描二维码再次进行链接。</string>
-  <string name="mailbox_error_wizard_info1_1_3">请使用下面的按钮检查 Briar 与 Mailbox 的连接。\n\n
+  <string name="mailbox_error_wizard_info1_1_3">请使用下面的按钮检查 Sushh 与 Mailbox 的连接。\n\n
 		如连接再次失败:\n
-		\u2022 检查 Mailbox 和 Briar 应用是否更新到最新版本。\n
-		\u2022 重新启动装有 Mailbox 和 Briar 应用的设备，然后重试。</string>
-  <string name="mailbox_error_wizard_info1_1_4">检查装有 Mailbox 的设备是否已正确连接到互联网。\n\n检查装有 Mailboxde 设备上的时钟是否显示正确的时间、日期和时区。\n\n检查 Mailbox 和 Briar 应用是否更新到最新版本。\n\n重新启动装有 Mailbox 和Briar 应用的设备，然后重试。</string>
+		\u2022 检查 Mailbox 和 Sushh 应用是否更新到最新版本。\n
+		\u2022 重新启动装有 Mailbox 和 Sushh 应用的设备，然后重试。</string>
+  <string name="mailbox_error_wizard_info1_1_4">检查装有 Mailbox 的设备是否已正确连接到互联网。\n\n检查装有 Mailboxde 设备上的时钟是否显示正确的时间、日期和时区。\n\n检查 Mailbox 和 Sushh 应用是否更新到最新版本。\n\n重新启动装有 Mailbox 和Sushh 应用的设备，然后重试。</string>
   <string name="mailbox_error_wizard_info2">当你可以使用该设备时，请回到此屏幕。</string>
   <string name="mailbox_error_wizard_info3">请使用下面的按钮取消你的 Mailbox 链接。\n\n在取消对旧 Mailbox 的链接后，你可以随时设置一个新的 Mailbox。</string>
   <!--About-->
   <string name="about_title">关于</string>
-  <string name="briar_version">Briar 版本：%s</string>
+  <string name="briar_version">Sushh 版本：%s</string>
   <string name="tor_version">Tor 版本：%s</string>
   <string name="links">链接</string>
   <string name="briar_website">\u2022 <a href="">网站</a></string>
@@ -679,7 +679,7 @@
   <!--Settings Actions-->
   <string name="pref_category_actions">操作</string>
   <string name="share_app_link">分享下载链接</string>
-  <string name="share_app_link_text">Briar 下载地址 %s</string>
+  <string name="share_app_link_text">Sushh 下载地址 %s</string>
   <string name="send_feedback">提交反馈</string>
   <!--Link Warning-->
   <string name="link_warning_title">链接警告</string>
@@ -687,10 +687,10 @@
   <string name="link_warning_text">这可能用来标识您的身份。请考虑一下您是否信任这个给您发送链接的人，并考虑用 Tor 浏览器打开它。</string>
   <string name="link_warning_open_link">打开链接</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar 崩溃报告</string>
-  <string name="briar_crashed">抱歉，Briar 已崩溃</string>
+  <string name="crash_report_title">Sushh 崩溃报告</string>
+  <string name="briar_crashed">抱歉，Sushh 已崩溃</string>
   <string name="not_your_fault">这并非您的错误所致。</string>
-  <string name="please_send_report">请发送崩溃报告，以帮助我们优化 Briar 。</string>
+  <string name="please_send_report">请发送崩溃报告，以帮助我们优化 Sushh 。</string>
   <string name="report_is_encrypted">我们保证报告将会加密并被安全地发送。</string>
   <string name="feedback_title">反馈</string>
   <string name="describe_crash">描述发生了什么（选填）</string>
@@ -718,69 +718,69 @@
   <string name="dev_report_saved">报告已保存，将于您下次登录时发送。</string>
   <string name="dev_report_error">错误：报告发送失败</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">正在登出 Briar……</string>
+  <string name="progress_title_logout">正在登出 Sushh……</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">检测到屏幕覆盖</string>
-  <string name="screen_filter_body">另一个应用覆盖在了 Briar 上。为了保护您的安全，在有其他应用覆盖的情况下， Briar 将不会对触控做出反应。\n\n如下应用可能覆盖在上方：\n\n%1$s</string>
-  <string name="screen_filter_body_api_30">另一款应用程序正显示在 Briar 的上层。为了保护您的安全，Briar 在另一个应用程序显示在其上层时不会响应屏幕触摸。\n\n请查看下面的应用程序，寻找是哪个应用导致了此问题。</string>
+  <string name="screen_filter_body">另一个应用覆盖在了 Sushh 上。为了保护您的安全，在有其他应用覆盖的情况下， Sushh 将不会对触控做出反应。\n\n如下应用可能覆盖在上方：\n\n%1$s</string>
+  <string name="screen_filter_body_api_30">另一款应用程序正显示在 Sushh 的上层。为了保护您的安全，Sushh 在另一个应用程序显示在其上层时不会响应屏幕触摸。\n\n请查看下面的应用程序，寻找是哪个应用导致了此问题。</string>
   <string name="screen_filter_allow">允许这些应用覆盖在上方</string>
   <string name="screen_filter_review_apps">查看应用程序</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">相机权限</string>
-  <string name="permission_camera_request_body">Briar 需要获得相机权限以扫描二维码。</string>
+  <string name="permission_camera_request_body">Sushh 需要获得相机权限以扫描二维码。</string>
   <string name="permission_location_title">位置权限</string>
   <string name="permission_nearby_devices_title">“附近设备”权限</string>
-  <string name="permission_location_request_body">Briar 需要位置信息权限以发现蓝牙设备。\n\nBriar 不会存储您的位置或将它分享给任何人。</string>
+  <string name="permission_location_request_body">Sushh 需要位置信息权限以发现蓝牙设备。\n\nSushh 不会存储您的位置或将它分享给任何人。</string>
   <string name="permission_camera_location_title">相机和位置</string>
-  <string name="permission_camera_location_request_body"> Briar 需要相机权限以扫描二维码。\n\nBriar 需要位置信息权限以发现蓝牙设备。\n\nBriar 不会存储您的位置或将它分享给任何人。</string>
+  <string name="permission_camera_location_request_body"> Sushh 需要相机权限以扫描二维码。\n\nSushh 需要位置信息权限以发现蓝牙设备。\n\nSushh 不会存储您的位置或将它分享给任何人。</string>
   <string name="permission_camera_bluetooth_title">相机和附近设备</string>
-  <string name="permission_camera_bluetooth_request_body">Briar 需要相机权限以扫描二维码。\n\nBriar 需要发现并连接到附近设备的权限以发现蓝牙设备。</string>
+  <string name="permission_camera_bluetooth_request_body">Sushh 需要相机权限以扫描二维码。\n\nSushh 需要发现并连接到附近设备的权限以发现蓝牙设备。</string>
   <string name="permission_camera_denied_body">您已拒绝相机权限，而添加联系人需要使用相机。\n\n请考虑授予相机权限。</string>
-  <string name="permission_location_denied_body">您已拒绝访问您的位置信息，但 Briar 需要此权限才能发现蓝牙设备。\n\n请考虑授予访问权限。</string>
+  <string name="permission_location_denied_body">您已拒绝访问您的位置信息，但 Sushh 需要此权限才能发现蓝牙设备。\n\n请考虑授予访问权限。</string>
   <string name="permission_location_setting_title">位置设定</string>
   <string name="permission_location_setting_body">必须打开你设备的位置设置，才能通过蓝牙找到其他设备。请启用位置以继续。您可以在之后再次禁用它。</string>
   <string name="permission_location_setting_hotspot_body">必须打开你设备的位置设置，才能创建无线热点。请启用位置以继续。您可以在之后再禁用。</string>
   <string name="permission_location_setting_button">启用位置</string>
   <string name="permission_bluetooth_title">“附近设备”权限</string>
-  <string name="permission_bluetooth_body">要使用蓝牙通信，Briar 需要发现并连接到附近设备的权限。</string>
-  <string name="permission_bluetooth_denied_body">你拒绝了对附近设备的访问权，但 Briar 需要这个权限才能使用蓝牙。\n\n请考虑授予权限。</string>
+  <string name="permission_bluetooth_body">要使用蓝牙通信，Sushh 需要发现并连接到附近设备的权限。</string>
+  <string name="permission_bluetooth_denied_body">你拒绝了对附近设备的访问权，但 Sushh 需要这个权限才能使用蓝牙。\n\n请考虑授予权限。</string>
   <string name="qr_code">二维码</string>
   <string name="show_qr_code_fullscreen">全屏显示二维码</string>
   <!--App Locking-->
-  <string name="lock_unlock">解锁 Briar</string>
-  <string name="lock_unlock_verbose">输入您设备的 PIN 码，图案或密码以解锁 Briar</string>
+  <string name="lock_unlock">解锁 Sushh</string>
+  <string name="lock_unlock_verbose">输入您设备的 PIN 码，图案或密码以解锁 Sushh</string>
   <string name="lock_unlock_fingerprint_description">用已注册的手指轻触指纹传感器以继续</string>
   <string name="lock_unlock_password">使用密码</string>
-  <string name="lock_is_locked">Briar 已锁定</string>
+  <string name="lock_is_locked">Sushh 已锁定</string>
   <string name="lock_tap_to_unlock">轻按以解锁</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar 可以通过互联网、Wi-Fi 或蓝牙来连接到您的联系人。\n\n为了保护隐私，本应用会通过 Tor 网络进行所有的互联网连接。\n\n如果一个联系人可以通过多种方法联系到，Briar 会并行地使用它们。</string>
+  <string name="transports_help_text">Sushh 可以通过互联网、Wi-Fi 或蓝牙来连接到您的联系人。\n\n为了保护隐私，本应用会通过 Tor 网络进行所有的互联网连接。\n\n如果一个联系人可以通过多种方法联系到，Sushh 会并行地使用它们。</string>
   <!--Share app offline-->
   <string name="hotspot_title">离线分享此应用</string>
   <string name="hotspot_intro">使用手机的 Wi-Fi 与附近没有网络的人分享这款应用。
-		\n\n你的手机将启动一个 Wi-Fi 热点。附近的人可以连接至这个热点，从你的手机下载 Briar 应用。</string>
+		\n\n你的手机将启动一个 Wi-Fi 热点。附近的人可以连接至这个热点，从你的手机下载 Sushh 应用。</string>
   <string name="hotspot_button_start_sharing">启动热点</string>
   <string name="hotspot_button_stop_sharing">停止热点</string>
   <string name="hotspot_progress_text_start">设置热点中…</string>
   <string name="hotspot_notification_channel_title">Wi-Fi 热点</string>
-  <string name="hotspot_notification_title">正离线分享 Briar</string>
+  <string name="hotspot_notification_title">正离线分享 Sushh</string>
   <string name="hotspot_button_connected">下一步</string>
-  <string name="permission_hotspot_location_request_body">为了创建一个Wi-Fi热点，Briar 需要访问你位置的权限。\n\n Briar 不会储存你的位置也不会和任何人分享它。</string>
-  <string name="permission_hotspot_location_request_precise_body">要创建无线热点，Briar 需要访问你的精确位置。\n\nBriar 不会储存你的位置也不会和任何人分享它。</string>
-  <string name="permission_hotspot_location_denied_body">你拒绝了访问你的位置，但 Briar 需要这个权限才能创建 Wi-Fi 热点。\n\n请考虑授予访问权限。</string>
-  <string name="permission_hotspot_location_denied_precise_body">你拒绝了 Briar 访问你的精确位置，但 Briar 需要这个权限才能创建 无线热点。\n\n请考虑授予访问权限。</string>
-  <string name="permission_hotspot_nearby_wifi_request_body">要创建 Wi-FI 热点，Briar 需要访问附近设备的权限。</string>
-  <string name="permission_hotspot_nearby_wifi_denied_body">你已拒绝对附近设备的访问，但 Briar 需要此权限在创建 Wi-FI 热点。\n\n请考虑授予权限。</string>
+  <string name="permission_hotspot_location_request_body">为了创建一个Wi-Fi热点，Sushh 需要访问你位置的权限。\n\n Sushh 不会储存你的位置也不会和任何人分享它。</string>
+  <string name="permission_hotspot_location_request_precise_body">要创建无线热点，Sushh 需要访问你的精确位置。\n\nSushh 不会储存你的位置也不会和任何人分享它。</string>
+  <string name="permission_hotspot_location_denied_body">你拒绝了访问你的位置，但 Sushh 需要这个权限才能创建 Wi-Fi 热点。\n\n请考虑授予访问权限。</string>
+  <string name="permission_hotspot_location_denied_precise_body">你拒绝了 Sushh 访问你的精确位置，但 Sushh 需要这个权限才能创建 无线热点。\n\n请考虑授予访问权限。</string>
+  <string name="permission_hotspot_nearby_wifi_request_body">要创建 Wi-FI 热点，Sushh 需要访问附近设备的权限。</string>
+  <string name="permission_hotspot_nearby_wifi_denied_body">你已拒绝对附近设备的访问，但 Sushh 需要此权限在创建 Wi-FI 热点。\n\n请考虑授予权限。</string>
   <string name="wifi_settings_title">Wi-Fi 设置</string>
-  <string name="wifi_settings_request_enable_body">要创建 Wi-Fi 热点，Briar 需要使用 Wi-Fi。请允许它。</string>
+  <string name="wifi_settings_request_enable_body">要创建 Wi-Fi 热点，Sushh 需要使用 Wi-Fi。请允许它。</string>
   <string name="hotspot_tab_manual">手动</string>
   <!--The placeholder to be inserted into the string 'hotspot_manual_wifi': People can connect by %s-->
   <string name="hotspot_scanning_a_qr_code">扫描一个二维码</string>
   <!--Wi-Fi setup-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_wifi">你的手机正提供 Wi-Fi 热点。想下载 Briar 的人可以连接到此热点，方法是使用以下详细信息在设备的 Wi-Fi 设置中进行添加或通过 %s。当他们连接到热点，按 “下一步”。</string>
+  <string name="hotspot_manual_wifi">你的手机正提供 Wi-Fi 热点。想下载 Sushh 的人可以连接到此热点，方法是使用以下详细信息在设备的 Wi-Fi 设置中进行添加或通过 %s。当他们连接到热点，按 “下一步”。</string>
   <string name="hotspot_manual_wifi_ssid">网络名称</string>
-  <string name="hotspot_qr_wifi">你的手机提供了 Wi-Fi 热点。想下载 Briar 的人可以通过扫描这个二维码连接到热点。当他们连接到热点，按“下一步”。</string>
+  <string name="hotspot_qr_wifi">你的手机提供了 Wi-Fi 热点。想下载 Sushh 的人可以通过扫描这个二维码连接到热点。当他们连接到热点，按“下一步”。</string>
   <string name="hotspot_no_peers_connected">没有设备连接
 </string>
   <plurals name="hotspot_peers_connected">
@@ -788,13 +788,13 @@
   </plurals>
   <!--Download link-->
   <!--The %s placeholder will be replaced with the translation of 'hotspot_scanning_a_qr_code'-->
-  <string name="hotspot_manual_site">你的手机提供了Wi-Fi热点。连接到该热点的用户可以下载 Briar，方法是在浏览器中输入以下链接或 %s</string>
+  <string name="hotspot_manual_site">你的手机提供了Wi-Fi热点。连接到该热点的用户可以下载 Sushh，方法是在浏览器中输入以下链接或 %s</string>
   <string name="hotspot_manual_site_address">地址 (URL)</string>
-  <string name="hotspot_qr_site">你的手机正提供 Wi-Fi 热点。连接到这个热点的人可以通过扫描这个二维码下载 Briar。</string>
-  <!--e.g. Download Briar 1.2.20-->
-  <string name="website_download_title_1">下载 Briar %s</string>
-  <string name="website_download_intro_1">附近的某人和你分享了 Briar。</string>
-  <string name="website_download_button">下载 Briar</string>
+  <string name="hotspot_qr_site">你的手机正提供 Wi-Fi 热点。连接到这个热点的人可以通过扫描这个二维码下载 Sushh。</string>
+  <!--e.g. Download Sushh 1.2.20-->
+  <string name="website_download_title_1">下载 Sushh %s</string>
+  <string name="website_download_intro_1">附近的某人和你分享了 Sushh。</string>
+  <string name="website_download_button">下载 Sushh</string>
   <string name="website_download_outro">下载完成后，打开下载的文件并进行安装。 </string>
   <string name="website_troubleshooting_title">故障排除</string>
   <string name="website_troubleshooting_1">如果您无法下载该应用程序，请尝试使用不同的网络浏览器应用。</string>
@@ -804,14 +804,14 @@
   <string name="hotspot_help_wifi_title">连接 Wi-Fi 出现问题:</string>
   <string name="hotspot_help_wifi_1">尝试禁用和重新启用这两部手机的 Wi-Fi，然后再试一次。</string>
   <string name="hotspot_help_wifi_2">如果你的手机抱怨 Wi-Fi 没有网络，告诉它无论如何你都想保持连接。</string>
-  <string name="hotspot_help_wifi_3">重启正在运行 Wi-Fi 热点的手机，然后启动 Briar 并再次尝试共享。</string>
+  <string name="hotspot_help_wifi_3">重启正在运行 Wi-Fi 热点的手机，然后启动 Sushh 并再次尝试共享。</string>
   <string name="hotspot_help_site_title">访问本地网站出现问题：</string>
   <string name="hotspot_help_site_1">再次检查您输入的地址是否完全和所显示的一样。一个小的错误就可能导致失败。</string>
   <string name="hotspot_help_site_2">当你尝试访问网站时，确保你的手机仍然连接到正确的 Wi-Fi (见上文)。</string>
   <string name="hotspot_help_site_3">如果你有一个防火墙应用，检查它没有阻止访问。</string>
-  <string name="hotspot_help_site_4">如果你可以访问该网站，但不能下载Briar应用程序，可以尝试使用其他网页浏览器应用。</string>
+  <string name="hotspot_help_site_4">如果你可以访问该网站，但不能下载Sushh应用程序，可以尝试使用其他网页浏览器应用。</string>
   <string name="hotspot_help_fallback_title">什么都没效果？</string>
-  <string name="hotspot_help_fallback_intro">你可以尝试将应用程序保存为 .apk文件，以其他方式共享。一旦文件被转移到其他设备，它就可以被用来安装 Briar。
+  <string name="hotspot_help_fallback_intro">你可以尝试将应用程序保存为 .apk文件，以其他方式共享。一旦文件被转移到其他设备，它就可以被用来安装 Sushh。
 		\n\n提示：要通过蓝牙共享，您可能需要先重命名文件以 .zip 结尾。</string>
   <string name="hotspot_help_fallback_button">保存应用</string>
   <!--error handling-->
@@ -821,18 +821,18 @@
   <string name="hotspot_error_start_callback_failed_unknown">热点启动失败，出现未知错误，原因 %d</string>
   <string name="hotspot_error_start_callback_no_group_info">热点启动失败：没有组信息</string>
   <string name="hotspot_error_web_server_start">启动 web 服务器出错</string>
-  <string name="hotspot_error_web_server_serve">显示网站出错。.\n\n如果问题持续存在，请通过 Briar 应用发送反馈 (匿名数据)。</string>
+  <string name="hotspot_error_web_server_serve">显示网站出错。.\n\n如果问题持续存在，请通过 Sushh 应用发送反馈 (匿名数据)。</string>
   <string name="hotspot_flag_test">警告：此应用程序通过 Android Studio 安装，不能安装在其他设备上</string>
   <string name="hotspot_error_framework_busy">无法启动热点。\n\n如果您有另一个热点正在运行或通过 Wi-Fi 共享您的互联网连接，尝试停止它稍后再试一次。</string>
   <!--Transfer Data via Removable Drives-->
   <string name="removable_drive_menu_title">通过可移动驱动器连接</string>
-  <string name="removable_drive_intro">如果你无法通过互联网、Wi-Fi 或蓝牙连接到你的联系人，Briar 还可以通过U 盘或 SD 卡等可移动驱动器传输信息。</string>
-  <string name="removable_drive_explanation">如果你无法通过互联网、Wi-Fi 或蓝牙连接到你的联系人，Briar 还可以通过U 盘或 SD 卡等可移动驱动器传输信息。\n\n当您使用“发送数据”按钮时，任何等待发送到联系人的数据将被写入可移动驱动器。这包括私人消息、附件、博客、论坛和私人群组。\n\n在写入移动驱动器之前，所有内容都将被加密。\n\n当您的联系人收到可移动驱动器时，他们可以使用“接收数据”按钮将消息导入 Briar。</string>
+  <string name="removable_drive_intro">如果你无法通过互联网、Wi-Fi 或蓝牙连接到你的联系人，Sushh 还可以通过U 盘或 SD 卡等可移动驱动器传输信息。</string>
+  <string name="removable_drive_explanation">如果你无法通过互联网、Wi-Fi 或蓝牙连接到你的联系人，Sushh 还可以通过U 盘或 SD 卡等可移动驱动器传输信息。\n\n当您使用“发送数据”按钮时，任何等待发送到联系人的数据将被写入可移动驱动器。这包括私人消息、附件、博客、论坛和私人群组。\n\n在写入移动驱动器之前，所有内容都将被加密。\n\n当您的联系人收到可移动驱动器时，他们可以使用“接收数据”按钮将消息导入 Sushh。</string>
   <string name="removable_drive_title_send">发送数据</string>
   <string name="removable_drive_title_receive">接收数据</string>
   <string name="removable_drive_send_intro">轻按下面的按钮创建一个包含加密消息的新文件。您可以选择将文件保存在哪里。\n\n如果您想将文件保存在可移动驱动器上，请立即插入驱动器。</string>
   <string name="removable_drive_send_no_data">目前没有等待发送到此联系人的消息。</string>
-  <string name="removable_drive_send_not_supported">此联系人正在使用旧版本的 Briar 或不支持此功能的旧设备。</string>
+  <string name="removable_drive_send_not_supported">此联系人正在使用旧版本的 Sushh 或不支持此功能的旧设备。</string>
   <string name="removable_drive_send_button">选择要导出的文件 </string>
   <string name="removable_drive_ongoing">请等待正在进行的任务完成 </string>
   <string name="removable_drive_receive_intro">轻按下面的按钮选择您的联系人发送给您的文件。\n\n如果文件在可移动驱动器上，现在插入驱动器。</string>
@@ -842,9 +842,9 @@
   <string name="removable_drive_success_receive_title">成功导入</string>
   <string name="removable_drive_success_receive_text">此文件中包含的所有加密消息都已收到。</string>
   <string name="removable_drive_error_send_title">导出数据时出错</string>
-  <string name="removable_drive_error_send_text">向文件写入数据时出错。\n\n如果您使用的是可移动驱动器，请确保它已正确插入并重试。\n\n如果错误仍然存在，请发送反馈，让Briar团队知道这个问题。</string>
+  <string name="removable_drive_error_send_text">向文件写入数据时出错。\n\n如果您使用的是可移动驱动器，请确保它已正确插入并重试。\n\n如果错误仍然存在，请发送反馈，让Sushh团队知道这个问题。</string>
   <string name="removable_drive_error_receive_title">导入数据时出错</string>
-  <string name="removable_drive_error_receive_text">所选文件不包含任何Briar可以识别的内容。\n\n请检查您选择的文件是否正确。\n\n如果你的联系人在大于28天前创建了这个文件，Briar 将无法识别它。</string>
+  <string name="removable_drive_error_receive_text">所选文件不包含任何Sushh可以识别的内容。\n\n请检查您选择的文件是否正确。\n\n如果你的联系人在大于28天前创建了这个文件，Sushh 将无法识别它。</string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">韩梅梅</string>
@@ -855,7 +855,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">嗨，李雷！</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">嗨，韩梅梅！谢谢你告诉我关于 Briar 的事！</string>
+  <string name="screenshot_message_2">嗨，韩梅梅！谢谢你告诉我关于 Sushh 的事！</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">没问题，希望你喜欢它 😀</string>
 </resources>
