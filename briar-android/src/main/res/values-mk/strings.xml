@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<!--Setup-->
-	<string name="setup_title">Добредојде во Briar</string>
+	<string name="setup_title">Добредојде во Sushh</string>
 	<string name="setup_name_explanation">Вашето корисничко име ќе се појави до секоја содржина која ќе ја објавите. Истото не можете да го промените откога ќе ја креирате вашата сметка.</string>
 	<string name="setup_next">Следно</string>
 	<string name="setup_password_intro">Одбери лозинка</string>
-	<string name="setup_password_explanation">Вашата Briar сметка е зачувана енкриптирана на вашиот уред, а не во облак. Ако ја заборавите вашата лозинка или го избришете Briar, не постои начин да ја повратите вашата сметка.\n\nОдберете долга лозинка која е тешка за погодување, на пример четири произволни зборови, или десет произволни букви, бројки или симболи.</string>
+	<string name="setup_password_explanation">Вашата Sushh сметка е зачувана енкриптирана на вашиот уред, а не во облак. Ако ја заборавите вашата лозинка или го избришете Sushh, не постои начин да ја повратите вашата сметка.\n\nОдберете долга лозинка која е тешка за погодување, на пример четири произволни зборови, или десет произволни букви, бројки или симболи.</string>
 	<string name="dnkm_doze_title">Позадински поврзувања на Интернет</string>
-	<string name="dnkm_doze_intro">За да примате пораки, Briar мора да биде поврзан на Интернет во позадина.</string>
-	<string name="dnkm_doze_explanation">За да примате пораки, Briar мора да биде поврзан на Интернет во позадина. Исклучете ги оптимизациите за батеријата за Briar да може да остане поврзан на Интернет.</string>
+	<string name="dnkm_doze_intro">За да примате пораки, Sushh мора да биде поврзан на Интернет во позадина.</string>
+	<string name="dnkm_doze_explanation">За да примате пораки, Sushh мора да биде поврзан на Интернет во позадина. Исклучете ги оптимизациите за батеријата за Sushh да може да остане поврзан на Интернет.</string>
 	<string name="dnkm_doze_button">Дозволени поврзувања</string>
 	<string name="choose_nickname">Одберете корисничко име</string>
 	<string name="choose_password">Одберете лозинка</string>
@@ -19,33 +19,33 @@
 	<string name="create_account_button">Создади сметка</string>
 	<string name="more_info">Повеќе информации</string>
 	<string name="don_t_ask_again">Не прашувај повторно</string>
-	<string name="dnkm_huawei_protected_text">Допрете го копчето подолу и осигурајте се дека Briar е заштитен во \"Protected Apps\" / мак. \"Заштитени апликации\" екранот.</string>
-	<string name="dnkm_huawei_protected_button">Заштити го Briar</string>
-	<string name="dnkm_huawei_protected_help">Ако Briar не е додаден на листата со заштитени апликации, ќе биде оневозможен да работи во позадина.</string>
-	<string name="dnkm_xiaomi_button">Заштити го Briar</string>
+	<string name="dnkm_huawei_protected_text">Допрете го копчето подолу и осигурајте се дека Sushh е заштитен во \"Protected Apps\" / мак. \"Заштитени апликации\" екранот.</string>
+	<string name="dnkm_huawei_protected_button">Заштити го Sushh</string>
+	<string name="dnkm_huawei_protected_help">Ако Sushh не е додаден на листата со заштитени апликации, ќе биде оневозможен да работи во позадина.</string>
+	<string name="dnkm_xiaomi_button">Заштити го Sushh</string>
 	<string name="dnkm_warning_dozed">%s беше оневозможен да работи во позадина</string>
 	<!--Login-->
 	<string name="enter_password">Лозинка</string>
 	<string name="try_again">Погрешна лозинка</string>
 	<string name="dialog_title_cannot_check_password">Не може да се провери лозинката</string>
-	<string name="dialog_message_cannot_check_password">Briar не може да ја провери вашата лозинка. Ве молиме обидетете се со рестартирање на вашиот уред за да го решите овој проблем.</string>
+	<string name="dialog_message_cannot_check_password">Sushh не може да ја провери вашата лозинка. Ве молиме обидетете се со рестартирање на вашиот уред за да го решите овој проблем.</string>
 	<string name="sign_in_button">Најави се</string>
 	<string name="forgotten_password">Ја заборавив лозинката</string>
   <string name="dialog_title_lost_password">Изгубена лозинка</string>
-  <string name="dialog_message_lost_password">Вашата Briar сметка е зачувана енкриптирана на вашиот уред, а не на облак, со оглед на тоа ние не можеме да ја рестартираме вашата лозинка. Дали сакате да ја избришете вашата сметка и да почнете од почеток?\n\nВнимание: Вашите идентитети, контакти и пораки ќе бидат трајно изгубени.</string>
-  <string name="startup_failed_notification_title">Briar не може да се стартува</string>
+  <string name="dialog_message_lost_password">Вашата Sushh сметка е зачувана енкриптирана на вашиот уред, а не на облак, со оглед на тоа ние не можеме да ја рестартираме вашата лозинка. Дали сакате да ја избришете вашата сметка и да почнете од почеток?\n\nВнимание: Вашите идентитети, контакти и пораки ќе бидат трајно изгубени.</string>
+  <string name="startup_failed_notification_title">Sushh не може да се стартува</string>
   <string name="startup_failed_notification_text">Допрете за повеќе информации</string>
-  <string name="startup_failed_activity_title">Стартувањето на Briar не успеа</string>
-  <string name="startup_failed_db_error">Поради некоја причина, вашата Briar база на податоци е оштетена повеќе од степенот за можна поправка. Вашата сметка, вашите податоци и сите ваши контакти се изгубени. За жал, ќе треба да го пре-инсталирате Briar или да отворите нова сметка преку \'Ја заборавив лозинката\' во екранот каде истата се бара.</string>
+  <string name="startup_failed_activity_title">Стартувањето на Sushh не успеа</string>
+  <string name="startup_failed_db_error">Поради некоја причина, вашата Sushh база на податоци е оштетена повеќе од степенот за можна поправка. Вашата сметка, вашите податоци и сите ваши контакти се изгубени. За жал, ќе треба да го пре-инсталирате Sushh или да отворите нова сметка преку \'Ја заборавив лозинката\' во екранот каде истата се бара.</string>
   <string name="startup_failed_data_too_old_error">Вашата сметка е создадена со стара верзија на оваа апликација и не може да биде отворена со оваа верзија. Морате или да ја пре-инсталирате старата верзија или да отворите нова сметка преку \'Ја заборавив лозинката\' во екранот каде истата се бара.</string>
   <string name="startup_failed_data_too_new_error">Оваа верзија на апликацијата е многу стара. Ве молиме ажурирајте ја апликацијата до најновата верзија и обидете се повторно.</string>
-  <string name="startup_failed_service_error">Briar не е во можност да го стартува потребниот приклучок / плугин. Пре-инсталирањето на Briar најчесто го решава овој проблем. Сепак, имајте во предвид дека во тој случај ќе ја изгубите вашата сметка и сите податоци поврзани со неа, бидејќи Briar не користи централизирани сервери за складирање на вашите податоци.</string>
+  <string name="startup_failed_service_error">Sushh не е во можност да го стартува потребниот приклучок / плугин. Пре-инсталирањето на Sushh најчесто го решава овој проблем. Сепак, имајте во предвид дека во тој случај ќе ја изгубите вашата сметка и сите податоци поврзани со неа, бидејќи Sushh не користи централизирани сервери за складирање на вашите податоци.</string>
   <plurals name="expiry_warning">
-    <item quantity="one">Ова е тест верзија на Briar. Вашата сметка ќе истече за %d ден и не може да биде обновена.</item>
-    <item quantity="other">Ова е тест верзија на Briar. Вашата сметка ќе истече за %d денови и не може да биде обновена.</item>
+    <item quantity="one">Ова е тест верзија на Sushh. Вашата сметка ќе истече за %d ден и не може да биде обновена.</item>
+    <item quantity="other">Ова е тест верзија на Sushh. Вашата сметка ќе истече за %d денови и не може да биде обновена.</item>
   </plurals>
   <string name="expiry_date_reached">Софтверот истече.\nВи благодариме за тестирањето!</string>
-  <string name="download_briar">За да продолжите со користење на Briar, ве молиме преземете го најновото издание.</string>
+  <string name="download_briar">За да продолжите со користење на Sushh, ве молиме преземете го најновото издание.</string>
   <string name="create_new_account">Ќе треба да создадете нова сметка, но можете да го користите истото корисничко име.</string>
   <string name="download_briar_button">Преземи најново издание</string>
   <string name="startup_open_database">Декриптирање на базата на податоци...</string>
@@ -62,43 +62,43 @@
   <string name="lock_button">Заклучи ја апликацијата</string>
   <string name="settings_button">Поставки</string>
   <string name="sign_out_button">Одјави се</string>
-  <string name="transports_onboarding_text">Допрете овде за да контролирате како Briar се поврзува со вашите контакти.</string>
+  <string name="transports_onboarding_text">Допрете овде за да контролирате како Sushh се поврзува со вашите контакти.</string>
   <!--Transports: Tor-->
   <string name="transport_tor">Интернет</string>
   <string name="tor_device_status_online_wifi">Вашиот телефон има интернет пристап преку Wi-Fi</string>
   <string name="tor_device_status_online_mobile">Вашиот телефон има интернет пристап преку мобилни податоци</string>
   <string name="tor_device_status_offline">Вашиот телефон нема интернет пристап</string>
-  <string name="tor_plugin_status_enabling">Briar се поврзува на Интернет</string>
-  <string name="tor_plugin_status_active">Briar е поврзан на Интернет</string>
-  <string name="tor_plugin_status_inactive">Briar не може да се поврзе на Интернет</string>
-  <string name="tor_plugin_status_disabled">Briar е конфигуриран да не користи Интернет</string>
-  <string name="tor_plugin_status_disabled_mobile_data">Briar е конфигуриран да не користи мобилни податоци</string>
-  <string name="tor_plugin_status_disabled_battery">Briar е конфигуриран да не користи Интернет додека е работи на батерија</string>
-  <string name="tor_plugin_status_disabled_country_blocked">Briar е конфигуриран да не користи Интернет во оваа држава</string>
+  <string name="tor_plugin_status_enabling">Sushh се поврзува на Интернет</string>
+  <string name="tor_plugin_status_active">Sushh е поврзан на Интернет</string>
+  <string name="tor_plugin_status_inactive">Sushh не може да се поврзе на Интернет</string>
+  <string name="tor_plugin_status_disabled">Sushh е конфигуриран да не користи Интернет</string>
+  <string name="tor_plugin_status_disabled_mobile_data">Sushh е конфигуриран да не користи мобилни податоци</string>
+  <string name="tor_plugin_status_disabled_battery">Sushh е конфигуриран да не користи Интернет додека е работи на батерија</string>
+  <string name="tor_plugin_status_disabled_country_blocked">Sushh е конфигуриран да не користи Интернет во оваа држава</string>
   <!--Transports: Wi-Fi-->
   <string name="transport_lan">Wi-Fi</string>
   <string name="transport_lan_long">Иста Wi-Fi мрежа </string>
   <string name="lan_device_status_on">Вашиот телефон е поврзан на Wi-Fi</string>
   <string name="lan_device_status_off">Вашиот телефон не е поврзан на Wi-Fi</string>
-  <string name="lan_plugin_status_enabling">Briar се поврзува на Wi-Fi мрежа</string>
-  <string name="lan_plugin_status_active">Briar е поврзан на Wi-Fi мрежата</string>
-  <string name="lan_plugin_status_inactive">Briar сне може да се поврзе на Wi-Fi мрежата</string>
-  <string name="lan_plugin_status_disabled">Briar е конфигуриран да не ја користи Wi-Fi мрежата</string>
+  <string name="lan_plugin_status_enabling">Sushh се поврзува на Wi-Fi мрежа</string>
+  <string name="lan_plugin_status_active">Sushh е поврзан на Wi-Fi мрежата</string>
+  <string name="lan_plugin_status_inactive">Sushh сне може да се поврзе на Wi-Fi мрежата</string>
+  <string name="lan_plugin_status_disabled">Sushh е конфигуриран да не ја користи Wi-Fi мрежата</string>
   <!--Transports: Bluetooth-->
   <string name="transport_bt">Bluetooth</string>
   <string name="bt_device_status_on">Bluetooth-от на вашиот телефон е вклучен</string>
   <string name="bt_device_status_off">Bluetooth-от на вашиот телефон е исклучен</string>
-  <string name="bt_plugin_status_enabling">Briar се поврзува со Bluetooth</string>
-  <string name="bt_plugin_status_active">Briar е поврзан со Bluetooth</string>
-  <string name="bt_plugin_status_inactive">Briar не може да се поврзе со Bluetooth</string>
-  <string name="bt_plugin_status_disabled">Briar е конфигуриран да не користи Bluetooth</string>
+  <string name="bt_plugin_status_enabling">Sushh се поврзува со Bluetooth</string>
+  <string name="bt_plugin_status_active">Sushh е поврзан со Bluetooth</string>
+  <string name="bt_plugin_status_inactive">Sushh не може да се поврзе со Bluetooth</string>
+  <string name="bt_plugin_status_disabled">Sushh е конфигуриран да не користи Bluetooth</string>
   <!--Notifications-->
-  <string name="reminder_notification_title">Одјави се од Briar</string>
+  <string name="reminder_notification_title">Одјави се од Sushh</string>
   <string name="reminder_notification_text">Допрете за да се најавите.</string>
-  <string name="reminder_notification_channel_title">Briar потсетување за најавување</string>
+  <string name="reminder_notification_channel_title">Sushh потсетување за најавување</string>
   <string name="reminder_notification_dismiss">Отфрли</string>
-  <string name="ongoing_notification_title">Најавен во Briar</string>
-  <string name="ongoing_notification_text">Допрете за да го отворите Briar</string>
+  <string name="ongoing_notification_title">Најавен во Sushh</string>
+  <string name="ongoing_notification_text">Допрете за да го отворите Sushh</string>
   <plurals name="private_message_notification_text">
     <item quantity="one">Нова приватна порака.</item>
     <item quantity="other">%d нови приватни пораки.</item>
@@ -181,7 +181,7 @@
   <string name="save_image_success">Сликата беше зачувана</string>
   <string name="save_image_error">Сликата не може да се зачува</string>
   <string name="dialog_title_no_image_support">Недостапни слики</string>
-  <string name="dialog_message_no_image_support">Верзијата на Briar на контактот се уште не поддржува прикачувања на слики. Во моментот кога тој ќе го ажурира Briar, ќе видите различна икона.</string>
+  <string name="dialog_message_no_image_support">Верзијата на Sushh на контактот се уште не поддржува прикачувања на слики. Во моментот кога тој ќе го ажурира Sushh, ќе видите различна икона.</string>
   <string name="dialog_title_image_support">Сега можете да му испраќате слики на овој контакт</string>
   <string name="dialog_message_image_support">Допрете ја оваа икона за да прикачите слики.</string>
   <string name="messaging_too_many_attachments_toast">Само првите %d слики ќе бидат испратени</string>
@@ -217,7 +217,7 @@
   <string name="add_contact_choose_a_nickname">Внеси прекар</string>
   <string name="nickname_intro">Дај му на твојот контакт прекар. Само ти ќе можеш да го видиш.</string>
   <string name="your_link">Испрати го овој линк до контактот што сакаш да го додадеш</string>
-  <string name="link_clip_label">Briar линк</string>
+  <string name="link_clip_label">Sushh линк</string>
   <string name="link_copied_toast">Линкот е копиран</string>
   <string name="adding_contact_error">Се случи грешка при додавање на контактот.</string>
   <string name="pending_contact_requests_snackbar">Има барања за контакт на чекање</string>
@@ -232,7 +232,7 @@
   <string name="own_link_error">Внеси го линкот на твојот контакт, а не својот линк</string>
   <string name="nickname_missing">Ве молиме внесете прекар</string>
   <string name="invalid_link">Неважечки линк</string>
-  <string name="unsupported_link">Овој линк доаѓа од понова верзија на Briar. Ве молиме надградете во последна верзија и обидете се повторно.</string>
+  <string name="unsupported_link">Овој линк доаѓа од понова верзија на Sushh. Ве молиме надградете во последна верзија и обидете се повторно.</string>
   <string name="intent_own_link">Го отвори твојот линк. Користи го линкот на контактот што сакаш да го додадеш!</string>
   <string name="missing_link">Ве молиме внесете линк</string>
   <!--This is a numeral indicating the first step in a series of screens-->
@@ -261,7 +261,7 @@
   <string name="pending_contact_updated_toast">Контактот на чекање е ажуриран</string>
   <!--Introductions-->
   <string name="introduction_onboarding_title">Запознај ги твоите контакти</string>
-  <string name="introduction_onboarding_text">Можете да ги запознаете вашите контакти меѓусебно, па тие нема да имаат потреба да се запознаваат лично за да се поврзат на Briar.</string>
+  <string name="introduction_onboarding_text">Можете да ги запознаете вашите контакти меѓусебно, па тие нема да имаат потреба да се запознаваат лично за да се поврзат на Sushh.</string>
   <string name="introduction_menu_item">Направи запознавање</string>
   <string name="introduction_activity_title">Избери контакт</string>
   <string name="introduction_not_possible">Штотуку имате едно запознавање во тек со овие контакти. Ве молиме дозволете прво овој процес да заврши. Ако вие или вашите контакти сте ретко вклучени/онлајн, ова може да потрае некое време.</string>
@@ -431,7 +431,7 @@
   <!--Settings Profile Picture-->
   <!--Settings Display-->
   <string name="pref_language_title">Јазик &amp; регион</string>
-  <string name="pref_language_changed">Оваа поставка ќе биде ефективна после рестартирањето на Briar. Ве молиме одјавете се и рестартирајте го Briar.</string>
+  <string name="pref_language_changed">Оваа поставка ќе биде ефективна после рестартирањето на Sushh. Ве молиме одјавете се и рестартирајте го Sushh.</string>
   <string name="pref_language_default">Систем стандардно поставен</string>
   <string name="display_settings_title">Екран</string>
   <string name="pref_theme_title">Тема</string>
@@ -450,7 +450,7 @@
   <string name="tor_network_setting_without_bridges">Користете Tor мрежа без мостови</string>
   <string name="tor_network_setting_with_bridges">Користете Tor мрежа со мостови</string>
   <string name="tor_network_setting_never">Не се поврзувај на Интернет</string>
-  <!--How and when Briar will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
+  <!--How and when Sushh will connect to Tor: E.g. "Don't connect to the Internet (in China)" or "Use Tor network with bridges (in Belarus)"-->
   <string name="tor_network_setting_summary">Автоматски: %1$s (во %2$s)</string>
   <string name="tor_mobile_data_title">Користи мобилни податоци</string>
   <string name="tor_only_when_charging_title">Поврзи на Интернет само за време на полнење</string>
@@ -458,11 +458,11 @@
   <!--Settings Security and Panic-->
   <string name="security_settings_title">Безбедност</string>
   <string name="pref_lock_title">Апликацијата е заклучена</string>
-  <string name="pref_lock_summary">Користете го екранот за заклучување на уредот за да го заштитите Briar додека сте најавени</string>
+  <string name="pref_lock_summary">Користете го екранот за заклучување на уредот за да го заштитите Sushh додека сте најавени</string>
   <string name="pref_lock_disabled_summary">За да ја користиш оваа карарактеристика, постави екран за заклучување на твојот уред</string>
   <string name="pref_lock_timeout_title">Неактивноста на заклучената апликација е истечена</string>
   <!--The %s placeholder is replaced with the following time spans, e.g. 5 Minutes, 1 Hour-->
-  <string name="pref_lock_timeout_summary">Кога не го користите Briar, автоматски се заклучува после %s</string>
+  <string name="pref_lock_timeout_summary">Кога не го користите Sushh, автоматски се заклучува после %s</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_1">1 минута</string>
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
@@ -474,7 +474,7 @@
   <!--Will be shown in a list of lock times. Should fit into the %s of "automatically lock it after %s"-->
   <string name="pref_lock_timeout_60">1 час</string>
   <string name="pref_lock_timeout_never">Никогаш</string>
-  <string name="pref_lock_timeout_never_summary">Никогаш не го заклучувај Briar автоматски</string>
+  <string name="pref_lock_timeout_never_summary">Никогаш не го заклучувај Sushh автоматски</string>
   <string name="change_password">Промени лозинка</string>
   <string name="current_password">Сегашна лозинка</string>
   <string name="choose_new_password">Нова лозинка</string>
@@ -482,7 +482,7 @@
   <string name="password_changed">Лозинката е променета.</string>
   <string name="panic_setting">Поставување на копчето паника</string>
   <string name="panic_setting_title">Паника копче</string>
-  <string name="panic_setting_hint">Конфигурирај како Briar ќе реагира кога ќе го користиш паника копчето на апликацијата</string>
+  <string name="panic_setting_hint">Конфигурирај како Sushh ќе реагира кога ќе го користиш паника копчето на апликацијата</string>
   <string name="panic_app_setting_title">Паника копче на апликација</string>
   <string name="unknown_app">непозната апликација</string>
   <string name="panic_app_setting_summary">Ниту една апликација не беше поставена</string>
@@ -491,9 +491,9 @@
   <string name="dialog_message_connect_panic_app">Дали сте сигурни дека сакате да дозволите %1$s да поттикне деструктивни акции на паника копчето?</string>
   <string name="panic_setting_destructive_action">Деструктивни акции</string>
   <string name="panic_setting_signout_title">Одјави се</string>
-  <string name="panic_setting_signout_summary">Одјави се од Briar ако копчето паника е притиснато</string>
+  <string name="panic_setting_signout_summary">Одјави се од Sushh ако копчето паника е притиснато</string>
   <string name="purge_setting_title">Избриши сметка</string>
-  <string name="purge_setting_summary">Избриши ја твојата Briar сметка ако е притиснато копчето паника. Внимание: Ова трајно ќе ги избрише твоите идентитети, контакти и пораки</string>
+  <string name="purge_setting_summary">Избриши ја твојата Sushh сметка ако е притиснато копчето паника. Внимание: Ова трајно ќе ги избрише твоите идентитети, контакти и пораки</string>
   <!--Settings Notifications-->
   <string name="notification_settings_title">Известувања</string>
   <string name="notify_sign_in_title">Потсети ме да се најавам</string>
@@ -526,10 +526,10 @@
   <string name="link_warning_text">Ова може да биде искористено за ваше идентификување. Размислете дали и верувате на оваа личност која ви го испраќа овој линк и размислете истиот да го отворите со Tor прелистувачот.</string>
   <string name="link_warning_open_link">Отвори линк</string>
   <!--Crash Reporter-->
-  <string name="crash_report_title">Briar извештај за срушување</string>
-  <string name="briar_crashed">Жал ни е, Briar се сруши.</string>
+  <string name="crash_report_title">Sushh извештај за срушување</string>
+  <string name="briar_crashed">Жал ни е, Sushh се сруши.</string>
   <string name="not_your_fault">Ова не е ваша гршка.</string>
-  <string name="please_send_report">Ве молиме помогнете ни да изградиме подобар Briar со испраќање на извештај за срушување. </string>
+  <string name="please_send_report">Ве молиме помогнете ни да изградиме подобар Sushh со испраќање на извештај за срушување. </string>
   <string name="report_is_encrypted">Ви ветуваме дека извештајот е енкриптиран и безбедно испратен.</string>
   <string name="feedback_title">Повратни информации</string>
   <string name="describe_crash">Опиши што се случи (опционално)</string>
@@ -539,33 +539,33 @@
   <string name="include_debug_report_feedback">Вкучи анонимни податоци за овој уред</string>
   <string name="send_report">Испрати извештај</string>
   <string name="close">Затвори</string>
-  <string name="dev_report_saved">Извештајот е зачуван. Ќе биде испратен следниот пат кога ќе се вклучите на Briar.</string>
+  <string name="dev_report_saved">Извештајот е зачуван. Ќе биде испратен следниот пат кога ќе се вклучите на Sushh.</string>
   <!--Sign Out-->
-  <string name="progress_title_logout">Одјавување од Briar</string>
+  <string name="progress_title_logout">Одјавување од Sushh</string>
   <!--Screen Filters & Tapjacking-->
   <string name="screen_filter_title">Детектиран е преклопувачки екран</string>
-  <string name="screen_filter_body">Друга апликација е уклучена врз Briar. За да ја зачува вашата безбедност, Briar нема да одговори на допирите кога има друга апликација уклучена врз него.\n\nСледните апликации можат да бидат вклучени врз:\n\n%1$s</string>
+  <string name="screen_filter_body">Друга апликација е уклучена врз Sushh. За да ја зачува вашата безбедност, Sushh нема да одговори на допирите кога има друга апликација уклучена врз него.\n\nСледните апликации можат да бидат вклучени врз:\n\n%1$s</string>
   <string name="screen_filter_allow">Дозволете им на овие апликации да бидат уклучени врз</string>
   <!--Permission Requests-->
   <string name="permission_camera_title">Дозвола за камера</string>
-  <string name="permission_camera_request_body">За да скенирате QR код, на Briar му треба пристап до камерата.</string>
+  <string name="permission_camera_request_body">За да скенирате QR код, на Sushh му треба пристап до камерата.</string>
   <string name="permission_location_title">Дозвола за локација</string>
-  <string name="permission_location_request_body">За да открие Bluetooth уреди, на Briar му е потребна дозвола за пристап до вашата локација.\n\nBriar не ја зачувува вашата локација или не ја споделува со никого.</string>
+  <string name="permission_location_request_body">За да открие Bluetooth уреди, на Sushh му е потребна дозвола за пристап до вашата локација.\n\nSushh не ја зачувува вашата локација или не ја споделува со никого.</string>
   <string name="permission_camera_location_title">Камера и локација</string>
-  <string name="permission_camera_location_request_body">За да го скенира QR кодот, на Briar му е потребен пристап до камерата.\n\nЗа да открие Bluetooth уреди, на Briar му е потребна дозвола за вашата локација.\n\nBriar не ја зачувува вашата локација или не ја споделува со никого.</string>
+  <string name="permission_camera_location_request_body">За да го скенира QR кодот, на Sushh му е потребен пристап до камерата.\n\nЗа да открие Bluetooth уреди, на Sushh му е потребна дозвола за вашата локација.\n\nSushh не ја зачувува вашата локација или не ја споделува со никого.</string>
   <string name="permission_camera_denied_body">Го одбивте пристапот до камерата, но за додавање на контакти потребно е користење на камерата.\n\nВе молиме  размислете за давање пристап.</string>
-  <string name="permission_location_denied_body">Го одбивте пристапот до вашата локација, но на Briar му е потребна оваа дозвола за да ги открие Bluetooth уредите.\n\nВе молиме размислете за давање пристап.</string>
+  <string name="permission_location_denied_body">Го одбивте пристапот до вашата локација, но на Sushh му е потребна оваа дозвола за да ги открие Bluetooth уредите.\n\nВе молиме размислете за давање пристап.</string>
   <string name="qr_code">QR код</string>
   <string name="show_qr_code_fullscreen">Покажи го QR кодот на цел екран</string>
   <!--App Locking-->
-  <string name="lock_unlock">Отклучи го Briar</string>
-  <string name="lock_unlock_verbose">Внесете го ПИН-от, шемата или лозинката на твојот уред за да го отклучите Briar. </string>
+  <string name="lock_unlock">Отклучи го Sushh</string>
+  <string name="lock_unlock_verbose">Внесете го ПИН-от, шемата или лозинката на твојот уред за да го отклучите Sushh. </string>
   <string name="lock_unlock_fingerprint_description">Допрете го сензорот за отпечаток со прстот со кој сте се регистрирале за да продложите</string>
   <string name="lock_unlock_password">Користете лозинка</string>
-  <string name="lock_is_locked">Briar е заклучен</string>
+  <string name="lock_is_locked">Sushh е заклучен</string>
   <string name="lock_tap_to_unlock">Допрете за отклучување</string>
   <!--Connections Screen-->
-  <string name="transports_help_text">Briar може да се поврзе со вашите контакти преку Интернет, Wi-Fi или Bluetooth.\n\nСите Интернет поврзувања одат преку Tor Мрежата поради приватност.\n\nАко контактот може да биде достапен преку повеќе начини, Briar ќе ги користи паралелно. </string>
+  <string name="transports_help_text">Sushh може да се поврзе со вашите контакти преку Интернет, Wi-Fi или Bluetooth.\n\nСите Интернет поврзувања одат преку Tor Мрежата поради приватност.\n\nАко контактот може да биде достапен преку повеќе начини, Sushh ќе ги користи паралелно. </string>
   <!--Screenshots-->
   <!--This is a name to be used in screenshots. Feel free to change it to a local name.-->
   <string name="screenshot_alice">Жарко</string>
@@ -576,7 +576,7 @@
   <!--This is a message to be used in screenshots. Please use the same translation for Bob!-->
   <string name="screenshot_message_1">Здраво Лилјана!</string>
   <!--This is a message to be used in screenshots. Please use the same translation for Alice!-->
-  <string name="screenshot_message_2">Здраво Жарко! Ти благодарам што ми кажа за Briar!</string>
+  <string name="screenshot_message_2">Здраво Жарко! Ти благодарам што ми кажа за Sushh!</string>
   <!--This is a message to be used in screenshots.-->
   <string name="screenshot_message_3">Нема проблем, се надевам ти се допаѓа 😀</string>
 </resources>
