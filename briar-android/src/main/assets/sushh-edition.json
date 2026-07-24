@@ -1,0 +1,8 @@
+{
+  "edition": "participant",
+  "applicationId": "in.sushh.participant",
+  "requiredOwnerApprovals": 3,
+  "canMessageHub": true,
+  "canBroadcast": false,
+  "encryptedRelay": true
+}
