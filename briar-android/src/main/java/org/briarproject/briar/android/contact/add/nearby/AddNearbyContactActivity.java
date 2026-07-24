@@ -5,8 +5,12 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import org.briarproject.bramble.api.contact.Contact;
+import org.briarproject.bramble.api.db.DbException;
 import org.briarproject.bramble.api.identity.Author;
 import org.briarproject.bramble.api.qrcode.QrCodeClassifier.QrCodeType;
+import org.briarproject.bramble.api.sync.GroupId;
+import org.briarproject.briar.BuildConfig;
 import org.briarproject.briar.R;
 import org.briarproject.briar.android.activity.ActivityComponent;
 import org.briarproject.briar.android.activity.BriarActivity;
@@ -16,8 +20,10 @@ import org.briarproject.briar.android.contact.add.nearby.AddContactState.Failed;
 import org.briarproject.briar.android.contact.add.nearby.AddContactState.Failed.WrongQrCodeType;
 import org.briarproject.briar.android.contact.add.nearby.AddContactState.Failed.WrongQrCodeVersion;
 import org.briarproject.briar.android.contact.add.nearby.AddNearbyContactViewModel.BluetoothDecision;
+import org.briarproject.briar.android.controller.handler.UiResultExceptionHandler;
 import org.briarproject.briar.android.fragment.BaseFragment;
 import org.briarproject.briar.android.fragment.BaseFragment.BaseFragmentListener;
+import org.briarproject.briar.android.privategroup.creation.CreateGroupController;
 import org.briarproject.briar.android.util.ActivityLaunchers.RequestBluetoothDiscoverable;
 import org.briarproject.nullsafety.MethodsNotNullByDefault;
 import org.briarproject.nullsafety.ParametersNotNullByDefault;
@@ -35,6 +41,7 @@ import androidx.lifecycle.ViewModelProvider;
 import static android.bluetooth.BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE;
 import static android.content.Intent.FLAG_ACTIVITY_CLEAR_TOP;
 import static android.widget.Toast.LENGTH_LONG;
+import static java.util.Collections.singleton;
 import static java.util.Objects.requireNonNull;
 import static java.util.logging.Logger.getLogger;
 import static org.briarproject.bramble.api.qrcode.QrCodeClassifier.QrCodeType.MAILBOX;
@@ -46,13 +53,21 @@ import static org.briarproject.briar.android.contact.add.nearby.AddNearbyContact
 public class AddNearbyContactActivity extends BriarActivity
 		implements BaseFragmentListener {
 
+	public static final String EXTRA_JOIN_GROUP_QR =
+			"sushh.EXTRA_JOIN_GROUP_QR";
+
 	private static final Logger LOG =
 			getLogger(AddNearbyContactActivity.class.getName());
 
 	@Inject
 	ViewModelProvider.Factory viewModelFactory;
+	@Inject
+	CreateGroupController createGroupController;
 
 	private AddNearbyContactViewModel viewModel;
+	@Nullable
+	private GroupId invitationGroupId;
+	private boolean joinGroupQr;
 	private final ActivityResultLauncher<Integer> bluetoothLauncher =
 			registerForActivityResult(new RequestBluetoothDiscoverable(),
 					this::onBluetoothDiscoverableResult);
@@ -67,6 +82,15 @@ public class AddNearbyContactActivity extends BriarActivity
 	@Override
 	public void onCreate(@Nullable Bundle state) {
 		super.onCreate(state);
+		byte[] groupId = getIntent().getByteArrayExtra(GROUP_ID);
+		if (groupId != null) {
+			if (!BuildConfig.SUSHH_HUB) {
+				throw new IllegalStateException(
+						"Only the Hub edition can issue group invitations");
+			}
+			invitationGroupId = new GroupId(groupId);
+		}
+		joinGroupQr = getIntent().getBooleanExtra(EXTRA_JOIN_GROUP_QR, false);
 		setContentView(R.layout.activity_fragment_container_toolbar);
 		Toolbar toolbar = findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
@@ -79,8 +103,16 @@ public class AddNearbyContactActivity extends BriarActivity
 		viewModel.getShowQrCodeFragment().observeEvent(this, show -> {
 			if (show) showQrCodeFragment();
 		});
-		requireNonNull(getSupportActionBar())
-				.setTitle(R.string.add_contact_title);
+		if (invitationGroupId != null) {
+			requireNonNull(getSupportActionBar())
+					.setTitle(R.string.groups_invite_by_qr);
+		} else if (joinGroupQr) {
+			requireNonNull(getSupportActionBar())
+					.setTitle(R.string.groups_join_by_qr);
+		} else {
+			requireNonNull(getSupportActionBar())
+					.setTitle(R.string.add_contact_title);
+		}
 		viewModel.getState()
 				.observe(this, this::onAddContactStateChanged);
 	}
@@ -109,7 +141,7 @@ public class AddNearbyContactActivity extends BriarActivity
 		if (viewModel.getState().getValue() instanceof Failed) {
 			// Re-create this activity when going back in failed state.
 			// This will also re-create the ViewModel, so we start fresh.
-			Intent i = new Intent(this, AddNearbyContactActivity.class);
+			Intent i = new Intent(getIntent());
 			i.setFlags(FLAG_ACTIVITY_CLEAR_TOP);
 			startActivity(i);
 		} else {
@@ -159,12 +191,21 @@ public class AddNearbyContactActivity extends BriarActivity
 
 	private void onContactExchangeResult(ContactExchangeResult result) {
 		if (result instanceof ContactExchangeResult.Success) {
-			Author remoteAuthor =
-					((ContactExchangeResult.Success) result).remoteAuthor;
-			String contactName = remoteAuthor.getName();
-			String text = getString(R.string.contact_added_toast, contactName);
-			Toast.makeText(this, text, LENGTH_LONG).show();
-			supportFinishAfterTransition();
+			ContactExchangeResult.Success success =
+					(ContactExchangeResult.Success) result;
+			if (invitationGroupId != null) {
+				sendGroupInvitation(success.contact);
+			} else {
+				String contactName = success.contact.getAuthor().getName();
+				int message = joinGroupQr
+						? R.string.groups_qr_waiting_for_invitation
+						: success.alreadyExisted
+								? R.string.contact_already_exists
+								: R.string.contact_added_toast;
+				String text = getString(message, contactName);
+				Toast.makeText(this, text, LENGTH_LONG).show();
+				supportFinishAfterTransition();
+			}
 		} else if (result instanceof ContactExchangeResult.Error) {
 			Author duplicateAuthor =
 					((ContactExchangeResult.Error) result).duplicateAuthor;
@@ -178,6 +219,30 @@ public class AddNearbyContactActivity extends BriarActivity
 				supportFinishAfterTransition();
 			}
 		} else throw new AssertionError();
+	}
+
+	private void sendGroupInvitation(Contact contact) {
+		GroupId groupId = requireNonNull(invitationGroupId);
+		createGroupController.sendInvitation(groupId,
+				singleton(contact.getId()), null,
+				new UiResultExceptionHandler<Void, DbException>(this) {
+					@Override
+					public void onResultUi(Void result) {
+						String text = getString(
+								R.string.groups_qr_invitation_sent,
+								contact.getAuthor().getName());
+						Toast.makeText(AddNearbyContactActivity.this, text,
+								LENGTH_LONG).show();
+						setResult(RESULT_OK);
+						supportFinishAfterTransition();
+					}
+
+					@Override
+					public void onExceptionUi(DbException exception) {
+						setResult(RESULT_CANCELED);
+						handleException(exception);
+					}
+				});
 	}
 
 	private void onMailboxQrCodeScanned() {
