@@ -3,6 +3,10 @@
 
 	<string name="app_name" translatable="false">Goonj</string>
 	<string name="app_package" translatable="false">org.briarproject.briar.android</string>
+	<string name="purpose_use_disclaimer_title">Purpose and Use Disclaimer</string>
+	<string name="purpose_use_disclaimer_body">This application is intended for peaceful, ethical, humanitarian, and legitimate purposes only. It must not be used to harm people, animals, communities, property, or the environment, or to support violence, abuse, exploitation, or any illegal activity.
+
+By using this application, you agree to use it responsibly, lawfully, and in ways that promote safety, dignity, sustainability, the protection of life, and other lawful public, civic, and legitimate operational interests.</string>
 
 	<!-- Setup -->
 	<string name="setup_title">Welcome to Goonj</string>
