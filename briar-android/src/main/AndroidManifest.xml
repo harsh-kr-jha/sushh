@@ -59,6 +59,16 @@
 		android:theme="@style/BriarTheme"
 		tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
 
+		<provider
+			android:name="androidx.core.content.FileProvider"
+			android:authorities="org.briarproject.briar.fileprovider"
+			android:exported="false"
+			android:grantUriPermissions="true">
+			<meta-data
+				android:name="android.support.FILE_PROVIDER_PATHS"
+				android:resource="@xml/file_paths" />
+		</provider>
+
 		<receiver
 			android:name="org.briarproject.briar.android.login.SignInReminderReceiver"
 			android:exported="false">

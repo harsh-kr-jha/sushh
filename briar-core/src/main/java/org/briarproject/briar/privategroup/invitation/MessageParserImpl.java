@@ -103,20 +103,33 @@ class MessageParserImpl implements MessageParser {
 		// optional text, signature.
 		// Client version 0.1: Message type, creator, group name, salt,
 		// optional text, signature, optional auto-delete timer.
+		// Sanchar format: Message type, creator, group name, salt,
+		// optional text, signature, inviter, optional auto-delete timer.
 		BdfList creatorList = body.getList(1);
 		String groupName = body.getString(2);
 		byte[] salt = body.getRaw(3);
 		String text = body.getOptionalString(4);
 		byte[] signature = body.getRaw(5);
-		long timer = NO_AUTO_DELETE_TIMER;
-		if (body.size() == 7) timer = body.getLong(6, NO_AUTO_DELETE_TIMER);
-
 		Author creator = clientHelper.parseAndValidateAuthor(creatorList);
+		Author inviter = creator;
+		long timer = NO_AUTO_DELETE_TIMER;
+		if (body.size() == 7) {
+			Object value = body.get(6);
+			if (value instanceof BdfList) {
+				inviter = clientHelper.parseAndValidateAuthor(
+						body.getList(6));
+			} else {
+				timer = body.getLong(6, NO_AUTO_DELETE_TIMER);
+			}
+		} else if (body.size() == 8) {
+			inviter = clientHelper.parseAndValidateAuthor(body.getList(6));
+			timer = body.getLong(7, NO_AUTO_DELETE_TIMER);
+		}
 		PrivateGroup privateGroup = privateGroupFactory.createPrivateGroup(
 				groupName, creator, salt);
 		return new InviteMessage(m.getId(), m.getGroupId(),
 				privateGroup.getId(), m.getTimestamp(), groupName, creator,
-				salt, text, signature, timer);
+				salt, text, signature, inviter, timer);
 	}
 
 	@Override

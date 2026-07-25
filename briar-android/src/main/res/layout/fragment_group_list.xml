@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<org.briarproject.briar.android.view.BriarRecyclerView
+		android:id="@+id/list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingBottom="88dp"
+		android:clipToPadding="false"
+		app:layout_behavior="org.briarproject.briar.android.view.SnackbarAwareBehavior"
+		app:scrollToEnd="false" />
+
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:id="@+id/joinChannelFab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|end"
+		android:layout_margin="@dimen/margin_large"
+		android:contentDescription="@string/channels_scan_to_join"
+		app:backgroundTint="?attr/colorPrimary"
+		app:layout_behavior="org.briarproject.briar.android.view.SnackbarAwareBehavior"
+		app:srcCompat="@drawable/ic_qr_code"
+		app:tint="@android:color/white" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

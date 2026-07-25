@@ -77,7 +77,7 @@ class GroupInvitationValidator extends BdfMessageValidator {
 		// optional text, signature.
 		// Client version 0.1: Message type, creator, group name, salt,
 		// optional text, signature, optional auto-delete timer.
-		checkSize(body, 6, 7);
+		checkSize(body, 6, 8);
 		BdfList creatorList = body.getList(1);
 		String groupName = body.getString(2);
 		checkLength(groupName, 1, MAX_GROUP_NAME_LENGTH);
@@ -87,13 +87,24 @@ class GroupInvitationValidator extends BdfMessageValidator {
 		checkLength(text, 1, MAX_GROUP_INVITATION_TEXT_LENGTH);
 		byte[] signature = body.getRaw(5);
 		checkLength(signature, 1, MAX_SIGNATURE_LENGTH);
+		// Validate the optional inviter/timer extension before parsing authors.
+		BdfList inviterList = null;
 		long timer = NO_AUTO_DELETE_TIMER;
 		if (body.size() == 7) {
-			timer = validateAutoDeleteTimer(body.getOptionalLong(6));
+			Object value = body.get(6);
+			if (value instanceof BdfList) {
+				inviterList = body.getList(6);
+			} else {
+				timer = validateAutoDeleteTimer(body.getOptionalLong(6));
+			}
+		} else if (body.size() == 8) {
+			inviterList = body.getList(6);
+			timer = validateAutoDeleteTimer(body.getOptionalLong(7));
 		}
-
 		// Validate the creator and create the private group
 		Author creator = clientHelper.parseAndValidateAuthor(creatorList);
+		Author inviter = inviterList == null ? creator :
+				clientHelper.parseAndValidateAuthor(inviterList);
 		PrivateGroup privateGroup = privateGroupFactory.createPrivateGroup(
 				groupName, creator, salt);
 		// Verify the signature
@@ -104,7 +115,7 @@ class GroupInvitationValidator extends BdfMessageValidator {
 		);
 		try {
 			clientHelper.verifySignature(signature, SIGNING_LABEL_INVITE,
-					signed, creator.getPublicKey());
+					signed, inviter.getPublicKey());
 		} catch (GeneralSecurityException e) {
 			throw new FormatException();
 		}

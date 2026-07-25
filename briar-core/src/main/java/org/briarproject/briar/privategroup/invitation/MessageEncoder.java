@@ -34,12 +34,29 @@ interface MessageEncoder {
 			@Nullable String text, byte[] signature);
 
 	/**
+	 * Encodes a member invitation without an auto-delete timer. This requires
+	 * the contact to support client version 0.2 or higher.
+	 */
+	Message encodeInviteMessage(GroupId contactGroupId, GroupId privateGroupId,
+			long timestamp, String groupName, Author creator, byte[] salt,
+			@Nullable String text, byte[] signature, Author inviter);
+
+	/**
 	 * Encodes an invite message with an optional auto-delete timer. This
 	 * requires the contact to support client version 0.1 or higher.
 	 */
 	Message encodeInviteMessage(GroupId contactGroupId, GroupId privateGroupId,
 			long timestamp, String groupName, Author creator, byte[] salt,
 			@Nullable String text, byte[] signature, long autoDeleteTimer);
+
+	/**
+	 * Encodes a member invitation with an optional auto-delete timer. This
+	 * requires the contact to support client version 0.2 or higher.
+	 */
+	Message encodeInviteMessage(GroupId contactGroupId, GroupId privateGroupId,
+			long timestamp, String groupName, Author creator, byte[] salt,
+			@Nullable String text, byte[] signature, Author inviter,
+			long autoDeleteTimer);
 
 	/**
 	 * Encodes a join message without an auto-delete timer.

@@ -1,0 +1,70 @@
+name: Build Goonj APK
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-apk-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-apk:
+    name: Build debug APK
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: gradle
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Prepare release keystore
+        run: |
+          echo "$ANDROID_RELEASE_KEYSTORE_BASE64" | base64 --decode > release-key.jks
+        env:
+          ANDROID_RELEASE_KEYSTORE_BASE64: ${{ secrets.ANDROID_RELEASE_KEYSTORE_BASE64 }}
+
+      - name: Build official debug APK
+        run: ./gradlew --no-daemon :briar-android:assembleOfficialDebug
+
+      - name: Build official release APK
+        env:
+          ANDROID_RELEASE_STORE_PASSWORD: ${{ secrets.ANDROID_RELEASE_STORE_PASSWORD }}
+          ANDROID_RELEASE_KEY_ALIAS: ${{ secrets.ANDROID_RELEASE_KEY_ALIAS }}
+          ANDROID_RELEASE_KEY_PASSWORD: ${{ secrets.ANDROID_RELEASE_KEY_PASSWORD }}
+        run: ./gradlew --no-daemon :briar-android:assembleOfficialRelease
+
+      - name: Prepare APK artifacts
+        run: |
+          mkdir -p apk
+          cp briar-android/build/outputs/apk/official/debug/*.apk apk/Goonj-debug.apk
+          cp briar-android/build/outputs/apk/official/release/*.apk apk/Goonj-release.apk
+          sha256sum apk/Goonj-debug.apk > apk/Goonj-debug.apk.sha256
+          sha256sum apk/Goonj-release.apk > apk/Goonj-release.apk.sha256
+
+      - name: Upload APK artifacts
+        uses: actions/upload-artifact@v6
+        with:
+          name: Goonj-apks-${{ github.run_number }}
+          path: |
+            apk/Goonj-debug.apk
+            apk/Goonj-debug.apk.sha256
+            apk/Goonj-release.apk
+            apk/Goonj-release.apk.sha256
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14

@@ -12,7 +12,7 @@ public class JoinMessageHeader extends GroupMessageHeader {
 
 	public JoinMessageHeader(GroupMessageHeader h, boolean isInitial) {
 		super(h.getGroupId(), h.getId(), h.getParentId(), h.getTimestamp(),
-				h.getAuthor(), h.getAuthorInfo(), h.isRead());
+				h.getAuthor(), h.getAuthorInfo(), h.isRead(), MessageType.JOIN);
 		this.isInitial = isInitial;
 	}
 

@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import org.briarproject.briar.R;
 import org.briarproject.briar.android.activity.ActivityComponent;
@@ -64,6 +65,10 @@ public class AddNearbyContactIntroFragment extends BaseFragment {
 			@Nullable Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.fragment_keyagreement_id, container,
 				false);
+		if (((AddNearbyContactActivity) requireActivity()).isChannelFlow()) {
+			TextView intro = v.findViewById(R.id.introTwoWay);
+			intro.setText(R.string.channels_qr_join_explanation);
+		}
 		View button = v.findViewById(R.id.continueButton);
 		button.setOnClickListener(view -> {
 			viewModel.stopDiscovery();

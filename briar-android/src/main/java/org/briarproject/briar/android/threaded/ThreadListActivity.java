@@ -94,9 +94,9 @@ public abstract class ThreadListActivity<I extends ThreadItem, A extends ThreadI
 		});
 		downButton.setOnClickListener(v -> {
 			int position = adapter.getVisibleUnreadPosBottom(layoutManager);
-			if (position != NO_POSITION) {
-				list.getRecyclerView().scrollToPosition(position);
-			}
+			if (position == NO_POSITION) position = adapter.getItemCount() - 1;
+			if (position >= 0)
+				list.getRecyclerView().smoothScrollToPosition(position);
 		});
 
 		viewModel.getItems().observe(this, result -> result
@@ -217,7 +217,7 @@ public abstract class ThreadListActivity<I extends ThreadItem, A extends ThreadI
 		}
 	}
 
-	private void scrollToItemAtTop(MessageId messageId) {
+	protected void scrollToItemAtTop(MessageId messageId) {
 		int position = adapter.findItemPosition(messageId);
 		if (position != NO_POSITION) {
 			layoutManager.scrollToPositionWithOffset(position, 0);

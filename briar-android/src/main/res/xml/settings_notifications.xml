@@ -33,26 +33,6 @@
 	<SwitchPreferenceCompat
 		android:defaultValue="true"
 		android:enabled="false"
-		android:key="notifyForumPosts"
-		android:persistent="false"
-		android:summary="@string/notify_forum_posts_setting_summary"
-		android:title="@string/notify_forum_posts_setting_title"
-		app:iconSpaceReserved="false"
-		app:singleLineTitle="false" />
-
-	<SwitchPreferenceCompat
-		android:defaultValue="true"
-		android:enabled="false"
-		android:key="notifyBlogPosts"
-		android:persistent="false"
-		android:summary="@string/notify_blog_posts_setting_summary"
-		android:title="@string/notify_blog_posts_setting_title"
-		app:iconSpaceReserved="false"
-		app:singleLineTitle="false" />
-
-	<SwitchPreferenceCompat
-		android:defaultValue="true"
-		android:enabled="false"
 		android:key="notifyVibration"
 		android:persistent="false"
 		android:title="@string/notify_vibration_setting"

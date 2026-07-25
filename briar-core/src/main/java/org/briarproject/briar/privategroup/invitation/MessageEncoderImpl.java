@@ -111,6 +111,23 @@ class MessageEncoderImpl implements MessageEncoder {
 	public Message encodeInviteMessage(GroupId contactGroupId,
 			GroupId privateGroupId, long timestamp, String groupName,
 			Author creator, byte[] salt, @Nullable String text,
+			byte[] signature, Author inviter) {
+		BdfList body = BdfList.of(
+				INVITE.getValue(),
+				clientHelper.toList(creator),
+				groupName,
+				salt,
+				text,
+				signature,
+				clientHelper.toList(inviter)
+		);
+		return createMessage(contactGroupId, timestamp, body);
+	}
+
+	@Override
+	public Message encodeInviteMessage(GroupId contactGroupId,
+			GroupId privateGroupId, long timestamp, String groupName,
+			Author creator, byte[] salt, @Nullable String text,
 			byte[] signature, long autoDeleteTimer) {
 		BdfList creatorList = clientHelper.toList(creator);
 		BdfList body = BdfList.of(
@@ -120,6 +137,24 @@ class MessageEncoderImpl implements MessageEncoder {
 				salt,
 				text,
 				signature,
+				encodeTimer(autoDeleteTimer)
+		);
+		return createMessage(contactGroupId, timestamp, body);
+	}
+
+	@Override
+	public Message encodeInviteMessage(GroupId contactGroupId,
+			GroupId privateGroupId, long timestamp, String groupName,
+			Author creator, byte[] salt, @Nullable String text,
+			byte[] signature, Author inviter, long autoDeleteTimer) {
+		BdfList body = BdfList.of(
+				INVITE.getValue(),
+				clientHelper.toList(creator),
+				groupName,
+				salt,
+				text,
+				signature,
+				clientHelper.toList(inviter),
 				encodeTimer(autoDeleteTimer)
 		);
 		return createMessage(contactGroupId, timestamp, body);

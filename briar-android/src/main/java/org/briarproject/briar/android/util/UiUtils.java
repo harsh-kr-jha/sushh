@@ -343,14 +343,8 @@ public class UiUtils {
 	}
 
 	public static void setTheme(Context ctx, String theme) {
-		if (theme.equals(ctx.getString(R.string.pref_theme_light_value))) {
-			setDefaultNightMode(MODE_NIGHT_NO);
-		} else if (theme
-				.equals(ctx.getString(R.string.pref_theme_dark_value))) {
-			setDefaultNightMode(MODE_NIGHT_YES);
-		} else {
-			setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM);
-		}
+		// Always force light mode for this build.
+		setDefaultNightMode(MODE_NIGHT_NO);
 	}
 
 	public static int resolveAttribute(Context ctx, @AttrRes int attr) {

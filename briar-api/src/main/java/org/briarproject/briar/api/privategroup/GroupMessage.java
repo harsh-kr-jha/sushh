@@ -13,13 +13,25 @@ import javax.annotation.concurrent.Immutable;
 @NotNullByDefault
 public class GroupMessage extends ThreadedMessage {
 
+	private final MessageType type;
+
 	public GroupMessage(Message message, @Nullable MessageId parent,
 			Author member) {
+		this(message, parent, member, MessageType.POST);
+	}
+
+	public GroupMessage(Message message, @Nullable MessageId parent,
+			Author member, MessageType type) {
 		super(message, parent, member);
+		this.type = type;
 	}
 
 	public Author getMember() {
 		return super.getAuthor();
+	}
+
+	public MessageType getType() {
+		return type;
 	}
 
 }

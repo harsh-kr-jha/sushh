@@ -237,11 +237,11 @@ class InviteeProtocolEngine extends AbstractProtocolEngine<InviteeSession> {
 			InviteMessage m) throws DbException, FormatException {
 		// The timestamp must be higher than the last invite message, if any
 		if (m.getTimestamp() <= s.getInviteTimestamp()) return abort(txn, s);
-		// Check that the contact is the creator
+		// Check that the contact is the channel member who sent the invitation
 		ContactId contactId =
 				clientHelper.getContactId(txn, s.getContactGroupId());
 		Author contact = db.getContact(txn, contactId).getAuthor();
-		if (!contact.getId().equals(m.getCreator().getId()))
+		if (!contact.getId().equals(m.getInviter().getId()))
 			return abort(txn, s);
 		// Mark the invite message visible in the UI and available to answer
 		markMessageVisibleInUi(txn, m.getId());

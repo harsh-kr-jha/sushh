@@ -27,18 +27,35 @@ import javax.annotation.concurrent.Immutable;
 import static org.briarproject.bramble.api.identity.AuthorConstants.MAX_SIGNATURE_LENGTH;
 import static org.briarproject.bramble.util.ValidationUtils.checkLength;
 import static org.briarproject.bramble.util.ValidationUtils.checkSize;
+import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_ADMIN;
+import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_ADMIN_REMOVED;
+import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_ADMIN_REQUEST;
+import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_IMAGE;
 import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_JOIN;
+import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_MEMBER_REMOVED;
+import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_PIN;
 import static org.briarproject.briar.api.privategroup.GroupMessageFactory.SIGNING_LABEL_POST;
+import static org.briarproject.briar.api.privategroup.MessageType.ADMIN;
+import static org.briarproject.briar.api.privategroup.MessageType.ADMIN_REMOVED;
+import static org.briarproject.briar.api.privategroup.MessageType.ADMIN_REQUEST;
+import static org.briarproject.briar.api.privategroup.MessageType.IMAGE;
 import static org.briarproject.briar.api.privategroup.MessageType.JOIN;
+import static org.briarproject.briar.api.privategroup.MessageType.MEMBER_REMOVED;
+import static org.briarproject.briar.api.privategroup.MessageType.PIN;
 import static org.briarproject.briar.api.privategroup.MessageType.POST;
+import static org.briarproject.briar.api.attachment.MediaConstants.MAX_CONTENT_TYPE_BYTES;
+import static org.briarproject.briar.api.attachment.MediaConstants.MAX_IMAGE_SIZE;
 import static org.briarproject.briar.api.privategroup.PrivateGroupConstants.MAX_GROUP_POST_TEXT_LENGTH;
 import static org.briarproject.briar.api.privategroup.invitation.GroupInvitationFactory.SIGNING_LABEL_INVITE;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_INITIAL_JOIN_MSG;
+import static org.briarproject.briar.privategroup.GroupConstants.KEY_INVITER;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_MEMBER;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_PARENT_MSG_ID;
+import static org.briarproject.briar.privategroup.GroupConstants.KEY_PINNED_MSG_ID;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_PREVIOUS_MSG_ID;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_READ;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_TIMESTAMP;
+import static org.briarproject.briar.privategroup.GroupConstants.KEY_TARGET_MEMBER;
 import static org.briarproject.briar.privategroup.GroupConstants.KEY_TYPE;
 
 @Immutable
@@ -60,10 +77,29 @@ class GroupMessageValidator extends BdfMessageValidator {
 	protected BdfMessageContext validateMessage(Message m, Group g,
 			BdfList body) throws InvalidMessageException, FormatException {
 
-		checkSize(body, 4, 6);
+		checkSize(body, 3, 8);
 
 		// Message type (int)
 		int type = body.getInt(0);
+		if (type == JOIN.getInt()) {
+			checkSize(body, 4);
+		} else if (type == POST.getInt()) {
+			checkSize(body, 6);
+		} else if (type == ADMIN.getInt()) {
+			checkSize(body, 3);
+		} else if (type == ADMIN_REMOVED.getInt()) {
+			checkSize(body, 3);
+		} else if (type == MEMBER_REMOVED.getInt()) {
+			checkSize(body, 4);
+		} else if (type == ADMIN_REQUEST.getInt()) {
+			checkSize(body, 5);
+		} else if (type == IMAGE.getInt()) {
+			checkSize(body, 8);
+		} else if (type == PIN.getInt()) {
+			checkSize(body, 4);
+		} else {
+			throw new InvalidMessageException("Unknown Message Type");
+		}
 
 		// Member (author)
 		BdfList memberList = body.getList(1);
@@ -76,8 +112,27 @@ class GroupMessageValidator extends BdfMessageValidator {
 		} else if (type == POST.getInt()) {
 			c = validatePost(m, g, body, member);
 			addMessageMetadata(c, memberList, m.getTimestamp());
+		} else if (type == ADMIN.getInt()) {
+			c = validateAdmin(m, g, body, member, SIGNING_LABEL_ADMIN);
+			addMessageMetadata(c, memberList, m.getTimestamp());
+		} else if (type == ADMIN_REMOVED.getInt()) {
+			c = validateAdmin(m, g, body, member,
+					SIGNING_LABEL_ADMIN_REMOVED);
+			addMessageMetadata(c, memberList, m.getTimestamp());
+		} else if (type == MEMBER_REMOVED.getInt()) {
+			c = validateMemberRemoval(m, g, body, member);
+			addMessageMetadata(c, memberList, m.getTimestamp());
+		} else if (type == ADMIN_REQUEST.getInt()) {
+			c = validateAdminRequest(m, g, body, member);
+			addMessageMetadata(c, memberList, m.getTimestamp());
+		} else if (type == IMAGE.getInt()) {
+			c = validateImage(m, g, body, member);
+			addMessageMetadata(c, memberList, m.getTimestamp());
+		} else if (type == PIN.getInt()) {
+			c = validatePin(m, g, body, member);
+			addMessageMetadata(c, memberList, m.getTimestamp());
 		} else {
-			throw new InvalidMessageException("Unknown Message Type");
+			throw new AssertionError();
 		}
 		c.getDictionary().put(KEY_TYPE, type);
 		return c;
@@ -99,22 +154,30 @@ class GroupMessageValidator extends BdfMessageValidator {
 			if (inviteList != null) throw new FormatException();
 		} else {
 			if (inviteList == null) throw new FormatException();
-			// Timestamp, creator's signature
-			checkSize(inviteList, 2);
+			// Timestamp, optional inviter, inviter's signature
+			checkSize(inviteList, 2, 3);
 			// Join timestamp must be greater than invite timestamp
 			long inviteTimestamp = inviteList.getLong(0);
 			if (m.getTimestamp() <= inviteTimestamp)
 				throw new FormatException();
-			byte[] creatorSignature = inviteList.getRaw(1);
-			checkLength(creatorSignature, 1, MAX_SIGNATURE_LENGTH);
-			// The invite token is signed by the creator of the private group
+			Author inviter = creator;
+			byte[] inviterSignature;
+			if (inviteList.size() == 3) {
+				BdfList inviterList = inviteList.getList(1);
+				inviter = clientHelper.parseAndValidateAuthor(inviterList);
+				inviterSignature = inviteList.getRaw(2);
+			} else {
+				inviterSignature = inviteList.getRaw(1);
+			}
+			checkLength(inviterSignature, 1, MAX_SIGNATURE_LENGTH);
+			// The invite token is signed by the member who sent the invitation
 			BdfList token = groupInvitationFactory.createInviteToken(
-					creator.getId(), member.getId(), g.getId(),
+					inviter.getId(), member.getId(), g.getId(),
 					inviteTimestamp);
 			try {
-				clientHelper.verifySignature(creatorSignature,
+				clientHelper.verifySignature(inviterSignature,
 						SIGNING_LABEL_INVITE,
-						token, creator.getPublicKey());
+						token, inviter.getPublicKey());
 			} catch (GeneralSecurityException e) {
 				throw new FormatException();
 			}
@@ -138,7 +201,131 @@ class GroupMessageValidator extends BdfMessageValidator {
 		// Return the metadata and no dependencies
 		BdfDictionary meta = new BdfDictionary();
 		meta.put(KEY_INITIAL_JOIN_MSG, isCreator);
+		if (!isCreator && inviteList != null && inviteList.size() == 3) {
+			meta.put(KEY_INVITER, inviteList.getList(1));
+		}
 		return new BdfMessageContext(meta);
+	}
+
+	private BdfMessageContext validateAdmin(Message m, Group g, BdfList body,
+			Author admin, String signingLabel) throws FormatException {
+		// Message type, appointed admin, creator's signature
+		checkSize(body, 3);
+		byte[] signature = body.getRaw(2);
+		checkLength(signature, 1, MAX_SIGNATURE_LENGTH);
+		PrivateGroup pg = privateGroupFactory.parsePrivateGroup(g);
+		BdfList adminList = body.getList(1);
+		BdfList signed = BdfList.of(g.getId(), m.getTimestamp(), adminList);
+		try {
+			clientHelper.verifySignature(signature, signingLabel,
+					signed, pg.getCreator().getPublicKey());
+		} catch (GeneralSecurityException e) {
+			throw new FormatException();
+		}
+		return new BdfMessageContext(new BdfDictionary());
+	}
+
+	private BdfMessageContext validateMemberRemoval(Message m, Group g,
+			BdfList body, Author admin) throws FormatException {
+		BdfList memberList = body.getList(2);
+		clientHelper.parseAndValidateAuthor(memberList);
+		byte[] signature = body.getRaw(3);
+		checkLength(signature, 1, MAX_SIGNATURE_LENGTH);
+		BdfList adminList = body.getList(1);
+		BdfList signed = BdfList.of(g.getId(), m.getTimestamp(), adminList,
+				memberList);
+		try {
+			clientHelper.verifySignature(signature,
+					SIGNING_LABEL_MEMBER_REMOVED, signed,
+					admin.getPublicKey());
+		} catch (GeneralSecurityException e) {
+			throw new FormatException();
+		}
+		BdfDictionary meta = new BdfDictionary();
+		meta.put(KEY_TARGET_MEMBER, memberList);
+		return new BdfMessageContext(meta);
+	}
+
+	private BdfMessageContext validateAdminRequest(Message m, Group g,
+			BdfList body, Author member) throws FormatException {
+		byte[] previousMessageId = body.getRaw(2);
+		checkLength(previousMessageId, MessageId.LENGTH);
+		String text = body.getString(3);
+		checkLength(text, 1, MAX_GROUP_POST_TEXT_LENGTH);
+		byte[] signature = body.getRaw(4);
+		checkLength(signature, 1, MAX_SIGNATURE_LENGTH);
+		BdfList memberList = body.getList(1);
+		BdfList signed = BdfList.of(g.getId(), m.getTimestamp(), memberList,
+				previousMessageId, text);
+		try {
+			clientHelper.verifySignature(signature,
+					SIGNING_LABEL_ADMIN_REQUEST, signed,
+					member.getPublicKey());
+		} catch (GeneralSecurityException e) {
+			throw new FormatException();
+		}
+		BdfDictionary meta = new BdfDictionary();
+		meta.put(KEY_PREVIOUS_MSG_ID, previousMessageId);
+		return new BdfMessageContext(meta,
+				java.util.Collections.singletonList(
+						new MessageId(previousMessageId)));
+	}
+
+	private BdfMessageContext validateImage(Message m, Group g, BdfList body,
+			Author member) throws FormatException {
+		byte[] parentId = body.getOptionalRaw(2);
+		checkLength(parentId, MessageId.LENGTH);
+		byte[] previousMessageId = body.getRaw(3);
+		checkLength(previousMessageId, MessageId.LENGTH);
+		String caption = body.getOptionalString(4);
+		checkLength(caption, 0, MAX_GROUP_POST_TEXT_LENGTH);
+		String contentType = body.getString(5);
+		checkLength(contentType, 1, MAX_CONTENT_TYPE_BYTES);
+		if (!"image/jpeg".equals(contentType)) throw new FormatException();
+		byte[] image = body.getRaw(6);
+		checkLength(image, 1, MAX_IMAGE_SIZE);
+		byte[] signature = body.getRaw(7);
+		checkLength(signature, 1, MAX_SIGNATURE_LENGTH);
+		BdfList memberList = body.getList(1);
+		BdfList signed = BdfList.of(g.getId(), m.getTimestamp(), memberList,
+				parentId, previousMessageId, caption, contentType, image);
+		try {
+			clientHelper.verifySignature(signature, SIGNING_LABEL_IMAGE,
+					signed, member.getPublicKey());
+		} catch (GeneralSecurityException e) {
+			throw new FormatException();
+		}
+		Collection<MessageId> dependencies = new ArrayList<>();
+		if (parentId != null) dependencies.add(new MessageId(parentId));
+		dependencies.add(new MessageId(previousMessageId));
+		BdfDictionary meta = new BdfDictionary();
+		if (parentId != null) meta.put(KEY_PARENT_MSG_ID, parentId);
+		meta.put(KEY_PREVIOUS_MSG_ID, previousMessageId);
+		return new BdfMessageContext(meta, dependencies);
+	}
+
+	private BdfMessageContext validatePin(Message m, Group g, BdfList body,
+			Author admin) throws FormatException {
+		byte[] pinnedId = body.getOptionalRaw(2);
+		checkLength(pinnedId, MessageId.LENGTH);
+		byte[] signature = body.getRaw(3);
+		checkLength(signature, 1, MAX_SIGNATURE_LENGTH);
+		BdfList adminList = body.getList(1);
+		BdfList signed = BdfList.of(g.getId(), m.getTimestamp(), adminList,
+				pinnedId);
+		try {
+			clientHelper.verifySignature(signature, SIGNING_LABEL_PIN, signed,
+					admin.getPublicKey());
+		} catch (GeneralSecurityException e) {
+			throw new FormatException();
+		}
+		BdfDictionary meta = new BdfDictionary();
+		Collection<MessageId> dependencies = new ArrayList<>();
+		if (pinnedId != null) {
+			meta.put(KEY_PINNED_MSG_ID, pinnedId);
+			dependencies.add(new MessageId(pinnedId));
+		}
+		return new BdfMessageContext(meta, dependencies);
 	}
 
 	private BdfMessageContext validatePost(Message m, Group g, BdfList body,

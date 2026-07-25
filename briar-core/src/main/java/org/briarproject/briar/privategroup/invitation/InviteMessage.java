@@ -14,6 +14,7 @@ class InviteMessage extends DeletableGroupInvitationMessage {
 
 	private final String groupName;
 	private final Author creator;
+	private final Author inviter;
 	private final byte[] salt, signature;
 	@Nullable
 	private final String text;
@@ -21,9 +22,18 @@ class InviteMessage extends DeletableGroupInvitationMessage {
 	InviteMessage(MessageId id, GroupId contactGroupId, GroupId privateGroupId,
 			long timestamp, String groupName, Author creator, byte[] salt,
 			@Nullable String text, byte[] signature, long autoDeleteTimer) {
+		this(id, contactGroupId, privateGroupId, timestamp, groupName, creator,
+				salt, text, signature, creator, autoDeleteTimer);
+	}
+
+	InviteMessage(MessageId id, GroupId contactGroupId, GroupId privateGroupId,
+			long timestamp, String groupName, Author creator, byte[] salt,
+			@Nullable String text, byte[] signature, Author inviter,
+			long autoDeleteTimer) {
 		super(id, contactGroupId, privateGroupId, timestamp, autoDeleteTimer);
 		this.groupName = groupName;
 		this.creator = creator;
+		this.inviter = inviter;
 		this.salt = salt;
 		this.text = text;
 		this.signature = signature;
@@ -35,6 +45,10 @@ class InviteMessage extends DeletableGroupInvitationMessage {
 
 	Author getCreator() {
 		return creator;
+	}
+
+	Author getInviter() {
+		return inviter;
 	}
 
 	byte[] getSalt() {

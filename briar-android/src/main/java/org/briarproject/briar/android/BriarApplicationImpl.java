@@ -110,14 +110,9 @@ public class BriarApplicationImpl extends Application
 	}
 
 	private void setTheme(Context ctx, SharedPreferences prefs) {
-		String theme = prefs.getString(PREF_THEME, null);
-		if (theme == null) {
-			// set default value
-			theme = getString(R.string.pref_theme_system_value);
-			prefs.edit().putString(PREF_THEME, theme).apply();
-		}
-		// set theme
-		UiUtils.setTheme(ctx, theme);
+		String lightTheme = getString(R.string.pref_theme_light_value);
+		prefs.edit().putString(PREF_THEME, lightTheme).apply();
+		UiUtils.setTheme(ctx, lightTheme);
 	}
 
 	private void enableStrictMode() {

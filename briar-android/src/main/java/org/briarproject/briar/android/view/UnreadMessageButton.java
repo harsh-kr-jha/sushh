@@ -45,6 +45,10 @@ public class UnreadMessageButton extends FrameLayout {
 
 		fab = findViewById(R.id.fab);
 		unread = findViewById(R.id.unreadCountView);
+		// The visible children consume touch events, so forward their clicks
+		// to the listener installed on this compound view.
+		fab.setOnClickListener(v -> performClick());
+		unread.setOnClickListener(v -> performClick());
 
 		TypedArray attributes = context.obtainStyledAttributes(attrs,
 				R.styleable.UnreadMessageButton);

@@ -37,9 +37,21 @@
 		android:id="@+id/divider"
 		style="@style/Divider.Horizontal"
 		android:elevation="@dimen/margin_tiny"
-		app:layout_constraintBottom_toTopOf="@+id/list"
+		app:layout_constraintBottom_toTopOf="@+id/memberSearch"
 		app:layout_constraintStart_toStartOf="@+id/info"
 		app:layout_constraintTop_toBottomOf="@+id/info" />
+
+	<androidx.appcompat.widget.SearchView
+		android:id="@+id/memberSearch"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		app:iconifiedByDefault="false"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/divider"
+		app:queryHint="@string/channels_search_members"
+		tools:visibility="visible" />
 
 	<org.briarproject.briar.android.view.BriarRecyclerView
 		android:id="@+id/list"
@@ -48,7 +60,7 @@
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toBottomOf="@+id/divider"
+		app:layout_constraintTop_toBottomOf="@+id/memberSearch"
 		app:scrollToEnd="false"
 		tools:listitem="@layout/list_item_contact_small" />
 

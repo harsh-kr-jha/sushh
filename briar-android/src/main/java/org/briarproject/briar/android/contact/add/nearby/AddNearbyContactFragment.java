@@ -13,6 +13,7 @@ import android.widget.Toast;
 import org.briarproject.briar.R;
 import org.briarproject.briar.android.activity.ActivityComponent;
 import org.briarproject.briar.android.contact.add.nearby.AddContactState.ContactExchangeStarted;
+import org.briarproject.briar.android.contact.add.nearby.AddContactState.ChannelInvitationWaiting;
 import org.briarproject.briar.android.contact.add.nearby.AddContactState.Failed;
 import org.briarproject.briar.android.contact.add.nearby.AddContactState.KeyAgreementStarted;
 import org.briarproject.briar.android.contact.add.nearby.AddContactState.KeyAgreementWaiting;
@@ -94,7 +95,9 @@ public class AddNearbyContactFragment extends BaseFragment
 		statusView = view.findViewById(R.id.status_container);
 		status = view.findViewById(R.id.connect_status);
 		infoView = view.findViewById(R.id.info_view);
-		infoView.setText(R.string.info_both_must_scan);
+		infoView.setText(requireChannelActivity().isChannelFlow()
+				? R.string.channels_qr_both_scan
+				: R.string.info_both_must_scan);
 		qrCodeView = view.findViewById(R.id.qr_code_view);
 		qrCodeView.setFullscreenListener(this);
 
@@ -169,11 +172,17 @@ public class AddNearbyContactFragment extends BaseFragment
 			status.setText(R.string.authenticating_with_device);
 		} else if (state instanceof ContactExchangeStarted) {
 			status.setText(R.string.exchanging_contact_details);
+		} else if (state instanceof ChannelInvitationWaiting) {
+			status.setText(R.string.channels_waiting_for_invitation);
 		} else if (state instanceof Failed) {
 			// the activity will replace this fragment with an error fragment
 			statusView.setVisibility(INVISIBLE);
 			cameraView.setVisibility(INVISIBLE);
 		}
+	}
+
+	private AddNearbyContactActivity requireChannelActivity() {
+		return (AddNearbyContactActivity) requireActivity();
 	}
 
 	@Override

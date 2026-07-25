@@ -13,4 +13,34 @@
 		android:contentDescription="@string/app_name"
 		app:srcCompat="@drawable/splash_screen" />
 
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|center_horizontal"
+		android:layout_margin="@dimen/margin_large"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/splashDisclaimerTitle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/purpose_use_disclaimer_title"
+			android:textAlignment="center"
+			android:textColor="?android:attr/textColorSecondary"
+			android:textSize="@dimen/text_size_small"
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/splashDisclaimerBody"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/margin_small"
+			android:text="@string/purpose_use_disclaimer_body"
+			android:textAlignment="center"
+			android:textColor="?android:attr/textColorSecondary"
+			android:textSize="@dimen/text_size_tiny"
+			android:lineSpacingExtra="2dp" />
+
+	</LinearLayout>
+
 </FrameLayout>

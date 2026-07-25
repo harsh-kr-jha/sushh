@@ -38,6 +38,10 @@ class MemberListItem {
 		return groupMember.isCreator();
 	}
 
+	boolean isAdmin() {
+		return groupMember.isAdmin();
+	}
+
 	@Nullable
 	ContactId getContactId() {
 		return groupMember.getContactId();

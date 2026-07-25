@@ -30,7 +30,7 @@ public interface PrivateGroupManager {
 	/**
 	 * The current minor version of the private group client.
 	 */
-	int MINOR_VERSION = 0;
+	int MINOR_VERSION = 2;
 
 	/**
 	 * Adds a new private group and joins it.
@@ -99,6 +99,32 @@ public interface PrivateGroupManager {
 			throws DbException;
 
 	/**
+	 * Stores and sends a creator-signed admin appointment.
+	 */
+	void addLocalAdmin(AdminMessage message) throws DbException;
+
+	/**
+	 * Stores and sends a creator-signed admin appointment.
+	 */
+	void addLocalAdmin(Transaction txn, AdminMessage message)
+			throws DbException;
+
+	void addLocalAdminRemoval(AdminMessage message) throws DbException;
+
+	void addLocalAdminRemoval(Transaction txn, AdminMessage message)
+			throws DbException;
+
+	void addLocalMemberRemoval(MemberRemovalMessage message)
+			throws DbException;
+
+	void addLocalMemberRemoval(Transaction txn, MemberRemovalMessage message)
+			throws DbException;
+
+	void addLocalPin(PinMessage message) throws DbException;
+
+	void addLocalPin(Transaction txn, PinMessage message) throws DbException;
+
+	/**
 	 * Returns the private group with the given ID.
 	 */
 	PrivateGroup getPrivateGroup(GroupId g) throws DbException;
@@ -136,6 +162,18 @@ public interface PrivateGroupManager {
 	String getMessageText(Transaction txn, MessageId m) throws DbException;
 
 	/**
+	 * Returns the JPEG bytes of an image post.
+	 */
+	byte[] getMessageImage(Transaction txn, MessageId m) throws DbException;
+
+	/**
+	 * Returns the currently pinned message, or null if no message is pinned.
+	 */
+	@javax.annotation.Nullable
+	MessageId getPinnedMessageId(Transaction txn, GroupId g)
+			throws DbException;
+
+	/**
 	 * Returns the headers of all messages in the given private group.
 	 */
 	Collection<GroupMessageHeader> getHeaders(GroupId g) throws DbException;
@@ -161,6 +199,16 @@ public interface PrivateGroupManager {
 	 * Returns true if the given author is a member of the given private group.
 	 */
 	boolean isMember(Transaction txn, GroupId g, Author a) throws DbException;
+
+	/**
+	 * Returns true if the author may post to the channel.
+	 */
+	boolean isAdmin(Transaction txn, GroupId g, Author a) throws DbException;
+
+	/**
+	 * Returns true if the author may post to the channel.
+	 */
+	boolean isAdmin(GroupId g, Author a) throws DbException;
 
 	/**
 	 * Returns the group count for the given private group.

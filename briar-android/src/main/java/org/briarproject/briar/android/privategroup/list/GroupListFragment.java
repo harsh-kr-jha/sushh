@@ -14,6 +14,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import org.briarproject.briar.R;
 import org.briarproject.briar.android.activity.ActivityComponent;
+import org.briarproject.briar.android.contact.add.nearby.AddNearbyContactActivity;
 import org.briarproject.briar.android.fragment.BaseFragment;
 import org.briarproject.briar.android.privategroup.creation.CreateGroupActivity;
 import org.briarproject.briar.android.privategroup.invitation.GroupInvitationActivity;
@@ -66,7 +67,10 @@ public class GroupListFragment extends BaseFragment implements
 
 		requireActivity().setTitle(R.string.groups_button);
 
-		View v = inflater.inflate(R.layout.list, container, false);
+		View v = inflater.inflate(R.layout.fragment_group_list, container,
+				false);
+		v.findViewById(R.id.joinChannelFab)
+				.setOnClickListener(view -> startJoinChannel());
 
 		adapter = new GroupListAdapter(this);
 		list = v.findViewById(R.id.list);
@@ -154,6 +158,13 @@ public class GroupListFragment extends BaseFragment implements
 	public void onClick(View v) {
 		Intent i = new Intent(getContext(), GroupInvitationActivity.class);
 		startActivity(i);
+	}
+
+	private void startJoinChannel() {
+		Intent intent =
+				new Intent(requireContext(), AddNearbyContactActivity.class);
+		intent.putExtra(AddNearbyContactActivity.EXTRA_JOIN_CHANNEL, true);
+		startActivity(intent);
 	}
 
 }

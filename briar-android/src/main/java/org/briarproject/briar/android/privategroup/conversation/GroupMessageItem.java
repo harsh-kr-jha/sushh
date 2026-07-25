@@ -19,21 +19,47 @@ import androidx.annotation.UiThread;
 class GroupMessageItem extends ThreadItem {
 
 	private final GroupId groupId;
+	@Nullable
+	private final byte[] image;
+	private final boolean adminRequest;
 
 	private GroupMessageItem(MessageId messageId, GroupId groupId,
 			@Nullable MessageId parentId, String text, long timestamp,
-			Author author, AuthorInfo authorInfo, boolean isRead) {
+			Author author, AuthorInfo authorInfo, boolean isRead,
+			@Nullable byte[] image, boolean adminRequest) {
 		super(messageId, parentId, text, timestamp, author, authorInfo, isRead);
 		this.groupId = groupId;
+		this.image = image;
+		this.adminRequest = adminRequest;
 	}
 
 	GroupMessageItem(GroupMessageHeader h, String text) {
+		this(h, text, null);
+	}
+
+	GroupMessageItem(GroupMessageHeader h, String text,
+			@Nullable byte[] image) {
 		this(h.getId(), h.getGroupId(), h.getParentId(), text, h.getTimestamp(),
-				h.getAuthor(), h.getAuthorInfo(), h.isRead());
+				h.getAuthor(), h.getAuthorInfo(), h.isRead(), image,
+				h.getType() ==
+						org.briarproject.briar.api.privategroup.MessageType.ADMIN_REQUEST);
 	}
 
 	public GroupId getGroupId() {
 		return groupId;
+	}
+
+	@Nullable
+	byte[] getImage() {
+		return image;
+	}
+
+	boolean hasImage() {
+		return image != null;
+	}
+
+	boolean isAdminRequest() {
+		return adminRequest;
 	}
 
 	@LayoutRes

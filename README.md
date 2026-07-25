@@ -37,3 +37,9 @@ for reproduction.
 
 [![Donate using Liberapay](https://briarproject.org/img/liberapay.svg)](https://liberapay.com/Briar/donate)   
 Bitcoin and BCH: 1NZCKkUCtJV2U2Y9hDb9uq8S7ksFCFGR6K
+
+## Purpose and Use Disclaimer
+
+This application is for peaceful, ethical, and humanitarian use only. It must not be used to harm people, animals, communities, property, or the environment, or to support violence, abuse, exploitation, or any illegal activity.
+
+By using this application, you agree to use it responsibly, lawfully, and in ways that promote safety, dignity, sustainability, and the protection of life.

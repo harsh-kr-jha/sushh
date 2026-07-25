@@ -6,11 +6,14 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.BaseAdapter;
+import android.widget.Toast;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -30,9 +33,7 @@ import org.briarproject.briar.android.BriarApplication;
 import org.briarproject.briar.android.StartupFailureActivity;
 import org.briarproject.briar.android.activity.ActivityComponent;
 import org.briarproject.briar.android.activity.BriarActivity;
-import org.briarproject.briar.android.blog.FeedFragment;
-import org.briarproject.briar.android.contact.ContactListFragment;
-import org.briarproject.briar.android.forum.ForumListFragment;
+import org.briarproject.briar.android.contact.add.nearby.AddNearbyContactActivity;
 import org.briarproject.briar.android.fragment.BaseFragment;
 import org.briarproject.briar.android.fragment.BaseFragment.BaseFragmentListener;
 import org.briarproject.briar.android.logout.SignOutFragment;
@@ -41,6 +42,7 @@ import org.briarproject.briar.android.settings.SettingsActivity;
 import org.briarproject.nullsafety.MethodsNotNullByDefault;
 import org.briarproject.nullsafety.ParametersNotNullByDefault;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
@@ -56,6 +58,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.MutableLiveData;
@@ -190,6 +193,10 @@ public class NavDrawerActivity extends BriarActivity implements
 		if (state == null) {
 			// do not call this again when there's existing state
 			onNewIntent(getIntent());
+			if (!"briar-content".equals(getIntent().getScheme())) {
+				startFragment(GroupListFragment.newInstance(),
+						R.id.nav_btn_groups);
+			}
 		}
 	}
 
@@ -210,6 +217,44 @@ public class NavDrawerActivity extends BriarActivity implements
 		if (IS_DEBUG_BUILD) {
 			navDrawerViewModel.checkExpiryWarning();
 		}
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.app_actions, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		if (item.getItemId() == R.id.action_share_apk) {
+			shareApk();
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
+	private void shareApk() {
+		File apkFile = new File(getPackageCodePath());
+		if (!apkFile.exists()) {
+			Toast.makeText(this, R.string.share_apk_error, Toast.LENGTH_SHORT)
+					.show();
+			return;
+		}
+
+		Uri apkUri = FileProvider.getUriForFile(this,
+				"org.briarproject.briar.fileprovider", apkFile);
+		Intent shareIntent = new Intent(Intent.ACTION_SEND);
+		shareIntent.setType("application/vnd.android.package-archive");
+		shareIntent.putExtra(Intent.EXTRA_STREAM, apkUri);
+		shareIntent.putExtra(Intent.EXTRA_SUBJECT,
+				getString(R.string.share_apk_subject));
+		shareIntent.putExtra(Intent.EXTRA_TEXT,
+				getString(R.string.share_apk_text));
+		shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+		startActivity(Intent.createChooser(shareIntent,
+				getString(R.string.share_apk_title)));
 	}
 
 	@Override
@@ -238,15 +283,10 @@ public class NavDrawerActivity extends BriarActivity implements
 	private void handleContentIntent(Intent intent) {
 		Uri uri = intent.getData();
 		// TODO don't create new instances if they are on the stack (#606)
-		if (CONTACT_URI.equals(uri) || CONTACT_ADDED_URI.equals(uri)) {
-			startFragment(ContactListFragment.newInstance(),
-					R.id.nav_btn_contacts);
-		} else if (GROUP_URI.equals(uri)) {
+		if (CONTACT_URI.equals(uri) || CONTACT_ADDED_URI.equals(uri) ||
+				GROUP_URI.equals(uri) || FORUM_URI.equals(uri) ||
+				BLOG_URI.equals(uri)) {
 			startFragment(GroupListFragment.newInstance(), R.id.nav_btn_groups);
-		} else if (FORUM_URI.equals(uri)) {
-			startFragment(ForumListFragment.newInstance(), R.id.nav_btn_forums);
-		} else if (BLOG_URI.equals(uri)) {
-			startFragment(FeedFragment.newInstance(), R.id.nav_btn_blogs);
 		} else if (SIGN_OUT_URI.equals(uri)) {
 			signOut(false, false);
 		}
@@ -267,14 +307,13 @@ public class NavDrawerActivity extends BriarActivity implements
 
 	private void loadFragment(int fragmentId) {
 		// TODO re-use fragments from the manager when possible (#606)
-		if (fragmentId == R.id.nav_btn_contacts) {
-			startFragment(ContactListFragment.newInstance());
-		} else if (fragmentId == R.id.nav_btn_groups) {
+		if (fragmentId == R.id.nav_btn_groups) {
 			startFragment(GroupListFragment.newInstance());
-		} else if (fragmentId == R.id.nav_btn_forums) {
-			startFragment(ForumListFragment.newInstance());
-		} else if (fragmentId == R.id.nav_btn_blogs) {
-			startFragment(FeedFragment.newInstance());
+		} else if (fragmentId == R.id.nav_btn_join_channel) {
+			Intent intent =
+					new Intent(this, AddNearbyContactActivity.class);
+			intent.putExtra(AddNearbyContactActivity.EXTRA_JOIN_CHANNEL, true);
+			startActivity(intent);
 		} else if (fragmentId == R.id.nav_btn_settings) {
 			startActivity(new Intent(this, SettingsActivity.class));
 		} else if (fragmentId == R.id.nav_btn_signout) {
@@ -292,7 +331,8 @@ public class NavDrawerActivity extends BriarActivity implements
 		} else {
 			loadFragment(item.getItemId());
 			// Don't display the Settings item as checked
-			return item.getItemId() != R.id.nav_btn_settings;
+			return item.getItemId() != R.id.nav_btn_settings &&
+					item.getItemId() != R.id.nav_btn_join_channel;
 		}
 	}
 
@@ -305,21 +345,21 @@ public class NavDrawerActivity extends BriarActivity implements
 			if (fm.findFragmentByTag(SignOutFragment.TAG) != null) {
 				finish();
 			} else if (fm.getBackStackEntryCount() == 0 &&
-					fm.findFragmentByTag(ContactListFragment.TAG) == null) {
+					fm.findFragmentByTag(GroupListFragment.TAG) == null) {
 				// don't start fragments in the wrong part of lifecycle (#1904)
 				if (!getLifecycle().getCurrentState().isAtLeast(STARTED)) {
-					LOG.warning("Tried to start contacts fragment in state " +
+					LOG.warning("Tried to start channels fragment in state " +
 							getLifecycle().getCurrentState().name());
 					return;
 				}
 				/*
-				 * This makes sure that the first fragment (ContactListFragment) the
+				 * This makes sure that the first fragment (GroupListFragment) the
 				 * user sees is the same as the last fragment the user sees before
 				 * exiting. This models the typical Google navigation behaviour such
 				 * as in Gmail/Inbox.
 				 */
-				startFragment(ContactListFragment.newInstance(),
-						R.id.nav_btn_contacts);
+				startFragment(GroupListFragment.newInstance(),
+						R.id.nav_btn_groups);
 			} else {
 				super.onBackPressed();
 			}
