@@ -6,11 +6,14 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.BaseAdapter;
+import android.widget.Toast;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -39,6 +42,7 @@ import org.briarproject.briar.android.settings.SettingsActivity;
 import org.briarproject.nullsafety.MethodsNotNullByDefault;
 import org.briarproject.nullsafety.ParametersNotNullByDefault;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
@@ -54,6 +58,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.MutableLiveData;
@@ -212,6 +217,44 @@ public class NavDrawerActivity extends BriarActivity implements
 		if (IS_DEBUG_BUILD) {
 			navDrawerViewModel.checkExpiryWarning();
 		}
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.app_actions, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		if (item.getItemId() == R.id.action_share_apk) {
+			shareApk();
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
+	private void shareApk() {
+		File apkFile = new File(getPackageCodePath());
+		if (!apkFile.exists()) {
+			Toast.makeText(this, R.string.share_apk_error, Toast.LENGTH_SHORT)
+					.show();
+			return;
+		}
+
+		Uri apkUri = FileProvider.getUriForFile(this,
+				"org.briarproject.briar.fileprovider", apkFile);
+		Intent shareIntent = new Intent(Intent.ACTION_SEND);
+		shareIntent.setType("application/vnd.android.package-archive");
+		shareIntent.putExtra(Intent.EXTRA_STREAM, apkUri);
+		shareIntent.putExtra(Intent.EXTRA_SUBJECT,
+				getString(R.string.share_apk_subject));
+		shareIntent.putExtra(Intent.EXTRA_TEXT,
+				getString(R.string.share_apk_text));
+		shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+		startActivity(Intent.createChooser(shareIntent,
+				getString(R.string.share_apk_title)));
 	}
 
 	@Override
